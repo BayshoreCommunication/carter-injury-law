@@ -9,6 +9,7 @@ import TestimonialSlideSection from "@/components/shared/TestimonialSlideSection
 export default function Home() {
   return (
     <main className="w-full">
+      {/* hero section  */}
       <HeroSection />
       <AboutSection />
       <AchievementSection />
