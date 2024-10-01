@@ -26,7 +26,7 @@ const FAQ = () => {
               )
             }
             title={
-              <span className="text-2xl font-medium">
+              <span className="text-lg lg:text-2xl font-medium">
                 WHEN DO I NEED A FLORIDA PERSONAL INJURY LAWYER?
               </span>
             }
@@ -50,7 +50,7 @@ const FAQ = () => {
               )
             }
             title={
-              <span className="text-2xl font-medium">
+              <span className="text-lg lg:text-2xl font-medium">
                 HOW MUCH DOES A FLORIDA CAR CRASH LAWYER COST?
               </span>
             }
@@ -74,7 +74,7 @@ const FAQ = () => {
               )
             }
             title={
-              <span className="text-2xl font-medium">
+              <span className="text-lg lg:text-2xl font-medium">
                 HOW DO I KNOW WHAT MY CASE IS WORTH?
               </span>
             }
@@ -98,7 +98,7 @@ const FAQ = () => {
               )
             }
             title={
-              <span className="text-2xl font-medium">
+              <span className="text-lg lg:text-2xl font-medium">
                 PERSONAL INJURY PROTECTION COVERAGE
               </span>
             }
@@ -122,7 +122,7 @@ const FAQ = () => {
               )
             }
             title={
-              <span className="text-2xl font-medium">
+              <span className="text-lg lg:text-2xl font-medium">
                 CONSULT AN EXPERIENCED INJURY LAWYER
               </span>
             }
@@ -146,7 +146,7 @@ const FAQ = () => {
               )
             }
             title={
-              <span className="text-2xl font-medium">
+              <span className="text-lg lg:text-2xl font-medium">
                 AFTER YOUR FLORIDA CAR ACCIDENT
               </span>
             }
@@ -169,7 +169,11 @@ const FAQ = () => {
                 <IoIosArrowDown color="#EC1D21" />
               )
             }
-            title={<span className="text-2xl font-medium">CLAIM TIMELINE</span>}
+            title={
+              <span className="text-lg lg:text-2xl font-medium">
+                CLAIM TIMELINE
+              </span>
+            }
             className="text-lg text-[#4A4A4A] "
           >
             <p>
