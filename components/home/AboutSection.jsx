@@ -6,9 +6,9 @@ import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 const AboutSection = () => {
   return (
     <SectionLayout>
-      <div className="grid grid-cols-1 xl:grid-cols-2 items-center justify-center md:justify-start gap-16">
+      <div className="grid grid-cols-1 xl:grid-cols-2 items-end justify-center md:justify-start gap-16 mt-6">
         <ScrollMotionEffect effect="fade-right" duration="2000">
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-6">
             <p className="text-lg text-[#55545A]">
               <strong>DON’T GO IT ALONE.</strong> IF YOU’VE BEEN INJURED DUE TO
               THE FAULT OF SOMEONE ELSE, HAVING AN EXPERIENCED AND COMPASSIONATE
@@ -28,10 +28,10 @@ const AboutSection = () => {
               THE BEGINNING. CARTER INJURY LAW ONLY GETS PAID IF YOU WIN YOUR
               CASE.
             </p>
-            <div className="inline-block mt-5">
+            <div className="inline-block mt-6">
               <Link
                 href="#"
-                className="text-white bg-[#EC1D21] hover:bg-[#E40004]  font-semibold rounded-lg text-sm lg:text-lg  px-4 lg:px-6 xl:px-10  py-2.5 text-center shadow-[rgba(14,30,37,0.12)_0px_2px_4px_0px,_rgba(14,30,37,0.32)_0px_2px_16px_0px]"
+                className="text-white bg-[#EC1D21] hover:bg-[#E40004]  font-semibold rounded-lg text-sm lg:text-lg  px-4 lg:px-6 xl:px-10  py-4 text-center shadow-[rgba(14,30,37,0.12)_0px_2px_4px_0px,_rgba(14,30,37,0.32)_0px_2px_16px_0px]"
               >
                 CLICK FOR FREE CASE EVALUATION
               </Link>

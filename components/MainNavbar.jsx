@@ -34,10 +34,10 @@ const MainNavbar = () => {
   const menuItems = useMemo(
     () => [
       { title: "Areas of practice", slug: "/" },
-      { title: "Our team", slug: "/out-team" },
+      { title: "Our team", slug: "/profile" },
       { title: "About", slug: "/about" },
       { title: "Testimonials", slug: "/testimonials" },
-      { title: "FAQs", slug: "/faqs" },
+      { title: "FAQs", slug: "/faq" },
       { title: "Blog", slug: "/blog" },
       { title: "Contact", slug: "/contact" },
     ],
@@ -64,8 +64,8 @@ const MainNavbar = () => {
   }, [handleScroll]);
 
   return (
-    <section className={""}>
-      <div className="bg-gradient-to-r from-[#1E2538]  to-primary  border-b-1">
+    <section className={"relative z-50"}>
+      <div className="bg-gradient-to-r  from-[#1E2538]  from-50% to-primary to-50% border-b-1 hidden md:block">
         <div className="flex  container">
           <div
             className="w-[68%]
@@ -87,7 +87,7 @@ const MainNavbar = () => {
                   alt="footer logo"
                   width={400}
                   height={500}
-                  className=""
+                  className="hidden xl:block"
                 />
               </div>
             </div>
@@ -95,17 +95,17 @@ const MainNavbar = () => {
 
           <div className="w-[32%] flex items-center justify-end">
             <div className="flex items-center gap-x-10">
-              <div className="">
+              <div className="hidden xl:block">
                 <h2 className="text-white font-bold text-2xl">
                   Call US <br />
                   24/7{" "}
                 </h2>
               </div>
               <div className="">
-                <h6 className="text-white font-medium text-lg">
+                <h6 className="text-white font-medium text-sm xl:text-lg">
                   Free Confidential case Evaluation
                 </h6>
-                <h2 className="text-white font-bold text-3xl">
+                <h2 className="text-white font-bold  text-xl xl:text-3xl mt-2 xl:mt-0">
                   (813) 922-0228
                 </h2>
               </div>
@@ -116,12 +116,12 @@ const MainNavbar = () => {
       <div className="bg-primary">
         <div className="container py-5 hidden md:block">
           <div className="flex items-center justify-center">
-            <div className="flex items-center justify-end gap-x-16">
+            <div className="flex items-center justify-end gap-x-8  xl:gap-x-16">
               {menuItems.map((el) => (
                 <Link
                   key={el.slug}
                   href={el.slug}
-                  className={`nav-item text-md md:text-[16px] font-medium uppercase ${pathname === el.slug ? " border-b-2 border-white" : ""} hover:text-white`}
+                  className={`cursor-pointer nav-item text-md md:text-[16px] font-medium uppercase ${pathname === el.slug ? " border-b-2 border-white" : ""} hover:text-white`}
                 >
                   {el.title}
                 </Link>
@@ -129,25 +129,27 @@ const MainNavbar = () => {
             </div>
           </div>
         </div>
-        <div className="md:hidden">
+        <div className="md:hidden ">
           <Navbar
             isMenuOpen={isMenuOpen}
             onMenuOpenChange={setIsMenuOpen}
-            className={`!mx-0 !px-0 pb-0 pt-2 md:pb-3 md:pt-4 fixed top-0 transition-colors duration-300 ${navbarColor || pathname !== "/" ? "!bg-secondary shadow-small" : "bg-transparent"}`}
+            className={`!mx-0 !px-0 pb-0 pt-2 md:pb-3 md:pt-4 bg-primary`}
           >
             <NavbarContent>
               <NavbarBrand>
                 <Link href="/">
-                  <h2
-                    className={`font-semibold text-[30px] ${orbitron.className}`}
-                  >
-                    Arjo Neel
-                  </h2>
+                  <Image
+                    src="/assets/site-logo/logo.png"
+                    alt="footer logo"
+                    width={500}
+                    height={500}
+                    className="w-[300px] h-auto"
+                  />
                 </Link>
               </NavbarBrand>
               <NavbarMenuToggle
                 aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-                className="md:hidden"
+                className="md:hidden text-white"
               />
             </NavbarContent>
 
