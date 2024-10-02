@@ -42,7 +42,7 @@ const AboutOurFirm = () => {
               process, and to aggressively pursue maximum financial compensation
               for your case.
             </p>
-            <div className="mt-6 ms-auto">
+            <div className="mt-6 ms-auto w-1/3 lg:w-full">
               <Image
                 src="/assets/aboutpage/david-carter-signature.png"
                 alt="david-carter-signature"

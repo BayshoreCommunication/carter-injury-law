@@ -6,8 +6,6 @@ import {
   FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
-  FaMinus,
-  FaPlus,
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa6";
@@ -22,7 +20,7 @@ const ProfileSection = () => {
     <div className="bg-[#F8F4F1] shadow-[rgba(0,0,0,0.15)_0px_13px_25px] mb-16">
       <SectionLayout>
         <div className="flex flex-col gap-6 lg:gap-10">
-          <div className="flex  gap-6 lg:gap-20">
+          <div className="flex flex-col md:flex-row gap-6 lg:gap-20">
             <div className="w-full md:w-[60%]">
               <ScrollMotionEffect effect="fade-right" duration="2000">
                 <div className="mb-6">
@@ -196,7 +194,7 @@ const ProfileSection = () => {
               </ScrollMotionEffect>
             </div>
           </div>
-          <div className="flex  gap-6 lg:gap-20">
+          <div className="flex  flex-col md:flex-row  gap-6 lg:gap-20">
             <div className="w-full md:w-[60%]">
               <ScrollMotionEffect effect="fade-right" duration="2000">
                 <div className="mb-6">

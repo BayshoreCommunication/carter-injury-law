@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import HeaderForm from "../shared/HeaderForm";
 
 const TestimonialsHeader = () => {
   return (
@@ -18,7 +19,7 @@ const TestimonialsHeader = () => {
           Testimonials
         </h2>
       </div>
-      <div className="absolute w-full max-w-[530px] -bottom-[22%] right-[11%] bg-white rounded-[22px]">
+      {/* <div className="absolute w-full max-w-[530px] -bottom-[22%] right-[11%] bg-white rounded-[22px]">
         <div className="text-center">
           <h1 className=" text-[96px] font-bold text-[#EC1D21] leading-none">
             DON’T GO
@@ -112,6 +113,9 @@ const TestimonialsHeader = () => {
             </form>
           </div>
         </div>
+      </div> */}
+      <div>
+        <HeaderForm className="bg-white" />
       </div>
     </div>
   );
