@@ -13,11 +13,10 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title:
-    "Florida Immigration Lawyer Firm || USA Immigration Attorney Hardam Tripathi, Esq.",
+  title: "Carter Injury Law",
   description:
-    "Florida Immigration Law Services Call our local Immigration office for your Green Card, Naturalization or Investor Visa.",
-  metadataBase: new URL("https://trip-law-new-website.vercel.app"),
+    "At Carter Injury Law, you’re family. We offer open lines of communication to foster personal relationships and optimize case outcomes for our clients. Every client gets the personal cell phone number of the attorney.",
+  metadataBase: new URL("https://carter-injury-law.vercel.app"),
   alternates: {
     canonical: "/",
     languages: {

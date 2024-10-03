@@ -3,6 +3,75 @@ export const allServiceData = [
     icon: "/assets/servicepage/icon/auto-accidents.png",
     title: "Tampa Bay Auto Accidents Lawyer",
     slug: "tampa-bay-auto-accidents-lawyer",
+    details: ` <div className="w-full xl:w-[60%] flex flex-col gap-4 lg:gap-8">
+      <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+        Tampa Bay Auto Accidents Lawyer
+      </h2>
+
+      <Image
+        src="/assets/servicepage/car-accident.png"
+        alt="Car Accident"
+        width={725}
+        height={510}
+        className="w-full"
+      />
+
+      <p className="text-base md:text-lg">
+        If you've been involved in a car accident in Tampa Bay, our experienced
+        auto accident lawyers are here to help. We understand the emotional and
+        physical toll an accident can take, and we're committed to getting you
+        the compensation you deserve.
+      </p>
+
+      <div>
+        <h4 className="text-stone-950 font-semibold text-xl md:text-2xl mb-2 lg:mb-4">
+          Services We Offer:
+        </h4>
+        <ul className="flex flex-col gap-2 lg:gap-4">
+          <li className="flex gap-3 text-base md:text-lg">
+            <MdOutlineLibraryAddCheck
+              color="#CE2523"
+              size="24"
+              className="mt-1 shrink-0"
+            />
+            <p className="text-base md:text-lg">
+              <span className="font-semibold">Accident Investigation:</span>{" "}
+              Thoroughly investigating the circumstances of your accident to
+              determine liability and gather crucial evidence.
+            </p>
+          </li>
+          <li className="flex gap-3 text-base md:text-lg">
+            <MdOutlineLibraryAddCheck
+              color="#CE2523"
+              size="24"
+              className="mt-1 shrink-0"
+            />
+            <p className="text-base md:text-lg">
+              <span className="font-semibold">Medical Expenses Coverage:</span>{" "}
+              Helping you recover medical costs for treatments, hospital visits,
+              therapy, and any ongoing care.
+            </p>
+          </li>
+          <li className="flex gap-3 text-base md:text-lg">
+            <MdOutlineLibraryAddCheck
+              color="#CE2523"
+              size="24"
+              className="mt-1 shrink-0"
+            />
+            <p className="text-base md:text-lg">
+              <span className="font-semibold">Lost Wages Recovery:</span>{" "}
+              Helping you recover wages lost due to your accident and injuries.
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <p>
+        Let us handle the legal process so you can focus on recovering. Contact
+        us today for a free consultation and learn how we can help you through
+        this challenging time.
+      </p>
+    </div>`,
   },
   {
     icon: "/assets/servicepage/icon/car-icon.png",
