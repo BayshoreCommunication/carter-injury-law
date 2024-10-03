@@ -5,21 +5,19 @@ const HeaderForm = ({ className }) => {
   return (
     <div>
       <ScrollMotionEffect effect="fade-up" duration="2000">
-        <div
-          className={`hidden lg:block ${className} w-full max-w-[530px] rounded-[22px] pt-5`}
-        >
+        <div className={` ${className} max-w-[800px] rounded-[22px] pt-5`}>
           <div className="text-center">
-            <h1 className=" text-6xl font-bold text-[#EC1D21] leading-none">
+            <h1 className="text-4xl md:text-6xl font-bold text-[#EC1D21] leading-none">
               DON’T GO
             </h1>
-            <h1 className=" text-6xl font-bold text-[#EC1D21] leading-none">
+            <h1 className="text-4xl md:text-6xl  font-bold text-[#EC1D21] leading-none">
               IT ALONE
             </h1>
-            <p className=" text-[20px] font-bold py-3">
+            <p className="text-[16px] md:text-[20px] font-bold py-3">
               FREE CONFIDENTIAL CASE EVALUATION
             </p>
           </div>
-          <div className="rounded-2xl p-2 bg-[#0D3E8A] mt-2 shadow-2xl">
+          <div className="rounded-2xl p-2 bg-[#0D3E8A] mt-2 shadow-lg md:shadow-2xl">
             <div className="bg-white p-4 rounded-xl border-5 border-[#1E2538] shadow-2xl">
               <form className="max-w-md mx-auto">
                 <div className="grid md:grid-cols-2 md:gap-6">
@@ -90,10 +88,10 @@ const HeaderForm = ({ className }) => {
                   </label>
                 </div>
 
-                <div className=" text-center">
+                <div className="flex justify-center md:justify-start w-full">
                   <button
                     type="submit"
-                    className="text-white bg-[#EC1D21] hover:bg-[#E40004] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base w-full sm:w-auto px-10 py-2 text-center uppercase space-x-4 tracking-[.3em] "
+                    className="text-white bg-[#EC1D21] hover:bg-[#E40004] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base w-full sm:w-auto px-10 py-2 text-center uppercase space-x-4 tracking-[.3em] mx-auto "
                   >
                     Submit
                   </button>

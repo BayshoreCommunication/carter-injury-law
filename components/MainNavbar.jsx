@@ -14,8 +14,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Orbitron } from "next/font/google";
 import Image from "next/image";
-// import PrimaryButton from './shared/PrimaryButton';
-import { SITECONFIG } from "@/config/site";
 
 const orbitron = Orbitron({ subsets: ["latin"] });
 
@@ -33,6 +31,24 @@ const MainNavbar = () => {
   const pathname = usePathname();
   const [navbarColor, setNavbarColor] = useState(false);
 
+  const menuItems = useMemo(
+    () => [
+      { title: "Areas of practice", slug: "/" },
+      { title: "Our team", slug: "/profile" },
+      { title: "About", slug: "/about" },
+      { title: "Testimonials", slug: "/testimonials" },
+      { title: "FAQs", slug: "/faq" },
+      { title: "Blog", slug: "/blog" },
+      { title: "Contact", slug: "/contact" },
+    ],
+    []
+  );
+
+  const navLogoList = useMemo(
+    () => [{ title: "Areas of practice", url: "" }],
+    []
+  );
+
   const handleScroll = useCallback(
     debounce(() => {
       setNavbarColor(window.scrollY >= 100);
@@ -48,81 +64,110 @@ const MainNavbar = () => {
   }, [handleScroll]);
 
   return (
-    <section
-      className={` py-4 z-50 ${navbarColor ? "!bg-[#1E2538] shadow-small duration-1000" : "bg-transparent"}`}
-    >
-      <div className="container hidden md:block">
-        <div className="flex items-center justify-between">
-          <Link href="/" passHref>
-            <Image
-              width={350}
-              height={230}
-              src={"/assets/site-logo/triplaw-logo-footer.png"}
-              alt="Trip Law"
-              className="object-cover cursor-pointer !max-w-[170px]"
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 170px"
-            />
-          </Link>
-          <div className="flex items-center justify-end gap-x-8">
-            {SITECONFIG?.mainNav?.map((el) => (
-              <Link
-                key={el.slug}
-                href={el.slug}
-                className={`nav-item text-md md:text-[18px] font-semibold text-white ${pathname === el.slug ? "!text-primary border-b-2 border-primary" : ""} hover:text-primary`}
-              >
-                {el.title}
-              </Link>
-            ))}
+    <section className={"relative z-50"}>
+      <div className="bg-gradient-to-r  from-[#1E2538]  from-50% to-primary to-50% border-b-1 hidden md:block">
+        <div className="flex  container">
+          <div
+            className="w-[68%]
+           border-t-[100px] border-t-[#1E2538]
+           border-r-[50px] border-r-transparent
+           relative"
+          >
+            <div className="absolute top-0 bottom-0 -mt-20 text-white">
+              <div className=" flex items-center gap-x-8">
+                <Image
+                  src="/assets/site-logo/logo.png"
+                  alt="footer logo"
+                  width={500}
+                  height={500}
+                  className=""
+                />
+                <Image
+                  src="/assets/shared/achievement.png"
+                  alt="footer logo"
+                  width={400}
+                  height={500}
+                  className="hidden xl:block"
+                />
+              </div>
+            </div>
           </div>
-          <div className="flex items-center">
-            {/* <PrimaryButton
-              title={"Contact Us"}
-              link={"/"}
-              style={"bg-primary text-white"}
-              radius={"sm"}
-            /> */}
+
+          <div className="w-[32%] flex items-center justify-end">
+            <div className="flex items-center gap-x-10">
+              <div className="hidden xl:block">
+                <h2 className="text-white font-bold text-2xl">
+                  Call US <br />
+                  24/7{" "}
+                </h2>
+              </div>
+              <div className="">
+                <h6 className="text-white font-medium text-sm xl:text-lg">
+                  Free Confidential case Evaluation
+                </h6>
+                <h2 className="text-white font-bold  text-xl xl:text-3xl mt-2 xl:mt-0">
+                  (813) 922-0228
+                </h2>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div className="md:hidden">
-        <Navbar
-          isMenuOpen={isMenuOpen}
-          onMenuOpenChange={setIsMenuOpen}
-          className={`!mx-0 !px-0 pb-2 pt-3 fixed top-0 transition-colors duration-300 ${navbarColor || pathname !== "/" ? "!bg-black shadow-small" : "bg-inherit"}`}
-        >
-          <NavbarContent>
-            <NavbarBrand>
-              <Link href="/" passHref>
-                <Image
-                  width={350}
-                  height={230}
-                  src={"/assets/site-logo/triplaw-logo-footer.png"}
-                  alt="Trip Law"
-                  className="object-cover cursor-pointer !max-w-[170px]"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 170px"
-                />
-              </Link>
-            </NavbarBrand>
-            <NavbarMenuToggle
-              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-              className="text-white md:hidden"
-            />
-          </NavbarContent>
-
-          <NavbarMenu className="overflow-hidden">
-            {SITECONFIG?.mainNav?.map((el, index) => (
-              <NavbarMenuItem key={el.slug} className="flex flex-row">
+      <div className="bg-primary">
+        <div className="container py-5 hidden md:block">
+          <div className="flex items-center justify-center">
+            <div className="flex items-center justify-end gap-x-8  xl:gap-x-16">
+              {menuItems.map((el) => (
                 <Link
-                  className={`w-full text-black text-center !text-xl font-medium py-1 ${pathname === el.slug ? "!text-primary" : ""} ${index === 0 ? "mt-6" : ""}`}
+                  key={el.slug}
                   href={el.slug}
-                  onClick={() => setIsMenuOpen(false)}
+                  className={`cursor-pointer nav-item text-md md:text-[16px] font-medium uppercase ${pathname === el.slug ? " border-b-2 border-white" : ""} hover:text-white`}
                 >
                   {el.title}
                 </Link>
-              </NavbarMenuItem>
-            ))}
-          </NavbarMenu>
-        </Navbar>
+              ))}
+            </div>
+          </div>
+        </div>
+        <div className="md:hidden ">
+          <Navbar
+            isMenuOpen={isMenuOpen}
+            onMenuOpenChange={setIsMenuOpen}
+            className={`!mx-0 !px-0 pb-0 pt-2 md:pb-3 md:pt-4 bg-primary`}
+          >
+            <NavbarContent>
+              <NavbarBrand>
+                <Link href="/">
+                  <Image
+                    src="/assets/site-logo/logo.png"
+                    alt="footer logo"
+                    width={500}
+                    height={500}
+                    className="w-[300px] h-auto"
+                  />
+                </Link>
+              </NavbarBrand>
+              <NavbarMenuToggle
+                aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+                className="md:hidden text-white"
+              />
+            </NavbarContent>
+
+            <NavbarMenu className="overflow-hidden">
+              {menuItems.map((el, index) => (
+                <NavbarMenuItem key={el.slug} className="flex flex-row">
+                  <Link
+                    className={`w-full text-black text-center !text-xl font-medium py-1 ${pathname === el.slug ? "!text-primary" : ""} ${index === 0 ? "mt-6" : ""}`}
+                    href={el.slug}
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {el.title}
+                  </Link>
+                </NavbarMenuItem>
+              ))}
+            </NavbarMenu>
+          </Navbar>
+        </div>
       </div>
     </section>
   );
