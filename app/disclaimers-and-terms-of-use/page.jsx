@@ -1,5 +1,5 @@
 import DisclaimersTermsOfUse from "@/components/disclaimers-and-terms-of-use/privacy-policy/DisclaimersTermsOfUse";
-import HeroSection from "@/components/disclaimers-and-terms-of-use/privacy-policy/HeroSection";
+// import HeroSection from "@/components/disclaimers-and-terms-of-use/privacy-policy/HeroSection";
 import Head from "next/head";
 
 const page = () => {
@@ -13,7 +13,7 @@ const page = () => {
           content="At Carter Injury Law, you’re family. We offer open lines of communication to foster personal relationships and optimize case outcomes for our clients. "
         />
       </Head>
-      <HeroSection />
+      {/* <HeroSection /> */}
       <DisclaimersTermsOfUse />
     </>
   );
