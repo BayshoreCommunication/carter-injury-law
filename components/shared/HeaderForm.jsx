@@ -5,15 +5,15 @@ const HeaderForm = ({ className }) => {
   return (
     <div>
       <ScrollMotionEffect effect="fade-up" duration="2000">
-        <div className={` ${className} max-w-[800px] rounded-[22px] pt-5`}>
+        <div className={` ${className} max-w-[600px] rounded-[22px] pt-5`}>
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-[#EC1D21] leading-none">
+            <h1 className="text-4xl md:text-6 lg:text-8xl xl:text-[100px] font-bold text-[#EC1D21] leading-none">
               DON’T GO
             </h1>
-            <h1 className="text-4xl md:text-6xl  font-bold text-[#EC1D21] leading-none">
+            <h1 className="text-4xl md:text-6 lg:text-8xl xl:text-[110px]  font-bold text-[#EC1D21] leading-none">
               IT ALONE
             </h1>
-            <p className="text-[16px] md:text-[20px] font-bold py-3">
+            <p className="text-[16px] md:text-[20px] lg:text-[25px] font-bold py-3">
               FREE CONFIDENTIAL CASE EVALUATION
             </p>
           </div>

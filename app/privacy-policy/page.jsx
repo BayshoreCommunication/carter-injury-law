@@ -1,4 +1,6 @@
+import HeroSection from "@/components/home/HeroSection";
 import PrivacyPolicy from "@/components/privacy-policy/PrivacyPolicy";
+import CallToAction from "@/components/shared/CallToAction";
 import Head from "next/head";
 
 const page = () => {
@@ -12,8 +14,9 @@ const page = () => {
           content="At Carter Injury Law, you’re family. We offer open lines of communication to foster personal relationships and optimize case outcomes for our clients. "
         />
       </Head>
-      {/* <HeroSection /> */}
+      <HeroSection />
       <PrivacyPolicy />
+      <CallToAction />
     </>
   );
 };

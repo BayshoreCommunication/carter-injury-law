@@ -25,7 +25,7 @@ const HeroSection = () => {
     //   </SectionLayout>
     // </div>
     <div className="relative bg-slate-200">
-      <div className="relative h-[600px] md:h-[530px]">
+      <div className="relative h-[600px] md:h-[530px] lg:h-[65vh]">
         <Image
           src="/assets/homepage/header-bg.png"
           alt="home-banner-bg"

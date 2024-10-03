@@ -202,7 +202,7 @@ const ProfileSection = () => {
                     Robert Johnson
                   </h2>
                   <p className="font-light text-base md:text-xl mb-3 lg:mb-6 ">
-                    David Carter is a skilled personal injury lawyer with
+                    Robert Johnson is a skilled personal injury lawyer with
                     [number] years of experience, dedicated to helping clients
                     recover compensation for accidents, medical malpractice, and
                     wrongful death cases. Compassionate and results-driven.
