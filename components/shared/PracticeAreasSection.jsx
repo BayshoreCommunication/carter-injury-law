@@ -1,6 +1,7 @@
 import React from "react";
 import SectionLayout from "./SectionLayout";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
+import Link from "next/link";
 
 const PracticeAreasSection = () => {
   return (
@@ -16,90 +17,75 @@ const PracticeAreasSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8  h-full text-center">
           <ScrollMotionEffect effect="fade-up" duration="2000">
             <div className="p-8 rounded-2xl border-1 border-[#] flex flex-col gap-3 h-full">
-              <a
-                href="#"
+              <Link
+                href={`/areas-of-practice/tampa-bay-auto-accidents-lawyer`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Tampa Bay Auto Accidents Lawyer
-              </a>
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Tampa Bay Car Accidents Lawyer
-              </a>
-              <a
-                href="#"
+              </Link>
+
+              <Link
+                href={`/areas-of-practice/auto-accident-personal-injury-litigation`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Auto Accident Personal Injury Litigation
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                href={`/areas-of-practice/delivery-truck-accidents`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Delivery Truck Accidents
-              </a>
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Delivery Truck Accidents
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                href={`/areas-of-practice/boating-accidents`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Boating Accidents
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                href={`/areas-of-practice/boating-accidents`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 RV Accidents
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                href={`/areas-of-practice/airline-injuries`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Airline Injuries
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                href={`/areas-of-practice/uber-and-lyft-accidents`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Uber & Lyft Accidents
-              </a>
+              </Link>
             </div>
           </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-up" duration="2000">
             <div className="p-8 rounded-2xl border-1 border-[#] flex flex-col gap-4 h-full">
-              <a
-                href="#"
+              <Link
+                href={`/areas-of-practice/tampa-bay Truck Accident Lawyer`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Tampa Bay Truck Accident Lawyer
-              </a>
+              </Link>
               <a
                 href="#"
                 target="_blank"

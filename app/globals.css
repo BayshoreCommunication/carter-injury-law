@@ -21,7 +21,7 @@ h1 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: black;
+  background: #1e2538;
   -webkit-border-radius: 1ex;
 }
 

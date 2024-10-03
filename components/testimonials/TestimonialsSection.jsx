@@ -1,6 +1,6 @@
 import React from "react";
 import SectionLayout from "../shared/SectionLayout";
-import { testimonialsData } from "../../config/testimonialsData"; // Update the path accordingly
+import { testimonialsData } from "../../config/testimonialsData";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 
 const TestimonialsSection = () => {

@@ -34,7 +34,7 @@ const MainNavbar = () => {
   const menuItems = useMemo(
     () => [
       { title: "Areas of practice", slug: "/" },
-      { title: "Our team", slug: "/profile" },
+      { title: "Our team", slug: "/our-team" },
       { title: "About", slug: "/about" },
       { title: "Testimonials", slug: "/testimonials" },
       { title: "FAQs", slug: "/faq" },
@@ -75,13 +75,15 @@ const MainNavbar = () => {
           >
             <div className="absolute top-0 bottom-0 -mt-20 text-white">
               <div className=" flex items-center gap-x-8">
-                <Image
-                  src="/assets/site-logo/logo.png"
-                  alt="footer logo"
-                  width={500}
-                  height={500}
-                  className=""
-                />
+                <Link href={"/"}>
+                  <Image
+                    src="/assets/site-logo/logo.png"
+                    alt="footer logo"
+                    width={500}
+                    height={500}
+                    className="cursor-pointer"
+                  />
+                </Link>
                 <Image
                   src="/assets/shared/achievement.png"
                   alt="footer logo"

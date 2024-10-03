@@ -5,7 +5,10 @@ import SectionLayout from "@/components/shared/SectionLayout";
 import CardMotion from "@/components/motion/CardMotion";
 import Head from "next/head";
 import Link from "next/link";
+import { Playfair_Display } from "next/font/google";
 import BlogHeroSection from "@/components/blog/BlogHeroSection";
+
+const playfair = Playfair_Display({ subsets: ["latin"] });
 
 const css = `
  h1, h2, p, br, nav {
@@ -78,15 +81,22 @@ const page = async ({ params }) => {
             y: 100,
           }}
         >
-          <h2 className="mb-0 md:mb-4 text-xl md:text-3xl font-bold tracking-normal text-left text-[#1B2639]">
-            {blogDetails[0]?.title}
-          </h2>
-
-          <hr className="w-full h-[1px] mx-auto mt-0 mb-6 bg-[#1B2639] border-0 rounded " />
-
-          <div className="grid gap-12 mb-10 gird-col-1 sm:grid-cols-3">
+          <div className="grid gap-12 mb-10 gird-col-1 sm:grid-cols-3 mt-40">
             {blogDetails?.map((blogs, index) => (
               <div className="col-span-2">
+                <div className="flex items-center justify-between">
+                  <p className="text-[.9rem] md:text-[1rem] text-black text-left italic mt-4 ">
+                    {/* {blogs?.author} */}
+                  </p>
+                  <p className="text-[.9rem] md:text-[1rem] text-black text-left italic mt-4 ">
+                    {postDate(blogs?.createdAt)}
+                  </p>
+                </div>
+                <h2
+                  className={`mb-0 md:mb-4 text-2xl md:text-4xl font-bold tracking-normal text-left text-[#1B2639] ${playfair.className}`}
+                >
+                  {blogs?.title}
+                </h2>
                 <Image
                   width={1000}
                   height={300}
@@ -95,19 +105,19 @@ const page = async ({ params }) => {
                   className="w-full h-auto bg-center bg-cover"
                 />
 
-                <p className="text-[.9rem] md:text-[1rem] text-black text-left italic mt-4 ">
-                  {postDate(blogs?.createdAt)}
-                </p>
                 <div className="mt-2 text-md">{parse(blogs?.body)}</div>
               </div>
             ))}
 
-            <div className="col-span-2 sm:col-span-1 h-[100%] md:h-[1000px] overflow-y-scroll overflow-x-hidden ">
+            <div className="col-span-2 sm:col-span-1 h-[100%] md:h-[1000px] overflow-y-scroll overflow-x-hidden  p-3 rounded-lg">
+              <h2 className="font-medium text-4xl text-black border-b-2 border-gray-500 pb-4 mb-6">
+                Recent posts
+              </h2>
               {blogPostData?.data
                 ?.filter((pub, no) => pub.published === true)
                 ?.map((blogs, index) => (
                   <Link
-                    className="flex items-center gap-6 mb-4 "
+                    className="flex items-start gap-6 py-4 shadow-lg bg-white my-3"
                     key={index}
                     href={`/blog/${blogs?.slug}`}
                   >
@@ -116,24 +126,12 @@ const page = async ({ params }) => {
                       height={180}
                       src={blogs?.featuredImage?.image?.url}
                       alt={blogs?.featuredImage?.altText}
-                      className="bg-center bg-cover"
+                      className="w-[100px] h-auto bg-center bg-cover"
                     />
                     <div>
-                      <div className="text-[0.8rem] md:text-[.8rem] text-black text-left italic mt-0">
-                        {postDate(blogs?.createdAt)}
-                      </div>
-                      <div className="text-md font-bold text-[#1B2639] text-left line-clamp-2">
+                      <div className="text-md font-bold text-black text-left line-clamp-2">
                         {blogs?.title}
                       </div>
-                      <div className="font-normal text-[.8rem] text-black mb-2 md:mb-4 line-clamp-1 h-6">
-                        {parse(blogs?.body)}
-                      </div>
-                      <button
-                        type="button"
-                        class="text-white bg-[#1B2639] hover:bg-[#162030] font-medium text-sm md:text-lg px-3 py-1.5 me-2 focus:outline-none rounded-md"
-                      >
-                        Read More
-                      </button>
                     </div>
                   </Link>
                 ))}

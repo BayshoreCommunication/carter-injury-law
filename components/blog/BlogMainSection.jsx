@@ -21,7 +21,7 @@ const BlogMainSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8  justify-center text-center h-full">
               {AllBlogData?.map((blog, index) => (
                 <ScrollMotionEffect effect="fade-up" duration="2000">
-                  <Link href={blog?.slug} key={index}>
+                  <Link href={`/blog/${blog?.slug}`} key={index}>
                     <div className=" drop-shadow-[0px_0px_10px_rgba(0,0,0,0.3)] bg-white h-full">
                       <Image
                         src={blog?.image}
