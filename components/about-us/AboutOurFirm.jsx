@@ -6,7 +6,7 @@ import { Edu_VIC_WA_NT_Beginner } from "next/font/google";
 const edu = Edu_VIC_WA_NT_Beginner({ subsets: ["latin"] });
 const AboutOurFirm = () => {
   return (
-    <div className="">
+    <div className="mt-10 lg:mt-32">
       <div bg="container w-full lg:max-w-[60%] mx-auto pb-2">
         <h2
           className={`text-stone-950 !font-semibold text-3xl md:text-5xl mt-10 lg:mt-20 mb-10  text-center  uppercase`}
@@ -42,12 +42,13 @@ const AboutOurFirm = () => {
               process, and to aggressively pursue maximum financial compensation
               for your case.
             </p>
-            <div className="mt-6 ms-auto w-1/3 lg:w-full">
+            <div className="mt-6 ms-auto   ">
               <Image
                 src="/assets/aboutpage/david-carter-signature.png"
                 alt="david-carter-signature"
                 width={200}
                 height={80}
+                className="w-1/3 lg:w-full"
               />
             </div>
           </div>

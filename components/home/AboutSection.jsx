@@ -5,8 +5,8 @@ import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 
 const AboutSection = () => {
   return (
-    <SectionLayout>
-      <div className="grid grid-cols-1 xl:grid-cols-2 items-end justify-center md:justify-start gap-16 mt-6">
+    <SectionLayout bg="py-8 xl:py-10">
+      <div className="grid grid-cols-1 xl:grid-cols-2 items-center justify-center md:justify-start gap-6 xl:gap-16">
         <ScrollMotionEffect effect="fade-right" duration="2000">
           <div className="flex flex-col gap-6">
             <p className="text-lg text-[#55545A]">
@@ -28,7 +28,7 @@ const AboutSection = () => {
               THE BEGINNING. CARTER INJURY LAW ONLY GETS PAID IF YOU WIN YOUR
               CASE.
             </p>
-            <div className="inline-block mt-6">
+            <div className="hidden xl:flex mt-6">
               <Link
                 href="#"
                 className="text-white bg-[#EC1D21] hover:bg-[#E40004]  font-semibold rounded-lg text-sm lg:text-lg  px-4 lg:px-6 xl:px-10  py-4 text-center shadow-[rgba(14,30,37,0.12)_0px_2px_4px_0px,_rgba(14,30,37,0.32)_0px_2px_16px_0px]"
@@ -39,7 +39,7 @@ const AboutSection = () => {
           </div>
         </ScrollMotionEffect>
         <ScrollMotionEffect effect="fade-left" duration="2000">
-          <div>
+          <div className="">
             <div className="video-container rounded-3xl overflow-hidden">
               <iframe
                 src={`https://www.youtube.com/embed/oK_kOb6GMMs?si=XWNUepxuo9bFbUOh`}
@@ -51,14 +51,14 @@ const AboutSection = () => {
                 className="w-full h-64 md:h-96"
               ></iframe>
             </div>
-          </div>
-          <div className="inline-block mt-6">
-            <Link
-              href="#"
-              className="text-white bg-[#EC1D21] hover:bg-[#E40004]  font-semibold rounded-lg text-sm lg:text-lg  px-4 lg:px-6 xl:px-10  py-4 text-center shadow-[rgba(14,30,37,0.12)_0px_2px_4px_0px,_rgba(14,30,37,0.32)_0px_2px_16px_0px]"
-            >
-              CLICK FOR FREE CASE EVALUATION
-            </Link>
+            <div className="flex mt-6 xl:hidden">
+              <Link
+                href="#"
+                className="text-white bg-[#EC1D21] hover:bg-[#E40004]  font-semibold rounded-lg text-sm lg:text-lg  px-4 lg:px-6 xl:px-10  py-4 text-center shadow-[rgba(14,30,37,0.12)_0px_2px_4px_0px,_rgba(14,30,37,0.32)_0px_2px_16px_0px]"
+              >
+                CLICK FOR FREE CASE EVALUATION
+              </Link>
+            </div>
           </div>
         </ScrollMotionEffect>
       </div>

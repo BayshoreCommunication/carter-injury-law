@@ -25,7 +25,7 @@ const TestimonialsSection = () => {
                 <div className="text-yellow-500 mb-2 text-xl">
                   {"★".repeat(testimonial.rating)}
                 </div>
-                <p className="font-medium text-gray-900 text-xl">
+                <p className="font-semibold text-gray-900 text-xl">
                   {testimonial.name}
                 </p>
               </div>
