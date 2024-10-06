@@ -205,7 +205,7 @@ const Footer = () => {
                   Cookie Policy
                 </Link>
               </div>
-              <div className="text-white flex gap-2">
+              <div className="text-white flex gap-2 mt-4 md:mt-0">
                 <Link
                   href="https://www.facebook.com/CarterInjuryLaw/"
                   target="_blank"
