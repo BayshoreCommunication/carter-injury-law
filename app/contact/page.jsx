@@ -19,7 +19,7 @@ const page = () => {
       <ContactHeroSection />
       <GoogleMapSection />
       <AchievementSection />
-      <TestimonialSlideSection className={" my-0 md:my-0"} />
+      <TestimonialSlideSection className={" d my-0 md:my-0 shadow-none"} />
       <CallToAction />
     </>
   );
