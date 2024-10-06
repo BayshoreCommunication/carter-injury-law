@@ -3,51 +3,44 @@ export const allServiceData = [
     icon: "/assets/servicepage/icon/auto-accidents.png",
     title: "Tampa Bay Auto Accidents Lawyer",
     slug: "tampa-bay-auto-accidents-lawyer",
-    details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-                Tampa Bay Auto Accidents Lawyer
-              </h2>
-
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/car-accident.png"
-                alt="Car Accident"
-                width={725}
-                height={510}
-                className="w-full"
-              />
-
-              <p className="text-base md:text-lg">
-                Being involved in an auto accident in Florida can be a very
-                confusing and frustrating time.
-              </p>
-              <p className="text-base md:text-lg">
-                How will I get my car fixed? Who pays for my rental? What is
-                PIP? What does it mean that Florida is a No-Fault state? Who
-                will pay my medical bills?
-              </p>
-              <p className="text-base md:text-lg">
-                Carter Injury Law can handle all of this for you. We aim to take
-                the stress of you by answering all of your questions and doing
-                the “heavy lifting” so you can focus on healing from your
-                injuries and obtaining fair compensation for your car and your
-                injuries.
-              </p>
-            </div>`,
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    Tampa Bay Auto Accidents Lawyer
+  </h2>
+  <img
+    src="/assets/blogpage/car-crash.png"
+    alt="Car Accident"
+    className="w-full py-3"
+  />
+  <p className="text-base md:text-lg">
+    Being involved in an auto accident in Florida can be a very confusing and
+    frustrating time.
+  </p>
+  <p className="text-base md:text-lg">
+    How will I get my car fixed? Who pays for my rental? What is PIP? What does
+    it mean that Florida is a No-Fault state? Who will pay my medical bills?
+  </p>
+  <p className="text-base md:text-lg">
+    Carter Injury Law can handle all of this for you. We aim to take the stress
+    off of you by answering all of your questions and doing the “heavy lifting”
+    so you can focus on healing from your injuries and obtaining fair
+    compensation for your car and your injuries.
+  </p>
+</div>
+`,
   },
   {
     icon: "/assets/servicepage/icon/car-icon.png",
     title: "Tampa Bay Car Accidents Lawyer",
     slug: "tampa-bay-car-accidents-lawyer",
-    details: `    <div className="w-full flex flex-col gap-2 lg:gap-4">
+    details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
               <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                 Tampa Bay Auto Accidents Lawyer
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src="/assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
                 className="w-full"
               />
 
@@ -89,8 +82,8 @@ export const allServiceData = [
       Tampa Bay Auto Accidents Lawyer
     </h2>
 
-    <Image
-      src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+    <img
+      src="/assets/blogpage/placeholder.png"
       alt="Car Accident"
       width={725}
       height={510}
@@ -135,11 +128,10 @@ export const allServiceData = [
                Delivery Truck Accidents
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src="/assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -156,11 +148,10 @@ export const allServiceData = [
                 Boating Accidents
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src="/assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -177,11 +168,10 @@ export const allServiceData = [
                 RV Accidents
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src="/assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -198,11 +188,10 @@ export const allServiceData = [
                 Airline Injuries
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src="/assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -219,11 +208,10 @@ export const allServiceData = [
                Uber & Lyft Accidents
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src="/assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -240,11 +228,10 @@ export const allServiceData = [
                 Tampa Bay Truck Accident Lawyer
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src="/assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -261,11 +248,10 @@ export const allServiceData = [
                Motorcycle Accidents
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src="/assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -282,11 +268,10 @@ export const allServiceData = [
                 DUI Injuries
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src="/assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -303,11 +288,10 @@ export const allServiceData = [
                 Bicycle Accidents
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src="/assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -324,11 +308,10 @@ export const allServiceData = [
                 Catastrophic Injuries
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src="/assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -345,11 +328,10 @@ export const allServiceData = [
                Motorist Insurance Claims Litigation
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src="/assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -366,11 +348,10 @@ export const allServiceData = [
                 Pedestrian Personal Injury Litigation
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src="/assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -387,11 +368,10 @@ export const allServiceData = [
                Tampa Bay Personal Injury Lawyer
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src="/assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -408,11 +388,10 @@ export const allServiceData = [
                Premises Liability Personal Injury Litigation
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src="/assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -430,11 +409,10 @@ export const allServiceData = [
                 Medical Malpractice Personal Injury Litigation
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src="/assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -459,11 +437,10 @@ export const allServiceData = [
                Pain & Suffering Personal Injury Litigation
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src="/assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -480,11 +457,10 @@ export const allServiceData = [
                Plastic Surgery Personal Injury Litigation
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src=" /assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -501,11 +477,10 @@ export const allServiceData = [
                 Slip And Fall Personal Injury Litigation
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src=" /assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -546,11 +521,10 @@ export const allServiceData = [
                 Wrongful Personal Injury Litigation
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src=" /assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
@@ -567,11 +541,10 @@ export const allServiceData = [
                Dog Bites Personal Injury Litigation
               </h2>
 
-              <Image
-                src="/assets/servicepage/public/assets/blogpage/placeholder.png"
+              <img
+                src=" /assets/blogpage/placeholder.png"
                 alt="Car Accident"
-                width={725}
-                height={510}
+
                 className="w-full"
               />
 
