@@ -118,8 +118,6 @@ const ContactSection = () => {
     }
   };
 
-  console.log("check email form value 113", emailForm);
-
   return (
     <div className="flex flex-col">
       <form className="w-full" onSubmit={handleSubmit}>
