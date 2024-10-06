@@ -81,7 +81,7 @@ const MainNavbar = () => {
                     alt="footer logo"
                     width={500}
                     height={500}
-                    className="cursor-pointer"
+                    className="cursor-pointer max-w-[500px] h-auto"
                   />
                 </Link>
                 <Image
