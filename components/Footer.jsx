@@ -30,25 +30,25 @@ const Footer = () => {
                 </h4>
                 <Link
                   href="tel:+18139220228"
-                  className="text-base lg:text-xl font-medium text-white hover:text-[#ED1B24] duration-500"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   (813) 922-0228
                 </Link>
                 <Link
                   href="tel:+7279551922"
-                  className="text-base lg:text-xl font-medium text-white hover:text-[#ED1B24] duration-500"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   (727) 955-1922
                 </Link>
                 <Link
                   href="/contact"
-                  className="text-base lg:text-xl font-medium text-white hover:text-[#ED1B24] duration-500"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   MESSAGE US
                 </Link>
                 <Link
                   href="#"
-                  className="text-base lg:text-xl font-medium text-white hover:text-[#ED1B24] duration-500"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   3114 N. BOULEVARD TAMPA, FL 33603
                 </Link>
@@ -60,31 +60,31 @@ const Footer = () => {
 
                 <Link
                   href="/about"
-                  className="text-base lg:text-xl font-medium text-white hover:text-[#ED1B24] duration-500"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   ABOUT THE FIRM
                 </Link>
                 <Link
                   href="#"
-                  className="text-base lg:text-xl font-medium text-white hover:text-[#ED1B24] duration-500"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   OUR RESULTS
                 </Link>
                 <Link
                   href="/testimonials"
-                  className="text-base lg:text-xl font-medium text-white hover:text-[#ED1B24] duration-500"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   REVIEWS
                 </Link>
                 <Link
                   href="/contact"
-                  className="text-base lg:text-xl font-medium text-white hover:text-[#ED1B24] duration-500"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   DO YOU HAVE A CASE?
                 </Link>
                 <Link
                   href="/career"
-                  className="text-base lg:text-xl font-medium text-white hover:text-[#ED1B24] duration-500"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   EMPLOYMENT
                 </Link>
@@ -95,44 +95,44 @@ const Footer = () => {
                 </h4>
                 <Link
                   href="tel:+18139220228"
-                  className="text-base lg:text-xl font-medium text-white hover:text-[#ED1B24] duration-500"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   AREAS OF PRACTICE
                 </Link>
                 <Link
                   href="tel:+7279551922"
-                  className="text-base lg:text-xl font-medium text-white hover:text-[#ED1B24] duration-500"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   PERSONAL INJURY
                 </Link>
                 <Link
                   href="#"
-                  className="text-base lg:text-xl font-medium text-white hover:text-[#ED1B24] duration-500"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   AUTO ACCIDENTS
                 </Link>
                 <Link
                   href="#"
-                  className="text-base lg:text-xl font-medium text-white hover:text-[#ED1B24] duration-500"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   SLIP & FALL
                 </Link>
                 <Link
                   href="#"
-                  className="text-base lg:text-xl font-medium text-white hover:text-[#ED1B24] duration-500"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   MEDICAL MALPRACTICE
                 </Link>
                 <Link
                   href="#"
-                  className="text-base lg:text-xl font-medium text-white hover:text-[#ED1B24] duration-500"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   PREMISES LIABILITY
                 </Link>
 
                 <Link
                   href="#"
-                  className="text-base lg:text-xl font-medium text-white hover:text-[#ED1B24] duration-500"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   DOG Bites
                 </Link>

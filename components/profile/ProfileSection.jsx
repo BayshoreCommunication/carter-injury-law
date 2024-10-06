@@ -87,7 +87,9 @@ const ProfileSection = () => {
                         )
                       }
                       title={
-                        <span className="text-2xl font-medium">PROFILE</span>
+                        <span className="text-lg md:text-2xl font-medium">
+                          PROFILE
+                        </span>
                       }
                       className="text-lg text-[#4A4A4A] "
                     >
@@ -113,7 +115,9 @@ const ProfileSection = () => {
                         )
                       }
                       title={
-                        <span className="text-2xl font-medium">EDUCATION</span>
+                        <span className="text-lg md:text-2xl font-medium">
+                          EDUCATION
+                        </span>
                       }
                       className="text-lg text-[#4A4A4A] "
                     >
@@ -139,7 +143,9 @@ const ProfileSection = () => {
                         )
                       }
                       title={
-                        <span className="text-2xl font-medium">ADMISSION</span>
+                        <span className="text-lg md:text-2xl font-medium">
+                          ADMISSION
+                        </span>
                       }
                       className="text-lg text-[#4A4A4A]   "
                     >
@@ -165,7 +171,9 @@ const ProfileSection = () => {
                         )
                       }
                       title={
-                        <span className="text-2xl font-medium">AWARDS</span>
+                        <span className="text-lg md:text-2xl font-medium">
+                          AWARDS
+                        </span>
                       }
                       className="text-lg text-[#4A4A4A] "
                     >
@@ -261,7 +269,9 @@ const ProfileSection = () => {
                         )
                       }
                       title={
-                        <span className="text-2xl font-medium">PROFILE</span>
+                        <span className="text-lg md:text-2xl font-medium">
+                          PROFILE
+                        </span>
                       }
                       className="text-lg text-[#4A4A4A] "
                     >
@@ -287,7 +297,9 @@ const ProfileSection = () => {
                         )
                       }
                       title={
-                        <span className="text-2xl font-medium">EDUCATION</span>
+                        <span className="text-lg md:text-2xl font-medium">
+                          EDUCATION
+                        </span>
                       }
                       className="text-lg text-[#4A4A4A] "
                     >
@@ -313,7 +325,9 @@ const ProfileSection = () => {
                         )
                       }
                       title={
-                        <span className="text-2xl font-medium">ADMISSION</span>
+                        <span className="text-lg md:text-2xl font-medium">
+                          ADMISSION
+                        </span>
                       }
                       className="text-lg text-[#4A4A4A]   "
                     >
@@ -339,7 +353,9 @@ const ProfileSection = () => {
                         )
                       }
                       title={
-                        <span className="text-2xl font-medium">AWARDS</span>
+                        <span className="text-lg md:text-2xl font-medium">
+                          AWARDS
+                        </span>
                       }
                       className="text-lg text-[#4A4A4A] "
                     >
