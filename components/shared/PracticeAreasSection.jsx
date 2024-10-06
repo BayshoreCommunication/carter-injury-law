@@ -25,6 +25,7 @@ const PracticeAreasSection = () => {
               >
                 Tampa Bay Auto Accidents Lawyer
               </Link>
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
 
               <Link
                 href={`/areas-of-practice/auto-accident-personal-injury-litigation`}
@@ -34,6 +35,8 @@ const PracticeAreasSection = () => {
               >
                 Auto Accident Personal Injury Litigation
               </Link>
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+
               <Link
                 href={`/areas-of-practice/delivery-truck-accidents`}
                 target="_blank"
@@ -42,6 +45,8 @@ const PracticeAreasSection = () => {
               >
                 Delivery Truck Accidents
               </Link>
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+
               <Link
                 href={`/areas-of-practice/boating-accidents`}
                 target="_blank"
@@ -50,6 +55,8 @@ const PracticeAreasSection = () => {
               >
                 Boating Accidents
               </Link>
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+
               <Link
                 href={`/areas-of-practice/boating-accidents`}
                 target="_blank"
@@ -58,6 +65,8 @@ const PracticeAreasSection = () => {
               >
                 RV Accidents
               </Link>
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+
               <Link
                 href={`/areas-of-practice/airline-injuries`}
                 target="_blank"
@@ -66,6 +75,8 @@ const PracticeAreasSection = () => {
               >
                 Airline Injuries
               </Link>
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+
               <Link
                 href={`/areas-of-practice/uber-and-lyft-accidents`}
                 target="_blank"
@@ -86,122 +97,136 @@ const PracticeAreasSection = () => {
               >
                 Tampa Bay Truck Accident Lawyer
               </Link>
-              <a
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+
+              <Link
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Motorcycle Accidents
-              </a>
-              <a
+              </Link>
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+              <Link
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 DUI Injuries
-              </a>
-              <a
+              </Link>
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+              <Link
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Bicycle Accidents
-              </a>
-              <a
+              </Link>
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+              <Link
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Catastrophic Injuries
-              </a>
-              <a
+              </Link>
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+              <Link
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Motorist Insurance Claims Litigation
-              </a>
-              <a
+              </Link>
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+              <Link
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Pedestrian Personal Injury Litigation
-              </a>
+              </Link>
             </div>
           </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-up" duration="2000">
             <div className="p-8 rounded-2xl border-1 border-[#] flex flex-col gap-4 h-full">
-              <a
+              <Link
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Tampa Bay Personal Injury Lawyer
-              </a>
-              <a
+              </Link>
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+              <Link
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Pain & suffering Personal Injury Litigation
-              </a>
-              <a
+              </Link>
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+              <Link
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Plastic Surgery Personal Injury Litigation
-              </a>
-              <a
+              </Link>
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+              <Link
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Slip And Fall Personal Injury Litigation
-              </a>
-              <a
+              </Link>
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+              <Link
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Wrongful Personal Injury Litigation
-              </a>
-              <a
+              </Link>
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+              <Link
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Dog Bites Personal Injury Litigation
-              </a>
-              <a
+              </Link>
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+              <Link
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Premises Liability Personal Injury Litigation
-              </a>
-              <a
+              </Link>
+              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+              <Link
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
               >
                 Medical Malpractice Personal Injury Litigation
-              </a>
+              </Link>
             </div>
           </ScrollMotionEffect>
         </div>
