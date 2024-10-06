@@ -21,7 +21,7 @@ const AboutOurFirm = () => {
               <p className="text-stone-950  text-2xl md:text-3xl  mb-2">
                 To our clients:
               </p>
-              <h3 className="text-stone-950  text-3xl md:text-5xl font-semibold font- ">
+              <h3 className="text-stone-950  text-2xl md:text-4xl font-semibold  ">
                 You’re not just a number.
               </h3>
             </div>
@@ -42,13 +42,13 @@ const AboutOurFirm = () => {
               process, and to aggressively pursue maximum financial compensation
               for your case.
             </p>
-            <div className="mt-6 ms-auto   ">
+            <div className="mt-6 flex justify-end  ">
               <Image
                 src="/assets/aboutpage/david-carter-signature.png"
                 alt="david-carter-signature"
                 width={200}
                 height={80}
-                className="w-1/3 lg:w-full"
+                className="w-1/3 lg:w-full max-w-[180px]"
               />
             </div>
           </div>
