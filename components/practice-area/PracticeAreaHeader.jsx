@@ -24,7 +24,7 @@ const PracticeAreaHeader = () => {
           </h2>
         </div>
 
-        <div className="absolute -bottom-52 right-[15%] hidden lg:block">
+        <div className="absolute -bottom-52 right-[8%] hidden lg:block">
           <HeaderForm className={" bg-white"} />
         </div>
       </div>

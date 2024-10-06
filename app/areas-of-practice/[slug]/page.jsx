@@ -79,33 +79,28 @@ const page = async ({ params }) => {
 
   return (
     <>
-      {/* <Head>
+      <Head>
         <title>{servicesDetails[0]?.title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="" />
-      </Head> */}
+      </Head>
       <style>{css}</style>
       <PracticeAreaHeader />
-      <SectionLayout bg="bg-white">
-        <hr className="w-full h-[1px] mx-auto my-8 bg-[#1B2639] border-0 rounded md:my-5" />
+      <div>
+        <SectionLayout bg="bg-white">
+          <div className="grid gap-16 gird-col-1 sm:grid-cols-3">
+            {servicesDetails?.map((services, index) => (
+              <div className="col-span-2">
+                <div className="mt-5 text-base">{parse(services?.details)}</div>
+              </div>
+            ))}
 
-        <div className="grid gap-12 mb-10 gird-col-1 sm:grid-cols-3">
-          {servicesDetails?.map((services, index) => (
-            <div className="col-span-2">
-              <div className="mt-5 text-base">{parse(services?.details)}</div>
+            <div className="hidden md:block">
+              <PracticeAreaSidebarCard allServiceData={allServiceData} />
             </div>
-          ))}
-
-          <div className=" h-[100%] md:h-[1600px] overflow-y-scroll overflow-x-hidden hidden md:block">
-            {/* {allServiceData?.map((el, index) => (
-              <Link href={`/services/${el?.slug}`} key={index}>
-                <SideServicesCard serversData={el} />
-              </Link>
-            ))} */}
-            <PracticeAreaSidebarCard allServiceData={allServiceData} />
           </div>
-        </div>
-      </SectionLayout>
+        </SectionLayout>
+      </div>
     </>
   );
 };

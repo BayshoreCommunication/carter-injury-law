@@ -9,10 +9,14 @@ import { MdArrowOutward } from "react-icons/md";
 
 const ContactSection = () => {
   const [emailForm, setEmailForm] = useState({
-    name: "",
+    firstName: "",
+    lastName: "",
     phone: "",
+    zipCode: "",
     email: "",
+    caseType: "",
     message: "",
+    flag: "",
   });
 
   const [loading, setLoading] = useState(false);
@@ -21,19 +25,36 @@ const ContactSection = () => {
   const validate = (values) => {
     const errors = {};
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
-    if (!values.name) {
-      errors.name = "Name is required!";
+    if (!values.firstName) {
+      errors.firstName = "First Name is required!";
     }
+    if (!values.lastName) {
+      errors.lastName = "Last Name is required!";
+    }
+
     if (!values.email) {
       errors.email = "Email is required!";
     } else if (!regex.test(values.email)) {
       errors.email = "This is not a valid email format!";
     }
+
     if (!values.phone) {
       errors.phone = "Phone number is required!";
     }
+
+    if (!values.zipCode) {
+      errors.zipCode = "Zipcode is required!";
+    }
+    if (!values.caseType) {
+      errors.caseType = "Case Type is required!";
+    }
+
+    if (!values.flag) {
+      errors.flag = "Accept Terms & acknowledge our Privacy Policy.";
+    }
+
     if (!values.message) {
-      errors.message = "Question is required!";
+      errors.message = "Message is required!";
     }
     return errors;
   };
@@ -49,10 +70,10 @@ const ContactSection = () => {
     // Check if there are any errors
     if (Object.keys(errors).length === 0) {
       send(
-        "service_21srltl",
-        "template_regri0n",
+        "service_du7590l",
+        "template_9ql7ubi",
         emailForm,
-        "QQbwIXKpnJegjLF_x"
+        "igJ5_f7vinFq47loI"
       )
         .then((response) => {
           setLoading(false); // Stop loading
@@ -62,10 +83,14 @@ const ContactSection = () => {
             confirmButtonColor: "#131b2a",
           }).then(() => {
             setEmailForm({
-              name: "",
+              firstName: "",
+              lastName: "",
               phone: "",
+              zipCode: "",
               email: "",
+              caseType: "",
               message: "",
+              flag: "",
             });
           });
         })
@@ -76,10 +101,14 @@ const ContactSection = () => {
             text: "Something went wrong!",
           }).then(() => {
             setEmailForm({
-              name: "",
+              firstName: "",
+              lastName: "",
               phone: "",
+              zipCode: "",
               email: "",
+              caseType: "",
               message: "",
+              flag: "",
             });
             setLoading(false); // Stop loading
           });
@@ -88,6 +117,8 @@ const ContactSection = () => {
       setLoading(false); // Stop loading
     }
   };
+
+  console.log("check email form value 113", emailForm);
 
   return (
     <div className="flex flex-col">
@@ -100,12 +131,12 @@ const ContactSection = () => {
               placeholder="First Name"
               required
               type="text"
-              name="first name"
+              name="firstName"
               value={emailForm.firstName}
               onChange={(event) => {
                 setEmailForm({
                   ...emailForm,
-                  name: event.target.value,
+                  firstName: event.target.value,
                 });
               }}
             />
@@ -118,12 +149,12 @@ const ContactSection = () => {
               placeholder="Last Name"
               required
               type="text"
-              name="last name"
+              name="lastName"
               value={emailForm.lastName}
               onChange={(event) => {
                 setEmailForm({
                   ...emailForm,
-                  name: event.target.value,
+                  lastName: event.target.value,
                 });
               }}
             />
@@ -138,16 +169,16 @@ const ContactSection = () => {
               placeholder="Phone Number"
               required
               type="text"
-              name="first name"
-              value={emailForm.firstName}
+              name="phone"
+              value={emailForm.phone}
               onChange={(event) => {
                 setEmailForm({
                   ...emailForm,
-                  name: event.target.value,
+                  phone: event.target.value,
                 });
               }}
             />
-            <span className="text-orange-600">{formErrors.firstName}</span>
+            <span className="text-orange-600">{formErrors.phone}</span>
           </div>
           {/* Zip Code */}
           <div className=" w-full">
@@ -156,16 +187,16 @@ const ContactSection = () => {
               placeholder="Zip Code"
               required
               type="text"
-              name="last name"
-              value={emailForm.lastName}
+              name="zipCode"
+              value={emailForm.zipCode}
               onChange={(event) => {
                 setEmailForm({
                   ...emailForm,
-                  name: event.target.value,
+                  zipCode: event.target.value,
                 });
               }}
             />
-            <span className="text-orange-600">{formErrors.lastName}</span>
+            <span className="text-orange-600">{formErrors.zipCode}</span>
           </div>
         </div>
         {/* Email */}
@@ -197,13 +228,13 @@ const ContactSection = () => {
             name="caseType"
             value={emailForm.caseType}
             onChange={(event) => {
-              setCaseTypeForm({
-                ...emailCaseTypeForm,
-                phone: event.target.value,
+              setEmailForm({
+                ...emailForm,
+                caseType: event.target.value,
               });
             }}
           >
-            <option className="text-base" selected>
+            <option className="text-base" value="" disabled selected>
               - Case Type -
             </option>
             <option className="text-base" value="auto-accidents">
@@ -252,8 +283,9 @@ const ContactSection = () => {
               Insurance Claims
             </option>
           </select>
-          <span className="text-orange-600">{formErrors.phone}</span>
+          <span className="text-orange-600">{formErrors.caseType}</span>
         </div>
+
         {/* Text Area */}
         <div className="mb-5">
           <textarea
@@ -274,7 +306,7 @@ const ContactSection = () => {
           <span className="text-orange-600">{formErrors.message}</span>
         </div>
 
-        <div className=" mb-5">
+        <div className="mb-5">
           <div className="flex">
             <div className="flex items-center h-5">
               <input
@@ -282,8 +314,14 @@ const ContactSection = () => {
                 required
                 aria-describedby="helper-checkbox-text"
                 type="checkbox"
-                value=""
-                className="w-5 h-5 text-white bg-white border-gray-300 rounded  "
+                checked={emailForm.flag} // Use checked instead of value
+                onChange={(event) => {
+                  setEmailForm({
+                    ...emailForm,
+                    flag: event.target.checked, // Toggle true/false using checked
+                  });
+                }}
+                className="w-5 h-5 text-white bg-white border-gray-300 rounded"
               />
             </div>
             <div className="ms-2 text-base">
@@ -303,7 +341,9 @@ const ContactSection = () => {
               </p>
             </div>
           </div>
-          <span className="text-orange-600">{formErrors.message}</span>
+          <span className="text-orange-600 mt-4 ml-6 text-center">
+            {formErrors.flag}
+          </span>
         </div>
         {loading ? (
           <button

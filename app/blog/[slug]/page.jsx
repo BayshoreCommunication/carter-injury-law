@@ -7,8 +7,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { Playfair_Display } from "next/font/google";
 import BlogHeroSection from "@/components/blog/BlogHeroSection";
-
-const playfair = Playfair_Display({ subsets: ["latin"] });
+import BlogHeroSectionforDetails from "@/components/blog/BlogHeroSectionforDetails";
 
 const css = `
  h1, h2, p, br, nav {
@@ -66,7 +65,7 @@ const page = async ({ params }) => {
         <meta name="description" content={blogDetails[0]?.title} />
       </Head>
       <style>{css}</style>
-      <BlogHeroSection />
+      <BlogHeroSectionforDetails />
       <SectionLayout bg="bg-white">
         <CardMotion
           whileInView={{
@@ -81,7 +80,7 @@ const page = async ({ params }) => {
             y: 100,
           }}
         >
-          <div className="grid gap-12 mb-10 gird-col-1 sm:grid-cols-3 mt-40">
+          <div className="grid gap-12 mb-10 gird-col-1 sm:grid-cols-3">
             {blogDetails?.map((blogs, index) => (
               <div className="col-span-2">
                 <div className="flex items-center justify-between">
@@ -93,7 +92,7 @@ const page = async ({ params }) => {
                   </p>
                 </div>
                 <h2
-                  className={`mb-0 md:mb-4 text-2xl md:text-4xl font-bold tracking-normal text-left text-[#1B2639] ${playfair.className}`}
+                  className={`mb-0 md:mb-4 text-2xl md:text-4xl font-bold tracking-normal text-left text-[#1B2639]`}
                 >
                   {blogs?.title}
                 </h2>
