@@ -5,10 +5,10 @@ import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 
 const AboutSection = () => {
   return (
-    <SectionLayout bg="py-8 xl:py-10">
-      <div className="grid grid-cols-1 xl:grid-cols-2 items-center justify-center md:justify-start gap-6 xl:gap-16">
+    <SectionLayout bg="">
+      <div className="grid grid-cols-1 xl:grid-cols-2 items-center justify-center md:justify-start gap-x-6 xl:gap-x-16 mt-[-50px]">
         <ScrollMotionEffect effect="fade-right" duration="2000">
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-y-6">
             <p className="text-lg text-[#55545A]">
               <strong>DON’T GO IT ALONE.</strong> IF YOU’VE BEEN INJURED DUE TO
               THE FAULT OF SOMEONE ELSE, HAVING AN EXPERIENCED AND COMPASSIONATE

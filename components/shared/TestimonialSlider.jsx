@@ -68,34 +68,34 @@
 //           })}
 //         </Swiper>
 
-//         <div className="swiper-button-next ">
-//           <svg
-//             xmlns="http://www.w3.org/2000/svg"
-//             viewBox="0 0 24 24"
-//             fill="currentColor"
-//             className="w-12 h-12 p-3 rotate-180 border rounded-full text-slate-900 border-slate-900 hover:bg-slate-900 sm:rotate-0 hover:text-slate-50"
-//           >
-//             <path
-//               fillRule="evenodd"
-//               d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z"
-//               clipRule="evenodd"
-//             />
-//           </svg>
-//         </div>
-//         <div className="swiper-button-prev ">
-//           <svg
-//             xmlns="http://www.w3.org/2000/svg"
-//             viewBox="0 0 24 24"
-//             fill="currentColor"
-//             className="w-12 h-12 p-3 border rounded-full text-slate-900 border-slate-900 sm:rotate-180 hover:bg-slate-900 hover:text-slate-50"
-//           >
-//             <path
-//               fillRule="evenodd"
-//               d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z"
-//               clipRule="evenodd"
-//             />
-//           </svg>
-//         </div>
+        // <div className="swiper-button-next ">
+        //   <svg
+        //     xmlns="http://www.w3.org/2000/svg"
+        //     viewBox="0 0 24 24"
+        //     fill="currentColor"
+        //     className="w-12 h-12 p-3 rotate-180 border rounded-full text-slate-900 border-slate-900 hover:bg-slate-900 sm:rotate-0 hover:text-slate-50"
+        //   >
+        //     <path
+        //       fillRule="evenodd"
+        //       d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z"
+        //       clipRule="evenodd"
+        //     />
+        //   </svg>
+        // </div>
+        // <div className="swiper-button-prev ">
+        //   <svg
+        //     xmlns="http://www.w3.org/2000/svg"
+        //     viewBox="0 0 24 24"
+        //     fill="currentColor"
+        //     className="w-12 h-12 p-3 border rounded-full text-slate-900 border-slate-900 sm:rotate-180 hover:bg-slate-900 hover:text-slate-50"
+        //   >
+        //     <path
+        //       fillRule="evenodd"
+        //       d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z"
+        //       clipRule="evenodd"
+        //     />
+        //   </svg>
+        // </div>
 //       </div>
 //     </div>
 //   );

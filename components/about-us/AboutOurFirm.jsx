@@ -6,7 +6,7 @@ import { Edu_VIC_WA_NT_Beginner } from "next/font/google";
 const edu = Edu_VIC_WA_NT_Beginner({ subsets: ["latin"] });
 const AboutOurFirm = () => {
   return (
-    <div className="mt-10 lg:mt-32">
+    <div className="mt-10 lg:mt-14">
       <div bg="container w-full lg:max-w-[60%] mx-auto pb-2">
         <h2
           className={`text-stone-950 !font-semibold text-3xl md:text-5xl mt-10 lg:mt-20 mb-10  text-center  uppercase`}

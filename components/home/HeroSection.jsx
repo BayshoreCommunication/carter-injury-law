@@ -24,7 +24,7 @@ const HeroSection = () => {
     //     </div>
     //   </SectionLayout>
     // </div>
-    <div className="bg-slate-200">
+    <div className="">
       <div
         className=" w-full"
         style={{
@@ -46,9 +46,9 @@ const HeroSection = () => {
           rel="preload"
         /> */}
 
-        <div className="container pt-4 pb-10 md:pb-0 md:pt-6 lg:pt-10">
+        <div className="container pt-4 md:pb-0 md:pt-6 lg:pt-10 ">
           <div className="grid grid-cols-1 md:grid-cols-2 items-end  justify-between gap-x-20">
-            <div className="md:flex items-center justify-center  hidden">
+            <div className="flex items-end justify-center">
               <Image
                 src="/assets/homepage/carter.png"
                 alt="robert-johnson-law"
@@ -58,12 +58,17 @@ const HeroSection = () => {
               />
             </div>
 
-            <div className="md:relative top-0  md:top-[90px] ">
+            <div className="md:relative top-0  md:top-[90px]  hidden lg:block">
               <HeaderForm />
             </div>
           </div>
         </div>
       </div>
+      <SectionLayout>
+        <div className="lg:hidden block">
+          <HeaderForm />
+        </div>
+      </SectionLayout>
     </div>
   );
 };

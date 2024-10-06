@@ -64,12 +64,12 @@ const Footer = () => {
                 >
                   ABOUT THE FIRM
                 </Link>
-                <Link
+                {/* <Link
                   href="#"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   OUR RESULTS
-                </Link>
+                </Link> */}
                 <Link
                   href="/testimonials"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
@@ -94,44 +94,38 @@ const Footer = () => {
                   AREAS OF PRACTICE
                 </h4>
                 <Link
-                  href="tel:+18139220228"
-                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
-                >
-                  AREAS OF PRACTICE
-                </Link>
-                <Link
-                  href="tel:+7279551922"
+                  href={`/areas-of-practice/tampa-bay-auto-accidents-lawyer`}
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   PERSONAL INJURY
                 </Link>
                 <Link
-                  href="#"
+                  href="/areas-of-practice/tampa-bay-auto-accidents-lawyer"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   AUTO ACCIDENTS
                 </Link>
                 <Link
-                  href="#"
+                  href="/areas-of-practice/tampa-bay-auto-accidents-lawyer"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   SLIP & FALL
                 </Link>
                 <Link
-                  href="#"
+                  href="/areas-of-practice/tampa-bay-auto-accidents-lawyer"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   MEDICAL MALPRACTICE
                 </Link>
                 <Link
-                  href="#"
+                  href="/areas-of-practice/tampa-bay-auto-accidents-lawyer"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   PREMISES LIABILITY
                 </Link>
 
                 <Link
-                  href="#"
+                  href="/areas-of-practice/tampa-bay-auto-accidents-lawyer"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   DOG Bites

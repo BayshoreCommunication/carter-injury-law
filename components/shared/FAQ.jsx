@@ -6,7 +6,7 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 const FAQ = () => {
   return (
-    <SectionLayout bg=" lg:py-12">
+    <SectionLayout bg="py-4 lg:py-0">
       <div className="w-full lg:w-[80%]  mx-auto">
         <h2
           className={`text-stone-950 !font-semibold text-3xl md:text-5xl mb-5   text-center uppercase`}

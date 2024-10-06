@@ -17,7 +17,7 @@ import Link from "next/link";
 
 const ProfileSection = () => {
   return (
-    <div className="bg-[#F8F4F1] shadow-[rgba(0,0,0,0.15)_0px_13px_25px] mb-16">
+    <div className="shadow-[rgba(0,0,0,0.15)_0px_13px_25px] mb-16">
       <SectionLayout>
         <div className="flex flex-col gap-6 lg:gap-10">
           <div className="flex flex-col md:flex-row gap-6 lg:gap-20">
@@ -189,9 +189,8 @@ const ProfileSection = () => {
                 </div>
               </ScrollMotionEffect>
             </div>
-            <div className="w-full md:w-[40%]">
+            <div className="w-full md:w-[40%] mt-24">
               <ScrollMotionEffect effect="fade-left" duration="2000">
-                {" "}
                 <Image
                   src="/assets/profilepage/certer.png"
                   className="mx-auto"
