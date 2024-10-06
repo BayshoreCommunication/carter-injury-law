@@ -6,7 +6,7 @@ import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 const AboutSection = () => {
   return (
     <SectionLayout bg="">
-      <div className="grid grid-cols-1 xl:grid-cols-2 items-center justify-center md:justify-start gap-x-6 xl:gap-x-16 mt-[-50px]">
+      <div className="grid grid-cols-1 xl:grid-cols-2 items-center justify-center md:justify-start gap-x-6 xl:gap-x-16 md:mt-[-50px] mt-[16px]">
         <ScrollMotionEffect effect="fade-right" duration="2000">
           <div className="flex flex-col gap-y-6">
             <p className="text-lg text-[#55545A]">
@@ -39,7 +39,7 @@ const AboutSection = () => {
           </div>
         </ScrollMotionEffect>
         <ScrollMotionEffect effect="fade-left" duration="2000">
-          <div className="">
+          <div className="mt-10 md:mt-0">
             <div className="video-container rounded-3xl overflow-hidden">
               <iframe
                 src={`https://www.youtube.com/embed/oK_kOb6GMMs?si=XWNUepxuo9bFbUOh`}
@@ -51,7 +51,7 @@ const AboutSection = () => {
                 className="w-full h-64 md:h-96"
               ></iframe>
             </div>
-            <div className="flex mt-6 xl:hidden">
+            <div className="flex md:justify-start justify-center mt-6 xl:hidden">
               <Link
                 href="#"
                 className="text-white bg-[#EC1D21] hover:bg-[#E40004]  font-semibold rounded-lg text-sm lg:text-lg  px-4 lg:px-6 xl:px-10  py-4 text-center shadow-[rgba(14,30,37,0.12)_0px_2px_4px_0px,_rgba(14,30,37,0.32)_0px_2px_16px_0px]"
