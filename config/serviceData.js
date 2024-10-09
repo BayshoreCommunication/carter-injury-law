@@ -8,7 +8,7 @@ export const allServiceData = [
     Tampa Bay Auto Accidents Lawyer
   </h2>
   <img
-    src="/assets/blogpage/car-crash.png"
+    src="/assets/servicepage/car-crash.png"
     alt="Car Accident"
     className="w-full py-3"
   />
@@ -39,7 +39,7 @@ export const allServiceData = [
               </h2>
 
               <img
-                src="/assets/blogpage/placeholder.png"
+                src="/assets/servicepage/placeholder.png"
                 alt="Car Accident"
                 className="w-full"
               />
@@ -83,7 +83,7 @@ export const allServiceData = [
     </h2>
 
     <img
-      src="/assets/blogpage/auto-accident-personal-injury-litigation.png"
+      src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
       alt="Car Accident"
       width={725}
       height={510}
@@ -94,7 +94,7 @@ export const allServiceData = [
       Auto accident personal injury litigation involves legal representation for victims injured in car accidents due to another party's negligence. This service helps clients seek compensation for medical expenses, lost wages, property damage, and emotional suffering.
     </p>
     <div>
-      <p className="text-base md:text-lg font-bold mb-3">
+      <p className="text-base md:text-lg font-bold mb-1">
         Who can benefit from this service?
       </p>
       <p className="text-base md:text-lg">
@@ -109,7 +109,7 @@ export const allServiceData = [
       </p>
     </div>
     <div>
-      <p className="text-base md:text-lg font-bold mb-3">
+      <p className="text-base md:text-lg font-bold mb-1">
         Challenges You will face Without an Attorney for Auto Accident Claims
       </p>
       <p className="text-base md:text-lg">
@@ -117,7 +117,7 @@ export const allServiceData = [
       </p>
     </div>
     <div>
-      <p className="text-base md:text-lg font-bold mb-3">
+      <p className="text-base md:text-lg font-bold mb-1">
         How Carter Injury Law Fights for Your Justice
       </p>
       <p className="text-base md:text-lg">
@@ -133,30 +133,23 @@ export const allServiceData = [
     title: "Delivery Truck Accidents",
     slug: "delivery-truck-accidents",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-               Delivery Truck Accidents
-              </h2>
-
-              <img
-                src="/assets/blogpage/delivery-truck-accidents"
+                <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                Delivery Truck Accidents
+                </h2>
+                <img
+                src="/assets/servicepage/delivery-truck-accidents"
                 alt="Car Accident"
-
-                className="w-full"
-              />
-
-              <p className="text-base md:text-lg"></p>
-              <p className="text-base md:text-lg"></p>
-            
-        
-          <div>
-            <p className="text-base md:text-lg font-bold mb-3"></p>
-            <p className="text-base md:text-lg"></p>
-          </div>
-          <div>
-            <p className="text-base md:text-lg font-bold mb-3"> </p>
-            <p className="text-base md:text-lg"></p>
-          </div>
-            </div>`,
+                className="w-full"/>
+                <p className="text-base md:text-lg"></p>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"></p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"> </p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+              </div>`,
   },
   {
     icon: "/assets/servicepage/icon/boat-icon.png",
@@ -168,15 +161,22 @@ export const allServiceData = [
               </h2>
 
               <img
-                src="/assets/blogpage/placeholder.png"
+                src="/assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
               />
 
-              <p className="text-base md:text-lg"></p>
-              <p className="text-base md:text-lg"></p>
-            </div>`,
+                <p className="text-base md:text-lg"></p>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"></p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"> </p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+              </div>`,
   },
   {
     icon: "/assets/servicepage/icon/rv-icon.png",
@@ -188,15 +188,22 @@ export const allServiceData = [
               </h2>
 
               <img
-                src="/assets/blogpage/placeholder.png"
+                src="/assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
               />
 
-              <p className="text-base md:text-lg"></p>
-              <p className="text-base md:text-lg"></p>
-            </div>`,
+                <p className="text-base md:text-lg"></p>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"></p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"> </p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+              </div>`,
   },
   {
     icon: "/assets/servicepage/icon/airplane-icon.png",
@@ -208,15 +215,22 @@ export const allServiceData = [
               </h2>
 
               <img
-                src="/assets/blogpage/placeholder.png"
+                src="/assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
               />
 
-              <p className="text-base md:text-lg"></p>
-              <p className="text-base md:text-lg"></p>
-            </div>`,
+                <p className="text-base md:text-lg"></p>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"></p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"> </p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+              </div>`,
   },
   {
     icon: "/assets/servicepage/icon/ride-share-icon.png",
@@ -228,15 +242,22 @@ export const allServiceData = [
               </h2>
 
               <img
-                src="/assets/blogpage/placeholder.png"
+                src="/assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
               />
 
-              <p className="text-base md:text-lg"></p>
-              <p className="text-base md:text-lg"></p>
-            </div>`,
+                <p className="text-base md:text-lg"></p>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"></p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"> </p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+              </div>`,
   },
   {
     icon: "/assets/servicepage/icon/truck-icon-2.png",
@@ -248,15 +269,22 @@ export const allServiceData = [
               </h2>
 
               <img
-                src="/assets/blogpage/placeholder.png"
+                src="/assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
               />
 
-              <p className="text-base md:text-lg"></p>
-              <p className="text-base md:text-lg"></p>
-            </div>`,
+                <p className="text-base md:text-lg"></p>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"></p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"> </p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+              </div>`,
   },
   {
     icon: "/assets/servicepage/icon/motorcycle-icon.png",
@@ -268,15 +296,22 @@ export const allServiceData = [
               </h2>
 
               <img
-                src="/assets/blogpage/placeholder.png"
+                src="/assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
               />
 
-              <p className="text-base md:text-lg"></p>
-              <p className="text-base md:text-lg"></p>
-            </div>`,
+                <p className="text-base md:text-lg"></p>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"></p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"> </p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+              </div>`,
   },
   {
     icon: "/assets/servicepage/icon/dui-icon.png",
@@ -288,15 +323,22 @@ export const allServiceData = [
               </h2>
 
               <img
-                src="/assets/blogpage/placeholder.png"
+                src="/assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
               />
 
-              <p className="text-base md:text-lg"></p>
-              <p className="text-base md:text-lg"></p>
-            </div>`,
+                <p className="text-base md:text-lg"></p>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"></p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"> </p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+              </div>`,
   },
   {
     icon: "/assets/servicepage/icon/bicycle-icon.png",
@@ -308,15 +350,22 @@ export const allServiceData = [
               </h2>
 
               <img
-                src="/assets/blogpage/placeholder.png"
+                src="/assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
               />
 
-              <p className="text-base md:text-lg"></p>
-              <p className="text-base md:text-lg"></p>
-            </div>`,
+                <p className="text-base md:text-lg"></p>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"></p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"> </p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+              </div>`,
   },
   {
     icon: "/assets/servicepage/icon/catastrophic-icon.png",
@@ -328,15 +377,22 @@ export const allServiceData = [
               </h2>
 
               <img
-                src="/assets/blogpage/placeholder.png"
+                src="/assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
               />
 
-              <p className="text-base md:text-lg"></p>
-              <p className="text-base md:text-lg"></p>
-            </div>`,
+                <p className="text-base md:text-lg"></p>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"></p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"> </p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+              </div>`,
   },
   {
     icon: "/assets/servicepage/icon/insurance-icon.png",
@@ -348,15 +404,22 @@ export const allServiceData = [
               </h2>
 
               <img
-                src="/assets/blogpage/placeholder.png"
+                src="/assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
               />
 
-              <p className="text-base md:text-lg"></p>
-              <p className="text-base md:text-lg"></p>
-            </div>`,
+                <p className="text-base md:text-lg"></p>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"></p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"> </p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+              </div>`,
   },
   {
     icon: "/assets/servicepage/icon/pedestrian-icon.png",
@@ -368,15 +431,22 @@ export const allServiceData = [
               </h2>
 
               <img
-                src="/assets/blogpage/placeholder.png"
+                src="/assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
               />
 
-              <p className="text-base md:text-lg"></p>
-              <p className="text-base md:text-lg"></p>
-            </div>`,
+                <p className="text-base md:text-lg"></p>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"></p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"> </p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+              </div>`,
   },
   {
     icon: "/assets/servicepage/icon/lawyer-icon.png",
@@ -388,15 +458,22 @@ export const allServiceData = [
               </h2>
 
               <img
-                src="/assets/blogpage/placeholder.png"
+                src="/assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
               />
 
-              <p className="text-base md:text-lg"></p>
-              <p className="text-base md:text-lg"></p>
-            </div>`,
+                <p className="text-base md:text-lg"></p>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"></p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"> </p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+              </div>`,
   },
   {
     icon: "/assets/servicepage/icon/premises-icon.png",
@@ -408,7 +485,7 @@ export const allServiceData = [
               </h2>
 
               <img
-                src="/assets/blogpage/placeholder.png"
+                src="/assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
@@ -429,7 +506,7 @@ export const allServiceData = [
               </h2>
 
               <img
-                src="/assets/blogpage/placeholder.png"
+                src="/assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
@@ -457,15 +534,22 @@ export const allServiceData = [
               </h2>
 
               <img
-                src="/assets/blogpage/placeholder.png"
+                src="/assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
               />
 
-              <p className="text-base md:text-lg"></p>
-              <p className="text-base md:text-lg"></p>
-            </div>`,
+                <p className="text-base md:text-lg"></p>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"></p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"> </p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+              </div>`,
   },
   {
     icon: "/assets/servicepage/icon/surgery-icon.png",
@@ -477,15 +561,22 @@ export const allServiceData = [
               </h2>
 
               <img
-                src=" /assets/blogpage/placeholder.png"
+                src=" /assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
               />
 
-              <p className="text-base md:text-lg"></p>
-              <p className="text-base md:text-lg"></p>
-            </div>`,
+                <p className="text-base md:text-lg"></p>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"></p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"> </p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+              </div>`,
   },
   {
     icon: "/assets/servicepage/icon/fall-icon.png",
@@ -497,7 +588,7 @@ export const allServiceData = [
               </h2>
 
               <img
-                src=" /assets/blogpage/placeholder.png"
+                src=" /assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
@@ -541,15 +632,22 @@ export const allServiceData = [
               </h2>
 
               <img
-                src=" /assets/blogpage/placeholder.png"
+                src=" /assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
               />
 
-              <p className="text-base md:text-lg"></p>
-              <p className="text-base md:text-lg"></p>
-            </div>`,
+                <p className="text-base md:text-lg"></p>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"></p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1"> </p>
+                  <p className="text-base md:text-lg"></p>
+                </div>
+              </div>`,
   },
   {
     icon: "/assets/servicepage/icon/dog-bite-icon.png",
@@ -561,7 +659,7 @@ export const allServiceData = [
               </h2>
 
               <img
-                src=" /assets/blogpage/placeholder.png"
+                src=" /assets/servicepage/placeholder.png"
                 alt="Car Accident"
 
                 className="w-full"
