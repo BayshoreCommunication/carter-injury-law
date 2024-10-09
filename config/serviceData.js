@@ -77,13 +77,13 @@ export const allServiceData = [
     icon: "/assets/servicepage/icon/gavel-icon.png",
     title: "Auto Accident Personal Injury Litigation",
     slug: "auto-accident-personal-injury-litigation",
-    details: `    <div className="w-full flex flex-col gap-2 lg:gap-4">
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
     <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
       Tampa Bay Auto Accidents Lawyer
     </h2>
 
     <img
-      src="/assets/blogpage/placeholder.png"
+      src="/assets/blogpage/auto-accident-personal-injury-litigation.png"
       alt="Car Accident"
       width={725}
       height={510}
@@ -129,7 +129,7 @@ export const allServiceData = [
               </h2>
 
               <img
-                src="/assets/blogpage/placeholder.png"
+                src="/assets/blogpage/delivery-truck-accidents"
                 alt="Car Accident"
 
                 className="w-full"

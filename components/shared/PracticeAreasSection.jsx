@@ -14,7 +14,7 @@ const PracticeAreasSection = () => {
             PRACTICE AREAS
           </h2>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8  h-full text-center">
+        <div className="grid grid-c7ls-1 lg:grid-cols-3 gap-4 lg:gap-8  h-full text-center">
           <ScrollMotionEffect effect="fade-up" duration="2000">
             <div className="p-8 rounded-2xl border-1 border-[#] flex flex-col gap-3 h-full">
               <Link
