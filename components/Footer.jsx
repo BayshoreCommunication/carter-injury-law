@@ -94,7 +94,7 @@ const Footer = () => {
                   AREAS OF PRACTICE
                 </h4>
                 <Link
-                  href={`/areas-of-practice/tampa-bay-auto-accidents-lawyer`}
+                  href={`/areas-of-practice/tampa-bay-personal-injury-lawyer`}
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   PERSONAL INJURY
@@ -106,26 +106,26 @@ const Footer = () => {
                   AUTO ACCIDENTS
                 </Link>
                 <Link
-                  href="/areas-of-practice/tampa-bay-auto-accidents-lawyer"
+                  href="/areas-of-practice/slip-fall-personal-injury-litigation"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   SLIP & FALL
                 </Link>
                 <Link
-                  href="/areas-of-practice/tampa-bay-auto-accidents-lawyer"
+                  href="/areas-of-practice/medical-malpractice-personal-injury-litigation"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   MEDICAL MALPRACTICE
                 </Link>
                 <Link
-                  href="/areas-of-practice/tampa-bay-auto-accidents-lawyer"
+                  href="/areas-of-practice/premises-liability-personal-injury-litigation"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   PREMISES LIABILITY
                 </Link>
 
                 <Link
-                  href="/areas-of-practice/tampa-bay-auto-accidents-lawyer"
+                  href="/areas-of-practice/dog-bites-personal-injury-litigation"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   DOG Bites

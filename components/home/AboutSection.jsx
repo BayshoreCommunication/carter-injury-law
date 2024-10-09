@@ -9,25 +9,27 @@ const AboutSection = () => {
       <div className="grid grid-cols-1 xl:grid-cols-2 items-center justify-center md:justify-start gap-x-6 xl:gap-x-16 md:mt-[-50px] mt-[16px]">
         <ScrollMotionEffect effect="fade-right" duration="2000">
           <div className="flex flex-col gap-y-6">
+            <h1 className="font-semibold text-2xl text-[#55545A]">
+              Carter Injury Law: Justice Assured by Your Tampa Personal Injury
+              Attorney, Florida
+            </h1>
             <p className="text-lg text-[#55545A]">
-              <strong>DON’T GO IT ALONE.</strong> IF YOU’VE BEEN INJURED DUE TO
-              THE FAULT OF SOMEONE ELSE, HAVING AN EXPERIENCED AND COMPASSIONATE
-              ATTORNEY IN YOUR CORNER IS CRUCIAL.
+              {`Don't face injury alone. If someone else's negligence caused you
+              harm, having an experienced and compassionate attorney on your
+              side is crucial. Carter Injury Law, your diligent personal injury
+              attorney in Tampa, Florida, was founded on the belief that every
+              case matters, regardless of its magnitude. We treat our clients
+              like family, advocating open communication. You're way more than
+              just a case number to us.`}
             </p>
             <p className="text-lg text-[#55545A]">
-              CARTER INJURY LAW WAS FOUNDED UPON THE BELIEF THAT EVERY CASE
-              MATTERS, NO MATTER HOW BIG OR SMALL. WE TREAT OUR CLIENTS LIKE
-              FAMILY, PROVIDING OPEN LINES OF COMMUNICATION. YOU’RE NOT JUST A
-              NUMBER, AND WE KNOW THAT.
+              {`Whether you've been hurt in an auto accident, a slip and fall, or
+              due to medical malpractice, we offer a free consultation and case
+              evaluation. Contact us without worry about upfront fees or costs.
+              You don’t pay us anything at the beginning. Carter Injury Law only
+              gets paid if we win your case.`}
             </p>
-            <p className="text-lg text-[#55545A]">
-              WHETHER YOU’VE BEEN INJURED IN AN AUTO ACCIDENT, A SLIP AND FALL,
-              OR BY MEDICAL MALPRACTICE, WE OFFER A FREE CONSULTATION AND CASE
-              EVALUATION SO YOU CAN FEEL CONFIDENT IN CONTACTING US WITHOUT THE
-              RISK OF ANY UPFRONT FEES OR COSTS. YOU DON’T PAY US ANYTHING AT
-              THE BEGINNING. CARTER INJURY LAW ONLY GETS PAID IF YOU WIN YOUR
-              CASE.
-            </p>
+
             <div className="hidden xl:flex mt-6">
               <Link
                 href="/contact"
