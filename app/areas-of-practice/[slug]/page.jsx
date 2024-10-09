@@ -33,6 +33,7 @@ import { notFound } from "next/navigation";
 import PracticeAreaHeader from "@/components/practice-area/PracticeAreaHeader";
 import { allServiceData } from "@/config/serviceData";
 import PracticeAreaSidebarCard from "@/components/practice-area/PracticeAreaSidebarCard";
+import PracticeAreaDetailsHeader from "@/components/practice-area/PracticeAreaDetailsHeader";
 
 const css = `
   h1{
@@ -85,7 +86,7 @@ const page = async ({ params }) => {
         <meta name="description" content="" />
       </Head>
       <style>{css}</style>
-      <PracticeAreaHeader />
+      <PracticeAreaDetailsHeader title={servicesDetails[0]?.title} />
       <div>
         <SectionLayout bg="bg-white">
           <div className="grid gap-16 gird-col-1 sm:grid-cols-3">

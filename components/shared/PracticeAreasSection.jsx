@@ -2,6 +2,7 @@ import React from "react";
 import SectionLayout from "./SectionLayout";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 import Link from "next/link";
+import { allServiceData } from "@/config/serviceData";
 
 const PracticeAreasSection = () => {
   return (
@@ -17,216 +18,53 @@ const PracticeAreasSection = () => {
         <div className="grid grid-c7ls-1 lg:grid-cols-3 gap-4 lg:gap-8  h-full text-center">
           <ScrollMotionEffect effect="fade-up" duration="2000">
             <div className="p-8 rounded-2xl border-1 border-[#] flex flex-col gap-3 h-full">
-              <Link
-                href={`/areas-of-practice/tampa-bay-auto-accidents-lawyer`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Tampa Bay Auto Accidents Lawyer
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-
-              <Link
-                href={`/areas-of-practice/auto-accident-personal-injury-litigation`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Auto Accident Personal Injury Litigation
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-
-              <Link
-                href={`/areas-of-practice/delivery-truck-accidents`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Delivery Truck Accidents
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-
-              <Link
-                href={`/areas-of-practice/boating-accidents`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Boating Accidents
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-
-              <Link
-                href={`/areas-of-practice/boating-accidents`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                RV Accidents
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-
-              <Link
-                href={`/areas-of-practice/airline-injuries`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Airline Injuries
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-
-              <Link
-                href={`/areas-of-practice/uber-and-lyft-accidents`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Uber & Lyft Accidents
-              </Link>
+              {allServiceData?.slice(0, 7).map((el, index) => (
+                <React.Fragment key={index}>
+                  <Link
+                    href={`/areas-of-practice/${el?.slug}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
+                  >
+                    {el?.title}
+                  </Link>
+                  <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+                </React.Fragment>
+              ))}
             </div>
           </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-up" duration="2000">
             <div className="p-8 rounded-2xl border-1 border-[#] flex flex-col gap-4 h-full">
-              <Link
-                href={`/areas-of-practice/tampa-bay Truck Accident Lawyer`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Tampa Bay Truck Accident Lawyer
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-
-              <Link
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Motorcycle Accidents
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-              <Link
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                DUI Injuries
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-              <Link
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Bicycle Accidents
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-              <Link
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Catastrophic Injuries
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-              <Link
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Motorist Insurance Claims Litigation
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-              <Link
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Pedestrian Personal Injury Litigation
-              </Link>
+              {allServiceData?.slice(8, 14).map((el, index) => (
+                <React.Fragment key={index}>
+                  <Link
+                    href={`/areas-of-practice/${el?.slug}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
+                  >
+                    {el?.title}
+                  </Link>
+                  <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+                </React.Fragment>
+              ))}
             </div>
           </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-up" duration="2000">
             <div className="p-8 rounded-2xl border-1 border-[#] flex flex-col gap-4 h-full">
-              <Link
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Tampa Bay Personal Injury Lawyer
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-              <Link
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Pain & suffering Personal Injury Litigation
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-              <Link
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Plastic Surgery Personal Injury Litigation
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-              <Link
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Slip And Fall Personal Injury Litigation
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-              <Link
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Wrongful Personal Injury Litigation
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-              <Link
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Dog Bites Personal Injury Litigation
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-              <Link
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Premises Liability Personal Injury Litigation
-              </Link>
-              <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
-              <Link
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
-              >
-                Medical Malpractice Personal Injury Litigation
-              </Link>
+              {allServiceData?.slice(15, -1).map((el, index) => (
+                <React.Fragment key={index}>
+                  <Link
+                    href={`/areas-of-practice/${el?.slug}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg font-medium text-[#CE2523] hover:text-black duration-500"
+                  >
+                    {el?.title}
+                  </Link>
+                  <hr className="h-[1px] my-0 bg-slate-200 border-0 w-full" />
+                </React.Fragment>
+              ))}
             </div>
           </ScrollMotionEffect>
         </div>

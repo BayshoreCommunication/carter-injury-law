@@ -13,7 +13,7 @@ const PracticeAreaSidebarCard = ({ allServiceData }) => {
   return (
     <div>
       {/* Practice Areas Section */}
-      <div className="w-full flex flex-col gap-6 md:gap-10 mt-0 md:mt-10 lg:mt-10 xl:mt-52">
+      <div className="w-full flex flex-col gap-6 md:gap-10">
         <div className="shadow-[0_0_30px_rgba(0,0,0,0.3)] p-5 lg:p-8">
           <div className="flex items-center h-full gap-4">
             <div className="w-[30%] shrink-0">
