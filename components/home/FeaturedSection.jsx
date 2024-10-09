@@ -32,14 +32,20 @@ const FeaturedSection = () => {
                   Dog bite and need a personal injury layer
                 </h2>
                 <p className="text-lg text-[#55545A]">
-                  Lorem ipsum odor amet, consectetuer adipiscing elit. Nibh
-                  tristique nascetur nostra convallis, senectus maximus odio.
-                  Nam dapibus gravida praesent dui tincidunt nulla sem. Dictum
-                  maecenas nam leo morbi scelerisque eros?
+                  Dog bite personal injury litigation involves legal
+                  representation for individuals who have been injured as a
+                  result of a dog attack. These cases can encompass a range of
+                  injuries, from minor cuts and bruises to severe lacerations,
+                  infections, and emotional trauma.
                 </p>
                 <p className="text-lg text-[#55545A]">
-                  Lorem ipsum odor amet, consectetuer adipiscing elit. Nibh
-                  tristique nascetur nostra convallis, senectus
+                  {`This service is for individuals in Florida who have sustained
+                  injuries from dog bites, whether the attack occurred in public
+                  spaces, private properties, or while interacting with a
+                  neighbor’s pet. If you or a loved one has been bitten by a dog
+                  and is experiencing physical and emotional distress due to the
+                  incident, you deserve legal representation that understands
+                  the complexities of these cases.`}
                 </p>
                 <div className="flex mt-1 lg:mt-5">
                   <Link
@@ -61,14 +67,21 @@ const FeaturedSection = () => {
                   Car accident and need a personal injury layer
                 </h2>
                 <p className="text-lg text-[#55545A]">
-                  Lorem ipsum odor amet, consectetuer adipiscing elit. Nibh
-                  tristique nascetur nostra convallis, senectus maximus odio.
-                  Nam dapibus gravida praesent dui tincidunt nulla sem. Dictum
-                  maecenas nam leo morbi scelerisque eros?
+                  {` Auto accident personal injury litigation involves legal
+                  representation for victims injured in car accidents due to
+                  another party's negligence. This service helps clients seek
+                  compensation for medical expenses, lost wages, property
+                  damage, and emotional suffering.`}
                 </p>
                 <p className="text-lg text-[#55545A]">
-                  Lorem ipsum odor amet, consectetuer adipiscing elit. Nibh
-                  tristique nascetur nostra convallis, senectus
+                  {`It is important that you consult with an attorney as soon as
+                  possible after your injury to make sure your rights are
+                  protected, and you do not do anything that might jeopardize
+                  your case. The attorneys at Carter Injury Law, P.A. stand
+                  ready to fight for you if you’ve been injured in a motor
+                  vehicle accident, slip and fall, trip and fall, dog bite, or
+                  any other incident in which were you were injured due to
+                  another’s negligence.`}
                 </p>
                 <div className="flex mt-1  lg:mt-5">
                   <Link
