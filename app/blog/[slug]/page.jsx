@@ -36,7 +36,7 @@ p {
 
 ul {
   list-style-type: disc;
-  margin-left: 30px;
+  // margin-left: 30px;
 }
 
 `;
