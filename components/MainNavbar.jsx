@@ -66,22 +66,22 @@ const MainNavbar = () => {
   return (
     <section className={"relative z-50"}>
       <div className="bg-gradient-to-r  from-[#1E2538]  from-50% to-primary to-50% border-b-1 hidden md:block">
-        <div className="flex  container">
+        <div className="flex px-4 md:px-6 2xl:px-0 2xl:container mx-auto">
           <div
-            className="w-[65%] 2xl:w-[68%]
+            className="w-[70%] lg:w-[82%] xl:w-[82%] 2xl:w-[68%]
            border-t-[100px] border-t-[#1E2538]
            border-r-[50px] border-r-transparent
            relative"
           >
             <div className="absolute top-0 bottom-0 -mt-20 text-white">
-              <div className=" flex items-center gap-x-8">
+              <div className=" flex items-center gap-x-10 2xl:gap-x-16">
                 <Link href={"/"}>
                   <Image
                     src="/assets/site-logo/logo.png"
                     alt="footer logo"
                     width={500}
                     height={500}
-                    className="cursor-pointer max-w-[400px] xl:max-w-[500px] h-auto"
+                    className="cursor-pointer w-[400px]  h-auto"
                   />
                 </Link>
                 <Image
@@ -89,25 +89,25 @@ const MainNavbar = () => {
                   alt="footer logo"
                   width={400}
                   height={500}
-                  className="hidden 2xl:block"
+                  className="hidden lg:block  lg:w-[240px] xl:w-[400px] 2xl:w-[400px] h-auto mx-auto "
                 />
               </div>
             </div>
           </div>
 
-          <div className="w-[35%] 2xl:w-[32%] flex items-center justify-end">
-            <div className="flex items-center gap-x-10">
-              <div className="hidden 2xl:block">
-                <h2 className="text-white font-bold text-xl 2xl:text-2xl ">
+          <div className="w-[35%] xl:w-[35%] 2xl:w-[32%] flex items-center justify-end">
+            <div className="flex items-center justify-center  gap-x-8">
+              <div className="hidden lg:block shrink-0">
+                <h2 className="text-white font-bold text-lg 2xl:text-xxl text-center">
                   Call US <br />
                   24/7{" "}
                 </h2>
               </div>
               <div className="">
-                <h6 className="text-white font-medium text-sm xl:text-lg">
+                <h6 className="text-white font-medium text-[14px]  2xl:text-lg">
                   Free Confidential case Evaluation
                 </h6>
-                <h2 className="text-white font-bold  text-xl xl:text-3xl mt-2 xl:mt-0">
+                <h2 className="text-white font-semibold  text-xl xl:text-2xl 2xl:text-3xl mt-2 xl:mt-0">
                   (813) 922-0228
                 </h2>
               </div>
@@ -135,7 +135,7 @@ const MainNavbar = () => {
           <Navbar
             isMenuOpen={isMenuOpen}
             onMenuOpenChange={setIsMenuOpen}
-            className={`!mx-0 !px-0 pb-0 pt-2 md:pb-3 md:pt-4 bg-primary`}
+            className={`!mx-0 !px-0 pb-0 pt-0  md:pb-3 md:pt-4 bg-primary`}
           >
             <NavbarContent>
               <NavbarBrand>

@@ -27,16 +27,17 @@ const FAQ = () => {
             }
             title={
               <span className="text-lg lg:text-2xl font-medium">
-                WHEN DO I NEED A FLORIDA PERSONAL INJURY LAWYER?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </span>
             }
             className="text-lg text-[#4A4A4A] "
           >
             <p>
-              David Carter is a skilled personal injury lawyer with [number]
-              years of experience, dedicated to helping clients recover
-              compensation for accidents, medical malpractice, and wrongful
-              death cases. Compassionate and results-driven.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+              voluptatum laborum numquam blanditiis harum quisquam eius sed odit
+              fugiat iusto fuga praesentium optio, eaque rerum! Provident
+              similique accusantium nemo autem.
             </p>
           </AccordionItem>
           <AccordionItem
@@ -51,16 +52,18 @@ const FAQ = () => {
             }
             title={
               <span className="text-lg lg:text-2xl font-medium">
-                HOW MUCH DOES A FLORIDA CAR CRASH LAWYER COST?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia, molestiae quas
               </span>
             }
             className="text-lg text-[#4A4A4A] "
           >
             <p>
-              David Carter is a skilled personal injury lawyer with [number]
-              years of experience, dedicated to helping clients recover
-              compensation for accidents, medical malpractice, and wrongful
-              death cases. Compassionate and results-driven.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+              voluptatum laborum numquam blanditiis harum quisquam eius sed odit
+              fugiat iusto fuga praesentium optio, eaque rerum! Provident
+              similique accusantium nemo autem.
             </p>
           </AccordionItem>
           <AccordionItem
@@ -75,16 +78,17 @@ const FAQ = () => {
             }
             title={
               <span className="text-lg lg:text-2xl font-medium">
-                HOW DO I KNOW WHAT MY CASE IS WORTH?
+                Lorem ipsum dolor sit amet consectetur
               </span>
             }
             className="text-lg text-[#4A4A4A]   "
           >
             <p>
-              David Carter is a skilled personal injury lawyer with [number]
-              years of experience, dedicated to helping clients recover
-              compensation for accidents, medical malpractice, and wrongful
-              death cases. Compassionate and results-driven.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+              voluptatum laborum numquam blanditiis harum quisquam eius sed odit
+              fugiat iusto fuga praesentium optio, eaque rerum! Provident
+              similique accusantium nemo autem.
             </p>
           </AccordionItem>
           <AccordionItem
@@ -99,16 +103,17 @@ const FAQ = () => {
             }
             title={
               <span className="text-lg lg:text-2xl font-medium">
-                PERSONAL INJURY PROTECTION COVERAGE
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
               </span>
             }
             className="text-lg text-[#4A4A4A] "
           >
             <p>
-              David Carter is a skilled personal injury lawyer with [number]
-              years of experience, dedicated to helping clients recover
-              compensation for accidents, medical malpractice, and wrongful
-              death cases. Compassionate and results-driven.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+              voluptatum laborum numquam blanditiis harum quisquam eius sed odit
+              fugiat iusto fuga praesentium optio, eaque rerum! Provident
+              similique accusantium nemo autem.
             </p>
           </AccordionItem>
           <AccordionItem
@@ -123,16 +128,17 @@ const FAQ = () => {
             }
             title={
               <span className="text-lg lg:text-2xl font-medium">
-                CONSULT AN EXPERIENCED INJURY LAWYER
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </span>
             }
             className="text-lg text-[#4A4A4A] "
           >
             <p>
-              David Carter is a skilled personal injury lawyer with [number]
-              years of experience, dedicated to helping clients recover
-              compensation for accidents, medical malpractice, and wrongful
-              death cases. Compassionate and results-driven.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+              voluptatum laborum numquam blanditiis harum quisquam eius sed odit
+              fugiat iusto fuga praesentium optio, eaque rerum! Provident
+              similique accusantium nemo autem.
             </p>
           </AccordionItem>
           <AccordionItem
@@ -147,16 +153,17 @@ const FAQ = () => {
             }
             title={
               <span className="text-lg lg:text-2xl font-medium">
-                AFTER YOUR FLORIDA CAR ACCIDENT
+                Lorem ipsum dolor sit amet consectetur
               </span>
             }
             className="text-lg text-[#4A4A4A] "
           >
             <p>
-              David Carter is a skilled personal injury lawyer with [number]
-              years of experience, dedicated to helping clients recover
-              compensation for accidents, medical malpractice, and wrongful
-              death cases. Compassionate and results-driven.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+              voluptatum laborum numquam blanditiis harum quisquam eius sed odit
+              fugiat iusto fuga praesentium optio, eaque rerum! Provident
+              similique accusantium nemo autem.
             </p>
           </AccordionItem>
           <AccordionItem
@@ -171,16 +178,17 @@ const FAQ = () => {
             }
             title={
               <span className="text-lg lg:text-2xl font-medium">
-                CLAIM TIMELINE
+                Lorem ipsum dolor sit amet
               </span>
             }
             className="text-lg text-[#4A4A4A] "
           >
             <p>
-              David Carter is a skilled personal injury lawyer with [number]
-              years of experience, dedicated to helping clients recover
-              compensation for accidents, medical malpractice, and wrongful
-              death cases. Compassionate and results-driven.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
+              voluptatum laborum numquam blanditiis harum quisquam eius sed odit
+              fugiat iusto fuga praesentium optio, eaque rerum! Provident
+              similique accusantium nemo autem.
             </p>
           </AccordionItem>
         </Accordion>

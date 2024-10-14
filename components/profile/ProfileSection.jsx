@@ -28,9 +28,9 @@ const ProfileSection = () => {
                     David Carter
                   </h2>
                   <p className="font-light text-base md:text-xl mb-3 lg:mb-6 ">
-                    David Carter is a skilled personal injury lawyer with
-                    [number] years of experience, dedicated to helping clients
-                    recover compensation for accidents, medical malpractice, and
+                    David Carter is a skilled personal injury lawyer with 10+
+                    years of experience, dedicated to helping clients recover
+                    compensation for accidents, medical malpractice, and
                     wrongful death cases. Compassionate and results-driven.
                   </p>
                   <div className="text-white flex gap-2">
@@ -94,11 +94,8 @@ const ProfileSection = () => {
                       className="text-lg text-[#4A4A4A] "
                     >
                       <p>
-                        David Carter is a skilled personal injury lawyer with
-                        [number] years of experience, dedicated to helping
-                        clients recover compensation for accidents, medical
-                        malpractice, and wrongful death cases. Compassionate and
-                        results-driven.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Maxime mollitia,
                       </p>
                     </AccordionItem>
                     <AccordionItem
@@ -122,11 +119,8 @@ const ProfileSection = () => {
                       className="text-lg text-[#4A4A4A] "
                     >
                       <p>
-                        David Carter is a skilled personal injury lawyer with
-                        [number] years of experience, dedicated to helping
-                        clients recover compensation for accidents, medical
-                        malpractice, and wrongful death cases. Compassionate and
-                        results-driven.
+                        molestiae quas vel sint commodi repudiandae consequuntur
+                        voluptatum laborum
                       </p>
                     </AccordionItem>
                     <AccordionItem
@@ -150,11 +144,8 @@ const ProfileSection = () => {
                       className="text-lg text-[#4A4A4A]   "
                     >
                       <p>
-                        David Carter is a skilled personal injury lawyer with
-                        [number] years of experience, dedicated to helping
-                        clients recover compensation for accidents, medical
-                        malpractice, and wrongful death cases. Compassionate and
-                        results-driven.
+                        numquam blanditiis harum quisquam eius sed odit fugiat
+                        iusto fuga praesentium
                       </p>
                     </AccordionItem>
                     <AccordionItem
@@ -178,11 +169,8 @@ const ProfileSection = () => {
                       className="text-lg text-[#4A4A4A] "
                     >
                       <p>
-                        David Carter is a skilled personal injury lawyer with
-                        [number] years of experience, dedicated to helping
-                        clients recover compensation for accidents, medical
-                        malpractice, and wrongful death cases. Compassionate and
-                        results-driven.
+                        optio, eaque rerum! Provident similique accusantium nemo
+                        autem.
                       </p>
                     </AccordionItem>
                   </Accordion>
@@ -209,9 +197,9 @@ const ProfileSection = () => {
                     Robert Johnson
                   </h2>
                   <p className="font-light text-base md:text-xl mb-3 lg:mb-6 ">
-                    Robert Johnson is a skilled personal injury lawyer with
-                    [number] years of experience, dedicated to helping clients
-                    recover compensation for accidents, medical malpractice, and
+                    Robert Johnson is a skilled personal injury lawyer with 10+
+                    years of experience, dedicated to helping clients recover
+                    compensation for accidents, medical malpractice, and
                     wrongful death cases. Compassionate and results-driven.
                   </p>
                   <div className="text-white flex gap-2">
@@ -275,11 +263,8 @@ const ProfileSection = () => {
                       className="text-lg text-[#4A4A4A] "
                     >
                       <p>
-                        David Carter is a skilled personal injury lawyer with
-                        [number] years of experience, dedicated to helping
-                        clients recover compensation for accidents, medical
-                        malpractice, and wrongful death cases. Compassionate and
-                        results-driven.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Maxime mollitia,
                       </p>
                     </AccordionItem>
                     <AccordionItem
@@ -303,11 +288,8 @@ const ProfileSection = () => {
                       className="text-lg text-[#4A4A4A] "
                     >
                       <p>
-                        David Carter is a skilled personal injury lawyer with
-                        [number] years of experience, dedicated to helping
-                        clients recover compensation for accidents, medical
-                        malpractice, and wrongful death cases. Compassionate and
-                        results-driven.
+                        molestiae quas vel sint commodi repudiandae consequuntur
+                        voluptatum laborum
                       </p>
                     </AccordionItem>
                     <AccordionItem
@@ -331,11 +313,8 @@ const ProfileSection = () => {
                       className="text-lg text-[#4A4A4A]   "
                     >
                       <p>
-                        David Carter is a skilled personal injury lawyer with
-                        [number] years of experience, dedicated to helping
-                        clients recover compensation for accidents, medical
-                        malpractice, and wrongful death cases. Compassionate and
-                        results-driven.
+                        numquam blanditiis harum quisquam eius sed odit fugiat
+                        iusto fuga praesentium
                       </p>
                     </AccordionItem>
                     <AccordionItem
@@ -359,11 +338,8 @@ const ProfileSection = () => {
                       className="text-lg text-[#4A4A4A] "
                     >
                       <p>
-                        David Carter is a skilled personal injury lawyer with
-                        [number] years of experience, dedicated to helping
-                        clients recover compensation for accidents, medical
-                        malpractice, and wrongful death cases. Compassionate and
-                        results-driven.
+                        optio, eaque rerum! Provident similique accusantium nemo
+                        autem.
                       </p>
                     </AccordionItem>
                   </Accordion>

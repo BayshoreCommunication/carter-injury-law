@@ -138,7 +138,7 @@ const ContactSection = () => {
                 });
               }}
             />
-            <span className="text-orange-600">{formErrors.firstName}</span>
+            <span className="text-primary">{formErrors.firstName}</span>
           </div>
           {/* Last Name */}
           <div className=" w-full">
@@ -156,7 +156,7 @@ const ContactSection = () => {
                 });
               }}
             />
-            <span className="text-orange-600">{formErrors.lastName}</span>
+            <span className="text-primary">{formErrors.lastName}</span>
           </div>
         </div>
         <div className="mb-5 w-full flex flex-col md:flex-row gap-5">
@@ -176,7 +176,7 @@ const ContactSection = () => {
                 });
               }}
             />
-            <span className="text-orange-600">{formErrors.phone}</span>
+            <span className="text-primary">{formErrors.phone}</span>
           </div>
           {/* Zip Code */}
           <div className=" w-full">
@@ -194,7 +194,7 @@ const ContactSection = () => {
                 });
               }}
             />
-            <span className="text-orange-600">{formErrors.zipCode}</span>
+            <span className="text-primary">{formErrors.zipCode}</span>
           </div>
         </div>
         {/* Email */}
@@ -213,7 +213,7 @@ const ContactSection = () => {
               });
             }}
           />
-          <span className="text-orange-600">{formErrors.email}</span>
+          <span className="text-primary">{formErrors.email}</span>
         </div>
         {/* Case Type */}
 
@@ -281,7 +281,7 @@ const ContactSection = () => {
               Insurance Claims
             </option>
           </select>
-          <span className="text-orange-600">{formErrors.caseType}</span>
+          <span className="text-primary">{formErrors.caseType}</span>
         </div>
 
         {/* Text Area */}
@@ -301,7 +301,7 @@ const ContactSection = () => {
               });
             }}
           />
-          <span className="text-orange-600">{formErrors.message}</span>
+          <span className="text-primary">{formErrors.message}</span>
         </div>
 
         <div className="mb-5">
@@ -339,14 +339,14 @@ const ContactSection = () => {
               </p>
             </div>
           </div>
-          <span className="text-orange-600 mt-4 ml-6 text-center">
+          <span className="text-primary mt-4 ml-6 text-center">
             {formErrors.flag}
           </span>
         </div>
         {loading ? (
           <button
             type="submit"
-            className="text-white bg-[#EC1D21] hover:bg-[#E40004]   font-medium  text-base w-full rounded  cursor-pointer px-5 py-2 xl:py-5  text-center uppercase   "
+            className="text-white bg-[#EC1D21]    font-medium  text-base w-full rounded  cursor-pointer px-5 py-2 xl:py-5  text-center uppercase   "
           >
             Sending
           </button>
@@ -354,7 +354,7 @@ const ContactSection = () => {
           <button
             type="submit"
             onClick={handleSubmit}
-            className="text-white bg-[#EC1D21] hover:bg-[#E40004]   font-medium  text-base w-full rounded  cursor-pointer px-5 py-2 xl:py-5 text-center uppercase   "
+            className="text-white bg-[#EC1D21]    font-medium  text-base w-full rounded  cursor-pointer px-5 py-2 xl:py-5 text-center uppercase   "
           >
             <div className=" flex items-center justify-center">
               <div>

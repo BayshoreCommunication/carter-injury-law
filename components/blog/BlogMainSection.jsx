@@ -61,7 +61,7 @@ const BlogMainSection = async () => {
                           <div className=" text-start mt-5">
                             <button
                               type="submit"
-                              className="text-white bg-[#EC1D21] hover:bg-[#E40004] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base w-full sm:w-auto px-10 py-2 text-center uppercase space-x-4  "
+                              className="text-white bg-[#EC1D21]  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base w-full sm:w-auto px-10 py-2 text-center uppercase space-x-4 hover:scale-105  transition duration-300 "
                             >
                               Read More
                             </button>
