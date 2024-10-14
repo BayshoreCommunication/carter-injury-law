@@ -2,7 +2,7 @@ export const testimonialsData = [
   {
     name: "Diane F.",
     review:
-      "Words can not express the gratitude I have for you and your team. As soon as you took over my case, you and your team worked diligently on a resolution. Thank you so much for treating me as a person and showing so much care. You definitely made me feel at ease that my case was in great hands. Thank you so much!!",
+      "Words can not express the gratitude I have for you and your team. As soon as you took over my case, you and your team worked diligently on a resolution. Thank you so much for treating me as a person and showing so much care. You definitely made me feel at ease that my case great hands. Thank you so much!!",
     rating: 5,
   },
   {
