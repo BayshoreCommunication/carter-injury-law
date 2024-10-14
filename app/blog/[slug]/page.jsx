@@ -36,7 +36,6 @@ p {
 
 ul {
   list-style-type: disc;
-  // margin-left: 30px;
 }
 
 `;
