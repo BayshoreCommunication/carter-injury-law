@@ -29,7 +29,7 @@ const CallToAction = () => {
             <ScrollMotionEffect effect="fade-left" duration="2000">
               <a
                 href="tel:+18139220228"
-                className="flex items-center gap-3 px-3 lg:px-8 py-2 lg:py-4 rounded-xl lg:rounded-[20px] border-2 md:border-3 lg:border-5 border-[#000000] bg-white text-xl lg:text-2xl xl:text-3xl"
+                className="flex items-center gap-3 px-3 lg:px-8 py-2 lg:py-4 rounded-xl lg:rounded-[20px] border-2 md:border-3 lg:border-5 border-[#000000] bg-white text-xl lg:text-2xl xl:text-3xl hover:scale-105  transition duration-500"
               >
                 <PiPhoneCallFill color="#ED1B24" size="30" />
                 <span className="font-semibold">(813) 922-0228</span>

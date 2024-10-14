@@ -126,7 +126,7 @@ const HeaderForm = ({ className }) => {
                         });
                       }}
                       id="floating_first_name"
-                      className="block py-2.5 px-0 w-full text-base text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none  focus:outline-none focus:ring-0 focus:border-[#0D3E8A] peer pl-2"
+                      className="block py-2.5 px-0 w-full text-base text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none  focus:outline-none focus:ring-0 focus:border-[#0D3E8A] peer pl-2 active:bg-transparent"
                       placeholder=" "
                       required
                     />
@@ -136,7 +136,7 @@ const HeaderForm = ({ className }) => {
                     >
                       Name
                     </label>
-                    <span className="text-orange-600 text-xs">
+                    <span className="text-primary text-xs">
                       {formErrors.name}
                     </span>
                   </div>
@@ -162,7 +162,7 @@ const HeaderForm = ({ className }) => {
                     >
                       Phone
                     </label>
-                    <span className="text-orange-600 text-xs">
+                    <span className="text-primary text-xs">
                       {formErrors.phone}
                     </span>
                   </div>
@@ -189,7 +189,7 @@ const HeaderForm = ({ className }) => {
                   >
                     Email
                   </label>
-                  <span className="text-orange-600 text-xs">
+                  <span className="text-primary text-xs">
                     {formErrors.email}
                   </span>
                 </div>
@@ -216,7 +216,7 @@ const HeaderForm = ({ className }) => {
                   >
                     How may we help you?
                   </label>
-                  <span className="text-orange-600 text-xs">
+                  <span className="text-primary text-xs">
                     {formErrors.message}
                   </span>
                 </div>
@@ -224,14 +224,14 @@ const HeaderForm = ({ className }) => {
                 <div className="flex justify-center md:justify-start w-full">
                   {/* <button
                     type="submit"
-                    className="text-white bg-[#EC1D21] hover:bg-[#E40004] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base w-full sm:w-auto px-10 py-2 text-center uppercase space-x-4 tracking-[.3em] mx-auto "
+                    className="text-white bg-[#EC1D21]  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base w-full sm:w-auto px-10 py-2 text-center uppercase space-x-4 tracking-[.3em] mx-auto "
                   >
                     Submit
                   </button> */}
                   {loading ? (
                     <Button
                       isLoading
-                      className="text-white bg-[#EC1D21] hover:bg-[#E40004] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base w-full sm:w-auto px-10 py-2 text-center uppercase space-x-4 tracking-[.3em] mx-auto"
+                      className="text-white bg-[#EC1D21]  focus:ring-4 focus:outline-none focus:text-[#EC1D21] font-medium rounded-lg text-base w-full sm:w-auto px-10 py-2 text-center uppercase space-x-4 tracking-[.3em] mx-auto hover:scale-105  transition duration-300"
                       radius="sm"
                       size="lg"
                     >
@@ -239,7 +239,7 @@ const HeaderForm = ({ className }) => {
                     </Button>
                   ) : (
                     <Button
-                      className="text-white bg-[#EC1D21] hover:bg-[#E40004] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base w-full sm:w-auto px-10 py-2 text-center uppercase space-x-4 tracking-[.3em] mx-auto"
+                      className="text-white bg-[#EC1D21]  focus:ring-4 focus:outline-none focus:ring-[#EC1D21] font-medium rounded-lg text-base w-full sm:w-auto px-10 py-2 text-center uppercase space-x-4 tracking-[.3em] mx-auto hover:scale-105  transition duration-300"
                       radius="sm"
                       size="lg"
                       onClick={handleSubmit}

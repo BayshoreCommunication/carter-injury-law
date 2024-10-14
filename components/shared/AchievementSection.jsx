@@ -12,49 +12,49 @@ const AchievementSection = () => {
             alt="achievements"
             width={167}
             height={131}
-            className="mx-auto"
+            className="mx-auto hover:scale-110 duration-300"
           />
           <Image
             src="/assets/shared/achievement-2.png"
             alt="achievements"
             width={158}
             height={131}
-            className="mx-auto"
+            className="mx-auto hover:scale-110 duration-300"
           />
           <Image
             src="/assets/shared/achievement-3.png"
             alt="achievements"
             width={128}
             height={131}
-            className="mx-auto"
+            className="mx-auto hover:scale-110 duration-300"
           />
           <Image
             src="/assets/shared/achievement-4.png"
             alt="achievements"
             width={176}
             height={131}
-            className="mx-auto"
+            className="mx-auto hover:scale-110 duration-300"
           />
           <Image
             src="/assets/shared/achievement-5.png"
             alt="achievements"
             width={130}
             height={131}
-            className="mx-auto"
+            className="mx-auto hover:scale-110 duration-300"
           />
           <Image
             src="/assets/shared/achievement-6.png"
             alt="achievements"
             width={130}
             height={131}
-            className="mx-auto"
+            className="mx-auto hover:scale-110 duration-300"
           />
           <Image
             src="/assets/shared/achievement-7.png"
             alt="achievements"
             width={130}
             height={131}
-            className="mx-auto"
+            className="mx-auto hover:scale-110 duration-300"
           />
         </div>
       </SectionLayout>
