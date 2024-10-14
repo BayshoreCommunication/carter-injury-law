@@ -116,7 +116,7 @@ const page = async ({ params }) => {
                 ?.filter((pub, no) => pub.published === true)
                 ?.map((blogs, index) => (
                   <Link
-                    className="flex items-start gap-6 py-4 shadow-lg bg-white my-3"
+                    className="flex items-start gap-2 ps-3 py-3 drop-shadow-lg bg-white my-3"
                     key={index}
                     href={`/blog/${blogs?.slug}`}
                   >

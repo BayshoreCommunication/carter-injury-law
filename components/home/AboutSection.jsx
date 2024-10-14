@@ -6,7 +6,7 @@ import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 const AboutSection = () => {
   return (
     <SectionLayout bg="">
-      <div className="grid grid-cols-1 xl:grid-cols-2 items-center justify-center md:justify-start gap-x-6 xl:gap-x-16 md:mt-[-50px] mt-[16px]">
+      <div className="grid grid-cols-1 xl:grid-cols-2 items-center justify-center md:justify-start gap-x-6 gap-y-5 xl:gap-x-16 md:mt-[-50px] mt-[16px]">
         <ScrollMotionEffect effect="fade-right" duration="2000">
           <div className="flex flex-col gap-y-6">
             <h1 className="font-semibold text-2xl text-[#55545A]">
@@ -48,7 +48,7 @@ const AboutSection = () => {
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-                title="USA Immigration Attorney Hardam Tripathi, Esq."
+                title=" Devit Carter"
                 loading="lazy"
                 className="w-full h-64 md:h-96"
               ></iframe>

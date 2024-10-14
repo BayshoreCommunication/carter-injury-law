@@ -26,7 +26,7 @@ const TestimonialsHeader = () => {
       </div>
       <div className="block md:hidden">
         <SectionLayout>
-          <HeaderForm className="bg-white" />
+          <HeaderForm className="bg-white max-w-[500px]" />
         </SectionLayout>
       </div>
     </div>

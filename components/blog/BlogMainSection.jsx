@@ -20,7 +20,7 @@ const BlogMainSection = async () => {
   };
 
   return (
-    <div className=" mt-0 lg:mt-40">
+    <div className=" mt-6 md:mt-10 lg:mt-44">
       <SectionLayout>
         <div>
           <div className="w-full lg:max-w-[60%] me-auto">

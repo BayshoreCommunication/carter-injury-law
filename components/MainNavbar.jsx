@@ -68,7 +68,7 @@ const MainNavbar = () => {
       <div className="bg-gradient-to-r  from-[#1E2538]  from-50% to-primary to-50% border-b-1 hidden md:block">
         <div className="flex  container">
           <div
-            className="w-[68%]
+            className="w-[65%] 2xl:w-[68%]
            border-t-[100px] border-t-[#1E2538]
            border-r-[50px] border-r-transparent
            relative"
@@ -81,7 +81,7 @@ const MainNavbar = () => {
                     alt="footer logo"
                     width={500}
                     height={500}
-                    className="cursor-pointer max-w-[500px] h-auto"
+                    className="cursor-pointer max-w-[400px] xl:max-w-[500px] h-auto"
                   />
                 </Link>
                 <Image
@@ -89,16 +89,16 @@ const MainNavbar = () => {
                   alt="footer logo"
                   width={400}
                   height={500}
-                  className="hidden xl:block"
+                  className="hidden 2xl:block"
                 />
               </div>
             </div>
           </div>
 
-          <div className="w-[32%] flex items-center justify-end">
+          <div className="w-[35%] 2xl:w-[32%] flex items-center justify-end">
             <div className="flex items-center gap-x-10">
-              <div className="hidden xl:block">
-                <h2 className="text-white font-bold text-2xl">
+              <div className="hidden 2xl:block">
+                <h2 className="text-white font-bold text-xl 2xl:text-2xl ">
                   Call US <br />
                   24/7{" "}
                 </h2>
