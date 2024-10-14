@@ -55,7 +55,8 @@ const BlogMainSection = async () => {
                             {blogs?.title}
                           </h4>
                           <p className=" text-gray-700 text-start line-clamp-2">
-                            {blogs?.body}
+                            {/* {blogs?.body} */}
+                            {parse(blogs?.body)}
                           </p>
                           <div className=" text-start mt-5">
                             <button
