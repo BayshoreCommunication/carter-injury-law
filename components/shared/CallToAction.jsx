@@ -19,7 +19,7 @@ const CallToAction = () => {
         <div className="flex flex-col  items-center justify-center lg:flex-row md:justify-between gap-4">
           <ScrollMotionEffect effect="fade-right" duration="2000">
             <h2
-              className={`text-white font-semibold text-3xl md:text-4xl text-center lg:text-start  uppercase `}
+              className={`text-white font-semibold text-3xl md:text-4xl text-center lg:text-start uppercase`}
             >
               FREE CONFIDENTIAL CASE EVALUATION
             </h2>
