@@ -116,6 +116,7 @@ const HeaderForm = ({ className }) => {
                 <div className="grid md:grid-cols-2 md:gap-6">
                   <div className="relative z-0 w-full mb-5 group">
                     <input
+                      autocomplete="off"
                       type="text"
                       name="name"
                       value={emailForm.name}
@@ -142,6 +143,7 @@ const HeaderForm = ({ className }) => {
                   </div>
                   <div className="relative z-0 w-full mb-5 group">
                     <input
+                      autocomplete="off"
                       type="text"
                       name="phone"
                       value={emailForm.phone}
@@ -169,6 +171,7 @@ const HeaderForm = ({ className }) => {
                 </div>
                 <div className="relative z-0 w-full mb-5 group">
                   <input
+                    autocomplete="off"
                     type="email"
                     name="email"
                     value={emailForm.email}
@@ -195,6 +198,7 @@ const HeaderForm = ({ className }) => {
                 </div>
                 <div className="relative z-0 w-full mb-5 group">
                   <textarea
+                    autocomplete="off"
                     id="message"
                     rows="2"
                     type="text"
