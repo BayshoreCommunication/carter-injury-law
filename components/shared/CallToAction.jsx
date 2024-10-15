@@ -1,4 +1,3 @@
-import Link from "next/link";
 import SectionLayout from "./SectionLayout";
 import { PiPhoneCallFill } from "react-icons/pi";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
