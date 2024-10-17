@@ -101,10 +101,10 @@ const HeaderForm = ({ className }) => {
         >
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-[#EC1D21] leading-none">
-              DON’T GO
+              Hurt?
             </h1>
             <h1 className="text-4xl md:text-6xl  font-bold text-[#EC1D21] leading-none">
-              IT ALONE
+              We Can Help!
             </h1>
             <p className="text-[16px] md:text-[20px] font-bold py-3">
               FREE CONFIDENTIAL CASE EVALUATION
