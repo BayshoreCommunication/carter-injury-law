@@ -44,7 +44,7 @@ const AboutSection = () => {
           <div className="mt-10 md:mt-0">
             <div className="video-container rounded-3xl overflow-hidden">
               <iframe
-                src={`https://www.youtube.com/embed/oK_kOb6GMMs?si=XWNUepxuo9bFbUOh`}
+                src={`https://www.youtube.com/embed/Zoyqx6B6v1o?si=8Dgos67WSxV-j6s-`}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

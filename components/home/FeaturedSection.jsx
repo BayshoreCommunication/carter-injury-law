@@ -20,12 +20,11 @@ const FeaturedSection = () => {
                 alt="Dog Bite"
                 width={560}
                 height={590}
-                className=" mx-auto"
+                className="mx-auto"
               />
             </ScrollMotionEffect>
           </div>
           <div className="w-full ">
-            {" "}
             <ScrollMotionEffect effect="fade-left" duration="2000">
               <div className="flex flex-col gap-4 w-full ">
                 <h2 className="text-stone-950 !font-semibold text-3xl md:text-5xl mb-3  uppercase ">
@@ -67,7 +66,7 @@ const FeaturedSection = () => {
                   Car accident and need a personal injury layer
                 </h2>
                 <p className="text-lg text-[#55545A]">
-                  {` Auto accident personal injury litigation involves legal
+                  {`Auto accident personal injury litigation involves legal
                   representation for victims injured in car accidents due to
                   another party's negligence. This service helps clients seek
                   compensation for medical expenses, lost wages, property

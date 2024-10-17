@@ -8,22 +8,6 @@ const HeroSection = () => {
   const text = "Hardam Tripathi, Esq.".split(" ");
 
   return (
-    // <div
-    //   className=" w-full"
-    //   style={{
-    //     backgroundImage: "url('/assets/shared/header-bg.png')",
-    //     backgroundSize: "cover",
-    //     backgroundPosition: "center",
-    //     width: "100%",
-    //     height: "auto",
-    //   }}
-    // >
-    //   <SectionLayout bg="">
-    //     <div className="h-[65vh] flex justify-end ">
-    //       <HeaderForm />
-    //     </div>
-    //   </SectionLayout>
-    // </div>
     <div className="">
       <div
         className=" w-full"
@@ -32,20 +16,9 @@ const HeroSection = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100%",
-          height: "auto", // Adjust height as needed
+          height: "auto",
         }}
       >
-        {/* <div className="relative h-[600px] md:h-[530px] lg:h-[65vh]"> */}
-        {/* <Image
-          src="/assets/homepage/header-bg.png"
-          alt="home-banner-bg"
-          layout="fill"
-          objectFit="cover"
-          priority
-          className="z-10 object-center"
-          rel="preload"
-        /> */}
-
         <div className="container pt-4 md:pb-0 md:pt-6 lg:pt-10 ">
           <div className="grid grid-cols-1 md:grid-cols-2 items-end  justify-between gap-x-20">
             <div className="flex items-end justify-center">
@@ -74,3 +47,5 @@ const HeroSection = () => {
 };
 
 export default memo(HeroSection);
+
+
