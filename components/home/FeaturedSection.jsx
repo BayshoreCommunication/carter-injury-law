@@ -16,7 +16,7 @@ const FeaturedSection = () => {
               className="w-full"
             >
               <Image
-                src="/assets/homepage/dog-bite.png"
+                src="/assets/homepage/dog-bite.jpg"
                 alt="Dog Bite"
                 width={560}
                 height={590}
@@ -101,7 +101,7 @@ const FeaturedSection = () => {
               className="w-full"
             >
               <Image
-                src="/assets/homepage/car-accident.png"
+                src="/assets/homepage/car-accident.jpg"
                 alt="Dog Bite"
                 width={560}
                 height={590}
