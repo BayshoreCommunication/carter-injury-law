@@ -59,7 +59,7 @@ const Footer = () => {
                 </h4>
 
                 <Link
-                  href="/about"
+                  href="/about-our-firm"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   ABOUT THE FIRM

@@ -6,7 +6,7 @@ export const SITECONFIG = {
   siteLogo: { url: "/assets/site-logo/10x-tax-pro.png" },
   mainNav: [
     { title: "Home", slug: "/" },
-    { title: "About Us", slug: "/about" },
+    { title: "About Us", slug: "/about-our-firm" },
     { title: "Services", slug: "/services" },
     { title: "Case Studies", slug: "/case-studies" },
     { title: "Blog", slug: "/blog" },
@@ -49,7 +49,7 @@ export const SITECONFIG = {
       },
       {
         title: "About Us",
-        slug: "/about",
+        slug: "/about-our-firm",
       },
       {
         title: "News",
@@ -83,7 +83,7 @@ export const SITECONFIG = {
       },
       {
         title: "(863)-599-6735",
-        slug: "/about-us",
+        slug: "/about-our-firm",
       },
     ],
   },
