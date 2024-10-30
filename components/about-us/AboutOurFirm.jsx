@@ -3,7 +3,11 @@ import React from "react";
 import SectionLayout from "../shared/SectionLayout";
 import { Edu_VIC_WA_NT_Beginner } from "next/font/google";
 
-const edu = Edu_VIC_WA_NT_Beginner({ subsets: ["latin"] });
+const edu = Edu_VIC_WA_NT_Beginner({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  display: "swap",
+});
 const AboutOurFirm = () => {
   return (
     <div className="mt-10 lg:mt-14">

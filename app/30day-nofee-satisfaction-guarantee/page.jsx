@@ -13,7 +13,7 @@ const page = () => {
   return (
     <>
       <Head>
-        <title>mission-statement - Carter Injury Law - </title>
+        <title> 30-Day No-Fee Satisfaction Guarantee - Carter Injury Law</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
