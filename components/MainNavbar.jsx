@@ -348,7 +348,7 @@ const MainNavbar = () => {
         </div>
       </div>
       <div className="bg-primary">
-        <div className="container py-5 hidden md:block">
+        <div className="container py-1 hidden md:block">
           <div className="flex items-center justify-center">
             <ul className="flex space-x-14 p-4">
               {menuItems.map((menuItem, index) => (
@@ -386,7 +386,7 @@ const MainNavbar = () => {
 
                   {/* Dropdown Menu */}
                   {menuItem.subMenu && activeMenu === index && (
-                    <ul className="absolute top-full left-0 bg-white mt-10 rounded shadow-lg group-hover:block  border text-lg min-w-[300px] font-semibold py-4">
+                    <ul className="absolute top-full left-0 bg-white mt-5 rounded shadow-lg group-hover:block  border text-lg min-w-[300px] font-semibold py-4">
                       {menuItem.subMenu.map((subMenuItem, subIndex) => (
                         <li
                           key={subIndex}
