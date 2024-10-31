@@ -249,15 +249,15 @@ const MainNavbar = () => {
         subMenu: [
           {
             title: "Auto Accident",
-            slug: "auto-accident",
+            slug: "/faq",
           },
-          { title: "Car Accident", slug: "car-accident" },
-          { title: "Personal Injury", slug: "personal-injury" },
-          { title: "Airline Injuries", slug: "airline-injuries" },
-          {
-            title: "Boating Accidents",
-            slug: "boating-accidents",
-          },
+          // { title: "Car Accident", slug: "car-accident" },
+          // { title: "Personal Injury", slug: "personal-injury" },
+          // { title: "Airline Injuries", slug: "airline-injuries" },
+          // {
+          //   title: "Boating Accidents",
+          //   slug: "boating-accidents",
+          // },
         ],
       },
       { title: "Blog", slug: "/blog" },
