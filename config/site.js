@@ -90,7 +90,7 @@ export const SITECONFIG = {
   socialLinks: [
     {
       title: "Facebook",
-      url: "",
+      url: "#",
     },
     {
       title: "Twitter",
