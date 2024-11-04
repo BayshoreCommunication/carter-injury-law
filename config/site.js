@@ -94,11 +94,11 @@ export const SITECONFIG = {
     },
     {
       title: "Twitter",
-      url: "#",
+      url: "",
     },
     {
       title: "Instagram",
-      url: "#",
+      url: "",
     },
     {
       title: "LinkedIn",
