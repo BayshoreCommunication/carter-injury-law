@@ -386,7 +386,7 @@ const MainNavbar = () => {
 
                   {/* Dropdown Menu */}
                   {menuItem.subMenu && activeMenu === index && (
-                    <ul className="absolute top-full left-0 bg-white mt-5 rounded shadow-lg group-hover:block  border text-lg min-w-[300px] font-semibold py-4">
+                    <ul className="absolute top-full left-0 bg-white mt-5 rounded shadow-lg group-hover:block  border text-lg min-w-[300px] font-semibold py-4 list-none">
                       {menuItem.subMenu.map((subMenuItem, subIndex) => (
                         <li
                           key={subIndex}
@@ -436,7 +436,7 @@ const MainNavbar = () => {
                           {/* Sub-dropdown Menu */}
                           {subMenuItem.subList &&
                             activeSubMenu === subIndex && (
-                              <ul className="absolute left-full top-0 bg-white border mt-2 rounded shadow-lg  min-w-[300px] text-lg font-semibold capitalize py-2">
+                              <ul className="absolute left-full top-0 bg-white border mt-2 rounded shadow-lg  min-w-[300px] text-lg font-semibold capitalize py-2 list-none">
                                 {subMenuItem.subList.map((item, itemIndex) => (
                                   <li key={itemIndex}>
                                     <Link
@@ -495,7 +495,7 @@ const MainNavbar = () => {
                 </NavbarMenuItem>
               ))} */}
               {isMenuOpen && (
-                <ul className="block md:hidden space-y-2 p-4 text-black rounded">
+                <ul className="block md:hidden space-y-2 p-4 text-black rounded list-none">
                   {menuItems.map((menuItem, index) => (
                     <li key={index} className="text-lg font-semibold">
                       <button
@@ -519,7 +519,7 @@ const MainNavbar = () => {
                         )}
                       </button>
                       {menuItem.subMenu && activeMenu === index && (
-                        <ul className="pl-4 mt-2 space-y-2">
+                        <ul className="pl-4 mt-2 space-y-2 list-none">
                           {menuItem.subMenu.map((subMenuItem, subIndex) => (
                             <li key={subIndex}>
                               <button
@@ -544,7 +544,7 @@ const MainNavbar = () => {
                               </button>
                               {subMenuItem.subList &&
                                 activeSubMenu === subIndex && (
-                                  <ul className="pl-4 mt-2 space-y-2 text-sm">
+                                  <ul className="pl-4 mt-2 space-y-2 text-sm list-none">
                                     {subMenuItem.subList.map(
                                       (item, itemIndex) => (
                                         <li key={itemIndex}>
