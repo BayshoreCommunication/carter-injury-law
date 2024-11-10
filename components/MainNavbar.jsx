@@ -350,7 +350,7 @@ const MainNavbar = () => {
       <div className="bg-primary">
         <div className="container py-1 hidden md:block">
           <div className="flex items-center justify-center">
-            <ul className="flex space-x-14 p-4">
+            <ul className="flex space-x-14 p-4 list-none ">
               {menuItems.map((menuItem, index) => (
                 <li
                   key={index}
@@ -362,7 +362,7 @@ const MainNavbar = () => {
                     className="flex items-center justify-between space-x-1"
                   >
                     {menuItem.subMenu ? (
-                      <div className="flex items-center justify-between space-x-1">
+                      <div className="flex items-center justify-between">
                         <span>{menuItem.title}</span>
                         <span>
                           <svg
@@ -386,7 +386,9 @@ const MainNavbar = () => {
 
                   {/* Dropdown Menu */}
                   {menuItem.subMenu && activeMenu === index && (
-                    <ul className="absolute top-full left-0 bg-white mt-5 rounded shadow-lg group-hover:block  border text-lg min-w-[300px] font-semibold py-4 list-none">
+
+                    <ul className="absolute top-full left-0 bg-white mt-5 rounded shadow-lg group-hover:block  border text-lg min-w-[300px] font-semibold py-4 list-none m-0">
+
                       {menuItem.subMenu.map((subMenuItem, subIndex) => (
                         <li
                           key={subIndex}
@@ -432,16 +434,17 @@ const MainNavbar = () => {
                               </Link>
                             )}
                           </button>
-
                           {/* Sub-dropdown Menu */}
                           {subMenuItem.subList &&
                             activeSubMenu === subIndex && (
-                              <ul className="absolute left-full top-0 bg-white border mt-2 rounded shadow-lg  min-w-[300px] text-lg font-semibold capitalize py-2 list-none">
+
+                              <ul className="absolute top-0 right-0 translate-x-full bg-white rounded shadow-lg group-hover:block  border text-lg min-w-[300px] font-semibold list-inside list-none">
+
                                 {subMenuItem.subList.map((item, itemIndex) => (
-                                  <li key={itemIndex}>
+                                  <li key={itemIndex} className="">
                                     <Link
                                       href={`/${item.slug}`}
-                                      className={`block py-2 px-4 text-black hover:text-red-700 border-b-1`}
+                                      className={`block py-2 px-3  text-black hover:text-red-700 border-b-1`}
                                     >
                                       {item.title}
                                     </Link>
@@ -462,7 +465,7 @@ const MainNavbar = () => {
           <Navbar
             isMenuOpen={isMenuOpen}
             onMenuOpenChange={setIsMenuOpen}
-            className={`!mx-0 !px-0 pb-0 pt-0  md:pb-3 md:pt-4 bg-primary`}
+            className={`!mx-0 !px-0 pb-0 pt-0  md:pb-3 md:pt-4 bg-primary list-none `}
           >
             <NavbarContent>
               <NavbarBrand>
@@ -495,9 +498,11 @@ const MainNavbar = () => {
                 </NavbarMenuItem>
               ))} */}
               {isMenuOpen && (
-                <ul className="block md:hidden space-y-2 p-4 text-black rounded list-none">
+
+                <ul className="block md:hidden space-y-2 p-4 text-black rounded  list-none ">
+
                   {menuItems.map((menuItem, index) => (
-                    <li key={index} className="text-lg font-semibold">
+                    <li key={index} className="text-lg font-semibold  list-none ">
                       <button
                         onClick={() => toggleMenu(index)}
                         className="w-full text-left flex items-center justify-between"
@@ -519,9 +524,11 @@ const MainNavbar = () => {
                         )}
                       </button>
                       {menuItem.subMenu && activeMenu === index && (
-                        <ul className="pl-4 mt-2 space-y-2 list-none">
+
+                        <ul className=" mt-2 space-y-2">
+
                           {menuItem.subMenu.map((subMenuItem, subIndex) => (
-                            <li key={subIndex}>
+                            <li key={subIndex} className="list-none ">
                               <button
                                 onClick={() => toggleSubMenu(subIndex)}
                                 className="flex items-center justify-between w-full"
@@ -547,7 +554,7 @@ const MainNavbar = () => {
                                   <ul className="pl-4 mt-2 space-y-2 text-sm list-none">
                                     {subMenuItem.subList.map(
                                       (item, itemIndex) => (
-                                        <li key={itemIndex}>
+                                        <li key={itemIndex} className="list-none ">
                                           <Link
                                             href={`/${item.slug}`}
                                             className="block py-1 text-black hover:text-red-500"
