@@ -493,17 +493,7 @@ export const allServiceData = [
                 
               </div>`,
   },
-<<<<<<< HEAD
 
-  {
-    icon: "/assets/servicepage/icon/bicycle-icon.png",
-    title: "Bicycle Accidents",
-    slug: "bicycle-accidents",
-    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-                Bicycle Accidents
-              </h2>
-=======
   // {
   //   icon: "/assets/servicepage/icon/bicycle-icon.png",
   //   title: "Bicycle Accidents",
@@ -512,7 +502,7 @@ export const allServiceData = [
   //             <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
   //               Bicycle Accidents
   //             </h2>
->>>>>>> 2410b3a30de3450a33749584366a118b1ff7e03c
+
 
   //             <img
   //               src="/assets/servicepage/bicycle-accidents.jpg"
