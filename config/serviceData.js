@@ -151,7 +151,7 @@ export const allServiceData = [
   </div>`,
   },
   {
-    icon: "/assets/servicepage/icon/truck-icon.png",
+    icon: "/assets/servicepage/icon/truck-icon-2.png",
     title: "Delivery Truck Accidents",
     slug: "delivery-truck-accidents",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
