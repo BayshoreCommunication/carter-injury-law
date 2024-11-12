@@ -82,7 +82,7 @@ const MainNavbar = () => {
               },
             ],
           },
-          
+
           {
             title: "Premises Liability",
             slug: "premises-liability",
@@ -388,9 +388,7 @@ const MainNavbar = () => {
 
                   {/* Dropdown Menu */}
                   {menuItem.subMenu && activeMenu === index && (
-
-                    <ul className="absolute top-full left-0 bg-white mt-5 rounded shadow-lg group-hover:block  border text-lg min-w-[300px] font-semibold py-4 list-none m-0">
-
+                    <ul className="absolute top-full left-0 bg-white mt-5 rounded shadow-lg group-hover:block  border text-lg min-w-[300px] font-semibold py-4 list-none m-0 capitalize">
                       {menuItem.subMenu.map((subMenuItem, subIndex) => (
                         <li
                           key={subIndex}
@@ -439,9 +437,7 @@ const MainNavbar = () => {
                           {/* Sub-dropdown Menu */}
                           {subMenuItem.subList &&
                             activeSubMenu === subIndex && (
-
-                              <ul className="absolute top-0 right-0 translate-x-full bg-white rounded shadow-lg group-hover:block  border text-lg min-w-[300px] font-semibold list-inside list-none">
-
+                              <ul className="absolute top-0 right-0 translate-x-full bg-white rounded shadow-lg group-hover:block  border text-lg min-w-[300px] font-semibold list-inside list-none capitalize">
                                 {subMenuItem.subList.map((item, itemIndex) => (
                                   <li key={itemIndex} className="">
                                     <Link
@@ -500,11 +496,12 @@ const MainNavbar = () => {
                 </NavbarMenuItem>
               ))} */}
               {isMenuOpen && (
-
                 <ul className="block md:hidden space-y-2 p-4 text-black rounded  list-none ">
-
                   {menuItems.map((menuItem, index) => (
-                    <li key={index} className="text-lg font-semibold  list-none ">
+                    <li
+                      key={index}
+                      className="text-lg font-semibold  list-none "
+                    >
                       <button
                         onClick={() => toggleMenu(index)}
                         className="w-full text-left flex items-center justify-between"
@@ -526,9 +523,7 @@ const MainNavbar = () => {
                         )}
                       </button>
                       {menuItem.subMenu && activeMenu === index && (
-
                         <ul className=" mt-2 space-y-2">
-
                           {menuItem.subMenu.map((subMenuItem, subIndex) => (
                             <li key={subIndex} className="list-none ">
                               <button
@@ -556,7 +551,10 @@ const MainNavbar = () => {
                                   <ul className="pl-4 mt-2 space-y-2 text-sm list-none">
                                     {subMenuItem.subList.map(
                                       (item, itemIndex) => (
-                                        <li key={itemIndex} className="list-none ">
+                                        <li
+                                          key={itemIndex}
+                                          className="list-none "
+                                        >
                                           <Link
                                             href={`/areas-of-practice/${item.slug}`}
                                             className="block py-1 text-black hover:text-red-500"
