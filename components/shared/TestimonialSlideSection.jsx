@@ -1,9 +1,7 @@
 "use client";
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import TestimonialSlider from "./TestimonialSlider";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
-
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -14,6 +12,17 @@ const TestimonialSlideSection = ({ className }) => {
   // Refs for navigation buttons
   const prevButtonRef = useRef(null);
   const nextButtonRef = useRef(null);
+  const swiperRef = useRef(null);
+
+  useEffect(() => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      const swiperInstance = swiperRef.current.swiper;
+      swiperInstance.params.navigation.prevEl = prevButtonRef.current;
+      swiperInstance.params.navigation.nextEl = nextButtonRef.current;
+      swiperInstance.navigation.init();
+      swiperInstance.navigation.update();
+    }
+  }, []);
 
   return (
     <div
@@ -21,6 +30,7 @@ const TestimonialSlideSection = ({ className }) => {
     >
       <SectionLayout>
         <Swiper
+          ref={swiperRef}
           cssMode={true}
           mousewheel={true}
           keyboard={true}
@@ -29,18 +39,11 @@ const TestimonialSlideSection = ({ className }) => {
             prevEl: prevButtonRef.current,
             nextEl: nextButtonRef.current,
           }}
-          onBeforeInit={(swiper) => {
-            // Attach the navigation buttons to Swiper when it's initialized
-            swiper.params.navigation.prevEl = prevButtonRef.current;
-            swiper.params.navigation.nextEl = nextButtonRef.current;
-            swiper.navigation.init();
-            swiper.navigation.update();
-          }}
           className="mySwiper"
         >
           {[1, 2, 3, 4, 5].map((el, index) => (
             <SwiperSlide key={index}>
-              <div className=" w-full lg:w-[80%] text-center mx-auto flex flex-col gap-6 lg:gap-10 py-10">
+              <div className="w-full lg:w-[80%] text-center mx-auto flex flex-col gap-6 lg:gap-10 py-10">
                 <p className="text-lg md:text-2xl lg:text-3xl font-semibold italic">
                   "Words cannot express the gratitude I have for you and your
                   team. As soon as you took over my case, you and your team
@@ -54,20 +57,19 @@ const TestimonialSlideSection = ({ className }) => {
           ))}
         </Swiper>
 
-        <div className="flex items-center gap-x-8 justify-center">
+        <div className="flex items-center gap-x-8 justify-center mt-4">
           <button
             ref={prevButtonRef}
-            className=" text-gray-500 hover:text-gray-800 p-3 border-1 border-gray-500 rounded-full"
+            className="text-gray-500 hover:text-gray-800 p-3 border border-gray-500 rounded-full"
           >
             <IoIosArrowBack size={24} />
           </button>
           <div className="flex items-center gap-8 justify-center">
             <div>
-              {/* Star rating */}
               <div className="font-bold text-gray-800 text-center">
                 Diane F.
               </div>
-              <div className="flex justify-center items-center ">
+              <div className="flex justify-center items-center">
                 {Array(5)
                   .fill()
                   .map((_, index) => (
@@ -78,10 +80,9 @@ const TestimonialSlideSection = ({ className }) => {
               </div>
             </div>
           </div>
-          {/* Right arrow */}
           <button
-            className=" text-gray-500 hover:text-gray-800 p-3 border-1 border-gray-500 rounded-full"
             ref={nextButtonRef}
+            className="text-gray-500 hover:text-gray-800 p-3 border border-gray-500 rounded-full"
           >
             <IoIosArrowForward size={24} />
           </button>
