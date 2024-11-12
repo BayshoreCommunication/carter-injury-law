@@ -315,7 +315,7 @@ const MainNavbar = () => {
                     alt="footer logo"
                     width={500}
                     height={500}
-                    className="cursor-pointer w-[400px]  h-auto"
+                    className="cursor-pointer w-[400px]  h-[46px]"
                   />
                 </Link>
                 <Image
@@ -323,7 +323,7 @@ const MainNavbar = () => {
                   alt="footer logo"
                   width={400}
                   height={500}
-                  className="hidden lg:block  lg:w-[240px] xl:w-[400px] 2xl:w-[400px] h-auto mx-auto "
+                  className="hidden lg:block  lg:w-[240px] xl:w-[400px] 2xl:w-[400px] h-[46px] mx-auto "
                 />
               </div>
             </div>

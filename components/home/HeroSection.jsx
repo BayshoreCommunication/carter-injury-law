@@ -10,14 +10,14 @@ const HeroSection = () => {
   return (
     <div className="">
       <div
-        className=" w-full"
-        style={{
-          backgroundImage: "url('/assets/homepage/header-bg.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          width: "100%",
-          height: "auto",
-        }}
+        className=" w-full bg-heroBg"
+        // style={{
+        //   backgroundImage: "url('/assets/homepage/header-bg.png')",
+        //   backgroundSize: "cover",
+        //   backgroundPosition: "center",
+        //   width: "100%",
+        //   height: "auto",
+        // }}
       >
         <div className="container pt-4 md:pb-0 md:pt-6 lg:pt-10 ">
           <div className="grid grid-cols-1 md:grid-cols-2 items-end  justify-between gap-x-20">

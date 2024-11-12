@@ -26,6 +26,9 @@ module.exports = {
         black: "#000000",
         white: "#FFFFFF",
       },
+      backgroundImage: {
+        heroBg:`url('/assets/homepage/header-bg.png')`
+      },
     },
     container: {
       center: true,
