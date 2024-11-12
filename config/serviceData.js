@@ -4807,7 +4807,6 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                   </div>
                 </div>`,
   },
-<<<<<<< HEAD
 
   // Product Liability
   {
@@ -5284,65 +5283,5 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     </p>
                   </div>
                 </div>`,
-=======
-  {
-    icon: "/assets/servicepage/icon/medication-errors.png",
-    title: "Medication Errors",
-    slug: "medication-errors",
-    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-<h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-  Medication Errors
-</h2>
-<img
-  src="/assets/servicepage/medical-malpractice/medication-errors.jpg"
-  alt="Medication Errors"
-  className="w-full py-3"
-/>
-
-<p className="text-base md:text-lg">
-Medication errors happen when a healthcare provider prescribes or administers the wrong medication, dosage, or fails to account for potential drug interactions. This can result in harm to the patient. These errors can occur in hospitals, nursing homes, pharmacies, and clinics. In Florida, under §95.11(5) you have 2 years from the date the error was discovered or should have been discovered with due diligence. This period can extend up to 4 years from the date of the incident, but not later than.
-</p>
-
-<p class= "text-base md:text-lg font-bold mb-1  pl-5">
-    Who Should Consider Filing a Claim and Why Legal Representation Is Essential  
-</p>
-
-<p class="text-base md:text-lg ">
- <ul class="list-disc pl-5">
-
-<li><span class= " font-bold ">Benefits of Filing:</span>Individuals who have suffered harm as a result of a medication error like incorrect medication, dosage errors, or improper instructions. This includes patients who have experienced adverse drug reactions, allergic reactions, or other complications due to incorrect medication administration, dosage, or prescription. Families of patients who died due to medication errors should consider filing a claim. 
-</li>
-
- <li><span class= " font-bold ">Consequences Without Representation:</span>You may face the complexities of medical malpractice laws, including strict filing deadlines, and may struggle to gather evidence or secure expert testimony. Without an experienced attorney, it can be hard to prove fault, negotiate with insurers, or understand the full value of potential compensation, which may result in lower settlements or unsuccessful claims.
-  </li>
-  
- </ul>
-</p>
-
-
-<p class="text-base md:text-lg font-bold mb-1  pl-5">
-Carter Injury Law: Committed to Securing the Justice You Deserve
-</p>
-
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
-
-  <li>We investigate every aspect of the error, collecting medical records, consulting with experts, and identifying liable parties. This detailed approach strengthens your case and increases your chance of a favorable outcome.
-  </li>
-
-  <li>We ensure all documents are filed within the statute of limitations and compliance with all necessary requirements.
-  </li>
-
-  <li>We handle negotiations with insurance companies, healthcare providers, and other parties involved, fighting for maximum compensation so you can focus on recovery without financial worry. We strongly follow “No fees unless we win”. 
-
-  </li>
-
-
-  </ul>
-</p>
-
-</div>
-`,
->>>>>>> 2410b3a30de3450a33749584366a118b1ff7e03c
   },
 ];
