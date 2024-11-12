@@ -1039,8 +1039,7 @@ export const allServiceData = [
      The Challenges You Will Face Without Legal Representation
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
     <li>Personal injury law is layered and specific. Knowing your rights, the limitations, and the legal options available can be difficult to navigate alone.
     </li>
     <li>Establishing that another party’s negligence led to your injuries requires detailed evidence, from witness statements to expert reports. Without an attorney, obtaining and organizing this evidence can be overwhelming.
@@ -1059,7 +1058,6 @@ export const allServiceData = [
      How Carter Injury Law Upholds Your Rights
   </p>
 
-  <p className="text-base md:text-lg">
   <ul class="list-disc pl-5">
   <li>We thoroughly evaluate every detail of your case, from the accident’s cause to your future medical needs, crafting a strategy tailored to maximize your compensation.</li>
   <li>Our team knows the tactics insurance companies use to downplay claims. We handle these negotiations directly, ensuring you get the settlement that reflects the real impact of your injury.
@@ -1120,8 +1118,7 @@ export const allServiceData = [
      The Challenges You Will Face Without Legal Representation
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul>
+  <ul>
     <li>In many cases, dog owners or their insurance companies may argue that their pet had no history of aggression. Without legal guidance, gathering evidence to show the dog’s behavior can be difficult.
     </li>
     <li>Dog owners may deny responsibility, especially if they’re worried about legal consequences. Without representation, you might face pushback or receive an unsatisfactory settlement offer.
@@ -1139,7 +1136,6 @@ export const allServiceData = [
      How Carter Injury Law Upholds Your Rights
   </p>
 
-  <p className="text-base md:text-lg">
   <ul class="list-disc pl-5">
   <li>
   We collect medical records, eyewitness accounts, and, if available, animal control reports to strengthen your case and prove the dog’s aggressiveness.
@@ -1233,8 +1229,7 @@ Injured on Someone Else’s Property:
      The Challenges You Will Face Without Legal Representation
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul>
+  <ul>
     <li>
     In premises liability cases, it’s essential to show that the property owner knew about or should have known about the hazard and failed to address it. Without legal expertise, gathering and proving this evidence is challenging.
     </li>
@@ -1262,7 +1257,6 @@ Injured on Someone Else’s Property:
      How Carter Injury Law Upholds Your Rights
   </p>
 
-  <p className="text-base md:text-lg">
   <ul class="list-disc pl-5">
   <li>
   We conduct in-depth investigations, collecting crucial evidence and consulting experts when necessary to prove that the property owner’s negligence led to your injury.
@@ -1357,8 +1351,7 @@ Patients Harmed by Medical Errors:
      The Challenges You Will Face Without Legal Representation
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul>
+  <ul>
     <li>
     Medical malpractice cases are complicated, with specific laws and high standards of proof. Without a skilled attorney, it’s easy to get lost in legal and medical jargon that can hurt your case.
     </li>
@@ -1386,7 +1379,6 @@ Patients Harmed by Medical Errors:
      How Carter Injury Law Upholds Your Rights
   </p>
 
-  <p className="text-base md:text-lg">
   <ul class="list-disc pl-5">
   <li>
   We partner with medical experts to thoroughly analyze your medical records, pinpointing errors and providing solid evidence to strengthen your case.
@@ -1482,8 +1474,7 @@ Injured in a Collision:
      The Challenges You Will Face Without Legal Representation
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul>
+  <ul>
     <li>
     Insurance companies often aim to settle fast and for as little as possible. Without an attorney, you may be tempted to accept an offer that doesn’t truly cover your costs.
     </li>
@@ -1511,7 +1502,6 @@ Injured in a Collision:
      How Carter Injury Law Upholds Your Rights
   </p>
 
-  <p className="text-base md:text-lg">
   <ul class="list-disc pl-5">
   <li>
   We negotiate aggressively with insurance companies to make sure you’re offered fair compensation and aren’t short-changed by quick, lowball offers.
@@ -1609,8 +1599,7 @@ Victims of Unsafe Conditions:
      The Challenges You Will Face Without Legal Representation
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul>
+  <ul>
     <li>
     Without a strong advocate, you may be pressured into accepting a settlement that doesn’t cover all your expenses, or worse, you might not receive anything at all.
     </li>
@@ -1638,7 +1627,6 @@ Victims of Unsafe Conditions:
      How Carter Injury Law Upholds Your Rights
   </p>
 
-  <p className="text-base md:text-lg">
   <ul class="list-disc pl-5">
   <li>
   We gather critical evidence—security footage, incident reports, witness testimonies, and medical records—to build a strong case that establishes negligence and proves your injuries.
@@ -1699,7 +1687,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
+  
     <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
@@ -1722,7 +1710,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
             We gather evidence, negotiate with insurance companies, and handle every detail so you can focus on healing.
@@ -1769,8 +1757,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -1792,7 +1779,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
             Carter Injury Law understands the unique challenges motorcycle accident victims face and knows how to counter insurance companies’ tactics to ensure your rights are fully represented.
@@ -1839,8 +1826,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -1862,7 +1848,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
            Carter Injury Law is well-versed in the federal and state regulations governing commercial trucks. We’ll investigate the accident thoroughly, examining driver logs, maintenance records, and more to build a strong case on your behalf.
@@ -1910,8 +1896,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -1933,7 +1918,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
            Carter Injury Law will investigate every aspect of your accident, from securing video footage to gathering witness statements and working with accident reconstruction experts, to ensure the strongest case possible.
@@ -1981,8 +1966,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -2004,7 +1988,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
            Carter Injury Law conducts thorough investigations, gathering evidence such as witness statements, surveillance footage, and expert opinions to build a solid case and prove liability.
@@ -2036,7 +2020,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
      
     <img
-      src="/assets/servicepage/auto-accidents/golf-cart-accidents.jpg"
+      src="/assets/servicepage/auto-accidents/golf-cart-accident.jpg"
       alt="Golf Cart Accidents"
       className="w-full py-3"
     />
@@ -2051,8 +2035,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -2074,7 +2057,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
            Carter Injury Law has extensive experience handling unique accident claims, including golf cart incidents. We’ll work diligently to collect evidence, interview witnesses, and examine local ordinances or community policies that may affect liability.
@@ -2122,8 +2105,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -2145,7 +2127,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
            Carter Injury Law is well-versed in the unique insurance issues surrounding rideshare accidents. We’ll analyze every detail of the accident and each applicable insurance policy to secure the best outcome for your claim.
@@ -2192,8 +2174,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -2215,7 +2196,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
            We dive deep into every aspect of your case, gathering evidence from accident reports, surveillance footage, and eyewitness testimony to build a strong case on your behalf.
@@ -2262,8 +2243,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -2285,7 +2265,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
            Carter Injury Law will thoroughly investigate your RV accident, reviewing all relevant details such as driver behavior, vehicle maintenance records, and road conditions to build a strong case. Our team will also gather witness statements and accident reports to ensure no details are overlooked.
@@ -2332,8 +2312,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -2355,7 +2334,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
            We work quickly to gather all the evidence you need to prove your case, from accident reports to surveillance footage and witness testimonies. Our team will ensure that every detail is accounted for to strengthen your claim.
@@ -2375,7 +2354,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/truck-icon.png",
+    icon: "/assets/servicepage/icon/truck-icon-2.png",
     title: "Delivery Truck Accidents",
     slug: "delivery-truck-accidents",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -2387,7 +2366,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
     
     <img
-      src="/assets/servicepage/auto-accident/delivery-truck-accidents.jpg"
+      src="/assets/servicepage/auto-accidents/delivery-truck-accidents.jpg"
       alt="Delivery Truck Accidents"
       className="w-full py-3"
     />
@@ -2402,8 +2381,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -2425,7 +2403,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+   
       <ul class="list-disc pl-5">
         <li>
            We have the expertise to investigate delivery truck accidents thoroughly, identifying all parties at fault, including the driver, the trucking company, or even the manufacturer of faulty equipment.
@@ -2474,8 +2452,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2497,8 +2474,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          Carter Injury Law understands Florida's premises liability laws and knows how to hold negligent property owners accountable.
       </li>
@@ -2552,8 +2528,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2575,8 +2550,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          Carter Injury Law is well-versed in Florida's premises liability laws and can help establish negligence on the part of property owners.
       </li>
@@ -2631,8 +2605,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2654,8 +2627,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          At Carter Injury Law, we understand the complexities of dog bite cases under Florida law and work to hold negligent owners accountable.
       </li>
@@ -2709,7 +2681,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
+
   <ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
@@ -2732,8 +2704,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          Carter Injury Law understands the intricacies of Florida’s premises liability laws, specifically regarding negligent security, and knows how to build a compelling case to hold property owners accountable.
       </li>
@@ -2787,8 +2758,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2810,8 +2780,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          At Carter Injury Law, we bring in-depth knowledge of Florida’s personal injury statutes to your burn injury case, helping hold negligent parties accountable.
       </li>
@@ -2844,7 +2813,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 {
   icon: "/assets/servicepage/icon/boat-icon.png",
   title: "Boat Accident",
-  slug: "boat-accident",
+  slug: "boating-accidents",
   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
@@ -2854,7 +2823,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
   
   <img
-    src="/assets/servicepage/general-negligence/boating-accident.jpg"
+    src="/assets/servicepage/general-negligence/boating-accidents.jpg"
     alt="Boat Accident"
     className="w-full py-3"
   />
@@ -2869,8 +2838,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2892,8 +2860,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          We’ll investigate your boating accident, gathering reports, witness statements, and expert input to identify all responsible parties.
       </li>
@@ -2919,7 +2886,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 {
   icon: "/assets/servicepage/icon/fall-icon.png",
   title: "Jet Ski Accident",
-  slug: "jet-ski-accident",
+  slug: "jet-ski-accidents",
   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
@@ -2944,8 +2911,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2967,8 +2933,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          We’ll review accident reports, witness statements, and medical records to identify the responsible parties, including operators, rental companies, or maintenance providers.
       </li>
@@ -3018,8 +2983,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3041,8 +3005,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          We’ll investigate your aviation injury by reviewing flight data, maintenance records, and witness testimonies to determine fault and gather essential evidence.
       </li>
@@ -3095,9 +3058,8 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   <p class="text-base md:text-lg font-bold mb-1 pl-5">
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
-
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+ 
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3119,8 +3081,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          We’ll step in immediately to protect your rights, beginning with a thorough investigation to handle all communications with insurance companies so you can focus on healing.
       </li>
@@ -3171,8 +3132,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3194,8 +3154,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          We’ll quickly gather vital evidence, including security footage, maintenance records, and witness statements, to understand the circumstances of your loved one’s passing.
       </li>
@@ -3243,8 +3202,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3266,8 +3224,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          We’ll examine all aspects of your loved one’s death, gathering medical records, witness accounts, and evidence of neglect or abuse.
       </li>
@@ -3317,8 +3274,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3340,8 +3296,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          We’ll review your loved one’s medical history, seek expert opinions, and analyze whether the healthcare provider’s actions fell below the accepted standard of care uncovering the truth on your behalf.
       </li>
@@ -3364,7 +3319,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 {
   icon: "/assets/servicepage/icon/medical-icon.png",
   title: "Product Liability Wrongful Death",
-  slug: "Product Liability Wrongful Death",
+  slug: "product-liability-wrongful-death",
   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
@@ -3389,8 +3344,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3412,8 +3366,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          We’ll carefully examine the product, consulting experts and analyzing design and manufacturing flaws to build a strong case connecting the defect to your loved one’s death.
       </li>
@@ -3467,8 +3420,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3490,8 +3442,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          We will conduct a comprehensive investigation to determine the cause of the surgical error and identify all liable parties.
       </li>
@@ -3538,8 +3489,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3561,8 +3511,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
         Our attorneys have extensive experience in handling birth injury cases and can provide expert legal guidance.
       </li>
@@ -3611,8 +3560,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3634,8 +3582,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
         We reconstruct the medical timeline to highlight missed diagnosis opportunities and their impact on the patient’s health.
       </li>
@@ -3682,8 +3629,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3705,8 +3651,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
         Our team thoroughly reviews medical records, consults with anesthesia experts, and gathers essential evidence to build a strong case demonstrating negligence.
       </li>
@@ -3754,8 +3699,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3777,8 +3721,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
         Our team works with medical experts to review the provider's actions and determine whether they met the accepted standard of care, providing a solid foundation for your claim.
       </li>
@@ -3826,8 +3769,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3849,8 +3791,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
         We review your medical records and consult with expert witnesses to determine the strength of your claim. Our team gathers the necessary documentation, including test results, medical reports, and expert opinions, to build a compelling case.
       </li>
@@ -3897,8 +3838,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3925,8 +3865,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
         We are well-versed in Florida’s medical malpractice laws and procedures. Our attorneys ensure your case meets all legal standards and is filed within the strict deadlines, protecting your right to seek compensation.
       </li>
