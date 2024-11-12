@@ -3437,6 +3437,513 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 },
 
 
+//Medical Malpractice
+
+{
+  icon: "/assets/servicepage/icon/medical-icon.png",
+  title: "Surgical Errors",
+  slug: "surgical-errors",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Surgical Errors
+
+  </h2>
+
+
+  <img
+    src="/assets/servicepage/medical-malpractice/surgical-errors.jpg"
+    alt="Surgical Errors"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      Surgical errors occur when a mistake during surgery causes harm to a patient. These errors can include operating on the wrong body part, leaving surgical instruments inside the patient, or performing an unnecessary procedure. Florida Statute of Limitations § 95.11(5)(c) governs the timeframe for filing medical malpractice claims, including those arising from surgical errors. Generally, a plaintiff must file a lawsuit within 2 years of the date of the incident. Conversely, within 2 years of the date the injury was discovered or should have been discovered through reasonable diligence.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Individuals who have suffered harm as a result of a surgical error may benefit from filing a claim. This includes patients or their family, relatives who have experienced adverse outcomes such as infections, organ damage, or even wrongful death due to surgical negligence.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Handling a surgical error claim alone can be complex and overwhelming. Surgical error cases often require extensive medical knowledge, as well as access to expert witnesses to prove the error and its impact. Without legal representation, claimants might struggle to meet procedural requirements, build a strong case, or counter the defense tactics of hospitals and insurers. This can result in an inadequate settlement or an unsuccessful claim. Leaving the victim without the compensation needed for recovery.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+         We will conduct a comprehensive investigation to determine the cause of the surgical error and identify all liable parties.
+      </li>
+
+      <li>
+          Our team will gather essential evidence, including medical records, expert witness testimony, and other relevant documentation, to support your claim.
+      </li>
+
+      <li>
+          We will aggressively negotiate with insurance companies to secure a fair settlement on your behalf. If necessary, we will be prepared to litigate your case in court. And the best part of our service is you don't have to pay unless we successfully recover your compensation.
+      </li>
+
+    </ul>
+  </p>
+</div>
+`,
+},
+
+{
+  icon: "/assets/servicepage/icon/medical-icon.png",
+  title: "Birth Injuries",
+  slug: "birth-injuries",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Birth Injuries
+
+  </h2>
+
+
+  <img
+    src="/assets/servicepage/medical-malpractice/birth-injuries.jpg"
+    alt="Birth Injuries"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      When a newborn suffers harm due to errors or negligence during labor and delivery known as birth injury. These injuries can range from minor trauma to serious, life-altering conditions like cerebral palsy, Erb’s palsy, brachial plexus injury (BPI), brain damage, or intrauterine fetal demise. In Florida under statute §95.11, you generally have 2 years to file a lawsuit for a birth injury. If you didn't know about the injury until after the 2-year deadline, you might still have time to sue (known as the discovery rule). If the doctor or hospital left the state, the deadline might be extended. Additionally, if the injured person is a minor, disabled, or mentally ill, special rules might apply.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Families of children who have suffered birth injuries due to medical negligence should consider filing a claim. Such a claim can provide compensation for medical expenses, ongoing care, and therapy while ensuring that the responsible healthcare providers are held accountable.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Without skilled legal representation, families may find it difficult to prove that a birth injury was due to medical negligence rather than natural complications. These cases often require expert witnesses and in-depth medical knowledge to show causation and establish liability. Without an attorney’s assistance, families risk facing unfair settlements, legal obstacles, or even missed filing deadlines, all of which could prevent them from receiving the support they need.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+        Our attorneys have extensive experience in handling birth injury cases and can provide expert legal guidance.
+      </li>
+
+      <li>
+          We manage all aspects of your case, from collecting evidence to negotiating settlements, allowing you to focus on your child’s well-being.
+      </li>
+
+      <li>
+          We work diligently to obtain the highest possible compensation for your child’s injuries, covering medical expenses, ongoing care, and other related costs. You don't have to pay us unless we win the fight for you.
+      </li>
+
+    </ul>
+  </p>
+</div>
+`,
+},
+
+
+
+{
+  icon: "/assets/servicepage/icon/medical-icon.png",
+  title: "Delayed Diagnosis",
+  slug: "delayed-diagnosis",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Delayed Diagnosis
+
+  </h2>
+
+
+  <img
+    src="/assets/servicepage/medical-malpractice/delayed-diagnosis.jpg"
+    alt="Delayed Diagnosis"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      In Florida, medical malpractice for a delayed diagnosis is covered under Florida Statute 766.102. A delayed diagnosis occurs when a medical professional fails to identify a condition or illness within a reasonable timeframe, leading to a delay in necessary treatment. This can result in worsened health outcomes, as early treatment opportunities are missed. If a delayed diagnosis causes further harm, you may be able to sue the healthcare provider for medical malpractice.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Patients who have suffered harm due to a delayed diagnosis, such as worsening of a condition or missed treatment opportunities, should consider filing a claim. This includes patients with conditions like cancer, heart disease, or other serious illnesses that could have been treated more effectively if diagnosed earlier.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Delayed diagnosis cases require detailed scrutiny of the treatment timeline to establish when the diagnosis should have been made. You can find challenging proving that a different doctor would have diagnosed the condition sooner often requires strong expert testimony. The defense may argue that the delay did not worsen the patient’s prognosis, complicating your case.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+        We reconstruct the medical timeline to highlight missed diagnosis opportunities and their impact on the patient’s health.
+      </li>
+
+      <li>
+          We secure credible experts to testify that an earlier diagnosis was possible and could have led to better outcomes.
+      </li>
+
+      <li>
+          Our team builds a strong case connecting the delay to worsened health, clearly outlining the consequences for maximum compensation. With our “No pay unless we win” motto, you can trust that we are fully committed to your case.
+      </li>
+
+    </ul>
+  </p>
+</div>
+`,
+},
+
+{
+  icon: "/assets/servicepage/icon/medical-icon.png",
+  title: "Anesthesia Errors",
+  slug: "anesthesia-errors",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Anesthesia Errors
+
+  </h2>
+
+
+  <img
+    src="/assets/servicepage/medical-malpractice/anesthesia-errors.jpg"
+    alt="Anesthesia Errors"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      Anesthesia errors in Florida are covered under §458 of the Florida Statutes. A supervising anesthesiologist is liable for the actions of their anesthesiologist assistant. The Board of Medicine can impose penalties on anesthesiologist assistants who violate the statute §456. Anesthesia errors can cause serious complications, such as brain damage, organ failure, or death. If an anesthesia error was caused by negligence, you may be able to pursue a medical malpractice lawsuit. The statute of limitations for medical malpractice lawsuits in Florida is 2 years from the date of the malpractice.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Patients who have suffered due to an anesthesia error—including issues like incorrect dosage, failure to monitor vital signs, or delayed response to adverse reactions—can benefit from filing a claim. Pursuing compensation helps cover medical bills, rehabilitation costs, lost wages, and the emotional toll of such traumatic experiences.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Anesthesia error cases can be complex, often involving detailed medical records, expert testimonies, and intricate legal standards for proving negligence. Without legal assistance, you may struggle to gather the necessary evidence and interpret medical records. Insurance companies and healthcare providers often employ aggressive defense tactics to limit liability, which can make it difficult for you to receive fair compensation without an experienced attorney.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+        Our team thoroughly reviews medical records, consults with anesthesia experts, and gathers essential evidence to build a strong case demonstrating negligence.
+      </li>
+
+      <li>
+          We help clients navigate the complexities of medical malpractice claims, handling negotiations and filing deadlines to ensure the process is as smooth and stress-free as possible.
+      </li>
+
+      <li>
+          With Carter Injury Law, you won’t pay any legal fees unless we secure compensation for you. Schedule a free consultation to discuss your case and allow us to fight for your rights.
+      </li>
+
+    </ul>
+  </p>
+</div>
+`,
+},
+
+
+{
+  icon: "/assets/servicepage/icon/medical-icon.png",
+  title: "Failure to Treat",
+  slug: "failure-to-treat",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Failure to Treat
+
+  </h2>
+
+
+  <img
+    src="/assets/servicepage/medical-malpractice/failure-to-treat.jpg"
+    alt="Failure to Treat"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      "Failure to treat" occurs when a healthcare provider neglects to give necessary medical treatment after diagnosing a condition. Conversely when they fail to identify a condition that requires urgent care. This type of medical malpractice can lead to worsened health outcomes, prolonged suffering, and even preventable death. Under §766, Florida law allows patients to pursue legal action against healthcare providers for damages resulting from medical malpractice.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Patients who have suffered worsening health, complications, or permanent damage due to a healthcare provider's failure to treat their condition may benefit from filing a claim. Compensation can help cover additional medical expenses, future treatments, loss of income, and pain and suffering, providing recovery support. 
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Proving that a medical provider’s failure to treat directly caused harm is often challenging. Because it requires detailed medical analysis and comparison to accepted standards of care. Without an attorney, you may have difficulty accessing medical experts, and understanding complex medical records. You can even counter aggressive defense tactics from the healthcare provider’s legal team and insurance representatives. Additionally, you may miss critical filing deadlines under Florida’s statute of limitations for medical malpractice claims.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+        Our team works with medical experts to review the provider's actions and determine whether they met the accepted standard of care, providing a solid foundation for your claim.
+      </li>
+
+      <li>
+          Carter Injury Law has experience holding healthcare institutions accountable. We are skilled at countering the defense strategies often used by hospitals and insurers to avoid liability, ensuring that your voice is heard.
+      </li>
+
+      <li>
+          We understand the financial burden that untreated medical conditions can impose. Carter Injury Law is committed to pursuing the full extent of compensation available, including future medical expenses, lost income, and damages for pain and suffering, so you can rebuild your life with the resources you need. And remember, you pay nothing unless we win the case.
+      </li>
+
+    </ul>
+  </p>
+</div>
+`,
+},
+
+
+{
+  icon: "/assets/servicepage/icon/medical-icon.png",
+  title: "Failure to Diagnose",
+  slug: "failure-to-diagnose",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Failure to Diagnose
+
+  </h2>
+
+
+  <img
+    src="/assets/servicepage/medical-malpractice/failure-to-diagnose.jpg"
+    alt="Failure to Diagnose"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      According to Florida law, failure to diagnose refers to a doctor's failure to recognize a medical issue. Even when another equally competent doctor under identical circumstances might have identified the illness. And this form of medical negligence has increased in recent years. To investigate a misdiagnosis in Florida, you have to request medical records under Florida law 766.204. Additionally, you need to provide a pre-lawsuit notice to the medical provider under Florida law 766.106. The medical provider will have 90 days to respond to the notice.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Your doctor did not refer you to a specialist despite clear indicators or misinterpreted lab test results, leading to incorrect or delayed treatment. Similarly, if your symptoms were reported but not properly investigated or discussed with you, vital diagnoses might have been overlooked. Neglecting to schedule essential follow-up appointments or failing to perform routine screenings for serious conditions, such as cancer or cardiovascular issues, can also form the basis of a claim.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Medical malpractice cases are complex and often require specialized knowledge to prove negligence. Without an experienced attorney, gathering and presenting medical evidence, handling expert witnesses, and negotiating with powerful insurance companies can be overwhelming. Additionally, strict deadlines under the statute of limitations make timely action essential to preserving your claim.  
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+        We review your medical records and consult with expert witnesses to determine the strength of your claim. Our team gathers the necessary documentation, including test results, medical reports, and expert opinions, to build a compelling case.
+      </li>
+
+      <li>
+          We handle all communication and negotiations with insurers to ensure you receive a fair settlement. If a fair settlement isn’t reached, we will represent you in court, advocating aggressively on your behalf.
+      </li>
+
+      <li>
+          We keep you informed throughout the process, providing personalized support tailored to your case’s unique needs. With our contingency fee policy, you can be assured of our dedication to achieving the best outcome for you.
+      </li>
+
+    </ul>
+  </p>
+</div>
+`,
+},
+
+{
+  icon: "/assets/servicepage/icon/medical-icon.png",
+  title: "Misdiagnosis",
+  slug: "misdiagnosis",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Misdiagnosis
+
+  </h2>
+
+
+  <img
+    src="/assets/servicepage/medical-malpractice/misdiagnosis.jpg"
+    alt="Misdiagnosis"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      A misdiagnosis is an incorrect or missing diagnosis. It can be due to failure to diagnose, inaccurate diagnosis, or delayed diagnosis. Medical misdiagnosis can be disastrous, resulting in a lack of critical care for your illness. Even getting inappropriate therapy for a condition you do not have, leads to disease progression, ongoing suffering, and even death. It is also covered under the §766 statute of limitation.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         You may be eligible to file a misdiagnosis claim if your healthcare provider’s negligence caused harm. For instance, you have diagnosed the wrong illness, leading to unnecessary or harmful treatment. Medical care providers fail to diagnose a serious condition, such as cancer or a heart attack, on time. Conversely, your diagnostic tests like X-rays, MRIs, or blood tests have been misreading or misinterpreting diagnostic tests like. 
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+            Misdiagnosis cases often require detailed medical evidence. It includes medical records, diagnostic tests, and expert testimony to establish that the healthcare provider deviated from the standard of care. One of the most difficult aspects is proving that the misdiagnosis directly caused harm or worsened the patient’s condition.
+            <br/>
+            <br/>
+            This often involves complex medical and legal arguments that can be difficult to navigate without professional help. Each jurisdiction has specific legal standards and procedures which you need to understand to build a strong case.
+            <br/>
+            There are strict time limits for filing medical malpractice claims. Missing these deadlines can result in losing the right to pursue compensation.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+        We are well-versed in Florida’s medical malpractice laws and procedures. Our attorneys ensure your case meets all legal standards and is filed within the strict deadlines, protecting your right to seek compensation.
+      </li>
+
+      <li>
+          We work with medical-legal consultants who specialize in bridging the gap between medical and legal fields. These experts can provide detailed analysis and testimony that clearly explains the medical aspects of your case to the court.
+      </li>
+
+      <li>
+          We use advanced data analytics to identify patterns and inconsistencies in medical records. This can help pinpoint where the misdiagnosis occurred and provide compelling evidence to support your claim. And with our “No pay unless we win” guarantee, you can pursue justice without financial risk.
+      </li>
+
+    </ul>
+  </p>
+</div>
+`,
+},
 
 
 ];
