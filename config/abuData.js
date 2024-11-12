@@ -1,6 +1,6 @@
 export const productLiabilityData = [
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/manufacturing-defects-icon.png",
     title: "Manufacturing Defects",
     slug: "manufacturing-defects",
     details: `   <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -94,7 +94,7 @@ export const productLiabilityData = [
             </div>`,
   },
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/design-defects-icon.png",
     title: "Design Defects",
     slug: "design-defects",
     details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -185,7 +185,7 @@ export const productLiabilityData = [
             </div>`,
   },
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/marketing-defects-and-failure-to-warn-icon.png",
     title: "Marketing Defects and Failure to Warn",
     slug: "marketing-defects-and-failure-to-warn",
     details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -277,7 +277,7 @@ export const productLiabilityData = [
                 </div>`,
   },
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/defective-medical-devices-icon.png",
     title: "Defective Medical Devices",
     slug: "defective-medical-devices",
     details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -370,7 +370,7 @@ export const productLiabilityData = [
                 </div>`,
   },
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/defective-household-goods-and-appliance-icon.png",
     title: "Defective Household Goods and Appliances",
     slug: "defective-household-goods-and-appliances",
     details: `   <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -478,7 +478,7 @@ export const productLiabilityData = [
 
 export const workersCompensationData = [
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/temporary-partial-disability-icon.png",
     title: "Temporary Partial Disability Claims",
     slug: "temporary-partial-disability",
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -577,7 +577,7 @@ export const workersCompensationData = [
                 </div>`,
   },
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/cut-and-burn-injuries-icon.png",
     title: "Cut and Burn Injuries",
     slug: "cut-and-burn-injuries",
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -674,7 +674,7 @@ export const workersCompensationData = [
                 </div>`,
   },
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/broken-bone-injury-icon.png",
     title: "Broken Bone Injury",
     slug: "broken-bone-injury",
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -765,7 +765,7 @@ export const workersCompensationData = [
                 </div>`,
   },
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/catastrophic-injuries-icon.png",
     title: " Catastrophic Injuries",
     slug: "catastrophic-injuries",
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -876,7 +876,7 @@ export const workersCompensationData = [
                 </div>`,
   },
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/disability-rating-disputes-icon.png",
     title: "Disability Rating Disputes",
     slug: "disability-rating-disputes",
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -973,7 +973,7 @@ export const workersCompensationData = [
                 </div>`,
   },
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/overexertion-and-overuse-injuries-icon.png",
     title: "Overexertion and Overuse Injuries ",
     slug: "overexertion-and-overuse-injuries",
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -1081,7 +1081,7 @@ export const workersCompensationData = [
                 </div>`,
   },
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/death-claims-icon.png",
     title: "Death Claims",
     slug: "death-claims",
     details: `      <div className="w-full flex flex-col gap-2 lg:gap-4">

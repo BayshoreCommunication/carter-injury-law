@@ -34,6 +34,7 @@ import PracticeAreaHeader from "@/components/practice-area/PracticeAreaHeader";
 import { allServiceData } from "@/config/serviceData";
 import PracticeAreaSidebarCard from "@/components/practice-area/PracticeAreaSidebarCard";
 import PracticeAreaDetailsHeader from "@/components/practice-area/PracticeAreaDetailsHeader";
+import { workersCompensationData } from "@/config/abuData";
 
 const css = `
   h1{
@@ -70,7 +71,7 @@ nav{
 `;
 
 const page = async ({ params }) => {
-  const servicesDetails = allServiceData?.filter(
+  const servicesDetails = workersCompensationData?.filter(
     (service) => service.slug === params.slug
   );
 
@@ -92,9 +93,9 @@ const page = async ({ params }) => {
           <div className="grid gap-16 gird-col-1 sm:grid-cols-3">
             {servicesDetails?.map((services, index) => (
               <div className="col-span-2">
-                {/* <div className="mt-5 text-base">{parse(services?.details)}</div> */}
+                <div className="mt-5 text-base">{parse(services?.details)}</div>
                 {/* ============ Practice Area Details =========== */}
-                <div className="w-full flex flex-col gap-2 lg:gap-4">
+                {/* <div className="w-full flex flex-col gap-2 lg:gap-4">
                   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Death Claims
                   </h2>
@@ -188,7 +189,7 @@ const page = async ({ params }) => {
                       </ul>
                     </p>
                   </div>
-                </div>
+                </div> */}
                 {/* ============ Practice Area Details =========== */}
               </div>
             ))}
