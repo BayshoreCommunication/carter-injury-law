@@ -473,7 +473,7 @@ const MainNavbar = () => {
                     alt="footer logo"
                     width={500}
                     height={500}
-                    className="w-[300px] h-auto"
+                    className="w-[300px] h-[36px]"
                   />
                 </Link>
               </NavbarBrand>
