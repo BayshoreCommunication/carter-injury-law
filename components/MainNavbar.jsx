@@ -37,6 +37,7 @@ const MainNavbar = () => {
         title: "Areas of Practice",
         slug: "/",
         subMenu: [
+          //TODO: change sublist to match slug data.
           {
             title: "Auto Accidents",
             slug: "auto-accidents",
@@ -81,6 +82,7 @@ const MainNavbar = () => {
               },
             ],
           },
+          
           {
             title: "Premises Liability",
             slug: "premises-liability",
@@ -443,7 +445,7 @@ const MainNavbar = () => {
                                 {subMenuItem.subList.map((item, itemIndex) => (
                                   <li key={itemIndex} className="">
                                     <Link
-                                      href={`/${item.slug}`}
+                                      href={`/areas-of-practice/${item.slug}`}
                                       className={`block py-2 px-3  text-black hover:text-red-700 border-b-1`}
                                     >
                                       {item.title}
@@ -556,7 +558,7 @@ const MainNavbar = () => {
                                       (item, itemIndex) => (
                                         <li key={itemIndex} className="list-none ">
                                           <Link
-                                            href={`/${item.slug}`}
+                                            href={`/areas-of-practice/${item.slug}`}
                                             className="block py-1 text-black hover:text-red-500"
                                           >
                                             {item.title}

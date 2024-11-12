@@ -1544,7 +1544,7 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   {
     icon: "/assets/servicepage/icon/fall-icon.png",
     title: "Slip and Fall Accidents",
-    slug: "slip-and-fall-accidents",
+    slug: "slip-and-falls",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
     Slip and Fall Accidents
@@ -1666,4 +1666,1632 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 </div>
 `,
   },
+
+
+
+  //Auto Accidents
+
+  {
+    icon: "/assets/servicepage/icon/car-icon.png",
+    title: "Car Accidents",
+    slug: "car-accidents",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+    Car Accidents
+  
+    </h2>
+
+    //TODO: update img
+    <img
+      src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+      alt="Car Accidents"
+      className="w-full py-3"
+    />
+
+
+
+    <p className="text-base md:text-lg">
+        A car accident claim is a legal process that allows you to seek compensation if you've been injured in a crash due to another driver’s negligence. This can include rear-end collisions, intersection accidents, distracted driving incidents, and more. Under Florida law, accident victims have the right to pursue damages to cover medical bills, lost wages, property damage, even pain and suffering. In Florida, car accident claims operate under a “no-fault” system, meaning each driver’s own insurance typically covers initial medical expenses.
+    </p>
+
+    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+        Who Should File a Claim and Why Having an Attorney Is Essential
+    </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+          <span class="font-bold">
+              Benefits of Filing: 
+          </span>
+          Filing a claim after a car accident ensures you have a chance to cover critical expenses like medical treatment, rehab, lost wages, and any necessary adjustments to your lifestyle or work. Without legal action, victims may be stuck with large out-of-pocket costs.
+      </li>
+
+      <li>
+          <span class="font-bold">
+              Consequences Without Representation: 
+          </span> 
+          Navigating insurance claims alone can leave you vulnerable to minimized payouts or denied claims. In Florida, there’s a statute of limitations of four years for car accident claims; if missed, this could mean forfeiting the right to pursue compensation altogether.
+      </li>
+    </ul>
+  </p>
+
+
+   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Carter Injury Law: Committed to Securing the Justice You Deserve
+    </p>
+
+    <p className="text-base md:text-lg">
+      <ul class="list-disc pl-5">
+        <li>
+            We gather evidence, negotiate with insurance companies, and handle every detail so you can focus on healing.
+        </li>
+
+        <li>
+            At Carter Injury Law, we work on a contingency basis, which means no fees unless we recover compensation for you.
+        </li>
+
+        <li>
+            As part of the Tampa community, we bring an understanding of the local courts, insurance companies, and judges, giving your case the local advantage it deserves.
+        </li>
+      </ul>
+    </p>
+</div>
+`,
+  },
+
+  {
+    icon: "/assets/servicepage/icon/car-icon.png",
+    title: "Motorcycle Accidents",
+    slug: "motorcycle-accidents",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+    Motorcycle Accidents
+  
+    </h2>
+
+    //TODO: update img
+    <img
+      src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+      alt="Motorcycle Accidents"
+      className="w-full py-3"
+    />
+
+
+
+    <p className="text-base md:text-lg">
+        A motorcycle accident claim allows injured riders to seek compensation when harmed in a crash due to another party’s negligence. Since motorcycles provide limited protection, these accidents often result in severe injuries, such as broken bones or spinal cord damage. In Florida, riders can pursue compensation for medical bills, lost wages, trauma, and affliction. Unlike car accidents, motorcycle accidents are not covered by Florida’s “no-fault” insurance laws, so riders are not required to carry personal injury protection (PIP) coverage.
+    </p>
+
+    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+        Who Should File a Claim and Why Having an Attorney Is Essential
+    </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+          <span class="font-bold">
+              Benefits of Filing: 
+          </span>
+          Filing a claim can help motorcycle accident victims cover extensive medical costs, lost wages, and ongoing care needs that are often necessary after a severe crash. Motorcycle riders, in particular, may face an uphill battle in obtaining fair compensation due to biases against riders in court and with insurance companies.
+      </li>
+
+      <li>
+          <span class="font-bold">
+              Consequences Without Representation: 
+          </span> 
+          Without an attorney, motorcycle accident victims may find themselves fighting against insurance companies that often try to shift blame onto riders or offer low settlements. Additionally, in Florida, you have a statute of limitations of four years from the date of the accident to file a claim. Missing this deadline can mean losing out on compensation entirely.
+      </li>
+    </ul>
+  </p>
+
+
+   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Carter Injury Law: Committed to Securing the Justice You Deserve
+    </p>
+
+    <p className="text-base md:text-lg">
+      <ul class="list-disc pl-5">
+        <li>
+            Carter Injury Law understands the unique challenges motorcycle accident victims face and knows how to counter insurance companies’ tactics to ensure your rights are fully represented.
+        </li>
+
+        <li>
+            As a firm rooted in Florida, we have an in-depth understanding of local biases and legal standards, giving you an edge when it comes to obtaining fair compensation.
+        </li>
+
+        <li>
+            With Carter Injury Law, there are no fees unless we win your case. Our goal is to ease your financial burden so you can focus on recovery. Contact us for a free consultation and find out how we can assist you in your recovery journey.
+        </li>
+      </ul>
+    </p>
+</div>
+`,
+  },
+
+  {
+    icon: "/assets/servicepage/icon/car-icon.png",
+    title: "Semi-Truck and Trucking Accidents",
+    slug: "semi-truck-and-trucking-accidents",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+    Semi-Truck and Trucking Accidents
+  
+    </h2>
+
+    //TODO: update img
+    <img
+      src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+      alt="Semi-Truck and Trucking Accidents"
+      className="w-full py-3"
+    />
+
+
+
+    <p className="text-base md:text-lg">
+        A semi-truck accident claim allows victims to seek compensation for injuries caused by negligence from a truck driver, trucking company, or related parties. Given the size and weight of commercial trucks, these accidents often result in catastrophic injuries or fatalities. Florida law mandates strict federal and state regulations for commercial trucks, including limits on driving hours, vehicle maintenance, and cargo safety.
+    </p>
+
+    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+        Who Should File a Claim and Why Having an Attorney Is Essential
+    </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+          <span class="font-bold">
+              Benefits of Filing: 
+          </span>
+          Filing a claim enables accident victims to recover compensation for medical costs, ongoing care, lost income, and other losses resulting from the accident. These claims are critical for victims facing life-changing injuries or families dealing with the loss of a loved one due to a trucking accident.
+      </li>
+
+      <li>
+          <span class="font-bold">
+              Consequences Without Representation: 
+          </span> 
+          Trucking companies and their insurance companies often have extensive legal resources aimed at minimizing payouts or shifting blame. Attempting to negotiate without an attorney can lead to low settlements or outright claim denials. In Florida, the statute of limitations for filing a trucking accident claim is generally four years, but starting early is essential due to the complexities involved in gathering evidence from trucking companies.
+      </li>
+    </ul>
+  </p>
+
+
+   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Carter Injury Law: Committed to Securing the Justice You Deserve
+    </p>
+
+    <p className="text-base md:text-lg">
+      <ul class="list-disc pl-5">
+        <li>
+           Carter Injury Law is well-versed in the federal and state regulations governing commercial trucks. We’ll investigate the accident thoroughly, examining driver logs, maintenance records, and more to build a strong case on your behalf.
+        </li>
+
+        <li>
+            Our firm knows how to gather crucial evidence and call upon expert witnesses to establish liability and prove the full impact of your injuries. With our experience in Florida courts, we tailor our approach to meet local standards and expectations.
+        </li>
+
+        <li>
+            At Carter Injury Law, we work on a contingency basis, meaning you pay nothing unless we recover compensation for you. Contact us for a free consultation, and let us help you navigate the path to justice and recovery.
+        </li>
+      </ul>
+    </p>
+</div>
+`,
+  },
+
+
+  {
+    icon: "/assets/servicepage/icon/car-icon.png",
+    title: "Bicycle Accidents",
+    slug: "bicycle-accidents",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+    Bicycle Accidents
+  
+    </h2>
+
+    //TODO: update img
+    <img
+      src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+      alt="Bicycle Accidents"
+      className="w-full py-3"
+    />
+
+
+
+    <p className="text-base md:text-lg">
+        A bicycle accident claim allows injured cyclists to seek compensation when they’re hurt due to someone else’s negligence, whether by a motorist, pedestrian, or unsafe road conditions. Bicyclists are especially vulnerable on the road, and even minor accidents can lead to serious injuries like fractures, head trauma, and spinal fractures. In Florida, cyclists have the same rights as drivers and can pursue compensation for damages when another party is at fault.
+    </p>
+
+    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+        Who Should File a Claim and Why Having an Attorney Is Essential
+    </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+          <span class="font-bold">
+              Benefits of Filing: 
+          </span>
+           Filing a claim allows cyclists to cover their medical expenses, lost wages, and other costs resulting from the accident. Many cyclists also need financial support for long-term care or rehabilitation, especially in cases of severe injury.
+      </li>
+
+      <li>
+          <span class="font-bold">
+              Consequences Without Representation: 
+          </span> 
+          Insurance companies often minimize bicycle accident claims or try to blame cyclists for the accident. Without a knowledgeable attorney, cyclists risk receiving low settlements or facing claim denials. Additionally, Florida has a four-year statute of limitations for bicycle accident claims, so filing promptly is essential to preserving your right to compensation.
+      </li>
+    </ul>
+  </p>
+
+
+   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Carter Injury Law: Committed to Securing the Justice You Deserve
+    </p>
+
+    <p className="text-base md:text-lg">
+      <ul class="list-disc pl-5">
+        <li>
+           Carter Injury Law will investigate every aspect of your accident, from securing video footage to gathering witness statements and working with accident reconstruction experts, to ensure the strongest case possible.
+        </li>
+
+        <li>
+            With our extensive knowledge of Florida’s laws and local court systems, we’re equipped to navigate the complexities of bicycle accident cases, protecting your rights at every step.
+        </li>
+
+        <li>
+            We work on a contingency fee basis, meaning you only pay if we win your case. Reach out to us for a free consultation and find out how we can support you in your recovery.
+        </li>
+      </ul>
+    </p>
+</div>
+`,
+  },
+
+
+  {
+    icon: "/assets/servicepage/icon/car-icon.png",
+    title: "Pedestrian Accidents",
+    slug: "pedestrian-accidents",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+    Pedestrian Accidents
+  
+    </h2>
+
+    //TODO: update img
+    <img
+      src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+      alt="Pedestrian Accidents"
+      className="w-full py-3"
+    />
+
+
+
+    <p className="text-base md:text-lg">
+        A pedestrian accident claim is a legal pathway for individuals who have been hit by a vehicle while on foot to seek compensation for their injuries. Pedestrians are especially vulnerable in collisions with cars, trucks, and motorcycles, often resulting in severe injuries such as fractures, traumatic brain injuries, and back injuries. Florida law holds drivers accountable when they fail to yield or drive responsibly, putting pedestrians at risk.
+    </p>
+
+    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+        Who Should File a Claim and Why Having an Attorney Is Essential
+    </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+          <span class="font-bold">
+              Benefits of Filing: 
+          </span>
+           Filing a claim enables injured pedestrians to recover compensation for costly medical treatments, ongoing therapy, lost earnings, and other expenses stemming from the accident. For those with significant or life-altering injuries, a claim can help provide the support needed for long-term care.
+      </li>
+
+      <li>
+          <span class="font-bold">
+              Consequences Without Representation: 
+          </span> 
+          Insurance companies often attempt to downplay or reject pedestrian accident claims, blaming pedestrians or minimizing injuries to avoid paying fair compensation. Without legal representation, pedestrians may face low settlements or no recovery at all. Florida has a four-year statute of limitations for pedestrian accident claims, making it crucial to act quickly to safeguard your right to compensation.
+      </li>
+    </ul>
+  </p>
+
+
+   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Carter Injury Law: Committed to Securing the Justice You Deserve
+    </p>
+
+    <p className="text-base md:text-lg">
+      <ul class="list-disc pl-5">
+        <li>
+           Carter Injury Law conducts thorough investigations, gathering evidence such as witness statements, surveillance footage, and expert opinions to build a solid case and prove liability.
+        </li>
+
+        <li>
+            As a firm rooted in Florida, we understand the unique challenges pedestrians face on Florida roads. We leverage our experience with local laws and courts to navigate these claims effectively, maximizing your compensation.
+        </li>
+
+        <li>
+            We operate on a no-fee-unless-we-win basis, meaning you won’t pay unless we successfully recover damages for you. Contact Carter Injury Law for a free consultation, and let us guide you on the path to justice.
+        </li>
+      </ul>
+    </p>
+</div>
+`,
+  },
+
+  {
+    icon: "/assets/servicepage/icon/car-icon.png",
+    title: "Golf Cart Accidents",
+    slug: "golf-cart-accidents",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+    Golf Cart Accidents
+  
+    </h2>
+
+    //TODO: update img
+    <img
+      src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+      alt="Golf Cart Accidents"
+      className="w-full py-3"
+    />
+
+
+
+    <p className="text-base md:text-lg">
+        A golf cart accident claim allows victims to seek compensation for injuries from collisions or mishaps involving golf carts, commonly found in Florida’s neighborhoods, golf courses, and resorts. Despite their appearance, golf carts can reach dangerous speeds, causing injuries like fractures, head trauma, and soft tissue damage. Florida law classifies golf carts under certain vehicle codes, enabling victims to pursue compensation for medical bills, lost wages, and other losses due to negligence or unsafe conditions.
+    </p>
+
+    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+        Who Should File a Claim and Why Having an Attorney Is Essential
+    </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+          <span class="font-bold">
+              Benefits of Filing: 
+          </span>
+           Individuals who suffer serious injuries from a golf cart accident, either as passengers, pedestrians, or drivers, can file a claim to cover medical expenses, ongoing treatments, and compensation for emotional and physical toll. These claims can be critical for individuals who need financial support to recover fully.
+      </li>
+
+      <li>
+          <span class="font-bold">
+              Consequences Without Representation: 
+          </span> 
+          Golf cart accidents may involve unique legal complexities, such as determining vehicle liability, assessing negligence in shared spaces, or facing property management companies with experienced legal teams. Without an attorney, victims risk having their claims minimized or dismissed. In Florida, the statute of limitations for such claims is generally four years, so it’s essential to start the process early.
+      </li>
+    </ul>
+  </p>
+
+
+   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Carter Injury Law: Committed to Securing the Justice You Deserve
+    </p>
+
+    <p className="text-base md:text-lg">
+      <ul class="list-disc pl-5">
+        <li>
+           Carter Injury Law has extensive experience handling unique accident claims, including golf cart incidents. We’ll work diligently to collect evidence, interview witnesses, and examine local ordinances or community policies that may affect liability.
+        </li>
+
+        <li>
+            As your local firm, we understand the specific challenges of golf cart cases and are committed to standing by our clients throughout the process, ensuring they receive the compensation they deserve.
+        </li>
+
+        <li>
+            At Carter Injury Law, we only get paid if you do. Reach out today for a free consultation to discuss your case, and let us show you how we can help make things right.
+        </li>
+      </ul>
+    </p>
+</div>
+`,
+  },
+
+
+  {
+    icon: "/assets/servicepage/icon/car-icon.png",
+    title: "Uber/Lyft/Ridesharing Accidents",
+    slug: "uber-lyft-ridesharing-accidents",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+    Uber/Lyft/Ridesharing Accidents
+  
+    </h2>
+
+    //TODO: update img
+    <img
+      src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+      alt="Uber/Lyft/Ridesharing Accidents"
+      className="w-full py-3"
+    />
+
+
+
+    <p className="text-base md:text-lg">
+        A ridesharing accident claim is a legal process through which victims seek compensation for injuries sustained in an accident involving an Uber, Lyft, or other rideshare service vehicle. These cases often come with unique challenges due to the layered insurance policies and legal requirements specific to ridesharing companies.
+    </p>
+
+    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+        Who Should File a Claim and Why Having an Attorney Is Essential
+    </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+          <span class="font-bold">
+              Benefits of Filing: 
+          </span>
+           Anyone injured in a rideshare accident—whether as a passenger, another driver, or a pedestrian—may file a claim to seek compensation for their injuries. These claims are crucial for individuals who face mounting medical bills or loss of income due to the accident.
+      </li>
+
+      <li>
+          <span class="font-bold">
+              Consequences Without Representation: 
+          </span> 
+           Navigating the insurance policies involved in Uber and Lyft accidents can be complex, as these companies have specific coverages that vary depending on the driver’s status (e.g., waiting for a ride, en route, or carrying passengers). Without legal guidance, victims may find it difficult to receive fair compensation, with insurance companies often trying to settle for less. The statute of limitations for filing a rideshare accident claim in Florida is four years, underscoring the importance of prompt action.
+      </li>
+    </ul>
+  </p>
+
+
+   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Carter Injury Law: Committed to Securing the Justice You Deserve
+    </p>
+
+    <p className="text-base md:text-lg">
+      <ul class="list-disc pl-5">
+        <li>
+           Carter Injury Law is well-versed in the unique insurance issues surrounding rideshare accidents. We’ll analyze every detail of the accident and each applicable insurance policy to secure the best outcome for your claim.
+        </li>
+
+        <li>
+            With our extensive experience in handling rideshare accident cases, we are equipped to negotiate aggressively with insurance companies and, if necessary, represent you in court, so you’re not left shortchanged by technicalities or policy loopholes.
+        </li>
+
+        <li>
+            We operate on a no-win, no-fee basis. Contact us today for a free consultation to discuss your case and let our team guide you toward rightful compensation.
+        </li>
+      </ul>
+    </p>
+</div>
+`,
+  },
+
+  {
+    icon: "/assets/servicepage/icon/car-icon.png",
+    title: "Bus Accidents",
+    slug: "bus-accidents",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+    Bus Accidents
+  
+    </h2>
+
+    //TODO: update img
+    <img
+      src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+      alt="Bus Accidents"
+      className="w-full py-3"
+    />
+
+
+
+    <p className="text-base md:text-lg">
+        A bus accident claim allows victims to seek compensation for injuries caused by city transit, charter, or school bus accidents. Due to their size and weight, bus accidents often result in serious injuries like fractures, head trauma, and vertebral damage. Florida law holds bus operators and companies responsible for maintaining safe driving practices and ensuring the safety of passengers and others on the road.
+    </p>
+
+    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+        Who Should File a Claim and Why Having an Attorney Is Essential
+    </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+          <span class="font-bold">
+              Benefits of Filing: 
+          </span>
+           Individuals injured in a bus accident—whether as passengers on the bus, pedestrians, or other drivers—can benefit from filing a claim. Bus accident victims may face costly medical treatments, physical therapy, and lost income. A successful claim helps secure compensation to alleviate these burdens.
+      </li>
+
+      <li>
+          <span class="font-bold">
+              Consequences Without Representation: 
+          </span> 
+           Bus accident claims can be complex due to the involvement of government entities (in the case of city buses) or large, often well-insured transportation companies. Without the help of an experienced attorney, victims may face difficulties in holding these entities accountable. Additionally, the statute of limitations for bus accidents in Florida is four years, so timely legal action is crucial to preserving your rights.
+      </li>
+    </ul>
+  </p>
+
+
+   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Carter Injury Law: Committed to Securing the Justice You Deserve
+    </p>
+
+    <p className="text-base md:text-lg">
+      <ul class="list-disc pl-5">
+        <li>
+           We dive deep into every aspect of your case, gathering evidence from accident reports, surveillance footage, and eyewitness testimony to build a strong case on your behalf.
+        </li>
+
+        <li>
+            Whether your case involves a city transit system, a private charter bus company, or a school district, we understand how to deal with the complexities of claims against these large organizations, ensuring that you’re not taken advantage of by their legal teams.
+        </li>
+
+        <li>
+            We work on a contingency basis, meaning you don’t pay us unless we successfully recover damages for you. Reach out today for a free consultation, and let us fight for your rights.
+        </li>
+      </ul>
+    </p>
+</div>
+`,
+  },
+
+  {
+    icon: "/assets/servicepage/icon/car-icon.png",
+    title: "RV Accidents",
+    slug: "rv-accidents",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+    RV Accidents
+  
+    </h2>
+
+    //TODO: update img
+    <img
+      src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+      alt="RV Accidents"
+      className="w-full py-3"
+    />
+
+
+
+    <p className="text-base md:text-lg">
+        An RV accident claim involves seeking compensation for injuries caused in accidents involving recreational vehicles (RVs), which can range from motorhomes to campers. Given the size and weight of RVs, accidents can result in severe injuries, including fractures, head trauma, and internal injuries. RV accidents often happen on highways, in campgrounds, or when maneuvering through tight spaces.
+    </p>
+
+    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+        Who Should File a Claim and Why Having an Attorney Is Essential
+    </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+          <span class="font-bold">
+              Benefits of Filing: 
+          </span>
+           RV accident claims are appropriate for anyone injured in an RV accident, whether as a driver, passenger, or pedestrian. If you’ve been involved in an RV crash that resulted in significant injury or property damage, pursuing a claim can help secure compensation to cover medical bills, vehicle repairs, and lost income.
+      </li>
+
+      <li>
+          <span class="font-bold">
+              Consequences Without Representation: 
+          </span> 
+           RV accidents often involve more complex legal situations, especially if the accident involves a motorhome rental company, commercial RV, or if the crash involves issues like road conditions or vehicle defects. Handling these claims without legal representation can lead to an unfair settlement, especially when dealing with large insurance companies. The statute of limitations for RV accident claims in Florida is four years, so it's crucial to act quickly and protect your rights.
+      </li>
+    </ul>
+  </p>
+
+
+   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Carter Injury Law: Committed to Securing the Justice You Deserve
+    </p>
+
+    <p className="text-base md:text-lg">
+      <ul class="list-disc pl-5">
+        <li>
+           Carter Injury Law will thoroughly investigate your RV accident, reviewing all relevant details such as driver behavior, vehicle maintenance records, and road conditions to build a strong case. Our team will also gather witness statements and accident reports to ensure no details are overlooked.
+        </li>
+
+        <li>
+            Whether you were in a private RV, a rental, or involved in a commercial RV accident, we have the expertise to handle complex cases. We know how to navigate claims involving multiple parties, such as RV owners, rental agencies, and insurance companies, to ensure you get the compensation you deserve.
+        </li>
+
+        <li>
+            We only get paid if you win your case. Contact us today for a free consultation to discuss how we can help you recover from your RV accidents.
+        </li>
+      </ul>
+    </p>
+</div>
+`,
+  },
+
+  {
+    icon: "/assets/servicepage/icon/car-icon.png",
+    title: "Scooter Accidents",
+    slug: "scooter-accidents",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+    Scooter Accidents
+  
+    </h2>
+
+    //TODO: update img
+    <img
+      src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+      alt="Scooter Accidents"
+      className="w-full py-3"
+    />
+
+
+
+    <p className="text-base md:text-lg">
+        A scooter accident claim allows victims to seek compensation for injuries from accidents involving motorized, e-scooters, or traditional scooters. These accidents often result from hazardous road conditions, driver negligence, or scooter malfunctions, leading to serious injuries like fractures, concussions, or spinal damage. As scooters are commonly used in urban areas and busy streets, the risk of accidents is higher, making it crucial for victims to understand their rights to compensation.
+    </p>
+
+    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+        Who Should File a Claim and Why Having an Attorney Is Essential
+    </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+          <span class="font-bold">
+              Benefits of Filing: 
+          </span>
+           Individuals who suffer injuries in scooter accidents, including riders, pedestrians, and other vehicle operators, can file a claim. Whether you’re involved in an accident as a rider of a scooter or another party involved in the crash, it’s important to pursue a claim to cover medical bills, distress and discomfort, and any long-term care needed due to your injuries.
+      </li>
+
+      <li>
+          <span class="font-bold">
+              Consequences Without Representation: 
+          </span> 
+           Scooter accident claims often involve various complexities, such as disputes over fault, lack of evidence, or insurance issues. Without experienced legal counsel, victims may find themselves facing tough negotiations with insurance companies or unable to identify all responsible parties. Florida’s statute of limitations for personal injury claims is four years, but it's important to get started as soon as possible to protect your rights.
+      </li>
+    </ul>
+  </p>
+
+
+   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Carter Injury Law: Committed to Securing the Justice You Deserve
+    </p>
+
+    <p className="text-base md:text-lg">
+      <ul class="list-disc pl-5">
+        <li>
+           We work quickly to gather all the evidence you need to prove your case, from accident reports to surveillance footage and witness testimonies. Our team will ensure that every detail is accounted for to strengthen your claim.
+        </li>
+
+        <li>
+            We are experienced in dealing with the unique challenges of scooter accident cases. Our team knows how to handle disputes over liability, negotiate with insurance companies, and represent you in court if necessary, ensuring you receive fair compensation.
+        </li>
+
+        <li>
+            We don’t charge you unless we win your case. Reach out to us for a free consultation to discuss how we can help you after a scooter accident.
+        </li>
+      </ul>
+    </p>
+</div>
+`,
+  },
+
+  {
+    icon: "/assets/servicepage/icon/car-icon.png",
+    title: "Delivery Truck Accidents",
+    slug: "delivery-truck-accidents",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+    Delivery Truck Accidents
+  
+    </h2>
+
+    //TODO: update img
+    <img
+      src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+      alt="Delivery Truck Accidents"
+      className="w-full py-3"
+    />
+
+
+
+    <p className="text-base md:text-lg">
+        Delivery truck accidents can occur when large commercial vehicles are involved in collisions while transporting goods. These accidents may involve trucks delivering to businesses, homes, or distribution centers, and they can result in serious injuries due to the size and weight of the vehicle. If you’ve been injured in a delivery truck accident, Florida law allows you to seek compensation if the accident was caused by negligence, whether it’s due to driver error, maintenance issues, or improperly secured cargo.
+    </p>
+
+    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+        Who Should File a Claim and Why Having an Attorney Is Essential
+    </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+          <span class="font-bold">
+              Benefits of Filing: 
+          </span>
+          Victims of delivery truck accidents can recover compensation for medical expenses, lost wages, pain and suffering, and property damage. Filing a claim can help you address the financial burden that comes with recovery, as well as bring accountability to the parties responsible for the accident. Whether the injury is temporary or permanent, seeking legal action ensures that you get the compensation you need to rebuild your life.
+      </li>
+
+      <li>
+          <span class="font-bold">
+              Consequences Without Representation: 
+          </span> 
+           Without legal representation, securing fair compensation for delivery truck accident victims can be challenging. Insurance companies often attempt to minimize settlements, and in complex cases involving multiple liable parties, it can be difficult for victims to prove fault. Without an experienced attorney, victims may face difficulties in gathering evidence and understanding their rights, leaving them vulnerable to inadequate settlements that do not cover the full scope of their damages.
+      </li>
+    </ul>
+  </p>
+
+
+   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Carter Injury Law: Committed to Securing the Justice You Deserve
+    </p>
+
+    <p className="text-base md:text-lg">
+      <ul class="list-disc pl-5">
+        <li>
+           We have the expertise to investigate delivery truck accidents thoroughly, identifying all parties at fault, including the driver, the trucking company, or even the manufacturer of faulty equipment.
+        </li>
+
+        <li>
+            We negotiate aggressively with insurance companies to ensure that your compensation reflects the true costs of your injuries, including medical expenses, lost wages, and pain and suffering.
+        </li>
+
+        <li>
+            In Florida, you have up to two years from the accident date to file a claim. We act quickly to ensure that your case is handled efficiently and that your rights are protected from the outset.
+        </li>
+      </ul>
+    </p>
+</div>
+`,
+  },
+
+//Premises Liability
+
+{
+  icon: "/assets/servicepage/icon/car-icon.png",
+  title: "Slip and Fall Accidents",
+  slug: "slip-and-falls",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Slip and Fall Accidents
+
+  </h2>
+
+  //TODO: update img
+  <img
+    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    alt="Slip and Fall Accidents"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      Slip and fall accidents are a common type of premises liability claim. These occur when someone slips, trips, or falls due to hazardous conditions on someone else's property, such as wet floors, uneven surfaces, or poorly lit areas. Florida law holds property owners responsible for maintaining safe environments, which means they’re accountable if negligence leads to injury.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Individuals who have suffered injuries in slip and fall accidents on someone else’s property—whether at a store, workplace, or private residence—stand to gain significantly by pursuing legal action. Compensation can cover critical needs like medical expenses, lost income, agony, and hardship. Those affected by severe injuries, such as fractures or head trauma, especially benefit from representation to help stabilize their financial and physical recovery.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+          Without an attorney advocating for you, securing fair compensation can be challenging. Insurance companies often aim to minimize payouts or outright deny claims, particularly if there’s no legal pressure. Victims without representation may struggle to document injuries and damages adequately, leaving them vulnerable to low settlements that don’t reflect the true costs of their injury.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+         Carter Injury Law understands Florida's premises liability laws and knows how to hold negligent property owners accountable.
+      </li>
+
+      <li>
+          We are well experienced in gathering evidence like surveillance footage, accident reports, and witness statements.
+      </li>
+
+      <li>
+          Our experienced team works to ensure your rights are protected and pursues the compensation you deserve.
+      </li>
+
+      <li>
+          In Florida, you have two years from the accident date to file a claim, so we act quickly to secure your compensation while you focus on healing.
+      </li>
+
+      <li>
+          We work on a contingency fee basis—this means you don’t pay unless we win your case. If we don't secure compensation for you, there's no fee to pay.
+      </li>
+    </ul>
+  </p>
+</div>
+`,
+},
+
+{
+  icon: "/assets/servicepage/icon/car-icon.png",
+  title: "Trip and Fall Accidents",
+  slug: "trip-and-falls",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Trip and Fall Accidents
+
+  </h2>
+
+  //TODO: update img
+  <img
+    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    alt="Trip and Fall Accidents"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      Trip and fall accidents happen when a person trips over an obstacle or uneven surface, leading to injuries. Common causes include poorly maintained sidewalks, loose carpeting, or unexpected hazards on walkways. In Florida, property owners are legally required to maintain safe environments, meaning they may be liable if their negligence causes an accident.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Individuals injured in trip and fall accidents—whether on public sidewalks, in commercial spaces, or in private residences—can benefit greatly from filing a claim. Seeking compensation can cover essential needs, such as medical bills, lost wages, and pain and suffering, particularly for those facing serious injuries like sprains, fractures, or spinal damage. For victims, pursuing a claim is often necessary to regain physical and financial stability after the accident.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+          Without legal guidance, victims of trip and fall accidents may face challenges in holding property owners accountable. Insurance companies often aim to reduce or deny claims, especially if the victim lacks the evidence and advocacy needed to establish fault. Without representation, victims may be left with inadequate settlements that don’t fully cover the costs of their recovery.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+         Carter Injury Law is well-versed in Florida's premises liability laws and can help establish negligence on the part of property owners.
+      </li>
+
+      <li>
+          We conduct a detailed investigation, gathering evidence like maintenance records, photos of the hazard, and witness testimony to strengthen your case.
+      </li>
+
+      <li>
+          We fight to protect your rights, pursuing fair compensation to cover your injury-related expenses.
+      </li>
+
+      <li>
+          In Florida, you generally have two years from the accident date to file a claim. We work swiftly and effectively to help you secure the compensation you deserve, so you can focus on healing.
+      </li>
+
+      <li>
+          We operate on a no-win, no-fee basis. That means you only pay if we successfully win your case. If we don't recover compensation for you, you won’t owe us anything.
+      </li>
+    </ul>
+  </p>
+</div>
+`,
+},
+
+
+{
+  icon: "/assets/servicepage/icon/car-icon.png",
+  title: "Dog Bite Injuries",
+  slug: "dog-bites",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Dog Bite Injuries
+
+  </h2>
+
+  //TODO: update img
+  <img
+    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    alt="Dog Bite Injuries"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      Dog bite injuries can have severe physical and emotional consequences, often requiring immediate medical treatment and long-term care. In Florida, dog owners are legally liable for damages if their dog bites another person, regardless of the dog’s history or the owner’s knowledge of prior aggression. This legal standard is intended to ensure victims can seek compensation for medical bills, emotional distress, and other costs.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Dog bite victims, especially children or those who have suffered serious injuries, can benefit significantly from filing a claim. Pursuing compensation helps cover medical expenses, reconstructive procedures, loss of earnings, and even psychological support if the attack leaves lasting trauma. Filing a claim holds dog owners accountable and can ease the financial strain on victims and their families as they recover.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Without an attorney, victims may face difficulties navigating the legal complexities surrounding liability and insurance for dog bites. Insurers often attempt to minimize payouts, citing factors like the dog’s history or provoking behavior, which can reduce the settlement amount. Without professional support, victims might be left with high medical costs and limited financial recovery options.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+         At Carter Injury Law, we understand the complexities of dog bite cases under Florida law and work to hold negligent owners accountable.
+      </li>
+
+      <li>
+          We collect evidence, such as medical records, witness statements, and past records of the dog’s behavior, to establish a strong case.
+      </li>
+
+      <li>
+          We advocate for your rights, pushing for fair compensation that reflects the full impact of your injuries.
+      </li>
+
+      <li>
+          Florida law allows up to two years to file a claim after a dog bite injury. We ensure all paperwork is filed promptly, giving you the peace of mind to focus on recovery.
+      </li>
+
+      <li>
+          We operate on a contingency fee basis, meaning if we’re unable to secure compensation for you, there’s no cost to you—our success is tied to yours.
+      </li>
+    </ul>
+  </p>
+</div>
+`,
+},
+
+{
+  icon: "/assets/servicepage/icon/car-icon.png",
+  title: "Negligent Security",
+  slug: "negligent-security",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Negligent Security
+
+  </h2>
+
+  //TODO: update img
+  <img
+    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    alt="Negligent Security"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      Negligent security cases arise when property owners fail to implement reasonable safety measures, leading to preventable crimes such as assault, robbery, or theft. Under Florida law, property owners have a duty to ensure their premises are safe for visitors and tenants, especially in areas with a history of criminal activity. When this responsibility is ignored, victims may have grounds for a negligent security claim.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Victims of crimes that occurred due to a lack of adequate security—such as poor lighting, broken locks, or the absence of security personnel—may benefit from filing a negligent security claim. Taking legal action can provide compensation for medical expenses, trauma counseling, lost wages, and other damages. Additionally, these claims put pressure on property owners to improve safety measures, potentially preventing future incidents for others.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Without legal guidance, victims may struggle to prove that inadequate security directly contributed to the crime. Property owners and insurers often deny liability, claiming the incident was unforeseeable. Without representation, victims are left at a disadvantage in facing such arguments, often resulting in limited or no compensation for the injuries, trauma, and financial losses they endured.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+         Carter Injury Law understands the intricacies of Florida’s premises liability laws, specifically regarding negligent security, and knows how to build a compelling case to hold property owners accountable.
+      </li>
+
+      <li>
+          Our team carries out a detailed investigation, collecting vital evidence like surveillance videos, incident reports, and expert opinions to demonstrate how inadequate security contributed to your injuries.
+      </li>
+
+      <li>
+          We fight for full compensation, addressing all aspects of your losses—physical, emotional, and financial.
+      </li>
+
+      <li>
+          In Florida, you generally have two years to file a negligent security claim. We work quickly to preserve evidence and initiate your claim.
+      </li>
+
+      <li>
+          Our fees are only payable if we successfully recover compensation on your behalf. If we do not secure a favorable outcome for you, you will not be charged any legal fees.
+      </li>
+    </ul>
+  </p>
+</div>
+`,
+},
+
+{
+  icon: "/assets/servicepage/icon/car-icon.png",
+  title: "Burn Injuries",
+  slug: "burn-injuries",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Burn Injuries
+
+  </h2>
+
+  //TODO: update img
+  <img
+    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    alt="Burn Injuries"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      Burn injuries can result from various accidents, including fires, chemical exposure, defective products, and unsafe premises. These injuries often require extensive medical care and rehabilitation, with victims facing lasting physical and emotional scars. Florida law provides pathways for burn injury victims to seek compensation if the injury resulted from someone else’s negligence, such as in cases involving unsafe conditions or product defects.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Individuals who have suffered burn injuries due to another party’s negligence can benefit greatly from filing a claim. Compensation can cover medical expenses, including surgeries and long-term care, as well as other losses like lost wages and emotional trauma. Pursuing a claim helps alleviate the financial burden of recovery and can bring a sense of justice to victims facing life-altering injuries.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Without experienced legal representation, burn victims often face challenges proving liability, particularly if multiple parties or complex factors contributed to the incident. Insurance companies frequently try to limit compensation, questioning the extent of the injuries or responsibility of the liable party. Without a lawyer, victims may settle for less than what they need, risking their long-term recovery and financial stability.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+         At Carter Injury Law, we bring in-depth knowledge of Florida’s personal injury statutes to your burn injury case, helping hold negligent parties accountable.
+      </li>
+
+      <li>
+          Our team works with medical and safety experts to gather evidence, reconstruct the incident, and document the full extent of your injuries and losses.
+      </li>
+
+      <li>
+          We fight tirelessly to ensure you receive fair compensation that reflects the serious, long-term impact of burn injuries on your life.
+      </li>
+
+      <li>
+          Florida’s statute of limitations allows two years to file a burn injury claim, so we move quickly to secure your rights and provide support throughout your recovery journey.
+      </li>
+
+      <li>
+          We operate on a contingency fee structure, which means you only owe us if we win your case. If we don’t recover compensation for you, there’s no cost to you.
+      </li>
+    </ul>
+  </p>
+</div>
+`,
+},
+
+
+//General Negligence 
+
+
+{
+  icon: "/assets/servicepage/icon/car-icon.png",
+  title: "Boat Accident",
+  slug: "boat-accident",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Boat Accident
+
+  </h2>
+
+  //TODO: update img
+  <img
+    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    alt="Boat Accident"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      A boat accident refers to any incident that happens while operating a boat or watercraft, leading to injury, property damage, or even loss of life. These accidents often occur due to collisions, hitting submerged objects, capsizing, equipment failure, or operator negligence. In Florida, with its vast waterways, there are strict boating safety laws in place. When boat operators fail to follow these regulations, they can be held accountable for the resulting harm.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Victims of boat accidents, including passengers, other boat operators, and bystanders, can benefit from pursuing a claim. Compensation may cover medical bills, lost wages, pain and suffering, property damage, and in some cases, wrongful death. Individuals who have been injured or harmed in a boating accident due to another person’s carelessness will benefit most from legal action.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Boating accidents often involve complex liability issues, with multiple parties potentially at fault. Without legal help, victims may struggle to identify responsible parties, collect evidence, and navigate boating laws. Florida’s four-year statute of limitations means delays can harm your case. Without an experienced lawyer, insurance companies may minimize payout, even deny your claim showing intricate clauses.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+         We’ll investigate your boating accident, gathering reports, witness statements, and expert input to identify all responsible parties.
+      </li>
+
+      <li>
+          With expert knowledge of Florida’s boating laws, we’ll guide you through legal complexities, from proving negligence to understanding liability.
+      </li>
+
+      <li>
+          Our team will fight for fair compensation for medical and financial expenses, and emotional distress, whether through settlement or litigation.
+      </li>
+
+      <li>
+          We work on a contingency fee basis, so you only pay us if we win your case.
+      </li>
+    </ul>
+  </p>
+</div>
+`,
+},
+
+
+{
+  icon: "/assets/servicepage/icon/car-icon.png",
+  title: "Jet Ski Accident",
+  slug: "jet-ski-accident",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Jet Ski Accident
+
+  </h2>
+
+  //TODO: update img
+  <img
+    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    alt="Jet Ski Accident"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      A jet ski accident involves injuries or damages caused while operating or riding on a jet ski, also known as a personal watercraft (PWC). These accidents can occur due to collisions with other watercraft, obstacles, or even poor weather conditions, as well as operator errors such as reckless driving or not following safety regulations. Florida, with its large coastline and boating culture, experiences many jet ski accidents annually. Injuries can range from minor to severe, including head trauma, broken bones, spinal injuries, or drowning.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Individuals injured in jet ski accidents, including passengers, boaters, and passersby, may be entitled to compensation for medical costs, lost income, physical strain or emotional, and property damage. If another party’s negligence, such as reckless operation or poor maintenance, caused the accident, significant damages may be awarded.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Proving liability in jet ski accidents can be challenging due to factors like operator error, mechanical failure, or environmental conditions. With Florida’s four-year statute of limitations, acting quickly is crucial. Without an attorney, you risk settling for less, as insurance companies may offer inadequate compensation.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+         We’ll review accident reports, witness statements, and medical records to identify the responsible parties, including operators, rental companies, or maintenance providers.
+      </li>
+
+      <li>
+          Our deep understanding of Florida’s boating regulations helps us prove negligence and determine liability in your case.
+      </li>
+
+      <li>
+          We’ll advocate for proper compensation for medical expenses, lost earnings, mental torment, and other damages, whether through settlement negotiations or by taking your case to trial.
+      </li>
+
+      <li>
+          Our dedicated team will support you throughout the legal process. Reach out for a free, confidential consultation—no fees unless we win your case.
+      </li>
+    </ul>
+  </p>
+</div>
+`,
+},
+
+{
+  icon: "/assets/servicepage/icon/car-icon.png",
+  title: "Airline and Aviation Injuries",
+  slug: "airline-and-aviation-injuries",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Airline and Aviation Injuries
+
+  </h2>
+
+  //TODO: update img
+  <img
+    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    alt="Airline and Aviation Injuries"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      Airline and aviation injuries occur during air travel, including accidents on commercial or private aircraft or while boarding or disembarking. These can result from crashes, turbulence, slip and falls, safety failures, or faulty equipment. Aviation accidents may involve passengers and crew, such as pilots or flight attendants. In Florida, the FAA regulates airline safety, and these claims are complicated, often involving airlines, manufacturers, and maintenance crews.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Individuals injured in aviation accidents, including passengers, crew, or bystanders, can seek compensation for medical expenses, income loss, agony and torment, and wrongful death. Victims can hold responsible parties accountable if negligence, such as poor maintenance or safety failures, caused the injury.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Airline and aviation injury cases are often complex and involve multiple potential defendants. Without legal representation, it can be difficult to identify the responsible parties and navigate federal and state aviation laws. The statute of limitations for aviation accidents varies, so it’s crucial to act quickly to safeguard evidence. Without legal counsel, victims may receive less compensation, as insurance companies may undervalue the claim.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+         We’ll investigate your aviation injury by reviewing flight data, maintenance records, and witness testimonies to determine fault and gather essential evidence.
+      </li>
+
+      <li>
+          Our team understands the complex federal and state aviation laws, including FAA regulations, and will use this expertise to pursue your case effectively.
+      </li>
+
+      <li>
+          We’ll fight for fair compensation by negotiating with or taking legal action against airlines, manufacturers, and maintenance providers.
+      </li>
+
+      <li>
+          We’re here to walk you through the legal process, so you can focus on recovery. Contact us for a free, confidential consultation—no fee unless we win.
+      </li>
+    </ul>
+  </p>
+</div>
+`,
+},
+
+
+
+//Wrongful Death
+
+{
+  icon: "/assets/servicepage/icon/car-icon.png",
+  title: "Car Accident Wrongful Death",
+  slug: "car-accident-wrongful-death",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Car Accident Wrongful Death
+
+  </h2>
+
+  //TODO: update img
+  <img
+    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    alt="Car Accident Wrongful Death"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      A car accident wrongful death claim arises when someone dies due to another driver's negligence, recklessness, or intentional actions. Florida law allows surviving family members—such as a spouse, children, or parents—to seek compensation for funeral costs, lost income, and emotional distress. The goal is to hold the responsible party accountable and provide financial support to those left behind after a tragic loss.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         If you’ve lost a loved one in a car accident, a wrongful death claim can help provide financial support and a sense of justice. Surviving spouses, children, and other dependents often benefit from compensation covering funeral and burial expenses, medical bills, loss of companionship, loss of financial support, and more.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Unfortunately, going it alone can mean insurance companies and at-fault parties may minimize or deny your claim. Florida’s wrongful death statute (Florida Statutes § 768.16-768.26) gives only two years from the date of death to file a lawsuit. Without skilled legal help, you’ll face complicated legal battles and insurance companies determined to protect their bottom line.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+         We’ll step in immediately to protect your rights, beginning with a thorough investigation to handle all communications with insurance companies so you can focus on healing.
+      </li>
+
+      <li>
+          Our deep understanding of Florida’s wrongful death laws ensures that every crucial deadline is met and your case is built on strong evidence.
+      </li>
+
+      <li>
+          We’ll negotiate tactfully with insurers or represent you in court, all while keeping your best interests at heart.
+      </li>
+
+      <li>
+          We’ll walk you through every step of the process. Reach out to us, and let us fight for justice on behalf of your loved one. You pay us nothing unless we secure compensation for you.
+      </li>
+    </ul>
+  </p>
+</div>
+`,
+},
+
+
+{
+  icon: "/assets/servicepage/icon/car-icon.png",
+  title: "Premises Liability Wrongful Death",
+  slug: "premises-liability-wrongful-death",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Premises Liability Wrongful Death
+
+  </h2>
+
+  //TODO: update img
+  <img
+    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    alt="Premises Liability Wrongful Death"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      A premises liability wrongful death claim arises when a fatality occurs due to unsafe conditions on someone else’s property. In Florida, property owners are required to maintain safe premises. When negligence—such as hazardous conditions like slippery floors, broken stairs, or poor security—leads to death, the property owner may be liable.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Family members of a loved one who dies due to unsafe conditions on someone else's property can seek compensation for funeral expenses, lost wages, emotional distress, loss of companionship, and other damages. Spouses, children, and dependents often benefit from the compensation in wrongful death claims.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Navigating a premises liability wrongful death claim can be daunting without legal representation. Property owners and insurers often deny responsibility, and Florida's two-year statute of limitations means delays can seize your right to compensation. Handling the legal process and evidence collection on your own can hinder your case.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+         We’ll quickly gather vital evidence, including security footage, maintenance records, and witness statements, to understand the circumstances of your loved one’s passing.
+      </li>
+
+      <li>
+          Our attorneys are well-versed in Florida’s premises liability laws and will build a strong case, ensuring all legal requirements and deadlines are met.
+      </li>
+
+      <li>
+          Whether negotiating with the insurance company against their practices for minimizing compensation or going to trial, we’ll fight for your best interests, with no fees unless we win.
+      </li>
+
+    </ul>
+  </p>
+</div>
+`,
+},
+
+
+{
+  icon: "/assets/servicepage/icon/car-icon.png",
+  title: "Nursing Home Wrongful Death",
+  slug: "nursing-home-wrongful-death",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Nursing Home Wrongful Death
+
+  </h2>
+
+  //TODO: update img
+  <img
+    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    alt="Nursing Home Wrongful Death"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      A nursing home wrongful death claim occurs when a resident dies due to neglect, abuse, or poor care. Florida law requires that facilities uphold high standards of care. When a nursing home fails in its duties—through inadequate staffing, neglect, or abuse—the result can be fatal. In such cases, the facility can be held liable, allowing families to seek justice and accountability.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         If a family member dies as a result of nursing home negligence or abuse, they may seek compensation for burial expenses, healthcare costs, pain and suffering, loss of relationships, and other damages. These claims assist families in recovering financial losses while also holding negligent facilities responsible.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Nursing homes and their insurers often have strong defenses, making it difficult for families to hold them accountable without legal help. Florida law gives you two years from the date of death to file a wrongful death claim. Missing this deadline or failing to build a solid case can prevent you from seeking justice and compensation.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+         We’ll examine all aspects of your loved one’s death, gathering medical records, witness accounts, and evidence of neglect or abuse.
+      </li>
+
+      <li>
+          We’ll use our knowledge of Florida law to prove the facility’s substandard care caused your loved one’s death, ensuring all legal deadlines are met.
+      </li>
+
+      <li>
+          We’ll fight for the compensation you deserve and work to prevent further harm. For that, we’ll go for advocacy - negotiating with insurers or pursuing litigation.
+      </li>
+
+      <li>
+          We'll walk you through the process with sensitivity, focusing on the legal battle while you concentrate on recovery. Contact us for a free consultation; there is no payment unless we win.
+      </li>
+    </ul>
+  </p>
+</div>
+`,
+},
+
+
+
+
+
+
 ];
