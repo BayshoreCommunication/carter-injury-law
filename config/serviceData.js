@@ -3289,7 +3289,152 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 `,
 },
 
+{
+  icon: "/assets/servicepage/icon/car-icon.png",
+  title: "Medical Malpractice Wrongful Death",
+  slug: "medical-malpractice-wrongful-death",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
+  Medical Malpractice Wrongful Death
+
+  </h2>
+
+  //TODO: update img
+  <img
+    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    alt="Medical Malpractice Wrongful Death"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      A medical malpractice wrongful death claim happens when a patient’s life is lost due to negligence or the failure of healthcare professionals to provide a standard level of care. This could involve misdiagnosis, surgical errors, medication mistakes, or failure to treat a critical condition, among other forms of negligence. In Florida, medical professionals are held to strict standards, and when their actions—or lack of actions—lead to a patient's death, surviving family members can pursue justice through a wrongful death claim.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         The family of a person who dies as a result of medical negligence may claim compensation for medical expenditures, funeral costs, lost future income, pain and suffering, and mental stress. Spouses, children, and other dependents are typically entitled to recovery.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Medical malpractice cases are complex, and without skilled representation, families may face obstacles in proving negligence and securing fair compensation. Florida law has a two-year statute of limitations, so missed deadlines can lead to financial loss.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+         We’ll review your loved one’s medical history, seek expert opinions, and analyze whether the healthcare provider’s actions fell below the accepted standard of care uncovering the truth on your behalf.
+      </li>
+
+      <li>
+          Medical malpractice wrongful death claims involve complex legal requirements and expert testimonies. Our team knows Florida’s laws inside and out and will ensure all evidence is gathered, legal deadlines are met, and your case is handled with precision.
+      </li>
+
+      <li>
+          We’ll fight on your behalf against healthcare providers, insurance companies, and their legal teams, seeking maximum compensation for your loss. Whether it’s through negotiation or a court trial, we’re ready to stand by you. Contact us for a free consultation—there’s no fee unless we win.
+      </li>
+
+    </ul>
+  </p>
+</div>
+`,
+},
+
+
+{
+  icon: "/assets/servicepage/icon/car-icon.png",
+  title: "Product Liability Wrongful Death",
+  slug: "Product Liability Wrongful Death",
+  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Product Liability Wrongful Death
+
+  </h2>
+
+  //TODO: update img
+  <img
+    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    alt="Product Liability Wrongful Death"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      A product liability wrongful death claim arises when a person dies due to a defective or unsafe product. Florida law holds manufacturers, distributors, and sellers responsible for ensuring their products are safe. If defects—such as design flaws, manufacturing errors, or inadequate warnings—lead to a fatal accident, the responsible parties can be held liable.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Families of those who die from defective products can seek compensation for medical expenses, funeral costs, lost income, and emotional damages. These claims not only provide financial relief but also hold companies accountable, potentially preventing future tragedies.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Product liability wrongful death cases often involve powerful corporations and complex legal issues. Without skilled legal counsel, families may struggle with identifying responsible parties, navigating product safety laws, and countering defense strategies. Florida’s two-year statute of limitations makes timely representation crucial to avoid missing deadlines or losing the opportunity for justice.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <p className="text-base md:text-lg">
+    <ul class="list-disc pl-5">
+      <li>
+         We’ll carefully examine the product, consulting experts and analyzing design and manufacturing flaws to build a strong case connecting the defect to your loved one’s death.
+      </li>
+
+      <li>
+          With experience in Florida product liability cases, we know how to hold corporations accountable, handling complex legal strategies to counter tough defenses.
+      </li>
+
+      <li>
+          Our goal is to secure maximum compensation by negotiation or litigation, so you can focus on yourself while we handle the legal details.
+      </li>
+
+      <li>
+          We understand the pain of losing a loved one to a defective product. Get in touch for a free, confidential consultation—no payment is required unless we secure a win.
+      </li>
+
+    </ul>
+  </p>
+</div>
+`,
+},
 
 
 
