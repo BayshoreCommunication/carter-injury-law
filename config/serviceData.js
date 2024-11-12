@@ -1822,7 +1822,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   
     </h2>
 
-    //TODO: update img
+     
     <img
       src="/assets/servicepage/auto-accidents/semi-truck-and-trucking-accidents.jpg"
       alt="Semi-Truck and Trucking Accidents"
@@ -1893,7 +1893,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   
     </h2>
 
-    //TODO: update img
+     
     <img
       src="/assets/servicepage/auto-accidents/bicycle-accidents.jpg"
       alt="Bicycle Accidents"
@@ -1964,7 +1964,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   
     </h2>
 
-    //TODO: update img
+     
     <img
       src="/assets/servicepage/auto-accidents/pedestrian-accidents.jpg"
       alt="Pedestrian Accidents"
@@ -2034,7 +2034,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   
     </h2>
 
-    //TODO: update img
+     
     <img
       src="/assets/servicepage/auto-accidents/golf-cart-accidents.jpg"
       alt="Golf Cart Accidents"
@@ -2105,7 +2105,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   
     </h2>
 
-    //TODO: update img
+    
     <img
       src="/assets/servicepage/auto-accidents/uber-lyft-ridesharing-accidents.jpg"
       alt="Uber/Lyft/Ridesharing Accidents"
@@ -2175,7 +2175,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   
     </h2>
 
-    //TODO: update img
+   
     <img
       src="/assets/servicepage/auto-accidents/bus-accidents.jpg"
       alt="Bus Accidents"
@@ -2245,7 +2245,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   
     </h2>
 
-    //TODO: update img
+    
     <img
       src="/assets/servicepage/auto-accidents/rv-accidents.jpg"
       alt="RV Accidents"
@@ -2315,7 +2315,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   
     </h2>
 
-    //TODO: update img
+    
     <img
       src="/assets/servicepage/auto-accident/scooter-accidents.jpg"
       alt="Scooter Accidents"
@@ -2447,7 +2447,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 //Premises Liability
 
 {
-  icon: "/assets/servicepage/icon/car-icon.png",
+  icon: "/assets/servicepage/icon/fall-icon.png",
   title: "Slip and Fall Accidents",
   slug: "slip-and-falls",
   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -2457,9 +2457,9 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
   </h2>
 
-  //TODO: update img
+  
   <img
-    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    src="/assets/servicepage/premises-liability/slip-and-falls.jpg"
     alt="Slip and Fall Accidents"
     className="w-full py-3"
   />
@@ -2525,7 +2525,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 },
 
 {
-  icon: "/assets/servicepage/icon/car-icon.png",
+  icon: "/assets/servicepage/icon/fall-icon.png",
   title: "Trip and Fall Accidents",
   slug: "trip-and-falls",
   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -2535,9 +2535,9 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
   </h2>
 
-  //TODO: update img
+  
   <img
-    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    src="/assets/servicepage/premises-liability/trip-and-falls.jpg"
     alt="Trip and Fall Accidents"
     className="w-full py-3"
   />
@@ -2604,7 +2604,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
 
 {
-  icon: "/assets/servicepage/icon/car-icon.png",
+  icon: "/assets/servicepage/icon/dog-bite-icon.png",
   title: "Dog Bite Injuries",
   slug: "dog-bites",
   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -2614,9 +2614,9 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
   </h2>
 
-  //TODO: update img
+  
   <img
-    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    src="/assets/servicepage/premises-liability/dog-bites.jpg"
     alt="Dog Bite Injuries"
     className="w-full py-3"
   />
@@ -2682,7 +2682,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 },
 
 {
-  icon: "/assets/servicepage/icon/car-icon.png",
+  icon: "/assets/servicepage/icon/insecure-icon.png",
   title: "Negligent Security",
   slug: "negligent-security",
   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -2692,9 +2692,9 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
   </h2>
 
-  //TODO: update img
+   
   <img
-    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    src="/assets/servicepage/premises-liability/negligent-security.jpg"
     alt="Negligent Security"
     className="w-full py-3"
   />
@@ -2760,7 +2760,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 },
 
 {
-  icon: "/assets/servicepage/icon/car-icon.png",
+  icon: "/assets/servicepage/icon/pain-icon.png",
   title: "Burn Injuries",
   slug: "burn-injuries",
   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -2770,9 +2770,9 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
   </h2>
 
-  //TODO: update img
+   
   <img
-    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    src="/assets/servicepage/premises-liability/burn-injuries.jpg"
     alt="Burn Injuries"
     className="w-full py-3"
   />
@@ -2842,7 +2842,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
 
 {
-  icon: "/assets/servicepage/icon/car-icon.png",
+  icon: "/assets/servicepage/icon/boat-icon.png",
   title: "Boat Accident",
   slug: "boat-accident",
   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -2852,9 +2852,9 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
   </h2>
 
-  //TODO: update img
+  
   <img
-    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    src="/assets/servicepage/general-negligence/boating-accident.jpg"
     alt="Boat Accident"
     className="w-full py-3"
   />
@@ -2917,7 +2917,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
 
 {
-  icon: "/assets/servicepage/icon/car-icon.png",
+  icon: "/assets/servicepage/icon/fall-icon.png",
   title: "Jet Ski Accident",
   slug: "jet-ski-accident",
   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -2927,9 +2927,9 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
   </h2>
 
-  //TODO: update img
+   
   <img
-    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    src="/assets/servicepage/general-negligence/jet-ski-accidents.jpg"
     alt="Jet Ski Accident"
     className="w-full py-3"
   />
@@ -2991,7 +2991,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 },
 
 {
-  icon: "/assets/servicepage/icon/car-icon.png",
+  icon: "/assets/servicepage/icon/airline-icon.png",
   title: "Airline and Aviation Injuries",
   slug: "airline-and-aviation-injuries",
   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -3001,9 +3001,9 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
   </h2>
 
-  //TODO: update img
+   
   <img
-    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    src="/assets/servicepage/general-negligence/airline-and-aviation-injuries.jpg"
     alt="Airline and Aviation Injuries"
     className="w-full py-3"
   />
@@ -3069,7 +3069,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 //Wrongful Death
 
 {
-  icon: "/assets/servicepage/icon/car-icon.png",
+  icon: "/assets/servicepage/icon/car-crash-icon.png",
   title: "Car Accident Wrongful Death",
   slug: "car-accident-wrongful-death",
   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -3079,9 +3079,9 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
   </h2>
 
-  //TODO: update img
+   
   <img
-    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    src="/assets/servicepage/wrongful-death/car-accident-wrongful-death.jpg"
     alt="Car Accident Wrongful Death"
     className="w-full py-3"
   />
@@ -3144,7 +3144,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
 
 {
-  icon: "/assets/servicepage/icon/car-icon.png",
+  icon: "/assets/servicepage/icon/premises-icon.png",
   title: "Premises Liability Wrongful Death",
   slug: "premises-liability-wrongful-death",
   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -3154,9 +3154,9 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
   </h2>
 
-  //TODO: update img
+   
   <img
-    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    src="/assets/servicepage/wrongful-death/premises-liability-wrongful-death.jpg"
     alt="Premises Liability Wrongful Death"
     className="w-full py-3"
   />
@@ -3216,7 +3216,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
 
 {
-  icon: "/assets/servicepage/icon/car-icon.png",
+  icon: "/assets/servicepage/icon/wrongful-death-icon.png",
   title: "Nursing Home Wrongful Death",
   slug: "nursing-home-wrongful-death",
   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -3226,9 +3226,9 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
   </h2>
 
-  //TODO: update img
+   
   <img
-    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    src="/assets/servicepage/wrongful-death/nursing-home-wrongful-death.jpg"
     alt="Nursing Home Wrongful Death"
     className="w-full py-3"
   />
@@ -3290,7 +3290,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 },
 
 {
-  icon: "/assets/servicepage/icon/car-icon.png",
+  icon: "/assets/servicepage/icon/medical-icon.png",
   title: "Medical Malpractice Wrongful Death",
   slug: "medical-malpractice-wrongful-death",
   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -3300,9 +3300,9 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
   </h2>
 
-  //TODO: update img
+  
   <img
-    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    src="/assets/servicepage/wrongful-death/medical-malpractice-wrongful-death.jpg"
     alt="Medical Malpractice Wrongful Death"
     className="w-full py-3"
   />
@@ -3362,7 +3362,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
 
 {
-  icon: "/assets/servicepage/icon/car-icon.png",
+  icon: "/assets/servicepage/icon/medical-icon.png",
   title: "Product Liability Wrongful Death",
   slug: "Product Liability Wrongful Death",
   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -3372,9 +3372,9 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
   </h2>
 
-  //TODO: update img
+
   <img
-    src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+    src="/assets/servicepage/wrongful-death/product-liability-wrongful-death.jpg"
     alt="Product Liability Wrongful Death"
     className="w-full py-3"
   />
