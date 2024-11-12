@@ -171,7 +171,7 @@ const MainNavbar = () => {
                 title: "Cut and Burn Injuries",
                 slug: "cut-and-burn-injuries",
               },
-              { title: "Broken Bone Injuries", slug: "broken-bone-injuries" },
+              { title: "Broken Bone Injury", slug: "broken-bone-injury" },
               { title: "Catastrophic Injuries", slug: "catastrophic-injuries" },
               {
                 title: "Disability Rating Disputes",

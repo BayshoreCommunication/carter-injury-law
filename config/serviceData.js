@@ -149,126 +149,126 @@ export const allServiceData = [
     
   </div>`,
   },
-  {
-    icon: "/assets/servicepage/icon/truck-icon.png",
-    title: "Delivery Truck Accidents",
-    slug: "delivery-truck-accidents",
-    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-                <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-                Delivery Truck Accidents
-                </h2>
-                <img
-                src="/assets/servicepage/delivery-truck-accidents.jpg"
-                alt="Car Accident"
-                className="w-full"/>
-                <p className="text-base md:text-lg">Delivery truck accidents involve collisions or incidents caused by vehicles used for commercial deliveries, such as vans, box trucks, or large freight trucks. These accidents can result in severe injuries due to the size and weight of delivery vehicles. </p>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">Who can benefit from this service?</p>
-                  <p className="text-base md:text-lg">This service is for anyone who has been injured in an accident involving a delivery truck, whether as a driver, passenger, pedestrian, or cyclist. Victims who suffer serious injuries such as broken bones, traumatic brain injuries, or spinal damage can be entitled to compensation, especially if the delivery driver was negligent or the company failed to maintain proper safety protocols. If you’re dealing with a large corporation or insurance company, you need strong legal representation to ensure your rights are protected.
-                  </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                    Challenges You will face Without an Attorney for Delivery Truck Accidents
-                  </p>
-                  <p className="text-base md:text-lg">
-                    Without a tampa truck accident lawyer, clients can struggle to identify all responsible parties, such as the delivery company, the driver, or even a third-party maintenance provider. Insurance companies representing large corporations often have experienced legal teams that can deny or downplay your claim. Clients could be pressured into settling for far less than your injuries warrant, and can not fully understand your rights under state and federal commercial trucking regulations.
-                  </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                    How Carter Injury Law Fights for Your Justice
-                  </p>
-                  <p className="text-base md:text-lg">
-                    Carter Injury Law fights for the rights of accident victims, ensuring that all liable parties are held accountable. Our attorneys thoroughly investigate delivery truck accidents, gathering evidence such as driver logs, maintenance records, and eyewitness testimony. We handle negotiations with powerful insurance companies and aren’t afraid to take cases to court if necessary. By working with us, you gain access to legal experts who know how to maximize compensation and ensure that you are not left bearing the financial burden of someone else’s negligence.
-                  </p>
-                </div>
-              </div>`,
-  },
-  {
-    icon: "/assets/servicepage/icon/boat-icon.png",
-    title: "Boating Accidents",
-    slug: "boating-accidents",
-    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-                <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-                  Boating Accidents
-                </h2>
-                <img
-                  src="/assets/servicepage/boating-accidents.jpg"
-                  alt="Car Accident"
-                  className="w-full"
-                />
-                <p className="text-base md:text-lg">Boating accident litigation involves legal representation for individuals injured in accidents on waterways, whether in private boats, jet skis, or commercial vessels. These accidents can lead to severe injuries, including drowning, traumatic brain injuries, or broken bones.</p>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      Who can benefit from     this service?
-                  </p>
-                  <p className="text-base md:text-lg">
-                    This service is for anyone injured in a boating accident, whether you were a passenger, another boater, or even a swimmer. Accidents can occur due to operator negligence, lack of safety equipment, alcohol use, or mechanical failures. If you’ve suffered injuries or lost a loved one in a boating accident, it’s important to know your rights and seek legal assistance to hold the responsible parties accountable.
-                  </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      Challenges You will face Without an Attorney for Delivery Truck Accidents
-                  </p>
-                  <p className="text-base md:text-lg">
-                      Without an attorney, victims can struggle to prove negligence or liability, especially when multiple parties or vessels are involved. Boating accidents can be complicated due to maritime laws, and insurance companies can try to limit your claim or deny compensation altogether. Clients might face difficulties gathering evidence, such as boat maintenance records or accident reports, and can be unaware of the full extent of damages they are entitled to under the law.
-                  </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      How Carter Injury Law Fights for Your Justice
-                  </p>
-                  <p className="text-base md:text-lg">
-                      Carter Injury Law, a Florida boat accident lawyer near you, has extensive experience in handling boating accident cases and navigating the specific laws governing watercraft accidents. Our team investigates thoroughly, collecting essential evidence such as accident reports, witness testimony, and expert evaluations. We are skilled in negotiating with insurance companies, ensuring our clients receive maximum compensation for your injuries and losses. With our personalized approach, we fight for your rights, so you don’t have to face this overwhelming process alone.
-                  </p>
-                </div>
-              </div>`,
-  },
-  {
-    icon: "/assets/servicepage/icon/rv-icon.png",
-    title: "RV Accidents",
-    slug: "rv-accidents",
-    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-                RV Accidents
-              </h2>
+  // {
+  //   icon: "/assets/servicepage/icon/truck-icon.png",
+  //   title: "Delivery Truck Accidents",
+  //   slug: "delivery-truck-accidents",
+  //   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  //               <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  //               Delivery Truck Accidents
+  //               </h2>
+  //               <img
+  //               src="/assets/servicepage/delivery-truck-accidents.jpg"
+  //               alt="Car Accident"
+  //               className="w-full"/>
+  //               <p className="text-base md:text-lg">Delivery truck accidents involve collisions or incidents caused by vehicles used for commercial deliveries, such as vans, box trucks, or large freight trucks. These accidents can result in severe injuries due to the size and weight of delivery vehicles. </p>
+  //               <div>
+  //                 <p className="text-base md:text-lg font-bold mb-1">Who can benefit from this service?</p>
+  //                 <p className="text-base md:text-lg">This service is for anyone who has been injured in an accident involving a delivery truck, whether as a driver, passenger, pedestrian, or cyclist. Victims who suffer serious injuries such as broken bones, traumatic brain injuries, or spinal damage can be entitled to compensation, especially if the delivery driver was negligent or the company failed to maintain proper safety protocols. If you’re dealing with a large corporation or insurance company, you need strong legal representation to ensure your rights are protected.
+  //                 </p>
+  //               </div>
+  //               <div>
+  //                 <p className="text-base md:text-lg font-bold mb-1">
+  //                   Challenges You will face Without an Attorney for Delivery Truck Accidents
+  //                 </p>
+  //                 <p className="text-base md:text-lg">
+  //                   Without a tampa truck accident lawyer, clients can struggle to identify all responsible parties, such as the delivery company, the driver, or even a third-party maintenance provider. Insurance companies representing large corporations often have experienced legal teams that can deny or downplay your claim. Clients could be pressured into settling for far less than your injuries warrant, and can not fully understand your rights under state and federal commercial trucking regulations.
+  //                 </p>
+  //               </div>
+  //               <div>
+  //                 <p className="text-base md:text-lg font-bold mb-1">
+  //                   How Carter Injury Law Fights for Your Justice
+  //                 </p>
+  //                 <p className="text-base md:text-lg">
+  //                   Carter Injury Law fights for the rights of accident victims, ensuring that all liable parties are held accountable. Our attorneys thoroughly investigate delivery truck accidents, gathering evidence such as driver logs, maintenance records, and eyewitness testimony. We handle negotiations with powerful insurance companies and aren’t afraid to take cases to court if necessary. By working with us, you gain access to legal experts who know how to maximize compensation and ensure that you are not left bearing the financial burden of someone else’s negligence.
+  //                 </p>
+  //               </div>
+  //             </div>`,
+  // },
+  // {
+  //   icon: "/assets/servicepage/icon/boat-icon.png",
+  //   title: "Boating Accidents",
+  //   slug: "boating-accidents",
+  //   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  //               <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  //                 Boating Accidents
+  //               </h2>
+  //               <img
+  //                 src="/assets/servicepage/boating-accidents.jpg"
+  //                 alt="Car Accident"
+  //                 className="w-full"
+  //               />
+  //               <p className="text-base md:text-lg">Boating accident litigation involves legal representation for individuals injured in accidents on waterways, whether in private boats, jet skis, or commercial vessels. These accidents can lead to severe injuries, including drowning, traumatic brain injuries, or broken bones.</p>
+  //               <div>
+  //                 <p className="text-base md:text-lg font-bold mb-1">
+  //                     Who can benefit from     this service?
+  //                 </p>
+  //                 <p className="text-base md:text-lg">
+  //                   This service is for anyone injured in a boating accident, whether you were a passenger, another boater, or even a swimmer. Accidents can occur due to operator negligence, lack of safety equipment, alcohol use, or mechanical failures. If you’ve suffered injuries or lost a loved one in a boating accident, it’s important to know your rights and seek legal assistance to hold the responsible parties accountable.
+  //                 </p>
+  //               </div>
+  //               <div>
+  //                 <p className="text-base md:text-lg font-bold mb-1">
+  //                     Challenges You will face Without an Attorney for Delivery Truck Accidents
+  //                 </p>
+  //                 <p className="text-base md:text-lg">
+  //                     Without an attorney, victims can struggle to prove negligence or liability, especially when multiple parties or vessels are involved. Boating accidents can be complicated due to maritime laws, and insurance companies can try to limit your claim or deny compensation altogether. Clients might face difficulties gathering evidence, such as boat maintenance records or accident reports, and can be unaware of the full extent of damages they are entitled to under the law.
+  //                 </p>
+  //               </div>
+  //               <div>
+  //                 <p className="text-base md:text-lg font-bold mb-1">
+  //                     How Carter Injury Law Fights for Your Justice
+  //                 </p>
+  //                 <p className="text-base md:text-lg">
+  //                     Carter Injury Law, a Florida boat accident lawyer near you, has extensive experience in handling boating accident cases and navigating the specific laws governing watercraft accidents. Our team investigates thoroughly, collecting essential evidence such as accident reports, witness testimony, and expert evaluations. We are skilled in negotiating with insurance companies, ensuring our clients receive maximum compensation for your injuries and losses. With our personalized approach, we fight for your rights, so you don’t have to face this overwhelming process alone.
+  //                 </p>
+  //               </div>
+  //             </div>`,
+  // },
+  // {
+  //   icon: "/assets/servicepage/icon/rv-icon.png",
+  //   title: "RV Accidents",
+  //   slug: "rv-accidents",
+  //   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  //             <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  //               RV Accidents
+  //             </h2>
 
-              <img
-                src="/assets/servicepage/rv-accidents.jpg"
-                alt="Car Accident"
-                className="w-full"
-              />
+  //             <img
+  //               src="/assets/servicepage/rv-accidents.jpg"
+  //               alt="Car Accident"
+  //               className="w-full"
+  //             />
 
-                <p className="text-base md:text-lg">
-                  RV accident litigation focuses on providing legal representation for individuals involved in accidents with recreational vehicles (RVs), including motorhomes and campers. RV accidents can lead to serious injuries due to the size and weight of these vehicles, often resulting in significant damage to smaller vehicles or severe injuries to drivers and passengers. 
-                </p>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                    Who can benefit from this service?
-                  </p>
-                  <p className="text-base md:text-lg">
-                      This service is designed for individuals who have been injured in an accident involving an RV in Tampa, Florida, whether as drivers, passengers, or pedestrians. RV accidents can result from a range of factors, including driver inexperience, mechanical failures, or poor road conditions. If you or a loved one has been injured in an RV accident, it’s crucial to seek legal help to ensure you receive the compensation you deserve, especially when dealing with insurance companies and potentially complex liability issues.
-                  </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      Challenges You will face Without an Attorney for RV Accidents 
-                  </p>
-                  <p className="text-base md:text-lg">
-                      Without an attorney, clients can find it difficult to establish fault, especially when dealing with RV owners or rental companies. Insurance adjusters often try to minimize payouts or can deny claims outright, leaving victims with significant medical bills and repair costs. Victims can also struggle to navigate state and federal regulations governing RV operation and safety, potentially weakening your case or leading to unfair settlements.
-                  </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      How Carter Injury Law Fights for Your Justice
-                  </p>
-                  <p className="text-base md:text-lg">
-                      Carter Injury Law specializes in handling RV accident cases and is equipped to investigate all aspects of the incident, from driver negligence to mechanical failure. We know how to deal with insurance companies that try to devalue claims and fight to get our clients the maximum compensation. Our attorneys are skilled at gathering evidence, negotiating on your behalf, and ensuring that all responsible parties are held accountable. 
-                  </p>
-                </div>
-              </div>`,
-  },
+  //               <p className="text-base md:text-lg">
+  //                 RV accident litigation focuses on providing legal representation for individuals involved in accidents with recreational vehicles (RVs), including motorhomes and campers. RV accidents can lead to serious injuries due to the size and weight of these vehicles, often resulting in significant damage to smaller vehicles or severe injuries to drivers and passengers.
+  //               </p>
+  //               <div>
+  //                 <p className="text-base md:text-lg font-bold mb-1">
+  //                   Who can benefit from this service?
+  //                 </p>
+  //                 <p className="text-base md:text-lg">
+  //                     This service is designed for individuals who have been injured in an accident involving an RV in Tampa, Florida, whether as drivers, passengers, or pedestrians. RV accidents can result from a range of factors, including driver inexperience, mechanical failures, or poor road conditions. If you or a loved one has been injured in an RV accident, it’s crucial to seek legal help to ensure you receive the compensation you deserve, especially when dealing with insurance companies and potentially complex liability issues.
+  //                 </p>
+  //               </div>
+  //               <div>
+  //                 <p className="text-base md:text-lg font-bold mb-1">
+  //                     Challenges You will face Without an Attorney for RV Accidents
+  //                 </p>
+  //                 <p className="text-base md:text-lg">
+  //                     Without an attorney, clients can find it difficult to establish fault, especially when dealing with RV owners or rental companies. Insurance adjusters often try to minimize payouts or can deny claims outright, leaving victims with significant medical bills and repair costs. Victims can also struggle to navigate state and federal regulations governing RV operation and safety, potentially weakening your case or leading to unfair settlements.
+  //                 </p>
+  //               </div>
+  //               <div>
+  //                 <p className="text-base md:text-lg font-bold mb-1">
+  //                     How Carter Injury Law Fights for Your Justice
+  //                 </p>
+  //                 <p className="text-base md:text-lg">
+  //                     Carter Injury Law specializes in handling RV accident cases and is equipped to investigate all aspects of the incident, from driver negligence to mechanical failure. We know how to deal with insurance companies that try to devalue claims and fight to get our clients the maximum compensation. Our attorneys are skilled at gathering evidence, negotiating on your behalf, and ensuring that all responsible parties are held accountable.
+  //                 </p>
+  //               </div>
+  //             </div>`,
+  // },
   {
     icon: "/assets/servicepage/icon/airplane-icon.png",
     title: "Airline Injuries",
@@ -402,50 +402,50 @@ export const allServiceData = [
                 </div>
               </div>`,
   },
-  {
-    icon: "/assets/servicepage/icon/motorcycle-icon.png",
-    title: "Motorcycle Accidents",
-    slug: "motorcycle-accidents",
-    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-                <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-                Motorcycle Accidents
-                </h2>
+  // {
+  //   icon: "/assets/servicepage/icon/motorcycle-icon.png",
+  //   title: "Motorcycle Accidents",
+  //   slug: "motorcycle-accidents",
+  //   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  //               <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  //               Motorcycle Accidents
+  //               </h2>
 
-                <img
-                  src="/assets/servicepage/motorcycle-accidents.jpg"
-                  alt="Motorcycle Accidents"
+  //               <img
+  //                 src="/assets/servicepage/motorcycle-accidents.jpg"
+  //                 alt="Motorcycle Accidents"
 
-                  className="w-full"
-                />
-                <p className="text-base md:text-lg">
-                    Fatal motorcycle accident (Tampa) litigation focuses on representing families who have lost loved ones in motorcycle crashes. These cases are often devastating, as motorcyclists are highly vulnerable to severe injuries or death in collisions with larger vehicles.
-                </p>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      Who can benefit from this service?
-                  </p>
-                  <p className="text-base md:text-lg">
-                      This service is for families in Tampa who have lost a loved one due to a fatal motorcycle accident caused by another party’s negligence. If the accident was the result of reckless driving, distracted driving, impaired driving, or poor road conditions, it’s crucial to have experienced legal representation to hold the responsible parties accountable. Families who are dealing with the emotional toll of a sudden loss and the financial aftermath of the accident can rely on our firm for compassionate and skilled legal assistance.
-                  </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      Challenges You will face Without an Attorney for Fatal Motorcycle Accidents
-                  </p>
-                  <p className="text-base md:text-lg">
-                      Without an attorney, you and your family can face significant challenges in proving liability, especially when insurance companies and defense teams try to deflect blame onto the motorcyclist. Navigating a wrongful death claim can be legally complex, and insurers often attempt to minimize payouts or settle quickly for far less than you deserve. Without skilled representation, you might struggle to secure the compensation needed for long-term financial support or future damages, potentially leaving your family in financial distress after such a tragic loss.
-                  </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      How Carter Injury Law Fights for Your Justice
-                  </p>
-                  <p className="text-base md:text-lg">
-                      Carter Injury Law offers compassionate and effective legal representation for families affected by fatal motorcycle accidents. Our attorneys thoroughly investigate each case, gathering crucial evidence such as police reports, eyewitness testimony, and accident reconstruction data to establish liability. We fight against insurance companies to ensure that families receive the full compensation they are entitled to, including damages for emotional suffering, loss of companionship, and financial support. 
-                  </p>
-                </div>
-              </div>`,
-  },
+  //                 className="w-full"
+  //               />
+  //               <p className="text-base md:text-lg">
+  //                   Fatal motorcycle accident (Tampa) litigation focuses on representing families who have lost loved ones in motorcycle crashes. These cases are often devastating, as motorcyclists are highly vulnerable to severe injuries or death in collisions with larger vehicles.
+  //               </p>
+  //               <div>
+  //                 <p className="text-base md:text-lg font-bold mb-1">
+  //                     Who can benefit from this service?
+  //                 </p>
+  //                 <p className="text-base md:text-lg">
+  //                     This service is for families in Tampa who have lost a loved one due to a fatal motorcycle accident caused by another party’s negligence. If the accident was the result of reckless driving, distracted driving, impaired driving, or poor road conditions, it’s crucial to have experienced legal representation to hold the responsible parties accountable. Families who are dealing with the emotional toll of a sudden loss and the financial aftermath of the accident can rely on our firm for compassionate and skilled legal assistance.
+  //                 </p>
+  //               </div>
+  //               <div>
+  //                 <p className="text-base md:text-lg font-bold mb-1">
+  //                     Challenges You will face Without an Attorney for Fatal Motorcycle Accidents
+  //                 </p>
+  //                 <p className="text-base md:text-lg">
+  //                     Without an attorney, you and your family can face significant challenges in proving liability, especially when insurance companies and defense teams try to deflect blame onto the motorcyclist. Navigating a wrongful death claim can be legally complex, and insurers often attempt to minimize payouts or settle quickly for far less than you deserve. Without skilled representation, you might struggle to secure the compensation needed for long-term financial support or future damages, potentially leaving your family in financial distress after such a tragic loss.
+  //                 </p>
+  //               </div>
+  //               <div>
+  //                 <p className="text-base md:text-lg font-bold mb-1">
+  //                     How Carter Injury Law Fights for Your Justice
+  //                 </p>
+  //                 <p className="text-base md:text-lg">
+  //                     Carter Injury Law offers compassionate and effective legal representation for families affected by fatal motorcycle accidents. Our attorneys thoroughly investigate each case, gathering crucial evidence such as police reports, eyewitness testimony, and accident reconstruction data to establish liability. We fight against insurance companies to ensure that families receive the full compensation they are entitled to, including damages for emotional suffering, loss of companionship, and financial support.
+  //                 </p>
+  //               </div>
+  //             </div>`,
+  // },
   {
     icon: "/assets/servicepage/icon/dui-icon.png",
     title: "DUI Injuries",
@@ -492,94 +492,94 @@ export const allServiceData = [
                 
               </div>`,
   },
-  {
-    icon: "/assets/servicepage/icon/bicycle-icon.png",
-    title: "Bicycle Accidents",
-    slug: "bicycle-accidents",
-    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-                Bicycle Accidents
-              </h2>
+  // {
+  //   icon: "/assets/servicepage/icon/bicycle-icon.png",
+  //   title: "Bicycle Accidents",
+  //   slug: "bicycle-accidents",
+  //   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  //             <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  //               Bicycle Accidents
+  //             </h2>
 
-              <img
-                src="/assets/servicepage/bicycle-accidents.jpg"
-                alt="Bicycle Accidents"
+  //             <img
+  //               src="/assets/servicepage/bicycle-accidents.jpg"
+  //               alt="Bicycle Accidents"
 
-                className="w-full"
-              />
+  //               className="w-full"
+  //             />
 
-                <p className="text-base md:text-lg">
-                    Bicycle accident services are for representing cyclists injured in accidents involving motor vehicles, pedestrians, or other cyclists. Due to the lack of protection, cyclists are highly vulnerable to severe injuries in collisions, including traumatic brain injuries, fractures, and spinal injuries. 
-                </p>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">Who can benefit from this service?</p>
-                  <p className="text-base md:text-lg">
-                      This service is for individuals in Tampa who have been injured in a bicycle accident, whether you were hit by a car, involved in a collision with another cyclist, or injured due to unsafe road conditions. If you are facing medical bills, lost income, or long-term rehabilitation after a biking accident, you deserve legal representation that understands the unique challenges faced by cyclists. We provide the support and expertise needed to hold negligent parties accountable and secure the compensation you need to recover.
-                  </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                        Challenges You will face Without an Attorney for Bicycle Accident
-                  </p>
-                  <p className="text-base md:text-lg">
-                      Without a bicycle accident lawyer, you can face several challenges after a bicycle accident in Tampa. Proving liability can be difficult, especially if a motor vehicle or multiple parties are involved. Insurance companies often try to minimize payouts and attempt to shift the blame onto you as the cyclist. Without legal guidance, you can not fully understand your rights to compensation and could inadvertently accept a settlement that doesn’t cover your long-term medical and rehabilitation costs.
-                  </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                       How Carter Injury Law Fights for Your Justice
-                  </p>
-                  <p className="text-base md:text-lg">
-                      At Carter Injury Law, we have extensive experience representing bicycle accident victims and understand the intricacies involved in these cases. Our attorneys, through investigations, gather essential evidence such as police reports, witness statements, and accident reconstruction data to establish liability. We fight vigorously against insurance companies to ensure you receive the maximum compensation for your injuries and losses. 
-                  </p>
-                </div>
-              </div>`,
-  },
-  {
-    icon: "/assets/servicepage/icon/catastrophic-icon.png",
-    title: "Catastrophic Injuries",
-    slug: "catastrophic-injuries",
-    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-                Catastrophic Injuries
-              </h2>
+  //               <p className="text-base md:text-lg">
+  //                   Bicycle accident services are for representing cyclists injured in accidents involving motor vehicles, pedestrians, or other cyclists. Due to the lack of protection, cyclists are highly vulnerable to severe injuries in collisions, including traumatic brain injuries, fractures, and spinal injuries.
+  //               </p>
+  //               <div>
+  //                 <p className="text-base md:text-lg font-bold mb-1">Who can benefit from this service?</p>
+  //                 <p className="text-base md:text-lg">
+  //                     This service is for individuals in Tampa who have been injured in a bicycle accident, whether you were hit by a car, involved in a collision with another cyclist, or injured due to unsafe road conditions. If you are facing medical bills, lost income, or long-term rehabilitation after a biking accident, you deserve legal representation that understands the unique challenges faced by cyclists. We provide the support and expertise needed to hold negligent parties accountable and secure the compensation you need to recover.
+  //                 </p>
+  //               </div>
+  //               <div>
+  //                 <p className="text-base md:text-lg font-bold mb-1">
+  //                       Challenges You will face Without an Attorney for Bicycle Accident
+  //                 </p>
+  //                 <p className="text-base md:text-lg">
+  //                     Without a bicycle accident lawyer, you can face several challenges after a bicycle accident in Tampa. Proving liability can be difficult, especially if a motor vehicle or multiple parties are involved. Insurance companies often try to minimize payouts and attempt to shift the blame onto you as the cyclist. Without legal guidance, you can not fully understand your rights to compensation and could inadvertently accept a settlement that doesn’t cover your long-term medical and rehabilitation costs.
+  //                 </p>
+  //               </div>
+  //               <div>
+  //                 <p className="text-base md:text-lg font-bold mb-1">
+  //                      How Carter Injury Law Fights for Your Justice
+  //                 </p>
+  //                 <p className="text-base md:text-lg">
+  //                     At Carter Injury Law, we have extensive experience representing bicycle accident victims and understand the intricacies involved in these cases. Our attorneys, through investigations, gather essential evidence such as police reports, witness statements, and accident reconstruction data to establish liability. We fight vigorously against insurance companies to ensure you receive the maximum compensation for your injuries and losses.
+  //                 </p>
+  //               </div>
+  //             </div>`,
+  // },
+  // {
+  //   icon: "/assets/servicepage/icon/catastrophic-icon.png",
+  //   title: "Catastrophic Injuries",
+  //   slug: "catastrophic-injuries",
+  //   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  //             <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  //               Catastrophic Injuries
+  //             </h2>
 
-              <img
-                src="/assets/servicepage/catastrophic-injurie.jpg"
-                alt="Catastrophic Injuries"
+  //             <img
+  //               src="/assets/servicepage/catastrophic-injurie.jpg"
+  //               alt="Catastrophic Injuries"
 
-                className="w-full"
-              />
+  //               className="w-full"
+  //             />
 
-                <p className="text-base md:text-lg">
-                    Florida catastrophic injury litigation involves legal representation for individuals who have suffered severe, life-altering injuries due to accidents or negligence. These injuries can include traumatic brain injuries, spinal cord injuries, amputations, severe burns, or paralysis. 
-                </p>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      Who can benefit from this service?
-                  </p>
-                  <p className="text-base md:text-lg">
-                      This service is for individuals in Florida who have experienced catastrophic injuries as a result of accidents, including car crashes, motorcycle accidents, workplace incidents, or medical malpractice. Families who are dealing with the overwhelming impact of such injuries—whether physical, emotional, or financial—can benefit from expert legal guidance. If you or a loved one is facing a long recovery or permanent disability due to an accident, We are here to help you seek justice and compensation.
-                  </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      Challenges You will face Without an Attorney for Florida Catastrophic Injury
-                  </p>
-                  <p className="text-base md:text-lg">
-                      If you don’t have a catastrophic injury lawyer in Florida, it’s easy to struggle to navigate the complex legal landscape after a catastrophic injury and fully understand the scope of damages you are entitled to receive. Insurance companies often try to minimize payouts, and without skilled legal representation, you could end up accepting a settlement that doesn’t cover your future medical expenses or lost income. 
-                  </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      How Carter Injury Law Fights for Your Justice
-                  </p>
-                  <p className="text-base md:text-lg">
-                      Carter Injury Law offers experienced legal representation for victims of catastrophic injuries, ensuring that your rights are protected. Our team conducts thorough investigations, working with medical experts to accurately assess the full impact of the injuries and to build a strong case for compensation. We negotiate relentlessly with insurance companies to secure maximum settlements and are prepared to take cases to trial if necessary. You also receive personalized attention and dedicated advocacy during one of the most challenging times in your lives.
-                  </p>
-                </div>
-              </div>`,
-  },
+  //               <p className="text-base md:text-lg">
+  //                   Florida catastrophic injury litigation involves legal representation for individuals who have suffered severe, life-altering injuries due to accidents or negligence. These injuries can include traumatic brain injuries, spinal cord injuries, amputations, severe burns, or paralysis.
+  //               </p>
+  //               <div>
+  //                 <p className="text-base md:text-lg font-bold mb-1">
+  //                     Who can benefit from this service?
+  //                 </p>
+  //                 <p className="text-base md:text-lg">
+  //                     This service is for individuals in Florida who have experienced catastrophic injuries as a result of accidents, including car crashes, motorcycle accidents, workplace incidents, or medical malpractice. Families who are dealing with the overwhelming impact of such injuries—whether physical, emotional, or financial—can benefit from expert legal guidance. If you or a loved one is facing a long recovery or permanent disability due to an accident, We are here to help you seek justice and compensation.
+  //                 </p>
+  //               </div>
+  //               <div>
+  //                 <p className="text-base md:text-lg font-bold mb-1">
+  //                     Challenges You will face Without an Attorney for Florida Catastrophic Injury
+  //                 </p>
+  //                 <p className="text-base md:text-lg">
+  //                     If you don’t have a catastrophic injury lawyer in Florida, it’s easy to struggle to navigate the complex legal landscape after a catastrophic injury and fully understand the scope of damages you are entitled to receive. Insurance companies often try to minimize payouts, and without skilled legal representation, you could end up accepting a settlement that doesn’t cover your future medical expenses or lost income.
+  //                 </p>
+  //               </div>
+  //               <div>
+  //                 <p className="text-base md:text-lg font-bold mb-1">
+  //                     How Carter Injury Law Fights for Your Justice
+  //                 </p>
+  //                 <p className="text-base md:text-lg">
+  //                     Carter Injury Law offers experienced legal representation for victims of catastrophic injuries, ensuring that your rights are protected. Our team conducts thorough investigations, working with medical experts to accurately assess the full impact of the injuries and to build a strong case for compensation. We negotiate relentlessly with insurance companies to secure maximum settlements and are prepared to take cases to trial if necessary. You also receive personalized attention and dedicated advocacy during one of the most challenging times in your lives.
+  //                 </p>
+  //               </div>
+  //             </div>`,
+  // },
   // {
   //   icon: "/assets/servicepage/icon/insurance-icon.png",
   //   title: "Motorist Insurance Claims Litigation",
@@ -1071,92 +1071,88 @@ export const allServiceData = [
 `,
   },
 
-  {
-    icon: "/assets/servicepage/icon/dog-bite-icon.png",
-    title: "Dog Bites",
-    slug: "dog-bites",
-    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-    Dog Bites
-  </h2>
-  <img
-    src="/assets/servicepage/dog-bites-personal-injury-litigation.jpg"
-    alt="Personal Injury"
-    className="w-full py-3"
-  />
+  //   {
+  //     icon: "/assets/servicepage/icon/dog-bite-icon.png",
+  //     title: "Dog Bites",
+  //     slug: "dog-bites",
+  //     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  //   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  //     Dog Bites
+  //   </h2>
+  //   <img
+  //     src="/assets/servicepage/dog-bites-personal-injury-litigation.jpg"
+  //     alt="Personal Injury"
+  //     className="w-full py-3"
+  //   />
 
+  //   <p className="text-base md:text-lg">
+  //     Dog bite injuries are more common than many realize, and they can have a lasting impact on both physical and emotional health. From puncture wounds to infections and nerve damage, dog bites can cause serious harm, sometimes even leaving long-term scars or disabilities.
+  //   </p>
 
+  //   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  //   Who Should Seek Legal Assistance for Dog Bites
+  //   </p>
 
-  <p className="text-base md:text-lg">
-    Dog bite injuries are more common than many realize, and they can have a lasting impact on both physical and emotional health. From puncture wounds to infections and nerve damage, dog bites can cause serious harm, sometimes even leaving long-term scars or disabilities.
-  </p>
+  //   <p className="text-base md:text-lg">
+  //    <ul class="list-disc pl-5">
+  // <li><span class="font-bold">Victims of Dog Attacks: </span> If you or a loved one was bitten or attacked by a dog, you might be dealing with medical costs, pain, and emotional distress.
+  // </li>
+  //    <li><span class="font-bold">Children Hurt by Dog Bites: </span> Children are especially vulnerable to dog bites and can suffer severe injuries due to their smaller size and limited ability to defend themselves.
+  //     </li>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
-  Who Should Seek Legal Assistance for Dog Bites
-  </p>
+  //    <li><span class="font-bold">People Facing Serious Medical Complications: </span>  Dog bites often lead to complications like infections, scarring, or nerve damage, requiring extended medical care.</li>
 
-  <p className="text-base md:text-lg">
-   <ul class="list-disc pl-5">
-<li><span class="font-bold">Victims of Dog Attacks: </span> If you or a loved one was bitten or attacked by a dog, you might be dealing with medical costs, pain, and emotional distress.
-</li>
-   <li><span class="font-bold">Children Hurt by Dog Bites: </span> Children are especially vulnerable to dog bites and can suffer severe injuries due to their smaller size and limited ability to defend themselves.
-    </li>
+  //    <li><span class="font-bold">Individuals with Post-Bite Trauma: </span> Beyond physical wounds, dog attacks can lead to psychological trauma and fear, affecting your daily life and ability to feel safe around animals.
+  //     </li>
 
-   <li><span class="font-bold">People Facing Serious Medical Complications: </span>  Dog bites often lead to complications like infections, scarring, or nerve damage, requiring extended medical care.</li>
+  //    <li><span class="font-bold">High Medical Bills and Lost Wages: </span> If your injury has kept you from work or led to extensive medical bills, you deserve compensation to manage those unexpected expenses.
+  //     </li>
+  //    </ul>
+  //   </p>
 
-   <li><span class="font-bold">Individuals with Post-Bite Trauma: </span> Beyond physical wounds, dog attacks can lead to psychological trauma and fear, affecting your daily life and ability to feel safe around animals.
-    </li>
+  //   <p class="text-base md:text-lg font-bold mb-1 pl-4">
+  //      The Challenges You Will Face Without Legal Representation
+  //   </p>
 
-   <li><span class="font-bold">High Medical Bills and Lost Wages: </span> If your injury has kept you from work or led to extensive medical bills, you deserve compensation to manage those unexpected expenses.
-    </li>
-   </ul>
-  </p>
+  //   <ul>
+  //     <li>In many cases, dog owners or their insurance companies may argue that their pet had no history of aggression. Without legal guidance, gathering evidence to show the dog’s behavior can be difficult.
+  //     </li>
+  //     <li>Dog owners may deny responsibility, especially if they’re worried about legal consequences. Without representation, you might face pushback or receive an unsatisfactory settlement offer.
+  //     </li>
+  //     <li>Dog bite laws vary, and they can be complicated to navigate without help. Knowing whether the dog’s owner is liable, especially in cases where the attack happened on their property, can be confusing without legal expertise.
+  //     </li>
+  //     <li>Insurance companies often try to downplay the severity of dog bite injuries, pressuring victims to accept low offers. Without a lawyer, you might end up settling for far less than your claim is worth.</li>
+  //     <li>Repeatedly reliving the event during negotiations or court proceedings can be challenging. Without support, facing these details alone can add to the stress and trauma of the incident.
+  //     </li>
+  //     </ul>
+  //   </p>
 
+  //    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  //      How Carter Injury Law Upholds Your Rights
+  //   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-4">
-     The Challenges You Will Face Without Legal Representation
-  </p>
+  //   <ul class="list-disc pl-5">
+  //   <li>
+  //   We collect medical records, eyewitness accounts, and, if available, animal control reports to strengthen your case and prove the dog’s aggressiveness.
+  //     </li>
+  //   <li>
+  //   We know the tactics insurance companies use to minimize payouts, and we fight for the full compensation you need to cover medical bills, lost wages, and pain and suffering.
+  //     </li>
+  //   <li>
+  //   Our team understands the ins and outs of dog bite laws and will use that expertise to establish clear liability, regardless of where the incident occurred.
+  //   </li>
 
-  <ul>
-    <li>In many cases, dog owners or their insurance companies may argue that their pet had no history of aggression. Without legal guidance, gathering evidence to show the dog’s behavior can be difficult.
-    </li>
-    <li>Dog owners may deny responsibility, especially if they’re worried about legal consequences. Without representation, you might face pushback or receive an unsatisfactory settlement offer.
-    </li>
-    <li>Dog bite laws vary, and they can be complicated to navigate without help. Knowing whether the dog’s owner is liable, especially in cases where the attack happened on their property, can be confusing without legal expertise.
-    </li>
-    <li>Insurance companies often try to downplay the severity of dog bite injuries, pressuring victims to accept low offers. Without a lawyer, you might end up settling for far less than your claim is worth.</li>
-    <li>Repeatedly reliving the event during negotiations or court proceedings can be challenging. Without support, facing these details alone can add to the stress and trauma of the incident.
-    </li>
-    </ul>
-  </p>
-
-
-   <p class="text-base md:text-lg font-bold mb-1 pl-5">
-     How Carter Injury Law Upholds Your Rights
-  </p>
-
-  <ul class="list-disc pl-5">
-  <li>
-  We collect medical records, eyewitness accounts, and, if available, animal control reports to strengthen your case and prove the dog’s aggressiveness.
-    </li>
-  <li>
-  We know the tactics insurance companies use to minimize payouts, and we fight for the full compensation you need to cover medical bills, lost wages, and pain and suffering.
-    </li>
-  <li>
-  Our team understands the ins and outs of dog bite laws and will use that expertise to establish clear liability, regardless of where the incident occurred.
-  </li>
-
-  <li>
-  While we handle the legal side, we aim to minimize the emotional toll on you, keeping you informed without burdening you with every detail.
-</li>
-<li>
-  At Carter Injury Law, you only pay if we secure a win for you, giving you access to quality representation without any upfront costs.
-</li>
-  </ul>
-  </p>
-</div>
-`,
-  },
+  //   <li>
+  //   While we handle the legal side, we aim to minimize the emotional toll on you, keeping you informed without burdening you with every detail.
+  // </li>
+  // <li>
+  //   At Carter Injury Law, you only pay if we secure a win for you, giving you access to quality representation without any upfront costs.
+  // </li>
+  //   </ul>
+  //   </p>
+  // </div>
+  // `,
+  //   },
 
   {
     icon: "/assets/servicepage/icon/premises-icon.png",
@@ -1528,129 +1524,124 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 `,
   },
 
-  {
-    icon: "/assets/servicepage/icon/fall-icon.png",
-    title: "Slip and Fall Accidents",
-    slug: "slip-and-falls",
-    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-    Slip and Fall Accidents
-  </h2>
-  <img
-    src="/assets/servicepage/slip-fall-personal-injury-litigation.jpg"
-    alt="Slip and Fall Accidents"
-    className="w-full py-3"
-  />
+  //   {
+  //     icon: "/assets/servicepage/icon/fall-icon.png",
+  //     title: "Slip and Fall Accidents",
+  //     slug: "slip-and-falls",
+  //     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  //   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  //     Slip and Fall Accidents
+  //   </h2>
+  //   <img
+  //     src="/assets/servicepage/slip-fall-personal-injury-litigation.jpg"
+  //     alt="Slip and Fall Accidents"
+  //     className="w-full py-3"
+  //   />
 
+  //   <p className="text-base md:text-lg">
+  //    Slip and fall accidents can happen in an instant but leave lasting impacts—physically, emotionally, and financially. They’re often the result of someone else’s negligence, like poorly maintained floors, wet surfaces, or inadequate lighting.
+  //   </p>
 
+  //   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  //   Who Should Seek Legal Assistance for Slip and Fall
+  //   </p>
 
-  <p className="text-base md:text-lg">
-   Slip and fall accidents can happen in an instant but leave lasting impacts—physically, emotionally, and financially. They’re often the result of someone else’s negligence, like poorly maintained floors, wet surfaces, or inadequate lighting.
-  </p>
+  //   <p className="text-base md:text-lg">
+  //    <ul class="list-disc pl-5">
+  // <li>
+  // <span class="font-bold">
+  // Victims of Unsafe Conditions:
+  // </span>
+  //   If you slipped, tripped, or fell due to hazards like wet floors, broken steps, or cluttered walkways, you deserve to have your voice heard and your rights protected.
+  // </li>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
-  Who Should Seek Legal Assistance for Slip and Fall
-  </p>
+  //    <li>
+  //    <span class="font-bold">
+  //    Injured on Someone Else’s Property:
+  //    </span>
+  //        If you were hurt in a store, restaurant, apartment building, or even someone’s home, you have the right to pursue a claim for damages.
+  //     </li>
 
-  <p className="text-base md:text-lg">
-   <ul class="list-disc pl-5">
-<li>
-<span class="font-bold">
-Victims of Unsafe Conditions: 
-</span>
-  If you slipped, tripped, or fell due to hazards like wet floors, broken steps, or cluttered walkways, you deserve to have your voice heard and your rights protected.
-</li>
+  //    <li>
+  //    <span class="font-bold">
+  //    Experiencing Lingering Pain and Medical Needs:
+  //    </span>
+  //         Many slip and fall injuries, such as fractures, head injuries, or spinal damage, require long-term treatment. You need to make sure your current and future medical needs are covered.
+  //      </li>
 
-   <li>
-   <span class="font-bold">
-   Injured on Someone Else’s Property: 
-   </span> 
-       If you were hurt in a store, restaurant, apartment building, or even someone’s home, you have the right to pursue a claim for damages.
-    </li>
+  //    <li>
+  //    <span class="font-bold">
+  //    Unable to Work Due to Injuries:
+  //    </span>
+  //         Lost income from missing work can add to the burden of medical bills. If your injury has impacted your ability to earn a living, you must ensure that’s also part of your compensation.
+  //     </li>
 
-   <li>
-   <span class="font-bold">
-   Experiencing Lingering Pain and Medical Needs: 
-   </span>
-        Many slip and fall injuries, such as fractures, head injuries, or spinal damage, require long-term treatment. You need to make sure your current and future medical needs are covered.
-     </li>
+  //    <li>
+  //    <span class="font-bold">
+  //    Dealing with Uncooperative Property Owners or Insurance Company:
+  //    </span>
+  //       Property owners or their insurance company may try to deny responsibility. If you are getting pushback, you need legal representation right away.
+  //     </li>
+  //    </ul>
+  //   </p>
 
-   <li>
-   <span class="font-bold">
-   Unable to Work Due to Injuries: 
-   </span>
-        Lost income from missing work can add to the burden of medical bills. If your injury has impacted your ability to earn a living, you must ensure that’s also part of your compensation.
-    </li>
+  //   <p class="text-base md:text-lg font-bold mb-1 pl-4">
+  //      The Challenges You Will Face Without Legal Representation
+  //   </p>
 
-   <li>
-   <span class="font-bold">
-   Dealing with Uncooperative Property Owners or Insurance Company: 
-   </span>
-      Property owners or their insurance company may try to deny responsibility. If you are getting pushback, you need legal representation right away.
-    </li>
-   </ul>
-  </p>
+  //   <ul>
+  //     <li>
+  //     Without a strong advocate, you may be pressured into accepting a settlement that doesn’t cover all your expenses, or worse, you might not receive anything at all.
+  //     </li>
 
+  //     <li>
+  //     Property owners often dispute fault by claiming they weren’t aware of the hazard. Without legal help, proving negligence can be an uphill battle.
+  //     </li>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-4">
-     The Challenges You Will Face Without Legal Representation
-  </p>
+  //     <li>
+  //     Some injuries don’t fully show up until later, like soft tissue damage or back pain. Without a thorough legal assessment, you risk settling before knowing the true extent of your injuries.
+  //     </li>
 
-  <ul>
-    <li>
-    Without a strong advocate, you may be pressured into accepting a settlement that doesn’t cover all your expenses, or worse, you might not receive anything at all.
-    </li>
+  //     <li>
+  //     Insurance companies may try to avoid paying by shifting blame to you. Without legal representation, you may find yourself trapped in frustrating and confusing negotiations.
+  //     </li>
 
-    <li>
-    Property owners often dispute fault by claiming they weren’t aware of the hazard. Without legal help, proving negligence can be an uphill battle.
-    </li>
+  //     <li>
+  //    Slip and fall cases have strict time limits. If you’re not aware of these deadlines, you risk losing the chance to pursue a claim entirely.
+  //     </li>
+  //     </ul>
+  //   </p>
 
-    <li>
-    Some injuries don’t fully show up until later, like soft tissue damage or back pain. Without a thorough legal assessment, you risk settling before knowing the true extent of your injuries.
-    </li>
+  //    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  //      How Carter Injury Law Upholds Your Rights
+  //   </p>
 
-    <li>
-    Insurance companies may try to avoid paying by shifting blame to you. Without legal representation, you may find yourself trapped in frustrating and confusing negotiations.
-    </li>
+  //   <ul class="list-disc pl-5">
+  //   <li>
+  //   We gather critical evidence—security footage, incident reports, witness testimonies, and medical records—to build a strong case that establishes negligence and proves your injuries.
+  //     </li>
 
-    <li>
-   Slip and fall cases have strict time limits. If you’re not aware of these deadlines, you risk losing the chance to pursue a claim entirely.
-    </li>
-    </ul>
-  </p>
+  //   <li>
+  //   We don’t settle for lowball offers. Our team knows the tactics insurance companies use, and we push back to make sure you get a settlement that truly covers your medical bills, lost wages, and pain and suffering.
+  //     </li>
 
+  //   <li>
+  //   We connect you with trusted medical professionals who can provide a full assessment of your injuries, including any future care you may need.
+  //   </li>
 
-   <p class="text-base md:text-lg font-bold mb-1 pl-5">
-     How Carter Injury Law Upholds Your Rights
-  </p>
+  //   <li>
+  //   From start to finish, we handle all communication with the property owner and their insurance company, shielding you from unnecessary stress.
+  // </li>
 
-  <ul class="list-disc pl-5">
-  <li>
-  We gather critical evidence—security footage, incident reports, witness testimonies, and medical records—to build a strong case that establishes negligence and proves your injuries.
-    </li>
+  // <li>
+  // With Carter Injury Law, you owe us nothing unless we win your case. You get top-notch representation with no financial risk, so you can focus on recovering while we fight for justice on your behalf.
+  // </li>
 
-  <li>
-  We don’t settle for lowball offers. Our team knows the tactics insurance companies use, and we push back to make sure you get a settlement that truly covers your medical bills, lost wages, and pain and suffering.
-    </li>
-
-  <li>
-  We connect you with trusted medical professionals who can provide a full assessment of your injuries, including any future care you may need.
-  </li>
-
-  <li>
-  From start to finish, we handle all communication with the property owner and their insurance company, shielding you from unnecessary stress.
-</li>
-
-<li>
-With Carter Injury Law, you owe us nothing unless we win your case. You get top-notch representation with no financial risk, so you can focus on recovering while we fight for justice on your behalf.
-</li>
-
-     
-  </ul>
-  </p>
-</div>
-`,
-  },
+  //   </ul>
+  //   </p>
+  // </div>
+  // `,
+  //   },
 
   //Auto Accidents
 
@@ -2289,7 +2280,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
     
     <img
-      src="/assets/servicepage/auto-accident/scooter-accidents.jpg"
+      src="/assets/servicepage/auto-accidents/scooter-accidents.jpg"
       alt="Scooter Accidents"
       className="w-full py-3"
     />
@@ -4778,7 +4769,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                 </div>`,
   },
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/broken-bone-injury.png",
     title: "Broken Bone Injury",
     slug: "broken-bone-injury",
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -5283,5 +5274,64 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     </p>
                   </div>
                 </div>`,
+  },
+  {
+    icon: "/assets/servicepage/icon/medication-errors.png",
+    title: "Medication Errors",
+    slug: "medication-errors",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+<h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  Medication Errors
+</h2>
+<img
+  src="/assets/servicepage/medical-malpractice/medication-errors.jpg"
+  alt="Medication Errors"
+  className="w-full py-3"
+/>
+
+<p className="text-base md:text-lg">
+Medication errors happen when a healthcare provider prescribes or administers the wrong medication, dosage, or fails to account for potential drug interactions. This can result in harm to the patient. These errors can occur in hospitals, nursing homes, pharmacies, and clinics. In Florida, under §95.11(5) you have 2 years from the date the error was discovered or should have been discovered with due diligence. This period can extend up to 4 years from the date of the incident, but not later than.
+</p>
+
+<p class= "text-base md:text-lg font-bold mb-1  pl-5">
+    Who Should Consider Filing a Claim and Why Legal Representation Is Essential  
+</p>
+
+<p class="text-base md:text-lg ">
+ <ul class="list-disc pl-5">
+
+<li><span class= " font-bold ">Benefits of Filing:</span>Individuals who have suffered harm as a result of a medication error like incorrect medication, dosage errors, or improper instructions. This includes patients who have experienced adverse drug reactions, allergic reactions, or other complications due to incorrect medication administration, dosage, or prescription. Families of patients who died due to medication errors should consider filing a claim. 
+</li>
+
+ <li><span class= " font-bold ">Consequences Without Representation:</span>You may face the complexities of medical malpractice laws, including strict filing deadlines, and may struggle to gather evidence or secure expert testimony. Without an experienced attorney, it can be hard to prove fault, negotiate with insurers, or understand the full value of potential compensation, which may result in lower settlements or unsuccessful claims.
+  </li>
+  
+ </ul>
+</p>
+
+
+<p class="text-base md:text-lg font-bold mb-1  pl-5">
+Carter Injury Law: Committed to Securing the Justice You Deserve
+</p>
+
+<p className="text-base md:text-lg">
+  <ul class="list-disc pl-5">
+
+  <li>We investigate every aspect of the error, collecting medical records, consulting with experts, and identifying liable parties. This detailed approach strengthens your case and increases your chance of a favorable outcome.
+  </li>
+
+  <li>We ensure all documents are filed within the statute of limitations and compliance with all necessary requirements.
+  </li>
+
+  <li>We handle negotiations with insurance companies, healthcare providers, and other parties involved, fighting for maximum compensation so you can focus on recovery without financial worry. We strongly follow “No fees unless we win”. 
+
+  </li>
+
+
+  </ul>
+</p>
+
+</div>
+`,
   },
 ];
