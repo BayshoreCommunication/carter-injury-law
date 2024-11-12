@@ -990,8 +990,7 @@ export const allServiceData = [
             </div>`,
   },
 
-//New Data
-
+  //New Data
 
   {
     icon: "/assets/servicepage/icon/pain-icon.png",
@@ -1039,8 +1038,7 @@ export const allServiceData = [
      The Challenges You Will Face Without Legal Representation
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
     <li>Personal injury law is layered and specific. Knowing your rights, the limitations, and the legal options available can be difficult to navigate alone.
     </li>
     <li>Establishing that another party’s negligence led to your injuries requires detailed evidence, from witness statements to expert reports. Without an attorney, obtaining and organizing this evidence can be overwhelming.
@@ -1059,7 +1057,6 @@ export const allServiceData = [
      How Carter Injury Law Upholds Your Rights
   </p>
 
-  <p className="text-base md:text-lg">
   <ul class="list-disc pl-5">
   <li>We thoroughly evaluate every detail of your case, from the accident’s cause to your future medical needs, crafting a strategy tailored to maximize your compensation.</li>
   <li>Our team knows the tactics insurance companies use to downplay claims. We handle these negotiations directly, ensuring you get the settlement that reflects the real impact of your injury.
@@ -1073,7 +1070,7 @@ export const allServiceData = [
 </div>
 `,
   },
-  
+
   {
     icon: "/assets/servicepage/icon/dog-bite-icon.png",
     title: "Dog Bites",
@@ -1120,8 +1117,7 @@ export const allServiceData = [
      The Challenges You Will Face Without Legal Representation
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul>
+  <ul>
     <li>In many cases, dog owners or their insurance companies may argue that their pet had no history of aggression. Without legal guidance, gathering evidence to show the dog’s behavior can be difficult.
     </li>
     <li>Dog owners may deny responsibility, especially if they’re worried about legal consequences. Without representation, you might face pushback or receive an unsatisfactory settlement offer.
@@ -1139,7 +1135,6 @@ export const allServiceData = [
      How Carter Injury Law Upholds Your Rights
   </p>
 
-  <p className="text-base md:text-lg">
   <ul class="list-disc pl-5">
   <li>
   We collect medical records, eyewitness accounts, and, if available, animal control reports to strengthen your case and prove the dog’s aggressiveness.
@@ -1233,8 +1228,7 @@ Injured on Someone Else’s Property:
      The Challenges You Will Face Without Legal Representation
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul>
+  <ul>
     <li>
     In premises liability cases, it’s essential to show that the property owner knew about or should have known about the hazard and failed to address it. Without legal expertise, gathering and proving this evidence is challenging.
     </li>
@@ -1262,7 +1256,6 @@ Injured on Someone Else’s Property:
      How Carter Injury Law Upholds Your Rights
   </p>
 
-  <p className="text-base md:text-lg">
   <ul class="list-disc pl-5">
   <li>
   We conduct in-depth investigations, collecting crucial evidence and consulting experts when necessary to prove that the property owner’s negligence led to your injury.
@@ -1357,8 +1350,7 @@ Patients Harmed by Medical Errors:
      The Challenges You Will Face Without Legal Representation
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul>
+  <ul>
     <li>
     Medical malpractice cases are complicated, with specific laws and high standards of proof. Without a skilled attorney, it’s easy to get lost in legal and medical jargon that can hurt your case.
     </li>
@@ -1386,7 +1378,6 @@ Patients Harmed by Medical Errors:
      How Carter Injury Law Upholds Your Rights
   </p>
 
-  <p className="text-base md:text-lg">
   <ul class="list-disc pl-5">
   <li>
   We partner with medical experts to thoroughly analyze your medical records, pinpointing errors and providing solid evidence to strengthen your case.
@@ -1410,7 +1401,6 @@ Patients Harmed by Medical Errors:
 </div>
 `,
   },
-  
 
   {
     icon: "/assets/servicepage/icon/car-icon.png",
@@ -1482,8 +1472,7 @@ Injured in a Collision:
      The Challenges You Will Face Without Legal Representation
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul>
+  <ul>
     <li>
     Insurance companies often aim to settle fast and for as little as possible. Without an attorney, you may be tempted to accept an offer that doesn’t truly cover your costs.
     </li>
@@ -1511,7 +1500,6 @@ Injured in a Collision:
      How Carter Injury Law Upholds Your Rights
   </p>
 
-  <p className="text-base md:text-lg">
   <ul class="list-disc pl-5">
   <li>
   We negotiate aggressively with insurance companies to make sure you’re offered fair compensation and aren’t short-changed by quick, lowball offers.
@@ -1539,7 +1527,6 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </div>
 `,
   },
-
 
   {
     icon: "/assets/servicepage/icon/fall-icon.png",
@@ -1609,8 +1596,7 @@ Victims of Unsafe Conditions:
      The Challenges You Will Face Without Legal Representation
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul>
+  <ul>
     <li>
     Without a strong advocate, you may be pressured into accepting a settlement that doesn’t cover all your expenses, or worse, you might not receive anything at all.
     </li>
@@ -1638,7 +1624,6 @@ Victims of Unsafe Conditions:
      How Carter Injury Law Upholds Your Rights
   </p>
 
-  <p className="text-base md:text-lg">
   <ul class="list-disc pl-5">
   <li>
   We gather critical evidence—security footage, incident reports, witness testimonies, and medical records—to build a strong case that establishes negligence and proves your injuries.
@@ -1666,8 +1651,6 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 </div>
 `,
   },
-
-
 
   //Auto Accidents
 
@@ -1699,7 +1682,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
+  
     <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
@@ -1722,7 +1705,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
             We gather evidence, negotiate with insurance companies, and handle every detail so you can focus on healing.
@@ -1769,8 +1752,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -1792,7 +1774,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
             Carter Injury Law understands the unique challenges motorcycle accident victims face and knows how to counter insurance companies’ tactics to ensure your rights are fully represented.
@@ -1839,8 +1821,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -1862,7 +1843,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
            Carter Injury Law is well-versed in the federal and state regulations governing commercial trucks. We’ll investigate the accident thoroughly, examining driver logs, maintenance records, and more to build a strong case on your behalf.
@@ -1880,7 +1861,6 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 </div>
 `,
   },
-
 
   {
     icon: "/assets/servicepage/icon/car-icon.png",
@@ -1910,8 +1890,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -1933,7 +1912,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
            Carter Injury Law will investigate every aspect of your accident, from securing video footage to gathering witness statements and working with accident reconstruction experts, to ensure the strongest case possible.
@@ -1951,7 +1930,6 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 </div>
 `,
   },
-
 
   {
     icon: "/assets/servicepage/icon/car-icon.png",
@@ -1981,8 +1959,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -2004,7 +1981,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
            Carter Injury Law conducts thorough investigations, gathering evidence such as witness statements, surveillance footage, and expert opinions to build a solid case and prove liability.
@@ -2036,7 +2013,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
      
     <img
-      src="/assets/servicepage/auto-accidents/golf-cart-accidents.jpg"
+      src="/assets/servicepage/auto-accidents/golf-cart-accident.jpg"
       alt="Golf Cart Accidents"
       className="w-full py-3"
     />
@@ -2051,8 +2028,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -2074,7 +2050,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
            Carter Injury Law has extensive experience handling unique accident claims, including golf cart incidents. We’ll work diligently to collect evidence, interview witnesses, and examine local ordinances or community policies that may affect liability.
@@ -2092,7 +2068,6 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 </div>
 `,
   },
-
 
   {
     icon: "/assets/servicepage/icon/car-icon.png",
@@ -2122,8 +2097,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -2145,7 +2119,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
            Carter Injury Law is well-versed in the unique insurance issues surrounding rideshare accidents. We’ll analyze every detail of the accident and each applicable insurance policy to secure the best outcome for your claim.
@@ -2192,8 +2166,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -2215,7 +2188,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
            We dive deep into every aspect of your case, gathering evidence from accident reports, surveillance footage, and eyewitness testimony to build a strong case on your behalf.
@@ -2262,8 +2235,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -2285,7 +2257,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
            Carter Injury Law will thoroughly investigate your RV accident, reviewing all relevant details such as driver behavior, vehicle maintenance records, and road conditions to build a strong case. Our team will also gather witness statements and accident reports to ensure no details are overlooked.
@@ -2332,8 +2304,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -2355,7 +2326,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+    
       <ul class="list-disc pl-5">
         <li>
            We work quickly to gather all the evidence you need to prove your case, from accident reports to surveillance footage and witness testimonies. Our team will ensure that every detail is accounted for to strengthen your claim.
@@ -2375,7 +2346,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/truck-icon.png",
+    icon: "/assets/servicepage/icon/truck-icon-2.png",
     title: "Delivery Truck Accidents",
     slug: "delivery-truck-accidents",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -2387,7 +2358,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
     
     <img
-      src="/assets/servicepage/auto-accident/delivery-truck-accidents.jpg"
+      src="/assets/servicepage/auto-accidents/delivery-truck-accidents.jpg"
       alt="Delivery Truck Accidents"
       className="w-full py-3"
     />
@@ -2402,8 +2373,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -2425,7 +2395,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
-    <p className="text-base md:text-lg">
+   
       <ul class="list-disc pl-5">
         <li>
            We have the expertise to investigate delivery truck accidents thoroughly, identifying all parties at fault, including the driver, the trucking company, or even the manufacturer of faulty equipment.
@@ -2444,13 +2414,13 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 `,
   },
 
-//Premises Liability
+  //Premises Liability
 
-{
-  icon: "/assets/servicepage/icon/fall-icon.png",
-  title: "Slip and Fall Accidents",
-  slug: "slip-and-falls",
-  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  {
+    icon: "/assets/servicepage/icon/fall-icon.png",
+    title: "Slip and Fall Accidents",
+    slug: "slip-and-falls",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Slip and Fall Accidents
@@ -2474,8 +2444,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2497,8 +2466,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          Carter Injury Law understands Florida's premises liability laws and knows how to hold negligent property owners accountable.
       </li>
@@ -2522,13 +2490,13 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   </p>
 </div>
 `,
-},
+  },
 
-{
-  icon: "/assets/servicepage/icon/fall-icon.png",
-  title: "Trip and Fall Accidents",
-  slug: "trip-and-falls",
-  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  {
+    icon: "/assets/servicepage/icon/fall-icon.png",
+    title: "Trip and Fall Accidents",
+    slug: "trip-and-falls",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Trip and Fall Accidents
@@ -2552,8 +2520,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2575,8 +2542,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          Carter Injury Law is well-versed in Florida's premises liability laws and can help establish negligence on the part of property owners.
       </li>
@@ -2600,14 +2566,13 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   </p>
 </div>
 `,
-},
+  },
 
-
-{
-  icon: "/assets/servicepage/icon/dog-bite-icon.png",
-  title: "Dog Bite Injuries",
-  slug: "dog-bites",
-  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  {
+    icon: "/assets/servicepage/icon/dog-bite-icon.png",
+    title: "Dog Bite Injuries",
+    slug: "dog-bites",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Dog Bite Injuries
@@ -2631,8 +2596,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2654,8 +2618,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          At Carter Injury Law, we understand the complexities of dog bite cases under Florida law and work to hold negligent owners accountable.
       </li>
@@ -2679,13 +2642,13 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   </p>
 </div>
 `,
-},
+  },
 
-{
-  icon: "/assets/servicepage/icon/insecure-icon.png",
-  title: "Negligent Security",
-  slug: "negligent-security",
-  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  {
+    icon: "/assets/servicepage/icon/insecure-icon.png",
+    title: "Negligent Security",
+    slug: "negligent-security",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Negligent Security
@@ -2709,7 +2672,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
+
   <ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
@@ -2732,8 +2695,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          Carter Injury Law understands the intricacies of Florida’s premises liability laws, specifically regarding negligent security, and knows how to build a compelling case to hold property owners accountable.
       </li>
@@ -2757,13 +2719,13 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   </p>
 </div>
 `,
-},
+  },
 
-{
-  icon: "/assets/servicepage/icon/pain-icon.png",
-  title: "Burn Injuries",
-  slug: "burn-injuries",
-  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  {
+    icon: "/assets/servicepage/icon/pain-icon.png",
+    title: "Burn Injuries",
+    slug: "burn-injuries",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Burn Injuries
@@ -2787,8 +2749,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2810,8 +2771,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          At Carter Injury Law, we bring in-depth knowledge of Florida’s personal injury statutes to your burn injury case, helping hold negligent parties accountable.
       </li>
@@ -2835,17 +2795,15 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   </p>
 </div>
 `,
-},
+  },
 
+  //General Negligence
 
-//General Negligence 
-
-
-{
-  icon: "/assets/servicepage/icon/boat-icon.png",
-  title: "Boat Accident",
-  slug: "boat-accident",
-  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  {
+    icon: "/assets/servicepage/icon/boat-icon.png",
+    title: "Boat Accident",
+    slug: "boating-accidents",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Boat Accident
@@ -2854,7 +2812,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
   
   <img
-    src="/assets/servicepage/general-negligence/boating-accident.jpg"
+    src="/assets/servicepage/general-negligence/boating-accidents.jpg"
     alt="Boat Accident"
     className="w-full py-3"
   />
@@ -2869,8 +2827,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2892,8 +2849,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          We’ll investigate your boating accident, gathering reports, witness statements, and expert input to identify all responsible parties.
       </li>
@@ -2913,14 +2869,13 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   </p>
 </div>
 `,
-},
+  },
 
-
-{
-  icon: "/assets/servicepage/icon/fall-icon.png",
-  title: "Jet Ski Accident",
-  slug: "jet-ski-accident",
-  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  {
+    icon: "/assets/servicepage/icon/fall-icon.png",
+    title: "Jet Ski Accident",
+    slug: "jet-ski-accidents",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Jet Ski Accident
@@ -2944,8 +2899,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2967,8 +2921,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          We’ll review accident reports, witness statements, and medical records to identify the responsible parties, including operators, rental companies, or maintenance providers.
       </li>
@@ -2988,13 +2941,13 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   </p>
 </div>
 `,
-},
+  },
 
-{
-  icon: "/assets/servicepage/icon/airline-icon.png",
-  title: "Airline and Aviation Injuries",
-  slug: "airline-and-aviation-injuries",
-  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  {
+    icon: "/assets/servicepage/icon/airline-icon.png",
+    title: "Airline and Aviation Injuries",
+    slug: "airline-and-aviation-injuries",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Airline and Aviation Injuries
@@ -3018,8 +2971,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3041,8 +2993,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          We’ll investigate your aviation injury by reviewing flight data, maintenance records, and witness testimonies to determine fault and gather essential evidence.
       </li>
@@ -3062,17 +3013,15 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   </p>
 </div>
 `,
-},
+  },
 
+  //Wrongful Death
 
-
-//Wrongful Death
-
-{
-  icon: "/assets/servicepage/icon/car-crash-icon.png",
-  title: "Car Accident Wrongful Death",
-  slug: "car-accident-wrongful-death",
-  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  {
+    icon: "/assets/servicepage/icon/car-crash-icon.png",
+    title: "Car Accident Wrongful Death",
+    slug: "car-accident-wrongful-death",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Car Accident Wrongful Death
@@ -3095,9 +3044,8 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   <p class="text-base md:text-lg font-bold mb-1 pl-5">
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
-
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+ 
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3119,8 +3067,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          We’ll step in immediately to protect your rights, beginning with a thorough investigation to handle all communications with insurance companies so you can focus on healing.
       </li>
@@ -3140,14 +3087,13 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   </p>
 </div>
 `,
-},
+  },
 
-
-{
-  icon: "/assets/servicepage/icon/premises-icon.png",
-  title: "Premises Liability Wrongful Death",
-  slug: "premises-liability-wrongful-death",
-  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  {
+    icon: "/assets/servicepage/icon/premises-icon.png",
+    title: "Premises Liability Wrongful Death",
+    slug: "premises-liability-wrongful-death",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Premises Liability Wrongful Death
@@ -3171,8 +3117,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3194,8 +3139,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          We’ll quickly gather vital evidence, including security footage, maintenance records, and witness statements, to understand the circumstances of your loved one’s passing.
       </li>
@@ -3212,14 +3156,13 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   </p>
 </div>
 `,
-},
+  },
 
-
-{
-  icon: "/assets/servicepage/icon/wrongful-death-icon.png",
-  title: "Nursing Home Wrongful Death",
-  slug: "nursing-home-wrongful-death",
-  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  {
+    icon: "/assets/servicepage/icon/wrongful-death-icon.png",
+    title: "Nursing Home Wrongful Death",
+    slug: "nursing-home-wrongful-death",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Nursing Home Wrongful Death
@@ -3243,8 +3186,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3266,8 +3208,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          We’ll examine all aspects of your loved one’s death, gathering medical records, witness accounts, and evidence of neglect or abuse.
       </li>
@@ -3287,13 +3228,13 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   </p>
 </div>
 `,
-},
+  },
 
-{
-  icon: "/assets/servicepage/icon/medical-icon.png",
-  title: "Medical Malpractice Wrongful Death",
-  slug: "medical-malpractice-wrongful-death",
-  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Medical Malpractice Wrongful Death",
+    slug: "medical-malpractice-wrongful-death",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Medical Malpractice Wrongful Death
@@ -3317,8 +3258,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3340,8 +3280,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          We’ll review your loved one’s medical history, seek expert opinions, and analyze whether the healthcare provider’s actions fell below the accepted standard of care uncovering the truth on your behalf.
       </li>
@@ -3358,14 +3297,13 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   </p>
 </div>
 `,
-},
+  },
 
-
-{
-  icon: "/assets/servicepage/icon/medical-icon.png",
-  title: "Product Liability Wrongful Death",
-  slug: "Product Liability Wrongful Death",
-  details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Product Liability Wrongful Death",
+    slug: "product-liability-wrongful-death",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Product Liability Wrongful Death
@@ -3389,8 +3327,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<p className="text-base md:text-lg">
-  <ul class="list-disc pl-5">
+<ul class="list-disc pl-5">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3412,8 +3349,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <p className="text-base md:text-lg">
-    <ul class="list-disc pl-5">
+  <ul class="list-disc pl-5">
       <li>
          We’ll carefully examine the product, consulting experts and analyzing design and manufacturing flaws to build a strong case connecting the defect to your loved one’s death.
       </li>
@@ -3434,9 +3370,1918 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   </p>
 </div>
 `,
-},
+  },
+
+  //Medical Malpractice
+
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Surgical Errors",
+    slug: "surgical-errors",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Surgical Errors
+
+  </h2>
+
+
+  <img
+    src="/assets/servicepage/medical-malpractice/surgical-errors.jpg"
+    alt="Surgical Errors"
+    className="w-full py-3"
+  />
 
 
 
+  <p className="text-base md:text-lg">
+      Surgical errors occur when a mistake during surgery causes harm to a patient. These errors can include operating on the wrong body part, leaving surgical instruments inside the patient, or performing an unnecessary procedure. Florida Statute of Limitations § 95.11(5)(c) governs the timeframe for filing medical malpractice claims, including those arising from surgical errors. Generally, a plaintiff must file a lawsuit within 2 years of the date of the incident. Conversely, within 2 years of the date the injury was discovered or should have been discovered through reasonable diligence.
+  </p>
 
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Individuals who have suffered harm as a result of a surgical error may benefit from filing a claim. This includes patients or their family, relatives who have experienced adverse outcomes such as infections, organ damage, or even wrongful death due to surgical negligence.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Handling a surgical error claim alone can be complex and overwhelming. Surgical error cases often require extensive medical knowledge, as well as access to expert witnesses to prove the error and its impact. Without legal representation, claimants might struggle to meet procedural requirements, build a strong case, or counter the defense tactics of hospitals and insurers. This can result in an inadequate settlement or an unsuccessful claim. Leaving the victim without the compensation needed for recovery.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <ul class="list-disc pl-5">
+      <li>
+         We will conduct a comprehensive investigation to determine the cause of the surgical error and identify all liable parties.
+      </li>
+
+      <li>
+          Our team will gather essential evidence, including medical records, expert witness testimony, and other relevant documentation, to support your claim.
+      </li>
+
+      <li>
+          We will aggressively negotiate with insurance companies to secure a fair settlement on your behalf. If necessary, we will be prepared to litigate your case in court. And the best part of our service is you don't have to pay unless we successfully recover your compensation.
+      </li>
+
+    </ul>
+  </p>
+</div>
+`,
+  },
+
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Birth Injuries",
+    slug: "birth-injuries",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Birth Injuries
+
+  </h2>
+
+
+  <img
+    src="/assets/servicepage/medical-malpractice/birth-injuries.jpg"
+    alt="Birth Injuries"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      When a newborn suffers harm due to errors or negligence during labor and delivery known as birth injury. These injuries can range from minor trauma to serious, life-altering conditions like cerebral palsy, Erb’s palsy, brachial plexus injury (BPI), brain damage, or intrauterine fetal demise. In Florida under statute §95.11, you generally have 2 years to file a lawsuit for a birth injury. If you didn't know about the injury until after the 2-year deadline, you might still have time to sue (known as the discovery rule). If the doctor or hospital left the state, the deadline might be extended. Additionally, if the injured person is a minor, disabled, or mentally ill, special rules might apply.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Families of children who have suffered birth injuries due to medical negligence should consider filing a claim. Such a claim can provide compensation for medical expenses, ongoing care, and therapy while ensuring that the responsible healthcare providers are held accountable.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Without skilled legal representation, families may find it difficult to prove that a birth injury was due to medical negligence rather than natural complications. These cases often require expert witnesses and in-depth medical knowledge to show causation and establish liability. Without an attorney’s assistance, families risk facing unfair settlements, legal obstacles, or even missed filing deadlines, all of which could prevent them from receiving the support they need.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <ul class="list-disc pl-5">
+      <li>
+        Our attorneys have extensive experience in handling birth injury cases and can provide expert legal guidance.
+      </li>
+
+      <li>
+          We manage all aspects of your case, from collecting evidence to negotiating settlements, allowing you to focus on your child’s well-being.
+      </li>
+
+      <li>
+          We work diligently to obtain the highest possible compensation for your child’s injuries, covering medical expenses, ongoing care, and other related costs. You don't have to pay us unless we win the fight for you.
+      </li>
+
+    </ul>
+  </p>
+</div>
+`,
+  },
+
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Delayed Diagnosis",
+    slug: "delayed-diagnosis",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Delayed Diagnosis
+
+  </h2>
+
+
+  <img
+    src="/assets/servicepage/medical-malpractice/delayed-diagnosis.jpg"
+    alt="Delayed Diagnosis"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      In Florida, medical malpractice for a delayed diagnosis is covered under Florida Statute 766.102. A delayed diagnosis occurs when a medical professional fails to identify a condition or illness within a reasonable timeframe, leading to a delay in necessary treatment. This can result in worsened health outcomes, as early treatment opportunities are missed. If a delayed diagnosis causes further harm, you may be able to sue the healthcare provider for medical malpractice.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Patients who have suffered harm due to a delayed diagnosis, such as worsening of a condition or missed treatment opportunities, should consider filing a claim. This includes patients with conditions like cancer, heart disease, or other serious illnesses that could have been treated more effectively if diagnosed earlier.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Delayed diagnosis cases require detailed scrutiny of the treatment timeline to establish when the diagnosis should have been made. You can find challenging proving that a different doctor would have diagnosed the condition sooner often requires strong expert testimony. The defense may argue that the delay did not worsen the patient’s prognosis, complicating your case.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <ul class="list-disc pl-5">
+      <li>
+        We reconstruct the medical timeline to highlight missed diagnosis opportunities and their impact on the patient’s health.
+      </li>
+
+      <li>
+          We secure credible experts to testify that an earlier diagnosis was possible and could have led to better outcomes.
+      </li>
+
+      <li>
+          Our team builds a strong case connecting the delay to worsened health, clearly outlining the consequences for maximum compensation. With our “No pay unless we win” motto, you can trust that we are fully committed to your case.
+      </li>
+
+    </ul>
+  </p>
+</div>
+`,
+  },
+
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Anesthesia Errors",
+    slug: "anesthesia-errors",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Anesthesia Errors
+
+  </h2>
+
+
+  <img
+    src="/assets/servicepage/medical-malpractice/anesthesia-errors.jpg"
+    alt="Anesthesia Errors"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      Anesthesia errors in Florida are covered under §458 of the Florida Statutes. A supervising anesthesiologist is liable for the actions of their anesthesiologist assistant. The Board of Medicine can impose penalties on anesthesiologist assistants who violate the statute §456. Anesthesia errors can cause serious complications, such as brain damage, organ failure, or death. If an anesthesia error was caused by negligence, you may be able to pursue a medical malpractice lawsuit. The statute of limitations for medical malpractice lawsuits in Florida is 2 years from the date of the malpractice.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Patients who have suffered due to an anesthesia error—including issues like incorrect dosage, failure to monitor vital signs, or delayed response to adverse reactions—can benefit from filing a claim. Pursuing compensation helps cover medical bills, rehabilitation costs, lost wages, and the emotional toll of such traumatic experiences.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Anesthesia error cases can be complex, often involving detailed medical records, expert testimonies, and intricate legal standards for proving negligence. Without legal assistance, you may struggle to gather the necessary evidence and interpret medical records. Insurance companies and healthcare providers often employ aggressive defense tactics to limit liability, which can make it difficult for you to receive fair compensation without an experienced attorney.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <ul class="list-disc pl-5">
+      <li>
+        Our team thoroughly reviews medical records, consults with anesthesia experts, and gathers essential evidence to build a strong case demonstrating negligence.
+      </li>
+
+      <li>
+          We help clients navigate the complexities of medical malpractice claims, handling negotiations and filing deadlines to ensure the process is as smooth and stress-free as possible.
+      </li>
+
+      <li>
+          With Carter Injury Law, you won’t pay any legal fees unless we secure compensation for you. Schedule a free consultation to discuss your case and allow us to fight for your rights.
+      </li>
+
+    </ul>
+  </p>
+</div>
+`,
+  },
+
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Failure to Treat",
+    slug: "failure-to-treat",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Failure to Treat
+
+  </h2>
+
+
+  <img
+    src="/assets/servicepage/medical-malpractice/failure-to-treat.jpg"
+    alt="Failure to Treat"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      "Failure to treat" occurs when a healthcare provider neglects to give necessary medical treatment after diagnosing a condition. Conversely when they fail to identify a condition that requires urgent care. This type of medical malpractice can lead to worsened health outcomes, prolonged suffering, and even preventable death. Under §766, Florida law allows patients to pursue legal action against healthcare providers for damages resulting from medical malpractice.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Patients who have suffered worsening health, complications, or permanent damage due to a healthcare provider's failure to treat their condition may benefit from filing a claim. Compensation can help cover additional medical expenses, future treatments, loss of income, and pain and suffering, providing recovery support. 
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Proving that a medical provider’s failure to treat directly caused harm is often challenging. Because it requires detailed medical analysis and comparison to accepted standards of care. Without an attorney, you may have difficulty accessing medical experts, and understanding complex medical records. You can even counter aggressive defense tactics from the healthcare provider’s legal team and insurance representatives. Additionally, you may miss critical filing deadlines under Florida’s statute of limitations for medical malpractice claims.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <ul class="list-disc pl-5">
+      <li>
+        Our team works with medical experts to review the provider's actions and determine whether they met the accepted standard of care, providing a solid foundation for your claim.
+      </li>
+
+      <li>
+          Carter Injury Law has experience holding healthcare institutions accountable. We are skilled at countering the defense strategies often used by hospitals and insurers to avoid liability, ensuring that your voice is heard.
+      </li>
+
+      <li>
+          We understand the financial burden that untreated medical conditions can impose. Carter Injury Law is committed to pursuing the full extent of compensation available, including future medical expenses, lost income, and damages for pain and suffering, so you can rebuild your life with the resources you need. And remember, you pay nothing unless we win the case.
+      </li>
+
+    </ul>
+  </p>
+</div>
+`,
+  },
+
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Failure to Diagnose",
+    slug: "failure-to-diagnose",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Failure to Diagnose
+
+  </h2>
+
+
+  <img
+    src="/assets/servicepage/medical-malpractice/failure-to-diagnose.jpg"
+    alt="Failure to Diagnose"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      According to Florida law, failure to diagnose refers to a doctor's failure to recognize a medical issue. Even when another equally competent doctor under identical circumstances might have identified the illness. And this form of medical negligence has increased in recent years. To investigate a misdiagnosis in Florida, you have to request medical records under Florida law 766.204. Additionally, you need to provide a pre-lawsuit notice to the medical provider under Florida law 766.106. The medical provider will have 90 days to respond to the notice.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         Your doctor did not refer you to a specialist despite clear indicators or misinterpreted lab test results, leading to incorrect or delayed treatment. Similarly, if your symptoms were reported but not properly investigated or discussed with you, vital diagnoses might have been overlooked. Neglecting to schedule essential follow-up appointments or failing to perform routine screenings for serious conditions, such as cancer or cardiovascular issues, can also form the basis of a claim.
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+           Medical malpractice cases are complex and often require specialized knowledge to prove negligence. Without an experienced attorney, gathering and presenting medical evidence, handling expert witnesses, and negotiating with powerful insurance companies can be overwhelming. Additionally, strict deadlines under the statute of limitations make timely action essential to preserving your claim.  
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <ul class="list-disc pl-5">
+      <li>
+        We review your medical records and consult with expert witnesses to determine the strength of your claim. Our team gathers the necessary documentation, including test results, medical reports, and expert opinions, to build a compelling case.
+      </li>
+
+      <li>
+          We handle all communication and negotiations with insurers to ensure you receive a fair settlement. If a fair settlement isn’t reached, we will represent you in court, advocating aggressively on your behalf.
+      </li>
+
+      <li>
+          We keep you informed throughout the process, providing personalized support tailored to your case’s unique needs. With our contingency fee policy, you can be assured of our dedication to achieving the best outcome for you.
+      </li>
+
+    </ul>
+  </p>
+</div>
+`,
+  },
+
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Misdiagnosis",
+    slug: "misdiagnosis",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+
+  Misdiagnosis
+
+  </h2>
+
+
+  <img
+    src="/assets/servicepage/medical-malpractice/misdiagnosis.jpg"
+    alt="Misdiagnosis"
+    className="w-full py-3"
+  />
+
+
+
+  <p className="text-base md:text-lg">
+      A misdiagnosis is an incorrect or missing diagnosis. It can be due to failure to diagnose, inaccurate diagnosis, or delayed diagnosis. Medical misdiagnosis can be disastrous, resulting in a lack of critical care for your illness. Even getting inappropriate therapy for a condition you do not have, leads to disease progression, ongoing suffering, and even death. It is also covered under the §766 statute of limitation.
+  </p>
+
+  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Who Should File a Claim and Why Having an Attorney Is Essential
+  </p>
+
+<ul class="list-disc pl-5">
+    <li>
+        <span class="font-bold">
+            Benefits of Filing: 
+        </span>
+         You may be eligible to file a misdiagnosis claim if your healthcare provider’s negligence caused harm. For instance, you have diagnosed the wrong illness, leading to unnecessary or harmful treatment. Medical care providers fail to diagnose a serious condition, such as cancer or a heart attack, on time. Conversely, your diagnostic tests like X-rays, MRIs, or blood tests have been misreading or misinterpreting diagnostic tests like. 
+    </li>
+
+    <li>
+        <span class="font-bold">
+            Consequences Without Representation: 
+        </span> 
+            Misdiagnosis cases often require detailed medical evidence. It includes medical records, diagnostic tests, and expert testimony to establish that the healthcare provider deviated from the standard of care. One of the most difficult aspects is proving that the misdiagnosis directly caused harm or worsened the patient’s condition.
+            <br/>
+            <br/>
+            This often involves complex medical and legal arguments that can be difficult to navigate without professional help. Each jurisdiction has specific legal standards and procedures which you need to understand to build a strong case.
+            <br/>
+            There are strict time limits for filing medical malpractice claims. Missing these deadlines can result in losing the right to pursue compensation.
+    </li>
+  </ul>
+</p>
+
+
+ <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    Carter Injury Law: Committed to Securing the Justice You Deserve
+  </p>
+
+  <ul class="list-disc pl-5">
+      <li>
+        We are well-versed in Florida’s medical malpractice laws and procedures. Our attorneys ensure your case meets all legal standards and is filed within the strict deadlines, protecting your right to seek compensation.
+      </li>
+
+      <li>
+          We work with medical-legal consultants who specialize in bridging the gap between medical and legal fields. These experts can provide detailed analysis and testimony that clearly explains the medical aspects of your case to the court.
+      </li>
+
+      <li>
+          We use advanced data analytics to identify patterns and inconsistencies in medical records. This can help pinpoint where the misdiagnosis occurred and provide compelling evidence to support your claim. And with our “No pay unless we win” guarantee, you can pursue justice without financial risk.
+      </li>
+
+    </ul>
+  </p>
+</div>
+`,
+  },
+
+  //Nursing home abuse
+  {
+    icon: "/assets/servicepage/icon/auto-accidents.png",
+    title: "Physical Abuse",
+    slug: "physical-abuse",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+<h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  Physical Abuse
+</h2>
+<img
+src="/assets/servicepage/nursing-home-abuse/physical-abuse.jpg"
+alt="Physical Abuse"
+className="w-full py-3"
+/>
+
+<p className="text-base md:text-lg">
+At nursing homes, physical abuse occurs when residents are harmed by deliberate force or rough handling, such as hitting, slapping, or improper restraint. Florida law enforces that nursing homes provide care safely and respectfully. Violating these duties, resulting in physical harm is grounds for legal action.
+</p>
+
+<p class= "text-base md:text-lg font-bold mb-1  pl-5">
+  Who Should File a Claim and Why Having an Attorney Is Essential 
+</p>
+
+<p class="text-base md:text-lg ">
+<ul class="list-disc pl-5">
+<li><span class= " font-bold ">Benefits of Filing:</span> Victims of nursing home physical abuse and their families can receive compensation for medical costs, pain, emotional distress, and possible other legal damages. Taking legal action also helps promote higher care standards and safety in nursing homes
+</li>
+
+<li><span class= " font-bold ">Consequences Without Representation:</span> Without an experienced attorney, proving nursing home abuse can be challenging. Facilities may deny or downplay allegations, and crucial evidence can be lost. Florida law sets a two-year statute of limitations for abuse claims. Failing to meet deadlines or establish a strong case can mean abuse continues and victims receive no justice
+</li>
+</ul>
+</p>
+
+
+<p class="text-base md:text-lg font-bold mb-1  pl-5">
+Carter Injury Law: Committed to Securing the Justice You Deserve
+</p>
+
+<p className="text-base md:text-lg">
+<ul class="list-disc pl-5">
+
+<li>We’ll gather key evidence, including medical records, staff reports, security footage, and witness testimonies, to fully uncover the abuse and identify those responsible
+</li>
+
+<li>Establishing that another party’s negligence led to your injuries requires detailed evidence, from witness statements to expert reports. Without an attorney, obtaining and organizing this evidence can be overwhelming.
+</li>
+
+<li>Our team is deeply familiar with Florida’s nursing home laws and will use this expertise to hold the facility accountable for its failures.
+</li>
+
+<li><span>We’ll handle negotiations with insurance companies and nursing home operators on your behalf to ensure the full compensation you deserve.
+</span></li>
+
+<li>We offer a free, private consultation to help individuals navigate the emotional impact of physical abuse, with no financial obligation unless we win.
+</li>
+
+</ul>
+</p>
+
+</div>
+`,
+  },
+
+  {
+    icon: "/assets/servicepage/icon/auto-accidents.png",
+    title: "Neglect and Abandonment",
+    slug: "neglect-and-abandonment",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+<h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+Neglect and Abandonment
+</h2>
+<img
+src="/assets/servicepage/nursing-home-abuse/neglect-and-abandonment.jpg"
+alt="Neglect and Abandonment"
+className="w-full py-3"
+/>
+
+<p className="text-base md:text-lg">
+In nursing homes, neglect and abandonment mean that residents don’t receive the necessary care or supervision they need. Neglect includes failure to provide food, water, medication, hygiene, or mobility assistance, while abandonment involves leaving a resident unattended for extended periods, creating dangerous situations - even life risk. Florida law mandates that nursing homes provide adequate care.
+</p>
+
+<p class= "text-base md:text-lg font-bold mb-1  pl-5">
+  Who Should File a Claim and Why Having an Attorney Is Essential 
+</p>
+
+<p class="text-base md:text-lg ">
+<ul class="list-disc pl-5">
+<li><span class= " font-bold ">Benefits of Filing:</span> Families of nursing home residents affected by neglect or abandonment can seek compensation for medical bills, pain and suffering, emotional distress, and loss of quality of life. If the neglect leads to long-term health issues, they may also be entitled to damages for future care costs.
+</li>
+
+<li><span class= " font-bold ">Consequences Without Representation:</span> Without the expertise of an experienced attorney, it’s tough to prove the claim. The evidence is often hidden, and facilities may try to deny their responsibility. Florida law allows a two-year statute of limitations to file a claim. Missing this deadline means losing the right to pursue justice.
+</li>
+</ul>
+</p>
+
+
+<p class="text-base md:text-lg font-bold mb-1  pl-5">
+Carter Injury Law: Committed to Securing the Justice You Deserve
+</p>
+
+<p className="text-base md:text-lg">
+<ul class="list-disc pl-5">
+
+<li>We’ll review medical records, staff schedules, facility conditions, and witness testimonies to uncover the truth behind the neglect or abandonment.
+</li>
+
+<li>Our team is skilled in Florida’s nursing home laws and regulations, and we’ll use this knowledge to build a solid case and hold the facility accountable.
+</li>
+
+<li>Whether negotiating a settlement or going to trial, we’ll fight for the compensation your family deserves and ensure the nursing home is held responsible.
+</li>
+
+
+<li>We understand the emotional toll of neglect or abandonment. Let us handle the legal details while you focus on your family’s well-being. Contact us for a free consultation without breaking the bank—no fee unless we win.
+</li>
+
+</ul>
+</p>
+
+</div>
+`,
+  },
+
+  {
+    icon: "/assets/servicepage/icon/auto-accidents.png",
+    title: "Sexual Abuse",
+    slug: "sexual-abuse",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+<h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+Sexual Abuse
+</h2>
+<img
+src="/assets/servicepage/nursing-home-abuse/sexual-abuse.jpg"
+alt="Sexual Abuse"
+className="w-full py-3"
+/>
+
+<p className="text-base md:text-lg">
+Sexual abuse in nursing homes involves unwanted sexual contact or advances by staff, residents, or visitors. This abuse, whether physical, verbal, or emotional, often goes unreported due to victims' vulnerability. Florida law requires nursing homes to protect residents from all forms of abuse and maintain proper safety measures. When sexual abuse occurs, those responsible—individuals or the facility—can be held legally accountable.
+</p>
+
+<p class= "text-base md:text-lg font-bold mb-1  pl-5">
+  Who Should File a Claim and Why Having an Attorney Is Essential 
+</p>
+
+<p class="text-base md:text-lg ">
+<ul class="list-disc pl-5">
+<li><span class= " font-bold ">Benefits of Filing:</span>Victims and families of nursing home sexual abuse have the right to seek compensation for physical, emotional, and psychological injury, such as medical fees, counseling, pain and suffering, and punitive penalties. Filing a claim can also help avoid future abuse and reveal misconduct.
+</li>
+
+<li><span class= " font-bold ">Consequences Without Representation:</span> The delicate nature of sexual assault in a nursing home makes it difficult to prove. Without legal assistance, victims may struggle to gather evidence, counter nursing home's defenses, and go through complicated legal procedures. Florida's two-year statute of limitations mandates prompt action, and without guidance from professionals, victims risk losing their opportunity at justice.
+</li>
+</ul>
+</p>
+
+
+<p class="text-base md:text-lg font-bold mb-1  pl-5">
+Carter Injury Law: Committed to Securing the Justice You Deserve
+</p>
+
+<p className="text-base md:text-lg">
+<ul class="list-disc pl-5">
+
+<li>We’ll review medical records, staff schedules, facility conditions, and witness We’ll entirely investigate your case, from medical records, and interviewing witnesses to collaborating with experts to gather evidence of the abuse, always treating your situation with the utmost sensitivity.
+</li>
+
+<li>With extensive experience in Florida nursing home abuse cases, we navigate complex legal requirements to prove sexual abuse claims effectively.
+</li>
+
+<li>We will hold abusers and the facility accountable, seeking full compensation for the emotional, physical, and psychological harm caused. Whether negotiating or going to trial, we fight for the victim’s rights.
+</li>
+
+
+<li>We know these cases are deeply sensitive. Let us help you seek justice—contact us for a free, confidential consultation. We take no fees unless we win.
+</li>
+
+</ul>
+</p>
+
+</div>
+`,
+  },
+
+  {
+    icon: "/assets/servicepage/icon/financial-abuse.png",
+    title: "Financial Abuse",
+    slug: "financial-abuse",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+<h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+Financial Abuse
+</h2>
+<img
+src="/assets/servicepage/nursing-home-abuse/financial-abuse.jpg"
+alt="Financial Abuse"
+className="w-full py-3"
+/>
+
+<p className="text-base md:text-lg">
+Nursing home financial abuse occurs when a resident’s money or assets are misused or stolen by caregivers, staff, or other residents. This can involve unauthorized access to bank accounts, credit cards, and property, or compelling residents into financial decisions. Florida law treats financial exploitation seriously, requiring nursing homes to protect residents’ finances. When they fail, families can seek legal action to recover stolen funds and hold offenders accountable.
+</p>
+
+<p class= "text-base md:text-lg font-bold mb-1  pl-5">
+  Who Should File a Claim and Why Having an Attorney Is Essential 
+</p>
+
+<p class="text-base md:text-lg ">
+<ul class="list-disc pl-5">
+<li><span class= " font-bold ">Benefits of Filing:</span>Victims and their families can recover stolen funds and may receive fair compensation for emotional distress, legal costs, and punitive damages. Holding the perpetrators accountable can prevent further exploitation of vulnerable individuals.
+</li>
+
+<li><span class= " font-bold ">Consequences Without Representation:</span> Financial abuse cases can be challenging, as perpetrators often hide their actions. Without a lawyer, families may struggle to prove the abuse or access crucial records. Florida’s two-year statute of limitations means delayed action can lose your right to pursue justice. Without skilled legal counsel, recovering stolen assets may be difficult.
+</li>
+</ul>
+</p>
+
+
+<p class="text-base md:text-lg font-bold mb-1  pl-5">
+Carter Injury Law: Committed to Securing the Justice You Deserve
+</p>
+
+<p className="text-base md:text-lg">
+<ul class="list-disc pl-5">
+
+<li>We’ll scrutinize financial records, contracts, and statements to uncover any signs of exploitation, interviewing witnesses and building strong evidence.
+</li>
+
+<li>Our team understands Florida’s laws on financial abuse and will take all necessary legal steps to protect your loved one’s rights and pursue justice.
+</li>
+
+<li>We’ll seek maximum compensation for financial harm, whether through negotiation or litigation, fighting tirelessly for justice and maintaining the statute of limitation.
+</li>
+
+
+<li>We’re here to offer personalized support to help you through this challenging time. Reach out for a free consultation—there’s no cost to you unless we win your case.
+</li>
+
+</ul>
+</p>
+
+</div>
+`,
+  },
+
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Manufacturing Defects",
+    slug: "manufacturing-defects",
+    details: `   <div className="w-full flex flex-col gap-2 lg:gap-4">
+                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                    Manufacturing Defects
+                  </h2>
+                  <img
+                    src="/assets/servicepage/product-liability/manufacturing-defects.jpg"
+                    alt="Burn Injuries"
+                    className="w-full py-3"
+                  />
+                <div>
+                  <p className="text-base md:text-lg">
+                    A manufacturing fault arises when a mistake or oversight in
+                    the production process compromises the product's integrity.
+                    For example, if a machine that makes brake calipers fails,
+                    the faulty calipers might cause a vehicle accident. In
+                    Florida, you normally have 2 years to file a claim after
+                    discovering you purchased a faulty product. The statute of
+                    limitations for product liability lawsuits may begin running
+                    at the moment of the accident. In other circumstances, you
+                    may not detect an injury immediately. In many cases, the
+                    statute of limitations does not begin to run until you
+                    discover your damage.
+                  </p>
+                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    Who Should Consider Filing a Claim and Why Legal
+                    Representation Is Essential
+                  </p>
+                  <p className="text-base md:text-lg">
+                    <ul className="list-disc pl-5">
+                      <li>
+                        <span className="font-bold pr-1">Benefits of Filing:</span>
+                        Anyone injured by a defective product should consider
+                        filing a claim. This includes consumers who have
+                        suffered physical harm, financial loss, or other damages
+                        due to a product that did not perform as safely as
+                        expected. Filing a claim can help recover compensation
+                        for medical expenses, lost wages, and pain and
+                        suffering.
+                      </li>
+
+                      <li>
+                        <span className="font-bold pr-1">
+                          Consequences Without Representation:
+                        </span>
+                        Product liability law is complex, especially for those
+                        without legal experience. Manufacturers often deny
+                        responsibility, and insurance companies may use tactics
+                        to minimize payouts. Establishing liability requires
+                        expert witnesses and technical evidence, and strict
+                        deadlines and procedures can make the process
+                        overwhelming. Additionally, insurance companies may
+                        delay claims or offer low settlements.
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    Carter Injury Law: Committed to Securing the Justice You
+                    Deserve
+                  </p>
+                  <p className="text-base md:text-lg">
+                    <ul className="list-disc pl-5">
+                      <li>
+                        We will carefully examine the circumstances of your
+                        injury to identify all potential causes and responsible
+                        parties. Our team will gather evidence, consult with
+                        experts, and develop a compelling legal strategy to
+                        maximize your recovery.
+                      </li>
+
+                      <li>
+                        We will aggressively pursue a fair settlement with the
+                        insurance company, but we are prepared to take your case
+                        to trial if necessary. Keep you informed throughout the
+                        legal process and answer any questions you may have.
+                      </li>
+
+                      <li>
+                        With our “No pay unless we win” motto, you can be
+                        confident that we are fully committed to your case. If
+                        you or a loved one has been injured by a defective
+                        product, contact Carter Injury Law today for a free
+                        consultation.
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+            </div>`,
+  },
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Design Defects",
+    slug: "design-defects",
+    details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
+                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                    Design Defects
+                  </h2>
+                  <img
+                    src="/assets/servicepage/product-liability/design-defects.jpg"
+                    alt="Burn Injuries"
+                    className="w-full py-3"
+                  />
+                <div>
+                  <p className="text-base md:text-lg">
+                    A defect in design arises when a product's design leads it
+                    to become defective. A poorly designed product may
+                    malfunction and cause harm. An example is a poorly
+                    constructed airbag that causes serious burns to passengers
+                    when it deploys. Design errors are frequently used as a
+                    basis for a product liability or faulty product lawsuit,
+                    particularly if someone suffers injury as a result of the
+                    flawed design. In Florida, a lawsuit for personal damage
+                    caused by a faulty product design must be filed within 4
+                    years.
+                  </p>
+                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    Who Should Consider Filing a Claim and Why Legal
+                    Representation Is Essential
+                  </p>
+                  <p className="text-base md:text-lg">
+                    <ul className="list-disc pl-5">
+                      <li>
+                        <span className="font-bold pr-1">Benefits of Filing:</span>
+                        Anyone who has been injured or suffered damages due to a
+                        product that they believe was defectively designed
+                        should consider filing a claim for product design
+                        defects, particularly if the injury was a direct result
+                        of a flawed design feature and not due to misuse or
+                        other factors; this could include consumers, users, or
+                        bystanders impacted by the defective product.
+                      </li>
+
+                      <li>
+                        <span className="font-bold pr-1">
+                          Consequences Without Representation:
+                        </span>
+                        Legal representation is essential for product design
+                        defect claims, as these complex cases often require
+                        expert testimony to prove the defect and secure
+                        compensation. Without an attorney, your chances of
+                        success significantly diminish, as specialists—such as
+                        engineers or medical experts—are often needed to explain
+                        technical issues and the risk of harm.
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+                <div> 
+                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    Carter Injury Law: Committed to Securing the Justice You
+                    Deserve
+                  </p>
+                  <p className="text-base md:text-lg">
+                    <ul className="list-disc pl-5">
+                      <li>
+                        We have specialized knowledge to understand the legal
+                        standards for proving a design defect, including the
+                        "consumer expectation" test and the "risk-utility"
+                        analysis, which are crucial for building a strong case.
+                      </li>
+
+                      <li>
+                        Lawyers can conduct thorough investigations to gather
+                        evidence like product documentation, testing reports,
+                        expert opinions, and witness statements to support your
+                        claim that the product design was flawed.
+                      </li>
+
+                      <li>
+                        Product liability cases involve complex procedures,
+                        including discovery, motions, and strict deadlines. An
+                        attorney ensures all legal requirements are met and
+                        guides you through the process. Plus, you pay nothing
+                        unless we win your case.
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+            </div>`,
+  },
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Marketing Defects and Failure to Warn",
+    slug: "marketing-defects-and-failure-to-warn",
+    details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
+                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                    Marketing Defects and Failure to Warn
+                  </h2>
+                  <img
+                    src="/assets/servicepage/product-liability/marketing-defects-and-failure-to-warn.jpg"
+                    alt="Burn Injuries"
+                    className="w-full py-3"
+                  />
+                    <div>
+                        <p className="text-base md:text-lg">
+                            A marketing defect occurs when a product is dangerous but
+                            the manufacturer or distributor doesn't provide adequate or
+                            clear warnings about how to use it safely or the potential
+                            risks. For example, a medication that interacts with alcohol
+                            should have a warning label. If the defect wasn't
+                            immediately obvious, the time period might be extended.
+                            There's also a legal standard called the "discovery rule"
+                            that limits when a defect must be discovered to be
+                            actionable. The statute of limitations for a wrongful death
+                            claim is 2 years.
+                        </p>
+                        <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                            Who Should Consider Filing a Claim and Why Legal
+                            Representation Is Essential
+                        </p>
+                        <p className="text-base md:text-lg">
+                            <ul className="list-disc pl-5">
+                            <li>
+                                <span className="font-bold pr-1">Benefits of Filing:</span>
+                                Anyone who has been injured or harmed by a product due
+                                to inadequate warnings about its potential dangers,
+                                misleading marketing claims, or a lack of clear
+                                instructions on safe usage should consider filing a
+                                claim for marketing defects and failure to warn. This
+                                could include consumers who used a product without
+                                knowledge of its risks, leading to injuries or damages.
+                            </li>
+
+                            <li>
+                                <span className="font-bold pr-1">
+                                Consequences Without Representation:
+                                </span>
+                                Legal representation is crucial for cases involving
+                                marketing defects and failure to warn. These complex
+                                legal areas often require expert knowledge to navigate
+                                the intricacies of product liability law. To ensure that
+                                injured consumers can properly establish a claim against
+                                manufacturers and secure appropriate compensation. Also,
+                                holds companies accountable for not adequately informing
+                                consumers about potential product hazards.
+                            </li>
+                            </ul>
+                        </p>
+                        </div>
+                        <div>
+                        <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                            Carter Injury Law: Committed to Securing the Justice You
+                            Deserve
+                        </p>
+                        <p className="text-base md:text-lg">
+                            <ul className="list-disc pl-5">
+                            <li>
+                                We build a strong case by identifying the defect,
+                                proving the manufacturer’s awareness of the risk, and
+                                showing how insufficient warnings led to the injury. We
+                                also assess whether the manufacturer’s warnings were
+                                clear, prominent, and understandable.
+                            </li>
+
+                            <li>
+                                Depending on the situation, we can determine whether to
+                                pursue a claim based on strict liability, negligence, or
+                                breach of warranty.
+                            </li>
+
+                            <li>
+                                We determine if the manufacturer could have reasonably
+                                foreseen harm from proper product use and prove that
+                                inadequate warnings directly led to the plaintiff's
+                                injury. With our no pay unless we win policy, you can
+                                seek justice risk-free.
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>`,
+  },
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Defective Medical Devices",
+    slug: "defective-medical-devices",
+    details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
+                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                    Defective Medical Devices
+                  </h2>
+                  <img
+                    src="/assets/servicepage/product-liability/defective-medical-devices.jpg"
+                    alt="Burn Injuries"
+                    className="w-full py-3"
+                  />
+                  <p className="text-base md:text-lg">
+                    The time frame for filing a faulty medical device lawsuit in
+                    Florida is limited by law. The statute of limitations is 4
+                    years, after which you lose your legal right to file a
+                    claim. The clock begins ticking on the day of your injury or
+                    when you should have reasonably known about the injury.
+                    Injured patients in Florida might face life-altering
+                    consequences as a result of dangerous or faulty medical
+                    devices. You might face everything from severe discomfort to
+                    catastrophic injury, lasting handicap, revision surgery, or
+                    wrongful death.
+                  </p>
+                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    Who Should Consider Filing a Claim and Why Legal
+                    Representation Is Essential
+                  </p>
+                  <p className="text-base md:text-lg">
+                    <ul className="list-disc pl-5">
+                      <li>
+                        <span className="font-bold pr-1">Benefits of Filing:</span>
+                        Anyone who has experienced an injury or adverse health
+                        effect due to a suspected defective medical device
+                        should consider filing a claim, particularly if the
+                        injury is significant and can be directly linked to a
+                        design flaw, manufacturing defect, or failure to
+                        adequately warn about potential risks associated with
+                        the device.
+                      </li>
+
+                      <li>
+                        <span className="font-bold pr-1">
+                          Consequences Without Representation:
+                        </span>
+                        When you’re injured by such devices, navigating the
+                        complex legal system on your own can be extremely
+                        challenging. Without legal representation, gathering
+                        crucial evidence, advocating for your rights, and
+                        seeking compensation for medical expenses, lost wages,
+                        and pain and suffering becomes much harder.
+                        Additionally, holding manufacturers accountable for
+                        faulty products is more difficult, which is essential
+                        for promoting higher safety standards in the medical
+                        device industry.
+                      </li>
+                    </ul>
+                  </p>
+                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    Carter Injury Law: Committed to Securing the Justice You
+                    Deserve
+                  </p>
+                  <p className="text-base md:text-lg">
+                    <ul className="list-disc pl-5">
+                      <li>
+                        We specialize in medical device litigation, understand
+                        the intricate regulations surrounding medical devices,
+                        including FDA guidelines, and can identify potential
+                        defects and legal arguments specific to your case.
+                      </li>
+
+                      <li>
+                        We can help recover medical expenses, lost wages, pain
+                        and suffering related to the injuries caused by the
+                        defective device. Our successful lawsuits can prompt
+                        manufacturers to recall defective devices, potentially
+                        preventing further harm to other patients.
+                      </li>
+
+                      <li>
+                        We negotiate directly with the manufacturer or their
+                        insurance company to secure a fair settlement, often
+                        avoiding a lengthy trial. Throughout the process, we
+                        protect your rights by managing filings, deadlines, and
+                        legal complexities. And you don’t owe us anything if we
+                        can’t win your case, so you can trust our commitment to
+                        achieving the best result for you.
+                      </li>
+                    </ul>
+                  </p>
+                </div>`,
+  },
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Defective Household Goods and Appliances",
+    slug: "defective-household-goods-and-appliances",
+    details: `   <div className="w-full flex flex-col gap-2 lg:gap-4">
+                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                    Defective Household Goods and Appliances
+                  </h2>
+                  <img
+                    src="/assets/servicepage/product-liability/defective-household-goods-and-appliances.jpg"
+                    alt="Burn Injuries"
+                    className="w-full py-3"
+                  />
+                  <p className="text-base md:text-lg">
+                    Household goods and appliances are meant to bring
+                    convenience and safety. But defective products can lead to
+                    serious injuries and property damage. In Florida, victims of
+                    defective product injuries have the right to seek
+                    compensation for losses through a product liability claim.
+                    This must be done within the Florida statute of limitations,
+                    which is generally 4 years from the date of the injury. It’s
+                    essential to act promptly, as missing this deadline may
+                    prevent you from recovering damages.
+                  </p>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                      Who Should Consider Filing a Claim and Why Legal
+                      Representation Is Essential
+                    </p>
+                    <p className="text-base md:text-lg">
+                      <ul className="list-disc pl-5">
+                        <li>
+                          <span className="font-bold pr-1">
+                            Benefits of Filing:
+                          </span>
+                          Individuals harmed by defective household products,
+                          such as faulty kitchen appliances, electrical items,
+                          or home safety devices, should consider filing a
+                          claim. By pursuing compensation, victims can reduce
+                          financial stress, address medical costs, and hold
+                          manufacturers responsible, potentially encouraging
+                          them to improve product safety standards. This
+                          accountability not only aids the injured party but
+                          also helps make safer products available to the
+                          public.
+                        </li>
+
+                        <li>
+                          <span className="font-bold pr-1">
+                            Consequences Without Representation:
+                          </span>
+                          Without legal representation, gathering the necessary
+                          evidence to build a strong case against manufacturers
+                          or retailers can be overwhelming. The complexities of
+                          Florida’s product liability laws can make it
+                          challenging for an individual to effectively argue
+                          their case, often leading to insufficient compensation
+                          or even dismissed claims. Additionally, large
+                          companies may have powerful legal teams, which can
+                          make it harder for individuals to secure a fair
+                          outcome on their own.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                      Carter Injury Law: Committed to Securing the Justice You
+                      Deserve
+                    </p>
+                    <p className="text-base md:text-lg">
+                      <ul className="list-disc pl-5">
+                        <li>
+                          We analyze the details of the defect, including the
+                          type of appliance, the nature of the malfunction, and
+                          any injuries sustained, to determine if you have a
+                          valid legal claim. We also identify liable parties,
+                          such as the manufacturer, retailer, or distributor.
+                        </li>
+
+                        <li>
+                          Our team helps you gather crucial evidence like
+                          photographs, repair receipts, purchase receipts, and
+                          medical records. We then craft a legal strategy based
+                          on applicable product liability laws, including
+                          potential arguments regarding design defects,
+                          manufacturing defects, or failure to warn.
+                        </li>
+
+                        <li>
+                          We negotiate with the manufacturer or retailer to
+                          reach a fair settlement. If a settlement cannot be
+                          reached, we represent you in court, presenting
+                          evidence and arguments to establish the defect and the
+                          company’s liability. We also assist in calculating the
+                          full extent of your damages, including medical
+                          expenses, lost wages, and pain and suffering. You
+                          won’t face any legal fees unless we secure a
+                          successful outcome on your behalf.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>`,
+  },
+
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Temporary Partial Disability Claims",
+    slug: "temporary-partial-disability",
+    details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
+                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                    Temporary Partial Disability Claims
+                  </h2>
+                  <img
+                    src="/assets/servicepage/workers-compensation/temporary-partial-disability.jpg"
+                    alt="Burn Injuries"
+                    className="w-full py-3"
+                  />
+                  <p className="text-base md:text-lg">
+                    Temporary Partial Disability (TPD) claims refer to
+                    compensation for individuals who are temporarily unable to
+                    work at full capacity due to an injury or illness but are
+                    still able to perform some tasks. These claims are designed
+                    to provide financial support during recovery when a person’s
+                    ability to earn a full income is affected. This type of
+                    claim is essential for those facing a partial loss of wages
+                    due to a temporary disability.
+                  </p>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                      Who Should File a Claim and Why Having an Attorney Is
+                      Essential
+                    </p>
+                    <p className="text-base md:text-lg">
+                      <ul className="list-disc pl-5">
+                        <li>
+                          <span className="font-bold pr-1">
+                            Benefits of Filing:
+                          </span>
+                          For workers who have been doing a modified job that
+                          pays less than their usual role, TPD benefits help
+                          cover the difference, ensuring they don’t lose
+                          financial stability during recovery. If their injury
+                          requires ongoing medical treatment or long-term
+                          rehabilitation, TPD benefits provide financial relief,
+                          allowing them to focus on healing without added
+                          financial stress.
+                        </li>
+
+                        <li>
+                          <span className="font-bold pr-1">
+                            Consequences Without Representation:
+                          </span>
+                          In Florida, the statute of limitations for filing a
+                          temporary partial disability (TPD) claim is governed
+                          by §440.19 of the Florida Workers' Compensation Law.
+                          According to this statute, you must file your claim
+                          within two years from the date of your accident or the
+                          date you last received benefits, whichever is later.
+                        </li>
+                        <p>
+                          Having a lawyer ensures all paperwork is accurate and
+                          timely. Moreover, insurance companies may try to
+                          minimize the benefits by questioning the extent of
+                          injury. Without legal guidance, individuals risk
+                          missing out on full compensation, which can strain the
+                          recovery process.
+                        </p>
+                      </ul>
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                      Carter Injury Law: Committed to Securing the Justice You
+                      Deserve
+                    </p>
+                    <p className="text-base md:text-lg">
+                      <ul className="list-disc pl-5">
+                        <li>
+                          We start with a free, detailed evaluation to explain
+                          your rights, eligibility, and best next steps.
+                        </li>
+
+                        <li>
+                          Our team handles everything from gathering medical
+                          evidence to negotiating with insurers, making sure
+                          your claim is strong and fully supported.
+                        </li>
+
+                        <li>
+                          We work tirelessly to ensure you receive maximum
+                          compensation, standing by you if extended benefits or
+                          appeals are needed.
+                        </li>
+                        <li>
+                          We’re here to guide you through every step, offering
+                          advice on other resources and legal options to support
+                          your overall recovery journey.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>`,
+  },
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Cut and Burn Injuries",
+    slug: "cut-and-burn-injuries",
+    details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
+                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                    Cut and Burn Injuries
+                  </h2>
+                  <img
+                    src="/assets/servicepage/workers-compensation/cut-and-burn-injuries.jpg"
+                    alt="cut and burn injuries"
+                    className="w-full py-3"
+                  />
+                  <p className="text-base md:text-lg">
+                    Cut and burn injuries refer to physical harm caused by sharp
+                    objects or exposure to heat or chemicals.These injuries can
+                    range from mild to severe and often require immediate
+                    medical attention, depending on the extent of damage to the
+                    skin and underlying tissues. If someone has suffered from
+                    these injuries, it's essential to understand their rights
+                    and seek proper legal guidance.
+                  </p>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                      Who Should File a Claim and Why Having an Attorney Is
+                      Essential
+                    </p>
+                    <p className="text-base md:text-lg">
+                      <ul className="list-disc pl-5">
+                        <li>
+                          <span className="font-bold pr-1">
+                            Benefits of Filing:
+                          </span>
+                          Workers who have experienced a cut or burn injury that
+                          limits their ability to perform their job at full
+                          capacity should seek to file a claim. If the injury
+                          requires ongoing medical attention or rehabilitation,
+                          the financial support from a claim can make a
+                          significant difference in the recovery process.
+                        </li>
+
+                        <li>
+                          <span className="font-bold pr-1">
+                            Consequences Without Representation:
+                          </span>
+                          Without the help of an experienced attorney, workers
+                          may struggle with Florida’s workers’ compensation
+                          system, facing challenges in proving their injury,
+                          filing paperwork on time, and understanding their
+                          benefits. Insurance companies may downplay the injury
+                          or reduce payouts. An attorney ensures proper claim
+                          support, maximizing compensation. Without legal
+                          guidance, workers risk missing opportunities for full
+                          compensation, which could affect their recovery and
+                          financial stability.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                      Carter Injury Law: Committed to Securing the Justice You
+                      Deserve
+                    </p>
+                    <p className="text-base md:text-lg">
+                      <ul className="list-disc pl-5">
+                        <li>
+                          We take the time to carefully review your injuries,
+                          medical records, and the details of the incident to
+                          ensure we gather all the evidence needed to build a
+                          strong case.
+                        </li>
+
+                        <li>
+                          Our experienced attorneys will work tirelessly to
+                          negotiate with insurance companies, aiming to secure
+                          the maximum compensation for you. If needed, we’re
+                          fully prepared to take your case to court to ensure
+                          justice is served.
+                        </li>
+
+                        <li>
+                          From your first consultation to the final resolution,
+                          we’re here to guide you through the legal process,
+                          answer any questions you may have, and provide the
+                          compassionate support you need during this challenging
+                          time.
+                        </li>
+                        <li>
+                          Our services are offered on a contingency fee basis,
+                          so you only pay if we successfully win your case.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>`,
+  },
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Broken Bone Injury",
+    slug: "broken-bone-injury",
+    details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
+                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                    Broken Bone Injury
+                  </h2>
+                  <img
+                    src="/assets/servicepage/workers-compensation/broken-bone-injuries.jpg"
+                    alt="broken-bone-injury"
+                    className="w-full py-3"
+                  />
+                  <p className="text-base md:text-lg">
+                    A broken bone injury occurs when a bone is fractured or
+                    cracked due to an impact or accident.These injuries can
+                    range from mild to severe, often requiring medical treatment
+                    and sometimes surgery. When dealing with a broken bone
+                    injury, understanding legal rights and potential claims is
+                    important, as proper legal guidance can ensure fair
+                    compensation for medical expenses and other related losses.
+                  </p>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                      Who Should File a Claim and Why Having an Attorney Is
+                      Essential
+                    </p>
+                    <p className="text-base md:text-lg">
+                      <ul className="list-disc pl-5">
+                        <li>
+                          <span className="font-bold pr-1">
+                            Benefits of Filing:
+                          </span>
+                          Individuals with broken bone injuries from accidents,
+                          whether at work, in a car crash, or a slip and fall,
+                          can file claims for compensation covering medical
+                          expenses, lost wages, and pain and suffering. In
+                          Florida, they may pursue personal injury or workers'
+                          compensation claims, or both, especially if the injury
+                          causes long-term effects. Legal representation ensures
+                          full compensation is obtained, protecting their rights
+                          and helping handle complex laws.
+                        </li>
+
+                        <li>
+                          <span className="font-bold pr-1">
+                            Consequences Without Representation:
+                          </span>
+                          Without legal representation, dealing with a broken
+                          bone injury claim in Florida can be challenging.
+                          Insurance companies often minimize payouts, dispute
+                          liability, or offer low settlements. Without the help
+                          of an attorney, proving the injury’s extent and
+                          securing fair compensation for medical expenses, pain,
+                          and suffering is difficult. Legal experts ensure all
+                          paperwork is filed on time and protect the injured
+                          party’s interests, helping avoid missed compensation
+                          and financial strain during recovery.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                      Carter Injury Law: Committed to Securing the Justice You
+                      Deserve
+                    </p>
+                    <p className="text-base md:text-lg">
+                      <ul className="list-disc pl-5">
+                        <li>
+                          We’ll take the time to review your case and explain
+                          your options—at no cost to you.
+                        </li>
+
+                        <li>
+                          Our team works hard to ensure you receive the full
+                          compensation you deserve, whether through negotiations
+                          or in court.
+                        </li>
+
+                        <li>
+                          With years of experience in personal injury cases
+                          across Florida, we know the ins and outs of the
+                          state’s legal system and are prepared to handle even
+                          the most complex situations.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>`,
+  },
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: " Catastrophic Injuries",
+    slug: "catastrophic-injuries",
+    details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
+                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                    Catastrophic Injuries
+                  </h2>
+                  <img
+                    src="/assets/servicepage/workers-compensation/catastrophic-injuries.jpg"
+                    alt="cut and burn injuries"
+                    className="w-full py-3"
+                  />
+                  <p className="text-base md:text-lg">
+                    A catastrophic injury refers to a severe injury that results
+                    in long-term or permanent damage, such as spinal cord
+                    injuries, traumatic brain injuries, severe burns, or
+                    amputations.These injuries often require extensive medical
+                    treatment, rehabilitation, and can significantly impact the
+                    quality of life. A person injured catastrophically due to
+                    someone else’s negligence, has the right to pursue
+                    compensation for medical expenses, lost income, and pain and
+                    suffering.
+                  </p>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                      Who Should File a Claim and Why Having an Attorney Is
+                      Essential
+                    </p>
+                    <p className="text-base md:text-lg">
+                      <ul className="list-disc pl-5">
+                        <li>
+                          <span className="font-bold pr-1">
+                            Benefits of Filing:
+                          </span>
+                          Individuals who have sustained catastrophic injuries
+                          benefit greatly from having an experienced attorney.
+                          In Florida, filing a claim can provide compensation
+                          for medical costs, lost wages, pain and suffering, and
+                          future care needs. This financial support is important
+                          for those unable to work or requiring long-term
+                          rehabilitation, helping them adapt to the physical,
+                          mental, and financial challenges of recovery.
+                        </li>
+
+                        <li>
+                          <span className="font-bold pr-1">
+                            Consequences Without Representation:
+                          </span>
+                          Filing a catastrophic injury claim in Florida can be
+                          complicated due to strict laws and deadlines,
+                          including the statute of limitations. Without the help
+                          of an attorney, victims may struggle to prove fault or
+                          obtain full compensation. Insurance companies often
+                          offer low settlements that don’t cover long-term
+                          medical expenses or lost wages. Legal representation
+                          ensures timely, accurate claims and maximizes
+                          compensation.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                      Carter Injury Law: Committed to Securing the Justice You
+                      Deserve
+                    </p>
+                    <p className="text-base md:text-lg">
+                      <ul className="list-disc pl-5">
+                        <li>
+                          We have extensive experience handling catastrophic
+                          injury cases in Florida, ensuring that you have a
+                          knowledgeable attorney by your side every step of the
+                          way.
+                        </li>
+
+                        <li>
+                          We work closely with top medical professionals to
+                          thoroughly assess your case and understand the full
+                          extent of your injuries.
+                        </li>
+
+                        <li>
+                          From gathering evidence to negotiating settlements, we
+                          manage every detail of your claim, allowing you to
+                          focus on your recovery.
+                        </li>
+                        <li>
+                          We handle the complexities of dealing with insurance
+                          companies, ensuring they don’t take advantage of you
+                          with lowball offers.
+                        </li>
+                        <li>
+                          We fight for your rights to secure compensation for
+                          medical expenses, lost wages, and long-term care.
+                        </li>
+                        <li>
+                          Our fees are contingent upon the outcome of your
+                          case—if we don’t win, you don’t owe us anything.
+                        </li>
+                        <li>
+                          Florida Statutes § 95.11(3)(a) gives you four years to
+                          file a claim for a catastrophic injury, but acting
+                          quickly helps ensure the best possible outcome for
+                          your case.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>`,
+  },
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Disability Rating Disputes",
+    slug: "disability-rating-disputes",
+    details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
+                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                    Disability Rating Disputes
+                  </h2>
+                  <img
+                    src="/assets/servicepage/workers-compensation/disability-rating-disputes.jpg"
+                    alt="Disability Rating Disputes"
+                    className="w-full py-3"
+                  />
+                  <p className="text-base md:text-lg">
+                    A disability rating dispute arises when a veteran or
+                    individual disagrees with the disability rating assigned by
+                    the Department of Veterans Affairs (VA) after a claim is
+                    filed. The disability rating is a percentage that reflects
+                    the severity of your condition, determining the amount of
+                    compensation you receive. If a disability rating seems too
+                    low or doesn’t accurately reflect the severity of the
+                    condition, it's important to understand the process of
+                    challenging the decision to ensure the benefits are
+                    rightfully received.
+                  </p>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                      Who Should File a Claim and Why Having an Attorney Is
+                      Essential
+                    </p>
+                    <p className="text-base md:text-lg">
+                      <ul className="list-disc pl-5">
+                        <li>
+                          <span className="font-bold pr-1">
+                            Benefits of Filing:
+                          </span>
+                          Legal representation is vital for anyone facing a
+                          disability rating dispute, especially those who need
+                          assistance navigating complex laws, medical records,
+                          and the appeal process. Individuals who are new to the
+                          process or have been denied benefits can benefit
+                          greatly from the expertise of an attorney.Filing a
+                          dispute can result in a higher rating, which means
+                          increased benefits that can make a real difference in
+                          your life.
+                        </li>
+
+                        <li>
+                          <span className="font-bold pr-1">
+                            Consequences Without Representation:
+                          </span>
+                          In Florida, the statute of limitations for filing a
+                          dispute related to disability ratings is governed by
+                          Florida Statutes § 440.19. Under this law, you must
+                          file a claim for workers' compensation benefits,
+                          including disputes over disability ratings, within two
+                          years from the date of the last payment of benefits or
+                          the date of the last treatment. Without an attorney,
+                          many individuals struggle to gather the necessary
+                          evidence, file the correct paperwork, or understand
+                          the specific legal standards that apply to their
+                          cases. This can result in missed deadlines, incomplete
+                          documentation, or errors that weaken the case,
+                          ultimately leading to a denial or a lower rating.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                      Carter Injury Law: Committed to Securing the Justice You
+                      Deserve
+                    </p>
+                    <p className="text-base md:text-lg">
+                      <ul className="list-disc pl-5">
+                        <li>
+                          Our experienced attorneys will guide you through the
+                          VA’s appeal process and help gather the necessary
+                          evidence to support your claim.
+                        </li>
+
+                        <li>
+                          We work to ensure that your rating accurately reflects
+                          the severity of your condition, helping you secure the
+                          benefits you rightfully deserve.
+                        </li>
+                        <li>
+                          We operate on a contingency fee basis, meaning you pay
+                          nothing unless we win your case. This ensures that
+                          veterans can afford quality legal representation
+                          without worrying about upfront costs.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>`,
+  },
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Overexertion and Overuse Injuries ",
+    slug: "overexertion-and-overuse-injuries",
+    details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
+                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                    Overexertion and Overuse Injuries
+                  </h2>
+                  <img
+                    src="/assets/servicepage/workers-compensation/overexertion-and-overuse-injuries.jpg"
+                    alt="Overexertion and Overuse Injuries "
+                    className="w-full py-3"
+                  />
+                  <p className="text-base md:text-lg">
+                    Overexertion and overuse injuries occur when repetitive
+                    motions or physical strain exceed the body’s capacity, often
+                    leading to muscle, joint, or nerve damage. Such injuries can
+                    seriously impact a person's ability to work. Understanding
+                    legal options is essential, as compensation may be available
+                    to help cover medical costs and lost wages, offering vital
+                    support during recovery.
+                  </p>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                      Who Should File a Claim and Why Having an Attorney Is
+                      Essential
+                    </p>
+                    <p className="text-base md:text-lg">
+                      <ul className="list-disc pl-5">
+                        <li>
+                          <span className="font-bold pr-1">
+                            Benefits of Filing:
+                          </span>
+                          Workers in physically demanding jobs in Florida,
+                          particularly those suffering from overexertion or
+                          repetitive stress injuries, benefit from workers'
+                          compensation. These injuries often lead to long
+                          recovery periods, medical treatments, and lost wages.
+                          Workers' compensation provides financial support
+                          during recovery, covering medical expenses, therapy,
+                          and lost income, enabling injured employees to focus
+                          on their recovery without the added stress of
+                          financial burdens.
+                        </li>
+
+                        <li>
+                          <span className="font-bold pr-1">
+                            Consequences Without Representation:
+                          </span>
+                          Without legal representation, dealing with Florida's
+                          workers' compensation laws, especially for
+                          overexertion and overuse injuries, can be difficult.
+                          According to §95.11(3)(a) of the Florida Statutes, you
+                          have four years from the date of the injury to file a
+                          lawsuit. This period applies to injuries caused by
+                          repetitive stress or overexertion that may not show
+                          immediate symptoms but worsen over time. Insurance
+                          companies may challenge the severity or validity of an
+                          injury to reduce compensation, making it essential to
+                          have proper legal support. Having a skilled attorney
+                          ensures the claim is handled correctly, supports
+                          accurate paperwork, and counters any insurance company
+                          tactics, helping secure fair compensation during
+                          recovery.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                      Carter Injury Law: Committed to Securing the Justice You
+                      Deserve
+                    </p>
+                    <p className="text-base md:text-lg">
+                      <ul className="list-disc pl-5">
+                        <li>
+                          We understand the difficulties you’re facing and offer
+                          compassionate, tailored legal services to address your
+                          specific needs.
+                        </li>
+
+                        <li>
+                          Our team has the knowledge and skills to navigate
+                          complex injury claims, ensuring you get the best
+                          possible outcome.
+                        </li>
+
+                        <li>
+                          From filing claims to negotiating with insurance
+                          companies, we handle all aspects of your case so you
+                          don’t have to.
+                        </li>
+
+                        <li>
+                          We’ll fight to secure compensation for medical
+                          expenses, lost wages, and pain and suffering—ensuring
+                          you get what you’re entitled to.
+                        </li>
+                        <li>
+                          You don’t pay unless we win your case, so you can
+                          focus on your recovery without the stress of legal
+                          expenses.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>`,
+  },
+  {
+    icon: "/assets/servicepage/icon/medical-icon.png",
+    title: "Death Claims",
+    slug: "death-claims",
+    details: `      <div className="w-full flex flex-col gap-2 lg:gap-4">
+                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                    Death Claims
+                  </h2>
+                  <img
+                    src="/assets/servicepage/workers-compensation/death-claims.jpg"
+                    alt="Overexertion and Overuse Injuries "
+                    className="w-full py-3"
+                  />
+                  <p className="text-base md:text-lg">
+                    The loss of a loved one is always a tragic experience, but
+                    when their death is caused by someone else’s negligence or
+                    wrongful actions, the grief can feel even more unbearable.
+                    In Florida, surviving family members may have the option to
+                    pursue a wrongful death claim to seek justice and
+                    compensation for their loss. A wrongful death claim is a
+                    civil lawsuit filed when a person’s death is caused by
+                    another party’s negligence, misconduct, or reckless
+                    behavior.
+                  </p>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                      Who Should File a Claim and Why Having an Attorney Is
+                      Essential
+                    </p>
+                    <p className="text-base md:text-lg">
+                      <ul className="list-disc pl-5">
+                        <li>
+                          <span className="font-bold pr-1">
+                            Benefits of Filing:
+                          </span>
+                          Surviving family members who were financially
+                          dependent on the deceased or who suffered emotional
+                          distress from their loss can benefit from a wrongful
+                          death claim. This includes spouses, children, parents,
+                          and sometimes other close relatives.
+                        </li>
+
+                        <li>
+                          <span className="font-bold pr-1">
+                            Consequences Without Representation:
+                          </span>
+                          Without the guidance of an experienced attorney, the
+                          process of filing a wrongful death claim can be
+                          challenging.In Florida, the statute of limitations for
+                          death claims, such as wrongful death, is governed by
+                          Florida Statutes § 95.11(4). This statute sets a time
+                          limit of two years from the date of death to file a
+                          wrongful death lawsuit.
+                        </li>
+                        <p>
+                          The legal complexities, tight deadlines, and emotional
+                          strain of managing the process can lead to missed
+                          opportunities for compensation. An attorney ensures
+                          that the case is properly handled, helping secure fair
+                          compensation for the loss and easing the burden during
+                          a difficult time.
+                        </p>
+                      </ul>
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                      Carter Injury Law: Committed to Securing the Justice You
+                      Deserve
+                    </p>
+                    <p className="text-base md:text-lg">
+                      <ul className="list-disc pl-5">
+                        <li>
+                          We provide clear, step-by-step assistance in filing
+                          your claim and making sure you meet all deadlines,
+                          including the two-year statute of limitations.
+                        </li>
+
+                        <li>
+                          We will carefully assess the details of your case to
+                          help you understand the potential damages you may be
+                          entitled to, including medical bills, funeral
+                          expenses, and lost wages.
+                        </li>
+
+                        <li>
+                          We fight for the compensation you deserve, whether
+                          through negotiation or in-court representation.
+                        </li>
+
+                        <li>
+                          With our no-win, no-fee policy, you can focus on
+                          healing and taking care of your family, while we
+                          handle the legal side without any upfront costs.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>`,
+  },
 ];
