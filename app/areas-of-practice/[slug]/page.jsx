@@ -34,7 +34,6 @@ import PracticeAreaHeader from "@/components/practice-area/PracticeAreaHeader";
 import { allServiceData } from "@/config/serviceData";
 import PracticeAreaSidebarCard from "@/components/practice-area/PracticeAreaSidebarCard";
 import PracticeAreaDetailsHeader from "@/components/practice-area/PracticeAreaDetailsHeader";
-import { workersCompensationData } from "@/config/abuData";
 
 const css = `
   h1{
@@ -71,7 +70,7 @@ nav{
 `;
 
 const page = async ({ params }) => {
-  const servicesDetails = workersCompensationData?.filter(
+  const servicesDetails = allServiceData?.filter(
     (service) => service.slug === params.slug
   );
 

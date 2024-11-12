@@ -1,4 +1,5 @@
 export const allServiceData = [
+  // Auto Accidents
   {
     icon: "/assets/servicepage/icon/auto-accidents.png",
     title: "Tampa Bay Auto Accidents Lawyer",
@@ -492,6 +493,7 @@ export const allServiceData = [
                 
               </div>`,
   },
+
   {
     icon: "/assets/servicepage/icon/bicycle-icon.png",
     title: "Bicycle Accidents",
@@ -1725,7 +1727,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/car-icon.png",
+    icon: "/assets/servicepage/icon/motorcycle-icon.png",
     title: "Motorcycle Accidents",
     slug: "motorcycle-accidents",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -1794,7 +1796,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/car-icon.png",
+    icon: "/assets/servicepage/icon/truck-icon-2.png",
     title: "Semi-Truck and Trucking Accidents",
     slug: "semi-truck-and-trucking-accidents",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -1863,7 +1865,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/car-icon.png",
+    icon: "/assets/servicepage/icon/bicycle-icon.png",
     title: "Bicycle Accidents",
     slug: "bicycle-accidents",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -1932,7 +1934,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/car-icon.png",
+    icon: "/assets/servicepage/icon/pedestrian-icon.png",
     title: "Pedestrian Accidents",
     slug: "pedestrian-accidents",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -2001,7 +2003,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/car-icon.png",
+    icon: "/assets/servicepage/icon/golf-cart-accidents.png",
     title: "Golf Cart Accidents",
     slug: "golf-cart-accidents",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -2070,7 +2072,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/car-icon.png",
+    icon: "/assets/servicepage/icon/ride-share-icon.png",
     title: "Uber/Lyft/Ridesharing Accidents",
     slug: "uber-lyft-ridesharing-accidents",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -2493,7 +2495,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/fall-icon.png",
+    icon: "/assets/servicepage/icon/trip-and-fall-accidents.png",
     title: "Trip and Fall Accidents",
     slug: "trip-and-falls",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -2645,7 +2647,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/insecure-icon.png",
+    icon: "/assets/servicepage/icon/negligent-security.png",
     title: "Negligent Security",
     slug: "negligent-security",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -2872,7 +2874,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/fall-icon.png",
+    icon: "/assets/servicepage/icon/jet-ski-accidents.png",
     title: "Jet Ski Accident",
     slug: "jet-ski-accidents",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -2944,7 +2946,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/airline-icon.png",
+    icon: "/assets/servicepage/icon/airplane-icon.png",
     title: "Airline and Aviation Injuries",
     slug: "airline-and-aviation-injuries",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -3300,7 +3302,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/product-liability-wrongful-death.png",
     title: "Product Liability Wrongful Death",
     slug: "product-liability-wrongful-death",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -3375,7 +3377,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   //Medical Malpractice
 
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/surgical-errors.png",
     title: "Surgical Errors",
     slug: "surgical-errors",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -3444,7 +3446,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/birth-injuries.png",
     title: "Birth Injuries",
     slug: "birth-injuries",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -3513,7 +3515,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/delayed-diagnosis.png",
     title: "Delayed Diagnosis",
     slug: "delayed-diagnosis",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -3582,7 +3584,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/anesthesia-errors.png",
     title: "Anesthesia Errors",
     slug: "anesthesia-errors",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -3651,7 +3653,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/failure-to-treat.png",
     title: "Failure to Treat",
     slug: "failure-to-treat",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -3720,7 +3722,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/failure-to-diagnose.png",
     title: "Failure to Diagnose",
     slug: "failure-to-diagnose",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -3789,7 +3791,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
   },
 
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/misdiagnosis.png",
     title: "Misdiagnosis",
     slug: "misdiagnosis",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -3864,7 +3866,7 @@ With Carter Injury Law, you owe us nothing unless we win your case. You get top-
 
   //Nursing home abuse
   {
-    icon: "/assets/servicepage/icon/auto-accidents.png",
+    icon: "/assets/servicepage/icon/physical-abuse.png",
     title: "Physical Abuse",
     slug: "physical-abuse",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -3926,7 +3928,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
   },
 
   {
-    icon: "/assets/servicepage/icon/auto-accidents.png",
+    icon: "/assets/servicepage/icon/neglect-and-abandonment.png",
     title: "Neglect and Abandonment",
     slug: "neglect-and-abandonment",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -3986,7 +3988,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
   },
 
   {
-    icon: "/assets/servicepage/icon/auto-accidents.png",
+    icon: "/assets/servicepage/icon/sexual-abuse.png",
     title: "Sexual Abuse",
     slug: "sexual-abuse",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -4105,484 +4107,9 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
 `,
   },
 
+  // Workers Compensation
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
-    title: "Manufacturing Defects",
-    slug: "manufacturing-defects",
-    details: `   <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-                    Manufacturing Defects
-                  </h2>
-                  <img
-                    src="/assets/servicepage/product-liability/manufacturing-defects.jpg"
-                    alt="Burn Injuries"
-                    className="w-full py-3"
-                  />
-                <div>
-                  <p className="text-base md:text-lg">
-                    A manufacturing fault arises when a mistake or oversight in
-                    the production process compromises the product's integrity.
-                    For example, if a machine that makes brake calipers fails,
-                    the faulty calipers might cause a vehicle accident. In
-                    Florida, you normally have 2 years to file a claim after
-                    discovering you purchased a faulty product. The statute of
-                    limitations for product liability lawsuits may begin running
-                    at the moment of the accident. In other circumstances, you
-                    may not detect an injury immediately. In many cases, the
-                    statute of limitations does not begin to run until you
-                    discover your damage.
-                  </p>
-                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
-                    Who Should Consider Filing a Claim and Why Legal
-                    Representation Is Essential
-                  </p>
-                  <p className="text-base md:text-lg">
-                    <ul className="list-disc pl-5">
-                      <li>
-                        <span className="font-bold pr-1">Benefits of Filing:</span>
-                        Anyone injured by a defective product should consider
-                        filing a claim. This includes consumers who have
-                        suffered physical harm, financial loss, or other damages
-                        due to a product that did not perform as safely as
-                        expected. Filing a claim can help recover compensation
-                        for medical expenses, lost wages, and pain and
-                        suffering.
-                      </li>
-
-                      <li>
-                        <span className="font-bold pr-1">
-                          Consequences Without Representation:
-                        </span>
-                        Product liability law is complex, especially for those
-                        without legal experience. Manufacturers often deny
-                        responsibility, and insurance companies may use tactics
-                        to minimize payouts. Establishing liability requires
-                        expert witnesses and technical evidence, and strict
-                        deadlines and procedures can make the process
-                        overwhelming. Additionally, insurance companies may
-                        delay claims or offer low settlements.
-                      </li>
-                    </ul>
-                  </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
-                    Carter Injury Law: Committed to Securing the Justice You
-                    Deserve
-                  </p>
-                  <p className="text-base md:text-lg">
-                    <ul className="list-disc pl-5">
-                      <li>
-                        We will carefully examine the circumstances of your
-                        injury to identify all potential causes and responsible
-                        parties. Our team will gather evidence, consult with
-                        experts, and develop a compelling legal strategy to
-                        maximize your recovery.
-                      </li>
-
-                      <li>
-                        We will aggressively pursue a fair settlement with the
-                        insurance company, but we are prepared to take your case
-                        to trial if necessary. Keep you informed throughout the
-                        legal process and answer any questions you may have.
-                      </li>
-
-                      <li>
-                        With our “No pay unless we win” motto, you can be
-                        confident that we are fully committed to your case. If
-                        you or a loved one has been injured by a defective
-                        product, contact Carter Injury Law today for a free
-                        consultation.
-                      </li>
-                    </ul>
-                  </p>
-                </div>
-            </div>`,
-  },
-  {
-    icon: "/assets/servicepage/icon/medical-icon.png",
-    title: "Design Defects",
-    slug: "design-defects",
-    details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-                    Design Defects
-                  </h2>
-                  <img
-                    src="/assets/servicepage/product-liability/design-defects.jpg"
-                    alt="Burn Injuries"
-                    className="w-full py-3"
-                  />
-                <div>
-                  <p className="text-base md:text-lg">
-                    A defect in design arises when a product's design leads it
-                    to become defective. A poorly designed product may
-                    malfunction and cause harm. An example is a poorly
-                    constructed airbag that causes serious burns to passengers
-                    when it deploys. Design errors are frequently used as a
-                    basis for a product liability or faulty product lawsuit,
-                    particularly if someone suffers injury as a result of the
-                    flawed design. In Florida, a lawsuit for personal damage
-                    caused by a faulty product design must be filed within 4
-                    years.
-                  </p>
-                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
-                    Who Should Consider Filing a Claim and Why Legal
-                    Representation Is Essential
-                  </p>
-                  <p className="text-base md:text-lg">
-                    <ul className="list-disc pl-5">
-                      <li>
-                        <span className="font-bold pr-1">Benefits of Filing:</span>
-                        Anyone who has been injured or suffered damages due to a
-                        product that they believe was defectively designed
-                        should consider filing a claim for product design
-                        defects, particularly if the injury was a direct result
-                        of a flawed design feature and not due to misuse or
-                        other factors; this could include consumers, users, or
-                        bystanders impacted by the defective product.
-                      </li>
-
-                      <li>
-                        <span className="font-bold pr-1">
-                          Consequences Without Representation:
-                        </span>
-                        Legal representation is essential for product design
-                        defect claims, as these complex cases often require
-                        expert testimony to prove the defect and secure
-                        compensation. Without an attorney, your chances of
-                        success significantly diminish, as specialists—such as
-                        engineers or medical experts—are often needed to explain
-                        technical issues and the risk of harm.
-                      </li>
-                    </ul>
-                  </p>
-                </div>
-                <div> 
-                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
-                    Carter Injury Law: Committed to Securing the Justice You
-                    Deserve
-                  </p>
-                  <p className="text-base md:text-lg">
-                    <ul className="list-disc pl-5">
-                      <li>
-                        We have specialized knowledge to understand the legal
-                        standards for proving a design defect, including the
-                        "consumer expectation" test and the "risk-utility"
-                        analysis, which are crucial for building a strong case.
-                      </li>
-
-                      <li>
-                        Lawyers can conduct thorough investigations to gather
-                        evidence like product documentation, testing reports,
-                        expert opinions, and witness statements to support your
-                        claim that the product design was flawed.
-                      </li>
-
-                      <li>
-                        Product liability cases involve complex procedures,
-                        including discovery, motions, and strict deadlines. An
-                        attorney ensures all legal requirements are met and
-                        guides you through the process. Plus, you pay nothing
-                        unless we win your case.
-                      </li>
-                    </ul>
-                  </p>
-                </div>
-            </div>`,
-  },
-  {
-    icon: "/assets/servicepage/icon/medical-icon.png",
-    title: "Marketing Defects and Failure to Warn",
-    slug: "marketing-defects-and-failure-to-warn",
-    details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-                    Marketing Defects and Failure to Warn
-                  </h2>
-                  <img
-                    src="/assets/servicepage/product-liability/marketing-defects-and-failure-to-warn.jpg"
-                    alt="Burn Injuries"
-                    className="w-full py-3"
-                  />
-                    <div>
-                        <p className="text-base md:text-lg">
-                            A marketing defect occurs when a product is dangerous but
-                            the manufacturer or distributor doesn't provide adequate or
-                            clear warnings about how to use it safely or the potential
-                            risks. For example, a medication that interacts with alcohol
-                            should have a warning label. If the defect wasn't
-                            immediately obvious, the time period might be extended.
-                            There's also a legal standard called the "discovery rule"
-                            that limits when a defect must be discovered to be
-                            actionable. The statute of limitations for a wrongful death
-                            claim is 2 years.
-                        </p>
-                        <p className="text-base md:text-lg font-bold mb-1 pl-5">
-                            Who Should Consider Filing a Claim and Why Legal
-                            Representation Is Essential
-                        </p>
-                        <p className="text-base md:text-lg">
-                            <ul className="list-disc pl-5">
-                            <li>
-                                <span className="font-bold pr-1">Benefits of Filing:</span>
-                                Anyone who has been injured or harmed by a product due
-                                to inadequate warnings about its potential dangers,
-                                misleading marketing claims, or a lack of clear
-                                instructions on safe usage should consider filing a
-                                claim for marketing defects and failure to warn. This
-                                could include consumers who used a product without
-                                knowledge of its risks, leading to injuries or damages.
-                            </li>
-
-                            <li>
-                                <span className="font-bold pr-1">
-                                Consequences Without Representation:
-                                </span>
-                                Legal representation is crucial for cases involving
-                                marketing defects and failure to warn. These complex
-                                legal areas often require expert knowledge to navigate
-                                the intricacies of product liability law. To ensure that
-                                injured consumers can properly establish a claim against
-                                manufacturers and secure appropriate compensation. Also,
-                                holds companies accountable for not adequately informing
-                                consumers about potential product hazards.
-                            </li>
-                            </ul>
-                        </p>
-                        </div>
-                        <div>
-                        <p className="text-base md:text-lg font-bold mb-1 pl-5">
-                            Carter Injury Law: Committed to Securing the Justice You
-                            Deserve
-                        </p>
-                        <p className="text-base md:text-lg">
-                            <ul className="list-disc pl-5">
-                            <li>
-                                We build a strong case by identifying the defect,
-                                proving the manufacturer’s awareness of the risk, and
-                                showing how insufficient warnings led to the injury. We
-                                also assess whether the manufacturer’s warnings were
-                                clear, prominent, and understandable.
-                            </li>
-
-                            <li>
-                                Depending on the situation, we can determine whether to
-                                pursue a claim based on strict liability, negligence, or
-                                breach of warranty.
-                            </li>
-
-                            <li>
-                                We determine if the manufacturer could have reasonably
-                                foreseen harm from proper product use and prove that
-                                inadequate warnings directly led to the plaintiff's
-                                injury. With our no pay unless we win policy, you can
-                                seek justice risk-free.
-                            </li>
-                        </ul>
-                        </p>
-                    </div>
-                </div>`,
-  },
-  {
-    icon: "/assets/servicepage/icon/medical-icon.png",
-    title: "Defective Medical Devices",
-    slug: "defective-medical-devices",
-    details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-                    Defective Medical Devices
-                  </h2>
-                  <img
-                    src="/assets/servicepage/product-liability/defective-medical-devices.jpg"
-                    alt="Burn Injuries"
-                    className="w-full py-3"
-                  />
-                  <p className="text-base md:text-lg">
-                    The time frame for filing a faulty medical device lawsuit in
-                    Florida is limited by law. The statute of limitations is 4
-                    years, after which you lose your legal right to file a
-                    claim. The clock begins ticking on the day of your injury or
-                    when you should have reasonably known about the injury.
-                    Injured patients in Florida might face life-altering
-                    consequences as a result of dangerous or faulty medical
-                    devices. You might face everything from severe discomfort to
-                    catastrophic injury, lasting handicap, revision surgery, or
-                    wrongful death.
-                  </p>
-                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
-                    Who Should Consider Filing a Claim and Why Legal
-                    Representation Is Essential
-                  </p>
-                  <p className="text-base md:text-lg">
-                    <ul className="list-disc pl-5">
-                      <li>
-                        <span className="font-bold pr-1">Benefits of Filing:</span>
-                        Anyone who has experienced an injury or adverse health
-                        effect due to a suspected defective medical device
-                        should consider filing a claim, particularly if the
-                        injury is significant and can be directly linked to a
-                        design flaw, manufacturing defect, or failure to
-                        adequately warn about potential risks associated with
-                        the device.
-                      </li>
-
-                      <li>
-                        <span className="font-bold pr-1">
-                          Consequences Without Representation:
-                        </span>
-                        When you’re injured by such devices, navigating the
-                        complex legal system on your own can be extremely
-                        challenging. Without legal representation, gathering
-                        crucial evidence, advocating for your rights, and
-                        seeking compensation for medical expenses, lost wages,
-                        and pain and suffering becomes much harder.
-                        Additionally, holding manufacturers accountable for
-                        faulty products is more difficult, which is essential
-                        for promoting higher safety standards in the medical
-                        device industry.
-                      </li>
-                    </ul>
-                  </p>
-                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
-                    Carter Injury Law: Committed to Securing the Justice You
-                    Deserve
-                  </p>
-                  <p className="text-base md:text-lg">
-                    <ul className="list-disc pl-5">
-                      <li>
-                        We specialize in medical device litigation, understand
-                        the intricate regulations surrounding medical devices,
-                        including FDA guidelines, and can identify potential
-                        defects and legal arguments specific to your case.
-                      </li>
-
-                      <li>
-                        We can help recover medical expenses, lost wages, pain
-                        and suffering related to the injuries caused by the
-                        defective device. Our successful lawsuits can prompt
-                        manufacturers to recall defective devices, potentially
-                        preventing further harm to other patients.
-                      </li>
-
-                      <li>
-                        We negotiate directly with the manufacturer or their
-                        insurance company to secure a fair settlement, often
-                        avoiding a lengthy trial. Throughout the process, we
-                        protect your rights by managing filings, deadlines, and
-                        legal complexities. And you don’t owe us anything if we
-                        can’t win your case, so you can trust our commitment to
-                        achieving the best result for you.
-                      </li>
-                    </ul>
-                  </p>
-                </div>`,
-  },
-  {
-    icon: "/assets/servicepage/icon/medical-icon.png",
-    title: "Defective Household Goods and Appliances",
-    slug: "defective-household-goods-and-appliances",
-    details: `   <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-                    Defective Household Goods and Appliances
-                  </h2>
-                  <img
-                    src="/assets/servicepage/product-liability/defective-household-goods-and-appliances.jpg"
-                    alt="Burn Injuries"
-                    className="w-full py-3"
-                  />
-                  <p className="text-base md:text-lg">
-                    Household goods and appliances are meant to bring
-                    convenience and safety. But defective products can lead to
-                    serious injuries and property damage. In Florida, victims of
-                    defective product injuries have the right to seek
-                    compensation for losses through a product liability claim.
-                    This must be done within the Florida statute of limitations,
-                    which is generally 4 years from the date of the injury. It’s
-                    essential to act promptly, as missing this deadline may
-                    prevent you from recovering damages.
-                  </p>
-                  <div>
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
-                      Who Should Consider Filing a Claim and Why Legal
-                      Representation Is Essential
-                    </p>
-                    <p className="text-base md:text-lg">
-                      <ul className="list-disc pl-5">
-                        <li>
-                          <span className="font-bold pr-1">
-                            Benefits of Filing:
-                          </span>
-                          Individuals harmed by defective household products,
-                          such as faulty kitchen appliances, electrical items,
-                          or home safety devices, should consider filing a
-                          claim. By pursuing compensation, victims can reduce
-                          financial stress, address medical costs, and hold
-                          manufacturers responsible, potentially encouraging
-                          them to improve product safety standards. This
-                          accountability not only aids the injured party but
-                          also helps make safer products available to the
-                          public.
-                        </li>
-
-                        <li>
-                          <span className="font-bold pr-1">
-                            Consequences Without Representation:
-                          </span>
-                          Without legal representation, gathering the necessary
-                          evidence to build a strong case against manufacturers
-                          or retailers can be overwhelming. The complexities of
-                          Florida’s product liability laws can make it
-                          challenging for an individual to effectively argue
-                          their case, often leading to insufficient compensation
-                          or even dismissed claims. Additionally, large
-                          companies may have powerful legal teams, which can
-                          make it harder for individuals to secure a fair
-                          outcome on their own.
-                        </li>
-                      </ul>
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
-                      Carter Injury Law: Committed to Securing the Justice You
-                      Deserve
-                    </p>
-                    <p className="text-base md:text-lg">
-                      <ul className="list-disc pl-5">
-                        <li>
-                          We analyze the details of the defect, including the
-                          type of appliance, the nature of the malfunction, and
-                          any injuries sustained, to determine if you have a
-                          valid legal claim. We also identify liable parties,
-                          such as the manufacturer, retailer, or distributor.
-                        </li>
-
-                        <li>
-                          Our team helps you gather crucial evidence like
-                          photographs, repair receipts, purchase receipts, and
-                          medical records. We then craft a legal strategy based
-                          on applicable product liability laws, including
-                          potential arguments regarding design defects,
-                          manufacturing defects, or failure to warn.
-                        </li>
-
-                        <li>
-                          We negotiate with the manufacturer or retailer to
-                          reach a fair settlement. If a settlement cannot be
-                          reached, we represent you in court, presenting
-                          evidence and arguments to establish the defect and the
-                          company’s liability. We also assist in calculating the
-                          full extent of your damages, including medical
-                          expenses, lost wages, and pain and suffering. You
-                          won’t face any legal fees unless we secure a
-                          successful outcome on your behalf.
-                        </li>
-                      </ul>
-                    </p>
-                  </div>
-                </div>`,
-  },
-
-  {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/temporary-partial-disability-icon.png",
     title: "Temporary Partial Disability Claims",
     slug: "temporary-partial-disability",
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -4681,7 +4208,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                 </div>`,
   },
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/cut-and-burn-injuries-icon.png",
     title: "Cut and Burn Injuries",
     slug: "cut-and-burn-injuries",
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -4778,7 +4305,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                 </div>`,
   },
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/broken-bone-injury-icon.png",
     title: "Broken Bone Injury",
     slug: "broken-bone-injury",
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -4869,7 +4396,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                 </div>`,
   },
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/catastrophic-injuries-icon.png",
     title: " Catastrophic Injuries",
     slug: "catastrophic-injuries",
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -4980,7 +4507,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                 </div>`,
   },
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/disability-rating-disputes-icon.png",
     title: "Disability Rating Disputes",
     slug: "disability-rating-disputes",
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -5077,7 +4604,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                 </div>`,
   },
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/overexertion-and-overuse-injuries-icon.png",
     title: "Overexertion and Overuse Injuries ",
     slug: "overexertion-and-overuse-injuries",
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -5185,7 +4712,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                 </div>`,
   },
   {
-    icon: "/assets/servicepage/icon/medical-icon.png",
+    icon: "/assets/servicepage/icon/death-claims-icon.png",
     title: "Death Claims",
     slug: "death-claims",
     details: `      <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -5278,6 +4805,483 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                           With our no-win, no-fee policy, you can focus on
                           healing and taking care of your family, while we
                           handle the legal side without any upfront costs.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>`,
+  },
+
+  // Product Liability
+  {
+    icon: "/assets/servicepage/icon/manufacturing-defects-icon.png",
+    title: "Manufacturing Defects",
+    slug: "manufacturing-defects",
+    details: `   <div className="w-full flex flex-col gap-2 lg:gap-4">
+                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                    Manufacturing Defects
+                  </h2>
+                  <img
+                    src="/assets/servicepage/product-liability/manufacturing-defects.jpg"
+                    alt="Burn Injuries"
+                    className="w-full py-3"
+                  />
+                <div>
+                  <p className="text-base md:text-lg">
+                    A manufacturing fault arises when a mistake or oversight in
+                    the production process compromises the product's integrity.
+                    For example, if a machine that makes brake calipers fails,
+                    the faulty calipers might cause a vehicle accident. In
+                    Florida, you normally have 2 years to file a claim after
+                    discovering you purchased a faulty product. The statute of
+                    limitations for product liability lawsuits may begin running
+                    at the moment of the accident. In other circumstances, you
+                    may not detect an injury immediately. In many cases, the
+                    statute of limitations does not begin to run until you
+                    discover your damage.
+                  </p>
+                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    Who Should Consider Filing a Claim and Why Legal
+                    Representation Is Essential
+                  </p>
+                  <p className="text-base md:text-lg">
+                    <ul className="list-disc pl-5">
+                      <li>
+                        <span className="font-bold pr-1">Benefits of Filing:</span>
+                        Anyone injured by a defective product should consider
+                        filing a claim. This includes consumers who have
+                        suffered physical harm, financial loss, or other damages
+                        due to a product that did not perform as safely as
+                        expected. Filing a claim can help recover compensation
+                        for medical expenses, lost wages, and pain and
+                        suffering.
+                      </li>
+
+                      <li>
+                        <span className="font-bold pr-1">
+                          Consequences Without Representation:
+                        </span>
+                        Product liability law is complex, especially for those
+                        without legal experience. Manufacturers often deny
+                        responsibility, and insurance companies may use tactics
+                        to minimize payouts. Establishing liability requires
+                        expert witnesses and technical evidence, and strict
+                        deadlines and procedures can make the process
+                        overwhelming. Additionally, insurance companies may
+                        delay claims or offer low settlements.
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    Carter Injury Law: Committed to Securing the Justice You
+                    Deserve
+                  </p>
+                  <p className="text-base md:text-lg">
+                    <ul className="list-disc pl-5">
+                      <li>
+                        We will carefully examine the circumstances of your
+                        injury to identify all potential causes and responsible
+                        parties. Our team will gather evidence, consult with
+                        experts, and develop a compelling legal strategy to
+                        maximize your recovery.
+                      </li>
+
+                      <li>
+                        We will aggressively pursue a fair settlement with the
+                        insurance company, but we are prepared to take your case
+                        to trial if necessary. Keep you informed throughout the
+                        legal process and answer any questions you may have.
+                      </li>
+
+                      <li>
+                        With our “No pay unless we win” motto, you can be
+                        confident that we are fully committed to your case. If
+                        you or a loved one has been injured by a defective
+                        product, contact Carter Injury Law today for a free
+                        consultation.
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+            </div>`,
+  },
+  {
+    icon: "/assets/servicepage/icon/design-defects-icon.png",
+    title: "Design Defects",
+    slug: "design-defects",
+    details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
+                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                    Design Defects
+                  </h2>
+                  <img
+                    src="/assets/servicepage/product-liability/design-defects.jpg"
+                    alt="Burn Injuries"
+                    className="w-full py-3"
+                  />
+                <div>
+                  <p className="text-base md:text-lg">
+                    A defect in design arises when a product's design leads it
+                    to become defective. A poorly designed product may
+                    malfunction and cause harm. An example is a poorly
+                    constructed airbag that causes serious burns to passengers
+                    when it deploys. Design errors are frequently used as a
+                    basis for a product liability or faulty product lawsuit,
+                    particularly if someone suffers injury as a result of the
+                    flawed design. In Florida, a lawsuit for personal damage
+                    caused by a faulty product design must be filed within 4
+                    years.
+                  </p>
+                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    Who Should Consider Filing a Claim and Why Legal
+                    Representation Is Essential
+                  </p>
+                  <p className="text-base md:text-lg">
+                    <ul className="list-disc pl-5">
+                      <li>
+                        <span className="font-bold pr-1">Benefits of Filing:</span>
+                        Anyone who has been injured or suffered damages due to a
+                        product that they believe was defectively designed
+                        should consider filing a claim for product design
+                        defects, particularly if the injury was a direct result
+                        of a flawed design feature and not due to misuse or
+                        other factors; this could include consumers, users, or
+                        bystanders impacted by the defective product.
+                      </li>
+
+                      <li>
+                        <span className="font-bold pr-1">
+                          Consequences Without Representation:
+                        </span>
+                        Legal representation is essential for product design
+                        defect claims, as these complex cases often require
+                        expert testimony to prove the defect and secure
+                        compensation. Without an attorney, your chances of
+                        success significantly diminish, as specialists—such as
+                        engineers or medical experts—are often needed to explain
+                        technical issues and the risk of harm.
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+                <div> 
+                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    Carter Injury Law: Committed to Securing the Justice You
+                    Deserve
+                  </p>
+                  <p className="text-base md:text-lg">
+                    <ul className="list-disc pl-5">
+                      <li>
+                        We have specialized knowledge to understand the legal
+                        standards for proving a design defect, including the
+                        "consumer expectation" test and the "risk-utility"
+                        analysis, which are crucial for building a strong case.
+                      </li>
+
+                      <li>
+                        Lawyers can conduct thorough investigations to gather
+                        evidence like product documentation, testing reports,
+                        expert opinions, and witness statements to support your
+                        claim that the product design was flawed.
+                      </li>
+
+                      <li>
+                        Product liability cases involve complex procedures,
+                        including discovery, motions, and strict deadlines. An
+                        attorney ensures all legal requirements are met and
+                        guides you through the process. Plus, you pay nothing
+                        unless we win your case.
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+            </div>`,
+  },
+  {
+    icon: "/assets/servicepage/icon/marketing-defects-and-failure-to-warn-icon.png",
+    title: "Marketing Defects and Failure to Warn",
+    slug: "marketing-defects-and-failure-to-warn",
+    details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
+                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                    Marketing Defects and Failure to Warn
+                  </h2>
+                  <img
+                    src="/assets/servicepage/product-liability/marketing-defects-and-failure-to-warn.jpg"
+                    alt="Burn Injuries"
+                    className="w-full py-3"
+                  />
+                    <div>
+                        <p className="text-base md:text-lg">
+                            A marketing defect occurs when a product is dangerous but
+                            the manufacturer or distributor doesn't provide adequate or
+                            clear warnings about how to use it safely or the potential
+                            risks. For example, a medication that interacts with alcohol
+                            should have a warning label. If the defect wasn't
+                            immediately obvious, the time period might be extended.
+                            There's also a legal standard called the "discovery rule"
+                            that limits when a defect must be discovered to be
+                            actionable. The statute of limitations for a wrongful death
+                            claim is 2 years.
+                        </p>
+                        <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                            Who Should Consider Filing a Claim and Why Legal
+                            Representation Is Essential
+                        </p>
+                        <p className="text-base md:text-lg">
+                            <ul className="list-disc pl-5">
+                            <li>
+                                <span className="font-bold pr-1">Benefits of Filing:</span>
+                                Anyone who has been injured or harmed by a product due
+                                to inadequate warnings about its potential dangers,
+                                misleading marketing claims, or a lack of clear
+                                instructions on safe usage should consider filing a
+                                claim for marketing defects and failure to warn. This
+                                could include consumers who used a product without
+                                knowledge of its risks, leading to injuries or damages.
+                            </li>
+
+                            <li>
+                                <span className="font-bold pr-1">
+                                Consequences Without Representation:
+                                </span>
+                                Legal representation is crucial for cases involving
+                                marketing defects and failure to warn. These complex
+                                legal areas often require expert knowledge to navigate
+                                the intricacies of product liability law. To ensure that
+                                injured consumers can properly establish a claim against
+                                manufacturers and secure appropriate compensation. Also,
+                                holds companies accountable for not adequately informing
+                                consumers about potential product hazards.
+                            </li>
+                            </ul>
+                        </p>
+                        </div>
+                        <div>
+                        <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                            Carter Injury Law: Committed to Securing the Justice You
+                            Deserve
+                        </p>
+                        <p className="text-base md:text-lg">
+                            <ul className="list-disc pl-5">
+                            <li>
+                                We build a strong case by identifying the defect,
+                                proving the manufacturer’s awareness of the risk, and
+                                showing how insufficient warnings led to the injury. We
+                                also assess whether the manufacturer’s warnings were
+                                clear, prominent, and understandable.
+                            </li>
+
+                            <li>
+                                Depending on the situation, we can determine whether to
+                                pursue a claim based on strict liability, negligence, or
+                                breach of warranty.
+                            </li>
+
+                            <li>
+                                We determine if the manufacturer could have reasonably
+                                foreseen harm from proper product use and prove that
+                                inadequate warnings directly led to the plaintiff's
+                                injury. With our no pay unless we win policy, you can
+                                seek justice risk-free.
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>`,
+  },
+  {
+    icon: "/assets/servicepage/icon/defective-medical-devices-icon.png",
+    title: "Defective Medical Devices",
+    slug: "defective-medical-devices",
+    details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
+                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                    Defective Medical Devices
+                  </h2>
+                  <img
+                    src="/assets/servicepage/product-liability/defective-medical-devices.jpg"
+                    alt="Burn Injuries"
+                    className="w-full py-3"
+                  />
+                  <p className="text-base md:text-lg">
+                    The time frame for filing a faulty medical device lawsuit in
+                    Florida is limited by law. The statute of limitations is 4
+                    years, after which you lose your legal right to file a
+                    claim. The clock begins ticking on the day of your injury or
+                    when you should have reasonably known about the injury.
+                    Injured patients in Florida might face life-altering
+                    consequences as a result of dangerous or faulty medical
+                    devices. You might face everything from severe discomfort to
+                    catastrophic injury, lasting handicap, revision surgery, or
+                    wrongful death.
+                  </p>
+                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    Who Should Consider Filing a Claim and Why Legal
+                    Representation Is Essential
+                  </p>
+                  <p className="text-base md:text-lg">
+                    <ul className="list-disc pl-5">
+                      <li>
+                        <span className="font-bold pr-1">Benefits of Filing:</span>
+                        Anyone who has experienced an injury or adverse health
+                        effect due to a suspected defective medical device
+                        should consider filing a claim, particularly if the
+                        injury is significant and can be directly linked to a
+                        design flaw, manufacturing defect, or failure to
+                        adequately warn about potential risks associated with
+                        the device.
+                      </li>
+
+                      <li>
+                        <span className="font-bold pr-1">
+                          Consequences Without Representation:
+                        </span>
+                        When you’re injured by such devices, navigating the
+                        complex legal system on your own can be extremely
+                        challenging. Without legal representation, gathering
+                        crucial evidence, advocating for your rights, and
+                        seeking compensation for medical expenses, lost wages,
+                        and pain and suffering becomes much harder.
+                        Additionally, holding manufacturers accountable for
+                        faulty products is more difficult, which is essential
+                        for promoting higher safety standards in the medical
+                        device industry.
+                      </li>
+                    </ul>
+                  </p>
+                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    Carter Injury Law: Committed to Securing the Justice You
+                    Deserve
+                  </p>
+                  <p className="text-base md:text-lg">
+                    <ul className="list-disc pl-5">
+                      <li>
+                        We specialize in medical device litigation, understand
+                        the intricate regulations surrounding medical devices,
+                        including FDA guidelines, and can identify potential
+                        defects and legal arguments specific to your case.
+                      </li>
+
+                      <li>
+                        We can help recover medical expenses, lost wages, pain
+                        and suffering related to the injuries caused by the
+                        defective device. Our successful lawsuits can prompt
+                        manufacturers to recall defective devices, potentially
+                        preventing further harm to other patients.
+                      </li>
+
+                      <li>
+                        We negotiate directly with the manufacturer or their
+                        insurance company to secure a fair settlement, often
+                        avoiding a lengthy trial. Throughout the process, we
+                        protect your rights by managing filings, deadlines, and
+                        legal complexities. And you don’t owe us anything if we
+                        can’t win your case, so you can trust our commitment to
+                        achieving the best result for you.
+                      </li>
+                    </ul>
+                  </p>
+                </div>`,
+  },
+  {
+    icon: "/assets/servicepage/icon/defective-household-goods-and-appliance-icon.png",
+    title: "Defective Household Goods and Appliances",
+    slug: "defective-household-goods-and-appliances",
+    details: `   <div className="w-full flex flex-col gap-2 lg:gap-4">
+                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                    Defective Household Goods and Appliances
+                  </h2>
+                  <img
+                    src="/assets/servicepage/product-liability/defective-household-goods-and-appliances.jpg"
+                    alt="Burn Injuries"
+                    className="w-full py-3"
+                  />
+                  <p className="text-base md:text-lg">
+                    Household goods and appliances are meant to bring
+                    convenience and safety. But defective products can lead to
+                    serious injuries and property damage. In Florida, victims of
+                    defective product injuries have the right to seek
+                    compensation for losses through a product liability claim.
+                    This must be done within the Florida statute of limitations,
+                    which is generally 4 years from the date of the injury. It’s
+                    essential to act promptly, as missing this deadline may
+                    prevent you from recovering damages.
+                  </p>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                      Who Should Consider Filing a Claim and Why Legal
+                      Representation Is Essential
+                    </p>
+                    <p className="text-base md:text-lg">
+                      <ul className="list-disc pl-5">
+                        <li>
+                          <span className="font-bold pr-1">
+                            Benefits of Filing:
+                          </span>
+                          Individuals harmed by defective household products,
+                          such as faulty kitchen appliances, electrical items,
+                          or home safety devices, should consider filing a
+                          claim. By pursuing compensation, victims can reduce
+                          financial stress, address medical costs, and hold
+                          manufacturers responsible, potentially encouraging
+                          them to improve product safety standards. This
+                          accountability not only aids the injured party but
+                          also helps make safer products available to the
+                          public.
+                        </li>
+
+                        <li>
+                          <span className="font-bold pr-1">
+                            Consequences Without Representation:
+                          </span>
+                          Without legal representation, gathering the necessary
+                          evidence to build a strong case against manufacturers
+                          or retailers can be overwhelming. The complexities of
+                          Florida’s product liability laws can make it
+                          challenging for an individual to effectively argue
+                          their case, often leading to insufficient compensation
+                          or even dismissed claims. Additionally, large
+                          companies may have powerful legal teams, which can
+                          make it harder for individuals to secure a fair
+                          outcome on their own.
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                      Carter Injury Law: Committed to Securing the Justice You
+                      Deserve
+                    </p>
+                    <p className="text-base md:text-lg">
+                      <ul className="list-disc pl-5">
+                        <li>
+                          We analyze the details of the defect, including the
+                          type of appliance, the nature of the malfunction, and
+                          any injuries sustained, to determine if you have a
+                          valid legal claim. We also identify liable parties,
+                          such as the manufacturer, retailer, or distributor.
+                        </li>
+
+                        <li>
+                          Our team helps you gather crucial evidence like
+                          photographs, repair receipts, purchase receipts, and
+                          medical records. We then craft a legal strategy based
+                          on applicable product liability laws, including
+                          potential arguments regarding design defects,
+                          manufacturing defects, or failure to warn.
+                        </li>
+
+                        <li>
+                          We negotiate with the manufacturer or retailer to
+                          reach a fair settlement. If a settlement cannot be
+                          reached, we represent you in court, presenting
+                          evidence and arguments to establish the defect and the
+                          company’s liability. We also assist in calculating the
+                          full extent of your damages, including medical
+                          expenses, lost wages, and pain and suffering. You
+                          won’t face any legal fees unless we secure a
+                          successful outcome on your behalf.
                         </li>
                       </ul>
                     </p>
