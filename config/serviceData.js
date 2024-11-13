@@ -4940,8 +4940,8 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                       </li>
                     </ul>
                   </p>
-                </div>
-                <div>
+              
+                
                   <p className="text-base md:text-lg font-bold mb-1 pl-5">
                     Carter Injury Law: Committed to Securing the Justice You
                     Deserve
@@ -5032,8 +5032,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                       </li>
                     </ul>
                   </p>
-                </div>
-                <div> 
+                
                   <p className="text-base md:text-lg font-bold mb-1 pl-5">
                     Carter Injury Law: Committed to Securing the Justice You
                     Deserve
@@ -5124,8 +5123,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                             </li>
                             </ul>
                         </p>
-                        </div>
-                        <div>
+                        
                         <p className="text-base md:text-lg font-bold mb-1 pl-5">
                             Carter Injury Law: Committed to Securing the Justice You
                             Deserve
