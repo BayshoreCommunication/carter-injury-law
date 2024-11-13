@@ -275,12 +275,17 @@ const MainNavbar = () => {
   const [activeSubMenu, setActiveSubMenu] = useState(null);
 
   const toggleMenu = (index) => {
-    setActiveMenu(activeMenu === index ? null : index);
-    setActiveSubMenu(null); // reset subMenu when main menu changes
+    setActiveMenu(index);
+    setActiveSubMenu(null);
   };
 
   const toggleSubMenu = (subIndex) => {
-    setActiveSubMenu(activeSubMenu === subIndex ? null : subIndex);
+    setActiveSubMenu(subIndex);
+  };
+
+  const handleMouseLeave = () => {
+    setActiveMenu(null);
+    setActiveSubMenu(null);
   };
 
   const handleScroll = useCallback(
@@ -350,19 +355,21 @@ const MainNavbar = () => {
         </div>
       </div>
       <div className="bg-primary">
-        <div className="container py-1 hidden md:block">
+        <div
+          className="container py-2 hidden md:block h-[75px]"
+          onMouseLeave={handleMouseLeave}
+        >
           <div className="flex items-center justify-center">
-            <ul className="flex space-x-14 p-4 list-none ">
+            <ul className="flex space-x-14 p-4 list-none">
               {menuItems.map((menuItem, index) => (
                 <li
                   key={index}
-                  className={`relative group cursor-pointer nav-item text-md md:text-[18px] font-medium uppercase  ${pathname === menuItem?.slug ? " border-b-2 border-white" : ""} hover:text-white`}
+                  onMouseEnter={() => toggleMenu(index)}
+                  className={`relative group cursor-pointer nav-item text-md md:text-[18px] font-medium uppercase ${
+                    activeMenu === index ? "border-b-2 border-white" : ""
+                  } hover:text-white`}
                 >
-                  <button
-                    onMouseEnter={() => toggleMenu(index)}
-                    // onMouseLeave={() => navMouseLeave()}
-                    className="flex items-center justify-between space-x-1"
-                  >
+                  <button className="flex items-center justify-between space-x-1">
                     {menuItem.subMenu ? (
                       <div className="flex items-center justify-between">
                         <span>{menuItem.title}</span>
@@ -371,7 +378,9 @@ const MainNavbar = () => {
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            className={`size-5 font-black transform transition-transform duration-200 text-white group-hover:rotate-0 rotate-180`}
+                            className={`size-5 font-black transform transition-transform duration-200 text-white ${
+                              activeMenu === index ? "rotate-0" : "rotate-180"
+                            }`}
                           >
                             <path
                               fillRule="evenodd"
@@ -382,25 +391,21 @@ const MainNavbar = () => {
                         </span>
                       </div>
                     ) : (
-                      <Link href={menuItem?.slug}>{menuItem.title}</Link>
+                      <Link href={menuItem.slug}>{menuItem.title}</Link>
                     )}
                   </button>
 
-                  {/* Dropdown Menu */}
                   {menuItem.subMenu && activeMenu === index && (
-                    <ul className="absolute top-full left-0 bg-white mt-5 rounded shadow-lg group-hover:block  border text-lg min-w-[300px] font-semibold py-4 list-none m-0 capitalize">
+                    <ul className="absolute top-full left-0 bg-white mt-5 rounded shadow-lg border text-lg min-w-[300px] font-semibold py-4 list-none m-0 capitalize">
                       {menuItem.subMenu.map((subMenuItem, subIndex) => (
                         <li
                           key={subIndex}
-                          className="relative group border-b-1"
                           onMouseEnter={() => toggleSubMenu(subIndex)}
-                          onMouseLeave={() => {
-                            setActiveSubMenu(null);
-                          }}
+                          className="relative group border-b"
                         >
-                          <button className="text-black px-4 py-2 w-full text-left group">
+                          <button className="text-black px-4 py-2 w-full text-left">
                             {subMenuItem.subList ? (
-                              <span className="flex items-center justify-between ">
+                              <span className="flex items-center justify-between">
                                 <button
                                   className={`${activeSubMenu === subIndex ? "text-red-700" : ""}`}
                                 >
@@ -427,22 +432,24 @@ const MainNavbar = () => {
                               </span>
                             ) : (
                               <Link
-                                href={subMenuItem?.slug}
+                                onClick={handleMouseLeave}
+                                href={subMenuItem.slug}
                                 className={`${activeSubMenu === subIndex ? "text-red-700" : ""}`}
                               >
                                 {subMenuItem.title}
                               </Link>
                             )}
                           </button>
-                          {/* Sub-dropdown Menu */}
+
                           {subMenuItem.subList &&
                             activeSubMenu === subIndex && (
-                              <ul className="absolute top-0 right-0 translate-x-full bg-white rounded shadow-lg group-hover:block  border text-lg min-w-[300px] font-semibold list-inside list-none capitalize">
+                              <ul className="absolute top-0 right-0 translate-x-full bg-white rounded shadow-lg border text-lg min-w-[300px] font-semibold capitalize">
                                 {subMenuItem.subList.map((item, itemIndex) => (
-                                  <li key={itemIndex} className="">
+                                  <li key={itemIndex}>
                                     <Link
+                                      onClick={handleMouseLeave}
                                       href={`/areas-of-practice/${item.slug}`}
-                                      className={`block py-2 px-3  text-black hover:text-red-700 border-b-1`}
+                                      className="block py-2 px-3 text-black hover:text-red-700"
                                     >
                                       {item.title}
                                     </Link>
@@ -459,11 +466,12 @@ const MainNavbar = () => {
             </ul>
           </div>
         </div>
+
         <div className="md:hidden ">
           <Navbar
             isMenuOpen={isMenuOpen}
             onMenuOpenChange={setIsMenuOpen}
-            className={`!mx-0 !px-0 pb-0 pt-0  md:pb-3 md:pt-4 bg-primary list-none `}
+            className={`!mx-0 !px-0 pb-0 pt-0 pl-0 ml-0  md:pb-3 md:pt-4 bg-primary list-none `}
           >
             <NavbarContent>
               <NavbarBrand>
@@ -473,7 +481,7 @@ const MainNavbar = () => {
                     alt="footer logo"
                     width={500}
                     height={500}
-                    className="w-[300px] h-[36px]"
+                    className="w-[300px] h-[36px] -ml-8 pl-0"
                   />
                 </Link>
               </NavbarBrand>
@@ -483,79 +491,91 @@ const MainNavbar = () => {
               />
             </NavbarContent>
 
-            <NavbarMenu className="overflow-hidden">
-              {/* {menuItems.map((el, index) => (
-                <NavbarMenuItem key={el.slug} className="flex flex-row">
-                  <Link
-                    className={`w-full text-black text-center !text-xl font-medium py-1 ${pathname === el.slug ? "!text-primary" : ""} ${index === 0 ? "mt-6" : ""}`}
-                    href={el.slug}
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    {el.title}
-                  </Link>
-                </NavbarMenuItem>
-              ))} */}
+            <NavbarMenu className="overflow-hidden w-full pl-0 ml-0">
               {isMenuOpen && (
-                <ul className="block md:hidden space-y-2 p-4 text-black rounded  list-none ">
+                <ul className="block md:hidden space-y-2 p-4 text-black rounded  list-none w-full">
                   {menuItems.map((menuItem, index) => (
                     <li
                       key={index}
                       className="text-lg font-semibold  list-none "
                     >
-                      <button
-                        onClick={() => toggleMenu(index)}
-                        className="w-full text-left flex items-center justify-between"
-                      >
-                        {menuItem.title}
-                        {menuItem.subMenu && (
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            fill="currentColor"
-                            className={`size-5 font-black transform transition-transform duration-200 ${activeMenu === index ? "rotate-180" : "rotate-0"}`}
-                          >
-                            <path
-                              fillRule="evenodd"
-                              d="M11.47 7.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z"
-                              clipRule="evenodd"
-                            />
-                          </svg>
-                        )}
-                      </button>
+                      {menuItem.subMenu ? (
+                        <button
+                          onClick={() => toggleMenu(index)}
+                          className="w-full text-left flex items-center justify-between"
+                        >
+                          {menuItem.title}
+                          {menuItem.subMenu && (
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                              fill="currentColor"
+                              className={`size-5 font-black transform transition-transform duration-200 ${activeMenu === index ? "rotate-180" : "rotate-0"}`}
+                            >
+                              <path
+                                fillRule="evenodd"
+                                d="M11.47 7.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z"
+                                clipRule="evenodd"
+                              />
+                            </svg>
+                          )}
+                        </button>
+                      ) : (
+                        <Link
+                          onClick={() => setIsMenuOpen(false)}
+                          href={menuItem?.slug}
+                          className="block py-1 text-black hover:text-red-500"
+                        >
+                          {menuItem?.title}
+                        </Link>
+                      )}
+
                       {menuItem.subMenu && activeMenu === index && (
-                        <ul className=" mt-2 space-y-2">
+                        <ul className="mt-2 space-y-2">
                           {menuItem.subMenu.map((subMenuItem, subIndex) => (
                             <li key={subIndex} className="list-none ">
-                              <button
-                                onClick={() => toggleSubMenu(subIndex)}
-                                className="flex items-center justify-between w-full"
-                              >
-                                {subMenuItem.title}
-                                {subMenuItem.subList && (
-                                  <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    fill="currentColor"
-                                    className={`size-5 transform transition-transform duration-200 ${activeSubMenu === subIndex ? "rotate-180" : "rotate-0"}`}
-                                  >
-                                    <path
-                                      fillRule="evenodd"
-                                      d="M11.47 7.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z"
-                                      clipRule="evenodd"
-                                    />
-                                  </svg>
-                                )}
-                              </button>
+                              {subMenuItem.subList ? (
+                                <button
+                                  onClick={() => toggleSubMenu(subIndex)}
+                                  className="flex items-center justify-between w-full  pl-5"
+                                >
+                                  {subMenuItem.title}
+                                  {subMenuItem.subList && (
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      viewBox="0 0 24 24"
+                                      fill="currentColor"
+                                      className={`size-5 transform transition-transform duration-200 ${activeSubMenu === subIndex ? "rotate-180" : "rotate-0"}`}
+                                    >
+                                      <path
+                                        fillRule="evenodd"
+                                        d="M11.47 7.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z"
+                                        clipRule="evenodd"
+                                      />
+                                    </svg>
+                                  )}
+                                </button>
+                              ) : (
+                                <Link
+                                  onClick={() => setIsMenuOpen(false)}
+                                  href={subMenuItem?.slug}
+                                  className="block py-1 text-black hover:text-red-500"
+                                >
+                                  {subMenuItem.title}
+                                </Link>
+                              )}
+
                               {subMenuItem.subList &&
                                 activeSubMenu === subIndex && (
-                                  <ul className="pl-4 mt-2 space-y-2 text-sm list-none">
+                                  <ul className="mt-2 space-y-2 text-sm list-none w-full pl-5">
                                     {subMenuItem.subList.map(
                                       (item, itemIndex) => (
                                         <li
                                           key={itemIndex}
-                                          className="list-none "
+                                          className="list-none w-full"
                                         >
                                           <Link
+                                            onClick={() => setIsMenuOpen(false)}
                                             href={`/areas-of-practice/${item.slug}`}
                                             className="block py-1 text-black hover:text-red-500"
                                           >
