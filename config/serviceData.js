@@ -3399,7 +3399,7 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   </p>
 
   <p class="text-base md:text-lg font-bold mb-1 pl-5">
-      Who Should File a Claim and Why Having an Attorney Is Essential
+      Who Should Consider Filing a Claim and Why Legal Representation Is Essential
   </p>
 
 <ul class="list-disc text-base md:text-lg pl-5">
@@ -3469,7 +3469,7 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   </p>
 
   <p class="text-base md:text-lg font-bold mb-1 pl-5">
-      Who Should File a Claim and Why Having an Attorney Is Essential
+      Who Should Consider Filing a Claim and Why Legal Representation Is Essential
   </p>
 
 <ul class="list-disc text-base md:text-lg pl-5">
@@ -3538,7 +3538,7 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   </p>
 
   <p class="text-base md:text-lg font-bold mb-1 pl-5">
-      Who Should File a Claim and Why Having an Attorney Is Essential
+      Who Should Consider Filing a Claim and Why Legal Representation Is Essential
   </p>
 
 <ul class="list-disc text-base md:text-lg pl-5">
@@ -3607,7 +3607,7 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   </p>
 
   <p class="text-base md:text-lg font-bold mb-1 pl-5">
-      Who Should File a Claim and Why Having an Attorney Is Essential
+      Who Should Consider Filing a Claim and Why Legal Representation Is Essential
   </p>
 
 <ul class="list-disc text-base md:text-lg pl-5">
@@ -3676,7 +3676,7 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   </p>
 
   <p class="text-base md:text-lg font-bold mb-1 pl-5">
-      Who Should File a Claim and Why Having an Attorney Is Essential
+      Who Should Consider Filing a Claim and Why Legal Representation Is Essential
   </p>
 
 <ul class="list-disc text-base md:text-lg pl-5">
@@ -3745,7 +3745,7 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   </p>
 
   <p class="text-base md:text-lg font-bold mb-1 pl-5">
-      Who Should File a Claim and Why Having an Attorney Is Essential
+      Who Should Consider Filing a Claim and Why Legal Representation Is Essential
   </p>
 
 <ul class="list-disc text-base md:text-lg pl-5">
@@ -3814,7 +3814,7 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   </p>
 
   <p class="text-base md:text-lg font-bold mb-1 pl-5">
-      Who Should File a Claim and Why Having an Attorney Is Essential
+      Who Should Consider Filing a Claim and Why Legal Representation Is Essential
   </p>
 
 <ul class="list-disc text-base md:text-lg pl-5">
@@ -3883,7 +3883,7 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   </p>
 
   <p class="text-base md:text-lg font-bold mb-1 pl-5">
-      Who Should File a Claim and Why Having an Attorney Is Essential
+      Who Should Consider Filing a Claim and Why Legal Representation Is Essential
   </p>
 
 <ul class="list-disc text-base md:text-lg pl-5">
@@ -4843,8 +4843,6 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                         </p>
                       </ul>
                   
-                  </div>
-                  <div>
                     <p className="text-base md:text-lg font-bold mb-1 pl-5">
                       Carter Injury Law: Committed to Securing the Justice You
                       Deserve
