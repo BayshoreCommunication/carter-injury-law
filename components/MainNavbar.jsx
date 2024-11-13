@@ -577,7 +577,7 @@ const MainNavbar = () => {
                                           <Link
                                             onClick={() => setIsMenuOpen(false)}
                                             href={`/areas-of-practice/${item.slug}`}
-                                            className="block py-1 text-black hover:text-red-500 pl-6"
+                                            className="block py-1 text-black hover:text-red-500 pl-3"
                                           >
                                             {item.title}
                                           </Link>
