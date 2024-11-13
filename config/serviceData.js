@@ -4204,8 +4204,8 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                       Who Should File a Claim and Why Having an Attorney Is
                       Essential
                     </p>
-                    <p className="text-base md:text-lg">
-                      <ul className="list-disc pl-5">
+                    
+                      <ul className="list-disc text-base md:text-lg pl-5">
                         <li>
                           <span className="font-bold pr-1">
                             Benefits of Filing:
@@ -4247,8 +4247,8 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                       Carter Injury Law: Committed to Securing the Justice You
                       Deserve
                     </p>
-                    <p className="text-base md:text-lg">
-                      <ul className="list-disc pl-5">
+                    <p className="text-base  md:text-lg">
+                      <ul className="list-disc text-base md:text-lg pl-5">
                         <li>
                           We start with a free, detailed evaluation to explain
                           your rights, eligibility, and best next steps.
@@ -4302,8 +4302,8 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                       Who Should File a Claim and Why Having an Attorney Is
                       Essential
                     </p>
-                    <p className="text-base md:text-lg">
-                      <ul className="list-disc pl-5">
+                    
+                      <ul className="list-disc text-base md:text-lg pl-5">
                         <li>
                           <span className="font-bold pr-1">
                             Benefits of Filing:
@@ -4332,15 +4332,15 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                           financial stability.
                         </li>
                       </ul>
-                    </p>
+                   
                   </div>
                   <div>
                     <p className="text-base md:text-lg font-bold mb-1 pl-5">
                       Carter Injury Law: Committed to Securing the Justice You
                       Deserve
                     </p>
-                    <p className="text-base md:text-lg">
-                      <ul className="list-disc pl-5">
+                    
+                      <ul className="list-disc text-base md:text-lg pl-5">
                         <li>
                           We take the time to carefully review your injuries,
                           medical records, and the details of the incident to
@@ -4368,7 +4368,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                           so you only pay if we successfully win your case.
                         </li>
                       </ul>
-                    </p>
+                    
                   </div>
                 </div>`,
   },
@@ -4399,8 +4399,8 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                       Who Should File a Claim and Why Having an Attorney Is
                       Essential
                     </p>
-                    <p className="text-base md:text-lg">
-                      <ul className="list-disc pl-5">
+                    
+                      <ul className="list-disc text-base md:text-lg pl-5">
                         <li>
                           <span className="font-bold pr-1">
                             Benefits of Filing:
@@ -4432,15 +4432,15 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                           and financial strain during recovery.
                         </li>
                       </ul>
-                    </p>
+                    
                   </div>
                   <div>
                     <p className="text-base md:text-lg font-bold mb-1 pl-5">
                       Carter Injury Law: Committed to Securing the Justice You
                       Deserve
                     </p>
-                    <p className="text-base md:text-lg">
-                      <ul className="list-disc pl-5">
+                    
+                      <ul className="list-disc text-base md:text-lg pl-5">
                         <li>
                           We’ll take the time to review your case and explain
                           your options—at no cost to you.
@@ -4459,7 +4459,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                           the most complex situations.
                         </li>
                       </ul>
-                    </p>
+                    
                   </div>
                 </div>`,
   },
@@ -4492,8 +4492,8 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                       Who Should File a Claim and Why Having an Attorney Is
                       Essential
                     </p>
-                    <p className="text-base md:text-lg">
-                      <ul className="list-disc pl-5">
+                    
+                      <ul className="list-disc text-base md:text-lg pl-5">
                         <li>
                           <span className="font-bold pr-1">
                             Benefits of Filing:
@@ -4523,15 +4523,15 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                           compensation.
                         </li>
                       </ul>
-                    </p>
+                    
                   </div>
                   <div>
                     <p className="text-base md:text-lg font-bold mb-1 pl-5">
                       Carter Injury Law: Committed to Securing the Justice You
                       Deserve
                     </p>
-                    <p className="text-base md:text-lg">
-                      <ul className="list-disc pl-5">
+                    
+                      <ul className="list-disc text-base md:text-lg  pl-5">
                         <li>
                           We have extensive experience handling catastrophic
                           injury cases in Florida, ensuring that you have a
@@ -4570,7 +4570,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                           your case.
                         </li>
                       </ul>
-                    </p>
+                    
                   </div>
                 </div>`,
   },
@@ -4604,8 +4604,8 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                       Who Should File a Claim and Why Having an Attorney Is
                       Essential
                     </p>
-                    <p className="text-base md:text-lg">
-                      <ul className="list-disc pl-5">
+                    
+                      <ul className="list-disc text-base md:text-lg pl-5">
                         <li>
                           <span className="font-bold pr-1">
                             Benefits of Filing:
@@ -4640,15 +4640,15 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                           ultimately leading to a denial or a lower rating.
                         </li>
                       </ul>
-                    </p>
+                    
                   </div>
                   <div>
                     <p className="text-base md:text-lg font-bold mb-1 pl-5">
                       Carter Injury Law: Committed to Securing the Justice You
                       Deserve
                     </p>
-                    <p className="text-base md:text-lg">
-                      <ul className="list-disc pl-5">
+                    
+                      <ul className="list-disc text-base md:text-lg pl-5">
                         <li>
                           Our experienced attorneys will guide you through the
                           VA’s appeal process and help gather the necessary
@@ -4667,7 +4667,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                           without worrying about upfront costs.
                         </li>
                       </ul>
-                    </p>
+
                   </div>
                 </div>`,
   },
@@ -4698,8 +4698,8 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                       Who Should File a Claim and Why Having an Attorney Is
                       Essential
                     </p>
-                    <p className="text-base md:text-lg">
-                      <ul className="list-disc pl-5">
+                    
+                      <ul className="list-disc text-base md:text-lg  pl-5">
                         <li>
                           <span className="font-bold pr-1">
                             Benefits of Filing:
@@ -4744,8 +4744,8 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                       Carter Injury Law: Committed to Securing the Justice You
                       Deserve
                     </p>
-                    <p className="text-base md:text-lg">
-                      <ul className="list-disc pl-5">
+                    
+                      <ul className="list-disc  text-base md:text-lg  pl-5">
                         <li>
                           We understand the difficulties you’re facing and offer
                           compassionate, tailored legal services to address your
@@ -4803,13 +4803,13 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     another party’s negligence, misconduct, or reckless
                     behavior.
                   </p>
-                  <div>
+                  
                     <p className="text-base md:text-lg font-bold mb-1 pl-5">
                       Who Should File a Claim and Why Having an Attorney Is
                       Essential
                     </p>
-                    <p className="text-base md:text-lg">
-                      <ul className="list-disc pl-5">
+                   
+                      <ul className="list-disc text-base md:text-lg pl-5">
                         <li>
                           <span className="font-bold pr-1">
                             Benefits of Filing:
@@ -4842,15 +4842,15 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                           a difficult time.
                         </p>
                       </ul>
-                    </p>
+                  
                   </div>
                   <div>
                     <p className="text-base md:text-lg font-bold mb-1 pl-5">
                       Carter Injury Law: Committed to Securing the Justice You
                       Deserve
                     </p>
-                    <p className="text-base md:text-lg">
-                      <ul className="list-disc pl-5">
+                    
+                      <ul className="list-disc text-base md:text-lg pl-5">
                         <li>
                           We provide clear, step-by-step assistance in filing
                           your claim and making sure you meet all deadlines,
