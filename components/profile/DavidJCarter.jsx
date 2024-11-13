@@ -25,9 +25,12 @@ const DavidJCarter = () => {
             <div className="w-full md:w-[60%]">
               <ScrollMotionEffect effect="fade-right" duration="2000">
                 <div className="mb-6">
-                  <h2 className="text-stone-950 !font-semibold text-3xl md:text-5xl mb-1 lg:mb-3 ">
+                  <h2 className="text-stone-950 !font-semibold text-3xl md:text-5xl mb-1 lg:mb-2 ">
                     David Carter
                   </h2>
+                  <h4 className="text-stone-800 !font-semibold text-xl md:text-3xl mb-1 lg:mb-3 ">
+                    Over 10 years’ Experience
+                  </h4>
                   <p className=" text-base md:text-xl mb-3 lg:mb-6 ">
                     David Carter is a skilled personal injury lawyer with 10+
                     years of experience, dedicated to helping clients recover
