@@ -320,7 +320,7 @@ const MainNavbar = () => {
                     alt="footer logo"
                     width={500}
                     height={500}
-                    className="cursor-pointer w-[400px]  h-[46px]"
+                    className="cursor-pointer w-[400px]  h-[56px]"
                   />
                 </Link>
                 <Image
