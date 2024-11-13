@@ -508,7 +508,7 @@ const MainNavbar = () => {
 
             <NavbarMenu className="overflow-hidden w-full pl-0 ml-0">
               {isMenuOpen && (
-                <ul className="block md:hidden space-y-2 p-4 text-black rounded  list-none w-full overflow-y-scroll">
+                <ul className="block md:hidden space-y-2 p-4 text-black rounded  list-none w-full overflow-y-scroll overflow-x-hidden">
                   {menuItems.map((menuItem, index) => (
                     <li
                       key={index}
