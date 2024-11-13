@@ -533,11 +533,11 @@ const MainNavbar = () => {
                       {menuItem.subMenu && activeMenu === index && (
                         <ul className="mt-2 space-y-2">
                           {menuItem.subMenu.map((subMenuItem, subIndex) => (
-                            <li key={subIndex} className="list-none ">
+                            <li key={subIndex} className="list-none text-black">
                               {subMenuItem.subList ? (
                                 <button
                                   onClick={() => toggleSubMenu(subIndex)}
-                                  className="flex items-center justify-between w-full  pl-5"
+                                  className="flex items-center justify-between w-full pl-3"
                                 >
                                   {subMenuItem.title}
                                   {subMenuItem.subList && (
@@ -559,7 +559,7 @@ const MainNavbar = () => {
                                 <Link
                                   onClick={() => setIsMenuOpen(false)}
                                   href={subMenuItem?.slug}
-                                  className="block py-1 text-black hover:text-red-500"
+                                  className="block py-1 text-black hover:text-red-500 pl-3"
                                 >
                                   {subMenuItem.title}
                                 </Link>
@@ -567,7 +567,7 @@ const MainNavbar = () => {
 
                               {subMenuItem.subList &&
                                 activeSubMenu === subIndex && (
-                                  <ul className="mt-2 space-y-2 text-sm list-none w-full pl-5">
+                                  <ul className="mt-2 space-y-2 text-sm list-none w-full">
                                     {subMenuItem.subList.map(
                                       (item, itemIndex) => (
                                         <li
@@ -577,7 +577,7 @@ const MainNavbar = () => {
                                           <Link
                                             onClick={() => setIsMenuOpen(false)}
                                             href={`/areas-of-practice/${item.slug}`}
-                                            className="block py-1 text-black hover:text-red-500"
+                                            className="block py-1 text-black hover:text-red-500 pl-6"
                                           >
                                             {item.title}
                                           </Link>
