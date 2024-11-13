@@ -481,7 +481,7 @@ const MainNavbar = () => {
                     alt="footer logo"
                     width={500}
                     height={500}
-                    className="w-[300px] h-[36px] -ml-8 pl-0"
+                    className="w-[300px] h-[36px] ml-0 pl-0"
                   />
                 </Link>
               </NavbarBrand>
