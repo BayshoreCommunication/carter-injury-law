@@ -4913,7 +4913,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     Representation Is Essential
                   </p>
                   
-                    <ul className="list-disc pl-5">
+                    <ul className="list-disc text-base md:text-lg pl-5">
                       <li>
                         <span className="font-bold pr-1">Benefits of Filing:</span>
                         Anyone injured by a defective product should consider
@@ -4947,7 +4947,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     Deserve
                   </p>
                   
-                    <ul className="list-disc pl-5">
+                    <ul className="list-disc text-base md:text-lg pl-5">
                       <li>
                         We will carefully examine the circumstances of your
                         injury to identify all potential causes and responsible
@@ -5006,7 +5006,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     Representation Is Essential
                   </p>
                   
-                    <ul className="list-disc pl-5">
+                    <ul className="list-disc text-base md:text-lg pl-5">
                       <li>
                         <span className="font-bold pr-1">Benefits of Filing:</span>
                         Anyone who has been injured or suffered damages due to a
@@ -5039,7 +5039,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     Deserve
                   </p>
                   
-                    <ul className="list-disc pl-5">
+                    <ul className="list-disc text-base md:text-lg pl-5">
                       <li>
                         We have specialized knowledge to understand the legal
                         standards for proving a design defect, including the
@@ -5097,7 +5097,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                             Representation Is Essential
                         </p>
                         
-                            <ul className="list-disc pl-5">
+                            <ul className="list-disc text-base md:text-lg pl-5">
                             <li>
                                 <span className="font-bold pr-1">Benefits of Filing:</span>
                                 Anyone who has been injured or harmed by a product due
@@ -5131,7 +5131,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                             Deserve
                         </p>
                         
-                            <ul className="list-disc pl-5">
+                            <ul className="list-disc text-base md:text-lg pl-5">
                             <li>
                                 We build a strong case by identifying the defect,
                                 proving the manufacturer’s awareness of the risk, and
@@ -5188,7 +5188,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     Representation Is Essential
                   </p>
                   
-                    <ul className="list-disc pl-5">
+                    <ul className="list-disc text-base md:text-lg pl-5">
                       <li>
                         <span className="font-bold pr-1">Benefits of Filing:</span>
                         Anyone who has experienced an injury or adverse health
@@ -5222,7 +5222,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     Deserve
                   </p>
                   
-                    <ul className="list-disc pl-5">
+                    <ul className="list-disc text-base md:text-lg pl-5">
                       <li>
                         We specialize in medical device litigation, understand
                         the intricate regulations surrounding medical devices,
@@ -5281,7 +5281,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                       Representation Is Essential
                     </p>
                     
-                      <ul className="list-disc pl-5">
+                      <ul className="list-disc text-base md:text-lg pl-5">
                         <li>
                           <span className="font-bold pr-1">
                             Benefits of Filing:
@@ -5315,14 +5315,14 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                         </li>
                       </ul>
                     
-                  </div>
-                  <div>
+                  
+                  
                     <p className="text-base md:text-lg font-bold mb-1 pl-5">
                       Carter Injury Law: Committed to Securing the Justice You
                       Deserve
                     </p>
                     
-                      <ul className="list-disc pl-5">
+                      <ul className="list-disc text-base md:text-lg pl-5">
                         <li>
                           We analyze the details of the defect, including the
                           type of appliance, the nature of the malfunction, and
