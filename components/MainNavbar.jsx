@@ -37,7 +37,7 @@ const MainNavbar = () => {
         title: "Areas of Practice",
         slug: "/",
         subMenu: [
-          //TODO: change sublist to match slug data.
+          
           {
             title: "Auto Accidents",
             slug: "auto-accidents",
@@ -443,7 +443,7 @@ const MainNavbar = () => {
 
                           {subMenuItem.subList &&
                             activeSubMenu === subIndex && (
-                              <ul className="absolute top-0 right-0 translate-x-full bg-white rounded shadow-lg border text-lg min-w-[300px] font-semibold capitalize">
+                              <ul className="absolute top-0 right-0 translate-x-full bg-white rounded shadow-lg border text-lg min-w-[300px] font-semibold capitalize list-none">
                                 {subMenuItem.subList.map((item, itemIndex) => (
                                   <li key={itemIndex}>
                                     <Link
