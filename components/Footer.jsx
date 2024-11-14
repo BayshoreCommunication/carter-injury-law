@@ -58,36 +58,36 @@ const Footer = () => {
                   BROWSE
                 </h4>
 
-                <Link
-                  href="/about-our-firm"
+                <p
+                  // href="/about-our-firm"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   ABOUT THE FIRM
-                </Link>
+                </p>
                 {/* <Link
                   href="#"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   OUR RESULTS
                 </Link> */}
-                <Link
-                  href="/testimonials"
+                <p
+                  // href="/testimonials"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   REVIEWS
-                </Link>
-                <Link
-                  href="/contact"
+                </p>
+                <p
+                  // href="/contact"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   DO YOU HAVE A CASE?
-                </Link>
-                <Link
-                  href="/career"
+                </p>
+                <p
+                  // href="/career"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   EMPLOYMENT
-                </Link>
+                </p>
               </div>
               <div className="flex flex-col gap-2 lg:gap-4  p-6 lg:p-10 rounded-2xl bg-[#4B5160]">
                 <h4 className="pb-1 lg:pb-3 mb-1 lg:mb-3 border-b-1 border-white uppercase font-semibold text-xl lg:text-2xl text-white">

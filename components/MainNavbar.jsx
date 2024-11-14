@@ -252,16 +252,32 @@ const MainNavbar = () => {
         slug: "/faq",
         subMenu: [
           {
-            title: "Auto Accident",
+            title: "Auto Accidents",
             slug: "/faq",
           },
-          // { title: "Car Accident", slug: "car-accident" },
-          // { title: "Personal Injury", slug: "personal-injury" },
-          // { title: "Airline Injuries", slug: "airline-injuries" },
-          // {
-          //   title: "Boating Accidents",
-          //   slug: "boating-accidents",
-          // },
+          { title: "Premises Liability", slug: "/faq" },
+          { title: "General Negligence", slug: "/faq" },
+          { title: "Wrongful Death", slug: "/faq" },
+          {
+            title: "Medical Malpractice",
+            slug: "/faq",
+          },
+          {
+            title: "Nursing Home Abuse",
+            slug: "/faq",
+          },
+          {
+            title: "Workers Compensation",
+            slug: "/faq",
+          },
+          {
+            title: "Workers Compensation",
+            slug: "/faq",
+          },
+          {
+            title: "Product Liability",
+            slug: "/faq",
+          },
         ],
       },
       { title: "Blog", slug: "/blog" },
