@@ -58,30 +58,30 @@ const Footer = () => {
                   BROWSE
                 </h4>
 
-                <p
-                  // href="/about-our-firm"
+                <Link
+                  href="/about-our-firm"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   ABOUT THE FIRM
-                </p>
+                </Link>
                 {/* <Link
                   href="#"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   OUR RESULTS
                 </Link> */}
-                <p
-                  // href="/testimonials"
+                <Link
+                  href="/testimonials"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   REVIEWS
-                </p>
-                <p
-                  // href="/contact"
+                </Link>
+                <Link
+                  href="/contact"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   DO YOU HAVE A CASE?
-                </p>
+                </Link>
                 <p
                   // href="/career"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"

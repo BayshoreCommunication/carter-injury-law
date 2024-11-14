@@ -1,7 +1,13 @@
 "use client";
 import React, { useRef, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
+import {
+  Autoplay,
+  Navigation,
+  Pagination,
+  Mousewheel,
+  Keyboard,
+} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -35,11 +41,15 @@ const TestimonialSlideSection = ({ className }) => {
     >
       <SectionLayout>
         <Swiper
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           ref={swiperRef}
           cssMode={true}
           mousewheel={true}
           keyboard={true}
-          modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+          modules={[Autoplay, Navigation, Pagination, Mousewheel, Keyboard]}
           navigation={{
             prevEl: prevButtonRef.current,
             nextEl: nextButtonRef.current,
