@@ -29,11 +29,11 @@ const DavidJCarter = () => {
                     David Carter
                   </h2>
                   <h4 className="text-stone-800 !font-semibold text-xl md:text-3xl mb-1 lg:mb-3 ">
-                    Over 10 years’ Experience
+                    Over Years of Experience
                   </h4>
                   <p className=" text-base md:text-xl mb-3 lg:mb-6 ">
-                    David Carter is a skilled personal injury lawyer with 10+
-                    years of experience, dedicated to helping clients recover
+                    David Carter is a skilled personal injury lawyer with years
+                    of experience, dedicated to helping clients recover
                     compensation for accidents, medical malpractice, and
                     wrongful death cases. Compassionate and results-driven.
                   </p>

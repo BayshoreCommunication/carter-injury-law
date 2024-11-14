@@ -93,43 +93,57 @@ const Footer = () => {
                 <h4 className="pb-1 lg:pb-3 mb-1 lg:mb-3 border-b-1 border-white uppercase font-semibold text-xl lg:text-2xl text-white">
                   AREAS OF PRACTICE
                 </h4>
-                <Link
-                  href={`/areas-of-practice/tampa-bay-personal-injury-lawyer`}
-                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
+                <div
+                  // href={`/areas-of-practice/tampa-bay-personal-injury-lawyer`}
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500 uppercase"
                 >
-                  PERSONAL INJURY
-                </Link>
-                <Link
-                  href="/areas-of-practice/tampa-bay-auto-accidents-lawyer"
-                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
+                  Auto Accidents
+                </div>
+                <div
+                  // href="/areas-of-practice/tampa-bay-auto-accidents-lawyer"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500 uppercase"
                 >
-                  AUTO ACCIDENTS
-                </Link>
-                <Link
-                  href="/areas-of-practice/slip-fall-personal-injury-litigation"
-                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
+                  Premises Liability
+                </div>
+                <div
+                  // href="/areas-of-practice/slip-fall-personal-injury-litigation"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500 uppercase"
                 >
-                  SLIP & FALL
-                </Link>
-                <Link
-                  href="/areas-of-practice/medical-malpractice-personal-injury-litigation"
-                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
+                  General Negligence
+                </div>
+                <div
+                  // href="/areas-of-practice/medical-malpractice-personal-injury-litigation"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500 uppercase"
                 >
-                  MEDICAL MALPRACTICE
-                </Link>
-                <Link
-                  href="/areas-of-practice/premises-liability-personal-injury-litigation"
-                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
+                  Wrongful Death
+                </div>
+                <div
+                  // href="/areas-of-practice/premises-liability-personal-injury-litigation"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500 uppercase"
                 >
-                  PREMISES LIABILITY
-                </Link>
+                  Medical Malpractice
+                </div>
 
-                <Link
-                  href="/areas-of-practice/dog-bites-personal-injury-litigation"
-                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
+                <div
+                  // href="/areas-of-practice/dog-bites-personal-injury-litigation"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500 uppercase"
                 >
-                  DOG Bites
-                </Link>
+                  Nursing Home Abuse
+                </div>
+
+                <div
+                  // href="/areas-of-practice/dog-bites-personal-injury-litigation"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500 uppercase"
+                >
+                  Workers’ Compensation
+                </div>
+
+                <div
+                  // href="/areas-of-practice/dog-bites-personal-injury-litigation"
+                  className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500 uppercase"
+                >
+                  Product Liability
+                </div>
               </div>
             </div>
             <div className="flex flex-col gap-2 lg:gap-4  p-6 lg:p-10 rounded-2xl bg-[#4B5160]">

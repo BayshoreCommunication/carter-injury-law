@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 import "swiper/css";
@@ -7,9 +7,10 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import SectionLayout from "./SectionLayout";
+import { testimonialsData } from "@/config/testimonialsData";
 
 const TestimonialSlideSection = ({ className }) => {
-  // Refs for navigation buttons
+  const [sliderIndex, setSliderIndex] = useState(0);
   const prevButtonRef = useRef(null);
   const nextButtonRef = useRef(null);
   const swiperRef = useRef(null);
@@ -23,6 +24,10 @@ const TestimonialSlideSection = ({ className }) => {
       swiperInstance.navigation.update();
     }
   }, []);
+
+  const testimonialsInfo = testimonialsData?.find(
+    (el, index) => index === sliderIndex
+  );
 
   return (
     <div
@@ -39,18 +44,16 @@ const TestimonialSlideSection = ({ className }) => {
             prevEl: prevButtonRef.current,
             nextEl: nextButtonRef.current,
           }}
+          onSlideChange={(swiper) => {
+            setSliderIndex(swiper.activeIndex);
+          }}
           className="mySwiper"
         >
-          {[1, 2, 3, 4, 5].map((el, index) => (
+          {testimonialsData?.map((el, index) => (
             <SwiperSlide key={index}>
               <div className="w-full lg:w-[80%] text-center mx-auto flex flex-col gap-6 lg:gap-10 py-10">
                 <p className="text-lg md:text-2xl lg:text-3xl font-semibold italic">
-                  "Words cannot express the gratitude I have for you and your
-                  team. As soon as you took over my case, you and your team
-                  worked diligently on a resolution. Thank you so much for
-                  treating me as a person and showing so much care. You
-                  definitely made me feel at ease that my case was in great
-                  hands. Thank you so much!!"
+                  " {el?.review}"
                 </p>
               </div>
             </SwiperSlide>
@@ -66,8 +69,8 @@ const TestimonialSlideSection = ({ className }) => {
           </button>
           <div className="flex items-center gap-8 justify-center">
             <div>
-              <div className="font-bold text-gray-800 text-center">
-                Diane F.
+              <div className="font-bold text-gray-800 text-center w-[190px]">
+                {testimonialsInfo?.name}
               </div>
               <div className="flex justify-center items-center">
                 {Array(5)
