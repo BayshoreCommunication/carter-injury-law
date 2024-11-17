@@ -7,7 +7,7 @@ const AchievementSection = () => {
     <div>
       <SectionLayout bg="bg-[#1E2538]">
         {/* Mobile */}
-        <div className="flex flex-col gap-6 ">
+        <div className="flex flex-col gap-6 md:hidden ">
           <div className="flex items-center gap-6 justify-evenly">
             <Image
               src="/assets/shared/achievement-1.png"
