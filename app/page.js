@@ -7,9 +7,10 @@ import PracticeAreasSection from "@/components/shared/PracticeAreasSection";
 import TestimonialSlideSection from "@/components/shared/TestimonialSlideSection";
 
 export const metadata = {
-  title: "Carter Injury Law",
+  title:
+    "Experienced Personal Injury Attorney in Tampa, Florida | Carter Injury Law",
   description:
-    "At Carter Injury Law, you’re family. We offer open lines of communication to foster personal relationships and optimize case outcomes for our clients. Every client gets the personal cell phone number of the attorney.",
+    "Need expert legal help after an accident? Our  Experienced personal injury attorney in Tampa, Florida, is here to fight for your rights and secure the compensation you deserve. Call today for a free consultation!",
   alternates: {
     canonical: "/",
     languages: {

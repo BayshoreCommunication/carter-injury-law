@@ -9,11 +9,6 @@ import CallToAction from "@/components/shared/CallToAction";
 import PracticeAreasSection from "@/components/shared/PracticeAreasSection";
 import Head from "next/head";
 
-export const metadata = {
-  title: "demo metadata",
-  description: "demo meta title",
-};
-
 const page = () => {
   return (
     <>

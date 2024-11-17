@@ -6,21 +6,16 @@ import CallToAction from "@/components/shared/CallToAction";
 import PracticeAreasSection from "@/components/shared/PracticeAreasSection";
 import Head from "next/head";
 
+export const metadata = {
+  title:
+    "Trusted Personal Injury Attorneys | Experts in Auto Accidents, Medical Malpractice & More",
+  description:
+    "Learn more about our dedicated team of personal injury attorneys. Specializing in Auto Accidents, Premises Liability, Wrongful Death, Medical Malpractice, and more, we’re here to fight for your rights in Tampa, Florida.",
+};
+
 const page = () => {
   return (
     <>
-      <Head>
-        <title>About The Firm - Carter Injury Law - </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          name="description"
-          content={`At Carter Injury Law, you’re family. We offer open lines of communication to foster personal relationships and optimize case outcomes for our clients. `}
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
       <HeroSection />
       <AboutOurFirm />
       <PracticeAreasSection />

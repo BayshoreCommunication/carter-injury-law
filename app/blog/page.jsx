@@ -7,6 +7,13 @@ import BlogHeroSection from "@/components/blog/BlogHeroSection";
 import BlogMainSection from "@/components/blog/BlogMainSection";
 import CallToAction from "@/components/shared/CallToAction";
 
+export const metadata = {
+  title:
+    "Insightful Personal Injury Blogs tampa,florida | Legal Tips & Case Studies",
+  description:
+    "Explore the Carter Injury Law Blog for expert insights, legal advice, and tips on personal injury topics, including auto accidents, slip & falls, and medical malpractice. Stay informed to make the best decisions for your injury claims.",
+};
+
 const page = async () => {
   const blogPostData = await GetAllPostData();
 
@@ -21,14 +28,6 @@ const page = async () => {
 
   return (
     <>
-      <Head>
-        <title>Blog - Carter Injury Law</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          name="description"
-          content={`At Carter Injury Law, you’re family. We offer open lines of communication to foster personal relationships and optimize case outcomes for our clients. `}
-        />
-      </Head>
       <BlogHeroSection />
       <BlogMainSection blogPostData={blogPostData} />
       <CallToAction />

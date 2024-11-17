@@ -5,17 +5,15 @@ import CallToAction from "@/components/shared/CallToAction";
 import TestimonialSlideSection from "@/components/shared/TestimonialSlideSection";
 import Head from "next/head";
 
+export const metadata = {
+  title: "Top Tampa Personal Injury Lawyer in florida | Carter Injury Law",
+  description:
+    "Reach out to Carter Injury Law, your trusted personal injury attorneys in Tampa, Florida. Contact us for expert legal advice on auto accidents, slip and falls, medical malpractice, and more. We're here to help with your injury claim!",
+};
+
 const page = () => {
   return (
     <>
-      <Head>
-        <title>Contact - Carter Injury Law</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          name="description"
-          content="At Carter Injury Law, you’re family. We offer open lines of communication to foster personal relationships and optimize case outcomes for our clients. "
-        />
-      </Head>
       <ContactHeroSection />
       <GoogleMapSection />
       <AchievementSection />
