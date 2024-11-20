@@ -18,7 +18,7 @@ const PracticeAreasSection = () => {
         <div className="grid grid-c7ls-1 lg:grid-cols-3 gap-4 lg:gap-8  h-full text-center">
           <ScrollMotionEffect effect="fade-up" duration="2000">
             <div className="p-8 rounded-2xl border-1 border-[#] flex flex-col gap-4 h-full">
-              {allServiceData?.slice(0, 7).map((el, index) => (
+              {allServiceData?.slice(0, 8).map((el, index) => (
                 <React.Fragment key={index}>
                   <Link
                     href={`/areas-of-practice/${el?.slug}`}
@@ -35,7 +35,7 @@ const PracticeAreasSection = () => {
           </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-up" duration="2000">
             <div className="p-8 rounded-2xl border-1 border-[#] flex flex-col gap-4 h-full">
-              {allServiceData?.slice(7, 14).map((el, index) => (
+              {allServiceData?.slice(8, 16).map((el, index) => (
                 <React.Fragment key={index}>
                   <Link
                     href={`/areas-of-practice/${el?.slug}`}
@@ -52,7 +52,7 @@ const PracticeAreasSection = () => {
           </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-up" duration="2000">
             <div className="p-8 rounded-2xl border-1 border-[#] flex flex-col gap-4 h-full">
-              {allServiceData?.slice(14, 22).map((el, index) => (
+              {allServiceData?.slice(17, 25).map((el, index) => (
                 <React.Fragment key={index}>
                   <Link
                     href={`/areas-of-practice/${el?.slug}`}
