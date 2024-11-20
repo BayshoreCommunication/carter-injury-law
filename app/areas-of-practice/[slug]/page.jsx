@@ -83,7 +83,7 @@ const page = async ({ params }) => {
       <Head>
         <title>{servicesDetails[0]?.title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="" />
+        <meta name="description" content={"servicesDetails[0]?.description"} />
       </Head>
       <style>{css}</style>
       <PracticeAreaDetailsHeader title={servicesDetails[0]?.title} />

@@ -62,13 +62,15 @@ export async function generateMetadata({ params }) {
   return {
     title: blogDetails?.title,
     description:
-      description[0]?.props?.children.props?.children ||
-      description[0]?.props?.children[0].props?.children,
+      description[0]?.props?.children.props?.children == undefined
+        ? description[0]?.props?.children[0].props?.children
+        : description[0]?.props?.children.props?.children,
     openGraph: {
       title: blogDetails?.title,
       description:
-        description[0]?.props?.children.props?.children ||
-        description[0]?.props?.children[0].props?.children,
+        description[0]?.props?.children.props?.children == undefined
+          ? description[0]?.props?.children[0].props?.children
+          : description[0]?.props?.children.props?.children,
       images: blogDetails?.featuredImage?.image?.url,
       url: `https://www.carterinjurylaw.com/blog/${blogDetails?.slug}`,
       type: "article",
