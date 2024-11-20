@@ -56,8 +56,9 @@ export async function generateMetadata({ params }) {
 
   let description = parse(blogDetails?.body);
   // console.log(
-  //   description[0]?.props?.children.props?.children ||
-  //     description[0]?.props?.children[0].props?.children
+  //   description[0]?.props?.children.props?.children == undefined
+  //     ? description[0]?.props?.children[0].props?.children
+  //     : description[0]?.props?.children.props?.children
   // );
   return {
     title: blogDetails?.title,

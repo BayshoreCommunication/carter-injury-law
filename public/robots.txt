@@ -1,4 +1,5 @@
 User-agent: *
-Disallow: /
+Disallow: /cgi-bin/
 
+Sitemap: https://www.carterinjurylaw.com/sitemap.xml
 
