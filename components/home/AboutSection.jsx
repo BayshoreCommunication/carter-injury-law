@@ -10,24 +10,13 @@ const AboutSection = () => {
         <ScrollMotionEffect effect="fade-right" duration="2000">
           <div className="flex flex-col gap-y-6">
             <h1 className="font-semibold text-2xl text-[#55545A]">
-              Carter Injury Law: Justice Assured by Your Tampa Personal Injury
-              Attorney, Florida
+              {`Carter Injury Law: Let’s Get You Justice`}
             </h1>
             <p className="text-lg text-[#55545A]">
-              {`Don't face injury alone. If someone else's negligence caused you
-              harm, having an experienced and compassionate attorney on your
-              side is crucial. Carter Injury Law, your diligent personal injury
-              attorney in Tampa, Florida, was founded on the belief that every
-              case matters, regardless of its magnitude. We treat our clients
-              like family, advocating open communication. You're way more than
-              just a case number to us.`}
+              {`Don't face an injury alone. If someone else's negligence caused you harm, having an experienced and compassionate attorney on your side is crucial. Carter Injury Law, your diligent personal injury attorney in Tampa, Florida, was founded on the belief that every case matters and every client matters. We treat our clients like family, openly communicating with you and advocating for you every step of the way. You're so much more than just a case number.`}
             </p>
             <p className="text-lg text-[#55545A]">
-              {`Whether you've been hurt in an auto accident, a slip and fall, or
-              due to medical malpractice, we offer a free consultation and case
-              evaluation. Contact us without worry about upfront fees or costs.
-              You don’t pay us anything at the beginning. Carter Injury Law only
-              gets paid if we win your case.`}
+              {`Whether you've been hurt in an auto accident, a slip and fall, or due to medical malpractice, we offer a free consultation and case evaluation. Contact us without worry about upfront fees or costs. You don’t pay us anything at the beginning. Carter Injury Law only gets paid if you win your case.`}
             </p>
 
             <div className="hidden xl:flex mt-6">

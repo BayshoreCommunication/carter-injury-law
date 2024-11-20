@@ -23,7 +23,7 @@ const ContactHeroSection = () => {
               <div className="flex flex-col gap-5">
                 <div>
                   <h2 className="font-bold text-2xl md:text-4xl lg:text-5xl mb-2">
-                    Millions of Dollars
+                    Millions and Millions
                   </h2>
                   <h4 className=" text-xl md:text-2xl lg:text-3xl">
                     Recovered for Clients

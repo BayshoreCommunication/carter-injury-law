@@ -37,179 +37,181 @@ const MainNavbar = () => {
         title: "Areas of Practice",
         slug: "/",
         subMenu: [
-          
           {
             title: "Auto Accidents",
-            slug: "auto-accidents",
+            slug: "/auto-accidents",
             subList: [
-              { title: "Car Accidents", slug: "car-accidents" },
-              { title: "Motorcycle Accidents", slug: "motorcycle-accidents" },
+              { title: "Car Accidents", slug: "/car-accidents" },
+              { title: "Motorcycle Accidents", slug: "/motorcycle-accidents" },
               {
                 title: "Semi-Truck and Trucking Accidents",
-                slug: "semi-truck-and-trucking-accidents",
+                slug: "/semi-truck-and-trucking-accidents",
               },
               {
                 title: "Bicycle Accidents",
-                slug: "bicycle-accidents",
+                slug: "/bicycle-accidents",
               },
               {
                 title: "Pedestrian Accidents",
-                slug: "pedestrian-accidents",
+                slug: "/pedestrian-accidents",
               },
               {
                 title: "Golf Cart Accidents",
-                slug: "golf-cart-accidents",
+                slug: "/golf-cart-accidents",
               },
               {
                 title: "Uber/Lyft/Ridesharing Accidents",
-                slug: "uber-lyft-ridesharing-accidents",
+                slug: "/uber-lyft-ridesharing-accidents",
               },
               {
                 title: "Bus Accidents",
-                slug: "bus-accidents",
+                slug: "/bus-accidents",
               },
               {
                 title: "RV Accidents",
-                slug: "rv-accidents",
+                slug: "/rv-accidents",
               },
               {
                 title: "Scooter Accidents",
-                slug: "scooter-accidents",
+                slug: "/scooter-accidents",
               },
               {
                 title: "Delivery Truck Accidents",
-                slug: "delivery-truck-accidents",
+                slug: "/delivery-truck-accidents",
               },
             ],
           },
 
           {
             title: "Premises Liability",
-            slug: "premises-liability",
+            slug: "/premises-liability",
             subList: [
-              { title: "Slip and Falls", slug: "slip-and-falls" },
-              { title: "Trip and Falls", slug: "trip-and-falls" },
-              { title: "Dog Bites", slug: "dog-bites" },
-              { title: "Negligent Security", slug: "negligent-security" },
-              { title: "Burn Injuries", slug: "burn-injuries" },
+              { title: "Slip and Falls", slug: "/slip-and-falls" },
+              { title: "Trip and Falls", slug: "/trip-and-falls" },
+              { title: "Dog Bites", slug: "/dog-bites" },
+              { title: "Negligent Security", slug: "/negligent-security" },
+              { title: "Burn Injuries", slug: "/burn-injuries" },
             ],
           },
           {
             title: "General Negligence",
-            slug: "general-negligence",
+            slug: "/general-negligence",
             subList: [
-              { title: "Boating Accidents", slug: "boating-accidents" },
-              { title: "Jet Ski Accidents", slug: "jet-ski-accidents" },
+              { title: "Boating Accidents", slug: "/boating-accidents" },
+              { title: "Jet Ski Accidents", slug: "/jet-ski-accidents" },
               {
                 title: "Airline and Aviation Injuries",
-                slug: "airline-and-aviation-injuries",
+                slug: "/airline-and-aviation-injuries",
               },
             ],
           },
           {
             title: "Wrongful Death",
-            slug: "wrongful-death",
+            slug: "/wrongful-death",
             subList: [
               {
                 title: "Car Accident Wrongful Death",
-                slug: "car-accident-wrongful-death",
+                slug: "/car-accident-wrongful-death",
               },
               {
                 title: "Premises Liability Wrongful Death",
-                slug: "premises-liability-wrongful-death",
+                slug: "/premises-liability-wrongful-death",
               },
               {
                 title: "Nursing Home Wrongful Death",
-                slug: "nursing-home-wrongful-death",
+                slug: "/nursing-home-wrongful-death",
               },
               {
                 title: "Medical Malpractice Wrongful Death",
-                slug: "medical-malpractice-wrongful-death",
+                slug: "/medical-malpractice-wrongful-death",
               },
               {
                 title: "Product Liability Wrongful Death",
-                slug: "product-liability-wrongful-death",
+                slug: "/product-liability-wrongful-death",
               },
             ],
           },
           {
             title: "Medical Malpractice",
-            slug: "medical-malpractice",
+            slug: "/medical-malpractice",
             subList: [
               { title: "Medication Errors", slug: "medication-errors" },
-              { title: "Surgical Errors", slug: "surgical-errors" },
-              { title: "Birth Injuries", slug: "birth-injuries" },
-              { title: "Delayed Diagnosis", slug: "delayed-diagnosis" },
-              { title: "Anesthesia Errors", slug: "anesthesia-errors" },
-              { title: "Failure to Treat", slug: "failure-to-treat" },
-              { title: "Failure to Diagnose", slug: "failure-to-diagnose" },
-              { title: "Misdiagnosis", slug: "misdiagnosis" },
+              { title: "Surgical Errors", slug: "/surgical-errors" },
+              { title: "Birth Injuries", slug: "/birth-injuries" },
+              { title: "Delayed Diagnosis", slug: "/delayed-diagnosis" },
+              { title: "Anesthesia Errors", slug: "/anesthesia-errors" },
+              { title: "Failure to Treat", slug: "/failure-to-treat" },
+              { title: "Failure to Diagnose", slug: "/failure-to-diagnose" },
+              { title: "Misdiagnosis", slug: "/misdiagnosis" },
             ],
           },
           {
             title: "Nursing Home Abuse",
-            slug: "nursing-home-abuse",
+            slug: "/nursing-home-abuse",
             subList: [
-              { title: "Physical Abuse", slug: "physical-abuse" },
+              { title: "Physical Abuse", slug: "/physical-abuse" },
               {
                 title: "Neglect and Abandonment",
-                slug: "neglect-and-abandonment",
+                slug: "/neglect-and-abandonment",
               },
-              { title: "Sexual Abuse", slug: "sexual-abuse" },
-              { title: "Financial Abuse", slug: "financial-abuse" },
+              { title: "Sexual Abuse", slug: "/sexual-abuse" },
+              { title: "Financial Abuse", slug: "/financial-abuse" },
             ],
           },
           {
             title: "Workers Compensation",
-            slug: "workers-compensation",
+            slug: "/workers-compensation",
             subList: [
               {
                 title: "Temporary Partial Disability",
-                slug: "temporary-partial-disability",
+                slug: "/temporary-partial-disability",
               },
               {
                 title: "Cut and Burn Injuries",
-                slug: "cut-and-burn-injuries",
+                slug: "/cut-and-burn-injuries",
               },
               { title: "Broken Bone Injury", slug: "broken-bone-injury" },
-              { title: "Catastrophic Injuries", slug: "catastrophic-injuries" },
+              {
+                title: "Catastrophic Injuries",
+                slug: "/catastrophic-injuries",
+              },
               {
                 title: "Disability Rating Disputes",
-                slug: "disability-rating-disputes",
+                slug: "/disability-rating-disputes",
               },
               {
                 title: "Overexertion and Overuse Injuries",
-                slug: "overexertion-and-overuse-injuries",
+                slug: "/overexertion-and-overuse-injuries",
               },
               {
                 title: "Death Claims",
-                slug: "death-claims",
+                slug: "/death-claims",
               },
             ],
           },
           {
             title: "Product Liability",
-            slug: "product-liability",
+            slug: "/product-liability",
             subList: [
               {
                 title: "Manufacturing Defects",
-                slug: "manufacturing-defects",
+                slug: "/manufacturing-defects",
               },
               {
                 title: "Design Defects",
-                slug: "design-defects",
+                slug: "/design-defects",
               },
               {
                 title: "Marketing Defects and Failure to Warn",
-                slug: "marketing-defects-and-failure-to-warn",
+                slug: "/marketing-defects-and-failure-to-warn",
               },
               {
                 title: "Defective Medical Devices",
-                slug: "defective-medical-devices",
+                slug: "/defective-medical-devices",
               },
               {
                 title: "Defective Household Goods and Appliances",
-                slug: "defective-household-goods-and-appliances",
+                slug: "/defective-household-goods-and-appliances",
               },
             ],
           },
@@ -217,30 +219,30 @@ const MainNavbar = () => {
       },
       {
         title: "Our team",
-        slug: "our-team",
+        slug: "/our-team",
         subMenu: [
           {
             title: "David J Carter",
-            slug: "david-j-carter",
+            slug: "/david-j-carter",
           },
-          { title: "Robert Johnson", slug: "robert-johnson" },
+          { title: "Robert Johnson", slug: "/robert-johnson" },
         ],
       },
       {
         title: "About",
-        slug: "about",
+        slug: "/about",
         subMenu: [
           {
             title: "About Our Firm",
-            slug: "about-our-firm",
+            slug: "/about-our-firm",
           },
-          { title: "Mission Statement", slug: "mission-statement" },
-          { title: "Core Values", slug: "core-values" },
-          { title: "How We Handle Cases", slug: "how-we-handle-cases" },
-          { title: "The Carter Difference", slug: "the-carter-difference" },
+          { title: "Mission Statement", slug: "/mission-statement" },
+          { title: "Core Values", slug: "/core-values" },
+          { title: "How We Handle Cases", slug: "/how-we-handle-cases" },
+          { title: "The Carter Difference", slug: "/the-carter-difference" },
           {
             title: "30-Day No-Fee Satisfaction Guarantee",
-            slug: "30-day-no-fee-satisfaction-guarantee",
+            slug: "/30-day-no-fee-satisfaction-guarantee",
           },
         ],
       },
@@ -250,16 +252,32 @@ const MainNavbar = () => {
         slug: "/faq",
         subMenu: [
           {
-            title: "Auto Accident",
+            title: "Auto Accidents",
             slug: "/faq",
           },
-          // { title: "Car Accident", slug: "car-accident" },
-          // { title: "Personal Injury", slug: "personal-injury" },
-          // { title: "Airline Injuries", slug: "airline-injuries" },
-          // {
-          //   title: "Boating Accidents",
-          //   slug: "boating-accidents",
-          // },
+          { title: "Premises Liability", slug: "/faq" },
+          { title: "General Negligence", slug: "/faq" },
+          { title: "Wrongful Death", slug: "/faq" },
+          {
+            title: "Medical Malpractice",
+            slug: "/faq",
+          },
+          {
+            title: "Nursing Home Abuse",
+            slug: "/faq",
+          },
+          {
+            title: "Workers Compensation",
+            slug: "/faq",
+          },
+          {
+            title: "Workers Compensation",
+            slug: "/faq",
+          },
+          {
+            title: "Product Liability",
+            slug: "/faq",
+          },
         ],
       },
       { title: "Blog", slug: "/blog" },
@@ -320,7 +338,7 @@ const MainNavbar = () => {
                     alt="footer logo"
                     width={500}
                     height={500}
-                    className="cursor-pointer w-[400px]  h-[46px]"
+                    className="cursor-pointer w-[400px]  h-[56px]"
                   />
                 </Link>
                 <Image
@@ -391,7 +409,16 @@ const MainNavbar = () => {
                         </span>
                       </div>
                     ) : (
-                      <Link href={menuItem.slug}>{menuItem.title}</Link>
+                      <Link
+                        href={menuItem.slug}
+                        className={`${
+                          pathname === menuItem.slug
+                            ? "border-b-2 border-white"
+                            : ""
+                        }`}
+                      >
+                        {menuItem.title}
+                      </Link>
                     )}
                   </button>
 
@@ -434,7 +461,11 @@ const MainNavbar = () => {
                               <Link
                                 onClick={handleMouseLeave}
                                 href={subMenuItem.slug}
-                                className={`${activeSubMenu === subIndex ? "text-red-700" : ""}`}
+                                className={`${
+                                  pathname === subMenuItem?.slug
+                                    ? "text-primary"
+                                    : "hover:text-primary "
+                                }`}
                               >
                                 {subMenuItem.title}
                               </Link>
@@ -493,7 +524,7 @@ const MainNavbar = () => {
 
             <NavbarMenu className="overflow-hidden w-full pl-0 ml-0">
               {isMenuOpen && (
-                <ul className="block md:hidden space-y-2 p-4 text-black rounded  list-none w-full">
+                <ul className="block md:hidden space-y-2 p-4 text-black rounded  list-none w-full overflow-y-scroll overflow-x-hidden">
                   {menuItems.map((menuItem, index) => (
                     <li
                       key={index}
@@ -524,7 +555,11 @@ const MainNavbar = () => {
                         <Link
                           onClick={() => setIsMenuOpen(false)}
                           href={menuItem?.slug}
-                          className="block py-1 text-black hover:text-red-500"
+                          className={`block py-1  hover:text-primary ${
+                            pathname === menuItem.slug
+                              ? "text-primary"
+                              : "text-black"
+                          }`}
                         >
                           {menuItem?.title}
                         </Link>
@@ -559,7 +594,11 @@ const MainNavbar = () => {
                                 <Link
                                   onClick={() => setIsMenuOpen(false)}
                                   href={subMenuItem?.slug}
-                                  className="block py-1 text-black hover:text-red-500 pl-3"
+                                  className={`block py-1  hover:text-primary pl-3 ${
+                                    pathname === subMenuItem?.slug
+                                      ? "text-primary"
+                                      : "text-black"
+                                  }`}
                                 >
                                   {subMenuItem.title}
                                 </Link>

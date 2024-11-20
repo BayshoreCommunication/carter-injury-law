@@ -30,7 +30,7 @@ const MissionStatement = () => {
             employees as people first. We are committed to delivering
             exceptional legal care without compromising our core values. Whether
             you’re a client, a vendor, a medical provider, or a member of our
-            legal team, at Carter Injury Law - YOU are never just a number! You
+            legal team, at Carter Injury Law - You are never just a number! YOU
             are a winner!
           </p>
         </div>
