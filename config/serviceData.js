@@ -329,105 +329,80 @@ export const allServiceData = [
                 
               </div>`,
   },
+
   {
-    icon: "/assets/servicepage/icon/temporary-partial-disability-icon.png",
-    title: "Temporary Partial Disability Claims",
-    slug: "temporary-partial-disability",
-    details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-                    Temporary Partial Disability Claims
-                  </h2>
-                  <img
-                    src="/assets/servicepage/workers-compensation/temporary-partial-disability.jpg"
-                    alt="Burn Injuries"
-                    className="w-full py-3"
-                  />
-                  <p className="text-base md:text-lg">
-                    Temporary Partial Disability (TPD) claims refer to
-                    compensation for individuals who are temporarily unable to
-                    work at full capacity due to an injury or illness but are
-                    still able to perform some tasks. These claims are designed
-                    to provide financial support during recovery when a person’s
-                    ability to earn a full income is affected. This type of
-                    claim is essential for those facing a partial loss of wages
-                    due to a temporary disability.
-                  </p>
-                  <div>
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
-                      Who Should File a Claim and Why Having an Attorney Is
-                      Essential
-                    </p>
-                    
-                      <ul className="list-disc text-base md:text-lg pl-5">
-                        <li>
-                          <span className="font-bold pr-1">
-                            Benefits of Filing:
-                          </span>
-                          For workers who have been doing a modified job that
-                          pays less than their usual role, TPD benefits help
-                          cover the difference, ensuring they don’t lose
-                          financial stability during recovery. If their injury
-                          requires ongoing medical treatment or long-term
-                          rehabilitation, TPD benefits provide financial relief,
-                          allowing them to focus on healing without added
-                          financial stress.
-                        </li>
+    icon: "/assets/servicepage/icon/truck-icon-2.png",
+    title: "Delivery Truck Accidents",
+    slug: "delivery-truck-accidents",
+    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
-                        <li>
-                          <span className="font-bold pr-1">
-                            Consequences Without Representation:
-                          </span>
-                          In Florida, the statute of limitations for filing a
-                          temporary partial disability (TPD) claim is governed
-                          by §440.19 of the Florida Workers' Compensation Law.
-                          According to this statute, you must file your claim
-                          within two years from the date of your accident or the
-                          date you last received benefits, whichever is later.
-                        </li>
-                        <p>
-                          Having a lawyer ensures all paperwork is accurate and
-                          timely. Moreover, insurance companies may try to
-                          minimize the benefits by questioning the extent of
-                          injury. Without legal guidance, individuals risk
-                          missing out on full compensation, which can strain the
-                          recovery process.
-                        </p>
-                      </ul>
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
-                      Carter Injury Law: Committed to Securing the Justice You
-                      Deserve
-                    </p>
-                    <p className="text-base  md:text-lg">
-                      <ul className="list-disc text-base md:text-lg pl-5">
-                        <li>
-                          We start with a free, detailed evaluation to explain
-                          your rights, eligibility, and best next steps.
-                        </li>
+    Delivery Truck Accidents
+  
+    </h2>
 
-                        <li>
-                          Our team handles everything from gathering medical
-                          evidence to negotiating with insurers, making sure
-                          your claim is strong and fully supported.
-                        </li>
+    
+    <img
+      src="/assets/servicepage/auto-accidents/delivery-truck-accidents.jpg"
+      alt="Delivery Truck Accidents"
+      className="w-full py-3"
+    />
 
-                        <li>
-                          We work tirelessly to ensure you receive maximum
-                          compensation, standing by you if extended benefits or
-                          appeals are needed.
-                        </li>
-                        <li>
-                          We’re here to guide you through every step, offering
-                          advice on other resources and legal options to support
-                          your overall recovery journey.
-                        </li>
-                      </ul>
-                    </p>
-                  </div>
-                </div>`,
+
+
+    <p className="text-base md:text-lg">
+        Delivery truck accidents can occur when large commercial vehicles are involved in collisions while transporting goods. These accidents may involve trucks delivering to businesses, homes, or distribution centers, and they can result in serious injuries due to the size and weight of the vehicle. If you’ve been injured in a delivery truck accident, Florida law allows you to seek compensation if the accident was caused by negligence, whether it’s due to driver error, maintenance issues, or improperly secured cargo.
+    </p>
+
+    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+        Who Should File a Claim and Why Having an Attorney Is Essential
+    </p>
+
+  <ul class="list-disc text-base md:text-lg pl-5">
+      <li>
+          <span class="font-bold">
+              Benefits of Filing: 
+          </span>
+          Victims of delivery truck accidents can recover compensation for medical expenses, lost wages, pain and suffering, and property damage. Filing a claim can help you address the financial burden that comes with recovery, as well as bring accountability to the parties responsible for the accident. Whether the injury is temporary or permanent, seeking legal action ensures that you get the compensation you need to rebuild your life.
+      </li>
+
+      <li>
+          <span class="font-bold">
+              Consequences Without Representation: 
+          </span> 
+           Without legal representation, securing fair compensation for delivery truck accident victims can be challenging. Insurance companies often attempt to minimize settlements, and in complex cases involving multiple liable parties, it can be difficult for victims to prove fault. Without an experienced attorney, victims may face difficulties in gathering evidence and understanding their rights, leaving them vulnerable to inadequate settlements that do not cover the full scope of their damages.
+      </li>
+    </ul>
+  </p>
+
+
+   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+      Carter Injury Law: Committed to Securing the Justice You Deserve
+    </p>
+
+   
+      <ul class="list-disc text-base md:text-lg pl-5">
+        <li>
+           We have the expertise to investigate delivery truck accidents thoroughly, identifying all parties at fault, including the driver, the trucking company, or even the manufacturer of faulty equipment.
+        </li>
+
+        <li>
+            We negotiate aggressively with insurance companies to ensure that your compensation reflects the true costs of your injuries, including medical expenses, lost wages, and pain and suffering.
+        </li>
+
+        <li>
+            In Florida, you have up to two years from the accident date to file a claim. We act quickly to ensure that your case is handled efficiently and that your rights are protected from the outset.
+        </li>
+      </ul>
+    </p>
+</div>
+`,
   },
+
+
+  //
+  
+  //
   {
     icon: "/assets/servicepage/icon/pedestrian-icon.png",
     title: "Pedestrian Personal Injury Litigation",
@@ -726,74 +701,110 @@ export const allServiceData = [
               </p>
             </div>`,
   },
-  {
-    icon: "/assets/servicepage/icon/truck-icon-2.png",
-    title: "Delivery Truck Accidents",
-    slug: "delivery-truck-accidents",
-    details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+//
+{
+  icon: "/assets/servicepage/icon/temporary-partial-disability-icon.png",
+  title: "Temporary Partial Disability Claims",
+  slug: "temporary-partial-disability",
+  details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
+                <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  Temporary Partial Disability Claims
+                </h2>
+                <img
+                  src="/assets/servicepage/workers-compensation/temporary-partial-disability.jpg"
+                  alt="Burn Injuries"
+                  className="w-full py-3"
+                />
+                <p className="text-base md:text-lg">
+                  Temporary Partial Disability (TPD) claims refer to
+                  compensation for individuals who are temporarily unable to
+                  work at full capacity due to an injury or illness but are
+                  still able to perform some tasks. These claims are designed
+                  to provide financial support during recovery when a person’s
+                  ability to earn a full income is affected. This type of
+                  claim is essential for those facing a partial loss of wages
+                  due to a temporary disability.
+                </p>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    Who Should File a Claim and Why Having an Attorney Is
+                    Essential
+                  </p>
+                  
+                    <ul className="list-disc text-base md:text-lg pl-5">
+                      <li>
+                        <span className="font-bold pr-1">
+                          Benefits of Filing:
+                        </span>
+                        For workers who have been doing a modified job that
+                        pays less than their usual role, TPD benefits help
+                        cover the difference, ensuring they don’t lose
+                        financial stability during recovery. If their injury
+                        requires ongoing medical treatment or long-term
+                        rehabilitation, TPD benefits provide financial relief,
+                        allowing them to focus on healing without added
+                        financial stress.
+                      </li>
 
-    Delivery Truck Accidents
-  
-    </h2>
+                      <li>
+                        <span className="font-bold pr-1">
+                          Consequences Without Representation:
+                        </span>
+                        In Florida, the statute of limitations for filing a
+                        temporary partial disability (TPD) claim is governed
+                        by §440.19 of the Florida Workers' Compensation Law.
+                        According to this statute, you must file your claim
+                        within two years from the date of your accident or the
+                        date you last received benefits, whichever is later.
+                      </li>
+                      <p>
+                        Having a lawyer ensures all paperwork is accurate and
+                        timely. Moreover, insurance companies may try to
+                        minimize the benefits by questioning the extent of
+                        injury. Without legal guidance, individuals risk
+                        missing out on full compensation, which can strain the
+                        recovery process.
+                      </p>
+                    </ul>
+                  </p>
+                </div>
+                <div>
+                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    Carter Injury Law: Committed to Securing the Justice You
+                    Deserve
+                  </p>
+                  <p className="text-base  md:text-lg">
+                    <ul className="list-disc text-base md:text-lg pl-5">
+                      <li>
+                        We start with a free, detailed evaluation to explain
+                        your rights, eligibility, and best next steps.
+                      </li>
 
-    
-    <img
-      src="/assets/servicepage/auto-accidents/delivery-truck-accidents.jpg"
-      alt="Delivery Truck Accidents"
-      className="w-full py-3"
-    />
+                      <li>
+                        Our team handles everything from gathering medical
+                        evidence to negotiating with insurers, making sure
+                        your claim is strong and fully supported.
+                      </li>
+
+                      <li>
+                        We work tirelessly to ensure you receive maximum
+                        compensation, standing by you if extended benefits or
+                        appeals are needed.
+                      </li>
+                      <li>
+                        We’re here to guide you through every step, offering
+                        advice on other resources and legal options to support
+                        your overall recovery journey.
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+              </div>`,
+},
+
+//
 
 
-
-    <p className="text-base md:text-lg">
-        Delivery truck accidents can occur when large commercial vehicles are involved in collisions while transporting goods. These accidents may involve trucks delivering to businesses, homes, or distribution centers, and they can result in serious injuries due to the size and weight of the vehicle. If you’ve been injured in a delivery truck accident, Florida law allows you to seek compensation if the accident was caused by negligence, whether it’s due to driver error, maintenance issues, or improperly secured cargo.
-    </p>
-
-    <p class="text-base md:text-lg font-bold mb-1 pl-5">
-        Who Should File a Claim and Why Having an Attorney Is Essential
-    </p>
-
-  <ul class="list-disc text-base md:text-lg pl-5">
-      <li>
-          <span class="font-bold">
-              Benefits of Filing: 
-          </span>
-          Victims of delivery truck accidents can recover compensation for medical expenses, lost wages, pain and suffering, and property damage. Filing a claim can help you address the financial burden that comes with recovery, as well as bring accountability to the parties responsible for the accident. Whether the injury is temporary or permanent, seeking legal action ensures that you get the compensation you need to rebuild your life.
-      </li>
-
-      <li>
-          <span class="font-bold">
-              Consequences Without Representation: 
-          </span> 
-           Without legal representation, securing fair compensation for delivery truck accident victims can be challenging. Insurance companies often attempt to minimize settlements, and in complex cases involving multiple liable parties, it can be difficult for victims to prove fault. Without an experienced attorney, victims may face difficulties in gathering evidence and understanding their rights, leaving them vulnerable to inadequate settlements that do not cover the full scope of their damages.
-      </li>
-    </ul>
-  </p>
-
-
-   <p class="text-base md:text-lg font-bold mb-1 pl-5">
-      Carter Injury Law: Committed to Securing the Justice You Deserve
-    </p>
-
-   
-      <ul class="list-disc text-base md:text-lg pl-5">
-        <li>
-           We have the expertise to investigate delivery truck accidents thoroughly, identifying all parties at fault, including the driver, the trucking company, or even the manufacturer of faulty equipment.
-        </li>
-
-        <li>
-            We negotiate aggressively with insurance companies to ensure that your compensation reflects the true costs of your injuries, including medical expenses, lost wages, and pain and suffering.
-        </li>
-
-        <li>
-            In Florida, you have up to two years from the accident date to file a claim. We act quickly to ensure that your case is handled efficiently and that your rights are protected from the outset.
-        </li>
-      </ul>
-    </p>
-</div>
-`,
-  },
   {
     icon: "/assets/servicepage/icon/wrongful-death-icon.png",
     title: "Wrongful Personal Injury Litigation",
