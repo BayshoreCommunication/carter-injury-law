@@ -3,6 +3,7 @@ import React from "react";
 import SectionLayout from "./SectionLayout";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 
 const FAQ = () => {
   return (
@@ -15,6 +16,7 @@ const FAQ = () => {
         </h2>
 
         <Accordion className="w-full" dividerProps={"border-red"}>
+          
           <AccordionItem
             key="1"
             aria-label="Accordion 1"
@@ -50,6 +52,7 @@ const FAQ = () => {
               retaining us costs you nothing unless you win your case.
             </p>
           </AccordionItem>
+          
           <AccordionItem
             key="2"
             aria-label="Accordion 2"

@@ -40,6 +40,36 @@ ul {
 
 `;
 
+export async function generateMetadata({ params }) {
+  const blogPostData = await GetAllPostData();
+
+  const blogDetails = blogPostData?.data?.find(
+    (blogs) => blogs.slug === params.slug
+  );
+
+  if (!blogDetails) {
+    return {
+      title: "Blog not found",
+      description: "No blog post available.",
+    };
+  }
+
+  let description = parse(blogDetails?.body);
+  console.log(description[0]?.props?.children);
+  return {
+    title: blogDetails?.title,
+    description: description[0]?.props?.children || blogDetails?.excerpt,
+    openGraph: {
+      title: blogDetails?.title,
+      description: description[0]?.props?.children || blogDetails?.excerpt,
+      images: blogDetails?.featuredImage?.image?.url,
+      url: `https://www.carterinjurylaw.com/blog/${blogDetails?.slug}`,
+      type: "article",
+      site_name: "carterinjurylaw.com",
+    },
+  };
+}
+
 const page = async ({ params }) => {
   const blogPostData = await GetAllPostData();
 
