@@ -218,7 +218,7 @@ const MainNavbar = () => {
         ],
       },
       {
-        title: "Our team",
+        title: "Our Team",
         slug: "/our-team",
         subMenu: [
           {
