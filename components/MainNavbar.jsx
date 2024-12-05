@@ -1,19 +1,17 @@
 "use client";
-import React, { useState, useEffect, useCallback, useMemo } from "react";
 import {
   Navbar,
   NavbarBrand,
   NavbarContent,
-  NavbarMenuToggle,
   NavbarMenu,
-  NavbarMenuItem,
+  NavbarMenuToggle,
 } from "@nextui-org/react";
-import { LuUser2 } from "react-icons/lu";
-import { IoCall } from "react-icons/io5";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { Orbitron } from "next/font/google";
 import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import React, { useCallback, useEffect, useMemo, useState } from "react";
+import { IoCall } from "react-icons/io5";
 
 const orbitron = Orbitron({ subsets: ["latin"] });
 
@@ -501,7 +499,7 @@ const MainNavbar = () => {
           </div>
         </div>
 
-        <div className="md:hidden ">
+        <div className="md:hidden relative z-50">
           <Navbar
             isMenuOpen={isMenuOpen}
             onMenuOpenChange={setIsMenuOpen}

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import HeaderForm from "../shared/HeaderForm";
 import SectionLayout from "../shared/SectionLayout";
 
@@ -20,13 +19,13 @@ const TestimonialsHeader = () => {
             Testimonials
           </h2>
         </div>
-        <div className="absolute -bottom-60 right-[12%] hidden lg:block">
+        <div className="absolute -bottom-60 right-[12%] hidden lg:block ">
           <HeaderForm className="bg-white" />
         </div>
       </div>
-      <div className="block md:hidden">
+      <div className="block md:hidden relative z-30">
         <SectionLayout>
-          <HeaderForm className="bg-white max-w-[500px] z-50" />
+          <HeaderForm className="bg-white max-w-[500px] " />
         </SectionLayout>
       </div>
     </div>
