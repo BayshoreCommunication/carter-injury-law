@@ -1,6 +1,7 @@
 import SectionLayout from "./SectionLayout";
-import { PiPhoneCallFill } from "react-icons/pi";
+import { IoCall } from "react-icons/io5";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
+import Link from "next/link";
 
 const CallToAction = () => {
   return (
@@ -30,8 +31,10 @@ const CallToAction = () => {
                 href="tel:+18139220228"
                 className="flex items-center gap-3 px-3 lg:px-8 py-2 lg:py-4 rounded-xl lg:rounded-[20px] border-2 md:border-3 lg:border-5 border-[#000000] bg-white text-xl lg:text-xl xl:text-2xl hover:scale-105  transition duration-500"
               >
-                <PiPhoneCallFill color="#ED1B24" size="30" />
-                <span className="font-semibold">(813) 922-0228</span>
+                <IoCall color="#ED1B24" size="30" />
+                <Link href={"tel:(813)922-0228"} className="font-semibold">
+                  (813) 922-0228
+                </Link>
               </a>
             </ScrollMotionEffect>
           </div>

@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { Cinzel } from "next/font/google";
+import { IoCall } from "react-icons/io5";
 
 const cinzel = Cinzel({ subsets: ["latin"] });
 
@@ -15,7 +16,7 @@ const PracticeAreaSidebarCard = ({ allServiceData }) => {
       {/* Practice Areas Section */}
       <div className="w-full flex flex-col gap-6 md:gap-10">
         <div className="shadow-[0_0_30px_rgba(0,0,0,0.3)] p-5 lg:p-8">
-          <div className="flex items-center h-full gap-4">
+          <div className="flex items-center h-full gap-4 mb-3">
             <div className="w-[30%] shrink-0">
               <Image
                 src="/assets/servicepage/carter-img.png"
@@ -39,6 +40,12 @@ const PracticeAreaSidebarCard = ({ allServiceData }) => {
               </p>
             </div>
           </div>
+          <Link
+            href={"tel:(813)922-0228"}
+            className="text-[#ED1B24] font-semibold text-xl xl:text-2xl 2xl:text-3xl mt-2 xl:mt-0 underline flex justify-center items-center gap-2"
+          >
+            <IoCall size="24" /> (813)922-0228
+          </Link>
         </div>
 
         {/* Practice Areas List */}

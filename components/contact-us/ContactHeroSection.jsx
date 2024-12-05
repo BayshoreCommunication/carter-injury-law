@@ -1,6 +1,6 @@
 import React from "react";
 import SectionLayout from "../shared/SectionLayout";
-import { PiPhoneCallFill } from "react-icons/pi";
+import { IoCall } from "react-icons/io5";
 import { IoMdHome } from "react-icons/io";
 import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
@@ -45,10 +45,10 @@ const ContactHeroSection = () => {
                     Contact us 24/7
                   </h3>
                   <ul className="flex  flex-wrap  items-center gap-3">
-                    <li className="flex flex-wrap items-center gap-1">
-                      <PiPhoneCallFill color="#EC1D21" size="24" />{" "}
-                      <span>(813) 922-0228,</span>
-                      <span>(727) 955-1922</span>
+                    <li className="flex flex-wrap items-center gap-2">
+                      <IoCall color="#EC1D21" size="24" />{" "}
+                      <Link href={"tel:(813)922-0228"}>(813) 922-0228</Link>,{" "}
+                      <Link href={"tel:(727)955-1922"}>(727) 955-1922</Link>
                     </li>
                     <li className="flex items-center gap-1">
                       <IoMdHome color="#EC1D21" size="24" />

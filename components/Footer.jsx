@@ -29,13 +29,13 @@ const Footer = () => {
                   CONTACT 24/7
                 </h4>
                 <Link
-                  href="tel:+18139220228"
+                  href={"tel:(813)922-0228"}
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   (813) 922-0228
                 </Link>
                 <Link
-                  href="tel:+7279551922"
+                  href={"tel:(727)955-1922"}
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500"
                 >
                   (727) 955-1922

@@ -6,6 +6,8 @@ import { send } from "emailjs-com";
 import Swal from "sweetalert2";
 import { MdArrowOutward } from "react-icons/md";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
+import Link from "next/link";
+import { IoCall } from "react-icons/io5";
 
 const HeaderForm = ({ className }) => {
   const [emailForm, setEmailForm] = useState({
@@ -94,7 +96,7 @@ const HeaderForm = ({ className }) => {
   };
 
   return (
-    <div>
+    <div className="relative z-50">
       <ScrollMotionEffect effect="fade-up" duration="2000">
         <div
           className={` ${className} max-w-[500px] rounded-[22px] pt-5 mx-auto`}
@@ -109,6 +111,12 @@ const HeaderForm = ({ className }) => {
             <p className="text-[16px] md:text-[20px] font-bold py-3">
               FREE CONFIDENTIAL CASE EVALUATION
             </p>
+            <Link
+              href={"tel:(813)922-0228"}
+              className="text-[#EC1D21] font-semibold text-xl xl:text-2xl 2xl:text-3xl mt-2 xl:mt-0 underline flex items-center gap-2 justify-center  mb-3"
+            >
+              <IoCall size="24" /> (813)922-0228
+            </Link>
           </div>
           <div className="rounded-2xl p-2 bg-[#0D3E8A] mt-2 shadow-lg md:shadow-2xl">
             <div className="bg-white p-4 rounded-xl border-5 border-[#1E2538] shadow-2xl">

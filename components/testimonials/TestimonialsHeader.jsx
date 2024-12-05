@@ -20,13 +20,13 @@ const TestimonialsHeader = () => {
             Testimonials
           </h2>
         </div>
-        <div className="absolute -bottom-52 right-[12%] hidden lg:block">
+        <div className="absolute -bottom-60 right-[12%] hidden lg:block">
           <HeaderForm className="bg-white" />
         </div>
       </div>
       <div className="block md:hidden">
         <SectionLayout>
-          <HeaderForm className="bg-white max-w-[500px]" />
+          <HeaderForm className="bg-white max-w-[500px] z-50" />
         </SectionLayout>
       </div>
     </div>

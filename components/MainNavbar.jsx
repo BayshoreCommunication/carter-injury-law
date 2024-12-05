@@ -360,13 +360,16 @@ const MainNavbar = () => {
                   24/7{" "}
                 </h2>
               </div>
-              <div className="">
+              <div className=" text-center">
                 <h6 className="text-white font-medium text-[14px]  2xl:text-lg">
                   Free Confidential case Evaluation
                 </h6>
-                <h2 className="text-white font-semibold  text-xl xl:text-2xl 2xl:text-3xl mt-2 xl:mt-0">
-                  (813) 922-0228
-                </h2>
+                <Link
+                  href={"tel:(813)922-0228"}
+                  className="text-white font-semibold text-xl xl:text-2xl 2xl:text-3xl mt-2 xl:mt-0 underline flex items-center gap-2"
+                >
+                  <IoCall size="24" /> (813)922-0228
+                </Link>
               </div>
             </div>
           </div>
