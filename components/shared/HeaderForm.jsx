@@ -96,7 +96,7 @@ const HeaderForm = ({ className }) => {
   };
 
   return (
-    <div className="relative z-50">
+    <div className="relative z-40">
       <ScrollMotionEffect effect="fade-up" duration="2000">
         <div
           className={` ${className} max-w-[500px] rounded-[22px] pt-5 mx-auto`}
