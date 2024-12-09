@@ -9,6 +9,15 @@ export const metadata = {
   title: "Top Tampa Personal Injury Lawyer in florida | Carter Injury Law",
   description:
     "Reach out to Carter Injury Law, your trusted personal injury attorneys in Tampa, Florida. Contact us for expert legal advice on auto accidents, slip and falls, medical malpractice, and more. We're here to help with your injury claim!",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+  openGraph: {
+    images: "/opengraph-image.jpg",
+  },
 };
 
 const page = () => {
