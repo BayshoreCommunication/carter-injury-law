@@ -13,7 +13,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://carter-injury-law.vercel.app"),
+  metadataBase: new URL("https://www.carterinjurylaw.com/"),
 };
 
 export default function RootLayout({ children }) {
