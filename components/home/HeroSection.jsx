@@ -1,8 +1,8 @@
 "use client";
-import React, { memo } from "react";
-import SectionLayout from "../shared/SectionLayout";
-import HeaderForm from "../shared/HeaderForm";
 import Image from "next/image";
+import { memo } from "react";
+import HeaderForm from "../shared/HeaderForm";
+import SectionLayout from "../shared/SectionLayout";
 
 const HeroSection = () => {
   const text = "Hardam Tripathi, Esq.".split(" ");
@@ -38,7 +38,7 @@ const HeroSection = () => {
         </div>
       </div>
       <SectionLayout>
-        <div className="lg:hidden block">
+        <div className="lg:hidden block relative z-30">
           <HeaderForm />
         </div>
       </SectionLayout>
@@ -47,5 +47,3 @@ const HeroSection = () => {
 };
 
 export default memo(HeroSection);
-
-

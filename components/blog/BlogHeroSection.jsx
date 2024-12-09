@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import HeaderForm from "../shared/HeaderForm";
 import SectionLayout from "../shared/SectionLayout";
 
@@ -25,7 +24,7 @@ const BlogHeroSection = () => {
           <HeaderForm className="bg-white" />
         </div>
       </div>
-      <div className="block md:hidden">
+      <div className="block md:hidden relative z-30">
         <SectionLayout>
           <HeaderForm className="bg-white" />
         </SectionLayout>
