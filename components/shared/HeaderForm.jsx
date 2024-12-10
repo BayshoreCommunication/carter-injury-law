@@ -102,10 +102,10 @@ const HeaderForm = ({ className }) => {
           className={` ${className} max-w-[500px] rounded-[22px] pt-5 mx-auto`}
         >
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-[#EC1D21] leading-none">
+            <h1 className="text-4xl md:text-5xl 2xl:text-6xl font-bold text-[#EC1D21] leading-none">
               Hurt?
             </h1>
-            <h1 className="text-4xl md:text-6xl  font-bold text-[#EC1D21] leading-none">
+            <h1 className="text-4xl md:text-5xl 2xl:text-6xl font-bold text-[#EC1D21] leading-none">
               We Can Help!
             </h1>
             <p className="text-[16px] md:text-[20px] font-bold py-3">
