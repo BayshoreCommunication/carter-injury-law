@@ -69,6 +69,36 @@ nav{
 
 `;
 
+export async function generateMetadata({ params }) {
+  const servicesDetails = allServiceData?.filter(
+    (service) => service.slug === params.slug
+  );
+
+  if (!servicesDetails || servicesDetails.length === 0) {
+    notFound();
+  }
+  //console.log(servicesDetails);
+  return {
+    title: servicesDetails[0]?.title,
+    description: servicesDetails[0]?.metaDescription,
+    openGraph: {
+      title: servicesDetails[0]?.title,
+      description: servicesDetails[0]?.metaDescription,
+      images: [
+        {
+          url: servicesDetails[0]?.image,
+          width: 1200,
+          height: 800,
+          alt: servicesDetails[0]?.title,
+        },
+      ],
+      siteName: "Carter Injury Law",
+      type: "article",
+      locale: "en_US",
+    },
+  };
+}
+
 const page = async ({ params }) => {
   const servicesDetails = allServiceData?.filter(
     (service) => service.slug === params.slug
@@ -80,18 +110,18 @@ const page = async ({ params }) => {
 
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>{servicesDetails[0]?.title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content={"servicesDetails[0]?.description"} />
-      </Head>
+      </Head> */}
       <style>{css}</style>
       <PracticeAreaDetailsHeader title={servicesDetails[0]?.title} />
       <div>
         <SectionLayout bg="bg-white">
-          <div className="grid gap-16 gird-col-1 sm:grid-cols-3">
+          <div className="grid gap-5 xl:gap-16 gird-col-1 grid-cols-3">
             {servicesDetails?.map((services, index) => (
-              <div className="col-span-2">
+              <div className="col-span-3 lg:col-span-2">
                 <div className="mt-5 text-base">{parse(services?.details)}</div>
                 {/* ============ Practice Area Details =========== */}
                 {/* <div className="w-full flex flex-col gap-2 lg:gap-4">
@@ -193,7 +223,7 @@ const page = async ({ params }) => {
               </div>
             ))}
             {/* =========== PracticeAreaSidebarCard =================== */}
-            <div className="hidden md:block">
+            <div className="hidden lg:block">
               <PracticeAreaSidebarCard allServiceData={allServiceData} />
             </div>
           </div>

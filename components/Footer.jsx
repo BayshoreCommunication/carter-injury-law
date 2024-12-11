@@ -193,10 +193,18 @@ const Footer = () => {
               </p>
             </div>
             <div className=" flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-2 lg:gap-4">
-              <div className="flex flex-wrap gap-3 text-white justify-center lg:justify-start">
+              <div className="flex flex-wrap gap-3 text-white justify-between lg:justify-start">
                 <span>© 2024 CarterInjuryLaw.com</span>
                 <span>|</span>
-                <span>All Rights Reserved Disclaimer</span>
+                <span>All Rights Reserved</span>
+              </div>
+              <div className="flex flex-wrap gap-3 text-white justify-between items-center lg:justify-start">
+                <Link
+                  href="/privacy-policy"
+                  className="hover:text-[#EC1D21] duration-300"
+                >
+                  Disclaimer
+                </Link>
                 <span>|</span>
                 <Link
                   href="/privacy-policy"

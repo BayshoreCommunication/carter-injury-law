@@ -1,296 +1,317 @@
+import { image } from "@nextui-org/react";
+
 export const allServiceData = [
   // Auto Accidents
   {
     icon: "/assets/servicepage/icon/auto-accidents.png",
     title: "Tampa Bay Auto Accidents Lawyer",
     slug: "tampa-bay-auto-accidents-lawyer",
+    image: "/assets/servicepage/tampa-bay-personal-injury-lawyer.jpg",
+    metaDescription:
+      "Tampa Bay auto accidents lawyer offers legal representation for individuals who have been injured in auto accidents across the Tampa Bay area. This service handles a variety of cases, including accidents involving other vehicles, pedestrians, cyclists, and even commercial trucks, ensuring that you have the support you need to pursue compensation for your injuries and damages.",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-    Tampa Bay Auto Accidents Lawyer
-  </h2>
-  <img
-    src="/assets/servicepage/tampa-bay-personal-injury-lawyer.jpg"
-    alt="Car Accident"
-    className="w-full py-3"
-  />
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+      Tampa Bay Auto Accidents Lawyer
+    </h1>
+    <img
+      src="/assets/servicepage/tampa-bay-personal-injury-lawyer.jpg"
+      alt="Car Accident"
+      className="w-full py-3"
+    />
 
-  <p className="text-base md:text-lg">
-    Tampa Bay auto accidents lawyer offers legal representation for individuals who have been injured in auto accidents across the Tampa Bay area. This service handles a variety of cases, including accidents involving other vehicles, pedestrians, cyclists, and even commercial trucks, ensuring that you have the support you need to pursue compensation for your injuries and damages.
-  </p>
+    <p className="text-base md:text-lg">
+      Tampa Bay auto accidents lawyer offers legal representation for individuals who have been injured in auto accidents across the Tampa Bay area. This service handles a variety of cases, including accidents involving other vehicles, pedestrians, cyclists, and even commercial trucks, ensuring that you have the support you need to pursue compensation for your injuries and damages.
+    </p>
 
-  <p className="text-base md:text-lg font-bold mb-1">
-     Who can benefit from Our Lawyer ?
-  </p>
+    <p className="text-base md:text-lg font-bold mb-1">
+       Who can benefit from Our Lawyer ?
+    </p>
 
-  <p className="text-base md:text-lg">
-    Our Auto accident lawyer represents anyone in the Tampa Bay area who has been involved in an auto accident and suffered injuries or property damage because of another driver’s negligence. Whether you were driving, riding as a passenger, walking as a pedestrian, or cycling, if you’ve been hurt in an accident, our team is ready to guide you through the legal process and fight to get you the compensation you need.
-  </p>
+    <p className="text-base md:text-lg">
+      Our Auto accident lawyer represents anyone in the Tampa Bay area who has been involved in an auto accident and suffered injuries or property damage because of another driver’s negligence. Whether you were driving, riding as a passenger, walking as a pedestrian, or cycling, if you’ve been hurt in an accident, our team is ready to guide you through the legal process and fight to get you the compensation you need.
+    </p>
 
+    <p className="text-base md:text-lg font-bold mb-1">
+       How Carter Injury Law Fights for Your Justice
+    </p>
 
-  <p className="text-base md:text-lg font-bold mb-1">
-     How Carter Injury Law Fights for Your Justice
-  </p>
+    <p className="text-base md:text-lg">
+      Carter Injury Law is here to help you navigate the complexities of your auto accident claim. We'll leave no stone unturned in investigating your accident. Our team will meticulously gather evidence, interview witnesses, and consult with experts to build a compelling case. We'll negotiate with insurance companies on your behalf, advocating for your rights and ensuring you receive the maximum compensation possible. If necessary, we're prepared to take your case to court to fight for justice.
+    </p>
 
-  <p className="text-base md:text-lg">
-    Carter Injury Law is here to help you navigate the complexities of your auto accident claim. We'll leave no stone unturned in investigating your accident. Our team will meticulously gather evidence, interview witnesses, and consult with experts to build a compelling case. We'll negotiate with insurance companies on your behalf, advocating for your rights and ensuring you receive the maximum compensation possible. If necessary, we're prepared to take your case to court to fight for justice.
-  </p>
-
-</div>
-`,
+  </div>
+  `,
   },
   {
     icon: "/assets/servicepage/icon/car-icon.png",
     title: "Tampa Bay Car Accidents Lawyer",
     slug: "tampa-bay-car-accidents-lawyer",
+    image: "/assets/servicepage/auto-accident-personal-injury-litigation.jpg",
+    metaDescription:
+      "Auto accident personal injury litigation involves legal representation for victims injured in car accidents due to another party's negligence. This service helps clients seek compensation for medical expenses, lost wages, property damage, and emotional suffering.",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-     Tampa Bay Car Accidents Lawyer
-    </h2>
+      <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+       Tampa Bay Car Accidents Lawyer
+      </h1>
 
-    <img
-      src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
-      alt="Car Accident"
-      width={725}
-      height={510}
-      className="w-full"
-    />
+      <img
+        src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+        alt="Car Accident"
+        width={725}
+        height={510}
+        className="w-full"
+      />
 
-    <p className="text-base md:text-lg">
-      Auto accident personal injury litigation involves legal representation for victims injured in car accidents due to another party's negligence. This service helps clients seek compensation for medical expenses, lost wages, property damage, and emotional suffering.
-    </p>
-    <div>
-      <p className="text-base md:text-lg font-bold mb-1">
-        Who can benefit from this service?
-      </p>
       <p className="text-base md:text-lg">
-        It is important that you consult with an attorney as soon as
-        possible after your injury to make sure your rights are
-        protected, and you do not do anything that might jeopardize your
-        case. The attorneys at Carter Injury Law, P.A. stand ready to
-        fight for you if you’ve been injured in a motor vehicle
-        accident, slip and fall, trip and fall, dog bite, or any other
-        incident in which were you were injured due to another’s
-        negligence.
+        Auto accident personal injury litigation involves legal representation for victims injured in car accidents due to another party's negligence. This service helps clients seek compensation for medical expenses, lost wages, property damage, and emotional suffering.
       </p>
-    </div>
-    <div>
-      <p className="text-base md:text-lg font-bold mb-1">
-        Challenges You will face Without an Attorney for Auto Accident Claims
-      </p>
-      <p className="text-base md:text-lg">
-        Without an auto accident lawyer in Tampa Bay, you will face various challenges, including being pressured into accepting lowball settlement offers from insurance companies. You will struggle to deal with complex legal procedures, such as proving liability or calculating the full extent of damages. Additionally, insurance companies can attempt to shift blame or minimize the value of your claim, making it difficult to receive fair compensation without legal guidance.
-      </p>
-    </div>
-    <div>
-      <p className="text-base md:text-lg font-bold mb-1">
-        How Carter Injury Law Fights for Your Justice
-      </p>
-      <p className="text-base md:text-lg">
-        Our auto accident lawyers handle the legal complexities in Tampa Bay, ensuring you don't get taken advantage of by insurance companies. Our attorneys are skilled at gathering crucial evidence, negotiating relentlessly on your behalf, and fighting for the maximum compensation possible. We understand the tactics used by insurers and defense lawyers, and we work diligently to protect your interests. With our personalized approach, you can focus on healing while we manage every aspect of your case, from initial investigation to final resolution.
+      <div>
+        <p className="text-base md:text-lg font-bold mb-1">
+          Who can benefit from this service?
+        </p>
+        <p className="text-base md:text-lg">
+          It is important that you consult with an attorney as soon as
+          possible after your injury to make sure your rights are
+          protected, and you do not do anything that might jeopardize your
+          case. The attorneys at Carter Injury Law, P.A. stand ready to
+          fight for you if you’ve been injured in a motor vehicle
+          accident, slip and fall, trip and fall, dog bite, or any other
+          incident in which were you were injured due to another’s
+          negligence.
+        </p>
+      </div>
+      <div>
+        <p className="text-base md:text-lg font-bold mb-1">
+          Challenges You will face Without an Attorney for Auto Accident Claims
+        </p>
+        <p className="text-base md:text-lg">
+          Without an auto accident lawyer in Tampa Bay, you will face various challenges, including being pressured into accepting lowball settlement offers from insurance companies. You will struggle to deal with complex legal procedures, such as proving liability or calculating the full extent of damages. Additionally, insurance companies can attempt to shift blame or minimize the value of your claim, making it difficult to receive fair compensation without legal guidance.
+        </p>
+      </div>
+      <div>
+        <p className="text-base md:text-lg font-bold mb-1">
+          How Carter Injury Law Fights for Your Justice
+        </p>
+        <p className="text-base md:text-lg">
+          Our auto accident lawyers handle the legal complexities in Tampa Bay, ensuring you don't get taken advantage of by insurance companies. Our attorneys are skilled at gathering crucial evidence, negotiating relentlessly on your behalf, and fighting for the maximum compensation possible. We understand the tactics used by insurers and defense lawyers, and we work diligently to protect your interests. With our personalized approach, you can focus on healing while we manage every aspect of your case, from initial investigation to final resolution.
 
-      </p>
-    </div>
-    
-  </div>`,
+        </p>
+      </div>
+
+    </div>`,
   },
   {
     icon: "/assets/servicepage/icon/gavel-icon.png",
     title: "Auto Accident Personal Injury Litigation",
     slug: "auto-accident-personal-injury-litigation",
+    image: "/assets/servicepage/auto-accident-personal-injury-litigation.jpg",
+    metaDescription:
+      "Auto accident personal injury litigation involves legal representation for victims injured in car accidents due to another party's negligence. This service helps clients seek compensation for medical expenses, lost wages, property damage, and emotional suffering.",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-      Tampa Bay Auto Accidents Lawyer
-    </h2>
+      <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+        Tampa Bay Auto Accidents Lawyer
+      </h1>
 
-    <img
-      src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
-      alt="Car Accident"
-      width={725}
-      height={510}
-      className="w-full"
-    />
+      <img
+        src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
+        alt="Car Accident"
+        width={725}
+        height={510}
+        className="w-full"
+      />
 
-    <p className="text-base md:text-lg">
-      Auto accident personal injury litigation involves legal representation for victims injured in car accidents due to another party's negligence. This service helps clients seek compensation for medical expenses, lost wages, property damage, and emotional suffering.
-    </p>
-    <div>
-      <p className="text-base md:text-lg font-bold mb-1">
-        Who can benefit from this service?
-      </p>
       <p className="text-base md:text-lg">
-        It is important that you consult with an attorney as soon as
-        possible after your injury to make sure your rights are
-        protected, and you do not do anything that might jeopardize your
-        case. The attorneys at Carter Injury Law, P.A. stand ready to
-        fight for you if you’ve been injured in a motor vehicle
-        accident, slip and fall, trip and fall, dog bite, or any other
-        incident in which were you were injured due to another’s
-        negligence.
+        Auto accident personal injury litigation involves legal representation for victims injured in car accidents due to another party's negligence. This service helps clients seek compensation for medical expenses, lost wages, property damage, and emotional suffering.
       </p>
-    </div>
-    <div>
-      <p className="text-base md:text-lg font-bold mb-1">
-        Challenges You will face Without an Attorney for Auto Accident Claims
-      </p>
-      <p className="text-base md:text-lg">
-        Without an auto accident lawyer in Tampa Bay, you will face various challenges, including being pressured into accepting lowball settlement offers from insurance companies. You will struggle to deal with complex legal procedures, such as proving liability or calculating the full extent of damages. Additionally, insurance companies can attempt to shift blame or minimize the value of your claim, making it difficult to receive fair compensation without legal guidance.
-      </p>
-    </div>
-    <div>
-      <p className="text-base md:text-lg font-bold mb-1">
-        How Carter Injury Law Fights for Your Justice
-      </p>
-      <p className="text-base md:text-lg">
-        Our auto accident lawyers handle the legal complexities in Tampa Bay, ensuring you don't get taken advantage of by insurance companies. Our attorneys are skilled at gathering crucial evidence, negotiating relentlessly on your behalf, and fighting for the maximum compensation possible. We understand the tactics used by insurers and defense lawyers, and we work diligently to protect your interests. With our personalized approach, you can focus on healing while we manage every aspect of your case, from initial investigation to final resolution.
+      <div>
+        <p className="text-base md:text-lg font-bold mb-1">
+          Who can benefit from this service?
+        </p>
+        <p className="text-base md:text-lg">
+          It is important that you consult with an attorney as soon as
+          possible after your injury to make sure your rights are
+          protected, and you do not do anything that might jeopardize your
+          case. The attorneys at Carter Injury Law, P.A. stand ready to
+          fight for you if you’ve been injured in a motor vehicle
+          accident, slip and fall, trip and fall, dog bite, or any other
+          incident in which were you were injured due to another’s
+          negligence.
+        </p>
+      </div>
+      <div>
+        <p className="text-base md:text-lg font-bold mb-1">
+          Challenges You will face Without an Attorney for Auto Accident Claims
+        </p>
+        <p className="text-base md:text-lg">
+          Without an auto accident lawyer in Tampa Bay, you will face various challenges, including being pressured into accepting lowball settlement offers from insurance companies. You will struggle to deal with complex legal procedures, such as proving liability or calculating the full extent of damages. Additionally, insurance companies can attempt to shift blame or minimize the value of your claim, making it difficult to receive fair compensation without legal guidance.
+        </p>
+      </div>
+      <div>
+        <p className="text-base md:text-lg font-bold mb-1">
+          How Carter Injury Law Fights for Your Justice
+        </p>
+        <p className="text-base md:text-lg">
+          Our auto accident lawyers handle the legal complexities in Tampa Bay, ensuring you don't get taken advantage of by insurance companies. Our attorneys are skilled at gathering crucial evidence, negotiating relentlessly on your behalf, and fighting for the maximum compensation possible. We understand the tactics used by insurers and defense lawyers, and we work diligently to protect your interests. With our personalized approach, you can focus on healing while we manage every aspect of your case, from initial investigation to final resolution.
 
-      </p>
-    </div>
-    
-  </div>`,
+        </p>
+      </div>
+
+    </div>`,
   },
 
   {
     icon: "/assets/servicepage/icon/airplane-icon.png",
     title: "Airline Injuries",
     slug: "airline-injuries",
+    image: "/assets/servicepage/airline-injuries.jpg",
+    metaDescription:
+      "Tampa airplane accident litigation involves legal representation for victims of aviation accidents, including both commercial and private flights. These cases can be highly complex, often involving multiple parties such as airlines, aircraft manufacturers, and maintenance providers.",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-                Airline Injuries
-              </h2>
+                <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  Airline Injuries
+                </h1>
 
-              <img
-                src="/assets/servicepage/airline-injuries.jpg"
-                alt="airline-injuries"
-                className="w-full"
-              />
+                <img
+                  src="/assets/servicepage/airline-injuries.jpg"
+                  alt="airline-injuries"
+                  className="w-full"
+                />
 
-                <p className="text-base md:text-lg">
-                    Tampa airplane accident litigation involves legal representation for victims of aviation accidents, including both commercial and private flights. These cases can be highly complex, often involving multiple parties such as airlines, aircraft manufacturers, and maintenance providers. A
-                </p>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      Who can benefit from this service?
-                  </p>
                   <p className="text-base md:text-lg">
-                      This service is for individuals who have been injured in an airplane accident, whether as passengers, flight crew, or ground personnel. It is also for families who have lost loved ones in fatal crashes. Victims of airplane accidents often face life-altering consequences, from severe injuries to emotional trauma and financial strain. If you or someone you know has been involved in an aviation accident, you need expert legal guidance to hold responsible parties accountable and secure the compensation you deserve.
+                      Tampa airplane accident litigation involves legal representation for victims of aviation accidents, including both commercial and private flights. These cases can be highly complex, often involving multiple parties such as airlines, aircraft manufacturers, and maintenance providers.
                   </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      Challenges You will face Without an Attorney for Airplane Accidents 
-                  </p>
-                  <p className="text-base md:text-lg">
-                      Without a Tampa airplane accident lawyer, you can struggle to identify all liable parties, which could include the airline, pilots, maintenance companies, or aircraft manufacturers. Aviation law is highly specialized and governed by both federal and international regulations, making it difficult for you to pursue claims without legal expertise. You can also face powerful insurance companies or corporate legal teams, and without strong representation, you can end up accepting insufficient settlements that don’t fully cover your losses.
-                  </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      How Carter Injury Law Fights for Your Justice
-                  </p>
-                  <p className="text-base md:text-lg">
-                     Carter Injury Law offers skilled legal representation in airplane accident cases, leveraging extensive knowledge of aviation law and experience handling complex litigation. Our team thoroughly investigates each case, working with aviation experts to determine the cause of the accident and identify all responsible parties. We take on large corporations and insurance companies, negotiating relentlessly or litigating in court to ensure our clients receive maximum compensation. 
-                  </p>
-                </div>
-              </div>`,
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1">
+                        Who can benefit from this service?
+                    </p>
+                    <p className="text-base md:text-lg">
+                        This service is for individuals who have been injured in an airplane accident, whether as passengers, flight crew, or ground personnel. It is also for families who have lost loved ones in fatal crashes. Victims of airplane accidents often face life-altering consequences, from severe injuries to emotional trauma and financial strain. If you or someone you know has been involved in an aviation accident, you need expert legal guidance to hold responsible parties accountable and secure the compensation you deserve.
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1">
+                        Challenges You will face Without an Attorney for Airplane Accidents
+                    </p>
+                    <p className="text-base md:text-lg">
+                        Without a Tampa airplane accident lawyer, you can struggle to identify all liable parties, which could include the airline, pilots, maintenance companies, or aircraft manufacturers. Aviation law is highly specialized and governed by both federal and international regulations, making it difficult for you to pursue claims without legal expertise. You can also face powerful insurance companies or corporate legal teams, and without strong representation, you can end up accepting insufficient settlements that don’t fully cover your losses.
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1">
+                        How Carter Injury Law Fights for Your Justice
+                    </p>
+                    <p className="text-base md:text-lg">
+                       Carter Injury Law offers skilled legal representation in airplane accident cases, leveraging extensive knowledge of aviation law and experience handling complex litigation. Our team thoroughly investigates each case, working with aviation experts to determine the cause of the accident and identify all responsible parties. We take on large corporations and insurance companies, negotiating relentlessly or litigating in court to ensure our clients receive maximum compensation.
+                    </p>
+                  </div>
+                </div>`,
   },
   {
     icon: "/assets/servicepage/icon/ride-share-icon.png",
     title: "Uber & Lyft Accidents",
     slug: "uber-lyft-accidents",
+    image: "/assets/servicepage/uber-lyft-accidents.jpg",
+    metaDescription:
+      "An Uber accident lawyer specializes in representing victims of car accidents involving rideshare vehicles, such as Uber or Lyft. These cases can be more complicated than typical auto accidents due to the involvement of multiple insurance policies and the unique legal status of rideshare drivers.",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-               Uber & Lyft Accidents
-              </h2>
+                <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                 Uber & Lyft Accidents
+                </h1>
 
-              <img
-                src="/assets/servicepage/uber-lyft-accidents.jpg"
-                alt="Uber & Lyft Accidents"
-                className="w-full"
-              />
+                <img
+                  src="/assets/servicepage/uber-lyft-accidents.jpg"
+                  alt="Uber & Lyft Accidents"
+                  className="w-full"
+                />
 
-                <p className="text-base md:text-lg">
-                    An Uber accident lawyer specializes in representing victims of car accidents involving rideshare vehicles, such as Uber or Lyft. These cases can be more complicated than typical auto accidents due to the involvement of multiple insurance policies and the unique legal status of rideshare drivers. 
-                </p>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      Who can benefit from this service?
-                  </p>
                   <p className="text-base md:text-lg">
-                      This service is for anyone injured in an accident involving an Uber or Lyft vehicle in Tampa, Florida, whether as a passenger, another driver, pedestrian, or cyclist. If you were hurt due to an Uber driver's negligence, or if you’re a driver facing challenges with Uber & Lyft’s insurance policies, you need legal representation to ensure that your claim is handled properly. Whether you're facing physical injuries, emotional trauma, or financial hardship, Carter Injury Law can guide you through the legal process.
+                      An Uber accident lawyer specializes in representing victims of car accidents involving rideshare vehicles, such as Uber or Lyft. These cases can be more complicated than typical auto accidents due to the involvement of multiple insurance policies and the unique legal status of rideshare drivers.
                   </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      Challenges You will face Without an Attorney for Uber & Lyft Accident
-                  </p>
-                  <p className="text-base md:text-lg">
-                      Without an attorney, you can face difficulties dealing with the multiple insurance companies involved, including Uber & Lyft's corporate insurance policy and the driver’s personal policy. You can not be aware of the compensation you are entitled to, and insurance companies might attempt to delay or deny your claims. Dealing with the legalities of rideshare accidents is challenging, and you have the risk of being undercompensated for your injuries, medical costs, and lost income.
-                  </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      How Carter Injury Law Fights for Your Justice
-                  </p>
-                  <p className="text-base md:text-lg">
-                      Carter Injury Law, the nearest Uber accident lawyer near you, has extensive experience handling Uber accident cases and is familiar with the specific legal challenges these cases present. Our attorneys ensure that all liable parties are held accountable, whether it's the rideshare driver, Uber itself, or other drivers involved. We negotiate with insurance companies to secure maximum compensation for you, taking the burden of legal complexities off your shoulders.
-                  </p>
-                </div>
-              </div>`,
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1">
+                        Who can benefit from this service?
+                    </p>
+                    <p className="text-base md:text-lg">
+                        This service is for anyone injured in an accident involving an Uber or Lyft vehicle in Tampa, Florida, whether as a passenger, another driver, pedestrian, or cyclist. If you were hurt due to an Uber driver's negligence, or if you’re a driver facing challenges with Uber & Lyft’s insurance policies, you need legal representation to ensure that your claim is handled properly. Whether you're facing physical injuries, emotional trauma, or financial hardship, Carter Injury Law can guide you through the legal process.
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1">
+                        Challenges You will face Without an Attorney for Uber & Lyft Accident
+                    </p>
+                    <p className="text-base md:text-lg">
+                        Without an attorney, you can face difficulties dealing with the multiple insurance companies involved, including Uber & Lyft's corporate insurance policy and the driver’s personal policy. You can not be aware of the compensation you are entitled to, and insurance companies might attempt to delay or deny your claims. Dealing with the legalities of rideshare accidents is challenging, and you have the risk of being undercompensated for your injuries, medical costs, and lost income.
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1">
+                        How Carter Injury Law Fights for Your Justice
+                    </p>
+                    <p className="text-base md:text-lg">
+                        Carter Injury Law, the nearest Uber accident lawyer near you, has extensive experience handling Uber accident cases and is familiar with the specific legal challenges these cases present. Our attorneys ensure that all liable parties are held accountable, whether it's the rideshare driver, Uber itself, or other drivers involved. We negotiate with insurance companies to secure maximum compensation for you, taking the burden of legal complexities off your shoulders.
+                    </p>
+                  </div>
+                </div>`,
   },
   {
     icon: "/assets/servicepage/icon/truck-icon-2.png",
     title: "Tampa Bay Truck Accident Lawyer",
     slug: "tampa-bay-truck-accident-lawyer",
+    image: "/assets/servicepage/tampa-bay-truck-accident-lawyer.jpg",
+    metaDescription:
+      "A Tampa Bay truck accident service provides legal representation for victims injured in collisions involving large commercial trucks, such as semis, 18-wheelers, and other heavy-duty vehicles. Due to the size and weight of trucks, these accidents often result in severe injuries and significant property damage.",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-                Tampa Bay Truck Accident Lawyer
-              </h2>
+                <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  Tampa Bay Truck Accident Lawyer
+                </h1>
 
-              <img
-                src="/assets/servicepage/tampa-bay-truck-accident-lawyer.jpg"
-                alt="Tampa Bay Truck Accident"
+                <img
+                  src="/assets/servicepage/tampa-bay-truck-accident-lawyer.jpg"
+                  alt="Tampa Bay Truck Accident"
 
-                className="w-full"
-              />
+                  className="w-full"
+                />
 
-                <p className="text-base md:text-lg">
-                    A Tampa Bay truck accident service provides legal representation for victims injured in collisions involving large commercial trucks, such as semis, 18-wheelers, and other heavy-duty vehicles. Due to the size and weight of trucks, these accidents often result in severe injuries and significant property damage. 
-                </p>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      Who can benefit from this service?
-                  </p>
                   <p className="text-base md:text-lg">
-                      This service is for individuals who have been injured in a truck accident in the Tampa Bay area, whether as a driver, passenger, cyclist, or pedestrian. Truck accidents often involve complex liability issues due to the involvement of trucking companies, drivers, and potentially defective equipment. If you or a loved one has been injured in a truck accident caused by negligence, distracted driving, driver fatigue, or equipment failure, this service ensures that you get the legal support needed to hold responsible parties accountable.
+                      A Tampa Bay truck accident service provides legal representation for victims injured in collisions involving large commercial trucks, such as semis, 18-wheelers, and other heavy-duty vehicles. Due to the size and weight of trucks, these accidents often result in severe injuries and significant property damage.
                   </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      Challenges You will face Without an Attorney for Tampa Bay Truck Accidents
-                  </p>
-                  <p className="text-base md:text-lg">
-                      Without a truck accident lawyer, victims of truck accidents in Tampa Bay can face significant challenges in navigating the complex regulations that govern commercial trucking. Trucking companies often have powerful legal teams and insurance companies working to minimize payouts. Without legal guidance, clients can be pressured into accepting a low settlement that doesn’t cover your full medical costs or future financial losses. Additionally, determining liability is tricky, as truck accidents often involve multiple parties, such as the driver, the trucking company, and potentially even vehicle manufacturers.
-                  </p>
-                </div>
-                <div>
-                  <p className="text-base md:text-lg font-bold mb-1">
-                      How Carter Injury Law Fights for Your Justice
-                  </p>
-                  <p className="text-base md:text-lg">
-                      Carter Injury Law has the experience and resources to take on large trucking companies and your insurers. Our team thoroughly investigates each accident, collecting evidence such as driver logs, maintenance records, and witness statements to build a strong case. We are skilled in negotiating with insurance companies and aren’t afraid to take your case to court to secure the compensation you deserve. 
-                  </p>
-                </div>
-              </div>`,
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1">
+                        Who can benefit from this service?
+                    </p>
+                    <p className="text-base md:text-lg">
+                        This service is for individuals who have been injured in a truck accident in the Tampa Bay area, whether as a driver, passenger, cyclist, or pedestrian. Truck accidents often involve complex liability issues due to the involvement of trucking companies, drivers, and potentially defective equipment. If you or a loved one has been injured in a truck accident caused by negligence, distracted driving, driver fatigue, or equipment failure, this service ensures that you get the legal support needed to hold responsible parties accountable.
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1">
+                        Challenges You will face Without an Attorney for Tampa Bay Truck Accidents
+                    </p>
+                    <p className="text-base md:text-lg">
+                        Without a truck accident lawyer, victims of truck accidents in Tampa Bay can face significant challenges in navigating the complex regulations that govern commercial trucking. Trucking companies often have powerful legal teams and insurance companies working to minimize payouts. Without legal guidance, clients can be pressured into accepting a low settlement that doesn’t cover your full medical costs or future financial losses. Additionally, determining liability is tricky, as truck accidents often involve multiple parties, such as the driver, the trucking company, and potentially even vehicle manufacturers.
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-base md:text-lg font-bold mb-1">
+                        How Carter Injury Law Fights for Your Justice
+                    </p>
+                    <p className="text-base md:text-lg">
+                        Carter Injury Law has the experience and resources to take on large trucking companies and your insurers. Our team thoroughly investigates each accident, collecting evidence such as driver logs, maintenance records, and witness statements to build a strong case. We are skilled in negotiating with insurance companies and aren’t afraid to take your case to court to secure the compensation you deserve.
+                    </p>
+                  </div>
+                </div>`,
   },
 
   {
     icon: "/assets/servicepage/icon/dui-icon.png",
     title: "DUI Injuries",
     slug: "dui-injuries",
+    image: "/assets/servicepage/dui-injuries.jpg",
+    metaDescription: `Drunk driving accident services are for victims injured in accidents caused by intoxicated drivers. Drunk driving accidents often lead to devastating injuries, including traumatic brain injuries, spinal damage, broken bones, and even death.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                 DUI Injuries
-              </h2>
+              </h1>
 
               <img
                 src="/assets/servicepage/dui-injuries.jpg"
@@ -305,7 +326,6 @@ export const allServiceData = [
                      Who can benefit from this service?
                   </p>
 
-
                     <p className="text-base md:text-lg">This service is for individuals in Tampa who have been injured in an accident caused by a drunk driver. Whether you were a driver, passenger, cyclist, or pedestrian, if you’ve suffered injuries due to another person’s reckless decision to drive under the influence, this service is designed for you. If you're struggling with medical bills, lost time from work, or long-term rehabilitation, Carter Injury Law can help you seek the compensation you deserve.
                   </p>
 
@@ -313,20 +333,17 @@ export const allServiceData = [
                      Challenges You will face Without an Attorney for Drunk Driving Accident
                   </p>
 
-
                   <p className="text-base md:text-lg">This service is for individuals in Without an attorney, you can face difficulties navigating the legal process and dealing with insurance companies that could try to minimize your claim after a drunk driving accident. DUI accident cases can be complex, especially with the criminal proceedings against the drunk driver, which can make it harder for you to get the full compensation you deserve. Additionally, you can not be aware of your right to pursue punitive damages, which are meant to punish the driver and help prevent future incidents.
                   </p>
-
 
                    <p className="text-base md:text-lg font-bold mb-1">
                    How Carter Injury Law Fights for Your Justice
                   </p>
 
-
                    <p className="text-base md:text-lg">
                    Carter Injury Law relentlessly represents victims of drunk driving accidents, ensuring that the responsible party is held accountable. We handle every aspect of the case, from investigating the accident to negotiating with insurance companies and pursuing punitive damages when applicable. Our attorneys work tirelessly to secure maximum compensation for our clients, covering medical expenses, lost wages, rehabilitation, and emotional distress. We fight to ensure that you don’t have to face financial hardship because of someone else’s reckless behavior.
                   </p>
-                
+
               </div>`,
   },
 
@@ -334,83 +351,78 @@ export const allServiceData = [
     icon: "/assets/servicepage/icon/truck-icon-2.png",
     title: "Delivery Truck Accidents",
     slug: "delivery-truck-accidents",
+    image: "/assets/servicepage/auto-accidents/delivery-truck-accidents.jpg",
+    metaDescription: `Delivery truck accidents can occur when large commercial vehicles are involved in collisions while transporting goods. These accidents may involve trucks delivering to businesses, homes, or distribution centers, and they can result in serious injuries due to the size and weight of the vehicle. If you’ve been injured in a delivery truck accident, Florida law allows you to seek compensation if the accident was caused by negligence, whether it’s due to driver error, maintenance issues, or improperly secured cargo.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+      <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
-    Delivery Truck Accidents
-  
-    </h2>
+      Delivery Truck Accidents
 
-    
-    <img
-      src="/assets/servicepage/auto-accidents/delivery-truck-accidents.jpg"
-      alt="Delivery Truck Accidents"
-      className="w-full py-3"
-    />
+      </h1>
 
+      <img
+        src="/assets/servicepage/auto-accidents/delivery-truck-accidents.jpg"
+        alt="Delivery Truck Accidents"
+        className="w-full py-3"
+      />
 
+      <p className="text-base md:text-lg">
+          Delivery truck accidents can occur when large commercial vehicles are involved in collisions while transporting goods. These accidents may involve trucks delivering to businesses, homes, or distribution centers, and they can result in serious injuries due to the size and weight of the vehicle. If you’ve been injured in a delivery truck accident, Florida law allows you to seek compensation if the accident was caused by negligence, whether it’s due to driver error, maintenance issues, or improperly secured cargo.
+      </p>
 
-    <p className="text-base md:text-lg">
-        Delivery truck accidents can occur when large commercial vehicles are involved in collisions while transporting goods. These accidents may involve trucks delivering to businesses, homes, or distribution centers, and they can result in serious injuries due to the size and weight of the vehicle. If you’ve been injured in a delivery truck accident, Florida law allows you to seek compensation if the accident was caused by negligence, whether it’s due to driver error, maintenance issues, or improperly secured cargo.
-    </p>
+      <p class="text-base md:text-lg font-bold mb-1 pl-0">
+          Who Should File a Claim and Why Having an Attorney Is Essential
+      </p>
 
-    <p class="text-base md:text-lg font-bold mb-1 pl-5">
-        Who Should File a Claim and Why Having an Attorney Is Essential
-    </p>
-
-  <ul class="list-disc text-base md:text-lg pl-5">
-      <li>
-          <span class="font-bold">
-              Benefits of Filing: 
-          </span>
-          Victims of delivery truck accidents can recover compensation for medical expenses, lost wages, pain and suffering, and property damage. Filing a claim can help you address the financial burden that comes with recovery, as well as bring accountability to the parties responsible for the accident. Whether the injury is temporary or permanent, seeking legal action ensures that you get the compensation you need to rebuild your life.
-      </li>
-
-      <li>
-          <span class="font-bold">
-              Consequences Without Representation: 
-          </span> 
-           Without legal representation, securing fair compensation for delivery truck accident victims can be challenging. Insurance companies often attempt to minimize settlements, and in complex cases involving multiple liable parties, it can be difficult for victims to prove fault. Without an experienced attorney, victims may face difficulties in gathering evidence and understanding their rights, leaving them vulnerable to inadequate settlements that do not cover the full scope of their damages.
-      </li>
-    </ul>
-  </p>
-
-
-   <p class="text-base md:text-lg font-bold mb-1 pl-5">
-      Carter Injury Law: Committed to Securing the Justice You Deserve
-    </p>
-
-   
-      <ul class="list-disc text-base md:text-lg pl-5">
+    <ul class="list-disc text-base md:text-lg pl-0">
         <li>
-           We have the expertise to investigate delivery truck accidents thoroughly, identifying all parties at fault, including the driver, the trucking company, or even the manufacturer of faulty equipment.
+            <span class="font-bold">
+                Benefits of Filing:
+            </span>
+            Victims of delivery truck accidents can recover compensation for medical expenses, lost wages, pain and suffering, and property damage. Filing a claim can help you address the financial burden that comes with recovery, as well as bring accountability to the parties responsible for the accident. Whether the injury is temporary or permanent, seeking legal action ensures that you get the compensation you need to rebuild your life.
         </li>
 
         <li>
-            We negotiate aggressively with insurance companies to ensure that your compensation reflects the true costs of your injuries, including medical expenses, lost wages, and pain and suffering.
-        </li>
-
-        <li>
-            In Florida, you have up to two years from the accident date to file a claim. We act quickly to ensure that your case is handled efficiently and that your rights are protected from the outset.
+            <span class="font-bold">
+                Consequences Without Representation:
+            </span>
+             Without legal representation, securing fair compensation for delivery truck accident victims can be challenging. Insurance companies often attempt to minimize settlements, and in complex cases involving multiple liable parties, it can be difficult for victims to prove fault. Without an experienced attorney, victims may face difficulties in gathering evidence and understanding their rights, leaving them vulnerable to inadequate settlements that do not cover the full scope of their damages.
         </li>
       </ul>
     </p>
-</div>
-`,
+
+     <p class="text-base md:text-lg font-bold mb-1 pl-0">
+        Carter Injury Law: Committed to Securing the Justice You Deserve
+      </p>
+
+        <ul class="list-disc text-base md:text-lg pl-0">
+          <li>
+             We have the expertise to investigate delivery truck accidents thoroughly, identifying all parties at fault, including the driver, the trucking company, or even the manufacturer of faulty equipment.
+          </li>
+
+          <li>
+              We negotiate aggressively with insurance companies to ensure that your compensation reflects the true costs of your injuries, including medical expenses, lost wages, and pain and suffering.
+          </li>
+
+          <li>
+              In Florida, you have up to two years from the accident date to file a claim. We act quickly to ensure that your case is handled efficiently and that your rights are protected from the outset.
+          </li>
+        </ul>
+      </p>
+  </div>
+  `,
   },
 
-
-  //
-  
-  //
   {
     icon: "/assets/servicepage/icon/pedestrian-icon.png",
     title: "Pedestrian Personal Injury Litigation",
     slug: "pedestrian-personal-injury-litigation",
+    image: "/assets/servicepage/pedestrian-personal-injury-litigation.jpg",
+    metaDescription: `Pedestrian personal injury litigation In Florida, it involves legal representation for individuals who have been injured while walking or crossing streets due to the negligence of drivers, property owners, or other parties. These cases can arise from a variety of incidents, including vehicle collisions, hazardous walking conditions, or inadequate signage.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                 Pedestrian Personal Injury Litigation
-              </h2>
+              </h1>
               <img
                 src="/assets/servicepage/pedestrian-personal-injury-litigation.jpg"
                 alt="Pedestrian Personal Injury Litigation"
@@ -418,7 +430,7 @@ export const allServiceData = [
               />
 
                 <p className="text-base md:text-lg">
-                     Pedestrian personal injury litigation In Florida, it involves legal representation for individuals who have been injured while walking or crossing streets due to the negligence of drivers, property owners, or other parties. These cases can arise from a variety of incidents, including vehicle collisions, hazardous walking conditions, or inadequate signage. 
+                     Pedestrian personal injury litigation In Florida, it involves legal representation for individuals who have been injured while walking or crossing streets due to the negligence of drivers, property owners, or other parties. These cases can arise from a variety of incidents, including vehicle collisions, hazardous walking conditions, or inadequate signage.
                 </p>
                 <div>
                   <p className="text-base md:text-lg font-bold mb-1">
@@ -450,10 +462,12 @@ export const allServiceData = [
     icon: "/assets/servicepage/icon/lawyer-icon.png",
     title: "Tampa Bay Personal Injury Lawyer",
     slug: "tampa-bay-personal-injury-lawyer",
+    image: "/assets/servicepage/tampa-bay-personal-injury-lawyer.jpg",
+    metaDescription: `The Tampa Bay personal injury lawyer service provides legal representation for individuals who have suffered injuries due to someone else’s negligence or intentional actions. This includes a wide range of cases, such as auto accidents, slip and fall incidents, medical malpractice, workplace injuries, and more.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                Tampa Bay Personal Injury Lawyer
-              </h2>
+              </h1>
 
               <img
                 src="/assets/servicepage/tampa-bay-personal-injury-lawyer.jpg"
@@ -463,30 +477,31 @@ export const allServiceData = [
 
                 <p className="text-base md:text-lg">The Tampa Bay personal injury lawyer service provides legal representation for individuals who have suffered injuries due to someone else’s negligence or intentional actions. This includes a wide range of cases, such as auto accidents, slip and fall incidents, medical malpractice, workplace injuries, and more.</p>
 
-
                 <p className="text-base md:text-lg font-bold mb-1">
                  Who can benefit from Our Lawyer?
                </p>
 
                   <p className="text-base md:text-lg">This service is for anyone in the Tampa Bay area who has sustained injuries due to the negligence or wrongdoing of another party. Whether you are a motorist, pedestrian, employee, or consumer and you have been injured and believe someone else is at fault, our dedicated attorneys are here to guide you through the legal process and advocate for your rights.</p>
 
-
                 <p className="text-base md:text-lg font-bold mb-1">
                  How Carter Injury Law FIghts for Your Justice
                </p>
 
                   <p className="text-base md:text-lg">Carter Injury Law provides comprehensive legal support tailored to your personal injury case. Our experienced attorneys thoroughly investigate the details of your situation, gathering evidence and working with experts to build a strong case on your behalf. We handle all communications with insurance companies, advocating for your rights and fighting for fair compensation that truly reflects your injuries and losses. If necessary, we are ready to take your case to court to ensure that you receive the justice you deserve, allowing you to focus on recovery while we navigate the complexities of the legal system.</p>
-                
+
               </div>`,
   },
   {
     icon: "/assets/servicepage/icon/premises-icon.png",
     title: "Premises Liability Personal Injury Litigation",
     slug: "premises-liability-personal-injury-litigation",
+    image:
+      "/assets/servicepage/premises-liability-personal-injury-litigation.jpg",
+    metaDescription: `Premises liability personal injury litigation involves legal representation for individuals injured on someone else's property due to unsafe conditions. This area of law holds property owners accountable for maintaining a safe environment for visitors, whether in residential, commercial, or public spaces. Common cases include slips and falls, inadequate security leading to assaults, or injuries caused by poorly maintained facilities.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                Premises Liability Personal Injury Litigation
-              </h2>
+              </h1>
 
               <img
                 src="/assets/servicepage/premises-liability-personal-injury-litigation.jpg"
@@ -520,10 +535,13 @@ export const allServiceData = [
     icon: "/assets/servicepage/icon/medical-icon.png",
     title: "Medical Malpractice Personal Injury Litigation",
     slug: "medical-malpractice-personal-injury-litigation",
+    image:
+      "/assets/servicepage/medical-malpractice-personal-injury-litigation.jpg",
+    metaDescription: `Medical malpractice personal injury litigation provides legal representation for individuals harmed by negligent or substandard care from healthcare professionals. This can include a wide range of issues, such as surgical errors, misdiagnoses, medication mistakes, or inadequate follow-up care.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                 Medical Malpractice Personal Injury Litigation
-              </h2>
+              </h1>
 
               <img
                 src="/assets/servicepage/medical-malpractice-personal-injury-litigation.jpg"
@@ -533,7 +551,7 @@ export const allServiceData = [
               />
 
               <p className="text-base md:text-lg">
-                Medical malpractice personal injury litigation provides legal representation for individuals harmed by negligent or substandard care from healthcare professionals. This can include a wide range of issues, such as surgical errors, misdiagnoses, medication mistakes, or inadequate follow-up care. 
+                Medical malpractice personal injury litigation provides legal representation for individuals harmed by negligent or substandard care from healthcare professionals. This can include a wide range of issues, such as surgical errors, misdiagnoses, medication mistakes, or inadequate follow-up care.
               </p>
 
                 <p className="text-base md:text-lg font-bold mb-1">
@@ -541,9 +559,8 @@ export const allServiceData = [
                </p>
 
               <p className="text-base md:text-lg">
-                This service is for individuals in Florida who have suffered injuries or adverse health outcomes as a result of medical negligence. If you or a loved one has been harmed by a healthcare provider, whether it’s a doctor, nurse, hospital, or clinic, you can be entitled to compensation. 
+                This service is for individuals in Florida who have suffered injuries or adverse health outcomes as a result of medical negligence. If you or a loved one has been harmed by a healthcare provider, whether it’s a doctor, nurse, hospital, or clinic, you can be entitled to compensation.
               </p>
-
 
               <p className="text-base md:text-lg font-bold mb-1">
                Challenges You will face Without an Attorney for Medical Malpractice Personal Injury
@@ -558,7 +575,7 @@ export const allServiceData = [
                </p>
 
               <p className="text-base md:text-lg">
-                Carter Injury Law, your nearest medical malpractice lawyers, provides comprehensive legal support for victims of medical malpractice, ensuring your rights are protected throughout the process. Our experienced attorneys conduct thorough investigations to gather evidence and establish liability, including consulting with medical experts to support your claims. We advocate relentlessly for fair compensation in negotiations with insurance companies and are prepared to take cases to trial when necessary. 
+                Carter Injury Law, your nearest medical malpractice lawyers, provides comprehensive legal support for victims of medical malpractice, ensuring your rights are protected throughout the process. Our experienced attorneys conduct thorough investigations to gather evidence and establish liability, including consulting with medical experts to support your claims. We advocate relentlessly for fair compensation in negotiations with insurance companies and are prepared to take cases to trial when necessary.
               </p>
 
             </div>`,
@@ -567,10 +584,12 @@ export const allServiceData = [
     icon: "/assets/servicepage/icon/pain-icon.png",
     title: "Pain & Suffering Personal Injury Litigation",
     slug: "pain-suffering-personal-injury-litigation",
+    image: "/assets/servicepage/pain-suffering-personal-injury-litigation.jpg",
+    metaDescription: `Pain and suffering personal injury litigation refers to the legal process of seeking compensation for the physical and emotional distress caused by an injury due to someone else’s negligence. This encompasses a wide range of impacts, including chronic pain, mental anguish, emotional distress, loss of enjoyment of life, and more.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                Pain & Suffering Personal Injury Litigation
-              </h2>
+              </h1>
 
               <img
                 src="/assets/servicepage/pain-suffering-personal-injury-litigation.jpg"
@@ -613,10 +632,12 @@ export const allServiceData = [
     icon: "/assets/servicepage/icon/surgery-icon.png",
     title: "Plastic Surgery Personal Injury Litigation",
     slug: "plastic-surgery-personal-injury-litigation",
+    image: "/assets/servicepage/plastic-surgery-personal-injury-litigation.jpg",
+    metaDescription: `Plastic surgery personal injury litigation involves legal representation for individuals who have suffered injuries or complications as a result of negligent or substandard plastic surgery procedures. This can include cases of surgical errors, improper aftercare, or failure to obtain informed consent.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                Plastic Surgery Personal Injury Litigation
-              </h2>
+              </h1>
 
               <img
                 src=" /assets/servicepage/plastic-surgery-personal-injury-litigation.jpg"
@@ -659,10 +680,12 @@ export const allServiceData = [
     icon: "/assets/servicepage/icon/fall-icon.png",
     title: "Slip And Fall Personal Injury Litigation",
     slug: "slip-fall-personal-injury-litigation",
+    image: "/assets/servicepage/slip-fall-personal-injury-litigation.jpg",
+    metaDescription: `Slip and fall personal injury litigation involves legal representation for individuals who have been injured due to hazardous conditions on someone else’s property. Common causes of slip and fall accidents include wet or uneven surfaces, inadequate lighting, clutter, or lack of proper signage.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                 Slip And Fall Personal Injury Litigation
-              </h2>
+              </h1>
 
               <img
                 src=" /assets/servicepage/slip-fall-personal-injury-litigation.jpg"
@@ -701,19 +724,20 @@ export const allServiceData = [
               </p>
             </div>`,
   },
-//
+  //
 
-//
-
+  //
 
   {
     icon: "/assets/servicepage/icon/wrongful-death-icon.png",
     title: "Wrongful Personal Injury Litigation",
     slug: "wrongful-personal-injury-litigation",
+    image: "/assets/servicepage/wrongful-personal-injury-litigation.jpg",
+    metaDescription: `Wrongful personal injury litigation involves legal representation for individuals who have suffered injuries or loss due to the negligent or intentional actions of another party. This type of litigation seeks to hold responsible parties accountable for their actions and secure compensation for the victims or their families.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                 Wrongful Personal Injury Litigation
-              </h2>
+              </h1>
 
               <img
                 src=" /assets/servicepage/wrongful-personal-injury-litigation.jpg"
@@ -755,10 +779,12 @@ export const allServiceData = [
     icon: "/assets/servicepage/icon/dog-bite-icon.png",
     title: "Dog Bites Personal Injury Litigation",
     slug: "dog-bites-personal-injury-litigation",
+    image: "/assets/servicepage/dog-bites-personal-injury-litigation.jpg",
+    metaDescription: `Dog bite personal injury litigation involves legal representation for individuals who have been injured as a result of a dog attack. These cases can encompass a range of injuries, from minor cuts and bruises to severe lacerations, infections, and emotional trauma.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                Dog Bites Personal Injury Litigation
-              </h2>
+              </h1>
 
               <img
                 src=" /assets/servicepage/dog-bites-personal-injury-litigation.jpg"
@@ -797,10 +823,12 @@ export const allServiceData = [
     icon: "/assets/servicepage/icon/pain-icon.png",
     title: "Personal Injury",
     slug: "personal-injury",
+    image: "/assets/servicepage/pain-suffering-personal-injury-litigation.jpg",
+    metaDescription: ` Personal injuries can completely upend your life, leaving you with unexpected physical pain, emotional stress, and financial burdens. From car crashes and workplace accidents to slips and falls, these incidents might be more than just “accidents.”`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
     Personal Injury
-  </h2>
+  </h1>
   <img
     src="/assets/servicepage/pain-suffering-personal-injury-litigation.jpg"
     alt="Personal Injury"
@@ -813,12 +841,12 @@ export const allServiceData = [
     Personal injuries can completely upend your life, leaving you with unexpected physical pain, emotional stress, and financial burdens. From car crashes and workplace accidents to slips and falls, these incidents might be more than just “accidents.”
   </p>
 
-  <p class= "text-base md:text-lg font-bold mb-1  pl-5">
+  <p class= "text-base md:text-lg font-bold mb-1  pl-0">
   Who Should Seek Legal Assistance for Personal Injury
   </p>
 
   <p class="text-base md:text-lg ">
-   <ul class="list-disc pl-5">
+   <ul class="list-disc pl-0">
 <li><span class= " font-bold ">Individuals Injured in Vehicle Accidents:</span> Whether you were driving, biking, or simply crossing the street, if someone else’s carelessness caused your injuries, you have a right to hold them accountable.
 </li>
    <li><span class= " font-bold ">Victims of Workplace Accidents or Occupational Hazards:</span> For those injured on the job or exposed to harmful conditions at work, it’s essential to ensure you’re protected and fairly compensated.
@@ -835,11 +863,11 @@ export const allServiceData = [
   </p>
 
 
-  <p class="text-base md:text-lg font-bold mb-1  pl-5">
+  <p class="text-base md:text-lg font-bold mb-1  pl-0">
      The Challenges You Will Face Without Legal Representation
   </p>
 
-  <ul class="list-disc pl-5">
+  <ul class="list-disc pl-0">
     <li>Personal injury law is layered and specific. Knowing your rights, the limitations, and the legal options available can be difficult to navigate alone.
     </li>
     <li>Establishing that another party’s negligence led to your injuries requires detailed evidence, from witness statements to expert reports. Without an attorney, obtaining and organizing this evidence can be overwhelming.
@@ -854,11 +882,11 @@ export const allServiceData = [
   </p>
 
 
-   <p className="text-base md:text-lg font-bold mb-1  pl-5">
+   <p className="text-base md:text-lg font-bold mb-1  pl-0">
      How Carter Injury Law Upholds Your Rights
   </p>
 
-  <ul class="list-disc pl-5">
+  <ul class="list-disc pl-0">
   <li>We thoroughly evaluate every detail of your case, from the accident’s cause to your future medical needs, crafting a strategy tailored to maximize your compensation.</li>
   <li>Our team knows the tactics insurance companies use to downplay claims. We handle these negotiations directly, ensuring you get the settlement that reflects the real impact of your injury.
     </li>
@@ -872,14 +900,14 @@ export const allServiceData = [
 `,
   },
 
-  //   {
-  //     icon: "/assets/servicepage/icon/dog-bite-icon.png",
-  //     title: "Dog Bites",
-  //     slug: "dog-bites",
-  //     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  //   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  // {
+  //   icon: "/assets/servicepage/icon/dog-bite-icon.png",
+  //   title: "Dog Bites",
+  //   slug: "dog-bites",
+  //   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  //   <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
   //     Dog Bites
-  //   </h2>
+  //   </h1>
   //   <img
   //     src="/assets/servicepage/dog-bites-personal-injury-litigation.jpg"
   //     alt="Personal Injury"
@@ -890,12 +918,12 @@ export const allServiceData = [
   //     Dog bite injuries are more common than many realize, and they can have a lasting impact on both physical and emotional health. From puncture wounds to infections and nerve damage, dog bites can cause serious harm, sometimes even leaving long-term scars or disabilities.
   //   </p>
 
-  //   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  //   <p class="text-base md:text-lg font-bold mb-1 pl-0">
   //   Who Should Seek Legal Assistance for Dog Bites
   //   </p>
 
   //   <p className="text-base md:text-lg">
-  //    <ul class="list-disc pl-5">
+  //    <ul class="list-disc pl-0">
   // <li><span class="font-bold">Victims of Dog Attacks: </span> If you or a loved one was bitten or attacked by a dog, you might be dealing with medical costs, pain, and emotional distress.
   // </li>
   //    <li><span class="font-bold">Children Hurt by Dog Bites: </span> Children are especially vulnerable to dog bites and can suffer severe injuries due to their smaller size and limited ability to defend themselves.
@@ -928,11 +956,11 @@ export const allServiceData = [
   //     </ul>
   //   </p>
 
-  //    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  //    <p class="text-base md:text-lg font-bold mb-1 pl-0">
   //      How Carter Injury Law Upholds Your Rights
   //   </p>
 
-  //   <ul class="list-disc pl-5">
+  //   <ul class="list-disc pl-0">
   //   <li>
   //   We collect medical records, eyewitness accounts, and, if available, animal control reports to strengthen your case and prove the dog’s aggressiveness.
   //     </li>
@@ -953,16 +981,19 @@ export const allServiceData = [
   //   </p>
   // </div>
   // `,
-  //   },
+  // },
 
   {
     icon: "/assets/servicepage/icon/premises-icon.png",
     title: "Premises Liability",
     slug: "premises-liability",
+    image:
+      "/assets/servicepage/premises-liability-personal-injury-litigation.jpg",
+    metaDescription: `Premises liability cases come down to one core idea: property owners have a duty to keep their premises safe for others. If you’ve been injured on someone else’s property, it’s not just an accident—it may be the result of someone failing to keep their space safe. Premises liability cases cover a wide range of injuries, from slipping on wet floors to suffering harm due to poor security or broken handrails. `,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
     Dog Bites
-  </h2>
+  </h1>
   <img
     src="/assets/servicepage/premises-liability-personal-injury-litigation.jpg"
     alt="Personal Injury"
@@ -975,12 +1006,12 @@ export const allServiceData = [
     Premises liability cases come down to one core idea: property owners have a duty to keep their premises safe for others. If you’ve been injured on someone else’s property, it’s not just an accident—it may be the result of someone failing to keep their space safe. Premises liability cases cover a wide range of injuries, from slipping on wet floors to suffering harm due to poor security or broken handrails.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
   Who Should Seek Legal Assistance for Premises Liability
   </p>
 
   <p className="text-base md:text-lg">
-   <ul class="list-disc pl-5">
+   <ul class="list-disc pl-0">
 <li>
 <span class="font-bold">
 Injured on Someone Else’s Property: 
@@ -1049,11 +1080,11 @@ Injured on Someone Else’s Property:
   </p>
 
 
-   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+   <p class="text-base md:text-lg font-bold mb-1 pl-0">
      How Carter Injury Law Upholds Your Rights
   </p>
 
-  <ul class="list-disc pl-5">
+  <ul class="list-disc pl-0">
   <li>
   We conduct in-depth investigations, collecting crucial evidence and consulting experts when necessary to prove that the property owner’s negligence led to your injury.
     </li>
@@ -1083,10 +1114,13 @@ Injured on Someone Else’s Property:
     icon: "/assets/servicepage/icon/medical-icon.png",
     title: "Medical Malpractice",
     slug: "medical-malpractice",
+    image:
+      "/assets/servicepage/medical-malpractice-personal-injury-litigation.jpg",
+    metaDescription: `When you trust a medical professional with your health, you expect skilled, careful treatment. But if you’ve suffered due to a misdiagnosis, surgical error, medication mistake, or other forms of negligence, that trust has been deeply violated.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
     Medical Malpractice
-  </h2>
+  </h1>
   <img
     src="/assets/servicepage/medical-malpractice-personal-injury-litigation.jpg"
     alt="Personal Injury"
@@ -1099,12 +1133,12 @@ Injured on Someone Else’s Property:
     When you trust a medical professional with your health, you expect skilled, careful treatment. But if you’ve suffered due to a misdiagnosis, surgical error, medication mistake, or other forms of negligence, that trust has been deeply violated.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
   Who Should Seek Legal Assistance for Medical Malpractice
   </p>
 
   <p className="text-base md:text-lg">
-   <ul class="list-disc pl-5">
+   <ul class="list-disc pl-0">
 <li>
 <span class="font-bold">
 Patients Harmed by Medical Errors: 
@@ -1171,11 +1205,11 @@ Patients Harmed by Medical Errors:
   </p>
 
 
-   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+   <p class="text-base md:text-lg font-bold mb-1 pl-0">
      How Carter Injury Law Upholds Your Rights
   </p>
 
-  <ul class="list-disc pl-5">
+  <ul class="list-disc pl-0">
   <li>
   We partner with medical experts to thoroughly analyze your medical records, pinpointing errors and providing solid evidence to strengthen your case.
     </li>
@@ -1203,12 +1237,14 @@ Patients Harmed by Medical Errors:
     icon: "/assets/servicepage/icon/car-icon.png",
     title: "Auto Accidents",
     slug: "auto-accidents",
+    image: "/assets/servicepage/auto-accident-personal-injury-litigation.jpg",
+    metaDescription: `When you're involved in an auto accident, your world can change in an instant. The aftermath can be overwhelming, with medical bills, vehicle repairs, lost wages, and pain and suffering all adding up. Whether it’s a minor fender-bender or a serious crash, you need a lawyer who will fight for your rights.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Auto Accidents
   
-    </h2>
+    </h1>
   <img
     src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
     alt="Auto Accidents"
@@ -1221,12 +1257,12 @@ Patients Harmed by Medical Errors:
    When you're involved in an auto accident, your world can change in an instant. The aftermath can be overwhelming, with medical bills, vehicle repairs, lost wages, and pain and suffering all adding up. Whether it’s a minor fender-bender or a serious crash, you need a lawyer who will fight for your rights.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
   Who Should Seek Legal Assistance for Auto Accidents
   </p>
 
   <p className="text-base md:text-lg">
-   <ul class="list-disc pl-5">
+   <ul class="list-disc pl-0">
 <li>
 <span class="font-bold">
 Injured in a Collision: 
@@ -1293,11 +1329,11 @@ Injured in a Collision:
   </p>
 
 
-   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+   <p class="text-base md:text-lg font-bold mb-1 pl-0">
      How Carter Injury Law Upholds Your Rights
   </p>
 
-  <ul class="list-disc pl-5">
+  <ul class="list-disc pl-0">
   <li>
   We negotiate aggressively with insurance companies to make sure you’re offered fair compensation and aren’t short-changed by quick, lowball offers.
     </li>
@@ -1325,14 +1361,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 `,
   },
 
-  //   {
-  //     icon: "/assets/servicepage/icon/fall-icon.png",
-  //     title: "Slip and Fall Accidents",
-  //     slug: "slip-and-falls",
-  //     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  //   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  // {
+  //   icon: "/assets/servicepage/icon/fall-icon.png",
+  //   title: "Slip and Fall Accidents",
+  //   slug: "slip-and-falls",
+  //   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
+  //   <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
   //     Slip and Fall Accidents
-  //   </h2>
+  //   </h1>
   //   <img
   //     src="/assets/servicepage/slip-fall-personal-injury-litigation.jpg"
   //     alt="Slip and Fall Accidents"
@@ -1343,12 +1379,12 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   //    Slip and fall accidents can happen in an instant but leave lasting impacts—physically, emotionally, and financially. They’re often the result of someone else’s negligence, like poorly maintained floors, wet surfaces, or inadequate lighting.
   //   </p>
 
-  //   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  //   <p class="text-base md:text-lg font-bold mb-1 pl-0">
   //   Who Should Seek Legal Assistance for Slip and Fall
   //   </p>
 
   //   <p className="text-base md:text-lg">
-  //    <ul class="list-disc pl-5">
+  //    <ul class="list-disc pl-0">
   // <li>
   // <span class="font-bold">
   // Victims of Unsafe Conditions:
@@ -1413,11 +1449,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   //     </ul>
   //   </p>
 
-  //    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  //    <p class="text-base md:text-lg font-bold mb-1 pl-0">
   //      How Carter Injury Law Upholds Your Rights
   //   </p>
 
-  //   <ul class="list-disc pl-5">
+  //   <ul class="list-disc pl-0">
   //   <li>
   //   We gather critical evidence—security footage, incident reports, witness testimonies, and medical records—to build a strong case that establishes negligence and proves your injuries.
   //     </li>
@@ -1442,7 +1478,7 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   //   </p>
   // </div>
   // `,
-  //   },
+  // },
 
   //Auto Accidents
 
@@ -1450,12 +1486,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/car-icon.png",
     title: "Car Accidents",
     slug: "car-accidents",
+    image: "/assets/servicepage/auto-accidents/car-accidents.jpg",
+    metaDescription: `A car accident claim is a legal process that allows you to seek compensation if you've been injured in a crash due to another driver’s negligence. This can include rear-end collisions, intersection accidents, distracted driving incidents, and more. Under Florida law, accident victims have the right to pursue damages to cover medical bills, lost wages, property damage, even pain and suffering. In Florida, car accident claims operate under a “no-fault” system, meaning each driver’s own insurance typically covers initial medical expenses.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Car Accidents
   
-    </h2>
+    </h1>
 
    
     <img
@@ -1470,12 +1508,12 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
         A car accident claim is a legal process that allows you to seek compensation if you've been injured in a crash due to another driver’s negligence. This can include rear-end collisions, intersection accidents, distracted driving incidents, and more. Under Florida law, accident victims have the right to pursue damages to cover medical bills, lost wages, property damage, even pain and suffering. In Florida, car accident claims operate under a “no-fault” system, meaning each driver’s own insurance typically covers initial medical expenses.
     </p>
 
-    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    <p class="text-base md:text-lg font-bold mb-1 pl-0">
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
   
-    <ul class="list-disc text-base md:text-lg pl-5">
+    <ul class="list-disc text-base md:text-lg pl-0">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -1493,12 +1531,12 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   </p>
 
 
-   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+   <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
     
-      <ul class="list-disc text-base md:text-lg pl-5">
+      <ul class="list-disc text-base md:text-lg pl-0">
         <li>
             We gather evidence, negotiate with insurance companies, and handle every detail so you can focus on healing.
         </li>
@@ -1520,12 +1558,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/motorcycle-icon.png",
     title: "Motorcycle Accidents",
     slug: "motorcycle-accidents",
+    image: "/assets/servicepage/auto-accidents/motorcycle-accidents.jpg",
+    metaDescription: `A motorcycle accident claim allows injured riders to seek compensation when harmed in a crash due to another party’s negligence. Since motorcycles provide limited protection, these accidents often result in severe injuries, such as broken bones or spinal cord damage. In Florida, riders can pursue compensation for medical bills, lost wages, trauma, and affliction. Unlike car accidents, motorcycle accidents are not covered by Florida’s “no-fault” insurance laws, so riders are not required to carry personal injury protection (PIP) coverage.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Motorcycle Accidents
   
-    </h2>
+    </h1>
 
     
     <img
@@ -1540,11 +1580,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
         A motorcycle accident claim allows injured riders to seek compensation when harmed in a crash due to another party’s negligence. Since motorcycles provide limited protection, these accidents often result in severe injuries, such as broken bones or spinal cord damage. In Florida, riders can pursue compensation for medical bills, lost wages, trauma, and affliction. Unlike car accidents, motorcycle accidents are not covered by Florida’s “no-fault” insurance laws, so riders are not required to carry personal injury protection (PIP) coverage.
     </p>
 
-    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    <p class="text-base md:text-lg font-bold mb-1 pl-0">
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -1562,12 +1602,12 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   </p>
 
 
-   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+   <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
     
-      <ul class="list-disc text-base md:text-lg pl-5">
+      <ul class="list-disc text-base md:text-lg pl-0">
         <li>
             Carter Injury Law understands the unique challenges motorcycle accident victims face and knows how to counter insurance companies’ tactics to ensure your rights are fully represented.
         </li>
@@ -1589,12 +1629,15 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/truck-icon-2.png",
     title: "Semi-Truck and Trucking Accidents",
     slug: "semi-truck-and-trucking-accidents",
+    image:
+      "/assets/servicepage/auto-accidents/semi-truck-and-trucking-accidents.jpg",
+    metaDescription: `A semi-truck accident claim allows victims to seek compensation for injuries caused by negligence from a truck driver, trucking company, or related parties. Given the size and weight of commercial trucks, these accidents often result in catastrophic injuries or fatalities. Florida law mandates strict federal and state regulations for commercial trucks, including limits on driving hours, vehicle maintenance, and cargo safety.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Semi-Truck and Trucking Accidents
   
-    </h2>
+    </h1>
 
      
     <img
@@ -1609,11 +1652,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
         A semi-truck accident claim allows victims to seek compensation for injuries caused by negligence from a truck driver, trucking company, or related parties. Given the size and weight of commercial trucks, these accidents often result in catastrophic injuries or fatalities. Florida law mandates strict federal and state regulations for commercial trucks, including limits on driving hours, vehicle maintenance, and cargo safety.
     </p>
 
-    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    <p class="text-base md:text-lg font-bold mb-1 pl-0">
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -1631,12 +1674,12 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   </p>
 
 
-   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+   <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
     
-      <ul class="list-disc text-base md:text-lg pl-5">
+      <ul class="list-disc text-base md:text-lg pl-0">
         <li>
            Carter Injury Law is well-versed in the federal and state regulations governing commercial trucks. We’ll investigate the accident thoroughly, examining driver logs, maintenance records, and more to build a strong case on your behalf.
         </li>
@@ -1658,12 +1701,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/bicycle-icon.png",
     title: "Bicycle Accidents",
     slug: "bicycle-accidents",
+    image: "/assets/servicepage/auto-accidents/bicycle-accidents.jpg",
+    metaDescription: `A bicycle accident claim allows injured cyclists to seek compensation when they’re hurt due to someone else’s negligence, whether by a motorist, pedestrian, or unsafe road conditions. Bicyclists are especially vulnerable on the road, and even minor accidents can lead to serious injuries like fractures, head trauma, and spinal fractures. In Florida, cyclists have the same rights as drivers and can pursue compensation for damages when another party is at fault.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Bicycle Accidents
   
-    </h2>
+    </h1>
 
      
     <img
@@ -1678,11 +1723,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
         A bicycle accident claim allows injured cyclists to seek compensation when they’re hurt due to someone else’s negligence, whether by a motorist, pedestrian, or unsafe road conditions. Bicyclists are especially vulnerable on the road, and even minor accidents can lead to serious injuries like fractures, head trauma, and spinal fractures. In Florida, cyclists have the same rights as drivers and can pursue compensation for damages when another party is at fault.
     </p>
 
-    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    <p class="text-base md:text-lg font-bold mb-1 pl-0">
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -1700,12 +1745,12 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   </p>
 
 
-   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+   <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
     
-      <ul class="list-disc text-base md:text-lg pl-5">
+      <ul class="list-disc text-base md:text-lg pl-0">
         <li>
            Carter Injury Law will investigate every aspect of your accident, from securing video footage to gathering witness statements and working with accident reconstruction experts, to ensure the strongest case possible.
         </li>
@@ -1727,12 +1772,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/pedestrian-icon.png",
     title: "Pedestrian Accidents",
     slug: "pedestrian-accidents",
+    image: "/assets/servicepage/auto-accidents/pedestrian-accidents.jpg",
+    metaDescription: `A pedestrian accident claim is a legal pathway for individuals who have been hit by a vehicle while on foot to seek compensation for their injuries. Pedestrians are especially vulnerable in collisions with cars, trucks, and motorcycles, often resulting in severe injuries such as fractures, traumatic brain injuries, and back injuries. Florida law holds drivers accountable when they fail to yield or drive responsibly, putting pedestrians at risk.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Pedestrian Accidents
   
-    </h2>
+    </h1>
 
      
     <img
@@ -1747,11 +1794,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
         A pedestrian accident claim is a legal pathway for individuals who have been hit by a vehicle while on foot to seek compensation for their injuries. Pedestrians are especially vulnerable in collisions with cars, trucks, and motorcycles, often resulting in severe injuries such as fractures, traumatic brain injuries, and back injuries. Florida law holds drivers accountable when they fail to yield or drive responsibly, putting pedestrians at risk.
     </p>
 
-    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    <p class="text-base md:text-lg font-bold mb-1 pl-0">
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -1769,12 +1816,12 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   </p>
 
 
-   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+   <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
     
-      <ul class="list-disc text-base md:text-lg pl-5">
+      <ul class="list-disc text-base md:text-lg pl-0">
         <li>
            Carter Injury Law conducts thorough investigations, gathering evidence such as witness statements, surveillance footage, and expert opinions to build a solid case and prove liability.
         </li>
@@ -1796,12 +1843,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/golf-cart-accidents.png",
     title: "Golf Cart Accidents",
     slug: "golf-cart-accidents",
+    image: "/assets/servicepage/auto-accidents/golf-cart-accident.jpg",
+    metaDescription: `A golf cart accident claim allows victims to seek compensation for injuries from collisions or mishaps involving golf carts, commonly found in Florida’s neighborhoods, golf courses, and resorts. Despite their appearance, golf carts can reach dangerous speeds, causing injuries like fractures, head trauma, and soft tissue damage. Florida law classifies golf carts under certain vehicle codes, enabling victims to pursue compensation for medical bills, lost wages, and other losses due to negligence or unsafe conditions.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Golf Cart Accidents
   
-    </h2>
+    </h1>
 
      
     <img
@@ -1816,11 +1865,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
         A golf cart accident claim allows victims to seek compensation for injuries from collisions or mishaps involving golf carts, commonly found in Florida’s neighborhoods, golf courses, and resorts. Despite their appearance, golf carts can reach dangerous speeds, causing injuries like fractures, head trauma, and soft tissue damage. Florida law classifies golf carts under certain vehicle codes, enabling victims to pursue compensation for medical bills, lost wages, and other losses due to negligence or unsafe conditions.
     </p>
 
-    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    <p class="text-base md:text-lg font-bold mb-1 pl-0">
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -1838,12 +1887,12 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   </p>
 
 
-   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+   <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
     
-      <ul class="list-disc text-base md:text-lg pl-5">
+      <ul class="list-disc text-base md:text-lg pl-0">
         <li>
            Carter Injury Law has extensive experience handling unique accident claims, including golf cart incidents. We’ll work diligently to collect evidence, interview witnesses, and examine local ordinances or community policies that may affect liability.
         </li>
@@ -1865,12 +1914,15 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/ride-share-icon.png",
     title: "Uber/Lyft/Ridesharing Accidents",
     slug: "uber-lyft-ridesharing-accidents",
+    image:
+      "/assets/servicepage/auto-accidents/uber-lyft-ridesharing-accidents.jpg",
+    metaDescription: `A ridesharing accident claim is a legal process through which victims seek compensation for injuries sustained in an accident involving an Uber, Lyft, or other rideshare service vehicle. These cases often come with unique challenges due to the layered insurance policies and legal requirements specific to ridesharing companies.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Uber/Lyft/Ridesharing Accidents
   
-    </h2>
+    </h1>
 
     
     <img
@@ -1885,11 +1937,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
         A ridesharing accident claim is a legal process through which victims seek compensation for injuries sustained in an accident involving an Uber, Lyft, or other rideshare service vehicle. These cases often come with unique challenges due to the layered insurance policies and legal requirements specific to ridesharing companies.
     </p>
 
-    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    <p class="text-base md:text-lg font-bold mb-1 pl-0">
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -1907,12 +1959,12 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   </p>
 
 
-   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+   <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
     
-      <ul class="list-disc text-base md:text-lg pl-5">
+      <ul class="list-disc text-base md:text-lg pl-0">
         <li>
            Carter Injury Law is well-versed in the unique insurance issues surrounding rideshare accidents. We’ll analyze every detail of the accident and each applicable insurance policy to secure the best outcome for your claim.
         </li>
@@ -1934,12 +1986,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/car-icon.png",
     title: "Bus Accidents",
     slug: "bus-accidents",
+    image: "/assets/servicepage/auto-accidents/bus-accidents.jpg",
+    metaDescription: `A bus accident claim allows victims to seek compensation for injuries caused by city transit, charter, or school bus accidents. Due to their size and weight, bus accidents often result in serious injuries like fractures, head trauma, and vertebral damage. Florida law holds bus operators and companies responsible for maintaining safe driving practices and ensuring the safety of passengers and others on the road.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Bus Accidents
   
-    </h2>
+    </h1>
 
    
     <img
@@ -1954,11 +2008,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
         A bus accident claim allows victims to seek compensation for injuries caused by city transit, charter, or school bus accidents. Due to their size and weight, bus accidents often result in serious injuries like fractures, head trauma, and vertebral damage. Florida law holds bus operators and companies responsible for maintaining safe driving practices and ensuring the safety of passengers and others on the road.
     </p>
 
-    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    <p class="text-base md:text-lg font-bold mb-1 pl-0">
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -1976,12 +2030,12 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   </p>
 
 
-   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+   <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
     
-      <ul class="list-disc text-base md:text-lg pl-5">
+      <ul class="list-disc text-base md:text-lg pl-0">
         <li>
            We dive deep into every aspect of your case, gathering evidence from accident reports, surveillance footage, and eyewitness testimony to build a strong case on your behalf.
         </li>
@@ -2003,12 +2057,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/car-icon.png",
     title: "RV Accidents",
     slug: "rv-accidents",
+    image: "/assets/servicepage/auto-accidents/rv-accidents.jpg",
+    metaDescription: `An RV accident claim involves seeking compensation for injuries caused in accidents involving recreational vehicles (RVs), which can range from motorhomes to campers. Given the size and weight of RVs, accidents can result in severe injuries, including fractures, head trauma, and internal injuries. RV accidents often happen on highways, in campgrounds, or when maneuvering through tight spaces.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     RV Accidents
   
-    </h2>
+    </h1>
 
     
     <img
@@ -2023,11 +2079,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
         An RV accident claim involves seeking compensation for injuries caused in accidents involving recreational vehicles (RVs), which can range from motorhomes to campers. Given the size and weight of RVs, accidents can result in severe injuries, including fractures, head trauma, and internal injuries. RV accidents often happen on highways, in campgrounds, or when maneuvering through tight spaces.
     </p>
 
-    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    <p class="text-base md:text-lg font-bold mb-1 pl-0">
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -2045,12 +2101,12 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   </p>
 
 
-   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+   <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
     
-      <ul class="list-disc text-base md:text-lg pl-5">
+      <ul class="list-disc text-base md:text-lg pl-0">
         <li>
            Carter Injury Law will thoroughly investigate your RV accident, reviewing all relevant details such as driver behavior, vehicle maintenance records, and road conditions to build a strong case. Our team will also gather witness statements and accident reports to ensure no details are overlooked.
         </li>
@@ -2072,12 +2128,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/bicycle-icon.png",
     title: "Scooter Accidents",
     slug: "scooter-accidents",
+    image: "/assets/servicepage/auto-accidents/scooter-accidents.jpg",
+    metaDescription: `A scooter accident claim allows victims to seek compensation for injuries from accidents involving motorized, e-scooters, or traditional scooters. These accidents often result from hazardous road conditions, driver negligence, or scooter malfunctions, leading to serious injuries like fractures, concussions, or spinal damage. As scooters are commonly used in urban areas and busy streets, the risk of accidents is higher, making it crucial for victims to understand their rights to compensation.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Scooter Accidents
   
-    </h2>
+    </h1>
 
     
     <img
@@ -2092,11 +2150,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
         A scooter accident claim allows victims to seek compensation for injuries from accidents involving motorized, e-scooters, or traditional scooters. These accidents often result from hazardous road conditions, driver negligence, or scooter malfunctions, leading to serious injuries like fractures, concussions, or spinal damage. As scooters are commonly used in urban areas and busy streets, the risk of accidents is higher, making it crucial for victims to understand their rights to compensation.
     </p>
 
-    <p class="text-base md:text-lg font-bold mb-1 pl-5">
+    <p class="text-base md:text-lg font-bold mb-1 pl-0">
         Who Should File a Claim and Why Having an Attorney Is Essential
     </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
           <span class="font-bold">
               Benefits of Filing: 
@@ -2114,12 +2172,12 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   </p>
 
 
-   <p class="text-base md:text-lg font-bold mb-1 pl-5">
+   <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Carter Injury Law: Committed to Securing the Justice You Deserve
     </p>
 
     
-      <ul class="list-disc text-base md:text-lg pl-5">
+      <ul class="list-disc text-base md:text-lg pl-0">
         <li>
            We work quickly to gather all the evidence you need to prove your case, from accident reports to surveillance footage and witness testimonies. Our team will ensure that every detail is accounted for to strengthen your claim.
         </li>
@@ -2143,12 +2201,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/fall-icon.png",
     title: "Slip and Fall Accidents",
     slug: "slip-and-falls",
+    image: "/assets/servicepage/premises-liability/slip-and-falls.jpg",
+    metaDescription: `Slip and fall accidents are a common type of premises liability claim. These occur when someone slips, trips, or falls due to hazardous conditions on someone else's property, such as wet floors, uneven surfaces, or poorly lit areas. Florida law holds property owners responsible for maintaining safe environments, which means they’re accountable if negligence leads to injury.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Slip and Fall Accidents
 
-  </h2>
+  </h1>
 
   
   <img
@@ -2163,11 +2223,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       Slip and fall accidents are a common type of premises liability claim. These occur when someone slips, trips, or falls due to hazardous conditions on someone else's property, such as wet floors, uneven surfaces, or poorly lit areas. Florida law holds property owners responsible for maintaining safe environments, which means they’re accountable if negligence leads to injury.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2185,11 +2245,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
          Carter Injury Law understands Florida's premises liability laws and knows how to hold negligent property owners accountable.
       </li>
@@ -2219,12 +2279,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/trip-and-fall-accidents.png",
     title: "Trip and Fall Accidents",
     slug: "trip-and-falls",
+    image: "/assets/servicepage/premises-liability/trip-and-falls.jpg",
+    metaDescription: `Trip and fall accidents happen when a person trips over an obstacle or uneven surface, leading to injuries. Common causes include poorly maintained sidewalks, loose carpeting, or unexpected hazards on walkways. In Florida, property owners are legally required to maintain safe environments, meaning they may be liable if their negligence causes an accident.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Trip and Fall Accidents
 
-  </h2>
+  </h1>
 
   
   <img
@@ -2239,11 +2301,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       Trip and fall accidents happen when a person trips over an obstacle or uneven surface, leading to injuries. Common causes include poorly maintained sidewalks, loose carpeting, or unexpected hazards on walkways. In Florida, property owners are legally required to maintain safe environments, meaning they may be liable if their negligence causes an accident.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2261,11 +2323,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
          Carter Injury Law is well-versed in Florida's premises liability laws and can help establish negligence on the part of property owners.
       </li>
@@ -2295,12 +2357,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/dog-bite-icon.png",
     title: "Dog Bite Injuries",
     slug: "dog-bites",
+    image: "/assets/servicepage/premises-liability/dog-bites.jpg",
+    metaDescription: `Dog bite injuries can have severe physical and emotional consequences, often requiring immediate medical treatment and long-term care. In Florida, dog owners are legally liable for damages if their dog bites another person, regardless of the dog’s history or the owner’s knowledge of prior aggression. This legal standard is intended to ensure victims can seek compensation for medical bills, emotional distress, and other costs.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Dog Bite Injuries
 
-  </h2>
+  </h1>
 
   
   <img
@@ -2315,11 +2379,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       Dog bite injuries can have severe physical and emotional consequences, often requiring immediate medical treatment and long-term care. In Florida, dog owners are legally liable for damages if their dog bites another person, regardless of the dog’s history or the owner’s knowledge of prior aggression. This legal standard is intended to ensure victims can seek compensation for medical bills, emotional distress, and other costs.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2337,11 +2401,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
          At Carter Injury Law, we understand the complexities of dog bite cases under Florida law and work to hold negligent owners accountable.
       </li>
@@ -2371,12 +2435,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/negligent-security.png",
     title: "Negligent Security",
     slug: "negligent-security",
+    image: "/assets/servicepage/premises-liability/negligent-security.jpg",
+    metaDescription: `Negligent security cases arise when property owners fail to implement reasonable safety measures, leading to preventable crimes such as assault, robbery, or theft. Under Florida law, property owners have a duty to ensure their premises are safe for visitors and tenants, especially in areas with a history of criminal activity. When this responsibility is ignored, victims may have grounds for a negligent security claim.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Negligent Security
 
-  </h2>
+  </h1>
 
    
   <img
@@ -2391,12 +2457,12 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       Negligent security cases arise when property owners fail to implement reasonable safety measures, leading to preventable crimes such as assault, robbery, or theft. Under Florida law, property owners have a duty to ensure their premises are safe for visitors and tenants, especially in areas with a history of criminal activity. When this responsibility is ignored, victims may have grounds for a negligent security claim.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2414,11 +2480,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
          Carter Injury Law understands the intricacies of Florida’s premises liability laws, specifically regarding negligent security, and knows how to build a compelling case to hold property owners accountable.
       </li>
@@ -2448,12 +2514,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/pain-icon.png",
     title: "Burn Injuries",
     slug: "burn-injuries",
+    image: "/assets/servicepage/premises-liability/burn-injuries.jpg",
+    metaDescription: `Burn injuries can result from various accidents, including fires, chemical exposure, defective products, and unsafe premises. These injuries often require extensive medical care and rehabilitation, with victims facing lasting physical and emotional scars. Florida law provides pathways for burn injury victims to seek compensation if the injury resulted from someone else’s negligence, such as in cases involving unsafe conditions or product defects.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Burn Injuries
 
-  </h2>
+  </h1>
 
    
   <img
@@ -2468,11 +2536,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       Burn injuries can result from various accidents, including fires, chemical exposure, defective products, and unsafe premises. These injuries often require extensive medical care and rehabilitation, with victims facing lasting physical and emotional scars. Florida law provides pathways for burn injury victims to seek compensation if the injury resulted from someone else’s negligence, such as in cases involving unsafe conditions or product defects.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2490,11 +2558,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
          At Carter Injury Law, we bring in-depth knowledge of Florida’s personal injury statutes to your burn injury case, helping hold negligent parties accountable.
       </li>
@@ -2526,12 +2594,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/boat-icon.png",
     title: "Boat Accident",
     slug: "boating-accidents",
+    image: "/assets/servicepage/general-negligence/boating-accidents.jpg",
+    metaDescription: `A boat accident refers to any incident that happens while operating a boat or watercraft, leading to injury, property damage, or even loss of life. These accidents often occur due to collisions, hitting submerged objects, capsizing, equipment failure, or operator negligence. In Florida, with its vast waterways, there are strict boating safety laws in place. When boat operators fail to follow these regulations, they can be held accountable for the resulting harm.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Boat Accident
 
-  </h2>
+  </h1>
 
   
   <img
@@ -2546,11 +2616,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       A boat accident refers to any incident that happens while operating a boat or watercraft, leading to injury, property damage, or even loss of life. These accidents often occur due to collisions, hitting submerged objects, capsizing, equipment failure, or operator negligence. In Florida, with its vast waterways, there are strict boating safety laws in place. When boat operators fail to follow these regulations, they can be held accountable for the resulting harm.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2568,11 +2638,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
          We’ll investigate your boating accident, gathering reports, witness statements, and expert input to identify all responsible parties.
       </li>
@@ -2598,12 +2668,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/jet-ski-accidents.png",
     title: "Jet Ski Accident",
     slug: "jet-ski-accidents",
+    image: "/assets/servicepage/general-negligence/jet-ski-accidents.jpg",
+    metaDescription: `A jet ski accident involves injuries or damages caused while operating or riding on a jet ski, also known as a personal watercraft (PWC). These accidents can occur due to collisions with other watercraft, obstacles, or even poor weather conditions, as well as operator errors such as reckless driving or not following safety regulations. Florida, with its large coastline and boating culture, experiences many jet ski accidents annually. Injuries can range from minor to severe, including head trauma, broken bones, spinal injuries, or drowning.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Jet Ski Accident
 
-  </h2>
+  </h1>
 
    
   <img
@@ -2618,11 +2690,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       A jet ski accident involves injuries or damages caused while operating or riding on a jet ski, also known as a personal watercraft (PWC). These accidents can occur due to collisions with other watercraft, obstacles, or even poor weather conditions, as well as operator errors such as reckless driving or not following safety regulations. Florida, with its large coastline and boating culture, experiences many jet ski accidents annually. Injuries can range from minor to severe, including head trauma, broken bones, spinal injuries, or drowning.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2640,11 +2712,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
          We’ll review accident reports, witness statements, and medical records to identify the responsible parties, including operators, rental companies, or maintenance providers.
       </li>
@@ -2670,12 +2742,15 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/airplane-icon.png",
     title: "Airline and Aviation Injuries",
     slug: "airline-and-aviation-injuries",
+    image:
+      "/assets/servicepage/general-negligence/airline-and-aviation-injuries.jpg",
+    metaDescription: `Airline and aviation injuries occur during air travel, including accidents on commercial or private aircraft or while boarding or disembarking. These can result from crashes, turbulence, slip and falls, safety failures, or faulty equipment. Aviation accidents may involve passengers and crew, such as pilots or flight attendants. In Florida, the FAA regulates airline safety, and these claims are complicated, often involving airlines, manufacturers, and maintenance crews.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Airline and Aviation Injuries
 
-  </h2>
+  </h1>
 
    
   <img
@@ -2690,11 +2765,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       Airline and aviation injuries occur during air travel, including accidents on commercial or private aircraft or while boarding or disembarking. These can result from crashes, turbulence, slip and falls, safety failures, or faulty equipment. Aviation accidents may involve passengers and crew, such as pilots or flight attendants. In Florida, the FAA regulates airline safety, and these claims are complicated, often involving airlines, manufacturers, and maintenance crews.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2712,11 +2787,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
          We’ll investigate your aviation injury by reviewing flight data, maintenance records, and witness testimonies to determine fault and gather essential evidence.
       </li>
@@ -2744,12 +2819,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/car-crash-icon.png",
     title: "Car Accident Wrongful Death",
     slug: "car-accident-wrongful-death",
+    image: "/assets/servicepage/wrongful-death/car-accident-wrongful-death.jpg",
+    metaDescription: `A car accident wrongful death claim arises when someone dies due to another driver's negligence, recklessness, or intentional actions. Florida law allows surviving family members—such as a spouse, children, or parents—to seek compensation for funeral costs, lost income, and emotional distress. The goal is to hold the responsible party accountable and provide financial support to those left behind after a tragic loss.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Car Accident Wrongful Death
 
-  </h2>
+  </h1>
 
    
   <img
@@ -2764,11 +2841,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       A car accident wrongful death claim arises when someone dies due to another driver's negligence, recklessness, or intentional actions. Florida law allows surviving family members—such as a spouse, children, or parents—to seek compensation for funeral costs, lost income, and emotional distress. The goal is to hold the responsible party accountable and provide financial support to those left behind after a tragic loss.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
  
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2786,11 +2863,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
          We’ll step in immediately to protect your rights, beginning with a thorough investigation to handle all communications with insurance companies so you can focus on healing.
       </li>
@@ -2816,12 +2893,15 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/premises-icon.png",
     title: "Premises Liability Wrongful Death",
     slug: "premises-liability-wrongful-death",
+    image:
+      "/assets/servicepage/wrongful-death/premises-liability-wrongful-death.jpg",
+    metaDescription: `A premises liability wrongful death claim arises when a fatality occurs due to unsafe conditions on someone else’s property. In Florida, property owners are required to maintain safe premises. When negligence—such as hazardous conditions like slippery floors, broken stairs, or poor security—leads to death, the property owner may be liable.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Premises Liability Wrongful Death
 
-  </h2>
+  </h1>
 
    
   <img
@@ -2836,11 +2916,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       A premises liability wrongful death claim arises when a fatality occurs due to unsafe conditions on someone else’s property. In Florida, property owners are required to maintain safe premises. When negligence—such as hazardous conditions like slippery floors, broken stairs, or poor security—leads to death, the property owner may be liable.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2858,11 +2938,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
          We’ll quickly gather vital evidence, including security footage, maintenance records, and witness statements, to understand the circumstances of your loved one’s passing.
       </li>
@@ -2885,12 +2965,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/wrongful-death-icon.png",
     title: "Nursing Home Wrongful Death",
     slug: "nursing-home-wrongful-death",
+    image: "/assets/servicepage/wrongful-death/nursing-home-wrongful-death.jpg",
+    metaDescription: `A nursing home wrongful death claim occurs when a resident dies due to neglect, abuse, or poor care. Florida law requires that facilities uphold high standards of care. When a nursing home fails in its duties—through inadequate staffing, neglect, or abuse—the result can be fatal. In such cases, the facility can be held liable, allowing families to seek justice and accountability.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Nursing Home Wrongful Death
 
-  </h2>
+  </h1>
 
    
   <img
@@ -2905,11 +2987,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       A nursing home wrongful death claim occurs when a resident dies due to neglect, abuse, or poor care. Florida law requires that facilities uphold high standards of care. When a nursing home fails in its duties—through inadequate staffing, neglect, or abuse—the result can be fatal. In such cases, the facility can be held liable, allowing families to seek justice and accountability.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2927,11 +3009,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
          We’ll examine all aspects of your loved one’s death, gathering medical records, witness accounts, and evidence of neglect or abuse.
       </li>
@@ -2957,12 +3039,15 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/medical-icon.png",
     title: "Medical Malpractice Wrongful Death",
     slug: "medical-malpractice-wrongful-death",
+    image:
+      "/assets/servicepage/wrongful-death/medical-malpractice-wrongful-death.jpg",
+    metaDescription: `A medical malpractice wrongful death claim happens when a patient’s life is lost due to negligence or the failure of healthcare professionals to provide a standard level of care. This could involve misdiagnosis, surgical errors, medication mistakes, or failure to treat a critical condition, among other forms of negligence. In Florida, medical professionals are held to strict standards, and when their actions—or lack of actions—lead to a patient's death, surviving family members can pursue justice through a wrongful death claim.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Medical Malpractice Wrongful Death
 
-  </h2>
+  </h1>
 
   
   <img
@@ -2977,11 +3062,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       A medical malpractice wrongful death claim happens when a patient’s life is lost due to negligence or the failure of healthcare professionals to provide a standard level of care. This could involve misdiagnosis, surgical errors, medication mistakes, or failure to treat a critical condition, among other forms of negligence. In Florida, medical professionals are held to strict standards, and when their actions—or lack of actions—lead to a patient's death, surviving family members can pursue justice through a wrongful death claim.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -2999,11 +3084,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
          We’ll review your loved one’s medical history, seek expert opinions, and analyze whether the healthcare provider’s actions fell below the accepted standard of care uncovering the truth on your behalf.
       </li>
@@ -3026,12 +3111,15 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/product-liability-wrongful-death.png",
     title: "Product Liability Wrongful Death",
     slug: "product-liability-wrongful-death",
+    image:
+      "/assets/servicepage/wrongful-death/product-liability-wrongful-death.jpg",
+    metaDescription: `A product liability wrongful death claim arises when a person dies due to a defective or unsafe product. Florida law holds manufacturers, distributors, and sellers responsible for ensuring their products are safe. If defects—such as design flaws, manufacturing errors, or inadequate warnings—lead to a fatal accident, the responsible parties can be held liable.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Product Liability Wrongful Death
 
-  </h2>
+  </h1>
 
 
   <img
@@ -3046,11 +3134,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       A product liability wrongful death claim arises when a person dies due to a defective or unsafe product. Florida law holds manufacturers, distributors, and sellers responsible for ensuring their products are safe. If defects—such as design flaws, manufacturing errors, or inadequate warnings—lead to a fatal accident, the responsible parties can be held liable.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should File a Claim and Why Having an Attorney Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3068,11 +3156,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
          We’ll carefully examine the product, consulting experts and analyzing design and manufacturing flaws to build a strong case connecting the defect to your loved one’s death.
       </li>
@@ -3101,12 +3189,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/medical-icon.png",
     title: "Medication Errors",
     slug: "medication-errors",
+    image: "/assets/servicepage/medical-malpractice/surgical-errors.jpg",
+    metaDescription: `Medication errors happen when a healthcare provider prescribes or administers the wrong medication, dosage, or fails to account for potential drug interactions. This can result in harm to the patient. These errors can occur in hospitals, nursing homes, pharmacies, and clinics. In Florida, under §95.11(5) you have 2 years from the date the error was discovered or should have been discovered with due diligence. This period can extend up to 4 years from the date of the incident, but not later than.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Medication Errors
 
-  </h2>
+  </h1>
 
 
   <img
@@ -3121,11 +3211,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       Medication errors happen when a healthcare provider prescribes or administers the wrong medication, dosage, or fails to account for potential drug interactions. This can result in harm to the patient. These errors can occur in hospitals, nursing homes, pharmacies, and clinics. In Florida, under §95.11(5) you have 2 years from the date the error was discovered or should have been discovered with due diligence. This period can extend up to 4 years from the date of the incident, but not later than.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should Consider Filing a Claim and Why Legal Representation Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3143,11 +3233,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
          We investigate every aspect of the error, collecting medical records, consulting with experts, and identifying liable parties. This detailed approach strengthens your case and increases your chance of a favorable outcome.
       </li>
@@ -3170,12 +3260,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/surgical-errors.png",
     title: "Surgical Errors",
     slug: "surgical-errors",
+    image: "/assets/servicepage/medical-malpractice/surgical-errors.jpg",
+    metaDescription: `Surgical errors occur when a mistake during surgery causes harm to a patient. These errors can include operating on the wrong body part, leaving surgical instruments inside the patient, or performing an unnecessary procedure. Florida Statute of Limitations § 95.11(5)(c) governs the timeframe for filing medical malpractice claims, including those arising from surgical errors. Generally, a plaintiff must file a lawsuit within 2 years of the date of the incident. Conversely, within 2 years of the date the injury was discovered or should have been discovered through reasonable diligence.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Surgical Errors
 
-  </h2>
+  </h1>
 
 
   <img
@@ -3190,11 +3282,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       Surgical errors occur when a mistake during surgery causes harm to a patient. These errors can include operating on the wrong body part, leaving surgical instruments inside the patient, or performing an unnecessary procedure. Florida Statute of Limitations § 95.11(5)(c) governs the timeframe for filing medical malpractice claims, including those arising from surgical errors. Generally, a plaintiff must file a lawsuit within 2 years of the date of the incident. Conversely, within 2 years of the date the injury was discovered or should have been discovered through reasonable diligence.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should Consider Filing a Claim and Why Legal Representation Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3212,11 +3304,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
          We will conduct a comprehensive investigation to determine the cause of the surgical error and identify all liable parties.
       </li>
@@ -3239,12 +3331,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/birth-injuries.png",
     title: "Birth Injuries",
     slug: "birth-injuries",
+    image: "/assets/servicepage/medical-malpractice/birth-injuries.jpg",
+    metaDescription: `When a newborn suffers harm due to errors or negligence during labor and delivery known as birth injury. These injuries can range from minor trauma to serious, life-altering conditions like cerebral palsy, Erb’s palsy, brachial plexus injury (BPI), brain damage, or intrauterine fetal demise. In Florida under statute §95.11, you generally have 2 years to file a lawsuit for a birth injury. If you didn't know about the injury until after the 2-year deadline, you might still have time to sue (known as the discovery rule). If the doctor or hospital left the state, the deadline might be extended. Additionally, if the injured person is a minor, disabled, or mentally ill, special rules might apply.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Birth Injuries
 
-  </h2>
+  </h1>
 
 
   <img
@@ -3259,11 +3353,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       When a newborn suffers harm due to errors or negligence during labor and delivery known as birth injury. These injuries can range from minor trauma to serious, life-altering conditions like cerebral palsy, Erb’s palsy, brachial plexus injury (BPI), brain damage, or intrauterine fetal demise. In Florida under statute §95.11, you generally have 2 years to file a lawsuit for a birth injury. If you didn't know about the injury until after the 2-year deadline, you might still have time to sue (known as the discovery rule). If the doctor or hospital left the state, the deadline might be extended. Additionally, if the injured person is a minor, disabled, or mentally ill, special rules might apply.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should Consider Filing a Claim and Why Legal Representation Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3281,11 +3375,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
         Our attorneys have extensive experience in handling birth injury cases and can provide expert legal guidance.
       </li>
@@ -3308,12 +3402,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/delayed-diagnosis.png",
     title: "Delayed Diagnosis",
     slug: "delayed-diagnosis",
+    image: "/assets/servicepage/medical-malpractice/delayed-diagnosis.jpg",
+    metaDescription: `In Florida, medical malpractice for a delayed diagnosis is covered under Florida Statute 766.102. A delayed diagnosis occurs when a medical professional fails to identify a condition or illness within a reasonable time frame, leading to a delay in necessary treatment. This can result in worsened health outcomes, as early treatment opportunities are missed. If a delayed diagnosis causes further harm, you may be able to sue the healthcare provider for medical malpractice.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Delayed Diagnosis
 
-  </h2>
+  </h1>
 
 
   <img
@@ -3325,14 +3421,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 
 
   <p className="text-base md:text-lg">
-      In Florida, medical malpractice for a delayed diagnosis is covered under Florida Statute 766.102. A delayed diagnosis occurs when a medical professional fails to identify a condition or illness within a reasonable timeframe, leading to a delay in necessary treatment. This can result in worsened health outcomes, as early treatment opportunities are missed. If a delayed diagnosis causes further harm, you may be able to sue the healthcare provider for medical malpractice.
+      In Florida, medical malpractice for a delayed diagnosis is covered under Florida Statute 766.102. A delayed diagnosis occurs when a medical professional fails to identify a condition or illness within a reasonable time frame, leading to a delay in necessary treatment. This can result in worsened health outcomes, as early treatment opportunities are missed. If a delayed diagnosis causes further harm, you may be able to sue the healthcare provider for medical malpractice.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should Consider Filing a Claim and Why Legal Representation Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3350,11 +3446,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
         We reconstruct the medical timeline to highlight missed diagnosis opportunities and their impact on the patient’s health.
       </li>
@@ -3377,12 +3473,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/anesthesia-errors.png",
     title: "Anesthesia Errors",
     slug: "anesthesia-errors",
+    image: "/assets/servicepage/medical-malpractice/anesthesia-errors.jpg",
+    metaDescription: `Anesthesia errors in Florida are covered under §458 of the Florida Statutes. A supervising anesthesiologist is liable for the actions of their anesthesiologist assistant. The Board of Medicine can impose penalties on anesthesiologist assistants who violate the statute §456. Anesthesia errors can cause serious complications, such as brain damage, organ failure, or death. If an anesthesia error was caused by negligence, you may be able to pursue a medical malpractice lawsuit. The statute of limitations for medical malpractice lawsuits in Florida is 2 years from the date of the malpractice.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Anesthesia Errors
 
-  </h2>
+  </h1>
 
 
   <img
@@ -3397,11 +3495,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       Anesthesia errors in Florida are covered under §458 of the Florida Statutes. A supervising anesthesiologist is liable for the actions of their anesthesiologist assistant. The Board of Medicine can impose penalties on anesthesiologist assistants who violate the statute §456. Anesthesia errors can cause serious complications, such as brain damage, organ failure, or death. If an anesthesia error was caused by negligence, you may be able to pursue a medical malpractice lawsuit. The statute of limitations for medical malpractice lawsuits in Florida is 2 years from the date of the malpractice.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should Consider Filing a Claim and Why Legal Representation Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3419,11 +3517,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
         Our team thoroughly reviews medical records, consults with anesthesia experts, and gathers essential evidence to build a strong case demonstrating negligence.
       </li>
@@ -3446,12 +3544,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/failure-to-treat.png",
     title: "Failure to Treat",
     slug: "failure-to-treat",
+    image: "/assets/servicepage/medical-malpractice/failure-to-treat.jpg",
+    metaDescription: `"Failure to treat" occurs when a healthcare provider neglects to give necessary medical treatment after diagnosing a condition. Conversely when they fail to identify a condition that requires urgent care. This type of medical malpractice can lead to worsened health outcomes, prolonged suffering, and even preventable death. Under §766, Florida law allows patients to pursue legal action against healthcare providers for damages resulting from medical malpractice.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Failure to Treat
 
-  </h2>
+  </h1>
 
 
   <img
@@ -3466,11 +3566,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       "Failure to treat" occurs when a healthcare provider neglects to give necessary medical treatment after diagnosing a condition. Conversely when they fail to identify a condition that requires urgent care. This type of medical malpractice can lead to worsened health outcomes, prolonged suffering, and even preventable death. Under §766, Florida law allows patients to pursue legal action against healthcare providers for damages resulting from medical malpractice.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should Consider Filing a Claim and Why Legal Representation Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3488,11 +3588,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
         Our team works with medical experts to review the provider's actions and determine whether they met the accepted standard of care, providing a solid foundation for your claim.
       </li>
@@ -3515,12 +3615,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/failure-to-diagnose.png",
     title: "Failure to Diagnose",
     slug: "failure-to-diagnose",
+    image: "/assets/servicepage/medical-malpractice/failure-to-diagnose.jpg",
+    metaDescription: `According to Florida law, failure to diagnose refers to a doctor's failure to recognize a medical issue. Even when another equally competent doctor under identical circumstances might have identified the illness. And this form of medical negligence has increased in recent years. To investigate a misdiagnosis in Florida, you have to request medical records under Florida law 766.204. Additionally, you need to provide a pre-lawsuit notice to the medical provider under Florida law 766.106. The medical provider will have 90 days to respond to the notice.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Failure to Diagnose
 
-  </h2>
+  </h1>
 
 
   <img
@@ -3535,11 +3637,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       According to Florida law, failure to diagnose refers to a doctor's failure to recognize a medical issue. Even when another equally competent doctor under identical circumstances might have identified the illness. And this form of medical negligence has increased in recent years. To investigate a misdiagnosis in Florida, you have to request medical records under Florida law 766.204. Additionally, you need to provide a pre-lawsuit notice to the medical provider under Florida law 766.106. The medical provider will have 90 days to respond to the notice.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should Consider Filing a Claim and Why Legal Representation Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3557,11 +3659,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
         We review your medical records and consult with expert witnesses to determine the strength of your claim. Our team gathers the necessary documentation, including test results, medical reports, and expert opinions, to build a compelling case.
       </li>
@@ -3584,12 +3686,14 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/misdiagnosis.png",
     title: "Misdiagnosis",
     slug: "misdiagnosis",
+    image: "/assets/servicepage/medical-malpractice/misdiagnosis.jpg",
+    metaDescription: `A misdiagnosis is an incorrect or missing diagnosis. It can be due to failure to diagnose, inaccurate diagnosis, or delayed diagnosis. Medical misdiagnosis can be disastrous, resulting in a lack of critical care for your illness. Even getting inappropriate therapy for a condition you do not have, leads to disease progression, ongoing suffering, and even death. It is also covered under the §766 statute of limitation.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Misdiagnosis
 
-  </h2>
+  </h1>
 
 
   <img
@@ -3604,11 +3708,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       A misdiagnosis is an incorrect or missing diagnosis. It can be due to failure to diagnose, inaccurate diagnosis, or delayed diagnosis. Medical misdiagnosis can be disastrous, resulting in a lack of critical care for your illness. Even getting inappropriate therapy for a condition you do not have, leads to disease progression, ongoing suffering, and even death. It is also covered under the §766 statute of limitation.
   </p>
 
-  <p class="text-base md:text-lg font-bold mb-1 pl-5">
+  <p class="text-base md:text-lg font-bold mb-1 pl-0">
       Who Should Consider Filing a Claim and Why Legal Representation Is Essential
   </p>
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
     <li>
         <span class="font-bold">
             Benefits of Filing: 
@@ -3631,11 +3735,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
 </p>
 
 
- <p class="text-base md:text-lg font-bold mb-1 pl-5">
+ <p class="text-base md:text-lg font-bold mb-1 pl-0">
     Carter Injury Law: Committed to Securing the Justice You Deserve
   </p>
 
-  <ul class="list-disc text-base md:text-lg pl-5">
+  <ul class="list-disc text-base md:text-lg pl-0">
       <li>
         We are well-versed in Florida’s medical malpractice laws and procedures. Our attorneys ensure your case meets all legal standards and is filed within the strict deadlines, protecting your right to seek compensation.
       </li>
@@ -3659,10 +3763,12 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     icon: "/assets/servicepage/icon/physical-abuse.png",
     title: "Physical Abuse",
     slug: "physical-abuse",
+    image: "/assets/servicepage/nursing-home-abuse/physical-abuse.jpg",
+    metaDescription: `At nursing homes, physical abuse occurs when residents are harmed by deliberate force or rough handling, such as hitting, slapping, or improper restraint. Florida law enforces that nursing homes provide care safely and respectfully. Violating these duties, resulting in physical harm is grounds for legal action.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-<h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+<h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
   Physical Abuse
-</h2>
+</h1>
 <img
 src="/assets/servicepage/nursing-home-abuse/physical-abuse.jpg"
 alt="Physical Abuse"
@@ -3673,12 +3779,12 @@ className="w-full py-3"
 At nursing homes, physical abuse occurs when residents are harmed by deliberate force or rough handling, such as hitting, slapping, or improper restraint. Florida law enforces that nursing homes provide care safely and respectfully. Violating these duties, resulting in physical harm is grounds for legal action.
 </p>
 
-<p class= "text-base md:text-lg font-bold mb-1  pl-5">
+<p class= "text-base md:text-lg font-bold mb-1  pl-0">
   Who Should File a Claim and Why Having an Attorney Is Essential 
 </p>
 
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
 <li><span class= " font-bold ">Benefits of Filing:</span> Victims of nursing home physical abuse and their families can receive compensation for medical costs, pain, emotional distress, and possible other legal damages. Taking legal action also helps promote higher care standards and safety in nursing homes
 </li>
 
@@ -3688,12 +3794,12 @@ At nursing homes, physical abuse occurs when residents are harmed by deliberate 
 </p>
 
 
-<p class="text-base md:text-lg font-bold mb-1  pl-5">
+<p class="text-base md:text-lg font-bold mb-1  pl-0">
 Carter Injury Law: Committed to Securing the Justice You Deserve
 </p>
 
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
 
 <li>We’ll gather key evidence, including medical records, staff reports, security footage, and witness testimonies, to fully uncover the abuse and identify those responsible
 </li>
@@ -3721,10 +3827,12 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
     icon: "/assets/servicepage/icon/neglect-and-abandonment.png",
     title: "Neglect and Abandonment",
     slug: "neglect-and-abandonment",
+    image: "/assets/servicepage/nursing-home-abuse/neglect-and-abandonment.jpg",
+    metaDescription: `In nursing homes, neglect and abandonment mean that residents don’t receive the necessary care or supervision they need. Neglect includes failure to provide food, water, medication, hygiene, or mobility assistance, while abandonment involves leaving a resident unattended for extended periods, creating dangerous situations - even life risk. Florida law mandates that nursing homes provide adequate care.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-<h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+<h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 Neglect and Abandonment
-</h2>
+</h1>
 <img
 src="/assets/servicepage/nursing-home-abuse/neglect-and-abandonment.jpg"
 alt="Neglect and Abandonment"
@@ -3735,12 +3843,12 @@ className="w-full py-3"
 In nursing homes, neglect and abandonment mean that residents don’t receive the necessary care or supervision they need. Neglect includes failure to provide food, water, medication, hygiene, or mobility assistance, while abandonment involves leaving a resident unattended for extended periods, creating dangerous situations - even life risk. Florida law mandates that nursing homes provide adequate care.
 </p>
 
-<p class= "text-base md:text-lg font-bold mb-1  pl-5">
+<p class= "text-base md:text-lg font-bold mb-1  pl-0">
   Who Should File a Claim and Why Having an Attorney Is Essential 
 </p>
 
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
 <li><span class= " font-bold ">Benefits of Filing:</span> Families of nursing home residents affected by neglect or abandonment can seek compensation for medical bills, pain and suffering, emotional distress, and loss of quality of life. If the neglect leads to long-term health issues, they may also be entitled to damages for future care costs.
 </li>
 
@@ -3750,12 +3858,12 @@ In nursing homes, neglect and abandonment mean that residents don’t receive th
 </p>
 
 
-<p class="text-base md:text-lg font-bold mb-1  pl-5">
+<p class="text-base md:text-lg font-bold mb-1  pl-0">
 Carter Injury Law: Committed to Securing the Justice You Deserve
 </p>
 
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
 
 <li>We’ll review medical records, staff schedules, facility conditions, and witness testimonies to uncover the truth behind the neglect or abandonment.
 </li>
@@ -3781,10 +3889,12 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
     icon: "/assets/servicepage/icon/sexual-abuse.png",
     title: "Sexual Abuse",
     slug: "sexual-abuse",
+    image: "/assets/servicepage/nursing-home-abuse/sexual-abuse.jpg",
+    metaDescription: `Sexual abuse in nursing homes involves unwanted sexual contact or advances by staff, residents, or visitors. This abuse, whether physical, verbal, or emotional, often goes unreported due to victims' vulnerability. Florida law requires nursing homes to protect residents from all forms of abuse and maintain proper safety measures. When sexual abuse occurs, those responsible—individuals or the facility—can be held legally accountable.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-<h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+<h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 Sexual Abuse
-</h2>
+</h1>
 <img
 src="/assets/servicepage/nursing-home-abuse/sexual-abuse.jpg"
 alt="Sexual Abuse"
@@ -3795,12 +3905,12 @@ className="w-full py-3"
 Sexual abuse in nursing homes involves unwanted sexual contact or advances by staff, residents, or visitors. This abuse, whether physical, verbal, or emotional, often goes unreported due to victims' vulnerability. Florida law requires nursing homes to protect residents from all forms of abuse and maintain proper safety measures. When sexual abuse occurs, those responsible—individuals or the facility—can be held legally accountable.
 </p>
 
-<p class= "text-base md:text-lg font-bold mb-1  pl-5">
+<p class= "text-base md:text-lg font-bold mb-1  pl-0">
   Who Should File a Claim and Why Having an Attorney Is Essential 
 </p>
 
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
 <li><span class= " font-bold ">Benefits of Filing:</span>Victims and families of nursing home sexual abuse have the right to seek compensation for physical, emotional, and psychological injury, such as medical fees, counseling, pain and suffering, and punitive penalties. Filing a claim can also help avoid future abuse and reveal misconduct.
 </li>
 
@@ -3810,12 +3920,12 @@ Sexual abuse in nursing homes involves unwanted sexual contact or advances by st
 </p>
 
 
-<p class="text-base md:text-lg font-bold mb-1  pl-5">
+<p class="text-base md:text-lg font-bold mb-1  pl-0">
 Carter Injury Law: Committed to Securing the Justice You Deserve
 </p>
 
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
 
 <li>We’ll review medical records, staff schedules, facility conditions, and witness We’ll entirely investigate your case, from medical records, and interviewing witnesses to collaborating with experts to gather evidence of the abuse, always treating your situation with the utmost sensitivity.
 </li>
@@ -3841,10 +3951,12 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
     icon: "/assets/servicepage/icon/financial-abuse.png",
     title: "Financial Abuse",
     slug: "financial-abuse",
+    image: "/assets/servicepage/nursing-home-abuse/financial-abuse.jpg",
+    metaDescription: `Nursing home financial abuse occurs when a resident’s money or assets are misused or stolen by caregivers, staff, or other residents. This can involve unauthorized access to bank accounts, credit cards, and property, or compelling residents into financial decisions. Florida law treats financial exploitation seriously, requiring nursing homes to protect residents’ finances. When they fail, families can seek legal action to recover stolen funds and hold offenders accountable.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-<h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+<h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 Financial Abuse
-</h2>
+</h1>
 <img
 src="/assets/servicepage/nursing-home-abuse/financial-abuse.jpg"
 alt="Financial Abuse"
@@ -3855,12 +3967,12 @@ className="w-full py-3"
 Nursing home financial abuse occurs when a resident’s money or assets are misused or stolen by caregivers, staff, or other residents. This can involve unauthorized access to bank accounts, credit cards, and property, or compelling residents into financial decisions. Florida law treats financial exploitation seriously, requiring nursing homes to protect residents’ finances. When they fail, families can seek legal action to recover stolen funds and hold offenders accountable.
 </p>
 
-<p class= "text-base md:text-lg font-bold mb-1  pl-5">
+<p class= "text-base md:text-lg font-bold mb-1  pl-0">
   Who Should File a Claim and Why Having an Attorney Is Essential 
 </p>
 
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
 <li><span class= " font-bold ">Benefits of Filing:</span>Victims and their families can recover stolen funds and may receive fair compensation for emotional distress, legal costs, and punitive damages. Holding the perpetrators accountable can prevent further exploitation of vulnerable individuals.
 </li>
 
@@ -3870,12 +3982,12 @@ Nursing home financial abuse occurs when a resident’s money or assets are misu
 </p>
 
 
-<p class="text-base md:text-lg font-bold mb-1  pl-5">
+<p class="text-base md:text-lg font-bold mb-1  pl-0">
 Carter Injury Law: Committed to Securing the Justice You Deserve
 </p>
 
 
-<ul class="list-disc text-base md:text-lg pl-5">
+<ul class="list-disc text-base md:text-lg pl-0">
 
 <li>We’ll scrutinize financial records, contracts, and statements to uncover any signs of exploitation, interviewing witnesses and building strong evidence.
 </li>
@@ -3902,10 +4014,20 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
     icon: "/assets/servicepage/icon/temporary-partial-disability-icon.png",
     title: "Temporary Partial Disability Claims",
     slug: "temporary-partial-disability",
+    image:
+      "/assets/servicepage/workers-compensation/temporary-partial-disability.jpg",
+    metaDescription: `Temporary Partial Disability (TPD) claims refer to
+                    compensation for individuals who are temporarily unable to
+                    work at full capacity due to an injury or illness but are
+                    still able to perform some tasks. These claims are designed
+                    to provide financial support during recovery when a person’s
+                    ability to earn a full income is affected. This type of
+                    claim is essential for those facing a partial loss of wages
+                    due to a temporary disability.`,
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Temporary Partial Disability Claims
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/workers-compensation/temporary-partial-disability.jpg"
                     alt="Burn Injuries"
@@ -3922,12 +4044,12 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     due to a temporary disability.
                   </p>
                   <div>
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    <p className="text-base md:text-lg font-bold mb-1 pl-0">
                       Who Should File a Claim and Why Having an Attorney Is
                       Essential
                     </p>
                     
-                      <ul className="list-disc text-base md:text-lg pl-5">
+                      <ul className="list-disc text-base md:text-lg pl-0">
                         <li>
                           <span className="font-bold pr-1">
                             Benefits of Filing:
@@ -3965,12 +4087,12 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     </p>
                   </div>
                   <div>
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    <p className="text-base md:text-lg font-bold mb-1 pl-0">
                       Carter Injury Law: Committed to Securing the Justice You
                       Deserve
                     </p>
                     <p className="text-base  md:text-lg">
-                      <ul className="list-disc text-base md:text-lg pl-5">
+                      <ul className="list-disc text-base md:text-lg pl-0">
                         <li>
                           We start with a free, detailed evaluation to explain
                           your rights, eligibility, and best next steps.
@@ -4001,10 +4123,18 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
     icon: "/assets/servicepage/icon/cut-and-burn-injuries-icon.png",
     title: "Cut and Burn Injuries",
     slug: "cut-and-burn-injuries",
+    image: "/assets/servicepage/workers-compensation/cut-and-burn-injuries.jpg",
+    metaDescription: `Cut and burn injuries refer to physical harm caused by sharp
+                    objects or exposure to heat or chemicals.These injuries can
+                    range from mild to severe and often require immediate
+                    medical attention, depending on the extent of damage to the
+                    skin and underlying tissues. If someone has suffered from
+                    these injuries, it's essential to understand their rights
+                    and seek proper legal guidance.`,
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Cut and Burn Injuries
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/workers-compensation/cut-and-burn-injuries.jpg"
                     alt="cut and burn injuries"
@@ -4020,12 +4150,12 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     and seek proper legal guidance.
                   </p>
                   <div>
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    <p className="text-base md:text-lg font-bold mb-1 pl-0">
                       Who Should File a Claim and Why Having an Attorney Is
                       Essential
                     </p>
                     
-                      <ul className="list-disc text-base md:text-lg pl-5">
+                      <ul className="list-disc text-base md:text-lg pl-0">
                         <li>
                           <span className="font-bold pr-1">
                             Benefits of Filing:
@@ -4057,12 +4187,12 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                    
                   </div>
                   <div>
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    <p className="text-base md:text-lg font-bold mb-1 pl-0">
                       Carter Injury Law: Committed to Securing the Justice You
                       Deserve
                     </p>
                     
-                      <ul className="list-disc text-base md:text-lg pl-5">
+                      <ul className="list-disc text-base md:text-lg pl-0">
                         <li>
                           We take the time to carefully review your injuries,
                           medical records, and the details of the incident to
@@ -4098,10 +4228,18 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
     icon: "/assets/servicepage/icon/broken-bone-injury-icon.png",
     title: "Broken Bone Injury",
     slug: "broken-bone-injury",
+    image: "/assets/servicepage/workers-compensation/broken-bone-injuries.jpg",
+    metaDescription: `A broken bone injury occurs when a bone is fractured or
+                    cracked due to an impact or accident.These injuries can
+                    range from mild to severe, often requiring medical treatment
+                    and sometimes surgery. When dealing with a broken bone
+                    injury, understanding legal rights and potential claims is
+                    important, as proper legal guidance can ensure fair
+                    compensation for medical expenses and other related losses.`,
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Broken Bone Injury
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/workers-compensation/broken-bone-injuries.jpg"
                     alt="broken-bone-injury"
@@ -4117,12 +4255,12 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     compensation for medical expenses and other related losses.
                   </p>
                   <div>
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    <p className="text-base md:text-lg font-bold mb-1 pl-0">
                       Who Should File a Claim and Why Having an Attorney Is
                       Essential
                     </p>
-                    
-                      <ul className="list-disc text-base md:text-lg pl-5">
+
+                      <ul className="list-disc text-base md:text-lg pl-0">
                         <li>
                           <span className="font-bold pr-1">
                             Benefits of Filing:
@@ -4154,15 +4292,15 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                           and financial strain during recovery.
                         </li>
                       </ul>
-                    
+
                   </div>
                   <div>
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    <p className="text-base md:text-lg font-bold mb-1 pl-0">
                       Carter Injury Law: Committed to Securing the Justice You
                       Deserve
                     </p>
-                    
-                      <ul className="list-disc text-base md:text-lg pl-5">
+
+                      <ul className="list-disc text-base md:text-lg pl-0">
                         <li>
                           We’ll take the time to review your case and explain
                           your options—at no cost to you.
@@ -4181,7 +4319,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                           the most complex situations.
                         </li>
                       </ul>
-                    
+
                   </div>
                 </div>`,
   },
@@ -4189,10 +4327,20 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
     icon: "/assets/servicepage/icon/catastrophic-injuries-icon.png",
     title: " Catastrophic Injuries",
     slug: "catastrophic-injuries",
+    image: "/assets/servicepage/workers-compensation/catastrophic-injuries.jpg",
+    metaDescription: `A catastrophic injury refers to a severe injury that results
+                    in long-term or permanent damage, such as spinal cord
+                    injuries, traumatic brain injuries, severe burns, or
+                    amputations.These injuries often require extensive medical
+                    treatment, rehabilitation, and can significantly impact the
+                    quality of life. A person injured catastrophically due to
+                    someone else’s negligence, has the right to pursue
+                    compensation for medical expenses, lost income, and pain and
+                    suffering.`,
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Catastrophic Injuries
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/workers-compensation/catastrophic-injuries.jpg"
                     alt="cut and burn injuries"
@@ -4210,12 +4358,12 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     suffering.
                   </p>
                   <div>
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    <p className="text-base md:text-lg font-bold mb-1 pl-0">
                       Who Should File a Claim and Why Having an Attorney Is
                       Essential
                     </p>
-                    
-                      <ul className="list-disc text-base md:text-lg pl-5">
+
+                      <ul className="list-disc text-base md:text-lg pl-0">
                         <li>
                           <span className="font-bold pr-1">
                             Benefits of Filing:
@@ -4245,15 +4393,15 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                           compensation.
                         </li>
                       </ul>
-                    
+
                   </div>
                   <div>
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    <p className="text-base md:text-lg font-bold mb-1 pl-0">
                       Carter Injury Law: Committed to Securing the Justice You
                       Deserve
                     </p>
-                    
-                      <ul className="list-disc text-base md:text-lg  pl-5">
+
+                      <ul className="list-disc text-base md:text-lg  pl-0">
                         <li>
                           We have extensive experience handling catastrophic
                           injury cases in Florida, ensuring that you have a
@@ -4292,7 +4440,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                           your case.
                         </li>
                       </ul>
-                    
+
                   </div>
                 </div>`,
   },
@@ -4300,10 +4448,22 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
     icon: "/assets/servicepage/icon/disability-rating-disputes-icon.png",
     title: "Disability Rating Disputes",
     slug: "disability-rating-disputes",
+    image:
+      "/assets/servicepage/workers-compensation/disability-rating-disputes.jpg",
+    metaDescription: `A disability rating dispute arises when a veteran or
+                    individual disagrees with the disability rating assigned by
+                    the Department of Veterans Affairs (VA) after a claim is
+                    filed. The disability rating is a percentage that reflects
+                    the severity of your condition, determining the amount of
+                    compensation you receive. If a disability rating seems too
+                    low or doesn’t accurately reflect the severity of the
+                    condition, it's important to understand the process of
+                    challenging the decision to ensure the benefits are
+                    rightfully received.`,
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Disability Rating Disputes
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/workers-compensation/disability-rating-disputes.jpg"
                     alt="Disability Rating Disputes"
@@ -4322,12 +4482,12 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     rightfully received.
                   </p>
                   <div>
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    <p className="text-base md:text-lg font-bold mb-1 pl-0">
                       Who Should File a Claim and Why Having an Attorney Is
                       Essential
                     </p>
-                    
-                      <ul className="list-disc text-base md:text-lg pl-5">
+
+                      <ul className="list-disc text-base md:text-lg pl-0">
                         <li>
                           <span className="font-bold pr-1">
                             Benefits of Filing:
@@ -4362,15 +4522,15 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                           ultimately leading to a denial or a lower rating.
                         </li>
                       </ul>
-                    
+
                   </div>
                   <div>
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    <p className="text-base md:text-lg font-bold mb-1 pl-0">
                       Carter Injury Law: Committed to Securing the Justice You
                       Deserve
                     </p>
-                    
-                      <ul className="list-disc text-base md:text-lg pl-5">
+
+                      <ul className="list-disc text-base md:text-lg pl-0">
                         <li>
                           Our experienced attorneys will guide you through the
                           VA’s appeal process and help gather the necessary
@@ -4397,10 +4557,19 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
     icon: "/assets/servicepage/icon/overexertion-and-overuse-injuries-icon.png",
     title: "Overexertion and Overuse Injuries ",
     slug: "overexertion-and-overuse-injuries",
+    image:
+      "/assets/servicepage/workers-compensation/overexertion-and-overuse-injuries.jpg",
+    metaDescription: `Overexertion and overuse injuries occur when repetitive
+                    motions or physical strain exceed the body’s capacity, often
+                    leading to muscle, joint, or nerve damage. Such injuries can
+                    seriously impact a person's ability to work. Understanding
+                    legal options is essential, as compensation may be available
+                    to help cover medical costs and lost wages, offering vital
+                    support during recovery.`,
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Overexertion and Overuse Injuries
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/workers-compensation/overexertion-and-overuse-injuries.jpg"
                     alt="Overexertion and Overuse Injuries "
@@ -4416,12 +4585,12 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     support during recovery.
                   </p>
                   <div>
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    <p className="text-base md:text-lg font-bold mb-1 pl-0">
                       Who Should File a Claim and Why Having an Attorney Is
                       Essential
                     </p>
-                    
-                      <ul className="list-disc text-base md:text-lg  pl-5">
+
+                      <ul className="list-disc text-base md:text-lg  pl-0">
                         <li>
                           <span className="font-bold pr-1">
                             Benefits of Filing:
@@ -4462,12 +4631,12 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     </p>
                   </div>
                   <div>
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                    <p className="text-base md:text-lg font-bold mb-1 pl-0">
                       Carter Injury Law: Committed to Securing the Justice You
                       Deserve
                     </p>
-                    
-                      <ul className="list-disc  text-base md:text-lg  pl-5">
+
+                      <ul className="list-disc  text-base md:text-lg  pl-0">
                         <li>
                           We understand the difficulties you’re facing and offer
                           compassionate, tailored legal services to address your
@@ -4505,10 +4674,20 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
     icon: "/assets/servicepage/icon/death-claims-icon.png",
     title: "Death Claims",
     slug: "death-claims",
+    image: "/assets/servicepage/workers-compensation/death-claims.jpg",
+    metaDescription: `The loss of a loved one is always a tragic experience, but
+                    when their death is caused by someone else’s negligence or
+                    wrongful actions, the grief can feel even more unbearable.
+                    In Florida, surviving family members may have the option to
+                    pursue a wrongful death claim to seek justice and
+                    compensation for their loss. A wrongful death claim is a
+                    civil lawsuit filed when a person’s death is caused by
+                    another party’s negligence, misconduct, or reckless
+                    behavior.`,
     details: `      <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Death Claims
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/workers-compensation/death-claims.jpg"
                     alt="Overexertion and Overuse Injuries "
@@ -4525,13 +4704,13 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     another party’s negligence, misconduct, or reckless
                     behavior.
                   </p>
-                  
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+
+                    <p className="text-base md:text-lg font-bold mb-1 pl-0">
                       Who Should File a Claim and Why Having an Attorney Is
                       Essential
                     </p>
-                   
-                      <ul className="list-disc text-base md:text-lg pl-5">
+
+                      <ul className="list-disc text-base md:text-lg pl-0">
                         <li>
                           <span className="font-bold pr-1">
                             Benefits of Filing:
@@ -4564,13 +4743,13 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                           a difficult time.
                         </p>
                       </ul>
-                  
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+
+                    <p className="text-base md:text-lg font-bold mb-1 pl-0">
                       Carter Injury Law: Committed to Securing the Justice You
                       Deserve
                     </p>
-                    
-                      <ul className="list-disc text-base md:text-lg pl-5">
+
+                      <ul className="list-disc text-base md:text-lg pl-0">
                         <li>
                           We provide clear, step-by-step assistance in filing
                           your claim and making sure you meet all deadlines,
@@ -4600,21 +4779,33 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                 </div>`,
   },
 
-  // Product Liability
+  //Product Liability
   {
     icon: "/assets/servicepage/icon/manufacturing-defects-icon.png",
     title: "Manufacturing Defects",
     slug: "manufacturing-defects",
+    image: "/assets/servicepage/product-liability/manufacturing-defects.jpg",
+    metaDescription: `A manufacturing fault arises when a mistake or oversight in
+                    the production process compromises the product's integrity.
+                    For example, if a machine that makes brake calipers fails,
+                    the faulty calipers might cause a vehicle accident. In
+                    Florida, you normally have 2 years to file a claim after
+                    discovering you purchased a faulty product. The statute of
+                    limitations for product liability lawsuits may begin running
+                    at the moment of the accident. In other circumstances, you
+                    may not detect an injury immediately. In many cases, the
+                    statute of limitations does not begin to run until you
+                    discover your damage.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Manufacturing Defects
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/product-liability/manufacturing-defects.jpg"
                     alt="Burn Injuries"
                     className="w-full py-3"
                   />
-                
+
                   <p className="text-base md:text-lg">
                     A manufacturing fault arises when a mistake or oversight in
                     the production process compromises the product's integrity.
@@ -4628,12 +4819,12 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     statute of limitations does not begin to run until you
                     discover your damage.
                   </p>
-                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                  <p className="text-base md:text-lg font-bold mb-1 pl-0">
                     Who Should Consider Filing a Claim and Why Legal
                     Representation Is Essential
                   </p>
-                  
-                    <ul className="list-disc text-base md:text-lg pl-5">
+
+                    <ul className="list-disc text-base md:text-lg pl-0">
                       <li>
                         <span className="font-bold pr-1">Benefits of Filing:</span>
                         Anyone injured by a defective product should consider
@@ -4660,14 +4851,13 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                       </li>
                     </ul>
                   </p>
-              
-                
-                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+
+                  <p className="text-base md:text-lg font-bold mb-1 pl-0">
                     Carter Injury Law: Committed to Securing the Justice You
                     Deserve
                   </p>
-                  
-                    <ul className="list-disc text-base md:text-lg pl-5">
+
+                    <ul className="list-disc text-base md:text-lg pl-0">
                       <li>
                         We will carefully examine the circumstances of your
                         injury to identify all potential causes and responsible
@@ -4699,16 +4889,27 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
     icon: "/assets/servicepage/icon/design-defects-icon.png",
     title: "Design Defects",
     slug: "design-defects",
+    image: "/assets/servicepage/product-liability/design-defects.jpg",
+    metaDescription: `A defect in design arises when a product's design leads it
+                    to become defective. A poorly designed product may
+                    malfunction and cause harm. An example is a poorly
+                    constructed airbag that causes serious burns to passengers
+                    when it deploys. Design errors are frequently used as a
+                    basis for a product liability or faulty product lawsuit,
+                    particularly if someone suffers injury as a result of the
+                    flawed design. In Florida, a lawsuit for personal damage
+                    caused by a faulty product design must be filed within 4
+                    years.`,
     details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Design Defects
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/product-liability/design-defects.jpg"
                     alt="Burn Injuries"
                     className="w-full py-3"
                   />
-                
+
                   <p className="text-base md:text-lg">
                     A defect in design arises when a product's design leads it
                     to become defective. A poorly designed product may
@@ -4721,12 +4922,12 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     caused by a faulty product design must be filed within 4
                     years.
                   </p>
-                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                  <p className="text-base md:text-lg font-bold mb-1 pl-0">
                     Who Should Consider Filing a Claim and Why Legal
                     Representation Is Essential
                   </p>
-                  
-                    <ul className="list-disc text-base md:text-lg pl-5">
+
+                    <ul className="list-disc text-base md:text-lg pl-0">
                       <li>
                         <span className="font-bold pr-1">Benefits of Filing:</span>
                         Anyone who has been injured or suffered damages due to a
@@ -4752,13 +4953,13 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                       </li>
                     </ul>
                   </p>
-                
-                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+
+                  <p className="text-base md:text-lg font-bold mb-1 pl-0">
                     Carter Injury Law: Committed to Securing the Justice You
                     Deserve
                   </p>
-                  
-                    <ul className="list-disc text-base md:text-lg pl-5">
+
+                    <ul className="list-disc text-base md:text-lg pl-0">
                       <li>
                         We have specialized knowledge to understand the legal
                         standards for proving a design defect, including the
@@ -4789,16 +4990,28 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
     icon: "/assets/servicepage/icon/marketing-defects-and-failure-to-warn-icon.png",
     title: "Marketing Defects and Failure to Warn",
     slug: "marketing-defects-and-failure-to-warn",
+    image:
+      "/assets/servicepage/product-liability/marketing-defects-and-failure-to-warn.jpg",
+    metaDescription: `A marketing defect occurs when a product is dangerous but
+                            the manufacturer or distributor doesn't provide adequate or
+                            clear warnings about how to use it safely or the potential
+                            risks. For example, a medication that interacts with alcohol
+                            should have a warning label. If the defect wasn't
+                            immediately obvious, the time period might be extended.
+                            There's also a legal standard called the "discovery rule"
+                            that limits when a defect must be discovered to be
+                            actionable. The statute of limitations for a wrongful death
+                            claim is 2 years.`,
     details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Marketing Defects and Failure to Warn
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/product-liability/marketing-defects-and-failure-to-warn.jpg"
                     alt="Burn Injuries"
                     className="w-full py-3"
                   />
-                    
+
                         <p className="text-base md:text-lg">
                             A marketing defect occurs when a product is dangerous but
                             the manufacturer or distributor doesn't provide adequate or
@@ -4811,12 +5024,12 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                             actionable. The statute of limitations for a wrongful death
                             claim is 2 years.
                         </p>
-                        <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                        <p className="text-base md:text-lg font-bold mb-1 pl-0">
                             Who Should Consider Filing a Claim and Why Legal
                             Representation Is Essential
                         </p>
-                        
-                            <ul className="list-disc text-base md:text-lg pl-5">
+
+                            <ul className="list-disc text-base md:text-lg pl-0">
                             <li>
                                 <span className="font-bold pr-1">Benefits of Filing:</span>
                                 Anyone who has been injured or harmed by a product due
@@ -4843,13 +5056,13 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                             </li>
                             </ul>
                         </p>
-                        
-                        <p className="text-base md:text-lg font-bold mb-1 pl-5">
+
+                        <p className="text-base md:text-lg font-bold mb-1 pl-0">
                             Carter Injury Law: Committed to Securing the Justice You
                             Deserve
                         </p>
-                        
-                            <ul className="list-disc text-base md:text-lg pl-5">
+
+                            <ul className="list-disc text-base md:text-lg pl-0">
                             <li>
                                 We build a strong case by identifying the defect,
                                 proving the manufacturer’s awareness of the risk, and
@@ -4880,10 +5093,21 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
     icon: "/assets/servicepage/icon/defective-medical-devices-icon.png",
     title: "Defective Medical Devices",
     slug: "defective-medical-devices",
+    image: "/assets/servicepage/defective-medical-devices.jpg",
+    metaDescription: `The time frame for filing a faulty medical device lawsuit in
+                    Florida is limited by law. The statute of limitations is 4
+                    years, after which you lose your legal right to file a
+                    claim. The clock begins ticking on the day of your injury or
+                    when you should have reasonably known about the injury.
+                    Injured patients in Florida might face life-altering
+                    consequences as a result of dangerous or faulty medical
+                    devices. You might face everything from severe discomfort to
+                    catastrophic injury, lasting handicap, revision surgery, or
+                    wrongful death.`,
     details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Defective Medical Devices
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/product-liability/defective-medical-devices.jpg"
                     alt="Burn Injuries"
@@ -4901,12 +5125,12 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     catastrophic injury, lasting handicap, revision surgery, or
                     wrongful death.
                   </p>
-                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+                  <p className="text-base md:text-lg font-bold mb-1 pl-0">
                     Who Should Consider Filing a Claim and Why Legal
                     Representation Is Essential
                   </p>
-                  
-                    <ul className="list-disc text-base md:text-lg pl-5">
+
+                    <ul className="list-disc text-base md:text-lg pl-0">
                       <li>
                         <span className="font-bold pr-1">Benefits of Filing:</span>
                         Anyone who has experienced an injury or adverse health
@@ -4934,13 +5158,13 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                         device industry.
                       </li>
                     </ul>
-                  
-                  <p className="text-base md:text-lg font-bold mb-1 pl-5">
+
+                  <p className="text-base md:text-lg font-bold mb-1 pl-0">
                     Carter Injury Law: Committed to Securing the Justice You
                     Deserve
                   </p>
-                  
-                    <ul className="list-disc text-base md:text-lg pl-5">
+
+                    <ul className="list-disc text-base md:text-lg pl-0">
                       <li>
                         We specialize in medical device litigation, understand
                         the intricate regulations surrounding medical devices,
@@ -4966,17 +5190,28 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                         achieving the best result for you.
                       </li>
                     </ul>
-                  
+
                 </div>`,
   },
   {
     icon: "/assets/servicepage/icon/defective-household-goods-and-appliance-icon.png",
     title: "Defective Household Goods and Appliances",
     slug: "defective-household-goods-and-appliances",
+    image:
+      "/assets/servicepage/product-liability/defective-household-goods-and-appliances.jpg",
+    metaDescription: `Household goods and appliances are meant to bring
+                    convenience and safety. But defective products can lead to
+                    serious injuries and property damage. In Florida, victims of
+                    defective product injuries have the right to seek
+                    compensation for losses through a product liability claim.
+                    This must be done within the Florida statute of limitations,
+                    which is generally 4 years from the date of the injury. It’s
+                    essential to act promptly, as missing this deadline may
+                    prevent you from recovering damages.`,
     details: `   <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Defective Household Goods and Appliances
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/product-liability/defective-household-goods-and-appliances.jpg"
                     alt="Burn Injuries"
@@ -4993,13 +5228,13 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     essential to act promptly, as missing this deadline may
                     prevent you from recovering damages.
                   </p>
-                  
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+
+                    <p className="text-base md:text-lg font-bold mb-1 pl-0">
                       Who Should Consider Filing a Claim and Why Legal
                       Representation Is Essential
                     </p>
-                    
-                      <ul className="list-disc text-base md:text-lg pl-5">
+
+                      <ul className="list-disc text-base md:text-lg pl-0">
                         <li>
                           <span className="font-bold pr-1">
                             Benefits of Filing:
@@ -5032,15 +5267,13 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                           outcome on their own.
                         </li>
                       </ul>
-                    
-                  
-                  
-                    <p className="text-base md:text-lg font-bold mb-1 pl-5">
+
+                    <p className="text-base md:text-lg font-bold mb-1 pl-0">
                       Carter Injury Law: Committed to Securing the Justice You
                       Deserve
                     </p>
-                    
-                      <ul className="list-disc text-base md:text-lg pl-5">
+
+                      <ul className="list-disc text-base md:text-lg pl-0">
                         <li>
                           We analyze the details of the defect, including the
                           type of appliance, the nature of the malfunction, and
@@ -5070,7 +5303,7 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                           successful outcome on your behalf.
                         </li>
                       </ul>
-                    
+
                   </div>
                 </div>`,
   },
