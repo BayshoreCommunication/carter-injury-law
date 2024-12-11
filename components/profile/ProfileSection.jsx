@@ -18,6 +18,7 @@ import Link from "next/link";
 const ProfileSection = () => {
   return (
     <div className="shadow-[rgba(0,0,0,0.15)_0px_13px_25px] mb-16">
+      <h1 className="bg-clip-text text-transparent">Our Team</h1>
       <SectionLayout>
         <div className="flex flex-col gap-6 lg:gap-10">
           <div className="flex flex-col md:flex-row gap-6 lg:gap-20">

@@ -16,6 +16,7 @@ import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 const ContactHeroSection = () => {
   return (
     <div className="bg-[#1E2538]">
+      <h1 className="bg-clip-text text-transparent">CONTACT</h1>
       <SectionLayout>
         <div className="flex flex-col lg:flex-row text-white items-center gap-8">
           <div className="w-full flex-1 ">

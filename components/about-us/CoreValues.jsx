@@ -5,11 +5,11 @@ const CoreValues = () => {
   return (
     <div className="mt-10 lg:mt-14">
       <div bg="container w-full lg:max-w-[60%] mx-auto pb-2">
-        <h2
+        <h1
           className={`text-stone-950 !font-semibold text-3xl md:text-5xl mt-10 lg:mt-20  text-center  uppercase`}
         >
           Core Values
-        </h2>
+        </h1>
       </div>
       <SectionLayout>
         <div className="flex flex-col gap-6 lg:gap-10">

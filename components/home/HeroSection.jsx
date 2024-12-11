@@ -5,8 +5,6 @@ import HeaderForm from "../shared/HeaderForm";
 import SectionLayout from "../shared/SectionLayout";
 
 const HeroSection = () => {
-  const text = "Hardam Tripathi, Esq.".split(" ");
-
   return (
     <div className="">
       <div
