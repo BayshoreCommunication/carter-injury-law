@@ -251,30 +251,30 @@ const MainNavbar = () => {
         subMenu: [
           {
             title: "Auto Accidents",
-            slug: "/faq",
+            slug: "/auto-accidents",
           },
-          { title: "Premises Liability", slug: "/faq" },
-          { title: "General Negligence", slug: "/faq" },
-          { title: "Wrongful Death", slug: "/faq" },
+          { title: "Premises Liability", slug: "/premises-liability" },
+          { title: "General Negligence", slug: "/general-negligence" },
+          { title: "Wrongful Death", slug: "/wrongful-death" },
           {
             title: "Medical Malpractice",
-            slug: "/faq",
+            slug: "/medical-malpractice",
           },
           {
             title: "Nursing Home Abuse",
-            slug: "/faq",
+            slug: "/nursing-home-abuse",
           },
           {
             title: "Workers Compensation",
-            slug: "/faq",
+            slug: "/workers-compensation",
           },
-          {
-            title: "Workers Compensation",
-            slug: "/faq",
-          },
+          // {
+          //   title: "Workers Compensation",
+          //   slug: "/faq",
+          // },
           {
             title: "Product Liability",
-            slug: "/faq",
+            slug: "/product-liability",
           },
         ],
       },
@@ -390,25 +390,59 @@ const MainNavbar = () => {
                 >
                   <button className="flex items-center justify-between space-x-1">
                     {menuItem.subMenu ? (
-                      <div className="flex items-center justify-between">
-                        <span>{menuItem.title}</span>
-                        <span>
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            fill="currentColor"
-                            className={`size-5 font-black transform transition-transform duration-200 text-white ${
-                              activeMenu === index ? "rotate-0" : "rotate-180"
-                            }`}
-                          >
-                            <path
-                              fillRule="evenodd"
-                              d="M11.47 7.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z"
-                              clipRule="evenodd"
-                            />
-                          </svg>
-                        </span>
-                      </div>
+                      menuItem.title !== "FAQs" &&
+                      menuItem.title !== "Our Team" ? (
+                        <div className="flex items-center justify-between">
+                          <span>{menuItem.title}</span>
+                          <span>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                              fill="currentColor"
+                              className={`size-5 font-black transform transition-transform duration-200 text-white ${
+                                activeMenu === index ? "rotate-0" : "rotate-180"
+                              }`}
+                            >
+                              <path
+                                fillRule="evenodd"
+                                d="M11.47 7.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z"
+                                clipRule="evenodd"
+                              />
+                            </svg>
+                          </span>
+                        </div>
+                      ) : (
+                        <Link
+                          href={menuItem.slug}
+                          className={`${
+                            pathname === menuItem.slug
+                              ? "border-b-2 border-white"
+                              : ""
+                          }`}
+                        >
+                          <div className="flex items-center justify-between">
+                            <span>{menuItem.title}</span>
+                            <span>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                className={`size-5 font-black transform transition-transform duration-200 text-white ${
+                                  activeMenu === index
+                                    ? "rotate-0"
+                                    : "rotate-180"
+                                }`}
+                              >
+                                <path
+                                  fillRule="evenodd"
+                                  d="M11.47 7.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z"
+                                  clipRule="evenodd"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                        </Link>
+                      )
                     ) : (
                       <Link
                         href={menuItem.slug}

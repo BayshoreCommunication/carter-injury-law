@@ -22,7 +22,7 @@ const page = () => {
   return (
     <>
       <HeroSection />
-      <FAQ />
+      <FAQ toH1={true} />
       <CallToAction />
     </>
   );

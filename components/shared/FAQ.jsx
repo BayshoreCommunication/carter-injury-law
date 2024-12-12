@@ -5,18 +5,23 @@ import { Accordion, AccordionItem } from "@nextui-org/react";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 
-const FAQ = () => {
+const FAQ = ({ toH1 }) => {
   return (
     <SectionLayout bg="py-4 lg:py-0">
       <div className="w-full lg:w-[80%]  mx-auto">
-        <h2
-          className={`text-stone-950 !font-semibold text-3xl md:text-5xl mb-5   text-center uppercase`}
-        >
-          FAQ
-        </h2>
+        {toH1 ? (
+          <h1 className="text-stone-950 !font-semibold text-3xl md:text-5xl mb-5   text-center uppercase">
+            FAQ
+          </h1>
+        ) : (
+          <h2
+            className={`text-stone-950 !font-semibold text-3xl md:text-5xl mb-5   text-center uppercase`}
+          >
+            FAQ
+          </h2>
+        )}
 
         <Accordion className="w-full" dividerProps={"border-red"}>
-          
           <AccordionItem
             key="1"
             aria-label="Accordion 1"
@@ -52,7 +57,7 @@ const FAQ = () => {
               retaining us costs you nothing unless you win your case.
             </p>
           </AccordionItem>
-          
+
           <AccordionItem
             key="2"
             aria-label="Accordion 2"
