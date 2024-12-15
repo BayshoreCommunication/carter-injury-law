@@ -17,7 +17,7 @@ const TestimonialsSection = () => {
             <ScrollMotionEffect effect="fade-up" duration="2000">
               <div
                 key={index}
-                className="bg-white p-6 md:p-8 lg:p-10 rounded-lg drop-shadow-[0px_0_5px_#595959] text-center"
+                className="bg-white h-full p-6 md:p-8 lg:p-10 rounded-lg drop-shadow-[0px_0_5px_#595959] text-center"
               >
                 <p className="text-lg font-semibold text-gray-700 mb-4">
                   {testimonial.review}

@@ -19,11 +19,11 @@ const BlogHeroSection = () => {
             blog
           </h1>
         </div>
-        <div className="absolute -bottom-52 right-[15%] hidden md:block">
+        <div className="absolute -bottom-52 right-[15%] hidden lg:block">
           <HeaderForm className="bg-white" />
         </div>
       </div>
-      <div className="block md:hidden relative z-30">
+      <div className="block lg:hidden relative z-30">
         <SectionLayout>
           <HeaderForm className="bg-white" />
         </SectionLayout>

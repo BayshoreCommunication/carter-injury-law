@@ -119,9 +119,9 @@ const page = async ({ params }) => {
             y: 100,
           }}
         >
-          <div className="grid gap-12 mb-10 gird-col-1 sm:grid-cols-3">
+          <div className="grid gap-12 mb-10 grid-cols-3">
             {blogDetails?.map((blogs, index) => (
-              <div className="col-span-2">
+              <div className="col-span-3 lg:col-span-2">
                 <div className="flex items-center justify-between">
                   <p className="text-[.9rem] md:text-[1rem] text-black text-left italic mt-4 ">
                     {/* {blogs?.author} */}
@@ -147,7 +147,7 @@ const page = async ({ params }) => {
               </div>
             ))}
 
-            <div className="col-span-2 sm:col-span-1 h-[100%] md:h-[1000px] overflow-y-scroll overflow-x-hidden  p-3 rounded-lg">
+            <div className="hidden lg:block col-span-1 h-[100%] md:h-[1000px] overflow-y-scroll overflow-x-hidden  p-3 rounded-lg">
               <h2 className="font-medium text-4xl text-black border-b-2 border-gray-500 pb-4 mb-6">
                 Recent posts
               </h2>

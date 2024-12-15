@@ -251,22 +251,38 @@ const MainNavbar = () => {
         subMenu: [
           {
             title: "Auto Accidents",
-            slug: "/auto-accidents",
+            // slug: "/auto-accidents",
+            slug: "/faq",
           },
-          { title: "Premises Liability", slug: "/premises-liability" },
-          { title: "General Negligence", slug: "/general-negligence" },
-          { title: "Wrongful Death", slug: "/wrongful-death" },
+          {
+            title: "Premises Liability",
+            // slug: "/premises-liability",
+            slug: "/faq",
+          },
+          {
+            title: "General Negligence",
+            // slug: "/general-negligence",
+            slug: "/faq",
+          },
+          {
+            title: "Wrongful Death",
+            //  slug: "/wrongful-death",
+            slug: "/faq",
+          },
           {
             title: "Medical Malpractice",
-            slug: "/medical-malpractice",
+            // slug: "/medical-malpractice",
+            slug: "/faq",
           },
           {
             title: "Nursing Home Abuse",
-            slug: "/nursing-home-abuse",
+            // slug: "/nursing-home-abuse",
+            slug: "/faq",
           },
           {
             title: "Workers Compensation",
-            slug: "/workers-compensation",
+            // slug: "/workers-compensation",
+            slug: "/faq",
           },
           // {
           //   title: "Workers Compensation",
@@ -274,11 +290,15 @@ const MainNavbar = () => {
           // },
           {
             title: "Product Liability",
-            slug: "/product-liability",
+            // slug: "/product-liability",
+            slug: "/faq",
           },
         ],
       },
-      { title: "Blog", slug: "/blog" },
+      {
+        title: "Blog",
+        slug: "/blog",
+      },
       {
         title: "Contact",
         slug: "/contact",
@@ -375,16 +395,16 @@ const MainNavbar = () => {
       </div>
       <div className="bg-primary">
         <div
-          className="container py-2 hidden md:block h-[75px]"
+          className="container py-2 hidden md:flex h-[75px] items-center justify-center"
           onMouseLeave={handleMouseLeave}
         >
           <div className="flex items-center justify-center">
-            <ul className="flex space-x-14 p-4 list-none">
+            <ul className="flex items-center justify-center space-x-6 xl:space-x-14 list-none">
               {menuItems.map((menuItem, index) => (
                 <li
                   key={index}
                   onMouseEnter={() => toggleMenu(index)}
-                  className={`relative group cursor-pointer nav-item text-md md:text-[18px] font-medium uppercase ${
+                  className={`relative top-0 bottom-0 left-0 right-0 group cursor-pointer nav-item text-md md:text-[18px] font-medium uppercase ${
                     activeMenu === index ? "border-b-2 border-white" : ""
                   } hover:text-white`}
                 >
