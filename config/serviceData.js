@@ -10,9 +10,9 @@ export const allServiceData = [
     metaDescription:
       "Tampa Bay auto accidents lawyer offers legal representation for individuals who have been injured in auto accidents across the Tampa Bay area. This service handles a variety of cases, including accidents involving other vehicles, pedestrians, cyclists, and even commercial trucks, ensuring that you have the support you need to pursue compensation for your injuries and damages.",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
       Tampa Bay Auto Accidents Lawyer
-    </h2>
+    </h1>
     <img
       src="/assets/servicepage/tampa-bay-personal-injury-lawyer.jpg"
       alt="Car Accident"
@@ -50,9 +50,9 @@ export const allServiceData = [
     metaDescription:
       "Auto accident personal injury litigation involves legal representation for victims injured in car accidents due to another party's negligence. This service helps clients seek compensation for medical expenses, lost wages, property damage, and emotional suffering.",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-      <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+      <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
        Tampa Bay Car Accidents Lawyer
-      </h2>
+      </h1>
 
       <img
         src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
@@ -108,9 +108,9 @@ export const allServiceData = [
     metaDescription:
       "Auto accident personal injury litigation involves legal representation for victims injured in car accidents due to another party's negligence. This service helps clients seek compensation for medical expenses, lost wages, property damage, and emotional suffering.",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-      <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+      <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
         Tampa Bay Auto Accidents Lawyer
-      </h2>
+      </h1>
 
       <img
         src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
@@ -167,9 +167,9 @@ export const allServiceData = [
     metaDescription:
       "Tampa airplane accident litigation involves legal representation for victims of aviation accidents, including both commercial and private flights. These cases can be highly complex, often involving multiple parties such as airlines, aircraft manufacturers, and maintenance providers.",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-                <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                   Airline Injuries
-                </h2>
+                </h1>
 
                 <img
                   src="/assets/servicepage/airline-injuries.jpg"
@@ -214,9 +214,9 @@ export const allServiceData = [
     metaDescription:
       "An Uber accident lawyer specializes in representing victims of car accidents involving rideshare vehicles, such as Uber or Lyft. These cases can be more complicated than typical auto accidents due to the involvement of multiple insurance policies and the unique legal status of rideshare drivers.",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-                <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                  Uber & Lyft Accidents
-                </h2>
+                </h1>
 
                 <img
                   src="/assets/servicepage/uber-lyft-accidents.jpg"
@@ -261,9 +261,9 @@ export const allServiceData = [
     metaDescription:
       "A Tampa Bay truck accident service provides legal representation for victims injured in collisions involving large commercial trucks, such as semis, 18-wheelers, and other heavy-duty vehicles. Due to the size and weight of trucks, these accidents often result in severe injuries and significant property damage.",
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-                <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                   Tampa Bay Truck Accident Lawyer
-                </h2>
+                </h1>
 
                 <img
                   src="/assets/servicepage/tampa-bay-truck-accident-lawyer.jpg"
@@ -309,9 +309,9 @@ export const allServiceData = [
     image: "/assets/servicepage/dui-injuries.jpg",
     metaDescription: `Drunk driving accident services are for victims injured in accidents caused by intoxicated drivers. Drunk driving accidents often lead to devastating injuries, including traumatic brain injuries, spinal damage, broken bones, and even death.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                 DUI Injuries
-              </h2>
+              </h1>
 
               <img
                 src="/assets/servicepage/dui-injuries.jpg"
@@ -354,11 +354,11 @@ export const allServiceData = [
     image: "/assets/servicepage/auto-accidents/delivery-truck-accidents.jpg",
     metaDescription: `Delivery truck accidents can occur when large commercial vehicles are involved in collisions while transporting goods. These accidents may involve trucks delivering to businesses, homes, or distribution centers, and they can result in serious injuries due to the size and weight of the vehicle. If you’ve been injured in a delivery truck accident, Florida law allows you to seek compensation if the accident was caused by negligence, whether it’s due to driver error, maintenance issues, or improperly secured cargo.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-      <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+      <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
       Delivery Truck Accidents
 
-      </h2>
+      </h1>
 
       <img
         src="/assets/servicepage/auto-accidents/delivery-truck-accidents.jpg"
@@ -420,9 +420,9 @@ export const allServiceData = [
     image: "/assets/servicepage/pedestrian-personal-injury-litigation.jpg",
     metaDescription: `Pedestrian personal injury litigation In Florida, it involves legal representation for individuals who have been injured while walking or crossing streets due to the negligence of drivers, property owners, or other parties. These cases can arise from a variety of incidents, including vehicle collisions, hazardous walking conditions, or inadequate signage.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                 Pedestrian Personal Injury Litigation
-              </h2>
+              </h1>
               <img
                 src="/assets/servicepage/pedestrian-personal-injury-litigation.jpg"
                 alt="Pedestrian Personal Injury Litigation"
@@ -465,9 +465,9 @@ export const allServiceData = [
     image: "/assets/servicepage/tampa-bay-personal-injury-lawyer.jpg",
     metaDescription: `The Tampa Bay personal injury lawyer service provides legal representation for individuals who have suffered injuries due to someone else’s negligence or intentional actions. This includes a wide range of cases, such as auto accidents, slip and fall incidents, medical malpractice, workplace injuries, and more.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                Tampa Bay Personal Injury Lawyer
-              </h2>
+              </h1>
 
               <img
                 src="/assets/servicepage/tampa-bay-personal-injury-lawyer.jpg"
@@ -499,9 +499,9 @@ export const allServiceData = [
       "/assets/servicepage/premises-liability-personal-injury-litigation.jpg",
     metaDescription: `Premises liability personal injury litigation involves legal representation for individuals injured on someone else's property due to unsafe conditions. This area of law holds property owners accountable for maintaining a safe environment for visitors, whether in residential, commercial, or public spaces. Common cases include slips and falls, inadequate security leading to assaults, or injuries caused by poorly maintained facilities.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                Premises Liability Personal Injury Litigation
-              </h2>
+              </h1>
 
               <img
                 src="/assets/servicepage/premises-liability-personal-injury-litigation.jpg"
@@ -539,9 +539,9 @@ export const allServiceData = [
       "/assets/servicepage/medical-malpractice-personal-injury-litigation.jpg",
     metaDescription: `Medical malpractice personal injury litigation provides legal representation for individuals harmed by negligent or substandard care from healthcare professionals. This can include a wide range of issues, such as surgical errors, misdiagnoses, medication mistakes, or inadequate follow-up care.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                 Medical Malpractice Personal Injury Litigation
-              </h2>
+              </h1>
 
               <img
                 src="/assets/servicepage/medical-malpractice-personal-injury-litigation.jpg"
@@ -587,9 +587,9 @@ export const allServiceData = [
     image: "/assets/servicepage/pain-suffering-personal-injury-litigation.jpg",
     metaDescription: `Pain and suffering personal injury litigation refers to the legal process of seeking compensation for the physical and emotional distress caused by an injury due to someone else’s negligence. This encompasses a wide range of impacts, including chronic pain, mental anguish, emotional distress, loss of enjoyment of life, and more.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                Pain & Suffering Personal Injury Litigation
-              </h2>
+              </h1>
 
               <img
                 src="/assets/servicepage/pain-suffering-personal-injury-litigation.jpg"
@@ -635,9 +635,9 @@ export const allServiceData = [
     image: "/assets/servicepage/plastic-surgery-personal-injury-litigation.jpg",
     metaDescription: `Plastic surgery personal injury litigation involves legal representation for individuals who have suffered injuries or complications as a result of negligent or substandard plastic surgery procedures. This can include cases of surgical errors, improper aftercare, or failure to obtain informed consent.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                Plastic Surgery Personal Injury Litigation
-              </h2>
+              </h1>
 
               <img
                 src=" /assets/servicepage/plastic-surgery-personal-injury-litigation.jpg"
@@ -683,9 +683,9 @@ export const allServiceData = [
     image: "/assets/servicepage/slip-fall-personal-injury-litigation.jpg",
     metaDescription: `Slip and fall personal injury litigation involves legal representation for individuals who have been injured due to hazardous conditions on someone else’s property. Common causes of slip and fall accidents include wet or uneven surfaces, inadequate lighting, clutter, or lack of proper signage.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                 Slip And Fall Personal Injury Litigation
-              </h2>
+              </h1>
 
               <img
                 src=" /assets/servicepage/slip-fall-personal-injury-litigation.jpg"
@@ -735,9 +735,9 @@ export const allServiceData = [
     image: "/assets/servicepage/wrongful-personal-injury-litigation.jpg",
     metaDescription: `Wrongful personal injury litigation involves legal representation for individuals who have suffered injuries or loss due to the negligent or intentional actions of another party. This type of litigation seeks to hold responsible parties accountable for their actions and secure compensation for the victims or their families.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                 Wrongful Personal Injury Litigation
-              </h2>
+              </h1>
 
               <img
                 src=" /assets/servicepage/wrongful-personal-injury-litigation.jpg"
@@ -782,9 +782,9 @@ export const allServiceData = [
     image: "/assets/servicepage/dog-bites-personal-injury-litigation.jpg",
     metaDescription: `Dog bite personal injury litigation involves legal representation for individuals who have been injured as a result of a dog attack. These cases can encompass a range of injuries, from minor cuts and bruises to severe lacerations, infections, and emotional trauma.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-              <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+              <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                Dog Bites Personal Injury Litigation
-              </h2>
+              </h1>
 
               <img
                 src=" /assets/servicepage/dog-bites-personal-injury-litigation.jpg"
@@ -826,9 +826,9 @@ export const allServiceData = [
     image: "/assets/servicepage/pain-suffering-personal-injury-litigation.jpg",
     metaDescription: ` Personal injuries can completely upend your life, leaving you with unexpected physical pain, emotional stress, and financial burdens. From car crashes and workplace accidents to slips and falls, these incidents might be more than just “accidents.”`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
     Personal Injury
-  </h2>
+  </h1>
   <img
     src="/assets/servicepage/pain-suffering-personal-injury-litigation.jpg"
     alt="Personal Injury"
@@ -905,9 +905,9 @@ export const allServiceData = [
   //   title: "Dog Bites",
   //   slug: "dog-bites",
   //   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  //   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  //   <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
   //     Dog Bites
-  //   </h2>
+  //   </h1>
   //   <img
   //     src="/assets/servicepage/dog-bites-personal-injury-litigation.jpg"
   //     alt="Personal Injury"
@@ -991,9 +991,9 @@ export const allServiceData = [
       "/assets/servicepage/premises-liability-personal-injury-litigation.jpg",
     metaDescription: `Premises liability cases come down to one core idea: property owners have a duty to keep their premises safe for others. If you’ve been injured on someone else’s property, it’s not just an accident—it may be the result of someone failing to keep their space safe. Premises liability cases cover a wide range of injuries, from slipping on wet floors to suffering harm due to poor security or broken handrails. `,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
     Dog Bites
-  </h2>
+  </h1>
   <img
     src="/assets/servicepage/premises-liability-personal-injury-litigation.jpg"
     alt="Personal Injury"
@@ -1118,9 +1118,9 @@ Injured on Someone Else’s Property:
       "/assets/servicepage/medical-malpractice-personal-injury-litigation.jpg",
     metaDescription: `When you trust a medical professional with your health, you expect skilled, careful treatment. But if you’ve suffered due to a misdiagnosis, surgical error, medication mistake, or other forms of negligence, that trust has been deeply violated.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
     Medical Malpractice
-  </h2>
+  </h1>
   <img
     src="/assets/servicepage/medical-malpractice-personal-injury-litigation.jpg"
     alt="Personal Injury"
@@ -1240,11 +1240,11 @@ Patients Harmed by Medical Errors:
     image: "/assets/servicepage/auto-accident-personal-injury-litigation.jpg",
     metaDescription: `When you're involved in an auto accident, your world can change in an instant. The aftermath can be overwhelming, with medical bills, vehicle repairs, lost wages, and pain and suffering all adding up. Whether it’s a minor fender-bender or a serious crash, you need a lawyer who will fight for your rights.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Auto Accidents
   
-    </h2>
+    </h1>
   <img
     src="/assets/servicepage/auto-accident-personal-injury-litigation.jpg"
     alt="Auto Accidents"
@@ -1366,9 +1366,9 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
   //   title: "Slip and Fall Accidents",
   //   slug: "slip-and-falls",
   //   details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  //   <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  //   <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
   //     Slip and Fall Accidents
-  //   </h2>
+  //   </h1>
   //   <img
   //     src="/assets/servicepage/slip-fall-personal-injury-litigation.jpg"
   //     alt="Slip and Fall Accidents"
@@ -1489,11 +1489,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/auto-accidents/car-accidents.jpg",
     metaDescription: `A car accident claim is a legal process that allows you to seek compensation if you've been injured in a crash due to another driver’s negligence. This can include rear-end collisions, intersection accidents, distracted driving incidents, and more. Under Florida law, accident victims have the right to pursue damages to cover medical bills, lost wages, property damage, even pain and suffering. In Florida, car accident claims operate under a “no-fault” system, meaning each driver’s own insurance typically covers initial medical expenses.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Car Accidents
   
-    </h2>
+    </h1>
 
    
     <img
@@ -1561,11 +1561,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/auto-accidents/motorcycle-accidents.jpg",
     metaDescription: `A motorcycle accident claim allows injured riders to seek compensation when harmed in a crash due to another party’s negligence. Since motorcycles provide limited protection, these accidents often result in severe injuries, such as broken bones or spinal cord damage. In Florida, riders can pursue compensation for medical bills, lost wages, trauma, and affliction. Unlike car accidents, motorcycle accidents are not covered by Florida’s “no-fault” insurance laws, so riders are not required to carry personal injury protection (PIP) coverage.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Motorcycle Accidents
   
-    </h2>
+    </h1>
 
     
     <img
@@ -1633,11 +1633,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       "/assets/servicepage/auto-accidents/semi-truck-and-trucking-accidents.jpg",
     metaDescription: `A semi-truck accident claim allows victims to seek compensation for injuries caused by negligence from a truck driver, trucking company, or related parties. Given the size and weight of commercial trucks, these accidents often result in catastrophic injuries or fatalities. Florida law mandates strict federal and state regulations for commercial trucks, including limits on driving hours, vehicle maintenance, and cargo safety.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Semi-Truck and Trucking Accidents
   
-    </h2>
+    </h1>
 
      
     <img
@@ -1704,11 +1704,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/auto-accidents/bicycle-accidents.jpg",
     metaDescription: `A bicycle accident claim allows injured cyclists to seek compensation when they’re hurt due to someone else’s negligence, whether by a motorist, pedestrian, or unsafe road conditions. Bicyclists are especially vulnerable on the road, and even minor accidents can lead to serious injuries like fractures, head trauma, and spinal fractures. In Florida, cyclists have the same rights as drivers and can pursue compensation for damages when another party is at fault.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Bicycle Accidents
   
-    </h2>
+    </h1>
 
      
     <img
@@ -1775,11 +1775,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/auto-accidents/pedestrian-accidents.jpg",
     metaDescription: `A pedestrian accident claim is a legal pathway for individuals who have been hit by a vehicle while on foot to seek compensation for their injuries. Pedestrians are especially vulnerable in collisions with cars, trucks, and motorcycles, often resulting in severe injuries such as fractures, traumatic brain injuries, and back injuries. Florida law holds drivers accountable when they fail to yield or drive responsibly, putting pedestrians at risk.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Pedestrian Accidents
   
-    </h2>
+    </h1>
 
      
     <img
@@ -1846,11 +1846,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/auto-accidents/golf-cart-accident.jpg",
     metaDescription: `A golf cart accident claim allows victims to seek compensation for injuries from collisions or mishaps involving golf carts, commonly found in Florida’s neighborhoods, golf courses, and resorts. Despite their appearance, golf carts can reach dangerous speeds, causing injuries like fractures, head trauma, and soft tissue damage. Florida law classifies golf carts under certain vehicle codes, enabling victims to pursue compensation for medical bills, lost wages, and other losses due to negligence or unsafe conditions.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Golf Cart Accidents
   
-    </h2>
+    </h1>
 
      
     <img
@@ -1918,11 +1918,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       "/assets/servicepage/auto-accidents/uber-lyft-ridesharing-accidents.jpg",
     metaDescription: `A ridesharing accident claim is a legal process through which victims seek compensation for injuries sustained in an accident involving an Uber, Lyft, or other rideshare service vehicle. These cases often come with unique challenges due to the layered insurance policies and legal requirements specific to ridesharing companies.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Uber/Lyft/Ridesharing Accidents
   
-    </h2>
+    </h1>
 
     
     <img
@@ -1989,11 +1989,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/auto-accidents/bus-accidents.jpg",
     metaDescription: `A bus accident claim allows victims to seek compensation for injuries caused by city transit, charter, or school bus accidents. Due to their size and weight, bus accidents often result in serious injuries like fractures, head trauma, and vertebral damage. Florida law holds bus operators and companies responsible for maintaining safe driving practices and ensuring the safety of passengers and others on the road.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Bus Accidents
   
-    </h2>
+    </h1>
 
    
     <img
@@ -2060,11 +2060,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/auto-accidents/rv-accidents.jpg",
     metaDescription: `An RV accident claim involves seeking compensation for injuries caused in accidents involving recreational vehicles (RVs), which can range from motorhomes to campers. Given the size and weight of RVs, accidents can result in severe injuries, including fractures, head trauma, and internal injuries. RV accidents often happen on highways, in campgrounds, or when maneuvering through tight spaces.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     RV Accidents
   
-    </h2>
+    </h1>
 
     
     <img
@@ -2131,11 +2131,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/auto-accidents/scooter-accidents.jpg",
     metaDescription: `A scooter accident claim allows victims to seek compensation for injuries from accidents involving motorized, e-scooters, or traditional scooters. These accidents often result from hazardous road conditions, driver negligence, or scooter malfunctions, leading to serious injuries like fractures, concussions, or spinal damage. As scooters are commonly used in urban areas and busy streets, the risk of accidents is higher, making it crucial for victims to understand their rights to compensation.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-    <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+    <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
     Scooter Accidents
   
-    </h2>
+    </h1>
 
     
     <img
@@ -2204,11 +2204,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/premises-liability/slip-and-falls.jpg",
     metaDescription: `Slip and fall accidents are a common type of premises liability claim. These occur when someone slips, trips, or falls due to hazardous conditions on someone else's property, such as wet floors, uneven surfaces, or poorly lit areas. Florida law holds property owners responsible for maintaining safe environments, which means they’re accountable if negligence leads to injury.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Slip and Fall Accidents
 
-  </h2>
+  </h1>
 
   
   <img
@@ -2282,11 +2282,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/premises-liability/trip-and-falls.jpg",
     metaDescription: `Trip and fall accidents happen when a person trips over an obstacle or uneven surface, leading to injuries. Common causes include poorly maintained sidewalks, loose carpeting, or unexpected hazards on walkways. In Florida, property owners are legally required to maintain safe environments, meaning they may be liable if their negligence causes an accident.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Trip and Fall Accidents
 
-  </h2>
+  </h1>
 
   
   <img
@@ -2360,11 +2360,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/premises-liability/dog-bites.jpg",
     metaDescription: `Dog bite injuries can have severe physical and emotional consequences, often requiring immediate medical treatment and long-term care. In Florida, dog owners are legally liable for damages if their dog bites another person, regardless of the dog’s history or the owner’s knowledge of prior aggression. This legal standard is intended to ensure victims can seek compensation for medical bills, emotional distress, and other costs.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Dog Bite Injuries
 
-  </h2>
+  </h1>
 
   
   <img
@@ -2438,11 +2438,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/premises-liability/negligent-security.jpg",
     metaDescription: `Negligent security cases arise when property owners fail to implement reasonable safety measures, leading to preventable crimes such as assault, robbery, or theft. Under Florida law, property owners have a duty to ensure their premises are safe for visitors and tenants, especially in areas with a history of criminal activity. When this responsibility is ignored, victims may have grounds for a negligent security claim.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Negligent Security
 
-  </h2>
+  </h1>
 
    
   <img
@@ -2517,11 +2517,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/premises-liability/burn-injuries.jpg",
     metaDescription: `Burn injuries can result from various accidents, including fires, chemical exposure, defective products, and unsafe premises. These injuries often require extensive medical care and rehabilitation, with victims facing lasting physical and emotional scars. Florida law provides pathways for burn injury victims to seek compensation if the injury resulted from someone else’s negligence, such as in cases involving unsafe conditions or product defects.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Burn Injuries
 
-  </h2>
+  </h1>
 
    
   <img
@@ -2597,11 +2597,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/general-negligence/boating-accidents.jpg",
     metaDescription: `A boat accident refers to any incident that happens while operating a boat or watercraft, leading to injury, property damage, or even loss of life. These accidents often occur due to collisions, hitting submerged objects, capsizing, equipment failure, or operator negligence. In Florida, with its vast waterways, there are strict boating safety laws in place. When boat operators fail to follow these regulations, they can be held accountable for the resulting harm.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Boat Accident
 
-  </h2>
+  </h1>
 
   
   <img
@@ -2671,11 +2671,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/general-negligence/jet-ski-accidents.jpg",
     metaDescription: `A jet ski accident involves injuries or damages caused while operating or riding on a jet ski, also known as a personal watercraft (PWC). These accidents can occur due to collisions with other watercraft, obstacles, or even poor weather conditions, as well as operator errors such as reckless driving or not following safety regulations. Florida, with its large coastline and boating culture, experiences many jet ski accidents annually. Injuries can range from minor to severe, including head trauma, broken bones, spinal injuries, or drowning.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Jet Ski Accident
 
-  </h2>
+  </h1>
 
    
   <img
@@ -2746,11 +2746,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       "/assets/servicepage/general-negligence/airline-and-aviation-injuries.jpg",
     metaDescription: `Airline and aviation injuries occur during air travel, including accidents on commercial or private aircraft or while boarding or disembarking. These can result from crashes, turbulence, slip and falls, safety failures, or faulty equipment. Aviation accidents may involve passengers and crew, such as pilots or flight attendants. In Florida, the FAA regulates airline safety, and these claims are complicated, often involving airlines, manufacturers, and maintenance crews.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Airline and Aviation Injuries
 
-  </h2>
+  </h1>
 
    
   <img
@@ -2822,11 +2822,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/wrongful-death/car-accident-wrongful-death.jpg",
     metaDescription: `A car accident wrongful death claim arises when someone dies due to another driver's negligence, recklessness, or intentional actions. Florida law allows surviving family members—such as a spouse, children, or parents—to seek compensation for funeral costs, lost income, and emotional distress. The goal is to hold the responsible party accountable and provide financial support to those left behind after a tragic loss.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Car Accident Wrongful Death
 
-  </h2>
+  </h1>
 
    
   <img
@@ -2897,11 +2897,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       "/assets/servicepage/wrongful-death/premises-liability-wrongful-death.jpg",
     metaDescription: `A premises liability wrongful death claim arises when a fatality occurs due to unsafe conditions on someone else’s property. In Florida, property owners are required to maintain safe premises. When negligence—such as hazardous conditions like slippery floors, broken stairs, or poor security—leads to death, the property owner may be liable.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Premises Liability Wrongful Death
 
-  </h2>
+  </h1>
 
    
   <img
@@ -2968,11 +2968,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/wrongful-death/nursing-home-wrongful-death.jpg",
     metaDescription: `A nursing home wrongful death claim occurs when a resident dies due to neglect, abuse, or poor care. Florida law requires that facilities uphold high standards of care. When a nursing home fails in its duties—through inadequate staffing, neglect, or abuse—the result can be fatal. In such cases, the facility can be held liable, allowing families to seek justice and accountability.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Nursing Home Wrongful Death
 
-  </h2>
+  </h1>
 
    
   <img
@@ -3043,11 +3043,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       "/assets/servicepage/wrongful-death/medical-malpractice-wrongful-death.jpg",
     metaDescription: `A medical malpractice wrongful death claim happens when a patient’s life is lost due to negligence or the failure of healthcare professionals to provide a standard level of care. This could involve misdiagnosis, surgical errors, medication mistakes, or failure to treat a critical condition, among other forms of negligence. In Florida, medical professionals are held to strict standards, and when their actions—or lack of actions—lead to a patient's death, surviving family members can pursue justice through a wrongful death claim.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Medical Malpractice Wrongful Death
 
-  </h2>
+  </h1>
 
   
   <img
@@ -3115,11 +3115,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
       "/assets/servicepage/wrongful-death/product-liability-wrongful-death.jpg",
     metaDescription: `A product liability wrongful death claim arises when a person dies due to a defective or unsafe product. Florida law holds manufacturers, distributors, and sellers responsible for ensuring their products are safe. If defects—such as design flaws, manufacturing errors, or inadequate warnings—lead to a fatal accident, the responsible parties can be held liable.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Product Liability Wrongful Death
 
-  </h2>
+  </h1>
 
 
   <img
@@ -3192,11 +3192,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/medical-malpractice/surgical-errors.jpg",
     metaDescription: `Medication errors happen when a healthcare provider prescribes or administers the wrong medication, dosage, or fails to account for potential drug interactions. This can result in harm to the patient. These errors can occur in hospitals, nursing homes, pharmacies, and clinics. In Florida, under §95.11(5) you have 2 years from the date the error was discovered or should have been discovered with due diligence. This period can extend up to 4 years from the date of the incident, but not later than.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Medication Errors
 
-  </h2>
+  </h1>
 
 
   <img
@@ -3263,11 +3263,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/medical-malpractice/surgical-errors.jpg",
     metaDescription: `Surgical errors occur when a mistake during surgery causes harm to a patient. These errors can include operating on the wrong body part, leaving surgical instruments inside the patient, or performing an unnecessary procedure. Florida Statute of Limitations § 95.11(5)(c) governs the timeframe for filing medical malpractice claims, including those arising from surgical errors. Generally, a plaintiff must file a lawsuit within 2 years of the date of the incident. Conversely, within 2 years of the date the injury was discovered or should have been discovered through reasonable diligence.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Surgical Errors
 
-  </h2>
+  </h1>
 
 
   <img
@@ -3334,11 +3334,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/medical-malpractice/birth-injuries.jpg",
     metaDescription: `When a newborn suffers harm due to errors or negligence during labor and delivery known as birth injury. These injuries can range from minor trauma to serious, life-altering conditions like cerebral palsy, Erb’s palsy, brachial plexus injury (BPI), brain damage, or intrauterine fetal demise. In Florida under statute §95.11, you generally have 2 years to file a lawsuit for a birth injury. If you didn't know about the injury until after the 2-year deadline, you might still have time to sue (known as the discovery rule). If the doctor or hospital left the state, the deadline might be extended. Additionally, if the injured person is a minor, disabled, or mentally ill, special rules might apply.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Birth Injuries
 
-  </h2>
+  </h1>
 
 
   <img
@@ -3405,11 +3405,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/medical-malpractice/delayed-diagnosis.jpg",
     metaDescription: `In Florida, medical malpractice for a delayed diagnosis is covered under Florida Statute 766.102. A delayed diagnosis occurs when a medical professional fails to identify a condition or illness within a reasonable time frame, leading to a delay in necessary treatment. This can result in worsened health outcomes, as early treatment opportunities are missed. If a delayed diagnosis causes further harm, you may be able to sue the healthcare provider for medical malpractice.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Delayed Diagnosis
 
-  </h2>
+  </h1>
 
 
   <img
@@ -3476,11 +3476,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/medical-malpractice/anesthesia-errors.jpg",
     metaDescription: `Anesthesia errors in Florida are covered under §458 of the Florida Statutes. A supervising anesthesiologist is liable for the actions of their anesthesiologist assistant. The Board of Medicine can impose penalties on anesthesiologist assistants who violate the statute §456. Anesthesia errors can cause serious complications, such as brain damage, organ failure, or death. If an anesthesia error was caused by negligence, you may be able to pursue a medical malpractice lawsuit. The statute of limitations for medical malpractice lawsuits in Florida is 2 years from the date of the malpractice.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Anesthesia Errors
 
-  </h2>
+  </h1>
 
 
   <img
@@ -3547,11 +3547,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/medical-malpractice/failure-to-treat.jpg",
     metaDescription: `"Failure to treat" occurs when a healthcare provider neglects to give necessary medical treatment after diagnosing a condition. Conversely when they fail to identify a condition that requires urgent care. This type of medical malpractice can lead to worsened health outcomes, prolonged suffering, and even preventable death. Under §766, Florida law allows patients to pursue legal action against healthcare providers for damages resulting from medical malpractice.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Failure to Treat
 
-  </h2>
+  </h1>
 
 
   <img
@@ -3618,11 +3618,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/medical-malpractice/failure-to-diagnose.jpg",
     metaDescription: `According to Florida law, failure to diagnose refers to a doctor's failure to recognize a medical issue. Even when another equally competent doctor under identical circumstances might have identified the illness. And this form of medical negligence has increased in recent years. To investigate a misdiagnosis in Florida, you have to request medical records under Florida law 766.204. Additionally, you need to provide a pre-lawsuit notice to the medical provider under Florida law 766.106. The medical provider will have 90 days to respond to the notice.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Failure to Diagnose
 
-  </h2>
+  </h1>
 
 
   <img
@@ -3689,11 +3689,11 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/medical-malpractice/misdiagnosis.jpg",
     metaDescription: `A misdiagnosis is an incorrect or missing diagnosis. It can be due to failure to diagnose, inaccurate diagnosis, or delayed diagnosis. Medical misdiagnosis can be disastrous, resulting in a lack of critical care for your illness. Even getting inappropriate therapy for a condition you do not have, leads to disease progression, ongoing suffering, and even death. It is also covered under the §766 statute of limitation.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 
   Misdiagnosis
 
-  </h2>
+  </h1>
 
 
   <img
@@ -3766,9 +3766,9 @@ With Carter Injury Law, you don’t pay unless we win. We take on your case at n
     image: "/assets/servicepage/nursing-home-abuse/physical-abuse.jpg",
     metaDescription: `At nursing homes, physical abuse occurs when residents are harmed by deliberate force or rough handling, such as hitting, slapping, or improper restraint. Florida law enforces that nursing homes provide care safely and respectfully. Violating these duties, resulting in physical harm is grounds for legal action.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-<h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+<h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
   Physical Abuse
-</h2>
+</h1>
 <img
 src="/assets/servicepage/nursing-home-abuse/physical-abuse.jpg"
 alt="Physical Abuse"
@@ -3830,9 +3830,9 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
     image: "/assets/servicepage/nursing-home-abuse/neglect-and-abandonment.jpg",
     metaDescription: `In nursing homes, neglect and abandonment mean that residents don’t receive the necessary care or supervision they need. Neglect includes failure to provide food, water, medication, hygiene, or mobility assistance, while abandonment involves leaving a resident unattended for extended periods, creating dangerous situations - even life risk. Florida law mandates that nursing homes provide adequate care.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-<h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+<h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 Neglect and Abandonment
-</h2>
+</h1>
 <img
 src="/assets/servicepage/nursing-home-abuse/neglect-and-abandonment.jpg"
 alt="Neglect and Abandonment"
@@ -3892,9 +3892,9 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
     image: "/assets/servicepage/nursing-home-abuse/sexual-abuse.jpg",
     metaDescription: `Sexual abuse in nursing homes involves unwanted sexual contact or advances by staff, residents, or visitors. This abuse, whether physical, verbal, or emotional, often goes unreported due to victims' vulnerability. Florida law requires nursing homes to protect residents from all forms of abuse and maintain proper safety measures. When sexual abuse occurs, those responsible—individuals or the facility—can be held legally accountable.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-<h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+<h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 Sexual Abuse
-</h2>
+</h1>
 <img
 src="/assets/servicepage/nursing-home-abuse/sexual-abuse.jpg"
 alt="Sexual Abuse"
@@ -3954,9 +3954,9 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
     image: "/assets/servicepage/nursing-home-abuse/financial-abuse.jpg",
     metaDescription: `Nursing home financial abuse occurs when a resident’s money or assets are misused or stolen by caregivers, staff, or other residents. This can involve unauthorized access to bank accounts, credit cards, and property, or compelling residents into financial decisions. Florida law treats financial exploitation seriously, requiring nursing homes to protect residents’ finances. When they fail, families can seek legal action to recover stolen funds and hold offenders accountable.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-<h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+<h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
 Financial Abuse
-</h2>
+</h1>
 <img
 src="/assets/servicepage/nursing-home-abuse/financial-abuse.jpg"
 alt="Financial Abuse"
@@ -4025,9 +4025,9 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     claim is essential for those facing a partial loss of wages
                     due to a temporary disability.`,
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Temporary Partial Disability Claims
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/workers-compensation/temporary-partial-disability.jpg"
                     alt="Burn Injuries"
@@ -4132,9 +4132,9 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     these injuries, it's essential to understand their rights
                     and seek proper legal guidance.`,
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Cut and Burn Injuries
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/workers-compensation/cut-and-burn-injuries.jpg"
                     alt="cut and burn injuries"
@@ -4237,9 +4237,9 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     important, as proper legal guidance can ensure fair
                     compensation for medical expenses and other related losses.`,
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Broken Bone Injury
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/workers-compensation/broken-bone-injuries.jpg"
                     alt="broken-bone-injury"
@@ -4338,9 +4338,9 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     compensation for medical expenses, lost income, and pain and
                     suffering.`,
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Catastrophic Injuries
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/workers-compensation/catastrophic-injuries.jpg"
                     alt="cut and burn injuries"
@@ -4461,9 +4461,9 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     challenging the decision to ensure the benefits are
                     rightfully received.`,
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Disability Rating Disputes
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/workers-compensation/disability-rating-disputes.jpg"
                     alt="Disability Rating Disputes"
@@ -4567,9 +4567,9 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     to help cover medical costs and lost wages, offering vital
                     support during recovery.`,
     details: ` <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Overexertion and Overuse Injuries
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/workers-compensation/overexertion-and-overuse-injuries.jpg"
                     alt="Overexertion and Overuse Injuries "
@@ -4685,9 +4685,9 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     another party’s negligence, misconduct, or reckless
                     behavior.`,
     details: `      <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Death Claims
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/workers-compensation/death-claims.jpg"
                     alt="Overexertion and Overuse Injuries "
@@ -4797,9 +4797,9 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     statute of limitations does not begin to run until you
                     discover your damage.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Manufacturing Defects
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/product-liability/manufacturing-defects.jpg"
                     alt="Burn Injuries"
@@ -4901,9 +4901,9 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     caused by a faulty product design must be filed within 4
                     years.`,
     details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Design Defects
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/product-liability/design-defects.jpg"
                     alt="Burn Injuries"
@@ -5003,9 +5003,9 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                             actionable. The statute of limitations for a wrongful death
                             claim is 2 years.`,
     details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Marketing Defects and Failure to Warn
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/product-liability/marketing-defects-and-failure-to-warn.jpg"
                     alt="Burn Injuries"
@@ -5105,9 +5105,9 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     catastrophic injury, lasting handicap, revision surgery, or
                     wrongful death.`,
     details: `  <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Defective Medical Devices
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/product-liability/defective-medical-devices.jpg"
                     alt="Burn Injuries"
@@ -5209,9 +5209,9 @@ Carter Injury Law: Committed to Securing the Justice You Deserve
                     essential to act promptly, as missing this deadline may
                     prevent you from recovering damages.`,
     details: `   <div className="w-full flex flex-col gap-2 lg:gap-4">
-                  <h2 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
+                  <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
                     Defective Household Goods and Appliances
-                  </h2>
+                  </h1>
                   <img
                     src="/assets/servicepage/product-liability/defective-household-goods-and-appliances.jpg"
                     alt="Burn Injuries"
