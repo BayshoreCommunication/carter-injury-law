@@ -2,7 +2,7 @@ import React from "react";
 import SectionLayout from "./SectionLayout";
 import Image from "next/image";
 
-const AchievementSection = () => {
+const AchievementSection = ({ className }) => {
   return (
     <div>
       <SectionLayout bg="bg-[#1E2538]">

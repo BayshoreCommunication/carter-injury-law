@@ -12,6 +12,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import { IoCall } from "react-icons/io5";
+import AchievementSection from "./shared/AchievementSection";
 
 const orbitron = Orbitron({ subsets: ["latin"] });
 
@@ -348,8 +349,8 @@ const MainNavbar = () => {
            border-r-[50px] border-r-transparent
            relative"
           >
-            <div className="absolute top-0 bottom-0 -mt-20 text-white">
-              <div className=" flex items-center gap-x-10 2xl:gap-x-16">
+            <div className="absolute top-0 bottom-0 -mt-20 text-white w-full">
+              <div className=" flex items-center justify-center gap-x-10 ">
                 <Link href={"/"}>
                   <Image
                     src="/assets/site-logo/logo.png"
@@ -366,6 +367,63 @@ const MainNavbar = () => {
                   height={500}
                   className="hidden lg:block  lg:w-[240px] xl:w-[400px] 2xl:w-[400px] h-[46px] mx-auto "
                 />
+                {/* <div className=" hidden lg:block  mx-auto  lg-w-[33%]">
+                  <div className="flex flex-nowrap gap-2 h-16 ">
+                    <Image
+                      src="/assets/shared/achievement-1.png"
+                      alt="achievements"
+                      width={80}
+                      height={80}
+                      className="mx-auto bg-transparent"
+                    />
+                    <Image
+                      src="/assets/shared/achievement-2.png"
+                      alt="achievements"
+                      width={80}
+                      height={80}
+                      className="mx-auto"
+                    />
+                    <Image
+                      src="/assets/shared/achievement-3.png"
+                      alt="achievements"
+                      width={65}
+                      height={80}
+                      className="mx-auto"
+                    />
+
+                    <Image
+                      src="/assets/shared/achievement-4.png"
+                      alt="achievements"
+                      width={90}
+                      height={90}
+                      quality={100}
+                      className="mx-auto"
+                    />
+                    <Image
+                      src="/assets/shared/achievement-5.png"
+                      alt="achievements"
+                      width={60}
+                      height={60}
+                      className="mx-auto "
+                    />
+
+                    <Image
+                      src="/assets/shared/achievement-6.png"
+                      alt="achievements"
+                      width={60}
+                      height={60}
+                      className="mx-auto"
+                    />
+
+                    <Image
+                      src="/assets/shared/achievement-7.png"
+                      alt="achievements"
+                      width={60}
+                      height={60}
+                      className="mx-auto"
+                    />
+                  </div>
+                </div> */}
               </div>
             </div>
           </div>

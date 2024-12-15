@@ -16,11 +16,11 @@ const PracticeAreaDetailsHeader = ({ title }) => {
         />
 
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <h2
+          <h1
             className={`text-white font-semibold text-3xl md:text-5xl lg:text-[80px]  text-center uppercase drop-shadow-[1px_0_10px_#000000]`}
           >
             {title}
-          </h2>
+          </h1>
         </div>
       </div>
     </div>
