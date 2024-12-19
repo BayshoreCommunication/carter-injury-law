@@ -9,9 +9,11 @@ const BlogHeroSection = () => {
         <Image
           src="/assets/shared/practice-area-bg.png"
           alt="testimonials Bg"
-          layout="fill"
-          objectFit="cover"
-          className="z-0 object-top"
+          // layout="fill"
+          // objectFit="center"
+          height={650}
+          width={2400}
+          className="z-0 object-cover w-full h-full object-bottom"
         />
 
         <div className="absolute inset-0 flex justify-center items-center z-10 lg:h-[650px]">
@@ -22,7 +24,7 @@ const BlogHeroSection = () => {
         {/* <div className="absolute -bottom-52 right-[15%] hidden lg:block">
           <HeaderForm className="bg-white" />
         </div> */}
-        <div className="absolute -bottom-52 right-[12%] hidden lg:block ">
+        <div className="absolute -bottom-48 right-[12%] hidden lg:block ">
           <HeaderForm className="bg-white" />
         </div>
       </div>
