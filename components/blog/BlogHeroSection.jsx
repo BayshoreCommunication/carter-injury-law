@@ -5,7 +5,7 @@ import SectionLayout from "../shared/SectionLayout";
 const BlogHeroSection = () => {
   return (
     <div>
-      <div className="relative w-full h-[400px] md:h-[500px] lg:h-[750px]">
+      <div className="relative w-full h-[400px] md:h-[500px] lg:h-[650px] xl:h-[750px]">
         <Image
           src="/assets/shared/practice-area-bg.png"
           alt="testimonials Bg"
@@ -24,7 +24,7 @@ const BlogHeroSection = () => {
         {/* <div className="absolute -bottom-52 right-[15%] hidden lg:block">
           <HeaderForm className="bg-white" />
         </div> */}
-        <div className="absolute -bottom-48 right-[12%] hidden lg:block ">
+        <div className="absolute scale-90 xl:scale-100 -bottom-60 xl:-bottom-52 right-[12%] hidden lg:block ">
           <HeaderForm className="bg-white" />
         </div>
       </div>
