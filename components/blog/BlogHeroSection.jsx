@@ -14,7 +14,7 @@ const BlogHeroSection = () => {
           className="z-0 object-top"
         />
 
-        <div className="absolute inset-0 flex justify-center items-center z-10">
+        <div className="absolute inset-0 flex justify-center items-center z-10 lg:h-[650px]">
           <h1 className="text-white font-semibold text-3xl md:text-5xl lg:text-[80px] text-center uppercase drop-shadow-[1px_0_10px_#000000]">
             blog
           </h1>
@@ -22,7 +22,7 @@ const BlogHeroSection = () => {
         {/* <div className="absolute -bottom-52 right-[15%] hidden lg:block">
           <HeaderForm className="bg-white" />
         </div> */}
-        <div className="absolute -bottom-60 right-[12%] hidden lg:block ">
+        <div className="absolute -bottom-52 right-[12%] hidden lg:block ">
           <HeaderForm className="bg-white" />
         </div>
       </div>
