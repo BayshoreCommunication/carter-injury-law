@@ -15,9 +15,9 @@ const TestimonialsHeader = () => {
         />
 
         <div className="absolute inset-0 flex justify-center items-center z-10">
-          <h2 className="text-white font-semibold text-3xl md:text-5xl lg:text-[80px] text-center uppercase drop-shadow-[1px_0_10px_#000000]">
+          <h1 className="text-white font-semibold text-3xl md:text-5xl lg:text-[80px] text-center uppercase drop-shadow-[1px_0_10px_#000000]">
             Testimonials
-          </h2>
+          </h1>
         </div>
         <div className="absolute -bottom-60 right-[12%] hidden lg:block ">
           <HeaderForm className="bg-white" />

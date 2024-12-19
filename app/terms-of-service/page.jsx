@@ -5,8 +5,10 @@ import TermsOfService from "@/components/terms-of-service/TermsOfService";
 import React from "react";
 
 export const metadata = {
-  title: "",
-  description: "",
+  title:
+    "Experienced Personal Injury Attorney in Tampa, Florida | Carter Injury Law",
+  description:
+    "Need expert legal help after an accident? Our  Experienced personal injury attorney in Tampa, Florida, is here to fight for your rights and secure the compensation you deserve. Call today for a free consultation!",
   alternates: {
     canonical: "/",
     languages: {

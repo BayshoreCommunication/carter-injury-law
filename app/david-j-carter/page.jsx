@@ -7,7 +7,10 @@ import Head from "next/head";
 
 export const metadata = {
   title: "Profile - Carter Injury Law",
-  description: "",
+  description: ` David Carter is a skilled personal injury lawyer with years
+                    of experience, dedicated to helping clients recover
+                    compensation for accidents, medical malpractice, and
+                    wrongful death cases. Compassionate and results-driven.`,
   alternates: {
     canonical: "/",
     languages: {

@@ -12,6 +12,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import { IoCall } from "react-icons/io5";
+import AchievementSection from "./shared/AchievementSection";
 
 const orbitron = Orbitron({ subsets: ["latin"] });
 
@@ -251,34 +252,54 @@ const MainNavbar = () => {
         subMenu: [
           {
             title: "Auto Accidents",
+            // slug: "/auto-accidents",
             slug: "/faq",
           },
-          { title: "Premises Liability", slug: "/faq" },
-          { title: "General Negligence", slug: "/faq" },
-          { title: "Wrongful Death", slug: "/faq" },
+          {
+            title: "Premises Liability",
+            // slug: "/premises-liability",
+            slug: "/faq",
+          },
+          {
+            title: "General Negligence",
+            // slug: "/general-negligence",
+            slug: "/faq",
+          },
+          {
+            title: "Wrongful Death",
+            //  slug: "/wrongful-death",
+            slug: "/faq",
+          },
           {
             title: "Medical Malpractice",
+            // slug: "/medical-malpractice",
             slug: "/faq",
           },
           {
             title: "Nursing Home Abuse",
+            // slug: "/nursing-home-abuse",
             slug: "/faq",
           },
           {
             title: "Workers Compensation",
+            // slug: "/workers-compensation",
             slug: "/faq",
           },
-          {
-            title: "Workers Compensation",
-            slug: "/faq",
-          },
+          // {
+          //   title: "Workers Compensation",
+          //   slug: "/faq",
+          // },
           {
             title: "Product Liability",
+            // slug: "/product-liability",
             slug: "/faq",
           },
         ],
       },
-      { title: "Blog", slug: "/blog" },
+      {
+        title: "Blog",
+        slug: "/blog",
+      },
       {
         title: "Contact",
         slug: "/contact",
@@ -328,8 +349,8 @@ const MainNavbar = () => {
            border-r-[50px] border-r-transparent
            relative"
           >
-            <div className="absolute top-0 bottom-0 -mt-20 text-white">
-              <div className=" flex items-center gap-x-10 2xl:gap-x-16">
+            <div className="absolute top-0 bottom-0 -mt-20 text-white w-full">
+              <div className=" flex items-center justify-center gap-x-10 ">
                 <Link href={"/"}>
                   <Image
                     src="/assets/site-logo/logo.png"
@@ -346,6 +367,63 @@ const MainNavbar = () => {
                   height={500}
                   className="hidden lg:block  lg:w-[240px] xl:w-[400px] 2xl:w-[400px] h-[46px] mx-auto "
                 />
+                {/* <div className=" hidden lg:block  mx-auto  lg-w-[33%]">
+                  <div className="flex flex-nowrap gap-2 h-16 ">
+                    <Image
+                      src="/assets/shared/achievement-1.png"
+                      alt="achievements"
+                      width={80}
+                      height={80}
+                      className="mx-auto bg-transparent"
+                    />
+                    <Image
+                      src="/assets/shared/achievement-2.png"
+                      alt="achievements"
+                      width={80}
+                      height={80}
+                      className="mx-auto"
+                    />
+                    <Image
+                      src="/assets/shared/achievement-3.png"
+                      alt="achievements"
+                      width={65}
+                      height={80}
+                      className="mx-auto"
+                    />
+
+                    <Image
+                      src="/assets/shared/achievement-4.png"
+                      alt="achievements"
+                      width={90}
+                      height={90}
+                      quality={100}
+                      className="mx-auto"
+                    />
+                    <Image
+                      src="/assets/shared/achievement-5.png"
+                      alt="achievements"
+                      width={60}
+                      height={60}
+                      className="mx-auto "
+                    />
+
+                    <Image
+                      src="/assets/shared/achievement-6.png"
+                      alt="achievements"
+                      width={60}
+                      height={60}
+                      className="mx-auto"
+                    />
+
+                    <Image
+                      src="/assets/shared/achievement-7.png"
+                      alt="achievements"
+                      width={60}
+                      height={60}
+                      className="mx-auto"
+                    />
+                  </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -375,40 +453,74 @@ const MainNavbar = () => {
       </div>
       <div className="bg-primary">
         <div
-          className="container py-2 hidden md:block h-[75px]"
+          className="container py-2 hidden md:flex h-[75px] items-center justify-center"
           onMouseLeave={handleMouseLeave}
         >
           <div className="flex items-center justify-center">
-            <ul className="flex space-x-14 p-4 list-none">
+            <ul className="flex items-center justify-center space-x-6 xl:space-x-14 list-none">
               {menuItems.map((menuItem, index) => (
                 <li
                   key={index}
                   onMouseEnter={() => toggleMenu(index)}
-                  className={`relative group cursor-pointer nav-item text-md md:text-[18px] font-medium uppercase ${
+                  className={`relative top-0 bottom-0 left-0 right-0 group cursor-pointer nav-item text-md md:text-[18px] font-medium uppercase ${
                     activeMenu === index ? "border-b-2 border-white" : ""
                   } hover:text-white`}
                 >
                   <button className="flex items-center justify-between space-x-1">
                     {menuItem.subMenu ? (
-                      <div className="flex items-center justify-between">
-                        <span>{menuItem.title}</span>
-                        <span>
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            fill="currentColor"
-                            className={`size-5 font-black transform transition-transform duration-200 text-white ${
-                              activeMenu === index ? "rotate-0" : "rotate-180"
-                            }`}
-                          >
-                            <path
-                              fillRule="evenodd"
-                              d="M11.47 7.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z"
-                              clipRule="evenodd"
-                            />
-                          </svg>
-                        </span>
-                      </div>
+                      menuItem.title !== "FAQs" &&
+                      menuItem.title !== "Our Team" ? (
+                        <div className="flex items-center justify-between">
+                          <span>{menuItem.title}</span>
+                          <span>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                              fill="currentColor"
+                              className={`size-5 font-black transform transition-transform duration-200 text-white ${
+                                activeMenu === index ? "rotate-0" : "rotate-180"
+                              }`}
+                            >
+                              <path
+                                fillRule="evenodd"
+                                d="M11.47 7.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z"
+                                clipRule="evenodd"
+                              />
+                            </svg>
+                          </span>
+                        </div>
+                      ) : (
+                        <Link
+                          href={menuItem.slug}
+                          className={`${
+                            pathname === menuItem.slug
+                              ? "border-b-2 border-white"
+                              : ""
+                          }`}
+                        >
+                          <div className="flex items-center justify-between">
+                            <span>{menuItem.title}</span>
+                            <span>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                className={`size-5 font-black transform transition-transform duration-200 text-white ${
+                                  activeMenu === index
+                                    ? "rotate-0"
+                                    : "rotate-180"
+                                }`}
+                              >
+                                <path
+                                  fillRule="evenodd"
+                                  d="M11.47 7.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z"
+                                  clipRule="evenodd"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                        </Link>
+                      )
                     ) : (
                       <Link
                         href={menuItem.slug}

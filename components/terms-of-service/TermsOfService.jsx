@@ -8,11 +8,11 @@ const TermsOfService = () => {
       <SectionLayout bg="mt-10 lg:mt-22">
         <div className="text-center md:text-left text-md md:text-xl">
           <div className="my-2">
-            <h2
+            <h1
               className={`text-stone-950 !font-semibold text-3xl md:text-5xl mt-10 lg:mt-20 mb-10  text-center  uppercase`}
             >
               Terms of service
-            </h2>
+            </h1>
           </div>
           <div className="flex flex-col gap-4">
             <p className="text-lg text-stone-950 text-center md:text-left">

@@ -23,7 +23,7 @@ const page = () => {
     <>
       <HeroSection />
       <ProfileSection />
-      <FAQ />
+      <FAQ toH1={false} />
       <CallToAction />
     </>
   );
