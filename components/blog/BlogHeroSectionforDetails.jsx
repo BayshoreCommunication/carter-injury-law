@@ -13,7 +13,7 @@ const BlogHeroSectionforDetails = () => {
           alt="testimonials Bg"
           layout="fill"
           objectFit="cover"
-          className="z-0 object-top"
+          className="z-0 object-bottom object-cover"
         />
 
         <div className="absolute inset-0 flex justify-center items-center z-10">
