@@ -28,7 +28,7 @@ const FeaturedSection = () => {
             <ScrollMotionEffect effect="fade-left" duration="2000">
               <div className="flex flex-col gap-4 w-full ">
                 <h2 className="text-stone-950 !font-semibold text-3xl md:text-5xl mb-3  uppercase ">
-                  Dog bite and need a personal injury layer
+                  Dog bite and need a personal injury lawyer
                 </h2>
                 <p className="text-lg text-[#55545A]">
                   Dog bite personal injury litigation involves legal
@@ -63,7 +63,7 @@ const FeaturedSection = () => {
             <ScrollMotionEffect effect="fade-right" duration="2000">
               <div className="flex flex-col gap-4 w-full ">
                 <h2 className="text-stone-950 !font-semibold text-3xl md:text-5xl mb-3  uppercase ">
-                  Car accident and need a personal injury layer
+                  Car accident and need a personal injury lawyer
                 </h2>
                 <p className="text-lg text-[#55545A]">
                   {`Auto accident personal injury litigation involves legal
