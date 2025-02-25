@@ -9,6 +9,7 @@ const TeamSection = () => {
         alt="Team Section Bg"
         width={2400}
         height={1240}
+        quality={100}
       />
 
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
