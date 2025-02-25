@@ -354,7 +354,7 @@ const MainNavbar = () => {
                 <Link href={"/"}>
                   <Image
                     src="/assets/site-logo/logo.png"
-                    alt="footer logo"
+                    alt="site logo"
                     width={500}
                     height={500}
                     className="cursor-pointer w-[400px]  h-[56px]"
@@ -362,7 +362,7 @@ const MainNavbar = () => {
                 </Link>
                 <Image
                   src="/assets/shared/achievement.png"
-                  alt="footer logo"
+                  alt="achievement logo"
                   width={400}
                   height={500}
                   className="hidden lg:block  lg:w-[240px] xl:w-[400px] 2xl:w-[400px] h-[46px] mx-auto "
@@ -622,7 +622,7 @@ const MainNavbar = () => {
                 <Link href="/">
                   <Image
                     src="/assets/site-logo/logo.png"
-                    alt="footer logo"
+                    alt="site logo"
                     width={500}
                     height={500}
                     className="w-[300px] h-[36px] ml-0 pl-0"

@@ -93,57 +93,57 @@ const Footer = () => {
                 <h4 className="pb-1 lg:pb-3 mb-1 lg:mb-3 border-b-1 border-white uppercase font-semibold text-xl lg:text-2xl text-white">
                   AREAS OF PRACTICE
                 </h4>
-                <div
+                <p
                   // href={`/areas-of-practice/tampa-bay-personal-injury-lawyer`}
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500 uppercase"
                 >
                   Auto Accidents
-                </div>
-                <div
+                </p>
+                <p
                   // href="/areas-of-practice/tampa-bay-auto-accidents-lawyer"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500 uppercase"
                 >
                   Premises Liability
-                </div>
-                <div
+                </p>
+                <p
                   // href="/areas-of-practice/slip-fall-personal-injury-litigation"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500 uppercase"
                 >
                   General Negligence
-                </div>
-                <div
+                </p>
+                <p
                   // href="/areas-of-practice/medical-malpractice-personal-injury-litigation"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500 uppercase"
                 >
                   Wrongful Death
-                </div>
-                <div
+                </p>
+                <p
                   // href="/areas-of-practice/premises-liability-personal-injury-litigation"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500 uppercase"
                 >
                   Medical Malpractice
-                </div>
+                </p>
 
-                <div
+                <p
                   // href="/areas-of-practice/dog-bites-personal-injury-litigation"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500 uppercase"
                 >
                   Nursing Home Abuse
-                </div>
+                </p>
 
-                <div
+                <p
                   // href="/areas-of-practice/dog-bites-personal-injury-litigation"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500 uppercase"
                 >
                   Workers’ Compensation
-                </div>
+                </p>
 
-                <div
+                <p
                   // href="/areas-of-practice/dog-bites-personal-injury-litigation"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500 uppercase"
                 >
                   Product Liability
-                </div>
+                </p>
               </div>
             </div>
             <div className="flex flex-col gap-2 lg:gap-4  p-6 lg:p-10 rounded-2xl bg-[#4B5160]">
@@ -193,11 +193,11 @@ const Footer = () => {
               </p>
             </div>
             <div className=" flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-2 lg:gap-4">
-              <div className="flex flex-wrap gap-3 text-white justify-center lg:justify-start text-sm 2xl:text-lg">
+              <p className="flex flex-wrap gap-3 text-white justify-center lg:justify-start text-sm 2xl:text-lg">
                 <span>© 2024 CarterInjuryLaw.com</span>
                 <span>|</span>
                 <span>All Rights Reserved</span>
-              </div>
+              </p>
               <div className="flex flex-wrap gap-3 text-white justify-center items-center lg:justify-start text-sm 2xl:text-lg">
                 <Link
                   href="/privacy-policy"
