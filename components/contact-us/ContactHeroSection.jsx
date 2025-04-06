@@ -45,7 +45,7 @@ const ContactHeroSection = () => {
                   <h3 className=" text-xl md:text-2xl font-semibold mb-2">
                     Contact us 24/7
                   </h3>
-                  <ul className="flex  flex-wrap  items-center gap-3">
+                  <ul className="flex flex-col  flex-wrap  items-start gap-3">
                     <li className="flex flex-wrap items-center gap-2">
                       <IoCall color="#EC1D21" size="24" />{" "}
                       <Link href={"tel:(813)922-0228"}>(813) 922-0228</Link>,{" "}
@@ -54,6 +54,13 @@ const ContactHeroSection = () => {
                     <li className="flex items-center gap-1">
                       <IoMdHome color="#EC1D21" size="24" />
                       <span>3114 N. BOULEVARD TAMPA, FL 33603</span>
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <IoMdHome color="#EC1D21" size="24" />
+                      <span>
+                        801 W. Bay Dr., Suite 229, Largo, FL 33770 (Satellite
+                        Office - By Appointment)
+                      </span>
                     </li>
                   </ul>
                   <div className="text-white flex gap-2 mt-6">
