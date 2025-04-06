@@ -51,11 +51,11 @@ const ContactHeroSection = () => {
                       <Link href={"tel:(813)922-0228"}>(813) 922-0228</Link>,{" "}
                       <Link href={"tel:(727)955-1922"}>(727) 955-1922</Link>
                     </li>
-                    <li className="flex items-center gap-1">
+                    <li className="flex items-center gap-1 uppercase">
                       <IoMdHome color="#EC1D21" size="24" />
                       <span>3114 N. BOULEVARD TAMPA, FL 33603</span>
                     </li>
-                    <li className="flex items-center gap-1">
+                    <li className="flex items-center gap-1 uppercase">
                       <IoMdHome color="#EC1D21" size="24" />
                       <span>
                         801 W. Bay Dr., Suite 229, Largo, FL 33770 (Satellite
