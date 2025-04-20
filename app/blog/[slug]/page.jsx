@@ -1,14 +1,13 @@
-import Image from "next/image";
+import BlogHeroSectionforDetails from "@/components/blog/BlogHeroSectionforDetails";
+import CardMotion from "@/components/motion/CardMotion";
+import CallToAction from "@/components/shared/CallToAction";
+import SectionLayout from "@/components/shared/SectionLayout";
+import SocialShareLinks from "@/components/shared/SocialShareLinks";
 import GetAllPostData from "@/lib/GetAllPostData";
 import parse from "html-react-parser";
-import SectionLayout from "@/components/shared/SectionLayout";
-import CardMotion from "@/components/motion/CardMotion";
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
-import { Playfair_Display } from "next/font/google";
-import BlogHeroSection from "@/components/blog/BlogHeroSection";
-import BlogHeroSectionforDetails from "@/components/blog/BlogHeroSectionforDetails";
-import CallToAction from "@/components/shared/CallToAction";
 
 const css = `
  h1, h2, p, br, nav {
@@ -106,6 +105,7 @@ const page = async ({ params }) => {
       </Head>
       <style>{css}</style>
       <BlogHeroSectionforDetails />
+
       <SectionLayout bg="bg-white">
         <CardMotion
           whileInView={{
@@ -154,6 +154,10 @@ const page = async ({ params }) => {
                     CLICK FOR FREE CASE EVALUATION
                   </Link>
                 </div>
+                <SocialShareLinks
+                  blogUrl={`https://www.carterinjurylaw.com/blog/${blogs?.slug}`}
+                  blogTitle={blogs?.title}
+                />
               </div>
             ))}
 
@@ -187,6 +191,7 @@ const page = async ({ params }) => {
           </div>
         </CardMotion>
       </SectionLayout>
+
       <CallToAction />
     </>
   );
