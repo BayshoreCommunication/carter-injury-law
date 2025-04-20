@@ -41,7 +41,7 @@ export default function BlogPopupDesign() {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/30 backdrop-blur-sm">
-      <div className="relative max-w-[600px] max-w-full rounded-md overflow-hidden shadow-lg border border-gray-300 mx-6 md:mx-0">
+      <div className="relative max-w-[600px] max-w-full rounded-md overflow-hidden shadow-lg border border-gray-300 mx-3 md:mx-0">
         {/* Top Section */}
         <div className="bg-[#0D3E8A] text-white flex relative pt-8 md:pt-20 pl-10 pr-10">
           <div className="flex-1">
