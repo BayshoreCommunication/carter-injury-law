@@ -5,8 +5,9 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { GoArrowUpRight } from "react-icons/go";
-import { IoCloseOutline } from "react-icons/io5";
+import { IoCall, IoCloseOutline } from "react-icons/io5";
 import { MdOutlineMessage } from "react-icons/md";
+import Link from "next/link";
 
 export default function BlogPopupDesign() {
   // const pathname = usePathname();
@@ -68,7 +69,7 @@ export default function BlogPopupDesign() {
         <div className="bg-[#0D3E8A] text-white flex relative pt-8 md:pt-20 pl-10 pr-10">
           <div className="flex-1">
             <h5 className="text-xl md:text-3xl font-bold capitalize">
-              Call David Carter <br /> Right Now
+              Click to start your free consultation
             </h5>
             <h6 className="!mt-1 !md:mt-2 text-[9px] md:text-base font-light tracking-wide !lg:mt-4">
               OUR TEAM IS AVAILABLE 24/7
@@ -92,18 +93,23 @@ export default function BlogPopupDesign() {
         </div>
 
         {/* Bottom Section */}
-        <div className="bg-[#D12222] px-4 py-3 flex items-center justify-center space-x-2 md:space-x-4 text-white cursor-pointer ">
+        <Link
+          href="tel:+18139220228"
+          className="bg-[#D12222] px-4 py-3 flex items-center justify-center space-x-2 md:space-x-4 text-white cursor-pointer "
+        >
           <div className="bg-white p-2 rounded-full">
-            <MdOutlineMessage className="size-5 text-[#D12222]" />
+            <IoCall className="size-5 text-[#D12222]" />
           </div>
           <div>
-            <h5 className="font-semibold text-base md:text-xl">MESSAGE US</h5>
-            <h6 className="text-xs md:text-xs underline !mt-0 !md:mt-0">
+            <h5 className="font-semibold text-base md:text-xl">
+              CALL DAVID CARTER <br /> RIGHT NOW
+            </h5>
+            {/* <h6 className="text-xs md:text-xs underline !mt-0 !md:mt-0">
               CHAT WITH A REAL PERSON
-            </h6>
+            </h6> */}
           </div>
           <GoArrowUpRight className="size-6 text-white" />
-        </div>
+        </Link>
       </div>
     </div>
   );
