@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -8,17 +9,38 @@ import { IoCloseOutline } from "react-icons/io5";
 import { MdOutlineMessage } from "react-icons/md";
 
 export default function BlogPopupDesign() {
+  // const pathname = usePathname();
+  // const [isVisible, setIsVisible] = useState(false);
+
+  // useEffect(() => {
+  //   const isBlogRoute = pathname === "/blog" || pathname.startsWith("/blog/");
+
+  //   if (isBlogRoute) {
+  //     setIsVisible(true);
+  //   } else {
+  //     setIsVisible(false);
+  //   }
+  // }, [pathname]);
+
   const pathname = usePathname();
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
+    let timeoutId: NodeJS.Timeout;
+
     const isBlogRoute = pathname === "/blog" || pathname.startsWith("/blog/");
 
     if (isBlogRoute) {
-      setIsVisible(true);
+      timeoutId = setTimeout(() => {
+        setIsVisible(true);
+      }, 10000); // 10 seconds
     } else {
+      // Immediately hide if not on blog route
       setIsVisible(false);
     }
+
+    // Clear timeout if pathname changes before 10 seconds
+    return () => clearTimeout(timeoutId);
   }, [pathname]);
 
   // useEffect(() => {
@@ -45,10 +67,10 @@ export default function BlogPopupDesign() {
         {/* Top Section */}
         <div className="bg-[#0D3E8A] text-white flex relative pt-8 md:pt-20 pl-10 pr-10">
           <div className="flex-1">
-            <h5 className="text-xl md:text-3xl font-bold">
-              Click to start your free consultation
+            <h5 className="text-xl md:text-3xl font-bold capitalize">
+              Call David Carter Right Now
             </h5>
-            <h6 className="!mt-1 !md:mt-2 text-[9px] md:text-base font-light tracking-wide">
+            <h6 className="!mt-1 !md:mt-2 text-[9px] md:text-base font-light tracking-wide !lg:mt-4">
               OUR TEAM IS AVAILABLE 24/7
             </h6>
           </div>
