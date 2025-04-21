@@ -68,7 +68,7 @@ export default function BlogPopupDesign() {
         <div className="bg-[#0D3E8A] text-white flex relative pt-8 md:pt-20 pl-10 pr-10">
           <div className="flex-1">
             <h5 className="text-xl md:text-3xl font-bold capitalize">
-              Call David Carter Right Now
+              Call David Carter <br /> Right Now
             </h5>
             <h6 className="!mt-1 !md:mt-2 text-[9px] md:text-base font-light tracking-wide !lg:mt-4">
               OUR TEAM IS AVAILABLE 24/7
