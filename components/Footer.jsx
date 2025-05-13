@@ -201,7 +201,9 @@ const Footer = () => {
             </div>
             <div className=" flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-2 lg:gap-4">
               <p className="flex flex-wrap gap-3 text-white justify-center lg:justify-start text-sm 2xl:text-lg">
-                <span>© 2024 CarterInjuryLaw.com</span>
+                <span>
+                  <span>© {new Date().getFullYear()}</span> CarterInjuryLaw.com
+                </span>
                 <span>|</span>
                 <span>All Rights Reserved</span>
               </p>
