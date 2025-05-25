@@ -25,6 +25,7 @@ export const metadata = {
 export default function Home() {
   return (
     <main className="w-full">
+      {/* <ChatBotTest /> */}
       {/* hero section  */}
       <HeroSection />
       <AboutSection />

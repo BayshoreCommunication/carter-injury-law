@@ -1,8 +1,6 @@
 import Footer from "@/components/Footer";
 import MainNavbar from "@/components/MainNavbar";
 import BlogPopupDesign from "@/components/shared/BlogPopupDesign";
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Montserrat } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
@@ -46,6 +44,22 @@ export default function RootLayout({ children }) {
             src="https://www.facebook.com/tr?id=1171875651343659&ev=PageView&noscript=1"
           />
         </noscript>
+
+        {/* Google Analytics */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=G-WLPW8ML7V9`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-WLPW8ML7V9', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
       </head>
       <body className={montserrat.className}>
         <Providers>
@@ -53,8 +67,7 @@ export default function RootLayout({ children }) {
             <MainNavbar />
             <BlogPopupDesign />
             {children}
-            <Analytics />
-            <SpeedInsights />
+            {/* <AiChatbotButton /> */}
             <Footer />
           </div>
         </Providers>
