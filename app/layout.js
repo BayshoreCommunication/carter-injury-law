@@ -73,7 +73,7 @@ export default function RootLayout({ children }) {
         </Providers>
         <Script
           src="https://aibotwizard.vercel.app/chatbot-widget.min.js"
-          data-api-key="org_sk_f200dbc62a425ba72f6b6bcbb7c4e7ea"
+          data-api-key="org_sk_dea9fa135aebfc9df317b55e87589372"
           async
         />
       </body>
