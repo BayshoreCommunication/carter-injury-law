@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaPlay } from "react-icons/fa";
 
 const TestimonialCardsSection = () => {
   const testimonials = [
@@ -7,7 +8,7 @@ const TestimonialCardsSection = () => {
       name: "RAY",
       category: "CAR ACCIDENT",
       accentColor: "red",
-      videoUrl: "https://www.youtube.com/embed/CBXh_z7koPM",
+      thumbnail: "https://bayshore.nyc3.cdn.digitaloceanspaces.com/carterEmailTemplate/Testimonial%20Thumbnail%5B1%5D%20(1).png",
       testimonial: "Carter Injury Law provided excellent legal support during my car accident. They remained clear, communicative, and professional throughout. They promptly answered all my questions. David was aggressive and committed during negotiation, securing a much better settlement than expected. I highly recommend Carter Injury Law for their professionalism and strong advocacy."
     },
     {
@@ -15,14 +16,14 @@ const TestimonialCardsSection = () => {
       name: "CHRISTINA", 
       category: "CAR ACCIDENT",
       accentColor: "green",
-      videoUrl: "https://www.youtube.com/embed/-UagpRHfFE8",
+      thumbnail: "https://bayshore.nyc3.cdn.digitaloceanspaces.com/carterEmailTemplate/Testimonial%20Thumbnail%5B2%5D.png",
       testimonial: "After a frustrating two-year experience with a large law firm that showed minimal communication or progress, switching to Carter Injury Law made an immediate difference. David and his team were responsive, compassionate, and actually cared about my case. Within just a few months, they accomplished more than the previous firm had in years. I highly recommend Carter Injury Law for anyone seeking a dedicated and effective legal team."
     }
   ];
 
   const renderStars = (rating) => {
     return Array.from({ length: 5 }, (_, index) => (
-      <span key={index} className="text-yellow-400 text-lg">
+      <span key={index} className="text-yellow-500 text-xl">
         ★
       </span>
     ));
@@ -40,19 +41,32 @@ const TestimonialCardsSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {testimonials.map((testimonial) => (
             <div key={testimonial.id} className="rounded-lg overflow-hidden shadow-xl mx-4">
-              {/* Video Section */}
+              {/* Video Thumbnail Section */}
               <div className="relative aspect-video bg-black">
-                <iframe
-                  src={testimonial.videoUrl}
-                  title={`${testimonial.name} Testimonial Video`}
-                  className="w-full h-full"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+                <Image
+                  src={testimonial.thumbnail}
+                  alt={`${testimonial.name} testimonial video`}
+                  fill
+                  className="object-cover"
+                />
                 
+               
 
-                
+                {/* Branded Text Overlay */}
+                <div className="absolute top-4 left-4">
+                  <div className={`${testimonial.accentColor === 'red' ? 'bg-red-600' : 'bg-green-600'} text-white px-3 py-1 text-xs font-bold rounded`}>
+                    {testimonial.category}
+                  </div>
+                </div>
+
+                <div className="absolute bottom-4 left-4">
+                  <div className="text-white">
+                    <div className="text-sm font-medium italic">Testimonial</div>
+                    <div className={`text-2xl font-bold ${testimonial.accentColor === 'red' ? 'text-red-400' : 'text-green-400'}`}>
+                      FROM {testimonial.name}
+                    </div>
+                  </div>
+                </div>
               </div>
 
               {/* Content Section */}
