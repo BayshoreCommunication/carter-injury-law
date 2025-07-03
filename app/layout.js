@@ -69,13 +69,15 @@ export default function RootLayout({ children }) {
             {children}
             {/* <AiChatbotButton /> */}
             <Footer />
+            <Script
+              src="https://aibotwizard.vercel.app/chatbot-widget.min.js"
+              data-api-key="org_sk_dea9fa135aebfc9df317b55e87589372"
+              async
+            />
           </div>
+
         </Providers>
-        <Script
-          src="https://aibotwizard.vercel.app/chatbot-widget.min.js"
-          data-api-key="org_sk_dea9fa135aebfc9df317b55e87589372"
-          async
-        />
+
       </body>
     </html>
   );

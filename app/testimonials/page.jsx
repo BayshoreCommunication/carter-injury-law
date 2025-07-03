@@ -1,4 +1,5 @@
 import CallToAction from "@/components/shared/CallToAction";
+import TestimonialCardsSection from "@/components/shared/TestimonialCardsSection";
 import TestimonialsHeader from "@/components/testimonials/TestimonialsHeader";
 import TestimonialsSection from "@/components/testimonials/TestimonialsSection";
 import Head from "next/head";
@@ -25,6 +26,7 @@ const page = () => {
       <TestimonialsHeader />
       <TestimonialsSection />
       <CallToAction />
+      <TestimonialCardsSection />
     </>
   );
 };

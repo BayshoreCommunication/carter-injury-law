@@ -5,6 +5,7 @@ import AchievementSection from "@/components/shared/AchievementSection";
 import CallToAction from "@/components/shared/CallToAction";
 import PracticeAreasSection from "@/components/shared/PracticeAreasSection";
 import TestimonialSlideSection from "@/components/shared/TestimonialSlideSection";
+import TestimonialCardsSection from "@/components/shared/TestimonialCardsSection";
 
 export const metadata = {
   title:
@@ -34,6 +35,7 @@ export default function Home() {
       <TestimonialSlideSection />
       <FeaturedSection />
       <CallToAction />
+      <TestimonialCardsSection />
     </main>
   );
 }

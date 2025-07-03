@@ -25,6 +25,11 @@ const nextConfig = {
         hostname: 'bayshore.nyc3.digitaloceanspaces.com',
         // hostname: "**",
       },  
+      {
+        protocol: 'https',
+        hostname: 'bayshore.nyc3.cdn.digitaloceanspaces.com',
+        port: '',
+      },
     ],
   },
   skipTrailingSlashRedirect: true,
