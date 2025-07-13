@@ -64,15 +64,15 @@ const TestimonialCardsSection = () => {
                   </div>
 
                   {/* Branded Text Overlay */}
-                  <div className="absolute top-4 left-4">
+                  {/* <div className="absolute top-4 left-4">
                     <div
                       className={`${testimonial.accentColor === "red" ? "bg-red-600" : "bg-green-600"} text-white px-3 py-1 text-xs font-bold rounded`}
                     >
                       {testimonial.category}
                     </div>
-                  </div>
+                  </div> */}
 
-                  <div className="absolute bottom-4 left-4">
+                  {/* <div className="absolute bottom-4 left-4">
                     <div className="text-white">
                       <div className="text-sm font-medium italic">
                         Testimonial
@@ -83,7 +83,7 @@ const TestimonialCardsSection = () => {
                         FROM {testimonial.name}
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* Content Section */}
