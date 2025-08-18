@@ -69,20 +69,12 @@ export default function RootLayout({ children }) {
             {children}
             {/* <AiChatbotButton /> */}
             <Footer />
-<<<<<<< HEAD
             {/* <Script
               src="https://aibotwizard.vercel.app/chatbot-widget.min.js"
               data-api-key="org_sk_dea9fa135aebfc9df317b55e87589372"
               async
             /> */}
          <Script src="https://aibotwidget.bayshorecommunication.org/chatbot-widget.min.js"  data-api-key="org_sk_dfa12d518116dbe59240794fe05d8541" async/>
-=======
-            // <Script
-            //   src="https://aibotwizard.vercel.app/chatbot-widget.min.js"
-            //   data-api-key="org_sk_dea9fa135aebfc9df317b55e87589372"
-            //   async
-            // />
->>>>>>> 2e4ea97a0771bffb1b5ae597d033cc4ee40fdd76
           </div>
 
         </Providers>
