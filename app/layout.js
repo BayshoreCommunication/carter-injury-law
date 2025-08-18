@@ -74,8 +74,8 @@ export default function RootLayout({ children }) {
               data-api-key="org_sk_dea9fa135aebfc9df317b55e87589372"
               async
             /> */}
-         <Script src="https://aibotwidget.bayshorecommunication.org/chatbot-widget.min.js"  data-api-key="org_sk_dfa12d518116dbe59240794fe05d8541" async/>
-          </div>
+         {/* <Script src="https://aibotwidget.bayshorecommunication.org/chatbot-widget.min.js"  data-api-key="org_sk_dfa12d518116dbe59240794fe05d8541" async/>
+          </div> */}
 
         </Providers>
 
