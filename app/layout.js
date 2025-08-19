@@ -81,7 +81,11 @@ export default function RootLayout({ children }) {
               data-api-key="org_sk_dea9fa135aebfc9df317b55e87589372"
               async
             /> */}
+<<<<<<< HEAD
          <Script src="http://localhost:5174/chatbot-widget.min.js" data-api-key="org_sk_90670437d9129e98e8b4f88e4f662490" async/>
+=======
+         {/* <Script src="http://localhost:5174/chatbot-widget.min.js"  data-api-key="org_sk_dfa12d518116dbe59240794fe05d8541" async/> */}
+>>>>>>> 63381e171a49ad2d722af060d6940fad2394e1bc
           </div>
 
         </Providers>
