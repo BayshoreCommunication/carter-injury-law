@@ -82,7 +82,7 @@ export default function RootLayout({ children }) {
             {children}
             <Footer />
 
-            {/* AI Chatbot Widget */}
+            {/* AI Chatbot Widget  */}
             <Script
               src="https://aibotwizard.bayshorecommunication.org/chatbot-widget.min.js"
               data-api-key="org_sk_dfa12d518116dbe59240794fe05d8541"
