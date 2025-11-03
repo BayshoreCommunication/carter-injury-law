@@ -84,11 +84,18 @@ export default function RootLayout({ children }) {
 
             {/* AI Chatbot Widget */}
 
-            {/* <Script
+            <Script
               src="https://aibotwidget.bayshorecommunication.org/chatbot-widget.min.js"
               data-api-key="org_sk_3ca4feb8c1afe80f73e1a40256d48e7c"
               async
-            /> */}
+            />
+
+            {/* <script
+              src="https://aibotwidget.bayshorecommunication.org/chatbot-widget.min.js"
+              data-api-key="org_sk_8d9205fcee1781de88f8718b04ad9167"
+              async
+            ></script> */}
+            
           </div>
         </Providers>
       </body>
