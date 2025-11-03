@@ -8,12 +8,13 @@ const BlogHeroSection = () => {
       <div className="relative w-full h-[300px] md:h-[500px] lg:h-[650px] xl:h-[750px]">
         <Image
           src="/assets/shared/practice-area-bg.png"
-          alt="testimonials Bg"
-          // layout="fill"
-          // objectFit="center"
-          height={650}
-          width={2400}
+          alt="Blog page background"
+          fill
+          priority
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 1200px"
           className="z-0 object-cover w-full h-full object-bottom"
+          quality={85}
+          fetchPriority="high"
         />
 
         <div className="absolute inset-0 flex justify-center items-center z-10 lg:h-[450px] xl:h-[550px]">
