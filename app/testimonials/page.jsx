@@ -24,9 +24,9 @@ const page = () => {
   return (
     <>
       <TestimonialsHeader />
-      <TestimonialsSection />
-      <CallToAction />
       <TestimonialCardsSection />
+      <CallToAction />
+      <TestimonialsSection />
     </>
   );
 };
