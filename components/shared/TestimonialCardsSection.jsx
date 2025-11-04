@@ -52,9 +52,11 @@ const TestimonialCardsSection = () => {
   // Equalize all card heights
   useEffect(() => {
     const setEqualHeight = () => {
-      const heights = slideRefs.current.map(slide => slide?.offsetHeight || 0);
+      const heights = slideRefs.current.map(
+        (slide) => slide?.offsetHeight || 0
+      );
       const maxHeight = Math.max(...heights);
-      slideRefs.current.forEach(slide => {
+      slideRefs.current.forEach((slide) => {
         if (slide) slide.style.height = `${maxHeight}px`;
       });
     };
@@ -66,12 +68,14 @@ const TestimonialCardsSection = () => {
 
   const renderStars = () =>
     Array.from({ length: 5 }).map((_, index) => (
-      <span key={index} className="text-yellow-500 text-xl">★</span>
+      <span key={index} className="text-yellow-500 text-xl">
+        ★
+      </span>
     ));
 
   return (
     <section
-      className="relative py-16 px-4 bg-cover bg-center bg-no-repeat"
+      className="relative py-16 px-4 mt-6 md:mt-10 lg:mt-44 bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage:
           'url("https://bayshore.nyc3.cdn.digitaloceanspaces.com/carterEmailTemplate/image%2023.png")',
@@ -89,8 +93,12 @@ const TestimonialCardsSection = () => {
             breakpoints={{ 768: { slidesPerView: 2 } }}
             onSwiper={(swiper) => {
               // Pause autoplay on hover
-              swiper.el.addEventListener("mouseenter", () => swiper.autoplay.stop());
-              swiper.el.addEventListener("mouseleave", () => swiper.autoplay.start());
+              swiper.el.addEventListener("mouseenter", () =>
+                swiper.autoplay.stop()
+              );
+              swiper.el.addEventListener("mouseleave", () =>
+                swiper.autoplay.start()
+              );
             }}
           >
             {testimonials.map((testimonial, i) => (
@@ -115,7 +123,8 @@ const TestimonialCardsSection = () => {
                   {/* Content */}
                   <div className="p-6 flex-1 flex flex-col">
                     <h3 className="text-lg font-bold text-gray-800 mb-2">
-                      {testimonial.name.charAt(0) + testimonial.name.slice(1).toLowerCase()}
+                      {testimonial.name.charAt(0) +
+                        testimonial.name.slice(1).toLowerCase()}
                     </h3>
                     <div className="flex mb-4">{renderStars()}</div>
                     <p className="text-gray-700 text-sm leading-relaxed flex-1">

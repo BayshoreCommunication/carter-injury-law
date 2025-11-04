@@ -5,7 +5,7 @@ import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 
 const TestimonialsSection = () => {
   return (
-    <div className=" mt-6 md:mt-10 lg:mt-44">
+    <div className="">
       <SectionLayout>
         <div className=" w-full md:w-[60%] me-auto mb-6 lg:mb-10">
           <h2 className="text-stone-950 !font-semibold text-3xl md:text-5xl mb-1 lg:mb-3 ">
