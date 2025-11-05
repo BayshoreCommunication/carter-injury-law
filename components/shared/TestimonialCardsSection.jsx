@@ -116,7 +116,13 @@ const TestimonialCardsSection = () => {
           'url("https://bayshore.nyc3.cdn.digitaloceanspaces.com/carterEmailTemplate/image%2023.png")',
       }}
     >
+      
       <SectionLayout>
+      <div className=" w-full md:w-[60%] me-auto mb-6 lg:mb-10">
+          <h2 className="text-stone-950 !font-semibold text-3xl md:text-5xl mb-1 lg:mb-3 ">
+            Success Stories
+          </h2>
+        </div>
         <div className="relative max-w-6xl mx-auto">
           <Swiper
             modules={[Pagination, Autoplay]}

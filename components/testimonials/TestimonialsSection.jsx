@@ -9,7 +9,7 @@ const TestimonialsSection = () => {
       <SectionLayout>
         <div className=" w-full md:w-[60%] me-auto mb-6 lg:mb-10">
           <h2 className="text-stone-950 !font-semibold text-3xl md:text-5xl mb-1 lg:mb-3 ">
-            What our clients say
+            What Our Clients Say
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
