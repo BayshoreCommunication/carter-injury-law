@@ -56,8 +56,8 @@ const Footer = () => {
                   href="#"
                   className="text-base lg:text-lg font-medium text-white hover:text-[#ED1B24] duration-500 uppercase"
                 >
-                  801 W. Bay Dr., Suite 229, Largo, FL 33770 (Satellite Office -
-                  By Appointment)
+                  801 W. Bay Dr., Suite 229, Largo, FL 33770 <br/> (Satellite Office -
+                    By Appointment)
                 </Link>
               </div>
               <div className="flex flex-col gap-2 lg:gap-4  p-6 lg:p-10 rounded-2xl bg-[#4B5160]">
