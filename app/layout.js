@@ -1,3 +1,4 @@
+import ChatbotWidget from "@/components/ChatbotWidget";
 import Footer from "@/components/Footer";
 import MainNavbar from "@/components/MainNavbar";
 import BlogPopupDesign from "@/components/shared/BlogPopupDesign";
@@ -83,11 +84,7 @@ export default function RootLayout({ children }) {
             <Footer />
 
             {/* AI Chatbot Widget */}
-            <Script
-              src="https://aibotwidget.bayshorecommunication.org/chatbot-widget.min.js"
-              strategy="afterInteractive"
-              data-api-key="org_sk_3ca4feb8c1afe80f73e1a40256d48e7c"
-            />
+            <ChatbotWidget />
           </div>
         </Providers>
       </body>
