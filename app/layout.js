@@ -95,7 +95,6 @@ export default function RootLayout({ children }) {
               data-api-key="org_sk_8d9205fcee1781de88f8718b04ad9167"
               async
             ></script> */}
-            
           </div>
         </Providers>
       </body>
