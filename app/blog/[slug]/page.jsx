@@ -238,7 +238,7 @@ const css = `
 `;
 
 export async function generateMetadata({ params }) {
-  const blogPostData = await GetAllPostData();
+  const blogPostData = await GetAllPostData(1, 100);
 
   const blogDetails = blogPostData?.data?.find(
     (blogs) => blogs.slug === params.slug
@@ -280,7 +280,7 @@ export async function generateMetadata({ params }) {
 export const revalidate = 60;
 
 export async function generateStaticParams() {
-  const blogPostData = await GetAllPostData();
+  const blogPostData = await GetAllPostData(1, 100);
   const slugs = blogPostData?.data
     ?.filter((post) => post?.published === true && !!post?.slug)
     ?.map((post) => ({ slug: post.slug }));
@@ -288,7 +288,7 @@ export async function generateStaticParams() {
 }
 
 const page = async ({ params }) => {
-  const blogPostData = await GetAllPostData();
+  const blogPostData = await GetAllPostData(1, 100);
 
   const blogDetails = blogPostData?.data?.find(
     (blogs) => blogs.slug === params.slug

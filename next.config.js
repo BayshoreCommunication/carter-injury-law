@@ -1,6 +1,5 @@
 const nextConfig = {
   images: {
-    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
@@ -25,7 +24,6 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "bayshore.nyc3.digitaloceanspaces.com",
-        // hostname: "**",
       },
       {
         protocol: "https",
@@ -33,6 +31,10 @@ const nextConfig = {
         port: "",
       },
     ],
+    formats: ["image/avif", "image/webp"],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    minimumCacheTTL: 60,
   },
   skipTrailingSlashRedirect: true,
 };

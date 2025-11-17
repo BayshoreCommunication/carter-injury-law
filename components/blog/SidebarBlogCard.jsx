@@ -11,10 +11,7 @@ const SidebarBlogCard = ({ blogs }) => {
       className="flex items-start gap-2 ps-3 py-3 drop-shadow-lg bg-white my-3"
       href={`/blog/${blogs?.slug}`}
     >
-      <div
-        className="relative w-[100px] bg-gray-200 flex-shrink-0"
-        style={{ aspectRatio: "1/1" }}
-      >
+      <div className="relative w-[100px] bg-gray-200 flex-shrink-0">
         {!imageLoaded && (
           <div className="absolute inset-0 animate-pulse bg-gray-300 z-10" />
         )}
