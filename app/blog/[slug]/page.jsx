@@ -288,7 +288,7 @@ export async function generateStaticParams() {
 }
 
 const page = async ({ params }) => {
-  const blogPostData = await GetAllPostData(1, 100);
+  const blogPostData = await GetAllPostData(1, 500);
 
   const blogDetails = blogPostData?.data?.find(
     (blogs) => blogs.slug === params.slug
