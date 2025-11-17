@@ -2,7 +2,6 @@ import React from "react";
 
 import GetAllPostData from "@/lib/GetAllPostData";
 
-import Head from "next/head";
 import BlogHeroSection from "@/components/blog/BlogHeroSection";
 import BlogMainSection from "@/components/blog/BlogMainSection";
 import CallToAction from "@/components/shared/CallToAction";
@@ -22,8 +21,11 @@ export const metadata = {
   },
 };
 
-const page = async () => {
-  const blogPostData = await GetAllPostData();
+const page = async ({ searchParams }) => {
+  const currentPage = Number(searchParams?.page) || 1;
+  const limit = 9;
+
+  const blogData = await GetAllPostData(currentPage, limit);
 
   const postDate = (date) => {
     const formattedDate = new Date(date).toLocaleDateString("en-US", {
@@ -37,7 +39,10 @@ const page = async () => {
   return (
     <>
       <BlogHeroSection />
-      <BlogMainSection blogPostData={blogPostData} />
+      <BlogMainSection
+        blogPostData={blogData?.data}
+        pagination={blogData?.pagination}
+      />
       <CallToAction />
     </>
   );

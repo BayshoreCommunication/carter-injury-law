@@ -10,32 +10,208 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 const css = `
- h1, h2, p, br, nav {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  line-height: normal;
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1, h2 {
-  font-style: blog;
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: #1B2639;
+  line-height: 1.3;
+  margin: 1.25em 0 0.5em 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 2.25rem;
+  margin-top: 0;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 1.875rem;
 }
 
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+/* Paragraphs */
 p {
-  font-size: 17px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: #374151;
+  margin: 0.65em 0;
+  word-wrap: break-word;
+  word-spacing: normal;
+}
+
+/* First paragraph after heading - reduce top margin */
+h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p {
+  margin-top: 0.4em;
+}
+
+/* Lists */
+ul, ol {
+  margin: 1em 0;
+  padding-left: 2rem;
+  line-height: 1.7;
 }
 
 ul {
   list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+li {
+  font-size: 1.0625rem;
+  color: #374151;
+  margin: 0.25em 0;
+  word-spacing: normal;
+}
+
+/* Links */
+a {
+  color: #EC1D21;
+  text-decoration: underline;
+  word-wrap: break-word;
+}
+
+a:hover {
+  color: #B91C1C;
+}
+
+/* Text formatting */
+strong, b {
+  font-weight: 700;
+  color: #1B2639;
+}
+
+em, i {
+  font-style: italic;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #EC1D21;
+  padding: 1em 0 1em 1.25rem;
+  margin: 1.25em 0;
+  font-style: italic;
+  color: #4B5563;
+  background: #F9FAFB;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.25em 0;
+  border-radius: 0.5rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.75rem;
+    margin: 0.85em 0 0.4em 0;
+    line-height: 1.25;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin: 0.85em 0 0.4em 0;
+    line-height: 1.25;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    margin: 0.75em 0 0.35em 0;
+    line-height: 1.25;
+  }
+  
+  h4 {
+    font-size: 1.125rem;
+    margin: 0.75em 0 0.35em 0;
+    line-height: 1.25;
+  }
+  
+  h5, h6 {
+    font-size: 1rem;
+    margin: 0.75em 0 0.35em 0;
+    line-height: 1.25;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 0.5em 0;
+    line-height: 1.65;
+    word-spacing: 0.05em;
+  }
+  
+  h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p {
+    margin-top: 0.3em;
+  }
+  
+  ul, ol {
+    padding-left: 1.5rem;
+    margin: 0.75em 0;
+  }
+  
+  li {
+    font-size: 1rem;
+    margin: 0.2em 0;
+    word-spacing: 0.05em;
+  }
+  
+  blockquote {
+    padding: 0.75em 0 0.75em 1rem;
+    margin: 1em 0;
+  }
+  
+  img {
+    margin: 1em 0;
+  }
+}
+
+/* Extra small devices - fix word spacing issues */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 1.375rem;
+  }
+  
+  h3 {
+    font-size: 1.125rem;
+  }
+  
+  p, li {
+    font-size: 0.9375rem;
+    word-spacing: normal;
+    letter-spacing: normal;
+  }
 }
 
 `;

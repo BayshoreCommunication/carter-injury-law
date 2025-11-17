@@ -1,11 +1,67 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import SectionLayout from "../shared/SectionLayout";
-import { Button } from "@nextui-org/react";
 import { send } from "emailjs-com";
-import Swal from "sweetalert2";
-import CardMotion from "../motion/CardMotion";
+import { isValidPhoneNumber } from "libphonenumber-js";
+import React, { useState } from "react";
 import { MdArrowOutward } from "react-icons/md";
+import Swal from "sweetalert2";
+
+const validateForm = (values) => {
+  const errors = {};
+
+  if (!values.firstName) {
+    errors.firstName = "First Name is required!";
+  }
+  if (!values.lastName) {
+    errors.lastName = "Last Name is required!";
+  }
+
+  if (!values.email) {
+    errors.email = "Email is required!";
+  } else {
+    const emailParts = values.email.split("@");
+    if (emailParts.length !== 2 || !emailParts[1].includes(".")) {
+      errors.email = "This is not a valid email format!";
+    }
+  }
+
+  if (!values.phone) {
+    errors.phone = "Phone number is required!";
+  } else {
+    try {
+      const isValid = isValidPhoneNumber(values.phone, "US");
+      if (!isValid) {
+        errors.phone = "Please enter a valid US phone number";
+      }
+    } catch (error) {
+      errors.phone = "Please enter a valid US phone number";
+    }
+  }
+
+  if (!values.zipCode) {
+    errors.zipCode = "Zipcode is required!";
+  }
+  if (!values.caseType) {
+    errors.caseType = "Case Type is required!";
+  }
+
+  if (!values.flag) {
+    errors.flag = "Accept Terms & acknowledge our Privacy Policy.";
+  }
+
+  if (!values.message) {
+    errors.message = "Message is required!";
+  } else {
+    const words = values.message
+      .trim()
+      .split(" ")
+      .filter((word) => word.length > 0);
+    if (words.length < 10) {
+      errors.message =
+        "Message must be at least 10 words. Current count: " + words.length;
+    }
+  }
+  return errors;
+};
 
 const ContactSection = () => {
   const [emailForm, setEmailForm] = useState({
@@ -22,52 +78,13 @@ const ContactSection = () => {
   const [loading, setLoading] = useState(false);
   const [formErrors, setFormErrors] = useState({});
 
-  const validate = (values) => {
-    const errors = {};
-    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
-    if (!values.firstName) {
-      errors.firstName = "First Name is required!";
-    }
-    if (!values.lastName) {
-      errors.lastName = "Last Name is required!";
-    }
-
-    if (!values.email) {
-      errors.email = "Email is required!";
-    } else if (!regex.test(values.email)) {
-      errors.email = "This is not a valid email format!";
-    }
-
-    if (!values.phone) {
-      errors.phone = "Phone number is required!";
-    }
-
-    if (!values.zipCode) {
-      errors.zipCode = "Zipcode is required!";
-    }
-    if (!values.caseType) {
-      errors.caseType = "Case Type is required!";
-    }
-
-    if (!values.flag) {
-      errors.flag = "Accept Terms & acknowledge our Privacy Policy.";
-    }
-
-    if (!values.message) {
-      errors.message = "Message is required!";
-    }
-    return errors;
-  };
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true); // Start loading
+    setLoading(true);
 
-    // Validate the form and set errors
-    const errors = validate(emailForm);
+    const errors = validateForm(emailForm);
     setFormErrors(errors);
 
-    // Check if there are any errors
     if (Object.keys(errors).length === 0) {
       send(
         "service_du7590l",
@@ -122,7 +139,6 @@ const ContactSection = () => {
     <div className="flex flex-col">
       <form className="w-full" onSubmit={handleSubmit}>
         <div className="mb-5 w-full flex flex-col md:flex-row gap-5">
-          {/* First Name */}
           <div className=" w-full">
             <input
               className="bg-gray-50 border border-gray-300 text-gray-900 text-lg rounded-md focus:ring-black focus:border-black block w-full p-2.5 py-2.5 placeholder:text-base pl-5"
@@ -138,9 +154,8 @@ const ContactSection = () => {
                 });
               }}
             />
-            <span className="text-primary">{formErrors.firstName}</span>
+            <span className="text-red-600 text-sm">{formErrors.firstName}</span>
           </div>
-          {/* Last Name */}
           <div className=" w-full">
             <input
               className="bg-gray-50 border border-gray-300 text-gray-900 text-lg rounded-md focus:ring-black focus:border-black block w-full p-2.5 py-2.5 placeholder:text-base pl-5"
@@ -156,17 +171,16 @@ const ContactSection = () => {
                 });
               }}
             />
-            <span className="text-primary">{formErrors.lastName}</span>
+            <span className="text-red-600 text-sm">{formErrors.lastName}</span>
           </div>
         </div>
         <div className="mb-5 w-full flex flex-col md:flex-row gap-5">
-          {/* Phone Number */}
           <div className=" w-full">
             <input
               className="bg-gray-50 border border-gray-300 text-gray-900 text-lg rounded-md focus:ring-black focus:border-black block w-full p-2.5 py-2.5 placeholder:text-base pl-5"
               placeholder="Phone Number"
               required
-              type="text"
+              type="tel"
               name="phone"
               value={emailForm.phone}
               onChange={(event) => {
@@ -176,9 +190,8 @@ const ContactSection = () => {
                 });
               }}
             />
-            <span className="text-primary">{formErrors.phone}</span>
+            <span className="text-red-600 text-sm">{formErrors.phone}</span>
           </div>
-          {/* Zip Code */}
           <div className=" w-full">
             <input
               className="bg-gray-50 border border-gray-300 text-gray-900 text-lg rounded-md focus:ring-black focus:border-black block w-full p-2.5 py-2.5 placeholder:text-base pl-5"
@@ -194,10 +207,9 @@ const ContactSection = () => {
                 });
               }}
             />
-            <span className="text-primary">{formErrors.zipCode}</span>
+            <span className="text-red-600 text-sm">{formErrors.zipCode}</span>
           </div>
         </div>
-        {/* Email */}
         <div className="mb-5">
           <input
             className="bg-gray-50 border border-gray-300 text-gray-900 text-lg rounded-md focus:ring-black focus:border-black block w-full p-2.5 py-2.5 placeholder:text-base pl-5"
@@ -213,10 +225,8 @@ const ContactSection = () => {
               });
             }}
           />
-          <span className="text-primary">{formErrors.email}</span>
+          <span className="text-red-600 text-sm">{formErrors.email}</span>
         </div>
-        {/* Case Type */}
-
         <div className="mb-5">
           <select
             id="countries"
@@ -281,16 +291,14 @@ const ContactSection = () => {
               Insurance Claims
             </option>
           </select>
-          <span className="text-primary">{formErrors.caseType}</span>
+          <span className="text-red-600 text-sm">{formErrors.caseType}</span>
         </div>
-
-        {/* Text Area */}
         <div className="mb-5">
           <textarea
             rows={4}
             id="message"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-lg rounded-md focus:ring-black focus:border-black block w-full p-2.5 py-2.5 placeholder:text-base pl-5"
-            placeholder="Please describe what happened"
+            placeholder="Please describe what happened (minimum 10 words)"
             required
             name="message"
             value={emailForm.message}
@@ -301,7 +309,7 @@ const ContactSection = () => {
               });
             }}
           />
-          <span className="text-primary">{formErrors.message}</span>
+          <span className="text-red-600 text-sm">{formErrors.message}</span>
         </div>
 
         <div className="mb-5">
@@ -339,7 +347,7 @@ const ContactSection = () => {
               </p>
             </div>
           </div>
-          <span className="text-primary mt-4 ml-6 text-center">
+          <span className="text-red-600 text-sm mt-2 ml-6 block">
             {formErrors.flag}
           </span>
         </div>
