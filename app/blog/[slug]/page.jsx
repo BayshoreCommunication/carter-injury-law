@@ -343,7 +343,7 @@ const page = async ({ params }) => {
                 }
                 className="w-full h-auto bg-center bg-cover"
                 priority
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px mt-5"
               />
 
               <div className="mt-2 text-md blog-content">
