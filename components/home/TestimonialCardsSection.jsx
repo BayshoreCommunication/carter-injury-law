@@ -128,7 +128,7 @@ const TestimonialCardsSection = () => {
 
   return (
     <section
-      className="relative py-8 px-4 mt-6 md:mt-10 lg:mt-44 bg-cover bg-center bg-no-repeat"
+      className="relative py-8 px-4 bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage:
           'url("https://bayshore.nyc3.cdn.digitaloceanspaces.com/carterEmailTemplate/image%2023.png")',

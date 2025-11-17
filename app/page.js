@@ -5,7 +5,7 @@ import AchievementSection from "@/components/shared/AchievementSection";
 import CallToAction from "@/components/shared/CallToAction";
 import PracticeAreasSection from "@/components/shared/PracticeAreasSection";
 import TestimonialSlideSection from "@/components/shared/TestimonialSlideSection";
-import TestimonialCardsSection from "@/components/shared/TestimonialCardsSection";
+import TestimonialCardsSection from "@/components/home/TestimonialCardsSection";
 
 export const metadata = {
   title:
