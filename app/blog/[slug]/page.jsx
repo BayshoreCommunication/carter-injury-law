@@ -1,4 +1,5 @@
 import BlogHeroSectionforDetails from "@/components/blog/BlogHeroSectionforDetails";
+import SidebarBlogCard from "@/components/blog/SidebarBlogCard";
 import CardMotion from "@/components/motion/CardMotion";
 import CallToAction from "@/components/shared/CallToAction";
 import SectionLayout from "@/components/shared/SectionLayout";
@@ -10,15 +11,20 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 const css = `
-/* Reset and base styles */
-* {
+/* Scope all styles to blog content only */
+.blog-content * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+.blog-content h1,
+.blog-content h2,
+.blog-content h3,
+.blog-content h4,
+.blog-content h5,
+.blog-content h6 {
   font-weight: 700;
   color: #1B2639;
   line-height: 1.3;
@@ -27,33 +33,33 @@ h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
-h1 {
+.blog-content h1 {
   font-size: 2.25rem;
   margin-top: 0;
 }
 
-h2 {
+.blog-content h2 {
   font-size: 1.875rem;
 }
 
-h3 {
+.blog-content h3 {
   font-size: 1.5rem;
 }
 
-h4 {
+.blog-content h4 {
   font-size: 1.25rem;
 }
 
-h5 {
+.blog-content h5 {
   font-size: 1.125rem;
 }
 
-h6 {
+.blog-content h6 {
   font-size: 1rem;
 }
 
 /* Paragraphs */
-p {
+.blog-content p {
   font-size: 1.0625rem;
   line-height: 1.7;
   color: #374151;
@@ -63,26 +69,32 @@ p {
 }
 
 /* First paragraph after heading - reduce top margin */
-h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p {
+.blog-content h1 + p,
+.blog-content h2 + p,
+.blog-content h3 + p,
+.blog-content h4 + p,
+.blog-content h5 + p,
+.blog-content h6 + p {
   margin-top: 0.4em;
 }
 
 /* Lists */
-ul, ol {
+.blog-content ul,
+.blog-content ol {
   margin: 1em 0;
   padding-left: 2rem;
   line-height: 1.7;
 }
 
-ul {
+.blog-content ul {
   list-style-type: disc;
 }
 
-ol {
+.blog-content ol {
   list-style-type: decimal;
 }
 
-li {
+.blog-content li {
   font-size: 1.0625rem;
   color: #374151;
   margin: 0.25em 0;
@@ -90,28 +102,30 @@ li {
 }
 
 /* Links */
-a {
+.blog-content a {
   color: #EC1D21;
   text-decoration: underline;
   word-wrap: break-word;
 }
 
-a:hover {
+.blog-content a:hover {
   color: #B91C1C;
 }
 
 /* Text formatting */
-strong, b {
+.blog-content strong,
+.blog-content b {
   font-weight: 700;
   color: #1B2639;
 }
 
-em, i {
+.blog-content em,
+.blog-content i {
   font-style: italic;
 }
 
 /* Blockquotes */
-blockquote {
+.blog-content blockquote {
   border-left: 4px solid #EC1D21;
   padding: 1em 0 1em 1.25rem;
   margin: 1.25em 0;
@@ -121,7 +135,7 @@ blockquote {
 }
 
 /* Images */
-img {
+.blog-content img {
   max-width: 100%;
   height: auto;
   display: block;
@@ -131,89 +145,96 @@ img {
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
-  h1 {
+  .blog-content h1 {
     font-size: 1.75rem;
     margin: 0.85em 0 0.4em 0;
     line-height: 1.25;
   }
   
-  h2 {
+  .blog-content h2 {
     font-size: 1.5rem;
     margin: 0.85em 0 0.4em 0;
     line-height: 1.25;
   }
   
-  h3 {
+  .blog-content h3 {
     font-size: 1.25rem;
     margin: 0.75em 0 0.35em 0;
     line-height: 1.25;
   }
   
-  h4 {
+  .blog-content h4 {
     font-size: 1.125rem;
     margin: 0.75em 0 0.35em 0;
     line-height: 1.25;
   }
   
-  h5, h6 {
+  .blog-content h5,
+  .blog-content h6 {
     font-size: 1rem;
     margin: 0.75em 0 0.35em 0;
     line-height: 1.25;
   }
   
-  p {
+  .blog-content p {
     font-size: 1rem;
     margin: 0.5em 0;
     line-height: 1.65;
     word-spacing: 0.05em;
   }
   
-  h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p {
+  .blog-content h1 + p,
+  .blog-content h2 + p,
+  .blog-content h3 + p,
+  .blog-content h4 + p,
+  .blog-content h5 + p,
+  .blog-content h6 + p {
     margin-top: 0.3em;
   }
   
-  ul, ol {
+  .blog-content ul,
+  .blog-content ol {
     padding-left: 1.5rem;
     margin: 0.75em 0;
   }
   
-  li {
+  .blog-content li {
     font-size: 1rem;
     margin: 0.2em 0;
     word-spacing: 0.05em;
   }
   
-  blockquote {
+  .blog-content blockquote {
     padding: 0.75em 0 0.75em 1rem;
     margin: 1em 0;
   }
   
-  img {
+  .blog-content img {
     margin: 1em 0;
   }
 }
 
 /* Extra small devices - fix word spacing issues */
 @media (max-width: 480px) {
-  h1 {
+  .blog-content h1 {
     font-size: 1.5rem;
   }
   
-  h2 {
+  .blog-content h2 {
     font-size: 1.375rem;
   }
   
-  h3 {
+  .blog-content h3 {
     font-size: 1.125rem;
   }
   
-  p, li {
+  .blog-content p,
+  .blog-content li {
     font-size: 0.9375rem;
     word-spacing: normal;
     letter-spacing: normal;
   }
 }
-
 `;
 
 export async function generateMetadata({ params }) {
@@ -334,7 +355,9 @@ const page = async ({ params }) => {
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px"
               />
 
-              <div className="mt-2 text-md">{parse(blogDetails?.body)}</div>
+              <div className="mt-2 text-md blog-content">
+                {parse(blogDetails?.body)}
+              </div>
 
               <div className="flex mt-1  lg:mt-5">
                 <Link
@@ -361,30 +384,10 @@ const page = async ({ params }) => {
                 )
                 ?.slice(0, 10)
                 ?.map((blogs, index) => (
-                  <Link
-                    className="flex items-start gap-2 ps-3 py-3 drop-shadow-lg bg-white my-3"
+                  <SidebarBlogCard
                     key={`${blogs?.slug}-${index}`}
-                    href={`/blog/${blogs?.slug}`}
-                  >
-                    <Image
-                      width={120}
-                      height={120}
-                      src={blogs?.featuredImage?.image?.url}
-                      alt={
-                        blogs?.featuredImage?.altText ||
-                        blogs?.title ||
-                        "Blog thumbnail"
-                      }
-                      className="w-[100px] h-auto bg-center bg-cover"
-                      loading="lazy"
-                      sizes="(max-width: 1024px) 100px, 120px"
-                    />
-                    <div>
-                      <div className="text-md font-bold text-black text-left line-clamp-2">
-                        {blogs?.title}
-                      </div>
-                    </div>
-                  </Link>
+                    blogs={blogs}
+                  />
                 ))}
             </div>
           </div>

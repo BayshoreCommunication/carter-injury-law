@@ -1,11 +1,65 @@
+"use client";
 import parse from "html-react-parser";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 import SectionLayout from "../shared/SectionLayout";
 import BlogLoader from "./BlogLoader";
 import Pagination from "./Pagination";
+
+const BlogCard = ({ blogs, postDate }) => {
+  const [imageLoading, setImageLoading] = useState(true);
+
+  return (
+    <ScrollMotionEffect effect="fade-up" duration="2000">
+      <Link href={`/blog/${blogs?.slug}`}>
+        <div className="bg-white h-full border rounded-md">
+          <div className="relative w-full bg-gray-200 h-auto md:h-[245px]">
+            {imageLoading && (
+              <div className="absolute inset-0 animate-pulse bg-gray-300 z-10 rounded-t-md" />
+            )}
+            <Image
+              width={600}
+              height={400}
+              src={blogs?.featuredImage?.image?.url}
+              alt={
+                blogs?.featuredImage?.altText ||
+                blogs?.title ||
+                "Blog post image"
+              }
+              className="w-full h-auto rounded-t-md"
+              loading="lazy"
+              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              onLoad={() => setImageLoading(false)}
+            />
+          </div>
+
+          <div className="p-6 flex flex-col gap-1">
+            <div className="text-sm text-gray-500 flex items-center justify-between">
+              <span>{blogs?.category}</span>
+              <span> {postDate(blogs?.createdAt)}</span>
+            </div>
+            <h4 className="text-base md:text-lg font-semibold text-start">
+              {blogs?.title}
+            </h4>
+            <p className="text-gray-700 text-start line-clamp-2">
+              {parse(blogs?.body)}
+            </p>
+            <div className="text-start mt-5">
+              <button
+                type="submit"
+                className="text-white bg-[#EC1D21] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base w-full sm:w-auto px-10 py-2 text-center uppercase space-x-4 hover:scale-105 transition duration-300"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+      </Link>
+    </ScrollMotionEffect>
+  );
+};
 
 const BlogMainSection = ({ blogPostData, pagination }) => {
   const postDate = (date) => {
@@ -37,45 +91,11 @@ const BlogMainSection = ({ blogPostData, pagination }) => {
                   {blogPostData
                     ?.filter((pub, no) => pub.published === true)
                     ?.map((blogs, index) => (
-                      <ScrollMotionEffect
-                        effect="fade-up"
-                        duration="2000"
-                        key={index}
-                      >
-                        <Link href={`/blog/${blogs?.slug}`}>
-                          <div className=" drop-shadow-[0px_0px_10px_rgba(0,0,0,0.3)] bg-white h-full">
-                            <Image
-                              width={1800}
-                              height={300}
-                              src={blogs?.featuredImage?.image?.url}
-                              alt={blogs?.featuredImage?.altText}
-                              className="bg-center bg-cover"
-                            />
-
-                            <div className="p-6 flex flex-col gap-1">
-                              <div className="text-sm text-gray-500 flex items-center justify-between">
-                                <span>{blogs?.category}</span>
-                                <span> {postDate(blogs?.createdAt)}</span>
-                              </div>
-                              <h4 className="text-base md:text-lg font-semibold text-start">
-                                {blogs?.title}
-                              </h4>
-                              <p className=" text-gray-700 text-start line-clamp-2">
-                                {/* {blogs?.body} */}
-                                {parse(blogs?.body)}
-                              </p>
-                              <div className=" text-start mt-5">
-                                <button
-                                  type="submit"
-                                  className="text-white bg-[#EC1D21]  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base w-full sm:w-auto px-10 py-2 text-center uppercase space-x-4 hover:scale-105  transition duration-300 "
-                                >
-                                  Read More
-                                </button>
-                              </div>
-                            </div>
-                          </div>
-                        </Link>
-                      </ScrollMotionEffect>
+                      <BlogCard
+                        key={`${blogs?.slug}-${index}`}
+                        blogs={blogs}
+                        postDate={postDate}
+                      />
                     ))}
                 </div>
 
