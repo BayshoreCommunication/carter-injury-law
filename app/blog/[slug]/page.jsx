@@ -5,6 +5,7 @@ import CallToAction from "@/components/shared/CallToAction";
 import SectionLayout from "@/components/shared/SectionLayout";
 import SocialShareLinks from "@/components/shared/SocialShareLinks";
 import GetAllPostData from "@/lib/GetAllPostData";
+import GetBlogBySlug from "@/lib/GetBlogBySlug";
 import parse from "html-react-parser";
 import Image from "next/image";
 import Link from "next/link";
@@ -238,11 +239,7 @@ const css = `
 `;
 
 export async function generateMetadata({ params }) {
-  const blogPostData = await GetAllPostData(1, 100);
-
-  const blogDetails = blogPostData?.data?.find(
-    (blogs) => blogs.slug === params.slug
-  );
+  const blogDetails = await GetBlogBySlug(params.slug);
 
   if (!blogDetails) {
     return {
@@ -251,24 +248,21 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  let description = parse(blogDetails?.body);
-  // console.log(
-  //   description[0]?.props?.children.props?.children == undefined
-  //     ? description[0]?.props?.children[0].props?.children
-  //     : description[0]?.props?.children.props?.children
-  // );
+  let description = "";
+  if (blogDetails?.body && typeof blogDetails.body === "string") {
+    const parsedBody = parse(blogDetails.body);
+    description =
+      parsedBody[0]?.props?.children?.props?.children ||
+      parsedBody[0]?.props?.children?.[0]?.props?.children ||
+      "";
+  }
+
   return {
     title: blogDetails?.title,
-    description:
-      description[0]?.props?.children.props?.children == undefined
-        ? description[0]?.props?.children[0].props?.children
-        : description[0]?.props?.children.props?.children,
+    description: description,
     openGraph: {
       title: blogDetails?.title,
-      description:
-        description[0]?.props?.children.props?.children == undefined
-          ? description[0]?.props?.children[0].props?.children
-          : description[0]?.props?.children.props?.children,
+      description: description,
       images: blogDetails?.featuredImage?.image?.url,
       url: `https://www.carterinjurylaw.com/blog/${blogDetails?.slug}`,
       type: "article",
@@ -288,11 +282,8 @@ export async function generateStaticParams() {
 }
 
 const page = async ({ params }) => {
-  const blogPostData = await GetAllPostData(1, 500);
-
-  const blogDetails = blogPostData?.data?.find(
-    (blogs) => blogs.slug === params.slug
-  );
+  const blogDetails = await GetBlogBySlug(params.slug);
+  const blogPostData = await GetAllPostData(1, 10);
 
   if (!blogDetails) {
     notFound();
@@ -356,7 +347,9 @@ const page = async ({ params }) => {
               />
 
               <div className="mt-2 text-md blog-content">
-                {parse(blogDetails?.body)}
+                {blogDetails?.body && typeof blogDetails.body === "string"
+                  ? parse(blogDetails.body)
+                  : null}
               </div>
 
               <div className="flex mt-1  lg:mt-5">
