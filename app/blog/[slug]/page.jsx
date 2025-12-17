@@ -274,11 +274,17 @@ export async function generateMetadata({ params }) {
 export const revalidate = 60;
 
 export async function generateStaticParams() {
-  const blogPostData = await GetAllPostData(1, 100);
-  const slugs = blogPostData?.data
-    ?.filter((post) => post?.published === true && !!post?.slug)
-    ?.map((post) => ({ slug: post.slug }));
-  return slugs || [];
+  try {
+    const blogPostData = await GetAllPostData(1, 100);
+    const slugs = blogPostData?.data
+      ?.filter((post) => post?.published === true && !!post?.slug)
+      ?.map((post) => ({ slug: post.slug }));
+
+    return slugs || [];
+  } catch (error) {
+    console.error("Error generating static params:", error.message);
+    return [];
+  }
 }
 
 const page = async ({ params }) => {
