@@ -87,25 +87,25 @@ export default function RightSidebar() {
       <div className="bg-gray-100 rounded-lg p-6 text-center">
         <h3 className="text-xl font-bold mb-4">Our Location</h3>
 
-        <div className="bg-gray-300 h-40 rounded mb-4 overflow-hidden">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3530.1873236976194!2d-82.63884892397685!3d27.773201722582762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2e19d22155555%3A0x9586a1e2adff70f2!2s146%202nd%20St%20N%20%23310%2C%20St.%20Petersburg%2C%20FL%2033701%2C%20USA!5e0!3m2!1sen!2sbd!4v1771740382473!5m2!1sen!2sbd"
-    className="w-full h-full border-0"
-    loading="lazy"
-    allowFullScreen
-    referrerPolicy="no-referrer-when-downgrade"
-  ></iframe>
-</div>
+        {/* Responsive Map */}
+        <div className="h-40 rounded mb-4 overflow-hidden">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3523.705238086085!2d-82.47275531347553!3d27.972312151968936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2c3b1208be12d%3A0x4cce7467aad41864!2sCarter%20Injury%20Law!5e0!3m2!1sen!2sbd!4v1771754150422!5m2!1sen!2sbd"
+            className="w-full h-full border-0"
+            loading="lazy"
+            allowFullScreen
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
 
         <p className="font-semibold">
-          CATANIA AND CATANIA, PA
+          Carter Injury Law
         </p>
         <p className="text-sm text-gray-600 mt-1">
-          146 2nd St N Suite 310 <br />
-          St. Petersburg, FL 33701
+          3114 N. BOULEVARD TAMPA, FL 33603
         </p>
 
-        <p className="text-blue-600 font-bold mt-3">813-222-8656</p>
+        <p className="text-blue-600 font-bold mt-3">(813) 922-0228</p>
 
         <button className="mt-3 bg-[#043666] text-white px-4 py-2 rounded hover:bg-blue-700 transition">
           GET DIRECTIONS
@@ -128,11 +128,11 @@ export default function RightSidebar() {
 
         {/* Testimonial Text */}
         <p className="text-lg leading-8 text-gray-200">
-          “Peter Catania Is A Great Lawyer. He’s Very Personable. Very
+          {/* “Peter Catania Is A Great Lawyer. He’s Very Personable. Very
           Warm-Hearted. I Really Liked Him. This Is A Great Law Firm Leslie
           And Jazmine Great People Very Friendly And Professional. Peter
           Catania Made Sure That I Got The Most That I Could For My
-          Settlement. I Appreciate The Hard Work And The Dedication”.
+          Settlement. I Appreciate The Hard Work And The Dedication”. */}
         </p>
 
         {/* Red Line */}
@@ -140,7 +140,7 @@ export default function RightSidebar() {
 
         {/* Author */}
         <p className="text-lg font-medium text-gray-300">
-          Shukura Tiabah
+          {/* Shukura Tiabah */}
         </p>
       </div>
     </div>
