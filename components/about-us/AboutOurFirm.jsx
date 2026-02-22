@@ -15,7 +15,7 @@ const AboutOurFirm = () => {
         <h1
           className={`text-stone-950 !font-semibold text-3xl md:text-5xl mt-10 lg:mt-20 mb-10  text-center  uppercase`}
         >
-          About Our Firm
+          About Our Firm 
         </h1>
       </div>
       <div className="shadow-[rgba(0,0,0,.5)_0px_0px_30px] mb-8">
