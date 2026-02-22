@@ -20,6 +20,7 @@
     "framer-motion": "^10.18.0",
     "html-react-parser": "^5.1.16",
     "libphonenumber-js": "^1.12.26",
+    "lucide-react": "^0.575.0",
     "next": "^14.2.13",
     "react": "^18",
     "react-calendly": "^4.3.0",
@@ -34,6 +35,7 @@
     "swiper": "^11.1.14"
   },
   "devDependencies": {
+    "@types/node": "25.3.0",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",

@@ -1,6 +1,6 @@
 "use client";
 import { send } from "emailjs-com";
-import { isValidPhoneNumber } from "libphonenumber-js";
+// import { isValidPhoneNumber } from "libphonenumber-js";
 import React, { useState } from "react";
 import { MdArrowOutward } from "react-icons/md";
 import Swal from "sweetalert2";
