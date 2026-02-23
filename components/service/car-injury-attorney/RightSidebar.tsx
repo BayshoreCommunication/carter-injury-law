@@ -1,85 +1,117 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
-import { Star } from "lucide-react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { Star } from "lucide-react"; // ✅ Import missing
 
-export default function RightSidebar() {
+interface RightSidebarProps {
+  practiceAreas?: {
+    title: string;
+    slug: string;
+  }[];
+  areasWeServe?: {
+    name: string;
+    slug: string;
+  }[];
+  relatedBlogs: {
+    title: string;
+    slug: string;
+    featuredImage?: string;
+  }[];
+  testimonial?: {              // ✅ Add testimonial type
+    text: string;
+    author: string;
+  };
+}
+
+export default function RightSidebar({
+  practiceAreas = [],
+  areasWeServe = [],
+  relatedBlogs,
+  testimonial,                 // ✅ Receive testimonial
+}: RightSidebarProps) {
+
+  const pathname = usePathname();
+
   return (
-    <aside className="w-full lg:w-[350px] space-y-8 py-0 md:py-24">
-      
-      {/* Attorney Card */}
-      <div className="bg-white shadow-lg rounded-lg p-6 text-center">
-        <Image
-          src="/assets/service/carter-img.png"
-          alt="Attorney"
-          width={120}
-          height={120}
-          className="mx-auto rounded-md"
-        />
+    <aside className="w-full space-y-8">
 
-        <h2 className="text-2xl font-bold mt-4">
-          WE FIGHT <br />
-          <span className="text-gray-600 text-lg font-medium">
-            FOR YOUR RIGHTS
-          </span>
-        </h2>
+      {/* ---------------- PRACTICE AREAS ---------------- */}
+      {practiceAreas.length > 0 && (
+        <div className="bg-white shadow-md rounded-lg p-6">
+          <h3 className="text-xl font-bold mb-4 uppercase border-b pb-2">
+            Practice Areas
+          </h3>
 
-        <div className="bg-red-600 text-white text-sm font-semibold py-2 mt-3 rounded">
-          CARTER INJURY LAW, PA
+          <ul className="space-y-3 text-sm">
+            {practiceAreas.map((item, index) => {
+              const active =
+                pathname === `/areas-of-practice/${item.slug}`;
+
+              return (
+                <li key={index}>
+                  <Link
+                    href={`/areas-of-practice/${item.slug}`}
+                    className={`flex items-center gap-2 transition ${
+                      active
+                        ? "text-red-600 font-semibold"
+                        : "hover:text-red-600"
+                    }`}
+                  >
+                    <span className="w-2 h-2 bg-red-600"></span>
+                    {item.title}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
         </div>
-      </div>
+      )}
 
-      {/* Practice Areas */}
+      {/* ---------------- RELATED BLOG POSTS ---------------- */}
       <div className="bg-white shadow-md rounded-lg p-6">
-        <h3 className="text-xl font-bold mb-4">Practice Areas</h3>
-        <ul className="space-y-2 text-sm">
-          {[
-            "Personal Injuries",
-            "Car Accidents",
-            "Motorcycle Accidents",
-            "Truck Accidents",
-            "Slip and Fall Accidents",
-            "Brain Injuries",
-            "Pedestrian Accidents",
-            "Bicycle Accidents",
-          ].map((item, index) => (
-            <li key={index} className="flex items-center gap-2">
-              <span className="w-2 h-2 bg-red-600"></span>
-              {item}
-            </li>
-          ))}
-        </ul>
-      </div>
+        <h3 className="text-xl font-bold mb-6 uppercase border-b pb-2">
+          Recent Posts
+        </h3>
 
-      {/* Areas We Serve */}
-      <div className="bg-white shadow-md rounded-lg p-6">
-        <h3 className="text-xl font-bold mb-4">Areas We Serve</h3>
-        <ul className="space-y-2 text-sm">
-          {["Tampa", "Bradenton", "St. Petersburg", "Sarasota"].map(
-            (item, index) => (
-              <li key={index} className="flex items-center gap-2">
-                <span className="w-2 h-2 bg-red-600"></span>
-                {item}
+        <ul className="space-y-5">
+          {relatedBlogs.map((item, index) => {
+            const active =
+              pathname === `/blog/${item.slug}`;
+
+            return (
+              <li key={index}>
+                <Link
+                  href={`/blog/${item.slug}`}
+                  className="flex gap-3 group"
+                >
+                  {item.featuredImage && (
+                    <div className="w-16 h-16 relative shrink-0 rounded overflow-hidden">
+                      <Image
+                        src={item.featuredImage}
+                        alt={item.title}
+                        fill
+                        className="object-cover"
+                        sizes="64px"
+                      />
+                    </div>
+                  )}
+
+                  <p
+                    className={`text-sm leading-5 transition ${
+                      active
+                        ? "text-red-600 font-semibold"
+                        : "group-hover:text-red-600"
+                    }`}
+                  >
+                    {item.title}
+                  </p>
+                </Link>
               </li>
-            )
-          )}
-        </ul>
-      </div>
-
-      {/* Related Blog Posts */}
-      <div className="bg-white shadow-md rounded-lg p-6">
-        <h3 className="text-xl font-bold mb-4">Related Blog Posts</h3>
-        <ul className="space-y-3 text-sm">
-          {[
-            "Understanding Florida Negligence Law",
-            "How Much Does a Personal Injury Lawyer Cost?",
-            "What Is the Average Settlement for a Tampa Personal Injury Case?",
-            "What Are the 4 Elements of Negligence?",
-          ].map((item, index) => (
-            <li key={index} className="flex items-start gap-2">
-              <span className="w-2 h-2 bg-red-600 mt-1"></span>
-              {item}
-            </li>
-          ))}
+            );
+          })}
         </ul>
       </div>
 
@@ -111,39 +143,33 @@ export default function RightSidebar() {
           GET DIRECTIONS
         </button>
       </div>
-      <div className="flex justify-center items-center py-16">
-      <div className="relative bg-[#1f2a44] text-white max-w-2xl rounded-2xl px-10 py-16 text-center shadow-xl">
-        
-        {/* Quote Icon */}
-        <div className="absolute -top-6 left-1/2 -translate-x-1/2 bg-red-600 w-14 h-14 rounded-full flex items-center justify-center text-3xl font-bold">
-          “
+
+      {/* ---------------- TESTIMONIAL ---------------- */}
+      {testimonial && (
+        <div className="bg-[#1f2a44] text-white rounded-2xl px-8 py-12 text-center shadow-xl relative">
+
+          <div className="absolute -top-6 left-1/2 -translate-x-1/2 bg-red-600 w-14 h-14 rounded-full flex items-center justify-center text-3xl font-bold">
+            “
+          </div>
+
+          <div className="flex justify-center gap-2 text-teal-400 mb-6 mt-4">
+            {Array.from({ length: 5 }).map((_, i) => (
+              <Star key={i} size={22} fill="currentColor" stroke="none" />
+            ))}
+          </div>
+
+          <p className="text-lg leading-8 text-gray-200">
+            {testimonial.text}
+          </p>
+
+          <div className="w-12 h-[3px] bg-red-600 mx-auto my-6 rounded"></div>
+
+          <p className="text-lg font-medium text-gray-300">
+            {testimonial.author}
+          </p>
         </div>
+      )}
 
-        {/* Stars */}
-        <div className="flex justify-center gap-2 text-teal-400 mb-6 mt-4">
-          {Array.from({ length: 5 }).map((_, i) => (
-            <Star key={i} size={22} fill="currentColor" stroke="none" />
-          ))}
-        </div>
-
-        {/* Testimonial Text */}
-        <p className="text-lg leading-8 text-gray-200">
-          {/* “Peter Catania Is A Great Lawyer. He’s Very Personable. Very
-          Warm-Hearted. I Really Liked Him. This Is A Great Law Firm Leslie
-          And Jazmine Great People Very Friendly And Professional. Peter
-          Catania Made Sure That I Got The Most That I Could For My
-          Settlement. I Appreciate The Hard Work And The Dedication”. */}
-        </p>
-
-        {/* Red Line */}
-        <div className="w-12 h-[3px] bg-red-600 mx-auto my-6 rounded"></div>
-
-        {/* Author */}
-        <p className="text-lg font-medium text-gray-300">
-          {/* Shukura Tiabah */}
-        </p>
-      </div>
-    </div>
     </aside>
   );
 }
