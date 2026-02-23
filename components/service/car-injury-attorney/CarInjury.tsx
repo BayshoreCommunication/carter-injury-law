@@ -1,10 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import RightSidebar from "./RightSidebar";
 
 export default function CarInjuryPage() {
   return (
-    <div className="min-h-screen py-12 px-4 md:px-8">
+    <div className="min-h-screen pt-8 px-4 md:px-8">
       
         
         {/* Left Content */}
@@ -23,8 +22,8 @@ export default function CarInjuryPage() {
             />
           </div>
 
-          <div className="space-y-6 text-gray-700 leading-relaxed text-[15px]">
-            <p>
+          <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
+            <p className="">
       As a car injury attorney, Carter Injury Law steps into the difficult hours after a crash with the single purpose of helping you secure fair compensation and restore as much normalcy as possible to your life. We combine meticulous investigation, careful medical documentation, and a practical view of economic loss, so each claim is more than a stack of bills; it is a coherent story of what happened and what must be repaired. From first contact through resolution, our role is to translate trauma and confusion into clear legal steps so you understand choices, deadlines, and the likely path ahead. Every lawyer knows that early clarity is essential for a client’s peace of mind during recovery.
     </p>
 
@@ -49,9 +48,6 @@ export default function CarInjuryPage() {
     </p>
           </div>
         </div>
-
-        {/* Right Sidebar */}
-        {/* <RightSidebar /> */}
       </div>
   
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import { FiPhoneCall } from "react-icons/fi";
 
 export default function AutomobileAttorneySection() {
   return (
@@ -7,14 +8,14 @@ export default function AutomobileAttorneySection() {
       <div className="">
         
         {/* Main Heading */}
-        <h2 className="text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight text-black mb-8">
-          WHAT AN AUTOMOBILE ACCIDENT <br />
-          ATTORNEY NEAR ME CAN DO FOR <br />
+        <h2 className="text-2xl md:text-4xl font-bold leading-tight tracking-tight text-black mb-8">
+          WHAT AN AUTOMOBILE ACCIDENT 
+          ATTORNEY NEAR ME CAN DO FOR 
           YOUR CASE
         </h2>
 
         {/* Paragraph Content */}
-        <div className="text-[15px] leading-[1.9] text-gray-700 space-y-6">
+        <div className="text-lg leading-[1.9] text-slate-600  space-y-6">
           
           <p>
             Local representation brings practical advantages that shape how a
@@ -69,8 +70,8 @@ export default function AutomobileAttorneySection() {
           How Liability Is Determined in Serious Collisions
         </h3>
 
-        <div className="text-[15px] leading-[1.9] text-gray-700 space-y-6">
-          
+        <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
+
           <p>
             Liability is the foundation of every automobile accident claim.
             Determining who is at fault requires careful evaluation of conduct
@@ -95,7 +96,7 @@ export default function AutomobileAttorneySection() {
           The Role of Police Reports and Evidence
         </h3>
 
-        <div className="text-[15px] leading-[1.9] text-gray-700 space-y-6">
+        <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
           
           <p>
             Police reports often serve as the starting point for an accident
@@ -131,8 +132,16 @@ export default function AutomobileAttorneySection() {
             We’re Here To Help, 24/7
           </h4>
 
-          <button className="bg-[#ED1B24] hover:bg-red-700 transition text-white px-6 py-3 rounded-full font-semibold">
-            📞 (813) 536-3437
+          <button className=" transition text-white px-6 py-3 rounded-full font-semibold">
+            <div className="flex items-center gap-2">
+              <a
+            href="tel:+8139220228"
+            className="inline-flex items-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
+          >
+            <FiPhoneCall size={20} />
+            (813) 922-0228
+          </a>
+            </div>
           </button>
 
         </div>

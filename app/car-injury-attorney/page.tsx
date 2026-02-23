@@ -20,7 +20,7 @@ const page = async () => {
 
   return (
     <div>
-      <div className="max-w-6xl mx-auto px-8 flex flex-col lg:flex-row gap-12">
+      <div className="max-w-[1620px] mx-auto px-8 flex flex-col lg:flex-row gap-12">
 
         <LeftSide />
 

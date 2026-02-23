@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { FiPhoneCall } from "react-icons/fi";
 
 export default function MedicalFinancialSection() {
   return (
@@ -24,7 +25,7 @@ export default function MedicalFinancialSection() {
           Medical Documentation That Strengthens Your Case
         </h2>
 
-        <div className="text-[15px] leading-[1.9] text-gray-700 space-y-5">
+        <div className="text-lg leading-[1.9] text-slate-600  space-y-5">
           <p>
             Medical documentation is the backbone of any successful injury claim.
             Without clear, consistent records, even legitimate injuries can be
@@ -59,7 +60,7 @@ export default function MedicalFinancialSection() {
           Calculating Long-Term Financial Impact
         </h2>
 
-        <div className="text-[15px] leading-[1.9] text-gray-700 space-y-5">
+        <div className="text-lg leading-[1.9] text-slate-600 space-y-5">
           <p>
             The true cost of a serious crash often reveals itself over time.
             Initial bills may be only a fraction of the financial impact.
@@ -88,7 +89,7 @@ export default function MedicalFinancialSection() {
         </div>
 
         {/* CTA Section */}
-        <div className="mt-12 bg-[#1E2538] rounded-2xl p-8 text-center text-white">
+        <div className="mt-6 bg-[#1E2538] rounded-2xl p-8 text-center text-white">
           
           <h3 className="text-md tracking-widest uppercase mb-6 text-gray-300">
             Contact Our Injury Attorneys in St. Petersburg, FL
@@ -100,9 +101,13 @@ export default function MedicalFinancialSection() {
               FREE CASE CONSULTATION
             </button>
 
-            <button className="bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold">
-              📞 (813) 536-3437
-            </button>
+            <a
+  href="tel:+8139220228"
+  className="inline-flex items-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
+>
+  <FiPhoneCall size={20} />
+  (813) 922-0228
+</a>
 
           </div>
         </div>

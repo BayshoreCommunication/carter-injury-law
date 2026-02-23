@@ -1,23 +1,15 @@
-import { nextui } from "@nextui-org/react";
-
-/** @type {import('tailwindcss').Config} */
+const { nextui } = require("@nextui-org/react");
 const withMT = require("@material-tailwind/react/utils/withMT");
 
+/** @type {import('tailwindcss').Config} */
 module.exports = withMT({
-  content: ["./pages/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-});
-
-module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
@@ -27,7 +19,7 @@ module.exports = {
         white: "#FFFFFF",
       },
       backgroundImage: {
-        heroBg:`url('/assets/homepage/header-bg.png')`
+        heroBg: `url('/assets/homepage/header-bg.png')`,
       },
     },
     container: {
@@ -41,9 +33,8 @@ module.exports = {
       },
     },
     maxWidth: {
-      "2xl": "1536px", // The default value for 2xl in Tailwind CSS
+      "2xl": "1536px",
     },
   },
-  darkMode: "class",
   plugins: [nextui()],
-};
+});

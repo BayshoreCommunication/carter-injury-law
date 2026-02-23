@@ -2,18 +2,18 @@ import React from "react";
 
 export default function HelpAfterCrash() {
   return (
-    <section className="px-4 md:px-8py-12 ">
+    <section className="px-4 md:px-8 ">
       
       <div className="">
         
         {/* Heading */}
-        <h2 className="text-4xl lg:text-5xl font-bold leading-tight tracking-tight text-black mb-8">
-          HOW A CAR INJURY ATTORNEY CAN <br />
+        <h2 className="text-2xl md:text-4xl font-bold leading-tight tracking-tight text-black mb-8">
+          HOW A CAR INJURY ATTORNEY CAN 
           HELP AFTER A SERIOUS CRASH
         </h2>
 
         {/* Content */}
-        <div className="text-[16px] leading-[1.9] text-gray-700 space-y-6">
+        <div className="text-lg leading-[1.9] text-slate-600  space-y-6">
           
           <p>
             In Florida, car accidents often involve complex factors such as

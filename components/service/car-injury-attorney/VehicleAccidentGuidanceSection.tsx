@@ -1,19 +1,20 @@
 import React from "react";
+import { FiPhoneCall } from "react-icons/fi";
 
 export default function VehicleAccidentGuidanceSection() {
   return (
-    <section className="px-4 md:px-8 py-12">
+    <section className="px-4 md:px-8 pt-8">
       
       <div className="">
         
         {/* Main Heading */}
-        <h2 className="text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight text-black mb-8">
-          GUIDANCE FROM VEHICLE ACCIDENT <br />
+        <h2 className="text-2xl md:text-4xl font-bold leading-tight tracking-tight text-black mb-8">
+          GUIDANCE FROM VEHICLE ACCIDENT
           LAWYERS AFTER SERIOUS INJURIES
         </h2>
 
         {/* Content */}
-        <div className="text-[15px] leading-[1.9] text-gray-700 space-y-6">
+        <div className="text-lg leading-[1.9] text-slate-600  space-y-6">
           
           <p>
             Serious injuries change the rhythm of daily life. Pain, limited
@@ -67,8 +68,8 @@ export default function VehicleAccidentGuidanceSection() {
           How Fault Impacts Your Ability to Recover Damages
         </h3>
 
-        <div className="text-[15px] leading-[1.9] text-gray-700 space-y-6">
-          
+        <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
+
           <p>
             Fault is a central issue in vehicle accident claims, particularly
             in Florida’s comparative fault system. Even when another driver is
@@ -110,7 +111,29 @@ export default function VehicleAccidentGuidanceSection() {
           </p>
 
         </div>
-
+        {/* CTA Section */}
+                        <div className="mt-6 bg-[#27355e] rounded-2xl p-8 text-center text-white">
+                          
+                          <h3 className="text-md tracking-widest uppercase mb-6 text-gray-300">
+                            Contact Our Injury Attorneys in St. Petersburg, FL
+                          </h3>
+                
+                          <div className="flex flex-col sm:flex-row justify-center gap-4">
+                            
+                            <button className="bg-[#ED1B24] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold">
+                              FREE CASE CONSULTATION
+                            </button>
+                
+                            <a
+                  href="tel:+8139220228"
+                  className="inline-flex items-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
+                >
+                  <FiPhoneCall size={20} />
+                  (813) 922-0228
+                </a>
+                
+                          </div>
+                        </div>
       </div>
     </section>
   );

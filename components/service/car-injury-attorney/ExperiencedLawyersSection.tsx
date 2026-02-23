@@ -7,13 +7,13 @@ export default function ExperiencedLawyersSection() {
       <div className="">
         
         {/* Main Heading */}
-        <h2 className="text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight text-black mb-8">
-          WHY EXPERIENCED LAWYERS FOR <br />
+        <h2 className="text-2xl md:text-4xl font-bold leading-tight tracking-tight text-black mb-8">
+          WHY EXPERIENCED LAWYERS FOR 
           AUTO ACCIDENT CASES MATTER
         </h2>
 
         {/* Paragraph Content */}
-        <div className="text-[15px] leading-[1.9] text-gray-700 space-y-6">
+        <div className="text-lg leading-[1.9] text-slate-600  space-y-6">
           
           <p>
             Experience in auto accident litigation is not just a slogan but also
@@ -68,8 +68,8 @@ export default function ExperiencedLawyersSection() {
           Negotiating Fair Settlements With Insurers
         </h3>
 
-        <div className="text-[15px] leading-[1.9] text-gray-700 space-y-6">
-          
+        <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
+
           <p>
             Settlement negotiation is a skill refined through repetition.
             Experienced lawyers understand how insurers structure offers, what

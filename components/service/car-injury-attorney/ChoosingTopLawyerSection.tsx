@@ -8,52 +8,51 @@ export default function ChoosingTopLawyerSection() {
       <div className="">
         
         {/* Main Heading */}
-        <h2 className="text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight text-[#0D3E8A] mb-10">
-          CHOOSING A TOP AUTO ACCIDENT <br />
+        <h2 className="text-2xl md:text-4xl font-bold leading-tight tracking-tight text-[#0D3E8A] mb-10">
+          CHOOSING A TOP AUTO ACCIDENT
           LAWYER FOR YOUR TAMPA CASE
         </h2>
 
         {/* Image + Intro Content */}
-        <div className="flex flex-col md:flex-row gap-6 mb-8">
-          
-          {/* Left Image */}
-          <div className="relative w-full md:w-[260px] h-[200px] rounded-xl overflow-hidden flex-shrink-0">
-            <Image
-              src="/assets/service/lawyer.png"
-              alt="Attorney Consultation"
-              width={1000}
-              height={800}
-              className="object-cover"
-              priority
-            />
-          </div>
+<div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
 
-          {/* Right Text */}
-          <div className="text-[15px] leading-[1.9] text-gray-700 space-y-4">
-            <p>
-              Choosing a top auto accident lawyer in Tampa is a decision that
-              carries long-term consequences. The lawyer you select will
-              influence how your case is framed, how insurers respond, and how
-              confidently your claim moves forward. Tampa’s roads are busy, its
-              courts are active, and insurers are well practiced.
-              Representation must match that reality with preparation,
-              credibility, and local insight.
-            </p>
+  {/* Left Image */}
+  <div className="relative w-full md:w-[520px] rounded-xl overflow-hidden">
+    <Image
+      src="/assets/service/lawyer.png"
+      alt="Attorney Consultation"
+      fill
+      className="object-cover"
+      priority
+    />
+  </div>
 
-            <p>
-              A strong Tampa auto accident lawyer understands the regional
-              legal environment. Local courts have distinct procedures, judges
-              have preferences, and opposing counsel often follow predictable
-              patterns. Familiarity with these elements allows a lawyer to
-              anticipate obstacles and respond efficiently.
-            </p>
-          </div>
+  {/* Right Text */}
+  <div className="flex flex-col justify-center text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+    <p>
+      Choosing a top auto accident lawyer in Tampa is a decision that
+      carries long-term consequences. The lawyer you select will
+      influence how your case is framed, how insurers respond, and how
+      confidently your claim moves forward. Tampa’s roads are busy, its
+      courts are active, and insurers are well practiced.
+      Representation must match that reality with preparation,
+      credibility, and local insight.
+    </p>
 
-        </div>
+    <p>
+      A strong Tampa auto accident lawyer understands the regional
+      legal environment. Local courts have distinct procedures, judges
+      have preferences, and opposing counsel often follow predictable
+      patterns. Familiarity with these elements allows a lawyer to
+      anticipate obstacles and respond efficiently.
+    </p>
+  </div>
+
+</div>
 
         {/* Remaining Content */}
-        <div className="text-[15px] leading-[1.9] text-gray-700 space-y-6">
-          
+        <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
+
           <p>
             Depth of experience matters, but so does relevance. A lawyer who
             regularly handles auto accident cases in Tampa understands the
@@ -99,7 +98,7 @@ export default function ChoosingTopLawyerSection() {
           What Sets a Strong Legal Strategy Apart
         </h3>
 
-        <div className="text-[15px] leading-[1.9] text-gray-700 space-y-6">
+        <div className="text-lg leading-[1.9] text-slate-600  space-y-6">
           
           <p>
             A strong legal strategy begins with clarity. It identifies the core

@@ -2,18 +2,18 @@ import React from "react";
 
 export default function ProtectsRightsSection() {
   return (
-    <section className="px-4 md:px-8 py-12 ">
+    <section className="px-4 md:px-8 pb-8">
       
       <div className="">
         
         {/* Main Heading */}
-        <h2 className="text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight text-black mb-8">
-          PROTECTS YOUR RIGHTS AFTER A <br />
+        <h2 className="text-2xl md:text-4xl font-bold leading-tight tracking-tight text-black mb-8">
+          PROTECTS YOUR RIGHTS AFTER A 
           CRASH
         </h2>
 
         {/* Main Content */}
-        <div className="text-[15px] leading-[1.9] text-gray-700 space-y-6">
+        <div className="text-lg leading-[1.9] text-slate-600  space-y-6">
           
           <p>
             After a crash, your legal rights are exposed long before you
@@ -69,8 +69,8 @@ export default function ProtectsRightsSection() {
         </h3>
 
         {/* Subsection Content */}
-        <div className="text-[15px] leading-[1.9] text-gray-700 space-y-6">
-          
+        <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
+
           <p>
             Insurance pressure often appears subtle at first. Friendly calls,
             quick questions, and offers framed as help can mask efforts to limit
