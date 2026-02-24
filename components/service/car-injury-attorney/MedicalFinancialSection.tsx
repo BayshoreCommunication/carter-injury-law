@@ -5,13 +5,11 @@ import { FiPhoneCall } from "react-icons/fi";
 export default function MedicalFinancialSection() {
   return (
     <section className="px-4 md:px-8 py-12">
-      
       <div className="">
-        
         {/* Top Image */}
         <div className="relative w-full  rounded-lg overflow-hidden mb-10">
           <Image
-            src="/assets/service/medical.png" 
+            src="/assets/service/medical.png"
             alt="Carter Injury Law Office"
             width={1000}
             height={800}
@@ -27,12 +25,12 @@ export default function MedicalFinancialSection() {
 
         <div className="text-lg leading-[1.9] text-slate-600  space-y-5">
           <p>
-            Medical documentation is the backbone of any successful injury claim.
-            Without clear, consistent records, even legitimate injuries can be
-            questioned. A lawyer works closely with medical providers to ensure
-            that records accurately reflect diagnosis, treatment, and prognosis.
-            This includes emergency care, follow-up visits, imaging studies,
-            physical therapy notes, and specialist evaluations.
+            Medical documentation is the backbone of any successful injury
+            claim. Without clear, consistent records, even legitimate injuries
+            can be questioned. A lawyer works closely with medical providers to
+            ensure that records accurately reflect diagnosis, treatment, and
+            prognosis. This includes emergency care, follow-up visits, imaging
+            studies, physical therapy notes, and specialist evaluations.
           </p>
 
           <p>
@@ -63,11 +61,11 @@ export default function MedicalFinancialSection() {
         <div className="text-lg leading-[1.9] text-slate-600 space-y-5">
           <p>
             The true cost of a serious crash often reveals itself over time.
-            Initial bills may be only a fraction of the financial impact.
-            An attorney looks ahead, calculating long-term medical expenses,
-            future procedures, medication, assistive devices, and rehabilitation.
-            For working clients, this also includes lost income and reduced
-            earning capacity.
+            Initial bills may be only a fraction of the financial impact. An
+            attorney looks ahead, calculating long-term medical expenses, future
+            procedures, medication, assistive devices, and rehabilitation. For
+            working clients, this also includes lost income and reduced earning
+            capacity.
           </p>
 
           <p>
@@ -90,28 +88,24 @@ export default function MedicalFinancialSection() {
 
         {/* CTA Section */}
         <div className="mt-6 bg-[#1E2538] rounded-2xl p-8 text-center text-white">
-          
           <h3 className="text-md tracking-widest uppercase mb-6 text-gray-300">
             Contact Our Injury Attorneys in St. Petersburg, FL
           </h3>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            
             <button className="bg-[#ED1B24] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold">
               FREE CASE CONSULTATION
             </button>
 
             <a
-  href="tel:+8139220228"
-  className="inline-flex items-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
->
-  <FiPhoneCall size={20} />
-  (813) 922-0228
-</a>
-
+              href="tel:+8139220228"
+              className="inline-flex items-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
+            >
+              <FiPhoneCall size={20} />
+              (813) 922-0228
+            </a>
           </div>
         </div>
-
       </div>
     </section>
   );

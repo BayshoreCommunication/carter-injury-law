@@ -35,7 +35,37 @@ export default function RightSidebar({
   const pathname = usePathname();
 
   return (
-    <aside className="w-full max-w-[750px]  space-y-8">
+    <aside className="w-full max-w-[750px]  space-y-8 pt-0 md:pt-16">
+      <div className="max-w-[750px] w-full  shadow-lg rounded-md p-8 text-center">
+        {/* Profile Image */}
+        <div className="flex justify-center mb-6">
+          <div className="relative w-[130px] h-[130px] rounded-md overflow-hidden">
+            <Image
+              src="/assets/service/carter-img.png"
+              alt="Attorney"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+        </div>
+
+        {/* Heading */}
+        <h2 className="text-4xl md:text-5xl font-extrabold tracking-wide text-black">
+          WE FIGHT
+        </h2>
+
+        <p className="text-2xl md:text-3xl font-light text-gray-700 mt-2">
+          FOR YOUR RIGHTS
+        </p>
+
+        {/* Red Button Label */}
+        <div className="mt-6">
+          <span className="bg-[#ED1B24] text-white px-6 py-2 text-sm md:text-base font-semibold tracking-wide">
+            CARTER INJURY LAW, PA
+          </span>
+        </div>
+      </div>
 
       {/* ---------------- PRACTICE AREAS ---------------- */}
       {practiceAreas.length > 0 && (
@@ -46,8 +76,7 @@ export default function RightSidebar({
 
           <ul className="space-y-3 text-sm">
             {practiceAreas.slice(0, 10).map((item, index) => {
-              const active =
-                pathname === `/areas-of-practice/${item.slug}`;
+              const active = pathname === `/areas-of-practice/${item.slug}`;
 
               return (
                 <li key={index}>
@@ -144,9 +173,7 @@ export default function RightSidebar({
           3114 N. BOULEVARD TAMPA, FL 33603
         </p>
 
-        <p className="text-blue-600 font-bold mt-3">
-          (813) 922-0228
-        </p>
+        <p className="text-blue-600 font-bold mt-3">(813) 922-0228</p>
 
         <button className="mt-3 bg-[#043666] text-white px-4 py-2 rounded hover:bg-blue-700 transition">
           GET DIRECTIONS
@@ -166,9 +193,7 @@ export default function RightSidebar({
             ))}
           </div>
 
-          <p className="text-lg leading-8 text-gray-200">
-            {testimonial.text}
-          </p>
+          <p className="text-lg leading-8 text-gray-200">{testimonial.text}</p>
 
           <div className="w-12 h-[3px] bg-red-600 mx-auto my-6 rounded"></div>
 
