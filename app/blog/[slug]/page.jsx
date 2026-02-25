@@ -10,7 +10,7 @@ import parse from "html-react-parser";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-
+export const dynamic = "force-dynamic";
 const css = `
 /* Scope all styles to blog content only */
 .blog-content * {
@@ -379,7 +379,7 @@ const page = async ({ params }) => {
               {blogPostData?.data
                 ?.filter(
                   (pub) =>
-                    pub.published === true && pub.slug !== blogDetails?.slug
+                    pub.published === true && pub.slug !== blogDetails?.slug,
                 )
                 ?.slice(0, 10)
                 ?.map((blogs, index) => (
