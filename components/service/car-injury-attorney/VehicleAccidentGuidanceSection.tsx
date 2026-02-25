@@ -4,18 +4,14 @@ import { FiPhoneCall } from "react-icons/fi";
 export default function VehicleAccidentGuidanceSection() {
   return (
     <section className="px-4 md:px-8 pt-8">
-      
       <div className="">
-        
         {/* Main Heading */}
         <h2 className="text-2xl md:text-4xl font-bold leading-tight tracking-tight text-black mb-8">
-          GUIDANCE FROM VEHICLE ACCIDENT
-          LAWYERS AFTER SERIOUS INJURIES
+          GUIDANCE FROM VEHICLE ACCIDENT LAWYERS AFTER SERIOUS INJURIES
         </h2>
 
         {/* Content */}
         <div className="text-lg leading-[1.9] text-slate-600  space-y-6">
-          
           <p>
             Serious injuries change the rhythm of daily life. Pain, limited
             mobility, and uncertainty about recovery affect work, relationships,
@@ -52,7 +48,8 @@ export default function VehicleAccidentGuidanceSection() {
             permanent work limitations can destabilize households. Lawyers
             assess how injuries affect employability and earning potential, and
             they incorporate that impact into the claim. This approach ensures
-            that compensation reflects lost opportunity, not just lost paychecks.
+            that compensation reflects lost opportunity, not just lost
+            paychecks.
           </p>
 
           <p>
@@ -69,10 +66,9 @@ export default function VehicleAccidentGuidanceSection() {
         </h3>
 
         <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
-
           <p>
-            Fault is a central issue in vehicle accident claims, particularly
-            in Florida’s comparative fault system. Even when another driver is
+            Fault is a central issue in vehicle accident claims, particularly in
+            Florida’s comparative fault system. Even when another driver is
             clearly negligent, insurers may argue that the injured person
             contributed to the crash. Vehicle accident lawyers address this by
             carefully analyzing evidence and presenting a clear account of how
@@ -96,12 +92,12 @@ export default function VehicleAccidentGuidanceSection() {
           </p>
 
           <p>
-            The way fault is presented can influence every stage of a case,
-            from settlement offers to trial outcomes. Clear, evidence-based
-            arguments reduce uncertainty and strengthen credibility. By
-            addressing fault methodically and honestly, lawyers protect the
-            injured person’s ability to recover damages that align with the
-            true impact of the injuries.
+            The way fault is presented can influence every stage of a case, from
+            settlement offers to trial outcomes. Clear, evidence-based arguments
+            reduce uncertainty and strengthen credibility. By addressing fault
+            methodically and honestly, lawyers protect the injured person’s
+            ability to recover damages that align with the true impact of the
+            injuries.
           </p>
 
           <p>
@@ -109,31 +105,27 @@ export default function VehicleAccidentGuidanceSection() {
             reflects reality, supports long-term recovery, and respects the
             legal standards that govern compensation in Florida.
           </p>
-
         </div>
         {/* CTA Section */}
-                        <div className="mt-6 bg-[#27355e] rounded-2xl p-8 text-center text-white">
-                          
-                          <h3 className="text-md tracking-widest uppercase mb-6 text-gray-300">
-                            Contact Our Injury Attorneys in St. Petersburg, FL
-                          </h3>
-                
-                          <div className="flex flex-col sm:flex-row justify-center gap-4">
-                            
-                            <button className="bg-[#ED1B24] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold">
-                              FREE CASE CONSULTATION
-                            </button>
-                
-                            <a
-                  href="tel:+8139220228"
-                  className="inline-flex items-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
-                >
-                  <FiPhoneCall size={20} />
-                  (813) 922-0228
-                </a>
-                
-                          </div>
-                        </div>
+        <div className="mt-6 bg-[#27355e] rounded-2xl p-8 text-center text-white">
+          <h3 className="text-md tracking-widest uppercase mb-6 text-gray-300">
+            Contact Our Injury Attorneys in St. Petersburg, FL
+          </h3>
+
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <button className="bg-[#ED1B24] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold">
+              FREE CASE CONSULTATION
+            </button>
+
+            <a
+              href="tel:+8139220228"
+              className="inline-flex items-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
+            >
+              <FiPhoneCall size={20} />
+              (813) 922-0228
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
