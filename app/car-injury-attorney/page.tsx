@@ -24,12 +24,6 @@ const page = async () => {
 
         <RightSidebar
           practiceAreas={allServiceData}
-          areasWeServe={[
-            { name: "Tampa", slug: "tampa" },
-            { name: "Bradenton", slug: "bradenton" },
-            { name: "St. Petersburg", slug: "st-petersburg" },
-            { name: "Sarasota", slug: "sarasota" },
-          ]}
           relatedBlogs={relatedBlogs}
           testimonial={{
             text: "Dealing with a rear-end collision was overwhelming until Carter Injury Law stepped in to help. David Carter and his team went above and beyond; explaining everything clearly, staying in constant communication, and making sure I felt supported the entire time. Their hard work resulted in a policy-limit settlement that fully covered my medical costs. It’s rare to find a Largo car accident attorney who combines skill, empathy, and results, but Carter Injury Law does exactly that. I’m truly grateful for everything they did to help me recover.",
