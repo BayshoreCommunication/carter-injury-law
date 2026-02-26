@@ -5,14 +5,15 @@ import { FiPhoneCall } from "react-icons/fi";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full min-h-[700px] flex items-center ">
+    <section className="relative w-full min-h-[700px] flex items-center overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0 -z-10 w-full h-auto">
+      <div className="absolute inset-0 -z-10">
         <Image
-          src="/assets/car-accident/bg.png"
+          src="/public/assets/car-accident/bg.png"
           alt="Law Office Background"
           fill
           priority
+          sizes="100vw"
           className="object-cover"
         />
       </div>
