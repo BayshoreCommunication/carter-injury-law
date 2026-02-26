@@ -129,7 +129,7 @@ export default function RightSidebar({
   };
 
   return (
-    <aside className="w-full max-w-[750px] space-y-8 pt-0 md:pt-16">
+    <aside className="w-full max-w-[450px] space-y-8 pt-0 md:pt-16">
       {/* PROFILE SECTION */}
       <div className="shadow-lg rounded-md p-8 text-center">
         <div className="flex justify-center mb-6">
