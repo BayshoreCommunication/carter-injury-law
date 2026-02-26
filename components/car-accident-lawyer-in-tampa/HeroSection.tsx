@@ -1,25 +1,16 @@
 "use client";
 
-import Image from "next/image";
 import { FiPhoneCall } from "react-icons/fi";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full min-h-[700px] flex items-center ">
-      {/* Background Image */}
-      <div className="absolute inset-0 -z-10 w-full h-auto">
-        <Image
-          src="/assets/car-accident/bg.png"
-          alt="Law Office Background"
-          fill
-          priority
-          className="object-cover"
-        />
-      </div>
+    <section className="relative w-full min-h-[700px] flex items-center bg-[url('/assets/car-accident/bg.png')] bg-cover bg-center bg-no-repeat">
+      {/* Optional Overlay (remove if not needed) */}
+      <div className="absolute inset-0 bg-black/10"></div>
 
       {/* Main Container */}
-      <div className="w-full max-w-[1620px] mx-auto px-8 md:px-16 py-20">
-        <div className="grid lg:grid-cols-2 lg:gap-24  items-center">
+      <div className="relative w-full max-w-[1620px] mx-auto px-8 md:px-16 py-20">
+        <div className="grid lg:grid-cols-2 lg:gap-24 items-center">
           {/* LEFT CONTENT */}
           <div className="lg:pr-8">
             <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-[#ED1B24] leading-tight">
@@ -39,7 +30,7 @@ export default function HeroSection() {
 
               <a
                 href="tel:8139220228"
-                className="mt-3 inline-flex items-center gap-2 text-[#ED1B24]text-xl font-bold hover:underline"
+                className="mt-3 inline-flex items-center gap-2 text-[#ED1B24] text-xl font-bold hover:underline"
               >
                 <FiPhoneCall size={30} />
                 <span className="text-[#ED1B24] text-[32px]">
@@ -59,7 +50,6 @@ export default function HeroSection() {
 
               {/* Form */}
               <form className="p-8 space-y-6">
-                {/* Name + Phone */}
                 <div className="grid sm:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -68,7 +58,7 @@ export default function HeroSection() {
                     <input
                       type="text"
                       placeholder="Name"
-                      className="w-full bg-white border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-blue-600 transition"
+                      className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600 transition"
                     />
                   </div>
 
@@ -79,12 +69,11 @@ export default function HeroSection() {
                     <input
                       type="tel"
                       placeholder="Phone"
-                      className="w-full bg-white border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-blue-600 transition"
+                      className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600 transition"
                     />
                   </div>
                 </div>
 
-                {/* Email */}
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">
                     Email
@@ -92,11 +81,10 @@ export default function HeroSection() {
                   <input
                     type="email"
                     placeholder="Email"
-                    className="w-full bg-white border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-blue-600 transition"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600 transition"
                   />
                 </div>
 
-                {/* Message */}
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">
                     Message
@@ -104,11 +92,10 @@ export default function HeroSection() {
                   <textarea
                     rows={4}
                     placeholder="How may we help you?"
-                    className="w-full bg-white border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-blue-600 resize-none transition"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600 resize-none transition"
                   />
                 </div>
 
-                {/* Button */}
                 <button
                   type="submit"
                   className="w-full bg-[#ED1B24] hover:bg-red-700 text-white font-semibold py-3 rounded-lg transition duration-300 shadow-md"
