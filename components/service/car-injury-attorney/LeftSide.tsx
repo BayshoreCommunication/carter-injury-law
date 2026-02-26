@@ -16,7 +16,7 @@ import ContactSection from "./ContactSection";
 
 export default function LeftSide() {
   return (
-    <div className="max-w-[1080px]"> 
+    <div className="max-w-[1080px]">
       <CarInjury />
       <UninsuredClaimSection />
       <HelpAfterCrash />
@@ -25,11 +25,10 @@ export default function LeftSide() {
       <AutomobileAttorneySection />
       <FatalAccidentSection />
       <ExperiencedLawyersSection />
-      <ProtectsRightsSection /> 
-      <DavidCarterSection />  
+      <ProtectsRightsSection />
+      <DavidCarterSection />
       <VehicleAccidentGuidanceSection />
       <ChoosingTopLawyerSection />
-      
     </div>
   );
 }
