@@ -1,26 +1,16 @@
 "use client";
 
-import Image from "next/image";
 import { FiPhoneCall } from "react-icons/fi";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full min-h-[700px] flex items-center overflow-hidden">
-      {/* Background Image */}
-      <div className="absolute inset-0 -z-10">
-        <Image
-          src="/public/assets/car-accident/bg.png"
-          alt="Law Office Background"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover"
-        />
-      </div>
+    <section className="relative w-full min-h-[700px] flex items-center bg-[url('/assets/car-accident/bg.png')] bg-cover bg-center bg-no-repeat">
+      {/* Optional Overlay (remove if not needed) */}
+      <div className="absolute inset-0 bg-black/10"></div>
 
       {/* Main Container */}
-      <div className="w-full max-w-[1620px] mx-auto px-8 md:px-16 py-20">
-        <div className="grid lg:grid-cols-2 lg:gap-24  items-center">
+      <div className="relative w-full max-w-[1620px] mx-auto px-8 md:px-16 py-20">
+        <div className="grid lg:grid-cols-2 lg:gap-24 items-center">
           {/* LEFT CONTENT */}
           <div className="lg:pr-8">
             <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-[#ED1B24] leading-tight">
@@ -40,7 +30,7 @@ export default function HeroSection() {
 
               <a
                 href="tel:8139220228"
-                className="mt-3 inline-flex items-center gap-2 text-[#ED1B24]text-xl font-bold hover:underline"
+                className="mt-3 inline-flex items-center gap-2 text-[#ED1B24] text-xl font-bold hover:underline"
               >
                 <FiPhoneCall size={30} />
                 <span className="text-[#ED1B24] text-[32px]">
