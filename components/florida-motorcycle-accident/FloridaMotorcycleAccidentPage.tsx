@@ -10,15 +10,15 @@ export default function FloridaMotorcycleAccidentPage() {
       <div className="flex-1">
         <h1 className="text-4xl font-bold mb-6">Florida Motorcycle Accident</h1>
 
-        {/* <div className="relative w-full mb-8">
+        <div className="relative max-w-[850px] mb-8">
           <Image
-            src="/assets/service/motorcycle.png"
+            src="/assets/motorcycle/motor-cycle.png"
             alt="Florida Motorcycle Accident"
             width={1000}
             height={800}
-            className="object-cover w-full rounded-lg"
+            className="object-cover rounded-lg"
           />
-        </div> */}
+        </div>
 
         <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
           <p>

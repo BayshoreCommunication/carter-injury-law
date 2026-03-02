@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -10,7 +11,15 @@ export default function MotorcycleAccidentSupportSection() {
           How Our Motorcycle Accident Law Firm Supports You from Hospital to
           Courtroom
         </h2>
-
+        <div className="relative max-w-[850px] mb-8">
+          <Image
+            src="/assets/motorcycle/courtroom.png"
+            alt="Florida Motorcycle Accident"
+            width={1000}
+            height={800}
+            className="object-cover rounded-lg"
+          />
+        </div>
         <p>
           We provide the resources of a large firm with the personalized care of
           a local advocate to help you rebuild your life after a crash.

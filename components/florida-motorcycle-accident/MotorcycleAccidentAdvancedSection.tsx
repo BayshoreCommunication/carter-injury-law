@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -115,7 +116,15 @@ export default function MotorcycleAccidentAdvancedSection() {
           Technical Evidence and Physics Facts Behind Every Serious Accident of
           Motorcycle
         </h2>
-
+        <div className="relative max-w-[850px] mb-8">
+          <Image
+            src="/assets/motorcycle/evidence.png"
+            alt="Florida Motorcycle Accident"
+            width={1000}
+            height={800}
+            className="object-cover rounded-lg"
+          />
+        </div>
         <p>
           To prove exactly what happened, we dig into the physics and mechanical
           details of every collision to find the truth.

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -170,7 +171,15 @@ export default function MotorcycleAccidentFinalSection() {
           What Makes Us a Top Motorcycle Accident Law Firm for Results and
           Client Success
         </h2>
-
+        <div className="relative max-w-[850px] mb-8">
+          <Image
+            src="/assets/motorcycle/client.png"
+            alt="Florida Motorcycle Accident"
+            width={1000}
+            height={800}
+            className="object-cover rounded-lg"
+          />
+        </div>
         <p>
           We provide the final word in motorcycle litigation, offering a clear
           and certain path to closure for injured bikers.

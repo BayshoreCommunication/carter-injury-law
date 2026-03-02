@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -11,7 +12,15 @@ export default function MotorcycleAccidentCredibilitySection() {
           Why Florida Riders Believe We Are the Best Lawyer for Motorcycle
           Accident Victims?
         </h2>
-
+        <div className="relative max-w-[850px] mb-8">
+          <Image
+            src="/assets/motorcycle/victim.png"
+            alt="Florida Motorcycle Accident"
+            width={1000}
+            height={800}
+            className="object-cover rounded-lg"
+          />
+        </div>
         <p>
           Our commitment to our clients goes beyond the courtroom, as we focus
           on your physical and emotional well-being from day one.
