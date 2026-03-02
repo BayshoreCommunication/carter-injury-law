@@ -200,7 +200,7 @@ export default function CarInjuryPage1() {
         </h3>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <button className="bg-[#ED1B24] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold">
+          <button className="bg-[#ED1B24]  hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold">
             FREE CASE CONSULTATION
           </button>
 
