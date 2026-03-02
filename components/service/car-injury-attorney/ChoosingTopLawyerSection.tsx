@@ -7,7 +7,7 @@ export default function ChoosingTopLawyerSection() {
     <section className="px-4 md:px-8 py-12">
       <div className="">
         {/* Main Heading */}
-        <h2 className="text-2xl md:text-4xl font-bold leading-tight tracking-tight text-[#0D3E8A] mb-10">
+        <h2 className="text-2xl font-bold leading-tight tracking-tight text-[#0D3E8A] mb-10">
           CHOOSING A TOP AUTO ACCIDENT LAWYER FOR YOUR TAMPA CASE
         </h2>
 

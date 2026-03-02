@@ -4,19 +4,14 @@ import { FiPhoneCall } from "react-icons/fi";
 export default function AutomobileAttorneySection() {
   return (
     <section className="px-4 md:px-8 py-12">
-      
       <div className="">
-        
         {/* Main Heading */}
-        <h2 className="text-2xl md:text-4xl font-bold leading-tight tracking-tight text-black mb-8">
-          WHAT AN AUTOMOBILE ACCIDENT 
-          ATTORNEY NEAR ME CAN DO FOR 
-          YOUR CASE
+        <h2 className="text-2xl font-bold leading-tight tracking-tight text-black mb-8">
+          WHAT AN AUTOMOBILE ACCIDENT ATTORNEY NEAR ME CAN DO FOR YOUR CASE
         </h2>
 
         {/* Paragraph Content */}
         <div className="text-lg leading-[1.9] text-slate-600  space-y-6">
-          
           <p>
             Local representation brings practical advantages that shape how a
             case develops and how effectively it resolves. Most people search
@@ -31,8 +26,8 @@ export default function AutomobileAttorneySection() {
             The work begins with analysis. An automobile accident attorney
             reviews the circumstances of the crash, identifies all potentially
             responsible parties, and evaluates available insurance coverage.
-            Many collisions involve more than one policy, including bodily injury
-            coverage, uninsured or underinsured motorist benefits, and
+            Many collisions involve more than one policy, including bodily
+            injury coverage, uninsured or underinsured motorist benefits, and
             commercial policies. Identifying every source of recovery early
             prevents missed opportunities and strengthens the overall claim.
           </p>
@@ -48,9 +43,9 @@ export default function AutomobileAttorneySection() {
           </p>
 
           <p>
-            Litigation readiness also changes outcomes, even when a case settles.
-            Insurers evaluate risk, and they assess whether a law firm is
-            prepared to proceed through discovery and trial if necessary. A
+            Litigation readiness also changes outcomes, even when a case
+            settles. Insurers evaluate risk, and they assess whether a law firm
+            is prepared to proceed through discovery and trial if necessary. A
             local automobile accident attorney who has handled cases in nearby
             courts brings credibility to that assessment. The case is treated
             with greater seriousness, and negotiations reflect that reality.
@@ -71,14 +66,13 @@ export default function AutomobileAttorneySection() {
         </h3>
 
         <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
-
           <p>
             Liability is the foundation of every automobile accident claim.
             Determining who is at fault requires careful evaluation of conduct
-            before and during the crash. An automobile accident attorney examines
-            whether a driver violated traffic laws, failed to maintain a proper
-            lookout, drove distracted, or operated a vehicle unsafely given road
-            conditions.
+            before and during the crash. An automobile accident attorney
+            examines whether a driver violated traffic laws, failed to maintain
+            a proper lookout, drove distracted, or operated a vehicle unsafely
+            given road conditions.
           </p>
 
           <p>
@@ -97,7 +91,6 @@ export default function AutomobileAttorneySection() {
         </h3>
 
         <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
-          
           <p>
             Police reports often serve as the starting point for an accident
             investigation. They document the scene, identify involved parties,
@@ -127,7 +120,6 @@ export default function AutomobileAttorneySection() {
 
         {/* CTA Section */}
         <div className="mt-12 text-center">
-          
           <h4 className="text-lg font-semibold text-[#043666] mb-4">
             We’re Here To Help, 24/7
           </h4>
@@ -135,17 +127,15 @@ export default function AutomobileAttorneySection() {
           <button className=" transition text-white px-6 py-3 rounded-full font-semibold">
             <div className="flex items-center gap-2">
               <a
-            href="tel:+8139220228"
-            className="inline-flex items-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
-          >
-            <FiPhoneCall size={20} />
-            (813) 922-0228
-          </a>
+                href="tel:+8139220228"
+                className="inline-flex items-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
+              >
+                <FiPhoneCall size={20} />
+                (813) 922-0228
+              </a>
             </div>
           </button>
-
         </div>
-
       </div>
     </section>
   );

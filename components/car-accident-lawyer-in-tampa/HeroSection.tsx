@@ -14,7 +14,7 @@ export default function HeroSection() {
           {/* LEFT CONTENT */}
           <div className="lg:pr-8">
             <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-[#ED1B24] leading-tight">
-              Car Accident <br /> Lawyer in Miami
+              Florida Motorcycle Accident
             </h1>
 
             <p className="mt-6 text-gray-700 text-lg max-w-xl">

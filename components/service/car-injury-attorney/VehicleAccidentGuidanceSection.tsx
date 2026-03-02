@@ -6,7 +6,7 @@ export default function VehicleAccidentGuidanceSection() {
     <section className="px-4 md:px-8 pt-8">
       <div className="">
         {/* Main Heading */}
-        <h2 className="text-2xl md:text-4xl font-bold leading-tight tracking-tight text-black mb-8">
+        <h2 className="text-2xl font-bold leading-tight tracking-tight text-black mb-8">
           GUIDANCE FROM VEHICLE ACCIDENT LAWYERS AFTER SERIOUS INJURIES
         </h2>
 

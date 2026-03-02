@@ -3,26 +3,22 @@ import React from "react";
 export default function ProtectsRightsSection() {
   return (
     <section className="px-4 md:px-8 pb-8">
-      
       <div className="">
-        
         {/* Main Heading */}
-        <h2 className="text-2xl md:text-4xl font-bold leading-tight tracking-tight text-black mb-8">
-          PROTECTS YOUR RIGHTS AFTER A 
-          CRASH
+        <h2 className="text-2xl font-bold leading-tight tracking-tight text-black mb-8">
+          PROTECTS YOUR RIGHTS AFTER A CRASH
         </h2>
 
         {/* Main Content */}
         <div className="text-lg leading-[1.9] text-slate-600  space-y-6">
-          
           <p>
-            After a crash, your legal rights are exposed long before you
-            realize it. Statements are taken, forms are signed, and timelines
-            begin running quietly in the background. An auto wreck lawyer exists
-            to guard those rights from the start, ensuring that nothing you say
-            or do is used later to limit your ability to recover compensation.
-            In Florida accident cases, early protection often determines how
-            strong a claim becomes months later.
+            After a crash, your legal rights are exposed long before you realize
+            it. Statements are taken, forms are signed, and timelines begin
+            running quietly in the background. An auto wreck lawyer exists to
+            guard those rights from the start, ensuring that nothing you say or
+            do is used later to limit your ability to recover compensation. In
+            Florida accident cases, early protection often determines how strong
+            a claim becomes months later.
           </p>
 
           <p>
@@ -39,10 +35,10 @@ export default function ProtectsRightsSection() {
             Rights protection also involves compliance with legal requirements.
             Florida accident claims are governed by notice obligations, filing
             deadlines, and insurance conditions that must be met precisely.
-            Missing a deadline or misunderstanding a policy provision can
-            weaken or eliminate a claim. An auto wreck lawyer manages these
-            obligations quietly and consistently, allowing clients to focus on
-            recovery rather than procedural rules.
+            Missing a deadline or misunderstanding a policy provision can weaken
+            or eliminate a claim. An auto wreck lawyer manages these obligations
+            quietly and consistently, allowing clients to focus on recovery
+            rather than procedural rules.
           </p>
 
           <p>
@@ -70,7 +66,6 @@ export default function ProtectsRightsSection() {
 
         {/* Subsection Content */}
         <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
-
           <p>
             Insurance pressure often appears subtle at first. Friendly calls,
             quick questions, and offers framed as help can mask efforts to limit
@@ -84,8 +79,8 @@ export default function ProtectsRightsSection() {
             Recorded statements are a common pressure point. Insurers may
             request them early, before medical clarity exists. An attorney
             evaluates whether a statement is required and, if so, prepares the
-            client or handles the response directly. This prevents
-            misstatements that can be taken out of context later.
+            client or handles the response directly. This prevents misstatements
+            that can be taken out of context later.
           </p>
 
           <p>
@@ -110,10 +105,7 @@ export default function ProtectsRightsSection() {
             vigilance preserves options and ensures that, when the case
             resolves, it does so on fair and lawful terms.
           </p>
-
         </div>
-        
-
       </div>
     </section>
   );

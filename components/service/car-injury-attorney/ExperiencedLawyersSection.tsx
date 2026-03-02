@@ -3,18 +3,14 @@ import React from "react";
 export default function ExperiencedLawyersSection() {
   return (
     <section className="px-4 md:px-8 py-12 ">
-      
       <div className="">
-        
         {/* Main Heading */}
-        <h2 className="text-2xl md:text-4xl font-bold leading-tight tracking-tight text-black mb-8">
-          WHY EXPERIENCED LAWYERS FOR 
-          AUTO ACCIDENT CASES MATTER
+        <h2 className="text-2xl font-bold leading-tight tracking-tight text-black mb-8">
+          WHY EXPERIENCED LAWYERS FOR AUTO ACCIDENT CASES MATTER
         </h2>
 
         {/* Paragraph Content */}
         <div className="text-lg leading-[1.9] text-slate-600  space-y-6">
-          
           <p>
             Experience in auto accident litigation is not just a slogan but also
             a practical advantage that shows up in outcomes. Lawyers for serious
@@ -38,11 +34,11 @@ export default function ExperiencedLawyersSection() {
 
           <p>
             Seasoned lawyers also know how to assess case value realistically.
-            Overestimating damages can stall negotiations, while
-            underestimating them leaves compensation on the table. Experience
-            brings perspective, informed by past settlements, verdicts, and
-            insurer behavior. At Carter Injury Law, this perspective guides
-            strategy from the beginning, shaping evidence collection and expert
+            Overestimating damages can stall negotiations, while underestimating
+            them leaves compensation on the table. Experience brings
+            perspective, informed by past settlements, verdicts, and insurer
+            behavior. At Carter Injury Law, this perspective guides strategy
+            from the beginning, shaping evidence collection and expert
             involvement to support a credible and defensible claim.
           </p>
 
@@ -69,7 +65,6 @@ export default function ExperiencedLawyersSection() {
         </h3>
 
         <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
-
           <p>
             Settlement negotiation is a skill refined through repetition.
             Experienced lawyers understand how insurers structure offers, what
@@ -110,9 +105,7 @@ export default function ExperiencedLawyersSection() {
             accidents, that experience translates into confidence, clarity, and
             a stronger position at every stage of the case.
           </p>
-
         </div>
-
       </div>
     </section>
   );

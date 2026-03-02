@@ -129,7 +129,7 @@ export default function RightSidebar({
   };
 
   return (
-    <aside className="w-full max-w-[450px] space-y-8 pt-0 md:pt-16">
+    <aside className="w-full max-w-[450px] space-y-8 pt-0 md:pt-16 mb-8">
       {/* PROFILE SECTION */}
       <div className="shadow-lg rounded-md p-8 text-center">
         <div className="flex justify-center mb-6">
@@ -342,7 +342,7 @@ export default function RightSidebar({
       {/* TESTIMONIAL SLIDER */}
 
       {testimonials && testimonials.length > 0 && (
-        <div className="w-full max-w-[450px] bg-[#1f2a44] text-white rounded-2xl px-8 py-12 text-center shadow-xl overflow-hidden">
+        <div className="w-full max-w-[450px] bg-[#1f2a44] text-white rounded-2xl px-8 py-12 text-center shadow-xl overflow-hidden mb-16">
           <Swiper
             modules={[Autoplay]}
             slidesPerView={1}

@@ -4,18 +4,14 @@ import { FiPhoneCall } from "react-icons/fi";
 export default function FatalAccidentSection() {
   return (
     <section className="px-4 md:px-8 ">
-      
       <div className="">
-        
         {/* Main Heading */}
-        <h2 className="text-2xl md:text-4xl font-bold leading-tight tracking-tight text-black mb-8">
-          LEGAL OPTIONS WITH A FATAL CAR 
-          ACCIDENT ATTORNEY IN FLORIDA
+        <h2 className="text-2xl font-bold leading-tight tracking-tight text-black mb-8">
+          LEGAL OPTIONS WITH A FATAL CAR ACCIDENT ATTORNEY IN FLORIDA
         </h2>
 
         {/* Content */}
         <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
-          
           <p>
             When a crash results in a loss of life, the legal process shifts in
             both scope and gravity. A fatal car accident attorney in Florida
@@ -30,11 +26,12 @@ export default function FatalAccidentSection() {
             A fatal collision creates immediate questions. Who has the right to
             bring a claim? What damages are recoverable? How are insurance
             proceeds distributed? A fatal car accident attorney answers these
-            questions early, because missteps at the beginning can limit recovery
-            later. In Florida, the personal representative of the estate files
-            wrongful death lawsuits on behalf of survivors, including spouses,
-            children, and occasionally parents. Both strategy and damages are
-            impacted by knowing who is eligible to be a survivor.
+            questions early, because missteps at the beginning can limit
+            recovery later. In Florida, the personal representative of the
+            estate files wrongful death lawsuits on behalf of survivors,
+            including spouses, children, and occasionally parents. Both strategy
+            and damages are impacted by knowing who is eligible to be a
+            survivor.
           </p>
 
           <p>
@@ -52,9 +49,9 @@ export default function FatalAccidentSection() {
             relational impact of a death. Loss of companionship, guidance, and
             protection are compensable damages for certain survivors. Presenting
             these losses requires sensitivity and precision. The legal strategy
-            must humanize the person who was lost without becoming speculative or
-            exaggerated. A seasoned fatal car accident attorney balances empathy
-            with evidentiary discipline.
+            must humanize the person who was lost without becoming speculative
+            or exaggerated. A seasoned fatal car accident attorney balances
+            empathy with evidentiary discipline.
           </p>
 
           <p>
@@ -73,7 +70,6 @@ export default function FatalAccidentSection() {
         </h3>
 
         <div className="text-lg leading-[1.9] text-slate-600  space-y-6">
-          
           <p>
             While some wrongful death cases resolve through negotiated
             settlements, others must be litigated. A case may need to go to
@@ -108,31 +104,27 @@ export default function FatalAccidentSection() {
             goal: securing compensation that reflects the magnitude of the loss
             and supports surviving family members as they rebuild their lives.
           </p>
-
         </div>
-          {/* CTA Section */}
-                  <div className="mt-6 bg-[#1E2538] rounded-2xl p-8 text-center text-white">
-                    
-                    <h3 className="text-md tracking-widest uppercase mb-6 text-gray-300">
-                      Contact Our Injury Attorneys in St. Petersburg, FL
-                    </h3>
-          
-                    <div className="flex flex-col sm:flex-row justify-center gap-4">
-                      
-                      <button className="bg-[#ED1B24] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold">
-                        FREE CASE CONSULTATION
-                      </button>
-          
-                      <a
-            href="tel:+8139220228"
-            className="inline-flex items-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
-          >
-            <FiPhoneCall size={20} />
-            (813) 922-0228
-          </a>
-          
-                    </div>
-                  </div>
+        {/* CTA Section */}
+        <div className="mt-6 bg-[#1E2538] rounded-2xl p-8 text-center text-white">
+          <h3 className="text-md tracking-widest uppercase mb-6 text-gray-300">
+            Contact Our Injury Attorneys in St. Petersburg, FL
+          </h3>
+
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <button className="bg-[#ED1B24] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold">
+              FREE CASE CONSULTATION
+            </button>
+
+            <a
+              href="tel:+8139220228"
+              className="inline-flex items-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
+            >
+              <FiPhoneCall size={20} />
+              (813) 922-0228
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
