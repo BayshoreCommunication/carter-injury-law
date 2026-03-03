@@ -9,8 +9,8 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-black/10"></div>
 
       {/* Main Container */}
-      <div className="relative w-full max-w-[1620px] mx-auto px-8 md:px-16 py-20">
-        <div className="grid lg:grid-cols-2 lg:gap-24 items-center">
+      <div className="relative w-full max-w-[1320px] mx-auto px-12 md:px-12 py-20">
+        <div className="grid lg:grid-cols-2  items-center ">
           {/* LEFT CONTENT */}
           <div className="lg:pr-8">
             <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-[#ED1B24] leading-tight">
@@ -41,7 +41,7 @@ export default function HeroSection() {
           </div>
 
           {/* RIGHT FORM CARD */}
-          <div className="w-full max-w-[550px] lg:ml-auto lg:pl-8 mt-12 lg:mt-0">
+          <div className="w-full max-w-[450px] lg:ml-auto lg:pl-8 mt-12 lg:mt-0">
             <div className="bg-white rounded-2xl shadow-2xl border border-gray-200 overflow-hidden">
               {/* Card Header */}
               <div className="bg-[#0D3E8A] text-white text-center py-5 text-2xl font-bold">

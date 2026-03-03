@@ -5,7 +5,7 @@ import { FiPhoneCall } from "react-icons/fi";
 
 export default function MotorcycleAccidentCredibilitySection() {
   return (
-    <div className="min-h-screen pt-8 px-4 md:px-8">
+    <div className="min-h-screen pt-8 px-4 md:px-4">
       <div className="max-w-5xl mx-auto space-y-6 text-lg text-slate-600 leading-relaxed">
         {/* H2 */}
         <h2 className="text-2xl font-bold text-slate-900">

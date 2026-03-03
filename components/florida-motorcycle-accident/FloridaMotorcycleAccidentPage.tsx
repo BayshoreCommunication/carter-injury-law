@@ -5,9 +5,9 @@ import { FiPhoneCall } from "react-icons/fi";
 
 export default function FloridaMotorcycleAccidentPage() {
   return (
-    <div className="min-h-screen pt-8 px-4 md:px-8">
+    <div className="min-h-screen pt-8 px-4 md:px-4">
       {/* Left Content */}
-      <div className="flex-1">
+      <div className="max-w-[1320px] mx-auto w-full">
         <h1 className="text-4xl font-bold mb-6">Florida Motorcycle Accident</h1>
 
         <div className="relative max-w-[850px] mb-8">

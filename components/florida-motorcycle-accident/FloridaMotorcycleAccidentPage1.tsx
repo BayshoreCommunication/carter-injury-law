@@ -5,8 +5,8 @@ import { FiPhoneCall } from "react-icons/fi";
 
 export default function MotorcycleAccidentSupportSection() {
   return (
-    <div className="min-h-screen pt-8 px-4 md:px-8">
-      <div className="max-w-5xl mx-auto space-y-6 text-lg text-slate-600 leading-relaxed">
+    <div className="min-h-screen pt-8 px-4 md:px-4">
+      <div className="max-w-[1320px] mx-auto space-y-6 text-lg text-slate-600 leading-relaxed">
         <h2 className="text-2xl font-bold text-slate-900">
           How Our Motorcycle Accident Law Firm Supports You from Hospital to
           Courtroom

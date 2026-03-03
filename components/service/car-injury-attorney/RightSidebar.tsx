@@ -131,7 +131,7 @@ export default function RightSidebar({
   return (
     <aside className="w-full max-w-[450px] space-y-8 pt-0 md:pt-16 mb-8">
       {/* PROFILE SECTION */}
-      <div className="shadow-lg rounded-md p-8 text-center">
+      <div className="shadow-lg rounded-md p-6 text-center">
         <div className="flex justify-center mb-6">
           <div className="relative w-[130px] h-[130px] rounded-md overflow-hidden">
             <Image
@@ -166,11 +166,11 @@ export default function RightSidebar({
                     href={`/areas-of-practice/${item.slug}`}
                     className={`flex items-center gap-2 ${
                       active
-                        ? "text-red-600 font-semibold"
-                        : "hover:text-red-600"
+                        ? "text-[#ED1B24] font-semibold"
+                        : "hover:text-[#ec000c]"
                     }`}
                   >
-                    <span className="w-2 h-2 bg-red-600"></span>
+                    <span className="w-2 h-2 bg-[#ED1B24]"></span>
                     {item.title}
                   </Link>
                 </li>
@@ -302,7 +302,7 @@ export default function RightSidebar({
               <li key={index}>
                 <Link
                   href={`/blog/${item.slug}`}
-                  className="hover:text-red-600"
+                  className="hover:text-[#ED1B24]"
                 >
                   {item.title}
                 </Link>
@@ -370,7 +370,7 @@ export default function RightSidebar({
 
                   <p className="text-lg leading-8 text-gray-200">{item.text}</p>
 
-                  <div className="w-12 h-[3px] bg-red-600 mx-auto my-6"></div>
+                  <div className="w-12 h-[3px] bg-[#ED1B24] mx-auto my-6"></div>
 
                   <p className="text-lg text-gray-300 font-medium">
                     {item.author}

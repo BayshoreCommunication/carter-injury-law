@@ -7,7 +7,7 @@ import MotorcycleConsultationSection from "./MotorcycleConsultationSection";
 
 export default function LeftSide() {
   return (
-    <div className="max-w-[1080px]">
+    <div className="max-w-[780px]">
       <FloridaMotorcycleAccidentPage />
       <FloridaMotorcycleAccidentPage1 />
       <MotorcycleConsultationSection />
