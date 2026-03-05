@@ -228,7 +228,7 @@ export default function RightSidebar({
               setEmailForm({ ...emailForm, firstName: e.target.value })
             }
           />
-          <span className="text-red-600 text-sm">{formErrors.firstName}</span>
+          <span className="text-[#CE2523] text-sm">{formErrors.firstName}</span>
 
           <input
             type="text"
@@ -239,7 +239,7 @@ export default function RightSidebar({
               setEmailForm({ ...emailForm, lastName: e.target.value })
             }
           />
-          <span className="text-red-600 text-sm">{formErrors.lastName}</span>
+          <span className="text-[#CE2523] text-sm">{formErrors.lastName}</span>
 
           <input
             type="tel"
@@ -250,7 +250,7 @@ export default function RightSidebar({
               setEmailForm({ ...emailForm, phone: e.target.value })
             }
           />
-          <span className="text-red-600 text-sm">{formErrors.phone}</span>
+          <span className="text-[#CE2523] text-sm">{formErrors.phone}</span>
 
           <input
             type="text"
@@ -261,7 +261,7 @@ export default function RightSidebar({
               setEmailForm({ ...emailForm, zipCode: e.target.value })
             }
           />
-          <span className="text-red-600 text-sm">{formErrors.zipCode}</span>
+          <span className="text-[#CE2523] text-sm">{formErrors.zipCode}</span>
 
           <input
             type="email"
@@ -272,7 +272,7 @@ export default function RightSidebar({
               setEmailForm({ ...emailForm, email: e.target.value })
             }
           />
-          <span className="text-red-600 text-sm">{formErrors.email}</span>
+          <span className="text-[#CE2523] text-sm">{formErrors.email}</span>
 
           <textarea
             rows={4}

@@ -7,33 +7,24 @@ export default function CarInjuryPage() {
       {/* Left Content */}
       <div className="flex-1">
         <h1 className="text-4xl font-bold mb-6">CAR INJURY ATTORNEY</h1>
-
-        {/* Image + Intro Content */}
-        <div className="flex flex-col md:flex-row gap-6  items-stretch">
-          {/* Left Image */}
-          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
-            <Image
-              src="/assets/car-injury-law/Car Injury Attorney.png"
-              alt="Attorney Consultation"
-              width={1000}
-              height={800}
-              className="object-cover w-full max-w-[420px]"
-            />
-          </div>
-
-          {/* Right Text */}
-          <div className="flex flex-col text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
-            <p className="">
-              As a car injury attorney, Carter Injury Law steps into the
-              difficult hours after a crash with the single purpose of helping
-              you secure fair compensation and restore as much normalcy as
-              possible to your life. We combine meticulous investigation,
-              careful medical documentation.
-            </p>
-          </div>
+        {/* Top Image Banner */}
+        <div className="relative w-full  mb-8">
+          <Image
+            src="/assets/service/hero-thumb.png"
+            alt="Uninsured Driver Claim"
+            width={1000}
+            height={800}
+            className="object-cover w-full"
+          />
         </div>
-
         <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
+          <p className="">
+            As a car injury attorney, Carter Injury Law steps into the difficult
+            hours after a crash with the single purpose of helping you secure
+            fair compensation and restore as much normalcy as possible to your
+            life. We combine meticulous investigation, careful medical
+            documentation.
+          </p>
           <p>
             it is a coherent story of what happened and what must be repaired.
             From first contact through resolution, our role is to translate
