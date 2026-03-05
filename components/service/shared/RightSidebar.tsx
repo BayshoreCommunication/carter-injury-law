@@ -129,7 +129,7 @@ export default function RightSidebar({
   };
 
   return (
-    <aside className="w-full max-w-[450px] space-y-8 pt-0 md:pt-16 mb-8">
+    <aside className="w-full max-w-[350px] space-y-8 pt-0 md:pt-16 mb-8">
       {/* PROFILE SECTION */}
       <div className="shadow-lg rounded-md p-6 text-center">
         <div className="flex justify-center mb-6">
@@ -202,9 +202,14 @@ export default function RightSidebar({
 
         <p className="text-blue-600 font-bold mt-3">(813) 922-0228</p>
 
-        <button className="mt-3 bg-[#043666] text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+        <a
+          href="https://maps.app.goo.gl/g5PwkLU7NnJqz2zq8"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-3 inline-block bg-[#043666] text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+        >
           GET DIRECTIONS
-        </button>
+        </a>
       </div>
 
       {/* CONTACT FORM (EXACT SAME) */}
@@ -334,9 +339,14 @@ export default function RightSidebar({
 
         <p className="text-blue-600 font-bold mt-3">(813) 922-0228</p>
 
-        <button className="mt-3 bg-[#043666] text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+        <a
+          href="https://maps.app.goo.gl/VKjps1YL2a4ryiwH6"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-3 inline-block bg-[#043666] text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+        >
           GET DIRECTIONS
-        </button>
+        </a>
       </div>
 
       {/* TESTIMONIAL SLIDER */}

@@ -1,39 +1,49 @@
 import React from "react";
 import Image from "next/image";
 import { FiPhoneCall } from "react-icons/fi";
+import Link from "next/link";
 
 export default function CarInjuryPage() {
   return (
     <div className="min-h-screen pt-8 px-4 md:px-8">
       {/* Left Content */}
-      <div className="flex-1">
+      <div className="max-w-[1320px] mx-auto w-full">
         <h1 className="text-4xl font-bold mb-6">
           CAR ACCIDENT LAWYER IN TAMPA
         </h1>
 
-        <div className="relative w-full mb-8">
-          <Image
-            src="/assets/service/img1.png"
-            alt="Car Crash"
-            width={1000}
-            height={800}
-            className="object-cover w-full rounded-lg"
-          />
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/service/img1.png"
+              alt="Attorney Consultation"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
+
+          {/* Right Text */}
+          <div className="flex flex-col justify-center text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              Traffic collisions are an everyday reality across Hillsborough
+              County, from congested interstates to neighborhood intersections,
+              and their consequences often extend far beyond vehicle damage.
+            </p>
+          </div>
         </div>
 
         <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
           <p>
-            Traffic collisions are an everyday reality across Hillsborough
-            County, from congested interstates to neighborhood intersections,
-            and their consequences often extend far beyond vehicle damage. A car
-            accident lawyer in Tampa plays a critical role when a routine drive
-            turns into a life-altering event. Injured drivers and passengers are
-            suddenly forced to navigate medical treatment, missed work, and
-            insurance rules that feel deliberately confusing. In these moments,
-            experienced legal guidance is a stabilizing force that helps injured
-            people regain control and protect their future.
+            {" "}
+            Injured drivers and passengers are suddenly forced to navigate
+            medical treatment, missed work, and insurance rules that feel
+            deliberately confusing. In these moments, experienced legal guidance
+            is a stabilizing force that helps injured people regain control and
+            protect their future.
           </p>
-
           <p>
             Car accidents rarely end when the tow truck leaves the scene.
             Physical pain may linger for months or become permanent. Emotional
@@ -143,20 +153,25 @@ export default function CarInjuryPage() {
           </p>
         </div>
       </div>
-      {/* CTA Section */}
+      {/* CTA Section  */}
       <div className="mt-6 bg-[#27355e] rounded-2xl p-8 text-center text-white">
         <h3 className="text-md tracking-widest uppercase mb-6 text-gray-300">
           Contact Our Injury Attorneys in St. Petersburg, FL
         </h3>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <button className="bg-[#ED1B24] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold">
+          {/* Contact Page Button */}
+          <Link
+            href="/contact"
+            className="bg-[#ED1B24] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold inline-block"
+          >
             FREE CASE CONSULTATION
-          </button>
+          </Link>
 
+          {/* Phone Call Button */}
           <a
             href="tel:+8139220228"
-            className="inline-flex items-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
+            className="inline-flex items-center justify-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
           >
             <FiPhoneCall size={20} />
             (813) 922-0228

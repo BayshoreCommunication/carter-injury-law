@@ -1,7 +1,7 @@
-import HeroSection from "@/components/car-accident-lawyer-in-tampa/HeroSection";
-import LeftSide from "@/components/car-accident-lawyer-in-tampa/LeftSide";
-import ContactSection from "@/components/service/car-injury-attorney/ContactSection";
-import RightSidebar from "@/components/service/car-injury-attorney/RightSidebar";
+import HeroSection from "@/components/service/shared/HeroSection";
+import LeftSide from "@/components/service/car-accident-lawyer-in-tampa/LeftSide";
+import ContactSection from "@/components/service/shared/ContactSection";
+import RightSidebar from "@/components/service/shared/RightSidebar";
 import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 
@@ -21,7 +21,7 @@ const page = async () => {
   return (
     <div>
       <HeroSection />
-      <div className="max-w-[1620px] mx-auto px-8 flex flex-col lg:flex-row gap-12">
+      <div className="max-w-[1320px] mx-auto px-8 flex flex-col lg:flex-row gap-12">
         <LeftSide />
 
         <RightSidebar

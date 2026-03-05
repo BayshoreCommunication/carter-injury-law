@@ -1,6 +1,7 @@
+import HeroSection from "@/components/service/shared/HeroSection";
 import ContactSection from "@/components/service/shared/ContactSection";
-import LeftSide from "@/components/service/car-injury-attorney/LeftSide";
 import RightSidebar from "@/components/service/shared/RightSidebar";
+import LeftSide from "@/components/service/tampa-pedestrian-accident-lawyer/LeftSide";
 import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 
@@ -19,7 +20,8 @@ const page = async () => {
 
   return (
     <div>
-      <div className="max-w-[1320px] mx-auto px-8 flex flex-col lg:flex-row gap-12">
+      <HeroSection />
+      <div className="max-w-[1320px] mx-auto px-8 flex flex-col lg:flex-row gap-8">
         <LeftSide />
 
         <RightSidebar

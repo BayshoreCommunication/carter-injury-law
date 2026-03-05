@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
 
@@ -107,20 +108,25 @@ export default function FindingRightLawyerSection() {
             build a case that supports recovery and stability.
           </p>
         </div>
-        {/* CTA Section */}
+        {/* CTA Section  */}
         <div className="mt-6 bg-[#27355e] rounded-2xl p-8 text-center text-white">
           <h3 className="text-md tracking-widest uppercase mb-6 text-gray-300">
             Contact Our Injury Attorneys in St. Petersburg, FL
           </h3>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <button className="bg-[#ED1B24] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold">
+            {/* Contact Page Button */}
+            <Link
+              href="/contact"
+              className="bg-[#ED1B24] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold inline-block"
+            >
               FREE CASE CONSULTATION
-            </button>
+            </Link>
 
+            {/* Phone Call Button */}
             <a
               href="tel:+8139220228"
-              className="inline-flex items-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
+              className="inline-flex items-center justify-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
             >
               <FiPhoneCall size={20} />
               (813) 922-0228

@@ -12,11 +12,11 @@ import ProtectsRightsSection from "./ProtectsRightsSection";
 import DavidCarterSection from "./DavidCarterSection";
 import VehicleAccidentGuidanceSection from "./VehicleAccidentGuidanceSection";
 import ChoosingTopLawyerSection from "./ChoosingTopLawyerSection";
-import ContactSection from "./ContactSection";
+import ContactSection from "../shared/ContactSection";
 
 export default function LeftSide() {
   return (
-    <div className="max-w-[1080px]">
+    <div className="max-w-[880px]">
       <CarInjury />
       <UninsuredClaimSection />
       <HelpAfterCrash />

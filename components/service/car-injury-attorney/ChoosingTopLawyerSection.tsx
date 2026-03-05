@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
 
@@ -14,13 +15,13 @@ export default function ChoosingTopLawyerSection() {
         {/* Image + Intro Content */}
         <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
           {/* Left Image */}
-          <div className="relative w-full md:w-[520px] rounded-xl overflow-hidden">
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
             <Image
               src="/assets/service/lawyer.png"
               alt="Attorney Consultation"
-              fill
+              width={1000}
+              height={800}
               className="object-cover"
-              priority
             />
           </div>
 
@@ -30,24 +31,25 @@ export default function ChoosingTopLawyerSection() {
               Choosing a top auto accident lawyer in Tampa is a decision that
               carries long-term consequences. The lawyer you select will
               influence how your case is framed, how insurers respond, and how
-              confidently your claim moves forward. Tampa’s roads are busy, its
-              courts are active, and insurers are well practiced. Representation
-              must match that reality with preparation, credibility, and local
-              insight.
-            </p>
-
-            <p>
-              A strong Tampa auto accident lawyer understands the regional legal
-              environment. Local courts have distinct procedures, judges have
-              preferences, and opposing counsel often follow predictable
-              patterns. Familiarity with these elements allows a lawyer to
-              anticipate obstacles and respond efficiently.
+              confidently your claim moves forward.
             </p>
           </div>
         </div>
 
         {/* Remaining Content */}
         <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
+          <p>
+            Tampa’s roads are busy, its courts are active, and insurers are well
+            practiced. Representation must match that reality with preparation,
+            credibility, and local insight.
+          </p>
+          <p>
+            A strong Tampa auto accident lawyer understands the regional legal
+            environment. Local courts have distinct procedures, judges have
+            preferences, and opposing counsel often follow predictable patterns.
+            Familiarity with these elements allows a lawyer to anticipate
+            obstacles and respond efficiently.
+          </p>
           <p>
             Depth of experience matters, but so does relevance. A lawyer who
             regularly handles auto accident cases in Tampa understands the
@@ -136,20 +138,25 @@ export default function ChoosingTopLawyerSection() {
             both the legal process and the client’s future.
           </p>
         </div>
-        {/* CTA Section */}
+        {/* CTA Section  */}
         <div className="mt-6 bg-[#27355e] rounded-2xl p-8 text-center text-white">
           <h3 className="text-md tracking-widest uppercase mb-6 text-gray-300">
             Contact Our Injury Attorneys in St. Petersburg, FL
           </h3>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <button className="bg-[#ED1B24] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold">
+            {/* Contact Page Button */}
+            <Link
+              href="/contact"
+              className="bg-[#ED1B24] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold inline-block"
+            >
               FREE CASE CONSULTATION
-            </button>
+            </Link>
 
+            {/* Phone Call Button */}
             <a
               href="tel:+8139220228"
-              className="inline-flex items-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
+              className="inline-flex items-center justify-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
             >
               <FiPhoneCall size={20} />
               (813) 922-0228

@@ -7,7 +7,7 @@ import CarInjuryPage5 from "./CarInjuryPage5";
 
 export default function LeftSide() {
   return (
-    <div className="max-w-[1080px]">
+    <div className="max-w-[880px]">
       <CarInjuryPage />
       <CarInjuryPage1 />
       <CarInjuryPage2 />

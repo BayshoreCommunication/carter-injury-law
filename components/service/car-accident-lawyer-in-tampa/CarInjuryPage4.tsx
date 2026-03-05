@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { FiPhoneCall } from "react-icons/fi";
+import Link from "next/link";
 
 export default function CarInjuryPage1() {
   return (
@@ -12,25 +13,35 @@ export default function CarInjuryPage1() {
             <h2 className="text-2xl md:text-4xl  font-semibold text-[#0D3E8A]">
               Handling Insurance Companies After an Accident
             </h2>
-            <div className="relative w-full mb-8">
-              <Image
-                src="/assets/car-accident/life.png"
-                alt="Car Crash"
-                width={1000}
-                height={800}
-                className="object-cover w-full rounded-lg"
-              />
+
+            {/* Image + Intro Content */}
+            <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+              {/* Left Image */}
+              <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+                <Image
+                  src="/assets/car-accident/life.png"
+                  alt="Attorney Consultation"
+                  width={1000}
+                  height={800}
+                  className="object-cover"
+                />
+              </div>
+
+              {/* Right Text */}
+              <div className="flex flex-col justify-center text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+                <p>
+                  Interacting with insurance companies after a car accident
+                  requires careful strategy, because their priority is often to
+                  minimize payouts rather than fully compensate injured parties.
+                  Many drivers underestimate how complex these communications
+                  can become. Insurance adjusters are trained to gather
+                  statements, interpret policy language, and identify weaknesses
+                  in a claim. Without guidance, even honest answers can be
+                  misused to limit benefits, delay payments, or reduce the
+                  perceived severity of injuries.
+                </p>
+              </div>
             </div>
-            <p>
-              Interacting with insurance companies after a car accident requires
-              careful strategy, because their priority is often to minimize
-              payouts rather than fully compensate injured parties. Many drivers
-              underestimate how complex these communications can become.
-              Insurance adjusters are trained to gather statements, interpret
-              policy language, and identify weaknesses in a claim. Without
-              guidance, even honest answers can be misused to limit benefits,
-              delay payments, or reduce the perceived severity of injuries.
-            </p>
 
             <p>
               From the moment an accident occurs, insurers may begin contacting
@@ -207,20 +218,25 @@ export default function CarInjuryPage1() {
           </div>
         </div>
       </div>
-      {/* CTA Section */}
+      {/* CTA Section  */}
       <div className="mt-6 bg-[#27355e] rounded-2xl p-8 text-center text-white">
         <h3 className="text-md tracking-widest uppercase mb-6 text-gray-300">
           Contact Our Injury Attorneys in St. Petersburg, FL
         </h3>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <button className="bg-[#ED1B24] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold">
+          {/* Contact Page Button */}
+          <Link
+            href="/contact"
+            className="bg-[#ED1B24] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold inline-block"
+          >
             FREE CASE CONSULTATION
-          </button>
+          </Link>
 
+          {/* Phone Call Button */}
           <a
             href="tel:+8139220228"
-            className="inline-flex items-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
+            className="inline-flex items-center justify-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
           >
             <FiPhoneCall size={20} />
             (813) 922-0228

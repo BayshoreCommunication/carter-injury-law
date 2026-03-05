@@ -18,9 +18,11 @@ export default function HeroSection() {
             </h1>
 
             <p className="mt-6 text-gray-700 text-lg max-w-xl">
-              Lorem ipsum dolor amet, consectetur adipiscing elit. Nibh
-              tristique nascetur nostra convallis, senectus maximus odio. Nam
-              dapibus gravida praesent dui tincidunt nulla sem.
+              If you were injured in a crash, a car accident lawyer in Miami can
+              guide you through the legal process. We investigate the accident,
+              deal with insurance companies, and build a strong case for your
+              claim. Our goal is to secure the maximum compensation for your
+              injuries and losses.
             </p>
 
             <div className="mt-8">

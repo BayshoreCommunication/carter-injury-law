@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { FiPhoneCall } from "react-icons/fi";
 import { FaQuoteLeft } from "react-icons/fa";
+import Link from "next/link";
 
 export default function CarInjuryPage1() {
   return (
@@ -225,25 +226,36 @@ export default function CarInjuryPage1() {
             <h2 className="text-2xl md:text-4xl  font-semibold text-[#0D3E8A]">
               Injuries Commonly Seen After Vehicle Crashes
             </h2>
-            <div className="relative w-full mb-8">
-              <Image
-                src="/assets/car-accident/ice.png"
-                alt="Car Crash"
-                width={1000}
-                height={800}
-                className="object-cover w-full rounded-lg"
-              />
+
+            {/* Image + Intro Content */}
+            <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+              {/* Left Image */}
+              <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+                <Image
+                  src="/assets/car-accident/ice.png"
+                  alt="Attorney Consultation"
+                  width={1000}
+                  height={800}
+                  className="object-cover"
+                />
+              </div>
+
+              {/* Right Text */}
+              <div className="flex flex-col justify-center text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+                <p>
+                  Vehicle crashes expose the human body to sudden force, rapid
+                  deceleration, and unnatural movement. Even at moderate speeds,
+                  the stress placed on muscles, joints, and internal systems can
+                  result in injuries that disrupt daily life.
+                </p>
+              </div>
             </div>
             <p>
-              Vehicle crashes expose the human body to sudden force, rapid
-              deceleration, and unnatural movement. Even at moderate speeds, the
-              stress placed on muscles, joints, and internal systems can result
-              in injuries that disrupt daily life and require extensive medical
-              care. Some injuries are immediately apparent, while others develop
-              gradually, becoming more serious as time passes. Understanding the
-              types of injuries commonly associated with car accidents helps
-              clarify why medical evaluation and careful documentation are so
-              important after a collision.
+              require extensive medical care. Some injuries are immediately
+              apparent, while others develop gradually, becoming more serious as
+              time passes. Understanding the types of injuries commonly
+              associated with car accidents helps clarify why medical evaluation
+              and careful documentation are so important after a collision.
             </p>
 
             <p>
@@ -341,20 +353,25 @@ export default function CarInjuryPage1() {
           </div>
         </div>
       </div>
-      {/* CTA Section */}
+      {/* CTA Section  */}
       <div className="mt-6 bg-[#27355e] rounded-2xl p-8 text-center text-white">
         <h3 className="text-md tracking-widest uppercase mb-6 text-gray-300">
           Contact Our Injury Attorneys in St. Petersburg, FL
         </h3>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <button className="bg-[#ED1B24] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold">
+          {/* Contact Page Button */}
+          <Link
+            href="/contact"
+            className="bg-[#ED1B24] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold inline-block"
+          >
             FREE CASE CONSULTATION
-          </button>
+          </Link>
 
+          {/* Phone Call Button */}
           <a
             href="tel:+8139220228"
-            className="inline-flex items-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
+            className="inline-flex items-center justify-center gap-2 bg-[#0D3E8A] hover:bg-blue-700 transition px-6 py-3 rounded-full font-semibold text-white"
           >
             <FiPhoneCall size={20} />
             (813) 922-0228
