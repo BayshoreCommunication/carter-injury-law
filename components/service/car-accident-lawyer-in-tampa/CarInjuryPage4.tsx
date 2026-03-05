@@ -34,15 +34,16 @@ export default function CarInjuryPage1() {
                   requires careful strategy, because their priority is often to
                   minimize payouts rather than fully compensate injured parties.
                   Many drivers underestimate how complex these communications
-                  can become. Insurance adjusters are trained to gather
-                  statements, interpret policy language, and identify weaknesses
-                  in a claim. Without guidance, even honest answers can be
-                  misused to limit benefits, delay payments, or reduce the
-                  perceived severity of injuries.
+                  can become.
                 </p>
               </div>
             </div>
-
+            <p>
+              Insurance adjusters are trained to gather statements, interpret
+              policy language, and identify weaknesses in a claim. Without
+              guidance, even honest answers can be misused to limit benefits,
+              delay payments, or reduce the perceived severity of injuries.
+            </p>
             <p>
               From the moment an accident occurs, insurers may begin contacting
               victims. Initial calls often appear routine, requesting accident

@@ -116,7 +116,7 @@ export default function CarInjuryPage1() {
             </h2>
 
             <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
-              <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+              {/* <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
                 <Image
                   src="/assets/car-accident/insurance.png"
                   alt="Attorney Consultation"
@@ -124,23 +124,32 @@ export default function CarInjuryPage1() {
                   height={800}
                   className="object-cover"
                 />
-              </div>
+              </div> */}
 
-              <div className="flex flex-col justify-center text-lg leading-[1.9] space-y-4 md:flex-1">
-                <p>
-                  Personal Injury Protection provides initial coverage
-                  regardless of fault but has limits.
-                </p>
+              {/* Image + Intro Content */}
+              <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+                {/* Left Image */}
+                <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+                  <Image
+                    src="/assets/car-accident/insurance.png"
+                    alt="Attorney Consultation"
+                    width={1000}
+                    height={800}
+                    className="object-cover"
+                  />
+                </div>
 
-                <p>
-                  Bodily injury liability insurance compensates victims when the
-                  at-fault driver has coverage.
-                </p>
-
-                <p>
-                  Florida’s system combines mandatory personal injury protection
-                  with optional liability and uninsured motorist coverage.
-                </p>
+                {/* Right Text */}
+                <div className="flex flex-col justify-center text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+                  <p>
+                    Personal Injury Protection provides initial coverage
+                    regardless of fault but has limits.
+                  </p>
+                  <p>
+                    Bodily injury liability insurance compensates victims when
+                    the at-fault driver has coverage.
+                  </p>
+                </div>
               </div>
             </div>
 

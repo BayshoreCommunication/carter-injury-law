@@ -38,19 +38,20 @@ export default function CarInjuryPage() {
               difficult hours after a crash with the single purpose of helping
               you secure fair compensation and restore as much normalcy as
               possible to your life. We combine meticulous investigation,
-              careful medical documentation, and a practical view of economic
-              loss, so each claim is more than a stack of bills; it is a
-              coherent story of what happened and what must be repaired. From
-              first contact through resolution, our role is to translate trauma
-              and confusion into clear legal steps so you understand choices,
-              deadlines, and the likely path ahead. Every lawyer knows that
-              early clarity is essential for a client’s peace of mind during
-              recovery.
+              careful medical documentation.
             </p>
           </div>
         </div>
 
         <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
+          <p>
+            it is a coherent story of what happened and what must be repaired.
+            From first contact through resolution, our role is to translate
+            trauma and confusion into clear legal steps so you understand
+            choices, deadlines, and the likely path ahead. Every lawyer knows
+            that early clarity is essential for a client’s peace of mind during
+            recovery.
+          </p>
           <p>
             When a client comes to us, the first priorities are health and
             safety, yet what follows has legal consequences. Early actions shape
