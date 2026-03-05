@@ -13,7 +13,7 @@ export default function HeroSection() {
         <div className="grid lg:grid-cols-2  items-center ">
           {/* LEFT CONTENT */}
           <div className="lg:pr-8">
-            <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-[#ED1B24] leading-tight">
+            <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold text-[#CE2523] leading-tight">
               Car Accident <br /> Lawyer in Miami
             </h1>
 
@@ -32,10 +32,10 @@ export default function HeroSection() {
 
               <a
                 href="tel:8139220228"
-                className="mt-3 inline-flex items-center gap-2 text-[#ED1B24] text-xl font-bold hover:underline"
+                className="mt-3 inline-flex items-center gap-2 text-[#CE2523] text-xl font-bold hover:underline"
               >
                 <FiPhoneCall size={30} />
-                <span className="text-[#ED1B24] text-[32px]">
+                <span className="text-[#CE2523] text-[32px]">
                   (813) 922-0228
                 </span>
               </a>
@@ -46,7 +46,7 @@ export default function HeroSection() {
           <div className="w-full max-w-[450px] lg:ml-auto lg:pl-8 mt-12 lg:mt-0">
             <div className="bg-white rounded-2xl shadow-2xl border border-gray-200 overflow-hidden">
               {/* Card Header */}
-              <div className="bg-[#0D3E8A] text-white text-center py-5 text-2xl font-bold">
+              <div className="bg-[#1E2538] text-white text-center py-5 text-2xl font-bold">
                 FREE CASE REVIEW
               </div>
 

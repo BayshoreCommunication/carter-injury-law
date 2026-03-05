@@ -26,7 +26,7 @@ export default function CarInjuryPage() {
           </div>
 
           {/* Right Text */}
-          <div className="flex flex-col justify-center text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+          <div className="flex flex-col  text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
             <p>
               Traffic collisions are an everyday reality across Hillsborough
               County, from congested interstates to neighborhood intersections,

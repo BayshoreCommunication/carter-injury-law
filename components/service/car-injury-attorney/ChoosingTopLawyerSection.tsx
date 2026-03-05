@@ -13,7 +13,7 @@ export default function ChoosingTopLawyerSection() {
         </h2>
 
         {/* Image + Intro Content */}
-        <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+        <div className="flex flex-col md:flex-row gap-6">
           {/* Left Image */}
           <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
             <Image
@@ -26,7 +26,7 @@ export default function ChoosingTopLawyerSection() {
           </div>
 
           {/* Right Text */}
-          <div className="flex flex-col justify-center text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+          <div className="flex flex-col  text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
             <p>
               Choosing a top auto accident lawyer in Tampa is a decision that
               carries long-term consequences. The lawyer you select will

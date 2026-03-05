@@ -8,18 +8,8 @@ export default function CarInjuryPage() {
       <div className="flex-1">
         <h1 className="text-4xl font-bold mb-6">CAR INJURY ATTORNEY</h1>
 
-        {/* <div className="relative w-full  mb-8">
-            <Image
-              src="/assets/service/img1.png"
-              alt="Car Crash"
-              width={1000}
-              height={800}
-              className="object-cover w-full rounded-lg"
-            />
-          </div> */}
-
         {/* Image + Intro Content */}
-        <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+        <div className="flex flex-col md:flex-row gap-6  items-stretch">
           {/* Left Image */}
           <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
             <Image
@@ -32,7 +22,7 @@ export default function CarInjuryPage() {
           </div>
 
           {/* Right Text */}
-          <div className="flex flex-col justify-center text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+          <div className="flex flex-col text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
             <p className="">
               As a car injury attorney, Carter Injury Law steps into the
               difficult hours after a crash with the single purpose of helping

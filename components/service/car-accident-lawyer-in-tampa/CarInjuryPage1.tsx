@@ -101,15 +101,7 @@ export default function CarInjuryPage1() {
             <h2 className="text-2xl md:text-4xl  font-semibold text-[#0D3E8A]">
               Why Carter Injury Law Is Trusted by Tampa Injury Victims
             </h2>
-            {/* <div className="relative w-full mb-8">
-              <Image
-                src="/assets/car-accident/victim.png"
-                alt="Car Crash"
-                width={1000}
-                height={800}
-                className="object-cover w-full rounded-lg"
-              />
-            </div> */}
+
             {/* Image + Intro Content */}
             <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
               {/* Left Image */}
@@ -131,13 +123,15 @@ export default function CarInjuryPage1() {
                   by approaching injury cases with discipline, preparation, and
                   a clear respect for the people behind the claims. Clients
                   often come to the firm during stressful moments, and what they
-                  need most is reliability. That trust develops when a firm
-                  follows through, communicates clearly, and treats every case
-                  as more than a file number.
+                  need most is reliability.
                 </p>
               </div>
             </div>
-
+            <p>
+              {" "}
+              That trust develops when a firm follows through, communicates
+              clearly, and treats every case as more than a file number.
+            </p>
             <p>
               One reason Tampa injury victims place confidence in Carter Injury
               Law is the firm’s case-focused approach. Each matter is evaluated

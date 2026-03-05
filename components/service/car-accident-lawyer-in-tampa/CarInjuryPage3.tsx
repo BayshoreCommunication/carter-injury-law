@@ -127,7 +127,7 @@ export default function CarInjuryPage1() {
               </div> */}
 
               {/* Image + Intro Content */}
-              <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+              <div className="flex flex-col md:flex-row gap-6  items-stretch">
                 {/* Left Image */}
                 <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
                   <Image
