@@ -87,10 +87,18 @@ export default function TampaPedestrianAccidentLawyerPage() {
             work to recover:
           </p>
 
-          <p className="text-sm md:text-lg">Costs for the ER, surgery, and ambulance.</p>
-          <p className="text-sm md:text-lg">Expenses for physical therapy and long-term rehabilitation.</p>
-          <p className="text-sm md:text-lg">Money you missed while you were unable to work.</p>
-          <p className="text-sm md:text-lg">Reimbursement for any items destroyed in the crash.</p>
+          <p className="text-sm md:text-lg">
+            Costs for the ER, surgery, and ambulance.
+          </p>
+          <p className="text-sm md:text-lg">
+            Expenses for physical therapy and long-term rehabilitation.
+          </p>
+          <p className="text-sm md:text-lg">
+            Money you missed while you were unable to work.
+          </p>
+          <p className="text-sm md:text-lg">
+            Reimbursement for any items destroyed in the crash.
+          </p>
 
           <h2 className="text-2xl font-bold text-slate-800 pt-4">
             Why Do You Need a Pedestrian Accident Attorney Tampa to Fight
@@ -130,9 +138,15 @@ export default function TampaPedestrianAccidentLawyerPage() {
             needed to show the driver was at fault.
           </p>
 
-          <p className="text-sm md:text-lg">Phone records to prove the driver was distracted at the time.</p>
-          <p className="text-sm md:text-lg">Dashcam video to see exactly what happened before the impact.</p>
-          <p className="text-sm md:text-lg">Brake data to determine if the driver even tried to stop.</p>
+          <p className="text-sm md:text-lg">
+            Phone records to prove the driver was distracted at the time.
+          </p>
+          <p className="text-sm md:text-lg">
+            Dashcam video to see exactly what happened before the impact.
+          </p>
+          <p className="text-sm md:text-lg">
+            Brake data to determine if the driver even tried to stop.
+          </p>
           <p className="text-sm md:text-lg">
             Police reports To show the official record of the driver’s
             citations.
@@ -240,10 +254,18 @@ export default function TampaPedestrianAccidentLawyerPage() {
             jargon.
           </p>
 
-          <p className="text-sm md:text-lg">We ensure you don't miss the deadline to file.</p>
-          <p className="text-sm md:text-lg">We explain how your own insurance might pay your bills.</p>
-          <p className="text-sm md:text-lg">We show how "comparative negligence" affects your payout.</p>
-          <p className="text-sm md:text-lg">We find the maximum money available from the driver.</p>
+          <p className="text-sm md:text-lg">
+            We ensure you don't miss the deadline to file.
+          </p>
+          <p className="text-sm md:text-lg">
+            We explain how your own insurance might pay your bills.
+          </p>
+          <p className="text-sm md:text-lg">
+            We show how "comparative negligence" affects your payout.
+          </p>
+          <p className="text-sm md:text-lg">
+            We find the maximum money available from the driver.
+          </p>
 
           <h2 className="text-2xl font-bold text-slate-800 pt-4">
             How Does a Pedestrian Accident Attorney in Tampa Prove Your
@@ -284,9 +306,15 @@ export default function TampaPedestrianAccidentLawyerPage() {
             value on these "intangible" losses.
           </p>
 
-          <p className="text-sm md:text-lg">We help you track how your pain affects your day.</p>
-          <p className="text-sm md:text-lg">We bring in specialists to talk about your mental health.</p>
-          <p className="text-sm md:text-lg">We show how the injury changed your role at home.</p>
+          <p className="text-sm md:text-lg">
+            We help you track how your pain affects your day.
+          </p>
+          <p className="text-sm md:text-lg">
+            We bring in specialists to talk about your mental health.
+          </p>
+          <p className="text-sm md:text-lg">
+            We show how the injury changed your role at home.
+          </p>
           <p className="text-sm md:text-lg">
             We pursue damages for the impact on your spouse (loss of
             consortium).
@@ -329,11 +357,15 @@ export default function TampaPedestrianAccidentLawyerPage() {
             Accident reconstructionists are local pros who can visit the site
             today.
           </p>
-          <p className="text-sm md:text-lg">Medical experts who are respected in the local courts.</p>
+          <p className="text-sm md:text-lg">
+            Medical experts who are respected in the local courts.
+          </p>
           <p className="text-sm md:text-lg">
             Private investigators who know how to track down local witnesses.
           </p>
-          <p className="text-sm md:text-lg">Court reporters who ensure every deposition is perfect.</p>
+          <p className="text-sm md:text-lg">
+            Court reporters who ensure every deposition is perfect.
+          </p>
         </div>
       </div>
 
@@ -347,7 +379,7 @@ export default function TampaPedestrianAccidentLawyerPage() {
           {/* Contact Page Button */}
           <Link
             href="/contact"
-            className="bg-[#ED1B24] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold inline-block"
+            className="bg-[#CE2523] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold inline-block"
           >
             FREE CASE CONSULTATION
           </Link>
@@ -365,4 +397,3 @@ export default function TampaPedestrianAccidentLawyerPage() {
     </div>
   );
 }
-
