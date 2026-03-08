@@ -14,7 +14,7 @@ export default function CarInjuryPage1() {
               Injured in a Car Accident? Get Help From a Tampa Attorney
             </h2>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Being injured in a car accident can turn normal life upside down
               with remarkable speed. Medical appointments replace workdays.
               Phone calls from insurance companies interrupt recovery. Questions
@@ -23,7 +23,7 @@ export default function CarInjuryPage1() {
               realistic.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               After a crash, the focus should always be on health and stability,
               yet the legal and financial pressure often intrudes immediately.
               Even seemingly straightforward accidents can become complicated
@@ -35,7 +35,7 @@ export default function CarInjuryPage1() {
               compensation later.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Insurance companies move quickly after an accident, and their
               urgency rarely benefits the injured person. Adjusters may sound
               helpful, but their goal is to limit payouts. Recorded statements,
@@ -46,7 +46,7 @@ export default function CarInjuryPage1() {
               protecting your interests from the start.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Tampa traffic presents its own risks and complexities. Busy
               highways, tourist traffic, construction zones, and frequent
               intersections increase the likelihood of serious collisions.
@@ -57,7 +57,7 @@ export default function CarInjuryPage1() {
               variables affect fault, coverage, and case strategy.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Legal help is not only about filing paperwork or making demands.
               It is about building a complete and credible claim. This includes
               gathering medical documentation, securing accident reports,
@@ -67,14 +67,14 @@ export default function CarInjuryPage1() {
               ensures that nothing important is overlooked.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               A Tampa attorney challenges unfair fault assessments by examining
               traffic laws, vehicle damage, and the sequence of events leading
               up to the crash. This can make a meaningful difference in the
               outcome of a case.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Financial stress often weighs as heavily as physical pain. Medical
               bills accumulate quickly, especially when imaging, specialists, or
               physical therapy are involved. Time away from work can threaten
@@ -84,7 +84,7 @@ export default function CarInjuryPage1() {
               both current and long-term impact.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Perhaps most importantly, working with an attorney provides
               clarity during an uncertain time. Knowing where your case stands,
               what to expect next, and which decisions matter most reduces
@@ -107,7 +107,7 @@ export default function CarInjuryPage1() {
               {/* Left Image */}
               <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
                 <Image
-                  src="/assets/car-accident/victim.png"
+                  src="/assets/car-accident/trusted.png"
                   alt="Attorney Consultation"
                   width={1000}
                   height={800}
@@ -116,7 +116,7 @@ export default function CarInjuryPage1() {
               </div>
 
               {/* Right Text */}
-              <div className="flex flex-col justify-center text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+              <div className="flex flex-col justify-center text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
                 <p>
                   Trust in a law firm is earned through consistency, not
                   slogans. Carter Injury Law has built its reputation in Tampa
@@ -127,12 +127,12 @@ export default function CarInjuryPage1() {
                 </p>
               </div>
             </div>
-            <p>
+            <p className="text-sm md:text-lg">
               {" "}
               That trust develops when a firm follows through, communicates
               clearly, and treats every case as more than a file number.
             </p>
-            <p>
+            <p className="text-sm md:text-lg">
               One reason Tampa injury victims place confidence in Carter Injury
               Law is the firm’s case-focused approach. Each matter is evaluated
               on its own facts, injuries, and financial consequences. This
@@ -143,7 +143,7 @@ export default function CarInjuryPage1() {
               changes how negotiations unfold.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Preparation is a defining element of the firm’s work. Successful
               injury claims depend on detail, from medical timelines to accident
               dynamics and long-term impact. Carter Injury Law invests time
@@ -154,7 +154,7 @@ export default function CarInjuryPage1() {
               guidance rather than empty promises.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Communication plays a major role in client trust. Injury cases can
               feel opaque to those unfamiliar with the legal process. Carter
               Injury Law emphasizes direct and consistent communication so
@@ -165,7 +165,7 @@ export default function CarInjuryPage1() {
               left in the dark.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Local experience is another factor that sets the firm apart. Tampa
               courts, insurers, and opposing counsel each have their tendencies
               and expectations. Familiarity with these local dynamics allows
@@ -175,7 +175,7 @@ export default function CarInjuryPage1() {
               resolution.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               The firm is also trusted because it does not shy away from
               difficult cases. Severe injuries, disputed liability, and
               high-value claims require confidence and persistence. Carter
@@ -185,7 +185,7 @@ export default function CarInjuryPage1() {
               unfair outcomes for the sake of convenience.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Respect for clients remains central throughout the process.
               Injured individuals are dealing with real consequences, not
               abstract legal issues. The firm’s approach reflects an
@@ -195,7 +195,7 @@ export default function CarInjuryPage1() {
               rather than transactional.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Ultimately, Carter Injury Law is trusted because results and
               relationships align. When a firm combines preparation,
               transparency, and local insight with a genuine commitment to its

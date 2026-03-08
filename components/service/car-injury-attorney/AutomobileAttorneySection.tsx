@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -10,19 +11,38 @@ export default function AutomobileAttorneySection() {
         <h2 className="text-2xl font-bold leading-tight tracking-tight text-black mb-8">
           WHAT AN AUTOMOBILE ACCIDENT ATTORNEY NEAR ME CAN DO FOR YOUR CASE
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/car-injury-law/automobile.png"
+              alt="Attorney Consultation"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
+          {/* Right Text */}
+          <div className="flex flex-col text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              Local representation brings practical advantages that shape how a
+              case develops and how effectively it resolves. Most people search
+              for “an automobile accident attorney near me” for more than just
+              convenience.Accident claims are governed by a mix of statutory
+              rules, insurance frameworks, and court practices that vary by
+              jurisdiction.
+            </p>
+          </div>
+        </div>
         {/* Paragraph Content */}
-        <div className="text-lg leading-[1.9] text-slate-600  space-y-6">
+        <div className="text-sm md:text-lg leading-[1.9] text-slate-600  space-y-6">
           <p>
-            Local representation brings practical advantages that shape how a
-            case develops and how effectively it resolves. Most people search
-            for “an automobile accident attorney near me” for more than just
-            convenience. Accident claims are governed by a mix of statutory
-            rules, insurance frameworks, and court practices that vary by
-            jurisdiction. An attorney who works regularly in the same region
-            understands these dynamics and uses them to your benefit.
+            {" "}
+            An attorney who works regularly in the same region understands these
+            dynamics and uses them to your benefit.
           </p>
-
           <p>
             The work begins with analysis. An automobile accident attorney
             reviews the circumstances of the crash, identifies all potentially
@@ -66,7 +86,7 @@ export default function AutomobileAttorneySection() {
           How Liability Is Determined in Serious Collisions
         </h3>
 
-        <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
+        <div className="text-sm md:text-lg leading-[1.9] text-slate-600 space-y-6">
           <p>
             Liability is the foundation of every automobile accident claim.
             Determining who is at fault requires careful evaluation of conduct
@@ -91,7 +111,7 @@ export default function AutomobileAttorneySection() {
           The Role of Police Reports and Evidence
         </h3>
 
-        <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
+        <div className="text-sm md:text-lg leading-[1.9] text-slate-600 space-y-6">
           <p>
             Police reports often serve as the starting point for an accident
             investigation. They document the scene, identify involved parties,

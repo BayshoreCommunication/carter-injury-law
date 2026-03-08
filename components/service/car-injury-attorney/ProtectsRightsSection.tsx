@@ -10,7 +10,7 @@ export default function ProtectsRightsSection() {
         </h2>
 
         {/* Main Content */}
-        <div className="text-lg leading-[1.9] text-slate-600  space-y-6">
+        <div className="text-sm md:text-lg leading-[1.9] text-slate-600  space-y-6">
           <p>
             After a crash, your legal rights are exposed long before you realize
             it. Statements are taken, forms are signed, and timelines begin
@@ -65,7 +65,7 @@ export default function ProtectsRightsSection() {
         </h3>
 
         {/* Subsection Content */}
-        <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
+        <div className="text-sm md:text-lg leading-[1.9] text-slate-600 space-y-6">
           <p>
             Insurance pressure often appears subtle at first. Friendly calls,
             quick questions, and offers framed as help can mask efforts to limit

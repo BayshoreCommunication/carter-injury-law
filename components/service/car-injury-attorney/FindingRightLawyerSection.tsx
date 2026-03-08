@@ -12,7 +12,7 @@ export default function FindingRightLawyerSection() {
         </h2>
 
         {/* Paragraph Content */}
-        <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
+        <div className="text-sm md:text-lg leading-[1.9] text-slate-600 space-y-6">
           <p>
             After a collision, many people search for an accident and injury
             lawyer near me with urgency and uncertainty. Pain, vehicle damage,
@@ -61,7 +61,7 @@ export default function FindingRightLawyerSection() {
         </h3>
 
         {/* More Content */}
-        <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
+        <div className="text-sm md:text-lg leading-[1.9] text-slate-600 space-y-6">
           <p>
             The first steps after a collision often feel overwhelming, yet they
             are critical. Seeking medical care is always the priority, even if

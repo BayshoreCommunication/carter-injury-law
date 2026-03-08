@@ -12,7 +12,7 @@ export default function VehicleAccidentGuidanceSection() {
         </h2>
 
         {/* Content */}
-        <div className="text-lg leading-[1.9] text-slate-600  space-y-6">
+        <div className="text-sm md:text-lgleading-[1.9] text-slate-600  space-y-6">
           <p>
             Serious injuries change the rhythm of daily life. Pain, limited
             mobility, and uncertainty about recovery affect work, relationships,
@@ -66,7 +66,7 @@ export default function VehicleAccidentGuidanceSection() {
           How Fault Impacts Your Ability to Recover Damages
         </h3>
 
-        <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
+        <div className="text-sm md:text-lg leading-[1.9] text-slate-600 space-y-6">
           <p>
             Fault is a central issue in vehicle accident claims, particularly in
             Florida’s comparative fault system. Even when another driver is

@@ -14,37 +14,19 @@ export default function CarInjuryPage1() {
               Handling Insurance Companies After an Accident
             </h2>
 
-            {/* Image + Intro Content */}
-            <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
-              {/* Left Image */}
-              <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
-                <Image
-                  src="/assets/car-accident/life.png"
-                  alt="Attorney Consultation"
-                  width={1000}
-                  height={800}
-                  className="object-cover"
-                />
-              </div>
-
-              {/* Right Text */}
-              <div className="flex flex-col justify-center text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
-                <p>
-                  Interacting with insurance companies after a car accident
-                  requires careful strategy, because their priority is often to
-                  minimize payouts rather than fully compensate injured parties.
-                  Many drivers underestimate how complex these communications
-                  can become.
-                </p>
-              </div>
-            </div>
-            <p>
+            <p className="text-sm md:text-lg">
+              Interacting with insurance companies after a car accident requires
+              careful strategy, because their priority is often to minimize
+              payouts rather than fully compensate injured parties. Many drivers
+              underestimate how complex these communications can become.
+            </p>
+            <p className="text-sm md:text-lg">
               Insurance adjusters are trained to gather statements, interpret
               policy language, and identify weaknesses in a claim. Without
               guidance, even honest answers can be misused to limit benefits,
               delay payments, or reduce the perceived severity of injuries.
             </p>
-            <p>
+            <p className="text-sm md:text-lg">
               From the moment an accident occurs, insurers may begin contacting
               victims. Initial calls often appear routine, requesting accident
               details, medical treatment information, and recorded statements.
@@ -57,7 +39,7 @@ export default function CarInjuryPage1() {
               presented.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Insurance companies also frequently attempt to resolve claims
               quickly through early settlement offers. These offers are often
               significantly lower than the true value of the injuries sustained.
@@ -69,7 +51,7 @@ export default function CarInjuryPage1() {
               compensation.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Documentation plays a critical role in handling insurers
               effectively. Detailed medical records, proof of lost wages,
               photographs of injuries and vehicle damage, and witness statements
@@ -81,7 +63,7 @@ export default function CarInjuryPage1() {
               supports maximum recovery.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               In addition to evaluating claims, insurers may attempt to assign
               partial fault to the victim. Florida follows a comparative fault
               system, allowing an insurance company to reduce compensation based
@@ -92,7 +74,7 @@ export default function CarInjuryPage1() {
               eligibility for recovery within the limits of the law.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Communication strategies are also important beyond the initial
               claims process. Written correspondence, formal demands, and
               settlement negotiations must be precise and legally sound.
@@ -103,7 +85,7 @@ export default function CarInjuryPage1() {
               with the insurer.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Finally, legal counsel is critical if a claim reaches litigation.
               Insurers often escalate disputes by denying claims or asserting
               coverage limitations. When this occurs, a lawyer coordinates
@@ -115,7 +97,7 @@ export default function CarInjuryPage1() {
               their short-term recovery and long-term financial stability.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Effectively handling insurance companies requires patience,
               strategy, and a comprehensive understanding of policy language and
               legal rights. For Tampa accident victims, professional guidance
@@ -131,7 +113,7 @@ export default function CarInjuryPage1() {
               Deadlines for Filing an Injury Claim in Tampa
             </h2>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Timing is critical when pursuing an injury claim in Tampa, and
               missing statutory deadlines can permanently prevent recovery,
               regardless of how strong the case may be. Florida law sets
@@ -142,7 +124,7 @@ export default function CarInjuryPage1() {
               accident.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               For standard personal injury claims, Florida imposes a 2-year
               statute of limitations from the date of the accident. This period
               defines the maximum time a plaintiff has to file a lawsuit against
@@ -155,7 +137,7 @@ export default function CarInjuryPage1() {
               critical.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Insurance policies also include their own internal deadlines.
               Insurers often require prompt notice of an accident, usually
               within a few days to a couple of weeks. Delays can complicate
@@ -165,7 +147,7 @@ export default function CarInjuryPage1() {
               property damage coverage are accessible without dispute.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Medical documentation and evidence collection must also follow
               tight timelines. Witness recollections fade, traffic camera
               footage may be overwritten, and vehicle damage can be repaired or
@@ -176,7 +158,7 @@ export default function CarInjuryPage1() {
               expenses is documented comprehensively.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Deadlines can be further influenced by policy type and coverage.
               For instance, uninsured or underinsured motorist claims may have
               specific notice requirements separate from standard liability
@@ -187,7 +169,7 @@ export default function CarInjuryPage1() {
               maintaining eligibility for the full range of compensation.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Legal counsel can help navigate these complex timing issues. An
               attorney evaluates which deadlines apply to a specific case,
               ensures compliance with notice requirements, and initiates legal
@@ -196,7 +178,7 @@ export default function CarInjuryPage1() {
               that could permanently bar a claim.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               In addition to statutory and policy deadlines, practical timing
               considerations matter. The sooner an attorney is involved, the
               more efficiently evidence can be gathered, experts retained, and
@@ -206,7 +188,7 @@ export default function CarInjuryPage1() {
               legally prepared.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Ultimately, understanding and respecting deadlines for filing an
               injury claim in Tampa is a foundational part of protecting
               recovery. From statutory statutes of limitation to insurance

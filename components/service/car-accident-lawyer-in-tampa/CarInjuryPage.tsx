@@ -17,7 +17,7 @@ export default function CarInjuryPage() {
           {/* Left Image */}
           <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
             <Image
-              src="/assets/service/img1.png"
+              src="/assets/car-accident/car-accident.png"
               alt="Attorney Consultation"
               width={1000}
               height={800}
@@ -26,23 +26,23 @@ export default function CarInjuryPage() {
           </div>
 
           {/* Right Text */}
-          <div className="flex flex-col  text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+          <div className="flex flex-col text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
             <p>
               Traffic collisions are an everyday reality across Hillsborough
               County, from congested interstates to neighborhood intersections,
-              and their consequences often extend far beyond vehicle damage.
+              and their consequences often extend far beyond vehicle
+              damage.Injured drivers and passengers are suddenly forced to
+              navigate medical treatment, missed work, and insurance rules that
+              feel deliberately confusing.
             </p>
           </div>
         </div>
 
-        <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
+        <div className="space-y-6 text-sm md:text-lg text-slate-600 leading-relaxed">
           <p>
             {" "}
-            Injured drivers and passengers are suddenly forced to navigate
-            medical treatment, missed work, and insurance rules that feel
-            deliberately confusing. In these moments, experienced legal guidance
-            is a stabilizing force that helps injured people regain control and
-            protect their future.
+            In these moments, experienced legal guidance is a stabilizing force
+            that helps injured people regain control and protect their future.
           </p>
           <p>
             Car accidents rarely end when the tow truck leaves the scene.

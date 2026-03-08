@@ -145,7 +145,7 @@ export default function RightSidebar({
         <h2 className="text-4xl font-extrabold text-black">WE FIGHT</h2>
         <p className="text-2xl text-gray-700 mt-2">FOR YOUR RIGHTS</p>
         <div className="mt-6">
-          <span className="bg-[#ED1B24] text-white px-6 py-2 font-semibold">
+          <span className="bg-[#CE2523] text-white px-6 py-2 font-semibold">
             CARTER INJURY LAW, PA
           </span>
         </div>
@@ -288,7 +288,7 @@ export default function RightSidebar({
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-[#EC1D21] text-white py-3 rounded font-semibold flex items-center justify-center gap-2"
+            className="w-full bg-[#CE2523] text-white py-3 rounded font-semibold flex items-center justify-center gap-2"
           >
             {loading ? "Sending..." : "Submit Form"}
             <MdArrowOutward size={18} />

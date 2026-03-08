@@ -11,25 +11,35 @@ export default function MotorcycleAccidentSupportSection() {
           How Our Motorcycle Accident Law Firm Supports You from Hospital to
           Courtroom
         </h2>
-        <div className="relative max-w-[850px] mb-8">
-          <Image
-            src="/assets/motorcycle/courtroom.png"
-            alt="Florida Motorcycle Accident"
-            width={1000}
-            height={800}
-            className="object-cover rounded-lg"
-          />
+
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/motorcycle/courtroom.png"
+              alt="Florida Motorcycle Accident"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
+
+          {/* Right Text */}
+          <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              We provide the resources of a large firm with the personalized
+              care of a local advocate to help you rebuild your life after a
+              crash.
+            </p>
+          </div>
         </div>
-        <p>
-          We provide the resources of a large firm with the personalized care of
-          a local advocate to help you rebuild your life after a crash.
-        </p>
 
         <h3 className="text-xl font-semibold text-slate-800">
           Access Elite Resources for Your Recovery
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Success in personal injury law is built on a foundation of resources
           and expertise. As a dedicated motorcycle accident law firm, we possess
           the financial and professional resources necessary to challenge large
@@ -38,13 +48,13 @@ export default function MotorcycleAccidentSupportSection() {
           to the extent of your losses.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           We operate on a contingency fee basis, meaning we front all the costs
           of litigation. You do not owe us a single cent in attorney fees unless
           we successfully recover money for you.
         </p>
 
-        <ul className="list-disc pl-6 space-y-2">
+        <ul className="list-disc pl-6 space-y-2 text-sm md:text-lg">
           <li>
             We secure dashcam footage, black box data, and witness statements.
           </li>
@@ -63,7 +73,7 @@ export default function MotorcycleAccidentSupportSection() {
           A Team of Professionals Focused on Injury Law
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Our internal team is structured to provide high-touch service. We
           understand that a crash affects more than just the person on the bike;
           it affects their entire family. We assist with property damage claims,
@@ -71,7 +81,7 @@ export default function MotorcycleAccidentSupportSection() {
           wages are accounted for.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           We stay on top of changes in Florida law and court decisions that
           could affect your case by only working on injury law. Our firm is not
           just a business; it is a community of legal professionals dedicated to
@@ -83,7 +93,7 @@ export default function MotorcycleAccidentSupportSection() {
           Others Accountable
         </h2>
 
-        <p>
+        <p className="text-sm md:text-lg">
           If the insurance company refuses to pay what you deserve, we take the
           fight to the courtroom to secure a just result for you.
         </p>
@@ -92,7 +102,7 @@ export default function MotorcycleAccidentSupportSection() {
           What to Expect in the Discovery Phase
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           When negotiations fail to produce a just result, the next step is
           filing a motorcycle accident lawsuit. This formal legal action begins
           the discovery phase, where both sides exchange evidence and take
@@ -101,7 +111,7 @@ export default function MotorcycleAccidentSupportSection() {
           initial negotiations.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           While the prospect of going to court can be intimidating, our
           attorneys are seasoned litigators who thrive in the courtroom
           environment. We guide you through every step of the process, ensuring
@@ -112,14 +122,14 @@ export default function MotorcycleAccidentSupportSection() {
           Tech Tools That Prove Driver Negligence
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           The litigation process also allows us to uncover cell phone records
           that may prove the other driver was distracted at the time of the
           collision. We utilize cutting-edge technology to create visual aids
           for the jury, making complex accident dynamics easy to understand.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Most cases settle before they actually reach a trial, but the
           willingness to file a lawsuit often provides the necessary leverage to
           secure a maximum settlement. No matter how long it takes, Carter
@@ -130,7 +140,7 @@ export default function MotorcycleAccidentSupportSection() {
           What Is the Value of a Motorcycle Accident Case?
         </h2>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Calculating the true cost of an injury involves more than just adding
           up current bills; it requires a deep look at your future needs.
         </p>
@@ -139,21 +149,21 @@ export default function MotorcycleAccidentSupportSection() {
           The Difference Between Economic and Non-Economic Loss
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Determining the worth of a motorcycle accident case involves a careful
           analysis of both economic and non-economic damages. Economic damages
           are quantifiable losses, such as emergency room bills, future
           surgeries, and lost income.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Non-economic damages are more subjective, covering pain and suffering,
           emotional distress, and loss of enjoyment of life. Because bikers
           often suffer more severe injuries than car occupants, their
           non-economic damages are typically much higher.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           We work with economists to project the lifetime cost of your injuries,
           ensuring that you aren't left with bills ten years down the line.
         </p>
@@ -162,7 +172,7 @@ export default function MotorcycleAccidentSupportSection() {
           How Do Florida’s Fault Rules Affect Your Award?
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Florida’s comparative negligence laws also play a role in the
           valuation of your case. Under these rules, your compensation can be
           reduced by your percentage of fault. For example, if a jury determines
@@ -170,7 +180,7 @@ export default function MotorcycleAccidentSupportSection() {
           reduced by 10%.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           This makes it even more vital to have a legal team that can argue
           effectively against any allegations of negligence on your part. We
           meticulously analyze every factor—from road conditions to mechanical

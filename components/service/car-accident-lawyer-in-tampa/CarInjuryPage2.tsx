@@ -15,7 +15,7 @@ export default function CarInjuryPage1() {
               What to Do After a Traffic Collision in Tampa
             </h2>
 
-            <p>
+            <p className="text-sm md:text-lg">
               The period immediately following a traffic collision in Tampa
               often shapes everything that comes next. Confusion, adrenaline,
               and stress can cloud judgment, yet the actions taken in the hours
@@ -24,7 +24,7 @@ export default function CarInjuryPage1() {
               where accidents often involve multiple parties and heavy traffic.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Safety should always be the first priority. Moving out of active
               traffic when possible and checking for injuries can prevent
               further harm. Even when injuries appear minor, seeking medical
@@ -34,7 +34,7 @@ export default function CarInjuryPage1() {
               key part of any future injury claim.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Reporting the accident is another essential step. Law enforcement
               documentation provides an objective account of the collision,
               including time, location, and initial observations. This record
@@ -42,7 +42,7 @@ export default function CarInjuryPage1() {
               memories fade or stories change.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Preserving evidence at the scene, when possible, can also be
               valuable. Photos of vehicle damage, road conditions, traffic
               signals, and visible injuries capture details that may not be
@@ -50,7 +50,7 @@ export default function CarInjuryPage1() {
               become crucial if fault is challenged later.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               After leaving the scene, careful communication matters. Insurance
               companies often reach out quickly. Providing basic information is
               usually required, but detailed statements or recorded
@@ -59,21 +59,21 @@ export default function CarInjuryPage1() {
               avoid unnecessary risk.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Following medical advice consistently is another important step.
               Skipping appointments or stopping treatment early can be
               interpreted as a sign that injuries were not serious. Consistent
               care supports recovery and strengthens documentation.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Documenting financial effects such as missed work and
               out-of-pocket expenses is equally important. Saving pay stubs,
               invoices, and receipts helps quantify losses beyond initial
               medical bills.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Legal deadlines, evidence preservation, and insurance requirements
               operate on strict timelines. Acting promptly keeps options open
               and prevents avoidable setbacks. Knowing what to do after a
@@ -88,7 +88,7 @@ export default function CarInjuryPage1() {
               Car Accident Cases We Handle Across the Tampa Area
             </h2>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Car accidents across the Tampa area occur under a wide range of
               conditions, and each type of collision presents its legal and
               factual challenges. Traffic density, roadway design, weather
@@ -100,7 +100,7 @@ export default function CarInjuryPage1() {
               pursued.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Understanding the specific nature of the accident is essential
               because insurance companies evaluate claims differently depending
               on how the collision occurred. Experience across multiple accident
@@ -111,7 +111,7 @@ export default function CarInjuryPage1() {
             <h3 className="text-xl font-semibold text-slate-800">
               Rear-End Collisions
             </h3>
-            <p>
+            <p className="text-sm md:text-lg">
               Rear-end collisions are common on Tampa’s busy roads, particularly
               during rush hour congestion and sudden traffic slowdowns. Although
               these accidents are often assumed to be straightforward, they can
@@ -125,7 +125,7 @@ export default function CarInjuryPage1() {
             <h3 className="text-xl font-semibold text-slate-800">
               Intersection and Side Impact Crashes
             </h3>
-            <p>
+            <p className="text-sm md:text-lg">
               Intersections are high-risk areas where timing, visibility, and
               right-of-way converge. Side impact collisions frequently result in
               serious injuries due to limited protection along the sides of
@@ -137,7 +137,7 @@ export default function CarInjuryPage1() {
             <h3 className="text-xl font-semibold text-slate-800">
               Distracted Driving Incidents
             </h3>
-            <p>
+            <p className="text-sm md:text-lg">
               Accidents caused by distracted driving reflect a growing problem.
               Proving distraction requires more than suspicion. Evidence such as
               phone records, witness observations, and accident reconstruction
@@ -148,7 +148,7 @@ export default function CarInjuryPage1() {
             <h3 className="text-xl font-semibold text-slate-800">
               Alcohol-Related Crashes
             </h3>
-            <p>
+            <p className="text-sm md:text-lg">
               Alcohol-related accidents tend to produce severe outcomes and
               complex legal issues. Beyond civil injury claims, these cases may
               intersect with criminal proceedings. Establishing impairment and
@@ -159,7 +159,7 @@ export default function CarInjuryPage1() {
             <h3 className="text-xl font-semibold text-slate-800">
               Hit-and-Run Situations
             </h3>
-            <p>
+            <p className="text-sm md:text-lg">
               Hit-and-run crashes create uncertainty and frustration for
               victims. When the at-fault driver leaves the scene, alternative
               avenues such as uninsured motorist coverage may apply. Prompt
@@ -170,7 +170,7 @@ export default function CarInjuryPage1() {
             <h3 className="text-xl font-semibold text-slate-800">
               Severe Injury and Loss of Life Cases
             </h3>
-            <p>
+            <p className="text-sm md:text-lg">
               Cases involving catastrophic injuries or loss of life demand a
               careful and comprehensive approach. These matters often involve
               extensive medical evidence, long-term financial projections, and
@@ -178,7 +178,7 @@ export default function CarInjuryPage1() {
               for both measurable losses and profound personal impact.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Handling a wide range of accident types requires adaptability and
               experience. Each category presents distinct challenges, and
               understanding those differences allows claims to be pursued with
@@ -194,8 +194,8 @@ export default function CarInjuryPage1() {
               <FaQuoteLeft className="text-cyan-400 text-3xl mb-6" />
 
               {/* Quote Text */}
-              <p className="text-lg md:text-xl leading-relaxed text-slate-200 max-w-3xl">
-                You deserve a legal team committed to protecting your interests,
+              <p className="text-sm md:text-lg text-lg md:text-xl leading-relaxed text-slate-200 max-w-3xl">
+                d to You deserve a legal team committeprotecting your interests,
                 pursuing the compensation you deserve, and providing clear,
                 dependable guidance from start to finish.
               </p>
@@ -215,7 +215,9 @@ export default function CarInjuryPage1() {
                   <h3 className="text-2xl font-bold text-[#ED1B24]">
                     David Carter
                   </h3>
-                  <p className="text-slate-300">Founding Attorney</p>
+                  <p className="text-slate-300 text-sm md:text-lg">
+                    Founding Attorney
+                  </p>
                 </div>
               </div>
             </div>
@@ -232,7 +234,7 @@ export default function CarInjuryPage1() {
               {/* Left Image */}
               <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
                 <Image
-                  src="/assets/car-accident/ice.png"
+                  src="/assets/car-accident/vehicle-crashes.png"
                   alt="Attorney Consultation"
                   width={1000}
                   height={800}
@@ -241,8 +243,8 @@ export default function CarInjuryPage1() {
               </div>
 
               {/* Right Text */}
-              <div className="flex flex-col justify-center text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
-                <p>
+              <div className="flex flex-col justify-center text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+                <p className="text-sm md:text-lg">
                   Vehicle crashes expose the human body to sudden force, rapid
                   deceleration, and unnatural movement. Even at moderate speeds,
                   the stress placed on muscles, joints, and internal systems can
@@ -250,7 +252,7 @@ export default function CarInjuryPage1() {
                 </p>
               </div>
             </div>
-            <p>
+            <p className="text-sm md:text-lg">
               require extensive medical care. Some injuries are immediately
               apparent, while others develop gradually, becoming more serious as
               time passes. Understanding the types of injuries commonly
@@ -258,7 +260,7 @@ export default function CarInjuryPage1() {
               and careful documentation are so important after a collision.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Many crash-related injuries are not isolated events but part of a
               larger chain reaction within the body. An impact may strain one
               area while triggering inflammation or instability elsewhere.
@@ -271,7 +273,7 @@ export default function CarInjuryPage1() {
             <h3 className="text-xl font-semibold text-slate-800">
               Neck and Soft Tissue Trauma
             </h3>
-            <p>
+            <p className="text-sm md:text-lg">
               Neck injuries and soft tissue trauma are among the most frequently
               reported consequences of vehicle crashes. Sudden movement of the
               head and upper body can strain muscles, ligaments, and tendons,
@@ -285,7 +287,7 @@ export default function CarInjuryPage1() {
             <h3 className="text-xl font-semibold text-slate-800">
               Spinal and Back Damage
             </h3>
-            <p>
+            <p className="text-sm md:text-lg">
               Back injuries range from muscle strains to disc injuries and
               spinal instability. The spine absorbs much of the force during a
               collision, especially in rear-impact and side-impact crashes.
@@ -298,7 +300,7 @@ export default function CarInjuryPage1() {
             <h3 className="text-xl font-semibold text-slate-800">
               Head and Brain Trauma
             </h3>
-            <p>
+            <p className="text-sm md:text-lg">
               Head injuries occur when the head strikes an object or experiences
               rapid acceleration and deceleration. Traumatic brain injuries can
               affect memory, concentration, mood, and cognitive function. Even
@@ -311,7 +313,7 @@ export default function CarInjuryPage1() {
             <h3 className="text-xl font-semibold text-slate-800">
               Bone Fractures
             </h3>
-            <p>
+            <p className="text-sm md:text-lg">
               Fractures commonly affect the arms, legs, ribs, and collarbone.
               The severity of a fracture influences both treatment and recovery
               time. Some fractures heal with immobilization, while others
@@ -323,7 +325,7 @@ export default function CarInjuryPage1() {
             <h3 className="text-xl font-semibold text-slate-800">
               Internal and Muscle Injuries
             </h3>
-            <p>
+            <p className="text-sm md:text-lg">
               Internal injuries pose serious risks because they may not produce
               visible symptoms right away. Damage to organs, internal bleeding,
               or deep muscle trauma can worsen rapidly if untreated. Muscle
@@ -332,7 +334,7 @@ export default function CarInjuryPage1() {
               preventing complications and supporting full recovery.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Across all categories, the common challenge is that injuries
               affect people differently. Age, health history, and the nature of
               the collision all influence outcomes. What appears minor for one
@@ -341,7 +343,7 @@ export default function CarInjuryPage1() {
               injury to the accident itself.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               From a broader perspective, understanding these common injuries
               underscores why injury claims require careful evaluation. The
               physical consequences of a vehicle crash often extend beyond

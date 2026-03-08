@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function ExperiencedLawyersSection() {
@@ -8,17 +9,36 @@ export default function ExperiencedLawyersSection() {
         <h2 className="text-2xl font-bold leading-tight tracking-tight text-black mb-8">
           WHY EXPERIENCED LAWYERS FOR AUTO ACCIDENT CASES MATTER
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/car-injury-law/experience.png"
+              alt="Attorney Consultation"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
+          {/* Right Text */}
+          <div className="flex flex-col  text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              Experience in auto accident litigation is not just a slogan but
+              also a practical advantage that shows up in outcomes. Lawyers for
+              serious auto accident cases develop an instinct for how claims
+              evolve, where insurers apply pressure, and which facts ultimately
+              drive value.
+            </p>
+          </div>
+        </div>
         {/* Paragraph Content */}
-        <div className="text-lg leading-[1.9] text-slate-600  space-y-6">
+        <div className="text-sm md:text-lgleading-[1.9] text-slate-600  space-y-6">
           <p>
-            Experience in auto accident litigation is not just a slogan but also
-            a practical advantage that shows up in outcomes. Lawyers for serious
-            auto accident cases develop an instinct for how claims evolve, where
-            insurers apply pressure, and which facts ultimately drive value. In
-            Florida, where insurance carriers handle high volumes of collision
-            claims, experience helps separate routine cases from those that
-            demand deeper attention and stronger advocacy.
+            In Florida, where insurance carriers handle high volumes of
+            collision claims, experience helps separate routine cases from those
+            that demand deeper attention and stronger advocacy.
           </p>
 
           <p>
@@ -64,7 +84,7 @@ export default function ExperiencedLawyersSection() {
           Negotiating Fair Settlements With Insurers
         </h3>
 
-        <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
+        <div className="text-sm md:text-lg leading-[1.9] text-slate-600 space-y-6">
           <p>
             Settlement negotiation is a skill refined through repetition.
             Experienced lawyers understand how insurers structure offers, what

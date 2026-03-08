@@ -7,22 +7,12 @@ export default function TampaPedestrianAccidentLawyerPage3() {
   return (
     <div className="min-h-screen pt-8 px-4 md:px-4 mb-6">
       <div className="max-w-[1320px] mx-auto w-full">
-        {/* <div className="relative max-w-[850px] mb-8">
-          <Image
-            src="/assets/pedestrian/pedestrian-accident.png"
-            alt="Tampa Pedestrian Accident Lawyer"
-            width={1000}
-            height={800}
-            className="object-cover rounded-lg"
-          />
-        </div> */}
-
         <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
           <h2 className="text-2xl font-bold text-slate-800 pt-4">
             How Does the Law Assign Pedestrian Accident Liability in Florida?
           </h2>
 
-          <p>
+          <p className="text-sm md:text-lg">
             Determining pedestrian accident liability involves a careful look at
             the actions of both the driver and the person on foot. Florida
             follows a "comparative fault" rule, which means your payout can be
@@ -33,14 +23,14 @@ export default function TampaPedestrianAccidentLawyerPage3() {
             Minimize your shared fault
           </h3>
 
-          <p>
+          <p className="text-sm md:text-lg">
             The insurance company will try to say you were jaywalking or looking
             at your phone to avoid paying you. We counter these claims by
             showing that the driver still had the "last clear chance" to avoid
             the crash.
           </p>
 
-          <p>
+          <p className="text-sm md:text-lg">
             We work to keep your percentage of fault as low as possible, as even
             a small change in percentage can mean thousands of dollars in your
             pocket. We protect your reputation and your financial interests from
@@ -51,22 +41,30 @@ export default function TampaPedestrianAccidentLawyerPage3() {
             Hold all parties responsible
           </h3>
 
-          <p>
+          <p className="text-sm md:text-lg">
             We look beyond the driver to see if anyone else contributed to the
             danger.
           </p>
 
-          <p>If the car was a rental or owned by a company.</p>
-          <p>If roadwork made the crossing dangerous.</p>
-          <p>If a mechanical failure led to the crash.</p>
-          <p>If the driver were served too much alcohol.</p>
+          <p className="text-sm md:text-lg">
+            If the car was a rental or owned by a company.
+          </p>
+          <p className="text-sm md:text-lg">
+            If roadwork made the crossing dangerous.
+          </p>
+          <p className="text-sm md:text-lg">
+            If a mechanical failure led to the crash.
+          </p>
+          <p className="text-sm md:text-lg">
+            If the driver were served too much alcohol.
+          </p>
 
           <h2 className="text-2xl font-bold text-slate-800 pt-4">
             How Can You Locate the Best Pedestrian Accident Lawyer for Your
             Recovery?
           </h2>
 
-          <p>
+          <p className="text-sm md:text-lg">
             Finding the best pedestrian accident lawyer for your specific needs
             is a personal decision that requires research and trust. You need a
             firm that has the experience, the resources, and the heart to fight
@@ -77,13 +75,13 @@ export default function TampaPedestrianAccidentLawyerPage3() {
             Look for a proven record
           </h3>
 
-          <p>
+          <p className="text-sm md:text-lg">
             Check for a history of winning similar cases and read what former
             clients have to say about their experience. A top firm will be
             transparent about their fees and will never ask for money upfront.
           </p>
 
-          <p>
+          <p className="text-sm md:text-lg">
             We invite you to look at our results and see how we have helped our
             neighbors in Tampa rebuild their lives after a crash. We are proud
             of the work we do and the people we serve.
@@ -93,28 +91,36 @@ export default function TampaPedestrianAccidentLawyerPage3() {
             Schedule your free case review
           </h3>
 
-          <p>
+          <p className="text-sm md:text-lg">
             The best way to know if a firm is right for you is to sit down and
             talk with them.
           </p>
 
-          <p>You don't pay anything to hear your options.</p>
-          <p>Get the truth about the value of your case.</p>
-          <p>See how we treat you as a human, not a number.</p>
-          <p>Learn about the laws that apply to your specific crash.</p>
+          <p className="text-sm md:text-lg">
+            You don't pay anything to hear your options.
+          </p>
+          <p className="text-sm md:text-lg">
+            Get the truth about the value of your case.
+          </p>
+          <p className="text-sm md:text-lg">
+            See how we treat you as a human, not a number.
+          </p>
+          <p className="text-sm md:text-lg">
+            Learn about the laws that apply to your specific crash.
+          </p>
 
           <h2 className="text-2xl font-bold text-slate-800 pt-4">
             Carter Injury Law Is Ready to Start Your Case Today
           </h2>
 
-          <p>
+          <p className="text-sm md:text-lg">
             We encourage you to get in touch with us for a free, professional
             review of your claim. We are proud to speak up for the injured in
             Tampa, St. Petersburg, Clearwater, and the nearby Greater Tampa Bay
             areas.
           </p>
 
-          <p>
+          <p className="text-sm md:text-lg">
             Carter Injury Law 412 E Madison St, Suite 1206
             <br />
             Tampa, FL 33602

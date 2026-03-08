@@ -17,7 +17,7 @@ export default function ChoosingTopLawyerSection() {
           {/* Left Image */}
           <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
             <Image
-              src="/assets/service/lawyer.png"
+              src="/assets/car-injury-law/lawyer.png"
               alt="Attorney Consultation"
               width={1000}
               height={800}
@@ -26,7 +26,7 @@ export default function ChoosingTopLawyerSection() {
           </div>
 
           {/* Right Text */}
-          <div className="flex flex-col  text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+          <div className="flex flex-col  text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
             <p>
               Choosing a top auto accident lawyer in Tampa is a decision that
               carries long-term consequences. The lawyer you select will
@@ -37,7 +37,7 @@ export default function ChoosingTopLawyerSection() {
         </div>
 
         {/* Remaining Content */}
-        <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
+        <div className="text-sm md:text-lg leading-[1.9] text-slate-600 space-y-6">
           <p>
             Tampa’s roads are busy, its courts are active, and insurers are well
             practiced. Representation must match that reality with preparation,
@@ -99,7 +99,7 @@ export default function ChoosingTopLawyerSection() {
           What Sets a Strong Legal Strategy Apart
         </h3>
 
-        <div className="text-lg leading-[1.9] text-slate-600  space-y-6">
+        <div className="text-sm md:text-lg leading-[1.9] text-slate-600  space-y-6">
           <p>
             A strong legal strategy begins with clarity. It identifies the core
             facts that matter and organizes them into a narrative that makes

@@ -13,12 +13,31 @@ export default function CarInjuryPage1() {
             <h2 className="text-2xl md:text-4xl  font-semibold text-[#0D3E8A]">
               Frequently Asked Questions About Local Injury Cases
             </h2>
+            {/* Image + Intro Content */}
+            <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+              {/* Left Image */}
+              <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+                <Image
+                  src="/assets/car-accident/faq.png"
+                  alt="Attorney Consultation"
+                  width={1000}
+                  height={800}
+                  className="object-cover"
+                />
+              </div>
 
-            <p>
-              When a car accident occurs in Tampa, victims often have immediate
-              questions about their legal rights, potential compensation, and
-              the claims process. Understanding common concerns can help injured
-              individuals make informed decisions and avoid costly mistakes.
+              {/* Right Text */}
+              <div className="flex flex-col justify-center text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+                <p className="text-sm md:text-lg">
+                  When a car accident occurs in Tampa, victims often have
+                  immediate questions about their legal rights, potential
+                  compensation, and the claims process. Understanding common
+                  concerns can help injured individuals make informed decisions
+                  and avoid costly mistakes.
+                </p>
+              </div>
+            </div>
+            <p className="text-sm md:text-lg">
               While every case is unique, certain questions arise repeatedly due
               to the complexities of Florida law, insurance rules, and the
               realities of accident recovery.
@@ -28,7 +47,7 @@ export default function CarInjuryPage1() {
               Do I Need Legal Representation for a Minor Crash?
             </h3>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Even seemingly minor collisions can result in injuries that
               develop over time, such as soft tissue damage, whiplash, or
               delayed head trauma. Insurance companies may attempt to settle
@@ -45,7 +64,7 @@ export default function CarInjuryPage1() {
               What If I Share Responsibility for the Accident?
             </h3>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Florida uses a comparative fault system. Compensation is adjusted
               based on the percentage of fault assigned to each party. For
               example, if a driver is deemed 20% at fault, any recovery will be
@@ -60,7 +79,7 @@ export default function CarInjuryPage1() {
               What Does It Cost to Hire an Attorney?
             </h3>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Most car accident cases in Tampa are handled on a contingency fee
               basis, which means the lawyer only collects a fee if compensation
               is successfully recovered. This arrangement allows injured parties
@@ -76,7 +95,7 @@ export default function CarInjuryPage1() {
               How Long Does the Legal Process Usually Take?
             </h3>
 
-            <p>
+            <p className="text-sm md:text-lg">
               The timeline for an injury case depends on several factors,
               including the severity of injuries, the complexity of the
               accident, insurance cooperation, and whether litigation becomes
@@ -89,7 +108,7 @@ export default function CarInjuryPage1() {
               proceedings are conducted efficiently.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               In addition to these common questions, victims often wonder about
               other practical concerns, such as the role of medical records in
               claims, how to interact with insurance adjusters, or what to do if
@@ -108,7 +127,7 @@ export default function CarInjuryPage1() {
               Speak With a Tampa Car Accident Lawyer Today
             </h2>
 
-            <p>
+            <p className="text-sm md:text-lg">
               When an accident upends daily life, taking the next right step
               quickly can change the course of recovery and resolution.
               Consulting with a Tampa car accident lawyer begins with an intake
@@ -120,7 +139,7 @@ export default function CarInjuryPage1() {
               unnecessary stress.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               During a first consultation you can expect a structured review of
               what happened, along with a realistic assessment of potential
               legal avenues. A skilled attorney will ask about the sequence of
@@ -132,7 +151,7 @@ export default function CarInjuryPage1() {
               to insurers or public entities when required.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               To make that meeting productive, gather what you already have.
               Helpful items include the police report number or citation,
               photographs of the scene and vehicle damage, contact information
@@ -144,7 +163,7 @@ export default function CarInjuryPage1() {
               often strengthens negotiating leverage later on.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               After hiring a lawyer, practical actions begin immediately.
               Counsel will usually send formal notifications to relevant
               insurers, request preservation of video or telematics data, and
@@ -156,7 +175,7 @@ export default function CarInjuryPage1() {
               groundwork for negotiation or litigation if necessary.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Communication and case management are central to the client
               experience. A good firm sets expectations about how you will be
               updated, who your point of contact will be, and how documents and
@@ -169,7 +188,7 @@ export default function CarInjuryPage1() {
               to pursue claims without an up front retainer.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Practical realities matter as well, including scheduling
               flexibility, remote meeting options, and accommodation for urgent
               medical needs. Many firms offer virtual consults and flexible
@@ -179,7 +198,7 @@ export default function CarInjuryPage1() {
               important part of service.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Decisions about settling or litigating are collaborative. An
               attorney will present a reasoned valuation of the case based on
               medical prognosis, liability exposure, and insurance limits and
@@ -193,7 +212,7 @@ export default function CarInjuryPage1() {
               accounts for long term consequences.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Confidentiality and professional responsibility are also
               fundamental. Client communications are handled with discretion,
               and ethical duties require that any conflicts of interest be
@@ -203,7 +222,7 @@ export default function CarInjuryPage1() {
               or representation.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               If you are ready to move forward, the firm typically offers a
               no-cost consultation to review your file and recommend next steps.
               Bringing whatever documentation you currently have will make that

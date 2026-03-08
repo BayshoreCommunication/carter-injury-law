@@ -10,24 +10,30 @@ export default function FloridaMotorcycleAccidentPage() {
       <div className="max-w-[1320px] mx-auto w-full">
         <h1 className="text-4xl font-bold mb-6">Florida Motorcycle Accident</h1>
 
-        <div className="relative max-w-[850px] mb-8">
-          <Image
-            src="/assets/motorcycle/motor-cycle.png"
-            alt="Florida Motorcycle Accident"
-            width={1000}
-            height={800}
-            className="object-cover rounded-lg"
-          />
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/motorcycle/motor-cycle.png"
+              alt="Florida Motorcycle Accident"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
+
+          {/* Right Text */}
+          <div className="flex flex-col justify-center text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              Riding a motorcycle in Florida gives you a unique sense of
+              freedom, but that freedom comes with risks on our busy highways
+              and beautiful coastal roads. When a driver doesn't see a biker or
+              doesn't follow the rules of the road, bad things usually happen.
+            </p>
+          </div>
         </div>
-
-        <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
-          <p>
-            Riding a motorcycle in Florida gives you a unique sense of freedom,
-            but that freedom comes with risks on our busy highways and beautiful
-            coastal roads. When a driver doesn't see a biker or doesn't follow
-            the rules of the road, bad things usually happen.
-          </p>
-
+        <div className="space-y-6 text-sm md:text-lg text-slate-600 leading-relaxed">
           <p>
             Carter Injury Law knows that the time after a crash is very hard on
             your body, mind, and wallet. As your dedicated motorcycle accident
@@ -65,7 +71,7 @@ export default function FloridaMotorcycleAccidentPage() {
             How Does an Attorney Protect Your Legal Rights?
           </h3>
 
-          <p>
+          <p className="text-sm md:text-lg">
             The legal process following a collision is rarely straightforward,
             especially when multiple vehicles or disputed liabilities are
             involved. Hiring a skilled motorcycle accident attorney is the most
@@ -74,7 +80,7 @@ export default function FloridaMotorcycleAccidentPage() {
             shifting the blame onto the motorcyclist.
           </p>
 
-          <p>
+          <p className="text-sm md:text-lg">
             We counter these tactics by conducting our own independent
             investigations, gathering forensic evidence, and interviewing
             witnesses to build a foundation of truth. Our goal is to present a
@@ -86,7 +92,7 @@ export default function FloridaMotorcycleAccidentPage() {
             Look Beyond Medical Bills for Your Claim
           </h3>
 
-          <p>
+          <p className="text-sm md:text-lg">
             Beyond just filing paperwork, an attorney serves as your strategic
             advisor. We help you understand the full value of your claim, which
             often extends far beyond immediate medical bills. We look at the
@@ -94,7 +100,7 @@ export default function FloridaMotorcycleAccidentPage() {
             capabilities.
           </p>
 
-          <p>
+          <p className="text-sm md:text-lg">
             By examining every detail of the incident, we can identify all
             potential sources of compensation, including third-party liability
             or uninsured motorist coverage. We pride ourselves on being
@@ -115,7 +121,7 @@ export default function FloridaMotorcycleAccidentPage() {
             Your First Tasks After a Motorcycle Crash
           </h3>
 
-          <p>
+          <p className="text-sm md:text-lg">
             In the chaotic moments following a motorcycle accident, it is easy
             to feel overwhelmed. The first priority must always be medical
             attention, as many internal injuries do not manifest symptoms until
@@ -123,7 +129,7 @@ export default function FloridaMotorcycleAccidentPage() {
             documenting the scene and preserving evidence.
           </p>
 
-          <p>
+          <p className="text-sm md:text-lg">
             This includes taking photographs of the road conditions, vehicle
             positions, and any visible injuries. In Florida, the window to act
             is limited, and the steps you take in the first 48 hours can
@@ -135,7 +141,7 @@ export default function FloridaMotorcycleAccidentPage() {
             Why You Should Avoid Insurance Adjusters
           </h3>
 
-          <p>
+          <p className="text-sm md:text-lg">
             It is also crucial to avoid making recorded statements to insurance
             companies without legal counsel present. Anything you say can be
             used to diminish your claim later. Our team steps in to handle all
@@ -143,7 +149,7 @@ export default function FloridaMotorcycleAccidentPage() {
             twisted.
           </p>
 
-          <p>
+          <p className="text-sm md:text-lg">
             We also coordinate with medical professionals to ensure your
             injuries are correctly documented and that your treatment plan is
             consistent with the standard of care required for your recovery. By
@@ -157,7 +163,7 @@ export default function FloridaMotorcycleAccidentPage() {
             Specific Case
           </h2>
 
-          <p>
+          <p className="text-sm md:text-lg">
             Not every law firm has the specific knowledge required to win a
             biker's case. Experience and a track record for success make the
             difference.
@@ -167,7 +173,7 @@ export default function FloridaMotorcycleAccidentPage() {
             Why Specialized Focus on Biker Litigation Matters
           </h3>
 
-          <p>
+          <p className="text-sm md:text-lg">
             Selecting legal representation is one of the most important
             decisions you will make after a crash. You shouldn't settle for a
             general practitioner; you need the best motorcycle accident lawyer
@@ -175,7 +181,7 @@ export default function FloridaMotorcycleAccidentPage() {
             litigation.
           </p>
 
-          <p>
+          <p className="text-sm md:text-lg">
             These cases require an understanding of specific mechanical factors,
             such as "death wobbles" or braking distances, which differ
             significantly from passenger cars. We have built a reputation for
@@ -187,7 +193,7 @@ export default function FloridaMotorcycleAccidentPage() {
             Trial Readiness: The Key to a Fair Settlement
           </h3>
 
-          <p>
+          <p className="text-sm md:text-lg">
             The best advocates are those who are not afraid to go to trial if a
             settlement offer is insufficient. While many firms prefer quick
             settlements to maintain high turnover, we prepare every case as if
@@ -196,7 +202,7 @@ export default function FloridaMotorcycleAccidentPage() {
             clients' recovery.
           </p>
 
-          <p>
+          <p className="text-sm md:text-lg">
             When you choose us, you are choosing a firm that values integrity,
             hard work, and results. We invite you to look at our past successes
             and client testimonials, which reflect our commitment to being the

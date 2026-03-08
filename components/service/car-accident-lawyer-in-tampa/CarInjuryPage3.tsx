@@ -25,7 +25,7 @@ export default function CarInjuryPage1() {
                 />
               </div> */}
 
-              <div className="flex flex-col justify-center text-lg leading-[1.9] space-y-4 md:flex-1">
+              <div className="flex flex-col justify-center text-sm md:text-lg leading-[1.9] space-y-4 md:flex-1">
                 <p>
                   Florida’s legal framework for motor vehicle injury claims is
                   shaped by mandated insurance coverages, statutory thresholds,
@@ -36,30 +36,30 @@ export default function CarInjuryPage1() {
               </div>
             </div>
 
-            <p>
+            <p className="text-sm md:text-lg">
               That PIP layer changes the early choreography of claims. Medical
               providers bill PIP first for emergency care and short-term
               treatment, but PIP limits are often insufficient for serious
               injuries.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Two major statutory shifts in recent years have changed how fault
               and timing affect recovery. Florida moved to modified comparative
               negligence rules.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               The deadline for bringing negligence suits has also shortened,
               meaning claims must be filed faster than before.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Coverage layering matters because claims may involve liability
               coverage, UM/UIM coverage, and other policies.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Typical claims begin with medical evaluation and insurance
               notification, followed by negotiation or litigation if needed.
             </p>
@@ -71,39 +71,41 @@ export default function CarInjuryPage1() {
               Compensation That May Be Available After a Crash
             </h2>
 
-            <p>
+            <p className="text-sm md:text-lg">
               After a car accident the financial and personal impact can be
               significant and compensation addresses both economic and
               non-economic damages.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Medical expenses often include hospital treatment, diagnostic
               testing, surgeries, therapy, medications and ongoing care.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Lost wages may include both temporary income loss and long-term
               reduced earning capacity.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Property damage may involve vehicle repairs and replacement costs.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Pain and suffering compensation may cover emotional trauma,
               physical pain, and reduced quality of life.
             </p>
 
-            <p>Severe injuries may require long-term care or rehabilitation.</p>
+            <p className="text-sm md:text-lg">
+              Severe injuries may require long-term care or rehabilitation.
+            </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Wrongful death claims may allow surviving family members to pursue
               damages.
             </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Punitive damages may apply in rare cases involving reckless or
               intentional conduct.
             </p>
@@ -116,7 +118,7 @@ export default function CarInjuryPage1() {
             </h2>
 
             <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
-              {/* <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+              <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
                 <Image
                   src="/assets/car-accident/insurance.png"
                   alt="Attorney Consultation"
@@ -124,14 +126,14 @@ export default function CarInjuryPage1() {
                   height={800}
                   className="object-cover"
                 />
-              </div> */}
+              </div>
 
               {/* Image + Intro Content */}
               <div className="flex flex-col md:flex-row gap-6  items-stretch">
                 {/* Left Image */}
                 <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
                   <Image
-                    src="/assets/car-accident/insurance.png"
+                    src="/assets/car-accident/rules.png"
                     alt="Attorney Consultation"
                     width={1000}
                     height={800}
@@ -141,34 +143,33 @@ export default function CarInjuryPage1() {
 
                 {/* Right Text */}
                 <div className="flex flex-col justify-center text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
-                  <p>
+                  <p className="text-sm md:text-lg">
                     Personal Injury Protection provides initial coverage
                     regardless of fault but has limits.
                   </p>
-                  <p>
+                  <p className="text-sm md:text-lg">
                     Bodily injury liability insurance compensates victims when
                     the at-fault driver has coverage.
+                  </p>
+                  <p className="text-sm md:text-lg">
+                    UM and UIM coverage helps when the responsible driver lacks
+                    insurance.
                   </p>
                 </div>
               </div>
             </div>
-
-            <p>
-              UM and UIM coverage helps when the responsible driver lacks
-              insurance.
-            </p>
-
-            <p>
+            <p className="text-sm md:text-lg">
               Insurance companies may investigate claims and request records.
             </p>
-
-            <p>
+            <p className="text-sm md:text-lg">
               Timing and notice requirements are critical to avoid claim denial.
             </p>
 
-            <p>Coverage disputes may arise and require legal guidance.</p>
+            <p className="text-sm md:text-lg">
+              Coverage disputes may arise and require legal guidance.
+            </p>
 
-            <p>
+            <p className="text-sm md:text-lg">
               Coordination between PIP, health insurance, and other coverage is
               often necessary.
             </p>

@@ -10,7 +10,7 @@ export default function HelpAfterCrash() {
         </h2>
 
         {/* Content */}
-        <div className="text-lg leading-[1.9] text-slate-600  space-y-6">
+        <div className="text-sm md:text-lg leading-[1.9] text-slate-600  space-y-6">
           <p>
             In Florida, car accidents often involve complex factors such as
             comparative fault, multiple insurance policies, and strict

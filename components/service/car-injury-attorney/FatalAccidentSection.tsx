@@ -12,7 +12,7 @@ export default function FatalAccidentSection() {
         </h2>
 
         {/* Content */}
-        <div className="text-lg leading-[1.9] text-slate-600 space-y-6">
+        <div className="text-sm md:text-lg leading-[1.9] text-slate-600 space-y-6">
           <p>
             When a crash results in a loss of life, the legal process shifts in
             both scope and gravity. A fatal car accident attorney in Florida
@@ -70,7 +70,7 @@ export default function FatalAccidentSection() {
           When a Case Needs to Go to Court
         </h3>
 
-        <div className="text-lg leading-[1.9] text-slate-600  space-y-6">
+        <div className="text-sm md:text-lg leading-[1.9] text-slate-600  space-y-6">
           <p>
             While some wrongful death cases resolve through negotiated
             settlements, others must be litigated. A case may need to go to

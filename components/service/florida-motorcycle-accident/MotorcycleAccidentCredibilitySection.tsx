@@ -12,26 +12,35 @@ export default function MotorcycleAccidentCredibilitySection() {
           Why Florida Riders Believe We Are the Best Lawyer for Motorcycle
           Accident Victims?
         </h2>
-        <div className="relative max-w-[850px] mb-8">
-          <Image
-            src="/assets/motorcycle/victim.png"
-            alt="Florida Motorcycle Accident"
-            width={1000}
-            height={800}
-            className="object-cover rounded-lg"
-          />
+
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/motorcycle/victim.png"
+              alt="Florida Motorcycle Accident"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
+
+          {/* Right Text */}
+          <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              Our commitment to our clients goes beyond the courtroom, as we
+              focus on your physical and emotional well-being from day one.
+            </p>
+          </div>
         </div>
-        <p>
-          Our commitment to our clients goes beyond the courtroom, as we focus
-          on your physical and emotional well-being from day one.
-        </p>
 
         {/* H3 */}
         <h3 className="text-xl font-semibold text-slate-800">
           A Total Approach to Your Recovery
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           What sets us apart as the best lawyer for motorcycle accident victims
           is our overall approach to recovery. We don't just see a legal case;
           we see a person whose life has been upended. We assist our clients in
@@ -39,14 +48,14 @@ export default function MotorcycleAccidentCredibilitySection() {
           surgeons to neurologists.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           We understand that a full recovery involves physical, mental, and
           financial healing. After a traumatic event, we assist our clients in
           regaining their independence and moving on with their lives by
           offering all-encompassing support.
         </p>
 
-        <ul className="list-disc pl-6 space-y-2">
+        <ul className="list-disc pl-6 space-y-2 text-sm md:text-lg">
           <li>
             We exclusively handle personal injury and motorcycle litigation.
           </li>
@@ -61,7 +70,7 @@ export default function MotorcycleAccidentCredibilitySection() {
           Stand Up to Corporate Giants and Insurance Teams
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Our firm’s philosophy is rooted in the belief that the legal system
           should protect the vulnerable. We take on the "big guys" so you don't
           have to. Whether your accident happened on I-75, the Gandy Bridge, or
@@ -69,7 +78,7 @@ export default function MotorcycleAccidentCredibilitySection() {
           intensity to every investigation.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Our track record of multi-million-dollar settlements and verdicts
           speaks to our capability, but our commitment to our clients'
           well-being is what truly defines us. We are honored to be the firm
@@ -82,7 +91,7 @@ export default function MotorcycleAccidentCredibilitySection() {
           Safety Trends?
         </h2>
 
-        <p>
+        <p className="text-sm md:text-lg">
           The data paints a clear picture of the dangers bikers face every day
           on our state's most popular highways and coastal roads.
         </p>
@@ -92,7 +101,7 @@ export default function MotorcycleAccidentCredibilitySection() {
           Why Florida Roads Are a Risk for Bikers
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           To understand the scope of the problem, one must look at the current
           motorcycle accident statistics provided by the Florida Department of
           Highway Safety and Motor Vehicles. Florida consistently has one of the
@@ -101,7 +110,7 @@ export default function MotorcycleAccidentCredibilitySection() {
           undeniable.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           These statistics highlight the fact that while motorcycles account for
           only 3% of registered vehicles, they represent nearly 20% of all
           traffic fatalities. This disparity is why we are so passionate about
@@ -113,7 +122,7 @@ export default function MotorcycleAccidentCredibilitySection() {
           The Danger of the Left-Turn at Intersections
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Data also shows that most motorcycle crashes occur at intersections
           when a driver fails to yield the right-of-way while turning left.
           These "left-turn" accidents are a leading cause of severe injury and
@@ -121,7 +130,7 @@ export default function MotorcycleAccidentCredibilitySection() {
           the defense strategies that will be used against you.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           We use statistical data to demonstrate to juries that motorcyclists
           are often the victims of a general lack of awareness from larger
           vehicle drivers. Understanding these patterns allows us to build a
@@ -134,7 +143,7 @@ export default function MotorcycleAccidentCredibilitySection() {
           Legal Care
         </h2>
 
-        <p>
+        <p className="text-sm md:text-lg">
           A crash often leaves behind scars that are both visible and invisible,
           requiring long-term care and professional medical support.
         </p>
@@ -144,14 +153,14 @@ export default function MotorcycleAccidentCredibilitySection() {
           Control the Effects of Long-Term Injuries
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           The physical toll of a crash is often permanent. Common motorcycle
           accident injuries range from "road rash" (which can actually lead to
           severe infection and permanent nerve damage) to complex fractures that
           require multiple surgeries.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Because riders are exposed, they are also at high risk for thoracic
           and abdominal injuries, which can cause internal bleeding and organ
           failure. Even a "minor" fall can lead to a concussion or a mild
@@ -159,7 +168,7 @@ export default function MotorcycleAccidentCredibilitySection() {
           personality for years.
         </p>
 
-        <ul className="list-disc pl-6 space-y-2">
+        <ul className="list-disc pl-6 space-y-2 text-sm md:text-lg">
           <li>
             Traumatic Brain Injuries (TBI) can cause permanent problems with
             thinking or moving.
@@ -179,7 +188,7 @@ export default function MotorcycleAccidentCredibilitySection() {
           Document Every Step of the Healing Process
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Carter Injury Law works closely with medical professionals to keep
           track of how your healing is going. We ensure that the full extent of
           your disability is captured in the legal record. This includes the
@@ -188,7 +197,7 @@ export default function MotorcycleAccidentCredibilitySection() {
           after a violent crash.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           We believe that compensation should cover the person as a whole,
           acknowledging both the visible scars and the invisible trauma that
           follows an accident.
@@ -200,7 +209,7 @@ export default function MotorcycleAccidentCredibilitySection() {
           for Your Loss
         </h2>
 
-        <p>
+        <p className="text-sm md:text-lg">
           You should never settle for less than the full value of what you lost
           due to someone else's negligence or mistake.
         </p>
@@ -209,7 +218,7 @@ export default function MotorcycleAccidentCredibilitySection() {
           Pursue Every Category of Damages Available
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           The primary goal of any legal claim is to secure the motorcycle
           accident compensation you need to rebuild your life. This financial
           recovery is not a windfall; it is a vital resource designed to restore
@@ -219,7 +228,7 @@ export default function MotorcycleAccidentCredibilitySection() {
           and physical disabilities.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           In cases of gross negligence, like when someone drives drunk, we may
           also seek punitive damages to punish the person and stop others from
           doing the same thing.
@@ -229,14 +238,14 @@ export default function MotorcycleAccidentCredibilitySection() {
           Humanize the Victim to Counter Insurance Tactics
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           To get the most money, you need a lawyer who can tell your story well.
           We show how the injury has changed your daily life and your
           relationships by using day-in-the-life videos and family members'
           testimonies. We don't just present bills; we present a human life.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           When we make the victim seem more human, it makes it harder for
           insurance companies to offer lowball settlements. Our firm is
           dedicated to ensuring that every client receives a settlement or

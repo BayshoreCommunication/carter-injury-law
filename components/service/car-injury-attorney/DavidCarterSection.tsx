@@ -15,7 +15,7 @@ export default function DavidCarterSection() {
               David Carter
             </h2>
 
-            <div className="text-sm leading-relaxed text-slate-200 space-y-3">
+            <div className="text-sm md:text-lg leading-relaxed text-slate-200 space-y-3">
               <p>
                 With more than 30 years of experience, Paul specializes in
                 personal injury cases, auto accidents, wrongful death, and

@@ -6,7 +6,7 @@ export default function UninsuredClaimSection() {
       {/* Left aligned container */}
       <div className="">
         {/* Paragraph Content */}
-        <div className="mt-8 text-lg  text-slate-600 leading-relaxed space-y-6">
+        <div className="mt-8 text-sm md:text-lg  text-slate-600 leading-relaxed space-y-6">
           <p className="">
             There are also specialized concerns in serious crashes. Catastrophic
             injuries, traumatic brain injuries, spinal cord injuries, and

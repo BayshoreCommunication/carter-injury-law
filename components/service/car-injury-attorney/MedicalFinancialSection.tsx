@@ -24,7 +24,7 @@ export default function MedicalFinancialSection() {
           Medical Documentation That Strengthens Your Case
         </h2>
 
-        <div className="text-lg leading-[1.9] text-slate-600  space-y-5">
+        <div className="text-sm md:text-lg leading-[1.9] text-slate-600  space-y-5">
           <p>
             Medical documentation is the backbone of any successful injury
             claim. Without clear, consistent records, even legitimate injuries
@@ -59,7 +59,7 @@ export default function MedicalFinancialSection() {
           Calculating Long-Term Financial Impact
         </h2>
 
-        <div className="text-lg leading-[1.9] text-slate-600 space-y-5">
+        <div className="text-sm md:text-lg leading-[1.9] text-slate-600 space-y-5">
           <p>
             The true cost of a serious crash often reveals itself over time.
             Initial bills may be only a fraction of the financial impact. An

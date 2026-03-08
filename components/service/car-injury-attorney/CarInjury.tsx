@@ -17,7 +17,7 @@ export default function CarInjuryPage() {
             className="object-cover w-full"
           />
         </div>
-        <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
+        <div className="space-y-6 text-sm md:text-lg text-slate-600 leading-relaxed">
           <p className="">
             As a car injury attorney, Carter Injury Law steps into the difficult
             hours after a crash with the single purpose of helping you secure

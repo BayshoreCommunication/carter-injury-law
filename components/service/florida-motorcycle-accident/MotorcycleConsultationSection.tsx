@@ -11,7 +11,7 @@ export default function MotorcycleConsultationSection() {
           Consult with the Best Motorcycle Accident Attorney for Free
         </h2>
 
-        <p>
+        <p className="text-sm md:text-lg">
           You deserve clear answers and a roadmap for your case before you
           commit to any legal path or sign any contracts.
         </p>
@@ -21,7 +21,7 @@ export default function MotorcycleConsultationSection() {
           What to Expect at Your Free Case Evaluation
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           The road to justice begins with a single conversation. Consulting with
           the best motorcycle accident attorney allows you to gain a realistic
           perspective on your legal options without any financial risk. During
@@ -30,13 +30,13 @@ export default function MotorcycleConsultationSection() {
           your chances for recovery.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           We believe in transparency; if we don't believe your case has a high
           probability of success, we will tell you why. We are not interested in
           wasting your time; we are interested in winning your case.
         </p>
 
-        <ul className="list-disc pl-6 space-y-2">
+        <ul className="list-disc pl-6 space-y-2 text-sm md:text-lg">
           <li>
             Free Evaluations: Zero cost to speak with an attorney about your
             crash.
@@ -55,7 +55,7 @@ export default function MotorcycleConsultationSection() {
           We Visit You If Travel Is a Burden
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Our attorneys are available to meet with you at our Tampa office, or
           we can travel to your home or hospital room if your injuries prevent
           you from coming to us. We understand that after a major collision,
@@ -64,7 +64,7 @@ export default function MotorcycleConsultationSection() {
           physical condition is.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           This initial meeting is your opportunity to ask questions about our
           experience, our fees, and our strategy. We want you to feel completely
           confident in our ability to represent your interests before you sign a
@@ -77,7 +77,7 @@ export default function MotorcycleConsultationSection() {
           and Success
         </h2>
 
-        <p>
+        <p className="text-sm md:text-lg">
           The right representation understands the road as well as you do,
           combining legal skill with a true passion for the Florida ride.
         </p>
@@ -87,14 +87,14 @@ export default function MotorcycleConsultationSection() {
           Why Do You Need an Advocate from the Motorcycle Community?
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           In the sea of legal advertisements, finding the right lawyer for
           motorcycle accident representation can feel like a daunting task. You
           should look for a lawyer who is not only a member of the Florida Bar
           but also an active participant in the motorcycle community.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Experience in the courtroom is essential, as is a willingness to
           communicate directly with clients rather than delegating everything to
           a paralegal. Carter Injury Law prioritizes the attorney-client
@@ -107,7 +107,7 @@ export default function MotorcycleConsultationSection() {
           A Clear View of Florida’s Unique Insurance Laws
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Furthermore, the right lawyer will have a deep understanding of
           Florida's insurance landscape. Since PIP insurance is not required for
           motorcycles, we must look to other avenues such as bodily injury
@@ -115,7 +115,7 @@ export default function MotorcycleConsultationSection() {
           uninsured/underinsured motorist (UM) policy.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           We have a deep understanding of how to stack policies and navigate the
           intricacies of insurance contracts to maximize your payout. Our
           reputation for thoroughness and ethical practice means that when
