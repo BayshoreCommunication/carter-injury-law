@@ -149,7 +149,7 @@ export default function AutomobileAttorneySection() {
             {/* Contact Page Button */}
             <Link
               href="/contact"
-              className="bg-[#CE2523 hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold inline-block"
+              className="bg-[#CE2523] hover:bg-red-700 transition px-6 py-3 rounded-full font-semibold inline-block"
             >
               FREE CASE CONSULTATION
             </Link>
