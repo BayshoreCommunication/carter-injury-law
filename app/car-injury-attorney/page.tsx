@@ -11,6 +11,12 @@ const page = async () => {
   const relatedBlogs =
     blogPostData?.data
       ?.filter((post) => post?.published === true)
+      ?.sort(
+        (a, b) =>
+          new Date(b?.createdAt || 0).getTime() -
+          new Date(a?.createdAt || 0).getTime(),
+      )
+      ?.slice(0, 10)
       ?.map((post) => ({
         title: post.title,
         slug: post.slug,
