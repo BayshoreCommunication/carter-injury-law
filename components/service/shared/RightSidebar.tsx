@@ -6,19 +6,17 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Star } from "lucide-react";
 import { MdArrowOutward } from "react-icons/md";
-import { send } from "emailjs-com";
 import Swal from "sweetalert2";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import emailjs from "@emailjs/browser";
 import "swiper/css";
-/* ---------------- TYPES ---------------- */
 
 interface RightSidebarProps {
   practiceAreas?: { title: string; slug: string }[];
-  relatedBlogs: {
+  relatedBlogs?: {
     title: string;
     slug: string;
-    featuredImage?: string;
   }[];
   testimonials?: {
     text: string;
@@ -26,50 +24,36 @@ interface RightSidebarProps {
   }[];
 }
 
-/* ---------------- FORM VALIDATION ---------------- */
+/* ---------------- VALIDATION ---------------- */
 
 const validateForm = (values: any) => {
   const errors: any = {};
 
-  if (!values.firstName) errors.firstName = "First Name is required!";
-  if (!values.lastName) errors.lastName = "Last Name is required!";
+  if (!values.firstName) errors.firstName = "First name is required";
+  if (!values.lastName) errors.lastName = "Last name is required";
+  if (!values.phone) errors.phone = "Phone number is required";
+  if (!values.zipCode) errors.zipCode = "Zip code is required";
 
   if (!values.email) {
-    errors.email = "Email is required!";
+    errors.email = "Email is required";
   } else {
     const emailParts = values.email.split("@");
     if (emailParts.length !== 2 || !emailParts[1].includes(".")) {
-      errors.email = "This is not a valid email format!";
+      errors.email = "Invalid email format";
     }
   }
 
-  if (!values.phone) errors.phone = "Phone number is required!";
-  if (!values.zipCode) errors.zipCode = "Zipcode is required!";
-  if (!values.caseType) errors.caseType = "Case Type is required!";
-  if (!values.flag)
-    errors.flag = "Accept Terms & acknowledge our Privacy Policy.";
-
-  if (!values.message) {
-    errors.message = "Message is required!";
-  } else {
-    const words = values.message.trim().split(/\s+/);
-    if (words.length < 10) {
-      errors.message =
-        "Message must be at least 10 words. Current count: " + words.length;
-    }
-  }
+  if (!values.message) errors.message = "Message is required";
 
   return errors;
 };
 
-export default function RightSidebar({
+export default function ContactForm({
   practiceAreas = [],
-  relatedBlogs,
-  testimonials,
+  relatedBlogs = [],
+  testimonials = [],
 }: RightSidebarProps) {
   const pathname = usePathname();
-
-  /* ---------------- FORM STATE ---------------- */
 
   const [emailForm, setEmailForm] = useState({
     firstName: "",
@@ -77,60 +61,90 @@ export default function RightSidebar({
     phone: "",
     zipCode: "",
     email: "",
-    caseType: "",
     message: "",
-    flag: false,
   });
 
-  const [loading, setLoading] = useState(false);
   const [formErrors, setFormErrors] = useState<any>({});
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
-    setLoading(true);
 
     const errors = validateForm(emailForm);
     setFormErrors(errors);
 
-    if (Object.keys(errors).length === 0) {
-      send(
-        "service_du7590l",
-        "template_9ql7ubi",
+    if (Object.keys(errors).length !== 0) return;
+
+    setLoading(true);
+
+    emailjs
+      .send(
+        "service_vmukhcv",
+        "template_slenem9",
         emailForm,
-        "igJ5_f7vinFq47loI",
+        "i8FqedtCuwiwnAayK",
       )
-        .then(() => {
-          Swal.fire({
-            icon: "success",
-            text: "Thank you for reaching out. Our team will respond shortly.",
-            confirmButtonColor: "#131b2a",
-          });
-          setEmailForm({
-            firstName: "",
-            lastName: "",
-            phone: "",
-            zipCode: "",
-            email: "",
-            caseType: "",
-            message: "",
-            flag: false,
-          });
-        })
-        .catch(() => {
-          Swal.fire({
-            icon: "error",
-            text: "Something went wrong!",
-          });
-        })
-        .finally(() => setLoading(false));
-    } else {
-      setLoading(false);
-    }
+      .then(() => {
+        setLoading(false);
+
+        Swal.fire({
+          icon: "success",
+          text: "Thank you for reaching out. Our team will contact you shortly.",
+          confirmButtonColor: "#CE2523",
+        });
+
+        setEmailForm({
+          firstName: "",
+          lastName: "",
+          phone: "",
+          zipCode: "",
+          email: "",
+          message: "",
+        });
+      })
+      .catch(() => {
+        setLoading(false);
+
+        Swal.fire({
+          icon: "error",
+          text: "Something went wrong!",
+        });
+      });
   };
+
+  // const LocationCard = () => (
+  //   <div className="bg-gray-100 rounded-lg p-6 text-center">
+  //     <h3 className="text-xl font-bold mb-4">Our Location</h3>
+
+  //     <div className="h-40 rounded mb-4 overflow-hidden">
+  //       <iframe
+  //         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3525.5693099386745!2d-82.7995663239731!3d27.915187216292992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2fa72fe14cedf%3A0x6af59f2dc2dfe3b4!2s801%20W%20Bay%20Dr%20Ste.%20229%2C%20Largo%2C%20FL%2033770%2C%20USA!5e0!3m2!1sen!2sbd!4v1771997309287!5m2!1sen!2sbd"
+  //         className="w-full h-full border-0"
+  //         loading="lazy"
+  //       ></iframe>
+  //     </div>
+
+  //     <p className="font-semibold uppercase">Carter Injury Law</p>
+
+  //     <p className="text-sm text-gray-600 mt-1">
+  //       801 W. Bay Dr., Suite 229, Largo, FL 33770
+  //     </p>
+
+  //     <p className="text-blue-600 font-bold mt-3">(813) 922-0228</p>
+
+  //     <a
+  //       href="https://maps.app.goo.gl/VKjps1YL2a4ryiwH6"
+  //       target="_blank"
+  //       className="mt-3 inline-block bg-[#043666] text-white px-4 py-2 rounded hover:bg-blue-700"
+  //     >
+  //       GET DIRECTIONS
+  //     </a>
+  //   </div>
+  // );
 
   return (
     <aside className="w-full max-w-[350px] space-y-8 pt-0 md:pt-16 mb-8">
-      {/* PROFILE SECTION */}
+      {/* PROFILE */}
       <div className="shadow-lg rounded-md p-6 text-center">
         <div className="flex justify-center mb-6">
           <div className="relative w-[130px] h-[130px] rounded-md overflow-hidden">
@@ -142,8 +156,10 @@ export default function RightSidebar({
             />
           </div>
         </div>
+
         <h2 className="text-4xl font-extrabold text-black">WE FIGHT</h2>
         <p className="text-2xl text-gray-700 mt-2">FOR YOUR RIGHTS</p>
+
         <div className="mt-6">
           <span className="bg-[#CE2523] text-white px-6 py-2 font-semibold">
             CARTER INJURY LAW, PA
@@ -157,9 +173,11 @@ export default function RightSidebar({
           <h3 className="text-xl font-bold mb-4 uppercase border-b pb-2">
             Practice Areas
           </h3>
+
           <ul className="space-y-3 text-sm">
             {practiceAreas.slice(0, 10).map((item, index) => {
               const active = pathname === `/areas-of-practice/${item.slug}`;
+
               return (
                 <li key={index}>
                   <Link
@@ -179,25 +197,22 @@ export default function RightSidebar({
           </ul>
         </div>
       )}
-
-      {/* ---------------- LOCATION CARD ---------------- */}
+      {/* Location Card */}
       <div className="bg-gray-100 rounded-lg p-6 text-center">
-        <h3 className="text-xl font-bold mb-4">Our Location</h3>
+        <h3 className="text-xl font-bold mb-4">Our Tampa Office</h3>
 
         <div className="h-40 rounded mb-4 overflow-hidden">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3525.5693099386745!2d-82.7995663239731!3d27.915187216292992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2fa72fe14cedf%3A0x6af59f2dc2dfe3b4!2s801%20W%20Bay%20Dr%20Ste.%20229%2C%20Largo%2C%20FL%2033770%2C%20USA!5e0!3m2!1sen!2sbd!4v1771997309287!5m2!1sen!2sbd"
+            src="https://www.google.com/maps?q=3114+N+Boulevard+Tampa+FL+33603&output=embed"
             className="w-full h-full border-0"
             loading="lazy"
-            allowFullScreen
-            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
 
         <p className="font-semibold uppercase">Carter Injury Law</p>
 
         <p className="text-sm text-gray-600 mt-1">
-          3114 N. BOULEVARD TAMPA, FL 33603
+          3114 N. Boulevard Tampa, FL 33603
         </p>
 
         <p className="text-blue-600 font-bold mt-3">(813) 922-0228</p>
@@ -212,7 +227,7 @@ export default function RightSidebar({
         </a>
       </div>
 
-      {/* CONTACT FORM (EXACT SAME) */}
+      {/* CONTACT FORM */}
       <div className="bg-gray-100 rounded-lg p-6">
         <h3 className="text-xl font-bold mb-6 text-center">
           FREE CASE EVALUATION
@@ -296,12 +311,12 @@ export default function RightSidebar({
         </form>
       </div>
 
-      {/* BLOG SECTION */}
       {relatedBlogs.length > 0 && (
         <div className="bg-white shadow-md rounded-lg p-6">
           <h3 className="text-xl font-bold mb-6 uppercase border-b pb-2">
             Recent Posts
           </h3>
+
           <ul className="space-y-5">
             {relatedBlogs.slice(0, 10).map((item, index) => (
               <li key={index}>
@@ -316,18 +331,15 @@ export default function RightSidebar({
           </ul>
         </div>
       )}
-
-      {/* ---------------- LOCATION CARD ---------------- */}
+      {/* Location Card  */}
       <div className="bg-gray-100 rounded-lg p-6 text-center">
-        <h3 className="text-xl font-bold mb-4">Our Location</h3>
+        <h3 className="text-xl font-bold mb-4">Our Largo Office</h3>
 
         <div className="h-40 rounded mb-4 overflow-hidden">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3525.5693099386745!2d-82.7995663239731!3d27.915187216292992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2fa72fe14cedf%3A0x6af59f2dc2dfe3b4!2s801%20W%20Bay%20Dr%20Ste.%20229%2C%20Largo%2C%20FL%2033770%2C%20USA!5e0!3m2!1sen!2sbd!4v1771997309287!5m2!1sen!2sbd"
+            src="https://www.google.com/maps?q=801+W+Bay+Dr+Suite+229+Largo+FL+33770&output=embed"
             className="w-full h-full border-0"
             loading="lazy"
-            allowFullScreen
-            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
 
@@ -349,24 +361,17 @@ export default function RightSidebar({
         </a>
       </div>
 
-      {/* TESTIMONIAL SLIDER */}
-
-      {testimonials && testimonials.length > 0 && (
-        <div className="w-full max-w-[450px] bg-[#1f2a44] text-white rounded-2xl px-8 py-12 text-center shadow-xl overflow-hidden mb-16">
+      {testimonials.length > 0 && (
+        <div className="bg-[#1f2a44] text-white rounded-2xl px-8 py-12 text-center shadow-xl">
           <Swiper
             modules={[Autoplay]}
             slidesPerView={1}
-            slidesPerGroup={1}
             loop
-            autoplay={{
-              delay: 4000,
-              disableOnInteraction: false,
-            }}
-            className="w-full !max-w-full"
+            autoplay={{ delay: 4000 }}
           >
             {testimonials.map((item, index) => (
-              <SwiperSlide key={index} className="!w-full">
-                <div className="w-full">
+              <SwiperSlide key={index}>
+                <div>
                   <div className="flex justify-center gap-2 mb-6 text-blue-600">
                     {Array.from({ length: 5 }).map((_, i) => (
                       <Star
