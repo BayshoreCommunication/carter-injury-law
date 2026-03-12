@@ -34,7 +34,7 @@ export default function ExperiencedLawyersSection() {
           </div>
         </div>
         {/* Paragraph Content */}
-        <div className="text-sm md:text-lgleading-[1.9] text-slate-600  space-y-6">
+        <div className="text-sm md:text-lg  leading-[1.9] text-slate-600  space-y-6">
           <p>
             In Florida, where insurance carriers handle high volumes of
             collision claims, experience helps separate routine cases from those

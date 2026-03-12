@@ -24,7 +24,7 @@ export default function FloridaMotorcycleAccidentPage() {
           </div>
 
           {/* Right Text */}
-          <div className="flex flex-col justify-center text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+          <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
             <p>
               Riding a motorcycle in Florida gives you a unique sense of
               freedom, but that freedom comes with risks on our busy highways

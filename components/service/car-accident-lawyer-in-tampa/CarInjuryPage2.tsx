@@ -243,7 +243,7 @@ export default function CarInjuryPage1() {
               </div>
 
               {/* Right Text */}
-              <div className="flex flex-col justify-center text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+              <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
                 <p className="text-sm md:text-lg">
                   Vehicle crashes expose the human body to sudden force, rapid
                   deceleration, and unnatural movement. Even at moderate speeds,

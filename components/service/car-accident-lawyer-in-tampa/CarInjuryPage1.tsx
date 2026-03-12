@@ -116,7 +116,7 @@ export default function CarInjuryPage1() {
               </div>
 
               {/* Right Text */}
-              <div className="flex flex-col justify-center text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+              <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
                 <p>
                   Trust in a law firm is earned through consistency, not
                   slogans. Carter Injury Law has built its reputation in Tampa

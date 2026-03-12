@@ -12,7 +12,7 @@ export default function VehicleAccidentGuidanceSection() {
         </h2>
 
         {/* Content */}
-        <div className="text-sm md:text-lgleading-[1.9] text-slate-600  space-y-6">
+        <div className="text-sm md:text-lg leading-[1.9] text-slate-600  space-y-6">
           <p>
             Serious injuries change the rhythm of daily life. Pain, limited
             mobility, and uncertainty about recovery affect work, relationships,

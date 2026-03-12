@@ -186,7 +186,7 @@ export default function MotorcycleAccidentFinalSection() {
           </div>
 
           {/* Right Text */}
-          <div className="flex flex-col justify-start text-sm md:text-lgleading-[1.9] text-slate-600 space-y-4 md:flex-1">
+          <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
             <p>
               We provide the final word in motorcycle litigation, offering a
               clear and certain path to closure for injured bikers.

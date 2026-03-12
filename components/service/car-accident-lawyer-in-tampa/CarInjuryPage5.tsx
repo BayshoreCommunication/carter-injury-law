@@ -27,7 +27,7 @@ export default function CarInjuryPage1() {
               </div>
 
               {/* Right Text */}
-              <div className="flex flex-col justify-center text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+              <div className="flex flex-col justify-start text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
                 <p className="text-sm md:text-lg">
                   When a car accident occurs in Tampa, victims often have
                   immediate questions about their legal rights, potential
