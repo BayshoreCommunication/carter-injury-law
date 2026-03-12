@@ -10,7 +10,7 @@ export default function RVAccidentFloridaSection() {
           How Does the Roadway RV Experience Differ for Local Florida Drivers?
         </h2>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Driving a roadway rv through Florida requires constant vigilance due
           to our unique weather and high traffic volume. When other drivers fail
           to respect your space, the law provides a way for you to seek justice
@@ -21,14 +21,14 @@ export default function RVAccidentFloridaSection() {
           Understand Florida’s unique road hazards
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           From the torrential rains of the summer to the "snowbird" traffic of
           the winter, Florida’s roads are always changing. We investigate
           whether the at-fault driver was traveling too fast for the conditions
           or if they failed to check their blind spots before a merge.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           We can more effectively defend the rights of our clients if we are
           aware of the unique pressures associated with driving in Florida.
           Every RVer has the right to travel safely on the stunning highways in
@@ -39,12 +39,12 @@ export default function RVAccidentFloridaSection() {
           Protect your right to the road
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Motorcyclists and RVers often face an unfair bias from other drivers
           who think they "take up too much space."
         </p>
 
-        <ul className="list-disc pl-6 space-y-2">
+        <ul className="list-disc pl-6 space-y-2 text-sm md:text-lg">
           <li>We prove that you were legally occupying your lane.</li>
           <li>Document how the other driver’s aggression led to the crash.</li>
           <li>Proving that you gave ample notice of your maneuvers.</li>
@@ -57,7 +57,7 @@ export default function RVAccidentFloridaSection() {
           What Evidence Is Vital to Proving Fault in an RV Wreck?
         </h2>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Proving who is to blame for an rv wreck requires a mountain of
           physical and digital proof. We leave no stone unturned, ensuring that
           the insurance company cannot escape their responsibility to you.
@@ -67,7 +67,7 @@ export default function RVAccidentFloridaSection() {
           Gather physical and forensic proof
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           We examine the damage patterns on both vehicles to determine the angle
           and force of the impact. This forensic evidence is often the only way
           to prove that a driver cut you off or swerved into your lane. We also
@@ -81,12 +81,12 @@ export default function RVAccidentFloridaSection() {
           Secure statements from unbiased observers
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           Witnesses who were not involved in the crash are often the most
           powerful voices in a case.
         </p>
 
-        <ul className="list-disc pl-6 space-y-2">
+        <ul className="list-disc pl-6 space-y-2 text-sm md:text-lg">
           <li>We track down the people who saw the impact happen.</li>
           <li>Analyze the police officer’s initial findings and citations.</li>
           <li>Speak to the paramedics about what they saw at the scene.</li>
@@ -99,7 +99,7 @@ export default function RVAccidentFloridaSection() {
           Why Is a Camper Wreck a Life-Altering Event for Most Families?
         </h2>
 
-        <p>
+        <p className="text-sm md:text-lg">
           A camper wreck is more than just a car accident; it is the destruction
           of a dream and a significant financial asset. We treat your case with
           the gravity it deserves, fighting for a settlement that allows you to
@@ -132,7 +132,7 @@ export default function RVAccidentFloridaSection() {
           Account for the total human cost
         </h3>
 
-        <p>
+        <p className="text-sm md:text-lg">
           We look at the pain, the fear, and the long-term impact on your
           family’s happiness. If you can no longer enjoy the outdoors or if the
           crash has left you afraid to travel, those are real losses that
@@ -162,14 +162,14 @@ export default function RVAccidentFloridaSection() {
           We Are Ready to Fight for Your Recovery
         </h2>
 
-        <p>
+        <p className="text-sm md:text-lg">
           No matter if you were driving the camper or were in the blind spot of
           a big truck, we are ready to fight for the justice you deserve. We
           take care of each case with the attention it needs, making sure that
           we don't miss any details in our search for accountability.
         </p>
 
-        <p>
+        <p className="text-sm md:text-lg">
           We encourage you to get in touch with us for a free, professional
           review of your claim. We are proud to speak up for the injured in
           Tampa, St. Petersburg, Clearwater, and the nearby Greater Tampa Bay
@@ -180,14 +180,14 @@ export default function RVAccidentFloridaSection() {
           <p>3114 N. BOULEVARD TAMPA, FL 33603</p>
           <p>801 W. Bay Dr., Suite 229, Largo, FL 33770</p>
 
-          <p>
+          <p className="text-sm md:text-lg">
             Direct Line:{" "}
             <a href="tel:+18139220228" className="text-blue-600 underline">
               (813) 922-0228
             </a>
           </p>
 
-          <p>
+          <p className="text-sm md:text-lg">
             <a href="tel:+17279551922" className="text-blue-600 underline">
               (727) 955-1922
             </a>
