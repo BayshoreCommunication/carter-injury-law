@@ -114,7 +114,7 @@ export default function HeroSection() {
               Car Accident <br /> Lawyer in Tampa
             </h1>
 
-            <p className="mt-6 text-gray-700 text-lg max-w-xl">
+            <p className="mt-6 text-gray-700 text-sm md:text-lg max-w-xl">
               If you were injured in a crash, a Tampa car accident lawyer can
               guide you through the legal process, deal with insurance
               companies, and build a strong case for your claim.
