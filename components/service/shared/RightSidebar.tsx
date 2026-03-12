@@ -324,7 +324,7 @@ export default function ContactForm({
                   href={`/blog/${item.slug}`}
                   className="hover:text-[#ED1B24]"
                 >
-                  {item.title}
+                  <span className="text-sm md:text-lg">{item.title}</span>
                 </Link>
               </li>
             ))}
@@ -333,7 +333,7 @@ export default function ContactForm({
       )}
       {/* Location Card  */}
       <div className="bg-gray-100 rounded-lg p-6 text-center">
-        <h3 className="text-sm font-bold mb-4">Our Largo Office</h3>
+        <h3 className="text-xl font-bold mb-4">Our Largo Office</h3>
 
         <div className="h-40 rounded mb-4 overflow-hidden">
           <iframe
