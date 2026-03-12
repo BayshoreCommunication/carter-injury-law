@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -56,13 +57,29 @@ export default function TruckAccidentDamagesSection() {
       <h2 className="text-2xl font-bold text-slate-800 pt-4">
         How the Value of a Truck Accident Claim Is Evaluated
       </h2>
+      {/* Image + Intro Content */}
+      <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+        {/* Left Image */}
+        <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+          <Image
+            src="/assets/truck-accident/value.png"
+            alt="Florida Motorcycle Accident"
+            width={1000}
+            height={800}
+            className="object-cover"
+          />
+        </div>
 
-      <p>
-        The value of a truck accident claim depends on many factors and cannot
-        be determined using a simple formula. Every case is unique, and the
-        final amount is based on the specific losses and circumstances involved
-        in the crash.
-      </p>
+        {/* Right Text */}
+        <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+          <p>
+            The value of a truck accident claim depends on many factors and
+            cannot be determined using a simple formula. Every case is unique,
+            and the final amount is based on the specific losses and
+            circumstances involved in the crash.
+          </p>
+        </div>
+      </div>
 
       <p>
         The evaluation process typically begins with a review of economic
@@ -247,24 +264,33 @@ export default function TruckAccidentDamagesSection() {
       <h2 className="text-2xl font-bold text-slate-800 pt-4">
         What If You Are Partially Responsible for the Accident?
       </h2>
+      {/* Image + Intro Content */}
+      <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+        {/* Left Image */}
+        <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+          <Image
+            src="/assets/truck-accident/partial.png"
+            alt="Florida Motorcycle Accident"
+            width={1000}
+            height={800}
+            className="object-cover"
+          />
+        </div>
 
-      <p>
-        Being partially responsible for a truck accident does not automatically
-        prevent you from recovering compensation. Florida follows a comparative
-        negligence system, which means fault can be shared between multiple
-        parties involved in a crash.
-      </p>
+        {/* Right Text */}
+        <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+          <p>
+            Under this rule, you may still pursue compensation even if you are
+            found partially at fault. However, your recovery is reduced by your
+            percentage of responsibility.
+          </p>
 
-      <p>
-        Under this rule, you may still pursue compensation even if you are found
-        partially at fault. However, your recovery is reduced by your percentage
-        of responsibility.
-      </p>
-
-      <p>
-        Insurance companies often try to shift as much blame as possible onto
-        injured victims to reduce what they pay.
-      </p>
+          <p>
+            Insurance companies often try to shift as much blame as possible
+            onto injured victims to reduce what they pay.
+          </p>
+        </div>
+      </div>
 
       <p>
         Because every percentage of fault matters, it is important to challenge

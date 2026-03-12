@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -148,12 +149,29 @@ export default function LargoCarAccidentInjuryContent() {
       <h2 className="text-2xl font-bold text-slate-800">
         Types of Car Accident Cases We Handle in Largo
       </h2>
+      {/* Image + Intro Content */}
+      <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+        {/* Left Image */}
+        <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+          <Image
+            src="/assets/largo-car-accident/types.png"
+            alt="Florida Motorcycle Accident"
+            width={1000}
+            height={800}
+            className="object-cover"
+          />
+        </div>
 
-      <p>
-        Not every crash looks the same, and not every case should be handled the
-        same way. Some accidents involve minor vehicle damage. Others leave
-        people facing surgery, long-term therapy, or permanent disability.
-      </p>
+        {/* Right Text */}
+        <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+          <p>
+            Not every crash looks the same, and not every case should be handled
+            the same way. Some accidents involve minor vehicle damage. Others
+            leave people facing surgery, long-term therapy, or permanent
+            disability.
+          </p>
+        </div>
+      </div>
 
       <p>
         At Carter Injury Law, we take the time to understand exactly what
@@ -300,19 +318,37 @@ export default function LargoCarAccidentInjuryContent() {
       <h2 className="text-2xl font-bold text-slate-800">
         How Much Does It Cost to Hire a Car Accident Attorney in Largo?
       </h2>
+      {/* Image + Intro Content */}
+      <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+        {/* Left Image */}
+        <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+          <Image
+            src="/assets/largo-car-accident/cost.png"
+            alt="Florida Motorcycle Accident"
+            width={1000}
+            height={800}
+            className="object-cover"
+          />
+        </div>
+
+        {/* Right Text */}
+        <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+          <p>
+            After a crash, financial stress is often one of the first concerns.
+            Medical bills start arriving quickly. You may be missing work.
+            Adding legal fees to the mix can feel overwhelming.
+          </p>
+          <p>
+            Many people ask how much does it cost to hire a car accident
+            attorney in Largo because they assume they will need to pay
+            thousands of dollars upfront.
+          </p>
+        </div>
+      </div>
 
       <p>
-        After a crash, financial stress is often one of the first concerns.
-        Medical bills start arriving quickly. You may be missing work. Adding
-        legal fees to the mix can feel overwhelming.
-      </p>
-
-      <p>
-        Many people ask how much does it cost to hire a car accident attorney in
-        Largo because they assume they will need to pay thousands of dollars
-        upfront. In reality, most injury firms structure their fees so that
-        clients can move forward without adding more financial pressure during
-        recovery.
+        In reality, most injury firms structure their fees so that clients can
+        move forward without adding more financial pressure during recovery.
       </p>
 
       <p>

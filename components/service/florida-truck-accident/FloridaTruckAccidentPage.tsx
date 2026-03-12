@@ -8,15 +8,30 @@ export default function FloridaTruckAccidentPage() {
     <div className="min-h-screen pt-8 px-4 md:px-4">
       <div className="max-w-[1320px] mx-auto w-full">
         <h1 className="text-4xl font-bold mb-6">Florida Truck Accident</h1>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/truck-accident/accident.png"
+              alt="Florida Motorcycle Accident"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
+          {/* Right Text */}
+          <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              If you were injured in a Florida truck accident, having strong
+              legal guidance from the beginning can make a real difference.
+              Carter Injury Law helps injured individuals pursue accountability
+              and fair compensation after serious truck crashes.
+            </p>
+          </div>
+        </div>
         <div className="flex flex-col justify-center text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
-          <p>
-            If you were injured in a Florida truck accident, having strong legal
-            guidance from the beginning can make a real difference. Carter
-            Injury Law helps injured individuals pursue accountability and fair
-            compensation after serious truck crashes.
-          </p>
-
           <p>
             Truck accidents often lead to severe injuries and involve multiple
             responsible parties, along with complex state and federal
@@ -78,14 +93,31 @@ export default function FloridaTruckAccidentPage() {
           <h2 className="text-2xl font-bold text-slate-800 pt-4">
             Cities With the Highest Number of Truck Accidents in Florida
           </h2>
+          {/* Image + Intro Content */}
+          <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+            {/* Left Image */}
+            <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+              <Image
+                src="/assets/truck-accident/city.png"
+                alt="Florida Motorcycle Accident"
+                width={1000}
+                height={800}
+                className="object-cover"
+              />
+            </div>
 
-          <p>
-            Florida’s roadways see a high volume of commercial truck traffic
-            every day due to major ports, tourism, construction, and interstate
-            commerce. With thousands of large trucks traveling across the state,
-            the risk of serious crashes remains consistently high, especially on
-            major highways and urban corridors.
-          </p>
+            {/* Right Text */}
+            <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+              <p>
+                Florida’s roadways see a high volume of commercial truck traffic
+                every day due to major ports, tourism, construction, and
+                interstate commerce. With thousands of large trucks traveling
+                across the state, the risk of serious crashes remains
+                consistently high, especially on major highways and urban
+                corridors.
+              </p>
+            </div>
+          </div>
 
           <p>
             Recent data shows that Florida ranks among the top states nationwide

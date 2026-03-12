@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -8,13 +9,29 @@ export default function LargoCarAccidentAttorneySection() {
       <h1 className="text-4xl font-bold text-slate-800">
         Largo Car Accident Attorney
       </h1>
+      {/* Image + Intro Content */}
+      <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+        {/* Left Image */}
+        <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+          <Image
+            src="/assets/largo-car-accident/largo.png"
+            alt="Florida Motorcycle Accident"
+            width={1000}
+            height={800}
+            className="object-cover"
+          />
+        </div>
 
-      <p>
-        When your life is turned upside down after a car crash, you deserve more
-        than just legal advice, you deserve real support. At Carter Injury Law,
-        we stand by accident victims in Largo and across Florida, fighting for
-        the compensation and justice they deserve.
-      </p>
+        {/* Right Text */}
+        <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+          <p>
+            When your life is turned upside down after a car crash, you deserve
+            more than just legal advice, you deserve real support. At Carter
+            Injury Law, we stand by accident victims in Largo and across
+            Florida, fighting for the compensation and justice they deserve.
+          </p>
+        </div>
+      </div>
 
       <p>
         We represent injured drivers and passengers throughout Largo and the
@@ -188,21 +205,38 @@ export default function LargoCarAccidentAttorneySection() {
       <h2 className="text-2xl font-bold text-slate-800 pt-4">
         When to Call a Car Accident Attorney That Largo FL Residents Trust
       </h2>
+      {/* Image + Intro Content */}
+      <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+        {/* Left Image */}
+        <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+          <Image
+            src="/assets/largo-car-accident/call.png"
+            alt="Florida Motorcycle Accident"
+            width={1000}
+            height={800}
+            className="object-cover"
+          />
+        </div>
 
-      <p>
-        You should contact a car accident attorney as soon as possible after a
-        crash, especially if:
-      </p>
+        {/* Right Text */}
+        <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+          <p>
+            You should contact a car accident attorney as soon as possible after
+            a crash, especially if:
+          </p>
 
+          <ul className="list-disc pl-6 space-y-2">
+            <li>You suffered serious or permanent injuries</li>
+            <li>Fault is being disputed</li>
+            <li>Multiple vehicles were involved</li>
+            <li>A commercial vehicle or rideshare driver was involved</li>
+          </ul>
+        </div>
+      </div>
       <ul className="list-disc pl-6 space-y-2">
-        <li>You suffered serious or permanent injuries</li>
-        <li>Fault is being disputed</li>
-        <li>Multiple vehicles were involved</li>
-        <li>A commercial vehicle or rideshare driver was involved</li>
         <li>The insurance company is pressuring you to settle</li>
         <li>A loved one was killed in the accident</li>
       </ul>
-
       <p>
         Florida law places strict deadlines on filing personal injury claims. In
         most cases, you have two years from the date of the accident to file a

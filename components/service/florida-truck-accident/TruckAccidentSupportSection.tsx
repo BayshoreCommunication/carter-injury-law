@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -8,14 +9,31 @@ export default function TruckAccidentSupportSection() {
       <h2 className="text-2xl font-bold text-slate-800 pt-4">
         How Carter Injury Law Assists Victims After Serious Truck Accidents
       </h2>
+      {/* Image + Intro Content */}
+      <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+        {/* Left Image */}
+        <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+          <Image
+            src="/assets/truck-accident/assist.png"
+            alt="Florida Motorcycle Accident"
+            width={1000}
+            height={800}
+            className="object-cover"
+          />
+        </div>
 
-      <p>
-        After a serious truck accident, victims are often left dealing with
-        painful injuries, medical bills, and pressure from insurance companies.
-        Carter Injury Law steps in to handle the legal burden so you can focus
-        on your recovery. Our team understands how overwhelming these cases can
-        be and provides clear guidance from day one.
-      </p>
+        {/* Right Text */}
+        <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+          <p>
+            After a serious truck accident, victims are often left dealing with
+            painful injuries, medical bills, and pressure from insurance
+            companies. Carter Injury Law steps in to handle the legal burden so
+            you can focus on your recovery. Our team understands how
+            overwhelming these cases can be and provides clear guidance from day
+            one.
+          </p>
+        </div>
+      </div>
 
       <p>
         We take a hands-on approach to every truck accident case, starting with

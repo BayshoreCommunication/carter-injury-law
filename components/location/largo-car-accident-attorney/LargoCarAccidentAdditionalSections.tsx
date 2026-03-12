@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -222,13 +223,29 @@ export default function LargoCarAccidentAdditionalSections() {
       <h2 className="text-2xl font-bold text-slate-800 pt-4">
         What Is the Value of My Largo Car Accident Claim?
       </h2>
+      {/* Image + Intro Content */}
+      <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+        {/* Left Image */}
+        <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+          <Image
+            src="/assets/largo-car-accident/value.png"
+            alt="Florida Motorcycle Accident"
+            width={1000}
+            height={800}
+            className="object-cover"
+          />
+        </div>
 
-      <p>
-        After a crash, one of the first questions people ask is what their case
-        might actually be worth. The bills start arriving quickly. You may be
-        out of work. On top of that, you are dealing with pain, stress, and
-        uncertainty about the future.
-      </p>
+        {/* Right Text */}
+        <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+          <p>
+            After a crash, one of the first questions people ask is what their
+            case might actually be worth. The bills start arriving quickly. You
+            may be out of work. On top of that, you are dealing with pain,
+            stress, and uncertainty about the future.
+          </p>
+        </div>
+      </div>
 
       <p>
         Understanding the potential value of your case starts with looking at
