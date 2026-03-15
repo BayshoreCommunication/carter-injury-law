@@ -182,7 +182,7 @@ export default function LargoCarAccidentAttorneySection() {
       {/* CTA Section */}
       <div className="mt-6 bg-[#27355e] rounded-2xl p-8 text-center text-white">
         <h3 className="text-md tracking-widest uppercase mb-6 text-gray-300">
-          Contact Our Injury Attorneys in St. Petersburg, FL
+          Contact Our Injury Attorneys in 3114 N. BOULEVARD TAMPA, FL 33603
         </h3>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -354,7 +354,8 @@ export default function LargoCarAccidentAttorneySection() {
       {/* CTA Section */}
       <div className="mt-6 bg-[#27355e] rounded-2xl p-8 text-center text-white">
         <h3 className="text-md tracking-widest uppercase mb-6 text-gray-300">
-          Contact Our Injury Attorneys in St. Petersburg, FL
+          Contact Our Injury Attorneys in 801 W. Bay Dr., Suite 229, Largo, FL
+          33770
         </h3>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
