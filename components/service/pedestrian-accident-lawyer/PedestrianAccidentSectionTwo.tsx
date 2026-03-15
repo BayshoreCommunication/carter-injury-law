@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -55,13 +56,29 @@ export default function PedestrianAccidentSectionTwo() {
         <h2 className="text-2xl md:text-4xl font-semibold text-black">
           Legal Protections at Crossings for Pedestrians: Driver Requirements
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/pedestrian-accident/legal.png"
+              alt="Florida Motorcycle Accident"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
-        <p>
-          Florida law gives pedestrians specific legal protections at marked and
-          unmarked crossings. When drivers violate those protections, the
-          consequences for injured walkers are severe. These actions create a
-          clear path for legal recovery.
-        </p>
+          {/* Right Text */}
+          <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              Florida law gives pedestrians specific legal protections at marked
+              and unmarked crossings. When drivers violate those protections,
+              the consequences for injured walkers are severe. These actions
+              create a clear path for legal recovery.
+            </p>
+          </div>
+        </div>
 
         <h3 className="text-xl font-semibold text-slate-800">
           Florida Law and Driver Duties at Crosswalks
@@ -218,11 +235,27 @@ export default function PedestrianAccidentSectionTwo() {
         <h2 className="text-2xl md:text-4xl font-semibold text-black">
           Immediate Legal Rights After a Vehicle Strike
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/pedestrian-accident/rights.png"
+              alt="Florida Motorcycle Accident"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
-        <p>
-          The moments after a crash are chaotic. However, the decisions you make
-          in those first few hours impact your legal case.
-        </p>
+          {/* Right Text */}
+          <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              The moments after a crash are chaotic. However, the decisions you
+              make in those first few hours impact your legal case.
+            </p>
+          </div>
+        </div>
 
         <h3 className="text-xl font-semibold text-slate-800">
           Immediate Steps After the Crash

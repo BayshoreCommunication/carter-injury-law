@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -9,13 +10,29 @@ export default function PedestrianAccidentLawyerContent() {
         <h1 className="text-3xl md:text-5xl font-semibold text-black">
           Pedestrian Accident Lawyer
         </h1>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/pedestrian-accident/pedestrian-accident.png"
+              alt="Florida Motorcycle Accident"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
-        <p>
-          Getting hit by a car while walking is a traumatic experience. Injuries
-          are often severe and the recovery process lasts a long time. Managing
-          the legal and insurance side of things while you try to heal feels
-          like a heavy burden.
-        </p>
+          {/* Right Text */}
+          <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              Getting hit by a car while walking is a traumatic experience.
+              Injuries are often severe and the recovery process lasts a long
+              time. Managing the legal and insurance side of things while you
+              try to heal feels like a heavy burden.
+            </p>
+          </div>
+        </div>
 
         <p>
           Carter Injury Law represents injured pedestrians and their families in

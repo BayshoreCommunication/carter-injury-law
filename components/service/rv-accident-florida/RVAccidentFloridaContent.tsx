@@ -1,6 +1,7 @@
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function RVAccidentFloridaContent() {
   return (
@@ -107,13 +108,29 @@ export default function RVAccidentFloridaContent() {
               Why Are Camper Accidents Particularly Dangerous for Florida
               Families?
             </h2>
+            {/* Image + Intro Content */}
+            <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+              {/* Left Image */}
+              <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+                <Image
+                  src="/assets/rv-accident/camper.png"
+                  alt="Florida Motorcycle Accident"
+                  width={1000}
+                  height={800}
+                  className="object-cover"
+                />
+              </div>
 
-            <p className="text-sm md:text-lg">
-              Whether it is a pop-up trailer or a luxury fifth-wheel, camper
-              accidents often result in total vehicle destruction and serious
-              injury. The lightweight construction of many campers provides
-              little protection in a high-speed highway collision.
-            </p>
+              {/* Right Text */}
+              <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+                <p className="text-sm md:text-lg">
+                  Whether it is a pop-up trailer or a luxury fifth-wheel, camper
+                  accidents often result in total vehicle destruction and
+                  serious injury. The lightweight construction of many campers
+                  provides little protection in a high-speed highway collision.
+                </p>
+              </div>
+            </div>
 
             <h3 className="text-xl font-semibold text-slate-800">
               Address the fragility of camper construction

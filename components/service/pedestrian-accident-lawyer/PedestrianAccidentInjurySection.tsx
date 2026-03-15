@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -261,12 +262,28 @@ export default function PedestrianAccidentInjurySection() {
         <h2 className="text-2xl md:text-4xl font-semibold text-black">
           What to Expect After an Accident
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/pedestrian-accident/expect.png"
+              alt="Florida Motorcycle Accident"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
-        <p>
-          Understanding the legal process helps you make better decisions. It
-          also helps you avoid mistakes that insurance companies expect you to
-          make.
-        </p>
+          {/* Right Text */}
+          <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              Understanding the legal process helps you make better decisions.
+              It also helps you avoid mistakes that insurance companies expect
+              you to make.
+            </p>
+          </div>
+        </div>
 
         <h3 className="text-xl font-semibold text-slate-800">
           The Legal Timeline

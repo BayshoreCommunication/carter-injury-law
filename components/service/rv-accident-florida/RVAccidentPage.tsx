@@ -13,18 +13,35 @@ export default function RVAccidentFloridaPage() {
             <h2 className="text-2xl md:text-4xl font-semibold text-black">
               RV Accident Florida
             </h2>
+            {/* Image + Intro Content */}
+            <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+              {/* Left Image */}
+              <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+                <Image
+                  src="/assets/rv-accident/rv-accident.png"
+                  alt="Florida Motorcycle Accident"
+                  width={1000}
+                  height={800}
+                  className="object-cover"
+                />
+              </div>
 
+              {/* Right Text */}
+              <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+                <p>
+                  Florida is the premier destination for recreational vehicle
+                  enthusiasts, offering sun-drenched highways and world-class
+                  campgrounds from the Panhandle to the Keys. However, the sheer
+                  size and weight of a motorhome or travel trailer make any
+                  collision a high-stakes event.
+                </p>
+              </div>
+            </div>
             <div className="flex flex-col justify-center text-sm md:text-lg leading-[1.9] space-y-4 md:flex-1">
               <p>
-                Florida is the premier destination for recreational vehicle
-                enthusiasts, offering sun-drenched highways and world-class
-                campgrounds from the Panhandle to the Keys. However, the sheer
-                size and weight of a motorhome or travel trailer make any
-                collision a high-stakes event. Carter Injury Law knows that an
-                RV is a mobile home and a big investment in your family's free
-                time.
+                Carter Injury Law knows that an RV is a mobile home and a big
+                investment in your family's free time.
               </p>
-
               <p>
                 When a negligent driver or a mechanical failure leads to a
                 crash, you need a legal team that understands the unique
@@ -108,13 +125,29 @@ export default function RVAccidentFloridaPage() {
               How Can a Florida RV Accident Lawyer Secure the Compensation You
               Deserve?
             </h2>
+            {/* Image + Intro Content */}
+            <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+              {/* Left Image */}
+              <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+                <Image
+                  src="/assets/rv-accident/florida-rv.png"
+                  alt="Florida Motorcycle Accident"
+                  width={1000}
+                  height={800}
+                  className="object-cover"
+                />
+              </div>
 
-            <p className="text-sm md:text-lg">
-              Securing a fair settlement requires more than just filing a claim;
-              it requires a deep understanding of Florida’s personal injury
-              statutes. A skilled florida rv accident lawyer uses every legal
-              tool available to maximize the value of your case.
-            </p>
+              {/* Right Text */}
+              <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+                <p className="text-sm md:text-lg">
+                  Securing a fair settlement requires more than just filing a
+                  claim; it requires a deep understanding of Florida’s personal
+                  injury statutes. A skilled florida rv accident lawyer uses
+                  every legal tool available to maximize the value of your case.
+                </p>
+              </div>
+            </div>
 
             <h3 className="text-xl font-semibold text-slate-800">
               Build a comprehensive value for your claim
@@ -219,13 +252,30 @@ export default function RVAccidentFloridaPage() {
               Why Is an RV Accident Attorney Your Best Advocate Against Big
               Insurance?
             </h2>
+            {/* Image + Intro Content */}
+            <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+              {/* Left Image */}
+              <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+                <Image
+                  src="/assets/rv-accident/attorney.png"
+                  alt="Florida Motorcycle Accident"
+                  width={1000}
+                  height={800}
+                  className="object-cover"
+                />
+              </div>
 
-            <p className="text-sm md:text-lg">
-              Insurance companies treat RV claims differently because the
-              damages are often much higher than a standard car accident. You
-              need an rv accident attorney who can match the resources of these
-              massive corporations and push back against their tactics.
-            </p>
+              {/* Right Text */}
+              <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+                <p className="text-sm md:text-lg">
+                  Insurance companies treat RV claims differently because the
+                  damages are often much higher than a standard car accident.
+                  You need an rv accident attorney who can match the resources
+                  of these massive corporations and push back against their
+                  tactics.
+                </p>
+              </div>
+            </div>
 
             <h3 className="text-xl font-semibold text-slate-800">
               Prevent lowball settlement offers
