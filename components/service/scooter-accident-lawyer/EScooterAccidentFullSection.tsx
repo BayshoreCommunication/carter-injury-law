@@ -243,20 +243,20 @@ export default function EScooterAccidentFullSection() {
           win.
         </p>
 
-        <div className="leading-tight">
+        <div className="space-y-2 font-medium">
           <p className="font-semibold">Carter Injury Law</p>
           <p>3114 N. BOULEVARD TAMPA, FL 33603</p>
           <p>801 W. Bay Dr., Suite 229, Largo, FL 33770</p>
 
-          <p>
+          <p className="text-sm md:text-lg">
             Direct Line:{" "}
-            <a href="tel:+18139220228" className="underline">
+            <a href="tel:+18139220228" className="text-blue-600 underline">
               (813) 922-0228
             </a>
           </p>
 
-          <p>
-            <a href="tel:+17279551922" className="underline">
+          <p className="text-sm md:text-lg">
+            <a href="tel:+17279551922" className="text-blue-600 underline">
               (727) 955-1922
             </a>
           </p>
