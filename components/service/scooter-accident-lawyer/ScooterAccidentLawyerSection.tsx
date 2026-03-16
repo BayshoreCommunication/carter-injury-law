@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -9,14 +10,30 @@ export default function ScooterAccidentLawyerSection() {
         <h1 className="text-3xl md:text-5xl font-semibold text-black">
           Scooter Accident Lawyer
         </h1>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/scooter-accident/scooter.png"
+              alt="Florida Scooter Accident"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
-        <p>
-          It only takes a second for a scooter crash to happen. You are riding
-          one moment. Someone else's carelessness then turns your world upside
-          down. You have rights whether you were riding a regular scooter or an
-          electric rental unit, and you deserve a team that knows how to protect
-          them.
-        </p>
+          {/* Right Text */}
+          <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              It only takes a second for a scooter crash to happen. You are
+              riding one moment. Someone else's carelessness then turns your
+              world upside down. You have rights whether you were riding a
+              regular scooter or an electric rental unit, and you deserve a team
+              that knows how to protect them.
+            </p>
+          </div>
+        </div>
 
         <p>
           Carter Injury Law handles scooter accident cases across Tampa, Tampa
@@ -177,12 +194,28 @@ export default function ScooterAccidentLawyerSection() {
         <h2 className="text-2xl md:text-4xl font-semibold text-black">
           How a Scooter Accident Lawyer in Tampa Fights for Maximum Compensation
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/scooter-accident/fight.png"
+              alt="Florida Scooter Accident"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
-        <p>
-          Getting fair compensation after a crash is complicated. It takes a
-          legal team that understands exactly how insurance companies operate
-          and exactly how to push back against them.
-        </p>
+          {/* Right Text */}
+          <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              Getting fair compensation after a crash is complicated. It takes a
+              legal team that understands exactly how insurance companies
+              operate and exactly how to push back against them.
+            </p>
+          </div>
+        </div>
 
         <h3 className="text-xl font-semibold text-slate-800">
           Insurance Companies Count on You Not Knowing the Rules

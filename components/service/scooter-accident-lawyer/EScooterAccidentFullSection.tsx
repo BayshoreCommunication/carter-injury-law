@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -163,11 +164,41 @@ export default function EScooterAccidentFullSection() {
         <h2 className="text-2xl md:text-4xl font-semibold text-black">
           What Happens When a Scooter Is Hit by a Car?
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6 mb-8 items-stretch">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/scooter-accident/happens.png"
+              alt="Florida Scooter Accident"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
+
+          {/* Right Text */}
+          <div className="flex flex-col justify-start text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              A vehicle striking a scooter is one of the most dangerous and
+              legally significant crash scenarios a rider can face, and the
+              response to it needs to be both immediate and strategically sound.
+            </p>
+          </div>
+        </div>
+
+        <h3 className="text-xl font-semibold text-slate-800">
+          Vehicle-on-Scooter Crashes Produce the Most Serious Injuries
+        </h3>
 
         <p>
-          A vehicle striking a scooter is one of the most dangerous and legally
-          significant crash scenarios a rider can face, and the response to it
-          needs to be both immediate and strategically sound.
+          When a scooter is hit by a car, the consequences are almost always
+          severe. The disparity in size and weight between a car and a scooter
+          means that even a low-speed collision can result in fractures,
+          traumatic brain injuries, and spinal damage. We handle
+          vehicle-on-scooter crash cases with the urgency they deserve. We also
+          build aggressive claims against negligent drivers and the insurance
+          companies that represent them.
         </p>
         {/* CTA */}
         <div className="mt-10 bg-[#27355e] rounded-2xl p-8 text-center text-white">
@@ -193,20 +224,6 @@ export default function EScooterAccidentFullSection() {
             </a>
           </div>
         </div>
-        <h3 className="text-xl font-semibold text-slate-800">
-          Vehicle-on-Scooter Crashes Produce the Most Serious Injuries
-        </h3>
-
-        <p>
-          When a scooter is hit by a car, the consequences are almost always
-          severe. The disparity in size and weight between a car and a scooter
-          means that even a low-speed collision can result in fractures,
-          traumatic brain injuries, and spinal damage. We handle
-          vehicle-on-scooter crash cases with the urgency they deserve. We also
-          build aggressive claims against negligent drivers and the insurance
-          companies that represent them.
-        </p>
-
         <h3 className="text-xl font-semibold text-slate-800">
           How Carter Injury Law Fights for Hit Riders
         </h3>
