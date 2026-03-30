@@ -17,6 +17,7 @@ interface RightSidebarProps {
   relatedBlogs?: {
     title: string;
     slug: string;
+    featuredImage?: string;
   }[];
   testimonials?: {
     text: string;
