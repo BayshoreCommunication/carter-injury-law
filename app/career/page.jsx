@@ -1,6 +1,5 @@
 import Career from "@/components/career/Career";
 import HeroSection from "@/components/home/HeroSection";
-import Head from "next/head";
 import React from "react";
 
 export const metadata = {

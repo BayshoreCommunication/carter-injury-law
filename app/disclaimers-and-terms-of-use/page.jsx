@@ -1,6 +1,5 @@
 import DisclaimersTermsOfUse from "@/components/disclaimers-and-terms-of-use/privacy-policy/DisclaimersTermsOfUse";
 // import HeroSection from "@/components/disclaimers-and-terms-of-use/privacy-policy/HeroSection";
-import Head from "next/head";
 
 export const metadata = {
   title: "",

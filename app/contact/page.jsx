@@ -3,7 +3,6 @@ import GoogleMapSection from "@/components/contact-us/GoogleMapSection";
 import AchievementSection from "@/components/shared/AchievementSection";
 import CallToAction from "@/components/shared/CallToAction";
 import TestimonialSlideSection from "@/components/shared/TestimonialSlideSection";
-import Head from "next/head";
 
 export const metadata = {
   title: "Top Tampa Personal Injury Lawyer in florida | Carter Injury Law | Florida Dog bite lawyer ",

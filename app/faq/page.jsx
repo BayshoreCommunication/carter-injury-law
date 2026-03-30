@@ -1,7 +1,6 @@
 import HeroSection from "@/components/home/HeroSection";
 import CallToAction from "@/components/shared/CallToAction";
 import FAQ from "@/components/shared/FAQ";
-import Head from "next/head";
 import React from "react";
 
 export const metadata = {

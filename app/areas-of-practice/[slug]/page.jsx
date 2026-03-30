@@ -2,7 +2,6 @@ import React from "react";
 import parse from "html-react-parser";
 import { Link } from "@nextui-org/react";
 import SectionLayout from "@/components/shared/SectionLayout";
-import Head from "next/head";
 import { notFound } from "next/navigation";
 import PracticeAreaHeader from "@/components/practice-area/PracticeAreaHeader";
 import { allServiceData } from "@/config/serviceData";
