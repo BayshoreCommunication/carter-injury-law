@@ -17,7 +17,6 @@ interface RightSidebarProps {
   relatedBlogs?: {
     title: string;
     slug: string;
-    featuredImage?: string; // ✅ FIXED
   }[];
   testimonials?: {
     text: string;
@@ -49,7 +48,7 @@ const validateForm = (values: any) => {
   return errors;
 };
 
-export default function RightSidebar({
+export default function ContactForm({
   practiceAreas = [],
   relatedBlogs = [],
   testimonials = [],
@@ -113,6 +112,36 @@ export default function RightSidebar({
       });
   };
 
+  // const LocationCard = () => (
+  //   <div className="bg-gray-100 rounded-lg p-6 text-center">
+  //     <h3 className="text-xl font-bold mb-4">Our Location</h3>
+
+  //     <div className="h-40 rounded mb-4 overflow-hidden">
+  //       <iframe
+  //         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3525.5693099386745!2d-82.7995663239731!3d27.915187216292992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2fa72fe14cedf%3A0x6af59f2dc2dfe3b4!2s801%20W%20Bay%20Dr%20Ste.%20229%2C%20Largo%2C%20FL%2033770%2C%20USA!5e0!3m2!1sen!2sbd!4v1771997309287!5m2!1sen!2sbd"
+  //         className="w-full h-full border-0"
+  //         loading="lazy"
+  //       ></iframe>
+  //     </div>
+
+  //     <p className="font-semibold uppercase">Carter Injury Law</p>
+
+  //     <p className="text-sm text-gray-600 mt-1">
+  //       801 W. Bay Dr., Suite 229, Largo, FL 33770
+  //     </p>
+
+  //     <p className="text-blue-600 font-bold mt-3">(813) 922-0228</p>
+
+  //     <a
+  //       href="https://maps.app.goo.gl/VKjps1YL2a4ryiwH6"
+  //       target="_blank"
+  //       className="mt-3 inline-block bg-[#043666] text-white px-4 py-2 rounded hover:bg-blue-700"
+  //     >
+  //       GET DIRECTIONS
+  //     </a>
+  //   </div>
+  // );
+
   return (
     <aside className="w-full max-w-[350px] space-y-8 pt-0 md:pt-16 mb-8">
       {/* PROFILE */}
@@ -168,6 +197,35 @@ export default function RightSidebar({
           </ul>
         </div>
       )}
+      {/* Location Card */}
+      <div className="bg-gray-100 rounded-lg p-6 text-center">
+        <h3 className="text-xl font-bold mb-4">Our Tampa Office</h3>
+
+        <div className="h-40 rounded mb-4 overflow-hidden">
+          <iframe
+            src="https://www.google.com/maps?q=3114+N+Boulevard+Tampa+FL+33603&output=embed"
+            className="w-full h-full border-0"
+            loading="lazy"
+          ></iframe>
+        </div>
+
+        <p className="font-semibold uppercase">Carter Injury Law</p>
+
+        <p className="text-sm text-gray-600 mt-1">
+          3114 N. Boulevard Tampa, FL 33603
+        </p>
+
+        <p className="text-blue-600 font-bold mt-3">(813) 922-0228</p>
+
+        <a
+          href="https://maps.app.goo.gl/g5PwkLU7NnJqz2zq8"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-3 inline-block bg-[#043666] text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+        >
+          GET DIRECTIONS
+        </a>
+      </div>
 
       {/* CONTACT FORM */}
       <div className="bg-gray-100 rounded-lg p-6">
@@ -285,10 +343,38 @@ export default function RightSidebar({
           </ul>
         </div>
       )}
+      {/* Location Card  */}
+      <div className="bg-gray-100 rounded-lg p-6 text-center">
+        <h3 className="text-xl font-bold mb-4">Our Largo Office</h3>
 
-      {/* TESTIMONIALS */}
+        <div className="h-40 rounded mb-4 overflow-hidden">
+          <iframe
+            src="https://www.google.com/maps?q=801+W+Bay+Dr+Suite+229+Largo+FL+33770&output=embed"
+            className="w-full h-full border-0"
+            loading="lazy"
+          ></iframe>
+        </div>
+
+        <p className="font-semibold uppercase">Carter Injury Law</p>
+
+        <p className="text-sm text-gray-600 mt-1">
+          801 W. Bay Dr., Suite 229, Largo, FL 33770
+        </p>
+
+        <p className="text-blue-600 font-bold mt-3">(813) 922-0228</p>
+
+        <a
+          href="https://maps.app.goo.gl/VKjps1YL2a4ryiwH6"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-3 inline-block bg-[#043666] text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+        >
+          GET DIRECTIONS
+        </a>
+      </div>
+
       {testimonials.length > 0 && (
-        <div className="bg-[#1f2a44] text-white rounded-2xl px-8 py-12 text-center shadow-xl sticky top-32">
+        <div className="bg-[#1f2a44] text-white rounded-2xl px-8 py-12 text-center shadow-xl">
           <Swiper
             modules={[Autoplay]}
             slidesPerView={1}
@@ -300,7 +386,12 @@ export default function RightSidebar({
                 <div>
                   <div className="flex justify-center gap-2 mb-6 text-blue-600">
                     {Array.from({ length: 5 }).map((_, i) => (
-                      <Star key={i} size={22} fill="currentColor" />
+                      <Star
+                        key={i}
+                        size={22}
+                        fill="currentColor"
+                        stroke="none"
+                      />
                     ))}
                   </div>
 
