@@ -17,7 +17,7 @@ interface RightSidebarProps {
   relatedBlogs?: {
     title: string;
     slug: string;
-    featuredImage?: string;
+    featuredImage?: string; // ✅ FIXED
   }[];
   testimonials?: {
     text: string;
@@ -114,7 +114,7 @@ export default function RightSidebar({
   };
 
   return (
-    <aside className="w-full max-w-[350px] space-y-8 md:pt-16 mb-8 self-start">
+    <aside className="w-full max-w-[350px] space-y-8 pt-0 md:pt-16 mb-8">
       {/* PROFILE */}
       <div className="shadow-lg rounded-md p-6 text-center">
         <div className="flex justify-center mb-6">
@@ -176,44 +176,71 @@ export default function RightSidebar({
         </h3>
 
         <form onSubmit={handleSubmit} className="space-y-4">
-          {[
-            { name: "firstName", placeholder: "First Name" },
-            { name: "lastName", placeholder: "Last Name" },
-            { name: "phone", placeholder: "Phone Number" },
-            { name: "zipCode", placeholder: "Zip Code" },
-            { name: "email", placeholder: "Email", type: "email" },
-          ].map((field) => (
-            <div key={field.name}>
-              <input
-                type={field.type || "text"}
-                placeholder={field.placeholder}
-                className="w-full p-3 rounded border"
-                value={(emailForm as any)[field.name]}
-                onChange={(e) =>
-                  setEmailForm({
-                    ...emailForm,
-                    [field.name]: e.target.value,
-                  })
-                }
-              />
-              <span className="text-[#CE2523] text-sm">
-                {formErrors[field.name]}
-              </span>
-            </div>
-          ))}
+          <input
+            type="text"
+            placeholder="First Name"
+            className="w-full p-3 rounded border"
+            value={emailForm.firstName}
+            onChange={(e) =>
+              setEmailForm({ ...emailForm, firstName: e.target.value })
+            }
+          />
+          <span className="text-[#CE2523] text-sm">{formErrors.firstName}</span>
 
-          <div>
-            <textarea
-              rows={4}
-              placeholder="Describe what happened"
-              className="w-full p-3 rounded border"
-              value={emailForm.message}
-              onChange={(e) =>
-                setEmailForm({ ...emailForm, message: e.target.value })
-              }
-            />
-            <span className="text-red-600 text-sm">{formErrors.message}</span>
-          </div>
+          <input
+            type="text"
+            placeholder="Last Name"
+            className="w-full p-3 rounded border"
+            value={emailForm.lastName}
+            onChange={(e) =>
+              setEmailForm({ ...emailForm, lastName: e.target.value })
+            }
+          />
+          <span className="text-[#CE2523] text-sm">{formErrors.lastName}</span>
+
+          <input
+            type="tel"
+            placeholder="Phone Number"
+            className="w-full p-3 rounded border"
+            value={emailForm.phone}
+            onChange={(e) =>
+              setEmailForm({ ...emailForm, phone: e.target.value })
+            }
+          />
+          <span className="text-[#CE2523] text-sm">{formErrors.phone}</span>
+
+          <input
+            type="text"
+            placeholder="Zip Code"
+            className="w-full p-3 rounded border"
+            value={emailForm.zipCode}
+            onChange={(e) =>
+              setEmailForm({ ...emailForm, zipCode: e.target.value })
+            }
+          />
+          <span className="text-[#CE2523] text-sm">{formErrors.zipCode}</span>
+
+          <input
+            type="email"
+            placeholder="Email"
+            className="w-full p-3 rounded border"
+            value={emailForm.email}
+            onChange={(e) =>
+              setEmailForm({ ...emailForm, email: e.target.value })
+            }
+          />
+          <span className="text-[#CE2523] text-sm">{formErrors.email}</span>
+
+          <textarea
+            rows={4}
+            placeholder="Describe what happened"
+            className="w-full p-3 rounded border"
+            value={emailForm.message}
+            onChange={(e) =>
+              setEmailForm({ ...emailForm, message: e.target.value })
+            }
+          />
+          <span className="text-red-600 text-sm">{formErrors.message}</span>
 
           <button
             type="submit"
@@ -226,7 +253,7 @@ export default function RightSidebar({
         </form>
       </div>
 
-      {/* RECENT POSTS */}
+      {/* 🔥 RECENT POSTS WITH IMAGE */}
       {relatedBlogs.length > 0 && (
         <div className="bg-white shadow-md rounded-lg p-6">
           <h3 className="text-xl font-bold mb-6 uppercase border-b pb-2">
@@ -259,39 +286,35 @@ export default function RightSidebar({
         </div>
       )}
 
-      {/* 🔥 STICKY TESTIMONIALS */}
+      {/* TESTIMONIALS */}
       {testimonials.length > 0 && (
-        <div className="sticky top-24">
-          <div className="bg-[#1f2a44] text-white rounded-2xl px-8 py-12 text-center shadow-xl">
-            <Swiper
-              modules={[Autoplay]}
-              slidesPerView={1}
-              loop
-              autoplay={{ delay: 4000 }}
-            >
-              {testimonials.map((item, index) => (
-                <SwiperSlide key={index}>
-                  <div>
-                    <div className="flex justify-center gap-2 mb-6 text-blue-600">
-                      {Array.from({ length: 5 }).map((_, i) => (
-                        <Star key={i} size={22} fill="currentColor" />
-                      ))}
-                    </div>
-
-                    <p className="text-lg leading-8 text-gray-200">
-                      {item.text}
-                    </p>
-
-                    <div className="w-12 h-[3px] bg-[#ED1B24] mx-auto my-6"></div>
-
-                    <p className="text-lg text-gray-300 font-medium">
-                      {item.author}
-                    </p>
+        <div className="bg-[#1f2a44] text-white rounded-2xl px-8 py-12 text-center shadow-xl sticky top-32">
+          <Swiper
+            modules={[Autoplay]}
+            slidesPerView={1}
+            loop
+            autoplay={{ delay: 4000 }}
+          >
+            {testimonials.map((item, index) => (
+              <SwiperSlide key={index}>
+                <div>
+                  <div className="flex justify-center gap-2 mb-6 text-blue-600">
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <Star key={i} size={22} fill="currentColor" />
+                    ))}
                   </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
+
+                  <p className="text-lg leading-8 text-gray-200">{item.text}</p>
+
+                  <div className="w-12 h-[3px] bg-[#ED1B24] mx-auto my-6"></div>
+
+                  <p className="text-lg text-gray-300 font-medium">
+                    {item.author}
+                  </p>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       )}
     </aside>
