@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -9,13 +10,29 @@ export default function PedestrianAccidentSectionSeven() {
         <h2 className="text-2xl font-bold text-black">
           How Tampa Pedestrian Crosswalks Factor Into the Case Against a Driver
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/tampa-pedestrian-accident/crosswalk.png"
+              alt="Attorney Consultation"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
-        <p>
-          The state of Tampa’s pedestrian crosswalks plays a direct role in how
-          we assign liability. Factors like markings, signage, signal timing,
-          and maintenance history all affect the total compensation available
-          after a crash.
-        </p>
+          {/* Right Text */}
+          <div className="flex flex-col  text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              The state of Tampa’s pedestrian crosswalks plays a direct role in
+              how we assign liability. Factors like markings, signage, signal
+              timing, and maintenance history all affect the total compensation
+              available after a crash.
+            </p>
+          </div>
+        </div>
 
         <h3 className="text-xl font-semibold text-black mt-10">
           Crosswalk Condition as Evidence
@@ -274,13 +291,30 @@ export default function PedestrianAccidentSectionSeven() {
         <h2 className="text-2xl font-bold text-black">
           How we Handle Fatal Pedestrian Accident Cases Across Tampa Bay
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/tampa-pedestrian-accident/handle.png"
+              alt="Attorney Consultation"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
-        <p>
-          When a pedestrian crash in the Tampa Bay area takes a life, the legal
-          case is one of the most important tasks a surviving family will ever
-          face. Having the right legal team from the first call sets the
-          foundation for the accountability and support you deserve.
-        </p>
+          {/* Right Text */}
+          <div className="flex flex-col  text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              When a pedestrian crash in the Tampa Bay area takes a life, the
+              legal case is one of the most important tasks a surviving family
+              will ever face. Having the right legal team from the first call
+              sets the foundation for the accountability and support you
+              deserve.
+            </p>
+          </div>
+        </div>
 
         <h3 className="text-xl font-semibold text-black mt-10">
           What Surviving Families Need to Know

@@ -363,13 +363,29 @@ export default function PedestrianAccidentSectionThree() {
             How Tampa Pedestrian Accident Claims Are Valued and What Most People
             Do Not Know
           </h3>
+          {/* Image + Intro Content */}
+          <div className="flex flex-col md:flex-row gap-6">
+            {/* Left Image */}
+            <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+              <Image
+                src="/assets/tampa-pedestrian-accident/accident.png"
+                alt="Attorney Consultation"
+                width={1000}
+                height={800}
+                className="object-cover"
+              />
+            </div>
 
-          <p>
-            Most Tampa pedestrian accident claims are worth significantly more
-            than the first number the insurance company puts on the table.
-            Knowing how claims actually reach a specific value is the first step
-            toward not settling for less than you deserve.
-          </p>
+            {/* Right Text */}
+            <div className="flex flex-col  text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+              <p>
+                Most Tampa pedestrian accident claims are worth significantly
+                more than the first number the insurance company puts on the
+                table. Knowing how claims actually reach a specific value is the
+                first step toward not settling for less than you deserve.
+              </p>
+            </div>
+          </div>
 
           <h3 className="text-xl font-semibold text-black mt-10">
             The Full Scope of a Tampa Pedestrian Claim

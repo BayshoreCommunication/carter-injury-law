@@ -1,4 +1,5 @@
 import { Link } from "@nextui-org/react";
+import Image from "next/image";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
 
@@ -178,13 +179,29 @@ export default function BusAccidentSectionFive() {
           What to Do Right After a Bus Accident in Tampa—Your First Moves
           Protect Your Future Recovery
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/bus-accident-lawyer-in-tampa/moves.png"
+              alt="Attorney Consultation"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
-        <p>
-          The decisions made in the hours immediately following a bus accident
-          in Tampa determine how much evidence is preserved, how clearly the
-          legal record reflects what happened, and how strong the foundation of
-          the eventual claim will be.
-        </p>
+          {/* Right Text */}
+          <div className="flex flex-col  text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              The decisions made in the hours immediately following a bus
+              accident in Tampa determine how much evidence is preserved, how
+              clearly the legal record reflects what happened, and how strong
+              the foundation of the eventual claim will be.
+            </p>
+          </div>
+        </div>
 
         <h3 className="text-xl font-semibold text-black mt-10">
           Protecting Your Legal Rights From the Scene Forward

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -66,14 +67,30 @@ export default function BusAccidentSectionTwo() {
           What Bus Accident Lawyers Do When Multiple Passengers Are Injured in
           the Same Tampa Crash
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/bus-accident-lawyer-in-tampa/bus.png"
+              alt="Attorney Consultation"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
-        <p>
-          When a single Tampa bus crash injures multiple passengers, the legal
-          dynamics become more complex, and bus accident lawyers who understand
-          how to manage those dynamics ensure that individual clients are not
-          disadvantaged by the presence of other claimants against the same
-          defendant.
-        </p>
+          {/* Right Text */}
+          <div className="flex flex-col  text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              When a single Tampa bus crash injures multiple passengers, the
+              legal dynamics become more complex, and bus accident lawyers who
+              understand how to manage those dynamics ensure that individual
+              clients are not disadvantaged by the presence of other claimants
+              against the same defendant.
+            </p>
+          </div>
+        </div>
 
         <h3 className="text-xl font-semibold text-black mt-10">
           How Multi-Claimant Bus Cases Work in Tampa

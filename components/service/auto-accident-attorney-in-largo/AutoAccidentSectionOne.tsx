@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -10,14 +11,31 @@ export default function AutoAccidentSectionOne() {
           Auto Accident Attorney in Largo — Carter Injury Law Fights for Injured
           Drivers and Passengers Across Pinellas County
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/auto-accident-attorney-in-largo/attorney.png"
+              alt="Attorney Consultation"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
-        <p>
-          Largo sits at the heart of some of Pinellas County's most congested
-          and dangerous road corridors. US-19, Ulmerton Road, East Bay Drive,
-          and Missouri Avenue see thousands of vehicles every hour and the crash
-          rates on those roads reflect exactly what that volume produces when
-          drivers are inattentive, speeding, or impaired.
-        </p>
+          {/* Right Text */}
+          <div className="flex flex-col  text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              Largo sits at the heart of some of Pinellas County's most
+              congested and dangerous road corridors. US-19, Ulmerton Road, East
+              Bay Drive, and Missouri Avenue see thousands of vehicles every
+              hour and the crash rates on those roads reflect exactly what that
+              volume produces when drivers are inattentive, speeding, or
+              impaired.
+            </p>
+          </div>
+        </div>
 
         <p>
           If you were injured in a crash in or near Largo, you have legal rights
@@ -180,14 +198,30 @@ export default function AutoAccidentSectionOne() {
           Why Lawyers for Auto Accidents Produce Results That Self-Represented
           Claimants Cannot
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/auto-accident-attorney-in-largo/lawyer.png"
+              alt="Attorney Consultation"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
-        <p>
-          The gap between what unrepresented crash victims recover and what
-          represented clients recover is not a small margin. it is a consistent,
-          measurable difference driven by access to legal knowledge,
-          investigative resources, and negotiation leverage that individuals
-          simply do not have on their own.
-        </p>
+          {/* Right Text */}
+          <div className="flex flex-col  text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              The gap between what unrepresented crash victims recover and what
+              represented clients recover is not a small margin. it is a
+              consistent, measurable difference driven by access to legal
+              knowledge, investigative resources, and negotiation leverage that
+              individuals simply do not have on their own.
+            </p>
+          </div>
+        </div>
 
         <h3 className="text-xl font-semibold text-black mt-10">
           The Knowledge Gap That Costs Unrepresented Victims

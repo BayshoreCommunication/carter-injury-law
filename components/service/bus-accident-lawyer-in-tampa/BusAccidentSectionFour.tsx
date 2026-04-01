@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -232,13 +233,29 @@ export default function BusAccidentSectionFour() {
           How Tampa Bus Accident Claims Are Evaluated — What Insurance Companies
           Look at First
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/bus-accident-lawyer-in-tampa/tampa.png"
+              alt="Attorney Consultation"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
-        <p>
-          Understanding how insurance carriers evaluate Tampa bus accident
-          claims gives injured clients and their attorneys a clear map of where
-          the challenge points are — and where the most important preparation
-          needs to happen before the demand is presented.
-        </p>
+          {/* Right Text */}
+          <div className="flex flex-col  text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              Understanding how insurance carriers evaluate Tampa bus accident
+              claims gives injured clients and their attorneys a clear map of
+              where the challenge points are — and where the most important
+              preparation needs to happen before the demand is presented.
+            </p>
+          </div>
+        </div>
 
         <h3 className="text-xl font-semibold text-black mt-10">
           The Five Factors Insurers Evaluate in Tampa Bus Claims

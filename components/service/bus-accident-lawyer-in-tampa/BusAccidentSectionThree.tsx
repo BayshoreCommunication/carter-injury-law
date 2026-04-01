@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -201,14 +202,30 @@ export default function BusAccidentSectionThree() {
           How a Bus Accident Injury Attorney Handles Tampa Cases With Disputed
           Liability
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/bus-accident-lawyer-in-tampa/injury.png"
+              alt="Attorney Consultation"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
-        <p>
-          When a bus operator or insurer disputes liability in a Tampa
-          crash—claiming the bus driver was not at fault or that the passenger
-          contributed to their own injuries—a bus accident injury attorney
-          counters that position with specific, documented evidence that the
-          defense cannot credibly dismiss.
-        </p>
+          {/* Right Text */}
+          <div className="flex flex-col  text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              When a bus operator or insurer disputes liability in a Tampa
+              crash—claiming the bus driver was not at fault or that the
+              passenger contributed to their own injuries—a bus accident injury
+              attorney counters that position with specific, documented evidence
+              that the defense cannot credibly dismiss.
+            </p>
+          </div>
+        </div>
 
         <h3 className="text-xl font-semibold text-black mt-10">
           The Evidence That Resolves Tampa Bus Liability Disputes

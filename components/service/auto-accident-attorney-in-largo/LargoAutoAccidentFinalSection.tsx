@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -199,12 +200,28 @@ export default function LargoAutoAccidentFinalSection() {
         <h3 className="text-xl font-semibold text-black mt-10">
           Managing Medical Treatment and Legal Strategy Together
         </h3>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/auto-accident-attorney-in-largo/largo.png"
+              alt="Attorney Consultation"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
-        <p>
-          Following all your doctor's recommendations and attending every
-          follow-up is vital. Insurance companies look for gaps in treatment to
-          argue that your injuries weren't serious.
-        </p>
+          {/* Right Text */}
+          <div className="flex flex-col  text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              Following all your doctor's recommendations and attending every
+              follow-up is vital. Insurance companies look for gaps in treatment
+              to argue that your injuries weren't serious.
+            </p>
+          </div>
+        </div>
 
         <p>
           We advise our clients on how to stay on track so that their medical

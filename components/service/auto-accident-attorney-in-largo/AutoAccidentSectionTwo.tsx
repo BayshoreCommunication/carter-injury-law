@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -200,13 +201,29 @@ export default function AutoAccidentSectionTwo() {
           How an Auto Collision Settlement Is Reached and What Determines Its
           Value
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/auto-accident-attorney-in-largo/collision.png"
+              alt="Attorney Consultation"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
-        <p>
-          An auto collision settlement is the result of negotiations, and the
-          caliber of the legal work supporting the demand determines how those
-          negotiations end. It is not a figure that the insurance company
-          produces from objective data.
-        </p>
+          {/* Right Text */}
+          <div className="flex flex-col  text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              An auto collision settlement is the result of negotiations, and
+              the caliber of the legal work supporting the demand determines how
+              those negotiations end. It is not a figure that the insurance
+              company produces from objective data.
+            </p>
+          </div>
+        </div>
 
         <h3 className="text-xl font-semibold text-black mt-10">
           What Goes Into a Complete Settlement Demand

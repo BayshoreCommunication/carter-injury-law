@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -10,14 +11,30 @@ export default function BusAccidentFullContent() {
           Bus Accident Lawyer in Tampa — Carter Injury Law Fights for Injured
           Passengers and Bystanders Across Hillsborough County
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/bus-accident-lawyer-in-tampa/accident.png"
+              alt="Attorney Consultation"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
-        <p>
-          Bus accidents in Tampa are not like other vehicle crashes. The
-          defendants are different. The legal rules are different. The deadlines
-          are shorter. And the injuries are often more severe because a bus
-          carries no seatbelts, and a sudden stop or collision throws passengers
-          with nothing to hold onto.
-        </p>
+          {/* Right Text */}
+          <div className="flex flex-col  text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              Bus accidents in Tampa are not like other vehicle crashes. The
+              defendants are different. The legal rules are different. The
+              deadlines are shorter. And the injuries are often more severe
+              because a bus carries no seatbelts, and a sudden stop or collision
+              throws passengers with nothing to hold onto.
+            </p>
+          </div>
+        </div>
 
         <p>
           Whether you were a passenger on a HART bus, a student on a school bus,

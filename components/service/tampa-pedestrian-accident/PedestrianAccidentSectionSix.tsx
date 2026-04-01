@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
@@ -76,12 +77,28 @@ export default function PedestrianAccidentSectionSix() {
         <h2 className="text-2xl font-bold text-black">
           When Crossing the Street in Tampa Leads to a Crash
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/tampa-pedestrian-accident/crossing.png"
+              alt="Attorney Consultation"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
-        <p>
-          The question of who is responsible depends on a specific set of facts.
-          Analyzing these facts accurately drives the difference in your
-          recovery.
-        </p>
+          {/* Right Text */}
+          <div className="flex flex-col  text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              The question of who is responsible depends on a specific set of
+              facts. Analyzing these facts accurately drives the difference in
+              your recovery.
+            </p>
+          </div>
+        </div>
 
         <h3 className="text-xl font-semibold text-black mt-10">
           Driver Obligations at Every Type of Crossing

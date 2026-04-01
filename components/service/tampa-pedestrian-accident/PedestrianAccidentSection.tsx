@@ -7,32 +7,35 @@ export default function PedestrianAccidentSection() {
   return (
     <section className="px-4 md:px-8 py-6">
       <div>
-        {/* Top Image */}
-        {/* <div className="relative w-full rounded-lg overflow-hidden mb-10">
-          <Image
-            src="/assets/service/pedestrian.png"
-            alt="Tampa Pedestrian Accident Lawyer"
-            width={1000}
-            height={800}
-            className="object-cover w-full"
-            priority
-          />
-        </div> */}
-
         {/* Title */}
         <h2 className="text-2xl font-bold mb-4 text-black">
           Tampa Pedestrian Accident Lawyer
         </h2>
+        {/* Image + Intro Content */}
+        <div className="flex flex-col md:flex-row gap-6">
+          {/* Left Image */}
+          <div className="relative w-full md:w-[420px] rounded-xl overflow-hidden">
+            <Image
+              src="/assets/tampa-pedestrian-accident/tampa.png"
+              alt="Attorney Consultation"
+              width={1000}
+              height={800}
+              className="object-cover"
+            />
+          </div>
 
+          {/* Right Text */}
+          <div className="flex flex-col  text-sm md:text-lg leading-[1.9] text-slate-600 space-y-4 md:flex-1">
+            <p>
+              Tampa ranks as one of the most dangerous cities in the country for
+              people on foot. Busy corridors, fast traffic, and distracted
+              drivers create daily hazards every single day. Most of our street
+              infrastructure still favors cars over pedestrians. When a driver
+              acts carelessly, the person walking always pays the highest price.
+            </p>
+          </div>
+        </div>
         <div className="text-sm md:text-lg leading-[1.9] text-slate-600 space-y-5">
-          <p>
-            Tampa ranks as one of the most dangerous cities in the country for
-            people on foot. Busy corridors, fast traffic, and distracted drivers
-            create daily hazards every single day. Most of our street
-            infrastructure still favors cars over pedestrians. When a driver
-            acts carelessly, the person walking always pays the highest price.
-          </p>
-
           <p>
             We represent injured pedestrians throughout Tampa and the
             surrounding communities. If a vehicle struck you or a loved one, you
