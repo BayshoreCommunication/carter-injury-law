@@ -1,7 +1,7 @@
 "use client";
 import { send } from "emailjs-com";
-// import { isValidPhoneNumber } from "libphonenumber-js";
-import React, { useState } from "react";
+import { isValidPhoneNumber } from "libphonenumber-js";
+import { useState } from "react";
 import { MdArrowOutward } from "react-icons/md";
 import Swal from "sweetalert2";
 
@@ -90,7 +90,7 @@ const ContactSection = () => {
         "service_du7590l",
         "template_9ql7ubi",
         emailForm,
-        "igJ5_f7vinFq47loI"
+        "igJ5_f7vinFq47loI",
       )
         .then((response) => {
           setLoading(false); // Stop loading
