@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 
-const featuredImage = "/assets/servicepage/delivery-truck-accidents.jpg";
+const featuredImage = "/assets/static-blogs/company-vehicle-accidents.jpg";
 
 export const companyVehicleAccidentsInFlorida = {
   slug: "company-vehicle-accidents-in-florida",
