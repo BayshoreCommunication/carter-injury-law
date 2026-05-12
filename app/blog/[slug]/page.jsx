@@ -4,6 +4,11 @@ import CardMotion from "@/components/motion/CardMotion";
 import CallToAction from "@/components/shared/CallToAction";
 import SectionLayout from "@/components/shared/SectionLayout";
 import SocialShareLinks from "@/components/shared/SocialShareLinks";
+import {
+  getStaticBlogBySlug,
+  staticBlogComponents,
+  staticBlogPosts,
+} from "@/components/static-blogs";
 import GetAllPostData from "@/lib/GetAllPostData";
 import GetBlogBySlug from "@/lib/GetBlogBySlug";
 import parse from "html-react-parser";
@@ -239,7 +244,8 @@ const css = `
 `;
 
 export async function generateMetadata({ params }) {
-  const blogDetails = await GetBlogBySlug(params.slug);
+  const staticBlogDetails = getStaticBlogBySlug(params.slug);
+  const blogDetails = staticBlogDetails || (await GetBlogBySlug(params.slug));
 
   if (!blogDetails) {
     return {
@@ -249,7 +255,9 @@ export async function generateMetadata({ params }) {
   }
 
   let description = "";
-  if (blogDetails?.body && typeof blogDetails.body === "string") {
+  if (blogDetails?.shortDescription || blogDetails?.metaDescription) {
+    description = blogDetails?.metaDescription || blogDetails?.shortDescription;
+  } else if (blogDetails?.body && typeof blogDetails.body === "string") {
     const parsedBody = parse(blogDetails.body);
     description =
       parsedBody[0]?.props?.children?.props?.children ||
@@ -258,10 +266,10 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: blogDetails?.title,
+    title: blogDetails?.metaTitle || blogDetails?.title,
     description: description,
     openGraph: {
-      title: blogDetails?.title,
+      title: blogDetails?.metaTitle || blogDetails?.title,
       description: description,
       images: blogDetails?.featuredImage?.image?.url,
       url: `https://www.carterinjurylaw.com/blog/${blogDetails?.slug}`,
@@ -280,7 +288,10 @@ export async function generateStaticParams() {
       ?.filter((post) => post?.published === true && !!post?.slug)
       ?.map((post) => ({ slug: post.slug }));
 
-    return slugs || [];
+    return [
+      ...(slugs || []),
+      ...staticBlogPosts.map((post) => ({ slug: post.slug })),
+    ];
   } catch (error) {
     console.error("Error generating static params:", error.message);
     return [];
@@ -288,8 +299,19 @@ export async function generateStaticParams() {
 }
 
 const page = async ({ params }) => {
-  const blogDetails = await GetBlogBySlug(params.slug);
+  const staticBlogDetails = getStaticBlogBySlug(params.slug);
+  const blogDetails = staticBlogDetails || (await GetBlogBySlug(params.slug));
   const blogPostData = await GetAllPostData(1, 10);
+  const StaticBlogContent = staticBlogDetails
+    ? staticBlogComponents[staticBlogDetails.slug]
+    : null;
+  const recentPosts = [
+    ...staticBlogPosts,
+    ...(blogPostData?.data || []).filter(
+      (post) =>
+        !staticBlogPosts.some((staticPost) => staticPost.slug === post?.slug),
+    ),
+  ];
 
   if (!blogDetails) {
     notFound();
@@ -353,9 +375,11 @@ const page = async ({ params }) => {
               />
 
               <div className="mt-2 text-md blog-content">
-                {blogDetails?.body && typeof blogDetails.body === "string"
-                  ? parse(blogDetails.body)
-                  : null}
+                {StaticBlogContent ? (
+                  <StaticBlogContent />
+                ) : blogDetails?.body && typeof blogDetails.body === "string" ? (
+                  parse(blogDetails.body)
+                ) : null}
               </div>
 
               <div className="flex mt-1  lg:mt-5">
@@ -376,7 +400,7 @@ const page = async ({ params }) => {
               <h2 className="font-medium text-4xl text-black border-b-2 border-gray-500 pb-4 mb-6">
                 Recent posts
               </h2>
-              {blogPostData?.data
+              {recentPosts
                 ?.filter(
                   (pub) =>
                     pub.published === true && pub.slug !== blogDetails?.slug,

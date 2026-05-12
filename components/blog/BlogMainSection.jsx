@@ -3,6 +3,7 @@ import parse from "html-react-parser";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import { staticBlogPosts } from "../static-blogs";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 import SectionLayout from "../shared/SectionLayout";
 import BlogLoader from "./BlogLoader";
@@ -44,7 +45,7 @@ const BlogCard = ({ blogs, postDate }) => {
               {blogs?.title}
             </h4>
             <p className="text-gray-700 text-start line-clamp-2">
-              {parse(blogs?.body)}
+              {blogs?.shortDescription || parse(blogs?.body || "")}
             </p>
             <div className="text-start mt-5">
               <button
@@ -62,6 +63,14 @@ const BlogCard = ({ blogs, postDate }) => {
 };
 
 const BlogMainSection = ({ blogPostData, pagination }) => {
+  const posts = [
+    ...staticBlogPosts,
+    ...(blogPostData || []).filter(
+      (post) =>
+        !staticBlogPosts.some((staticPost) => staticPost.slug === post?.slug),
+    ),
+  ];
+
   const postDate = (date) => {
     const formattedDate = new Date(date).toLocaleDateString("en-US", {
       year: "numeric",
@@ -83,12 +92,12 @@ const BlogMainSection = ({ blogPostData, pagination }) => {
             </h2>
           </div>
           <div>
-            {!blogPostData || blogPostData.length === 0 ? (
+            {!posts || posts.length === 0 ? (
               <BlogLoader />
             ) : (
               <>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8  justify-center text-center h-full">
-                  {blogPostData
+                  {posts
                     ?.filter((pub, no) => pub.published === true)
                     ?.map((blogs, index) => (
                       <BlogCard
