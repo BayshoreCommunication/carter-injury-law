@@ -16,20 +16,19 @@ const BlogCard = ({ blogs, postDate }) => {
     <ScrollMotionEffect effect="fade-up" duration="2000">
       <Link href={`/blog/${blogs?.slug}`}>
         <div className="bg-white h-full border rounded-md">
-          <div className="relative w-full bg-gray-200 h-auto md:h-[245px]">
+          <div className="relative h-[220px] w-full overflow-hidden rounded-t-md bg-gray-200 md:h-[245px]">
             {imageLoading && (
               <div className="absolute inset-0 animate-pulse bg-gray-300 z-10 rounded-t-md" />
             )}
             <Image
-              width={600}
-              height={400}
+              fill
               src={blogs?.featuredImage?.image?.url}
               alt={
                 blogs?.featuredImage?.altText ||
                 blogs?.title ||
                 "Blog post image"
               }
-              className="w-full h-auto rounded-t-md"
+              className="object-cover"
               loading="lazy"
               sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
               onLoad={() => setImageLoading(false)}
