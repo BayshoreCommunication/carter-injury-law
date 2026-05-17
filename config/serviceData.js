@@ -1,5 +1,3 @@
-import { image } from "@nextui-org/react";
-
 export const allServiceData = [
   // Auto Accidents
   {
@@ -730,37 +728,37 @@ export const allServiceData = [
 
   {
     icon: "/assets/servicepage/icon/wrongful-death-icon.png",
-    title: "Wrongful Personal Injury Litigation",
-    slug: "wrongful-personal-injury-litigation",
+    title: "Wrongful Death Lawyer",
+    slug: "wrongful-death-lawyer",
     image: "/assets/servicepage/wrongful-personal-injury-litigation.jpg",
-    metaDescription: `Wrongful personal injury litigation involves legal representation for individuals who have suffered injuries or loss due to the negligent or intentional actions of another party. This type of litigation seeks to hold responsible parties accountable for their actions and secure compensation for the victims or their families.`,
+    metaDescription: `Wrongful death cases involve legal representation for families who have lost a loved one due to the negligent or intentional actions of another party. This type of litigation seeks to hold responsible parties accountable for their actions and secure compensation for the victims or their families.`,
     details: `<div className="w-full flex flex-col gap-2 lg:gap-4">
               <h1 className="text-stone-950 font-semibold text-3xl md:text-4xl lg:text-5xl">
-                Wrongful Personal Injury Litigation
+              Wrongful Death Lawyer
               </h1>
 
               <img
-                src=" /assets/servicepage/wrongful-personal-injury-litigation.jpg"
-                alt="wrongful-personal-injury-litigation"
+                src="/assets/servicepage/wrongful-personal-injury-litigation.jpg"
+                alt="wrongful-death"
                 className="w-full"
               />
 
-              <p className="text-base md:text-lg">Wrongful personal injury litigation involves legal representation for individuals who have suffered injuries or loss due to the negligent or intentional actions of another party. This type of litigation seeks to hold responsible parties accountable for their actions and secure compensation for the victims or their families. </p>
+              <p className="text-base md:text-lg">Wrongful death litigation involves legal representation for families who have lost a loved one due to the negligent or intentional actions of another party. This type of litigation seeks to hold responsible parties accountable for their actions and secure compensation for surviving family members.</p>
 
               <p className="text-base md:text-lg font-bold mb-1">
             Who can benefit from this service?
               </p>
 
-                <p className="text-base md:text-lg">This service is for individuals in Tampa, Florida, who have been injured or have lost a loved one due to another person’s negligence or wrongful actions. This includes victims of car accidents, medical malpractice, workplace accidents, and other incidents where liability can be established. If you believe your injury was caused by someone else's careless behavior, our attorneys are here to provide the guidance and support necessary to pursue your claim effectively.
+                <p className="text-base md:text-lg">This service is for families in Tampa, Florida, who have lost a loved one due to another person’s negligence or wrongful actions. This includes deaths resulting from car accidents, medical malpractice, workplace incidents, and other situations where liability can be shown. If you believe a loved one died because of someone else's careless behavior, our attorneys are here to provide the guidance and support necessary to pursue justice on your behalf.
                 </p>
 
 
                  <p className="text-base md:text-lg font-bold mb-1">
-             Challenges You will face Without an Attorney for Wrongful Personal Injury
+               Challenges You Will Face Without a Wrongful Death Lawyer
 
-              </p>
+                </p>
 
-                <p className="text-base md:text-lg">Without a personal injury attorney in Tampa, you can struggle to understand your rights and the legal processes involved in pursuing compensation. You can find it challenging to prove liability, navigate insurance negotiations, or effectively present your case. Insurance companies often seek to minimize payouts and can be pressured into accepting low settlement offers. You can also miss critical deadlines and procedural requirements, which can jeopardize your claims.
+                <p className="text-base md:text-lg">Without an experienced wrongful death attorney in Tampa, families can struggle to understand their rights and the legal processes involved in pursuing compensation. Proving liability, handling insurance negotiations, and presenting a strong case can be difficult without legal representation. Insurance companies often try to minimize payouts and may pressure families into accepting low settlement offers. Missing critical deadlines or procedural requirements can also jeopardize a claim.
 
                 </p>
 
@@ -769,7 +767,7 @@ export const allServiceData = [
              How Carter Injury Law Fights for Your Justice
               </p>
 
-                <p className="text-base md:text-lg">Carter Injury Law provides comprehensive legal support for clients involved in wrongful personal injury cases. Our experienced attorneys conduct complete investigations to establish liability and gather essential evidence, such as medical records, witness statements, and expert testimonies. We advocate fiercely on behalf of you, negotiating with insurance companies to ensure you receive fair compensation for your injuries and losses. If necessary, we are prepared to take cases to trial to secure justice for you as well. 
+                <p className="text-base md:text-lg">Carter Injury Law provides comprehensive legal support for families involved in wrongful death cases. Our experienced attorneys conduct thorough investigations to establish liability and gather essential evidence, such as medical records, witness statements, and expert testimony. We advocate fiercely on your behalf, negotiating with insurance companies to seek fair compensation for funeral expenses, lost income, and the losses your family has suffered. If necessary, we are prepared to take cases to trial to secure justice for your loved one.
 
                 </p>
                
