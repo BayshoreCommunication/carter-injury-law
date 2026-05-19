@@ -368,7 +368,7 @@ export default function IntersectionCarAccidentsInTampa() {
         </div>
         <div className="rounded-md bg-[#1B2639] !p-6 text-white">
           <h4 className="!mt-0 !text-white">With Carter Injury Law</h4>
-          <ul>
+          <ul className="[&>li]:!text-white">
             <li>We investigate the crash and identify fault immediately.</li>
             <li>We preserve evidence before it is deleted or lost.</li>
             <li>We calculate full damages, including future medical costs.</li>
