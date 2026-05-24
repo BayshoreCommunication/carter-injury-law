@@ -268,6 +268,9 @@ export async function generateMetadata({ params }) {
   return {
     title: blogDetails?.metaTitle || blogDetails?.title,
     description: description,
+    alternates: {
+      canonical: `/blog/${blogDetails?.slug}`,
+    },
     openGraph: {
       title: blogDetails?.metaTitle || blogDetails?.title,
       description: description,
@@ -369,6 +372,7 @@ const page = async ({ params }) => {
                   blogDetails?.title ||
                   "Blog image"
                 }
+                title={blogDetails?.featuredImage?.title || blogDetails?.title}
                 className="w-full h-auto bg-center bg-cover"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px mt-5"
