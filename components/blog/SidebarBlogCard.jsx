@@ -11,7 +11,7 @@ const SidebarBlogCard = ({ blogs }) => {
       className="flex items-start gap-2 ps-3 py-3 drop-shadow-lg bg-white my-3"
       href={`/blog/${blogs?.slug}`}
     >
-      <div className="relative w-[100px] bg-gray-200 flex-shrink-0">
+      <div className="relative h-[64px] w-[100px] overflow-hidden bg-gray-200 flex-shrink-0">
         {!imageLoaded && (
           <div className="absolute inset-0 animate-pulse bg-gray-300 z-10" />
         )}
@@ -22,7 +22,7 @@ const SidebarBlogCard = ({ blogs }) => {
           alt={
             blogs?.featuredImage?.altText || blogs?.title || "Blog thumbnail"
           }
-          className="w-full h-auto"
+          className="h-full w-full object-contain"
           loading="lazy"
           sizes="100px"
           onLoad={() => setImageLoaded(true)}

@@ -269,7 +269,9 @@ export async function generateMetadata({ params }) {
     title: blogDetails?.metaTitle || blogDetails?.title,
     description: description,
     alternates: {
-      canonical: `/blog/${blogDetails?.slug}`,
+      canonical:
+        blogDetails?.canonicalUrl ||
+        `https://www.carterinjurylaw.com/blog/${blogDetails?.slug}`,
     },
     openGraph: {
       title: blogDetails?.metaTitle || blogDetails?.title,

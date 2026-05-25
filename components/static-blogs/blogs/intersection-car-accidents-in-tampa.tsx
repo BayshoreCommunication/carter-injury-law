@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 
@@ -183,33 +182,18 @@ export default function IntersectionCarAccidentsInTampa() {
       </div>
 
       <div className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm">
-        <div className="grid gap-0 md:grid-cols-[1.15fr_.85fr]">
-          <div className="!p-6 md:!p-8">
-            <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#EC1D21]">
-              Quick Takeaways
-            </p>
-            <ul className="mt-4 grid gap-3 !pl-0">
-              {quickTakeaways.map((point) => (
-                <li key={point} className="flex gap-3 !text-base">
-                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-[#EC1D21]" />
-                  <span>{point}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <figure className="relative min-h-[320px]">
-            <Image
-              src={featuredImage}
-              alt={intersectionCarAccidentsInTampa.featuredImage.altText}
-              title={intersectionCarAccidentsInTampa.featuredImage.title}
-              fill
-              className="object-cover"
-              sizes="(max-width: 768px) 100vw, 380px"
-            />
-            <figcaption className="absolute inset-x-0 bottom-0 bg-black/70 !px-4 !py-3 text-sm text-white">
-              {intersectionCarAccidentsInTampa.featuredImage.caption}
-            </figcaption>
-          </figure>
+        <div className="!p-6 md:!p-8">
+          <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#EC1D21]">
+            Quick Takeaways
+          </p>
+          <ul className="mt-4 grid gap-3 !pl-0 md:grid-cols-2">
+            {quickTakeaways.map((point) => (
+              <li key={point} className="flex gap-3 !text-base">
+                <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-[#EC1D21]" />
+                <span>{point}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
 

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 
@@ -131,29 +130,18 @@ export default function CompanyVehicleAccidentsInFlorida() {
       </p>
 
       <div className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm">
-        <div className="grid gap-0 md:grid-cols-[1.15fr_.85fr]">
-          <div className="!p-6 md:!p-8">
-            <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#EC1D21]">
-              Key Points
-            </p>
-            <ul className="mt-4 grid gap-3 !pl-0">
-              {keyPoints.map((point) => (
-                <li key={point} className="flex gap-3 !text-base">
-                  <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-[#EC1D21]" />
-                  <span>{point}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="relative min-h-[260px]">
-            <Image
-              src={featuredImage}
-              alt={companyVehicleAccidentsInFlorida.featuredImage.altText}
-              fill
-              className="object-cover"
-              sizes="(max-width: 768px) 100vw, 340px"
-            />
-          </div>
+        <div className="!p-6 md:!p-8">
+          <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#EC1D21]">
+            Key Points
+          </p>
+          <ul className="mt-4 grid gap-3 !pl-0 md:grid-cols-2">
+            {keyPoints.map((point) => (
+              <li key={point} className="flex gap-3 !text-base">
+                <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-[#EC1D21]" />
+                <span>{point}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
 

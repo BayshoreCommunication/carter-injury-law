@@ -7,8 +7,12 @@ import FloridaComparativeFaultAccidentCompensation, {
 import IntersectionCarAccidentsInTampa, {
   intersectionCarAccidentsInTampa,
 } from "./blogs/intersection-car-accidents-in-tampa";
+import WhatHappensAfterANighttimeCarAccidetInFlorida, {
+  whatHappensAfterANighttimeCarAccidetInFlorida,
+} from "./blogs/what-happens-after-a-nighttime-car-accidet-in-florida";
 
 const staticBlogPostsUnsorted = [
+  whatHappensAfterANighttimeCarAccidetInFlorida,
   floridaComparativeFaultAccidentCompensation,
   companyVehicleAccidentsInFlorida,
   intersectionCarAccidentsInTampa,
@@ -24,6 +28,8 @@ export const staticBlogComponents = {
     FloridaComparativeFaultAccidentCompensation,
   [companyVehicleAccidentsInFlorida.slug]: CompanyVehicleAccidentsInFlorida,
   [intersectionCarAccidentsInTampa.slug]: IntersectionCarAccidentsInTampa,
+  [whatHappensAfterANighttimeCarAccidetInFlorida.slug]:
+    WhatHappensAfterANighttimeCarAccidetInFlorida,
 };
 
 export function getStaticBlogBySlug(slug: string) {
