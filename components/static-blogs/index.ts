@@ -4,6 +4,9 @@ import CompanyVehicleAccidentsInFlorida, {
 import FloridaComparativeFaultAccidentCompensation, {
   floridaComparativeFaultAccidentCompensation,
 } from "./blogs/florida-comparative-fault-accident-compensation";
+import HowAccidentScenePhotosCanStrengthen, {
+  howAccidentScenePhotosCanStrengthen,
+} from "./blogs/how-accident-scene-photos-can-strengthen";
 import IntersectionCarAccidentsInTampa, {
   intersectionCarAccidentsInTampa,
 } from "./blogs/intersection-car-accidents-in-tampa";
@@ -12,6 +15,7 @@ import WhatHappensAfterANighttimeCarAccidetInFlorida, {
 } from "./blogs/what-happens-after-a-nighttime-car-accidet-in-florida";
 
 const staticBlogPostsUnsorted = [
+  howAccidentScenePhotosCanStrengthen,
   whatHappensAfterANighttimeCarAccidetInFlorida,
   floridaComparativeFaultAccidentCompensation,
   companyVehicleAccidentsInFlorida,
@@ -24,6 +28,8 @@ export const staticBlogPosts = [...staticBlogPostsUnsorted].sort(
 );
 
 export const staticBlogComponents = {
+  [howAccidentScenePhotosCanStrengthen.slug]:
+    HowAccidentScenePhotosCanStrengthen,
   [floridaComparativeFaultAccidentCompensation.slug]:
     FloridaComparativeFaultAccidentCompensation,
   [companyVehicleAccidentsInFlorida.slug]: CompanyVehicleAccidentsInFlorida,
