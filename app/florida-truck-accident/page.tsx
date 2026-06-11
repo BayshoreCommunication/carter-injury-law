@@ -10,7 +10,7 @@ export const metadata = {
   description:
     " Hurt in a Florida truck accident? These crashes cause life-changing injuries. Carter Injury Law takes on trucking companies and their insurers.",
   alternates: {
-    canonical: "/",
+    canonical: "/florida-truck-accident",
     languages: {
       "en-US": "/en-USA",
     },

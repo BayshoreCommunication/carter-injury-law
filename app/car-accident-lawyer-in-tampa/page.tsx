@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Injured in a Tampa car accident? You need a Tampa car accident lawyer from Carter Injury Law who won't back down from insurance companies.",
   alternates: {
-    canonical: "/",
+    canonical: "/car-accident-lawyer-in-tampa",
     languages: {
       "en-US": "/en-USA",
     },

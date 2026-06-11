@@ -11,7 +11,7 @@ export const metadata = {
   description:
     " Hurt in auto accident in Largo? An experienced auto accident attorney in Largo from Carter Injury Law will pursue the maximum recovery for your injuries.",
   alternates: {
-    canonical: "/",
+    canonical: "/auto-accident-attorney-in-largo",
     languages: {
       "en-US": "/en-USA",
     },

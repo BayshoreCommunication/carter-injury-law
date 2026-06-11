@@ -11,7 +11,7 @@ export const metadata = {
   description:
     "Injured on a Tampa bus? Tampa Bus accident lawyer at Carter Injury Law knows how to take on transit authorities and their insurers.",
   alternates: {
-    canonical: "/",
+    canonical: "/bus-accident-lawyer-in-tampa",
     languages: {
       "en-US": "/en-USA",
     },

@@ -10,7 +10,7 @@ export const metadata = {
   description:
     " Injured by reckless riders on Tampa waters? Carter Injury Law fights for jet ski accidents in Tampa and gives you the right to full compensation.",
   alternates: {
-    canonical: "/",
+    canonical: "/jet-ski-accident-law-in-tampa",
     languages: {
       "en-US": "/en-USA",
     },

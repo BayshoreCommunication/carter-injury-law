@@ -9,7 +9,7 @@ export const metadata = {
   description:
     " Don’t deal with loss and injuries alone after an accident. Pedestrian accident lawyer from Carter Injury Law holds reckless drivers fully accountable.",
   alternates: {
-    canonical: "/",
+    canonical: "/pedestrian-accident-lawyer",
     languages: {
       "en-US": "/en-USA",
     },

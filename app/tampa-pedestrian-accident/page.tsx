@@ -11,7 +11,7 @@ export const metadata = {
   description:
     "Confused what’s next after Tampa pedestrian accident? Carter Injury Law steps in fast to preserve evidence and protect your claim before it's too late.",
   alternates: {
-    canonical: "/",
+    canonical: "/tampa-pedestrian-accident",
     languages: {
       "en-US": "/en-USA",
     },

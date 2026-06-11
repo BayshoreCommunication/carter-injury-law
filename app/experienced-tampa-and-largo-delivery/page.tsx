@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Crushed by a courier? You need Carter Injury Law's experienced Tampa and Largo delivery accident representation to fight billion-dollar fleets.",
   alternates: {
-    canonical: "/",
+    canonical: "/experienced-tampa-and-largo-delivery",
     languages: {
       "en-US": "/en-USA",
     },

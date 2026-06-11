@@ -10,7 +10,7 @@ export const metadata = {
   description:
     " Lose someone due to negligence? A wrongful death lawyer in Tampa at Carter Injury Law will hold the responsible party accountable.",
   alternates: {
-    canonical: "/",
+    canonical: "/wrongful-death-Lawyer-in-tampa",
     languages: {
       "en-US": "/en-USA",
     },

@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Suffered airline and aviation injuries in Tampa? Carter Injury Law fights for victims’ compensation against airlines' legal loopholes and exploitation.",
   alternates: {
-    canonical: "/",
+    canonical: "/airline-and-aviation-injuries-in-tampa",
     languages: {
       "en-US": "/en-USA",
     },

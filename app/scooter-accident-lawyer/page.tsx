@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Hurt in a scooter crash? Scooter accident lawyer at Carter Injury Law pursues your medical bills, lost wages, and pain and suffering.",
   alternates: {
-    canonical: "/",
+    canonical: "/scooter-accident-lawyer",
     languages: {
       "en-US": "/en-USA",
     },

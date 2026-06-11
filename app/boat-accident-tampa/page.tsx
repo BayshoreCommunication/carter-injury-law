@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Are you a victim of Tampa boat accident? Carter Injury Law moves fast to secure evidence and build a case before you miss the deadline.",
   alternates: {
-    canonical: "/",
+    canonical: "/boat-accident-tampa",
     languages: {
       "en-US": "/en-USA",
     },

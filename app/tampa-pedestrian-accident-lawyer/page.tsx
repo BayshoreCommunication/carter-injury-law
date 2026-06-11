@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Hit by a car on a Tampa street? Tampa pedestrian accident lawyer at Carter Injury Law takes on insurance companies and fights for every dollar you deserve.",
   alternates: {
-    canonical: "/",
+    canonical: "/tampa-pedestrian-accident-lawyer",
     languages: {
       "en-US": "/en-USA",
     },

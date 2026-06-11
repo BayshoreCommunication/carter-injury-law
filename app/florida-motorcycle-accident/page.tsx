@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Injured in a Florida motorcycle accident? Carter Injury Law defends you against Insurance companies for compensation you actually deserve.",
   alternates: {
-    canonical: "/",
+    canonical: "/florida-motorcycle-accident",
     languages: {
       "en-US": "/en-USA",
     },

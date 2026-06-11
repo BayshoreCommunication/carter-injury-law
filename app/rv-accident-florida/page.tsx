@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Injured in an RV accident in Florida? Get free consultation with Carter Injury Law to discuss what to do next  for severe injuries and complex liability.",
   alternates: {
-    canonical: "/",
+    canonical: "/rv-accident-florida",
     languages: {
       "en-US": "/en-USA",
     },
