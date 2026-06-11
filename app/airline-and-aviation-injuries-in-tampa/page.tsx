@@ -5,6 +5,18 @@ import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 import LeftSide from "@/components/service/airline-and-aviation-injuries-in-tampa/LeftSide";
 
+export const metadata = {
+  title: "Get Legal Help For Tampa Airline & Aviation Injuries",
+  description:
+    "Suffered airline and aviation injuries in Tampa? Carter Injury Law fights for victims’ compensation against airlines' legal loopholes and exploitation.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+};
+
 const page = async () => {
   // 🔥 Fetch ALL blogs (increase limit)
   const blogPostData = await GetAllPostData(1, 50);

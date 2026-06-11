@@ -5,6 +5,18 @@ import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 import LeftSide from "@/components/service/boat-accident-tampa/LeftSide";
 
+export const metadata = {
+  title: " Get a Lawyer For Tampa Boat Accident Before It’s Too Late",
+  description:
+    "Are you a victim of Tampa boat accident? Carter Injury Law moves fast to secure evidence and build a case before you miss the deadline.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+};
+
 const page = async () => {
   // 🔥 Fetch ALL blogs (increase limit)
   const blogPostData = await GetAllPostData(1, 50);

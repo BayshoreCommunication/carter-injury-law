@@ -6,6 +6,18 @@ import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 import LeftSide from "@/components/service/bus-accident-lawyer-in-tampa/LeftSide";
 
+export const metadata = {
+  title: " Bus Accident Lawyer in Tampa for Rider Victims",
+  description:
+    "Injured on a Tampa bus? Tampa Bus accident lawyer at Carter Injury Law knows how to take on transit authorities and their insurers.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+};
+
 const page = async () => {
   // 🔥 Fetch ALL blogs (increase limit)
   const blogPostData = await GetAllPostData(1, 50);

@@ -5,6 +5,17 @@ import RightSidebar from "@/components/service/shared/RightSidebar";
 import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 
+export const metadata = {
+  title: " Car Accident Lawyer in Tampa Who Actually Gets Results",
+  description:
+    "Injured in a Tampa car accident? You need a Tampa car accident lawyer from Carter Injury Law who won't back down from insurance companies.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+};
 const page = async () => {
   // 🔥 Fetch ALL blogs (increase limit)
   const blogPostData = await GetAllPostData(1, 50);

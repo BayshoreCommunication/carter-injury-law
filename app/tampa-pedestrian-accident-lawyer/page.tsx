@@ -5,6 +5,18 @@ import LeftSide from "@/components/service/tampa-pedestrian-accident-lawyer/Left
 import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 
+export const metadata = {
+  title: "Tampa Pedestrian Accident Lawyer Ready to Fight for You",
+  description:
+    "Hit by a car on a Tampa street? Tampa pedestrian accident lawyer at Carter Injury Law takes on insurance companies and fights for every dollar you deserve.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+};
+
 const page = async () => {
   // 🔥 Fetch ALL blogs (increase limit)
   const blogPostData = await GetAllPostData(1, 50);

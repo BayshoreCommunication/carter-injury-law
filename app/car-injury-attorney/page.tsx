@@ -4,6 +4,17 @@ import RightSidebar from "@/components/service/shared/RightSidebar";
 import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 
+export const metadata = {
+  title: "Car Injury Attorney Who Fights Back Against Insurers",
+  description:
+    " Are Insurance companies trying to lowball you after a car crash? Hire car injury attorney at Carter Injury Law who knows their tricks and wins anyway.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+};
 const page = async () => {
   // 🔥 Fetch ALL blogs (increase limit)
   const blogPostData = await GetAllPostData(1, 50);

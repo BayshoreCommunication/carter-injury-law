@@ -5,6 +5,17 @@ import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 import LeftSide from "@/components/location/largo-car-accident-attorney/LeftSide";
 
+export const metadata = {
+  title: "Largo Car Accident Attorney Trusted by Injured Locals",
+  description:
+    "Were you injured in a Largo crash? A Largo car accident attorney at Carter Injury Law knows local roads, local courts, and how to win.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+};
 const page = async () => {
   // 🔥 Fetch ALL blogs (increase limit)
   const blogPostData = await GetAllPostData(1, 50);

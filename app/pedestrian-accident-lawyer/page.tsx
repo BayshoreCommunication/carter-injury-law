@@ -4,7 +4,17 @@ import RightSidebar from "@/components/service/shared/RightSidebar";
 import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 import LeftSide from "@/components/service/pedestrian-accident-lawyer/LeftSide";
-
+export const metadata = {
+  title: "Pedestrian Accident Lawyer Who Won't Let Fault Drivers Win",
+  description:
+    " Don’t deal with loss and injuries alone after an accident. Pedestrian accident lawyer from Carter Injury Law holds reckless drivers fully accountable.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+};
 const page = async () => {
   // 🔥 Fetch ALL blogs (increase limit)
   const blogPostData = await GetAllPostData(1, 50);

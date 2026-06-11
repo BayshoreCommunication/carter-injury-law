@@ -5,6 +5,18 @@ import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 import LeftSide from "@/components/service/jet-ski-accident-law-in-tampa/LeftSide";
 
+export const metadata = {
+  title: "Tampa Jet Ski Accident Law Explained By Expert Attorney",
+  description:
+    " Injured by reckless riders on Tampa waters? Carter Injury Law fights for jet ski accidents in Tampa and gives you the right to full compensation.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+};
+
 const page = async () => {
   // 🔥 Fetch ALL blogs (increase limit)
   const blogPostData = await GetAllPostData(1, 50);

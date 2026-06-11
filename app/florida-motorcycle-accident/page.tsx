@@ -5,6 +5,17 @@ import RightSidebar from "@/components/service/shared/RightSidebar";
 import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 
+export const metadata = {
+  title: " Claim Your Damage After Motorcycle Accident in Florida",
+  description:
+    "Injured in a Florida motorcycle accident? Carter Injury Law defends you against Insurance companies for compensation you actually deserve.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+};
 const page = async () => {
   // 🔥 Fetch ALL blogs (increase limit)
   const blogPostData = await GetAllPostData(1, 50);

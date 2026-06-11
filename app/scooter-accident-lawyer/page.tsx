@@ -5,6 +5,17 @@ import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 import LeftSide from "@/components/service/scooter-accident-lawyer/LeftSide";
 
+export const metadata = {
+  title: "Scooter Accident Lawyer Fighting for Injured Riders",
+  description:
+    "Hurt in a scooter crash? Scooter accident lawyer at Carter Injury Law pursues your medical bills, lost wages, and pain and suffering.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+};
 const page = async () => {
   // 🔥 Fetch ALL blogs (increase limit)
   const blogPostData = await GetAllPostData(1, 50);

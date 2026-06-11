@@ -5,6 +5,18 @@ import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 import LeftSide from "@/components/service/wrongful-death-Lawyer-in-tampa/LeftSide";
 
+export const metadata = {
+  title: "Hire Tampa Wrongful Death Lawyer & Get Justice Today",
+  description:
+    " Lose someone due to negligence? A wrongful death lawyer in Tampa at Carter Injury Law will hold the responsible party accountable.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+};
+
 const page = async () => {
   // 🔥 Fetch ALL blogs (increase limit)
   const blogPostData = await GetAllPostData(1, 50);

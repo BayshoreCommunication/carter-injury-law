@@ -5,6 +5,17 @@ import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 import LeftSide from "@/components/service/florida-truck-accident/LeftSide";
 
+export const metadata = {
+  title: "Florida Truck Accident Victims Deserve More Than Denial",
+  description:
+    " Hurt in a Florida truck accident? These crashes cause life-changing injuries. Carter Injury Law takes on trucking companies and their insurers.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+};
 const page = async () => {
   // 🔥 Fetch ALL blogs (increase limit)
   const blogPostData = await GetAllPostData(1, 50);

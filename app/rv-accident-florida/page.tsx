@@ -5,6 +5,17 @@ import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 import LeftSide from "@/components/service/rv-accident-florida/LeftSide";
 
+export const metadata = {
+  title: "Get Legal Help For RV Accident in Florida",
+  description:
+    "Injured in an RV accident in Florida? Get free consultation with Carter Injury Law to discuss what to do next  for severe injuries and complex liability.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+};
 const page = async () => {
   // 🔥 Fetch ALL blogs (increase limit)
   const blogPostData = await GetAllPostData(1, 50);

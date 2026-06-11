@@ -6,6 +6,17 @@ import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 import LeftSide from "@/components/service/tampa-pedestrian-accident/LeftSide";
 
+export const metadata = {
+  title: "Get Full Compensation As Tampa Pedestrian Accident Victim",
+  description:
+    "Confused what’s next after Tampa pedestrian accident? Carter Injury Law steps in fast to preserve evidence and protect your claim before it's too late.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+};
 const page = async () => {
   // 🔥 Fetch ALL blogs (increase limit)
   const blogPostData = await GetAllPostData(1, 50);

@@ -5,6 +5,18 @@ import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 import LeftSide from "@/components/service/experienced-tampa-and-largo-delivery/LeftSide";
 
+export const metadata = {
+  title: "Experienced Tampa and Largo Delivery Truck Accident Lawyer",
+  description:
+    "Crushed by a courier? You need Carter Injury Law's experienced Tampa and Largo delivery accident representation to fight billion-dollar fleets.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+};
+
 const page = async () => {
   // 🔥 Fetch ALL blogs (increase limit)
   const blogPostData = await GetAllPostData(1, 50);

@@ -6,6 +6,18 @@ import { allServiceData } from "@/config/serviceData";
 import GetAllPostData from "@/lib/GetAllPostData";
 import LeftSide from "@/components/service/auto-accident-attorney-in-largo/LeftSide";
 
+export const metadata = {
+  title: "Auto Accident Attorney in Largo on Your Side from Day 1",
+  description:
+    " Hurt in auto accident in Largo? An experienced auto accident attorney in Largo from Carter Injury Law will pursue the maximum recovery for your injuries.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+};
+
 const page = async () => {
   // 🔥 Fetch ALL blogs (increase limit)
   const blogPostData = await GetAllPostData(1, 50);
