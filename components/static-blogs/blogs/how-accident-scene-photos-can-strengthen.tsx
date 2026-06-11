@@ -190,7 +190,7 @@ export default function HowAccidentScenePhotosCanStrengthen() {
       <div className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm">
         <div className="!p-6 md:!p-8">
           <p className="text-sm font-bold uppercase text-[#EC1D21]">
-            Key Points
+            <h2>Key Points</h2>
           </p>
           <ul className="mt-4 grid gap-3 !pl-0 md:grid-cols-2">
             {keyPoints.map((point) => (
@@ -204,7 +204,7 @@ export default function HowAccidentScenePhotosCanStrengthen() {
       </div>
 
       <SectionTitle number="1">
-        Florida's Fault Law Makes Photos More Important Than Ever
+        <h2>Florida's Fault Law Makes Photos More Important Than Ever</h2>
       </SectionTitle>
       <p>
         Florida changed comparative fault rules in 2023. Under{" "}
@@ -224,9 +224,9 @@ export default function HowAccidentScenePhotosCanStrengthen() {
       </p>
 
       <div className="rounded-lg border border-gray-200 !p-6">
-        <h4 className="!mt-0 text-xl font-bold text-[#1B2639]">
+        <h3 className="!mt-0 text-xl font-bold text-[#1B2639]">
           Photo Metadata Can Matter
-        </h4>
+        </h3>
         <p className="!mb-0 text-base leading-7 text-gray-700">
           Hidden EXIF metadata inside many smartphone photos may include the
           time, date, and location of the shot. If the other side disputes when
@@ -236,7 +236,7 @@ export default function HowAccidentScenePhotosCanStrengthen() {
       </div>
 
       <SectionTitle number="2">
-        What Should You Actually Photograph at the Scene?
+        <h2>What Should You Actually Photograph at the Scene?</h2>
       </SectionTitle>
       <p>
         Most people snap a few shots of car damage and stop. That is a start,
@@ -267,21 +267,19 @@ export default function HowAccidentScenePhotosCanStrengthen() {
       </div>
 
       <p>
-        The table covers the full list. What it cannot show is the time
-        problem. Skid marks can be driven over, debris can be swept away, and
-        final vehicle positions change the moment towing begins. Photographing
+        The table covers the full list. What it cannot show is the time problem.
+        Skid marks can be driven over, debris can be swept away, and final
+        vehicle positions change the moment towing begins. Photographing
         everything immediately is not optional when evidence is disappearing.
       </p>
       <p>
         If you were hurt in the Tampa Bay area, Carter Injury Law's{" "}
-        <Link href="/car-accident-lawyer-in-tampa">
-          auto accident team
-        </Link>{" "}
-        can review what your specific claim needs to preserve.
+        <Link href="/car-accident-lawyer-in-tampa">auto accident team</Link> can
+        review what your specific claim needs to preserve.
       </p>
 
       <SectionTitle number="3">
-        How Scene Photos Fight an Insurance Lowball Offer
+        <h2>How Scene Photos Fight an Insurance Lowball Offer</h2>
       </SectionTitle>
       <p>
         Insurance adjusters build narratives. They are trained to find
@@ -334,7 +332,7 @@ export default function HowAccidentScenePhotosCanStrengthen() {
       </p>
 
       <SectionTitle number="4">
-        What Carter Injury Law Cases Actually Show
+        <h2>What Carter Injury Law Cases Actually Show</h2>
       </SectionTitle>
       <p>
         Common misconception: photos are helpful but not essential. That
@@ -349,9 +347,9 @@ export default function HowAccidentScenePhotosCanStrengthen() {
             key={point}
             className="rounded-md border border-gray-200 bg-white !p-5 shadow-sm"
           >
-            <p className="text-sm font-bold uppercase text-[#EC1D21]">
+            <h3 className="text-sm font-bold uppercase text-[#EC1D21]">
               Pattern {index + 1}
-            </p>
+            </h3>
             <p className="!mb-0 mt-2 text-base leading-7">{point}</p>
           </div>
         ))}
@@ -362,9 +360,9 @@ export default function HowAccidentScenePhotosCanStrengthen() {
         <ExternalLink href="https://www.flhsmv.gov/traffic-crash-reports/crash-dashboard/">
           official crash dashboard
         </ExternalLink>{" "}
-        tracks reported crash data statewide. In real injury claims, a photo
-        set does more than support your story. It can remove the foundation of
-        the insurer's competing story.
+        tracks reported crash data statewide. In real injury claims, a photo set
+        does more than support your story. It can remove the foundation of the
+        insurer's competing story.
       </p>
 
       <div className="rounded-lg bg-[#1B2639] !p-6 text-white md:!p-8">
@@ -384,7 +382,7 @@ export default function HowAccidentScenePhotosCanStrengthen() {
       </div>
 
       <SectionTitle number="5">
-        People Ask This About Accident Scene Photos in Florida
+        <h2>What People Ask About Accident Scene Photos in Florida</h2>
       </SectionTitle>
       <div className="space-y-4">
         {faqs.map(([question, answer]) => (
@@ -392,18 +390,18 @@ export default function HowAccidentScenePhotosCanStrengthen() {
             key={question}
             className="rounded-md border border-gray-200 !p-5"
           >
-            <h4 className="!mt-0 text-lg font-bold text-[#1B2639]">
+            <h3 className="!mt-0 text-lg font-bold text-[#1B2639]">
               {question}
-            </h4>
+            </h3>
             <p className="!mb-0">{answer}</p>
           </div>
         ))}
       </div>
 
       <div className="rounded-lg bg-[#EC1D21] !p-6 text-white md:!p-8">
-        <h3 className="!mt-0 !text-white">
+        <h2 className="!mt-0 !text-white">
           Did You Photograph Your Accident Scene?
-        </h3>
+        </h2>
         <p className="!text-white">
           Let David Carter review your evidence and tell you what it may mean
           for your Florida injury claim. The review is free, and there is no

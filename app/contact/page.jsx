@@ -5,7 +5,8 @@ import CallToAction from "@/components/shared/CallToAction";
 import TestimonialSlideSection from "@/components/shared/TestimonialSlideSection";
 
 export const metadata = {
-  title: "Top Tampa Personal Injury Lawyer in florida | Carter Injury Law | Florida Dog bite lawyer ",
+  title:
+    "Top Tampa Personal Injury Lawyer in florida | Carter Injury Law | Florida Dog bite lawyer ",
   description:
     "Reach out to Carter Injury Law, your trusted personal injury attorneys in Tampa, Florida. Contact us for expert legal advice on auto accidents, slip and falls, medical malpractice, and more. We're here to help with your injury claim!",
   alternates: {
