@@ -22,7 +22,7 @@ const SidebarBlogCard = ({ blogs }) => {
           alt={
             blogs?.featuredImage?.altText || blogs?.title || "Blog thumbnail"
           }
-          className="h-full w-full object-contain"
+          className="h-full w-full object-cover"
           loading="lazy"
           sizes="100px"
           onLoad={() => setImageLoaded(true)}

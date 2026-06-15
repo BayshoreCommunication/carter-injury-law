@@ -28,7 +28,7 @@ const BlogCard = ({ blogs, postDate }) => {
                 blogs?.title ||
                 "Blog post image"
               }
-              className="object-contain"
+              className="object-cover"
               loading="lazy"
               sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
               onLoad={() => setImageLoading(false)}
