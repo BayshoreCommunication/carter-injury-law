@@ -375,9 +375,9 @@ const page = async ({ params }) => {
                   "Blog image"
                 }
                 title={blogDetails?.featuredImage?.title || blogDetails?.title}
-                className="w-full h-auto bg-center bg-cover"
+                className="w-full h-auto mt-5"
                 priority
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px mt-5"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px"
               />
 
               <div className="mt-2 text-md blog-content">

@@ -362,7 +362,7 @@ export default function CanPreExistingConditionsAffectAFloridaInjuryClaim() {
           . Free, confidential case evaluation.
         </p>
         <div className="mt-4">
-          <Link href="/contact" className="inline-block rounded-md bg-[#EC1D21] px-5 py-2.5 text-sm font-bold text-white shadow-sm hover:bg-[#B91C1C] transition duration-200">
+          <Link href="/contact" className="inline-block rounded-md bg-[#EC1D21] !px-7 !py-3.5 text-sm font-bold !text-white shadow-sm hover:bg-[#B91C1C] !no-underline transition duration-200">
             Get Your Free Case Evaluation Today
           </Link>
         </div>
@@ -508,7 +508,7 @@ export default function CanPreExistingConditionsAffectAFloridaInjuryClaim() {
           law. Carter Injury Law fights hard for Tampa Bay and all of Florida.
         </p>
         <div className="mt-4">
-          <Link href="/contact" className="inline-block rounded-md bg-[#1B2639] px-5 py-2.5 text-sm font-bold text-white shadow-sm hover:bg-[#111827] transition duration-200">
+          <Link href="/contact" className="inline-block rounded-md bg-[#1B2639] !px-7 !py-3.5 text-sm font-bold !text-white shadow-sm hover:bg-[#111827] !no-underline transition duration-200">
             Contact Carter Injury Law Now - No Fees Unless We Win
           </Link>
         </div>

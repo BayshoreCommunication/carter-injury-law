@@ -16,7 +16,7 @@ const BlogCard = ({ blogs, postDate }) => {
     <ScrollMotionEffect effect="fade-up" duration="2000">
       <Link href={`/blog/${blogs?.slug}`}>
         <div className="bg-white h-full border rounded-md">
-          <div className="relative h-[220px] w-full overflow-hidden rounded-t-md bg-gray-200 md:h-[245px]">
+          <div className="relative w-full aspect-video overflow-hidden rounded-t-md bg-gray-200">
             {imageLoading && (
               <div className="absolute inset-0 animate-pulse bg-gray-300 z-10 rounded-t-md" />
             )}

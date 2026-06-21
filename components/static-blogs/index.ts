@@ -16,6 +16,9 @@ import WhatHappensAfterANighttimeCarAccidetInFlorida, {
 import CanPreExistingConditionsAffectAFloridaInjuryClaim, {
   canPreExistingConditionsAffectAFloridaInjuryClaim,
 } from "./blogs/can-pre-existing-conditions-affect-a-florida-injury-claim";
+import VehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigations, {
+  vehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigations,
+} from "./blogs/vehicle-black-box-data-and-its-role-in-florida-crash-investigations";
 
 const staticBlogPostsUnsorted = [
   howAccidentScenePhotosCanStrengthen,
@@ -24,6 +27,7 @@ const staticBlogPostsUnsorted = [
   companyVehicleAccidentsInFlorida,
   intersectionCarAccidentsInTampa,
   canPreExistingConditionsAffectAFloridaInjuryClaim,
+  vehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigations,
 ];
 
 export const staticBlogPosts = [...staticBlogPostsUnsorted].sort(
@@ -42,6 +46,8 @@ export const staticBlogComponents = {
     WhatHappensAfterANighttimeCarAccidetInFlorida,
   [canPreExistingConditionsAffectAFloridaInjuryClaim.slug]:
     CanPreExistingConditionsAffectAFloridaInjuryClaim,
+  [vehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigations.slug]:
+    VehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigations,
 };
 
 export function getStaticBlogBySlug(slug: string) {
