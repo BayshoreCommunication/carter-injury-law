@@ -78,12 +78,12 @@ const SectionTitle = ({
   number: string;
   children: ReactNode;
 }) => (
-  <h3 className="mt-10 flex items-start gap-3 text-2xl font-bold text-[#1B2639] md:text-3xl">
+  <h2 className="mt-10 flex items-start gap-3 text-2xl font-bold text-[#1B2639] md:text-3xl">
     <span className="grid h-9 w-9 flex-shrink-0 place-items-center rounded-full bg-[#EC1D21] text-base text-white">
       {number}
     </span>
     <span>{children}</span>
-  </h3>
+  </h2>
 );
 
 const StatCard = ({
@@ -119,9 +119,9 @@ export default function FloridaComparativeFaultAccidentCompensation() {
 
       <div className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm">
         <div className="!p-6 md:!p-8">
-          <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#EC1D21]">
+          <h2 className="text-sm font-bold uppercase tracking-[0.18em] text-[#EC1D21]">
             Key Takeaways
-          </p>
+          </h2>
           <ul className="mt-4 grid gap-3 !pl-0 md:grid-cols-2">
             {keyTakeaways.map((point) => (
               <li key={point} className="flex gap-3 !text-base">
@@ -134,7 +134,9 @@ export default function FloridaComparativeFaultAccidentCompensation() {
       </div>
 
       <SectionTitle number="1">
-        Significant Shift in Florida Civil Justice
+        <h2>
+          Significant Shift in Florida Civil Justice
+        </h2>
       </SectionTitle>
       <p>
         A serious accident can flip your world upside down in a split second.
@@ -193,7 +195,9 @@ export default function FloridaComparativeFaultAccidentCompensation() {
       </p>
 
       <SectionTitle number="2">
-        The 51% Bar Rule for Florida Injury Claims
+        <h2>
+          The 51% Bar Rule for Florida Injury Claims
+        </h2>
       </SectionTitle>
       <p>
         The biggest change is a cliff that accident victims can fall from if
@@ -224,9 +228,9 @@ export default function FloridaComparativeFaultAccidentCompensation() {
       </p>
 
       <div className="rounded-lg border border-gray-200 !p-6">
-        <h4 className="!mt-0 text-xl font-bold text-[#1B2639]">
+        <h3 className="!mt-0 text-xl font-bold text-[#1B2639]">
           Comparative Fault Risk Line
-        </h4>
+        </h3>
         <p className="text-sm text-gray-500">
           Estimated recovery risk as your assigned fault increases
         </p>
@@ -254,7 +258,9 @@ export default function FloridaComparativeFaultAccidentCompensation() {
       </div>
 
       <SectionTitle number="3">
-        Calculation of Total Financial Awards
+        <h2>
+          Calculation of Total Financial Awards
+        </h2>
       </SectionTitle>
       <p>
         Once fault is decided, the court uses a simple formula. If you are 50%
@@ -322,7 +328,9 @@ export default function FloridaComparativeFaultAccidentCompensation() {
       </div>
 
       <SectionTitle number="4">
-        Role of Multiple Parties in a Claim
+        <h2>
+          Role of Multiple Parties in a Claim
+        </h2>
       </SectionTitle>
       <p>
         Things get more complicated when three or four people are involved in a
@@ -349,7 +357,9 @@ export default function FloridaComparativeFaultAccidentCompensation() {
       </div>
 
       <SectionTitle number="5">
-        Legal Framework of Florida Statute 768.81
+        <h2>
+          Legal Framework of Florida Statute 768.81
+        </h2>
       </SectionTitle>
       <p>
         Section 768.81 is the rulebook defense lawyers use to argue that their

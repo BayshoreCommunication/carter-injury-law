@@ -16,11 +16,11 @@ const HeroSection = () => {
     >
       <SectionLayout bg="">
         <div className="h-[65vh] flex justify-center items-center ">
-          <h2
+          <p
             className={`text-white !font-semibold text-3xl md:text-5xl lg:text-[80px]  text-center uppercase drop-shadow-[1px_0_10px_#000000]`}
           >
             Appointment
-          </h2>
+          </p>
         </div>
       </SectionLayout>
     </div>

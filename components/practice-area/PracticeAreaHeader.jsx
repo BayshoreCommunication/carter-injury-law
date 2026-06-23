@@ -16,11 +16,11 @@ const PracticeAreaHeader = () => {
         />
 
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <h2
+          <p
             className={`text-white font-semibold text-3xl md:text-5xl lg:text-[80px]  text-center uppercase drop-shadow-[1px_0_10px_#000000]`}
           >
             Car Accident
-          </h2>
+          </p>
         </div>
 
         <div className="absolute -bottom-52 right-[8%] hidden lg:block">

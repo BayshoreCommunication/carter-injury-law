@@ -130,9 +130,9 @@ const SectionTitle = ({
         {eyebrow}
       </p>
     ) : null}
-    <h3 className="!mt-2 text-2xl font-bold text-[#1B2639] md:text-3xl">
+    <h2 className="!mt-2 text-2xl font-bold text-[#1B2639] md:text-3xl">
       {children}
-    </h3>
+    </h2>
   </div>
 );
 
@@ -161,15 +161,16 @@ export default function IntersectionCarAccidentsInTampa() {
         <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#EC1D21]">
           Personal Injury | Hillsborough County
         </p>
-        <h2 className="!mt-3 text-3xl font-extrabold text-[#1B2639] md:text-4xl">
+        <h1 className="!mt-3 text-3xl font-extrabold text-[#1B2639] md:text-4xl">
           Intersection Car Accidents in Tampa
-        </h2>
+        </h1>
         <p className="mt-4 text-lg leading-8">
           Drivers checking phones or adjusting GPS miss signals and fail to
           react. This driver error aligns with{" "}
           <a
             href="https://www.nhtsa.gov/"
-            rel="nofollow"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
             className="font-semibold text-[#EC1D21]"
           >
             NHTSA
@@ -183,9 +184,9 @@ export default function IntersectionCarAccidentsInTampa() {
 
       <div className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm">
         <div className="!p-6 md:!p-8">
-          <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#EC1D21]">
+          <h2 className="text-sm font-bold uppercase tracking-[0.18em] text-[#EC1D21]">
             Quick Takeaways
-          </p>
+          </h2>
           <ul className="mt-4 grid gap-3 !pl-0 md:grid-cols-2">
             {quickTakeaways.map((point) => (
               <li key={point} className="flex gap-3 !text-base">
@@ -210,14 +211,17 @@ export default function IntersectionCarAccidentsInTampa() {
       </div>
 
       <SectionTitle eyebrow="First">
-        Understand What an Intersection Car Accident Is
+        <h2>
+          Understand What an Intersection Car Accident Is
+        </h2>
       </SectionTitle>
       <p>
         An intersection car accident happens when vehicles collide at a roadway
         crossing. The{" "}
         <a
           href="https://highways.dot.gov/"
-          rel="nofollow"
+          rel="nofollow noopener noreferrer"
+          target="_blank"
           className="font-semibold text-[#EC1D21]"
         >
           Federal Highway Administration
@@ -252,7 +256,9 @@ export default function IntersectionCarAccidentsInTampa() {
       </p>
 
       <SectionTitle eyebrow="Common Causes">
-        Common Causes Behind Tampa Intersection Car Accidents
+        <h2>
+          Common Causes Behind Tampa Intersection Car Accidents
+        </h2>
       </SectionTitle>
       <p>
         Most intersection crashes follow clear patterns tied to driver behavior,
@@ -270,9 +276,9 @@ export default function IntersectionCarAccidentsInTampa() {
                 {number}
               </span>
               <div>
-                <h4 className="!mt-0 text-xl font-bold text-[#1B2639]">
+                <h3 className="!mt-0 text-xl font-bold text-[#1B2639]">
                   {title}
-                </h4>
+                </h3>
                 <p className="!mb-0 text-base leading-7">{text}</p>
               </div>
             </div>
@@ -281,7 +287,9 @@ export default function IntersectionCarAccidentsInTampa() {
       </div>
 
       <SectionTitle eyebrow="Legal Issues">
-        What Are the Legal Issues for an Intersection Car Crash?
+        <h2>
+          What Are the Legal Issues for an Intersection Car Crash?
+        </h2>
       </SectionTitle>
       <p>
         Florida follows a no-fault insurance system for initial motor vehicle
@@ -297,9 +305,9 @@ export default function IntersectionCarAccidentsInTampa() {
             key={title}
             className="rounded-md border border-gray-200 bg-[#F7F8FA] !p-5"
           >
-            <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EC1D21]">
+            <h3 className="text-sm font-bold uppercase tracking-[0.16em] text-[#EC1D21]">
               {title}
-            </p>
+            </h3>
             <p className="mt-3 text-3xl font-extrabold text-[#1B2639]">
               {value}
             </p>
@@ -329,7 +337,9 @@ export default function IntersectionCarAccidentsInTampa() {
       </div>
 
       <SectionTitle eyebrow="Next Step">
-        Your First Step Is to Call Carter Injury Law
+        <h2>
+          Your First Step Is to Call Carter Injury Law
+        </h2>
       </SectionTitle>
       <p>
         Waiting too long to get legal help can cost you your case. Traffic
@@ -340,9 +350,9 @@ export default function IntersectionCarAccidentsInTampa() {
 
       <div className="grid gap-5 md:grid-cols-2">
         <div className="rounded-md bg-[#F7F8FA] !p-6">
-          <h4 className="!mt-0 text-xl font-bold text-[#1B2639]">
+          <h3 className="!mt-0 text-xl font-bold text-[#1B2639]">
             Without a Lawyer
-          </h4>
+          </h3>
           <ul>
             <li>Insurance company controls the narrative from day one.</li>
             <li>Traffic camera footage disappears fast.</li>
@@ -351,7 +361,7 @@ export default function IntersectionCarAccidentsInTampa() {
           </ul>
         </div>
         <div className="rounded-md bg-[#1B2639] !p-6 text-white">
-          <h4 className="!mt-0 !text-white">With Carter Injury Law</h4>
+          <h3 className="!mt-0 !text-white text-xl font-bold">With Carter Injury Law</h3>
           <ul className="[&>li]:!text-white">
             <li>We investigate the crash and identify fault immediately.</li>
             <li>We preserve evidence before it is deleted or lost.</li>
@@ -381,9 +391,9 @@ export default function IntersectionCarAccidentsInTampa() {
         </p>
       </div>
 
-      <h3 className="mt-10 text-3xl font-bold text-[#1B2639]">
+      <h2 className="mt-10 text-3xl font-bold text-[#1B2639]">
         Frequently Asked Questions
-      </h3>
+      </h2>
       <p className="text-gray-600">
         People also ask about Tampa intersection accidents.
       </p>
@@ -393,9 +403,9 @@ export default function IntersectionCarAccidentsInTampa() {
             key={question}
             className="rounded-md border border-gray-200 !p-5"
           >
-            <h4 className="!mt-0 text-lg font-bold text-[#1B2639]">
+            <h3 className="!mt-0 text-lg font-bold text-[#1B2639]">
               {question}
-            </h4>
+            </h3>
             <p className="!mb-0">{answer}</p>
           </div>
         ))}

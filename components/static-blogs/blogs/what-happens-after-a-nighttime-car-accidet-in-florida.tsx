@@ -116,12 +116,12 @@ const SectionTitle = ({
   number: string;
   children: ReactNode;
 }) => (
-  <h3 className="mt-10 flex items-start gap-3 text-2xl font-bold text-[#1B2639] md:text-3xl">
+  <h2 className="mt-10 flex items-start gap-3 text-2xl font-bold text-[#1B2639] md:text-3xl">
     <span className="grid h-9 w-9 flex-shrink-0 place-items-center rounded-full bg-[#EC1D21] text-base text-white">
       {number}
     </span>
     <span>{children}</span>
-  </h3>
+  </h2>
 );
 
 const StatCard = ({
@@ -174,9 +174,9 @@ export default function WhatHappensAfterANighttimeCarAccidetInFlorida() {
 
       <div className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm">
         <div className="!p-6 md:!p-8">
-          <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#EC1D21]">
+          <h2 className="text-sm font-bold uppercase tracking-[0.18em] text-[#EC1D21]">
             Key Takeaways
-          </p>
+          </h2>
           <ul className="mt-4 grid gap-3 !pl-0 md:grid-cols-2">
             {keyTakeaways.map((point) => (
               <li key={point} className="flex gap-3 !text-base">
@@ -188,7 +188,11 @@ export default function WhatHappensAfterANighttimeCarAccidetInFlorida() {
         </div>
       </div>
 
-      <SectionTitle number="1">Florida After Dark: Why It Matters</SectionTitle>
+      <SectionTitle number="1">
+        <h2>
+          Florida After Dark: Why It Matters
+        </h2>
+      </SectionTitle>
       <p>
         Most drivers picture late-night crashes as a drunk-driving problem. That
         story is incomplete. Reduced visibility, driver fatigue, tourist-heavy
@@ -228,7 +232,11 @@ export default function WhatHappensAfterANighttimeCarAccidetInFlorida() {
         </table>
       </div>
 
-      <SectionTitle number="2">The First 10 Minutes After the Crash</SectionTitle>
+      <SectionTitle number="2">
+        <h2>
+          The First 10 Minutes After the Crash
+        </h2>
+      </SectionTitle>
       <p>
         Call 911 first. Florida crash scenes can become more dangerous at night
         because approaching drivers have less time to react. Get to safety,
@@ -256,7 +264,11 @@ export default function WhatHappensAfterANighttimeCarAccidetInFlorida() {
         guessing, and get evaluated quickly.
       </p>
 
-      <SectionTitle number="3">Why Nighttime Claims Are Harder to Win</SectionTitle>
+      <SectionTitle number="3">
+        <h2>
+          Why Nighttime Claims Are Harder to Win
+        </h2>
+      </SectionTitle>
       <p>
         Insurance companies know nighttime crashes are harder to prove.
         Security footage may be blurry. Witness accounts may be thin. Skid
@@ -273,9 +285,9 @@ export default function WhatHappensAfterANighttimeCarAccidetInFlorida() {
       </p>
 
       <div className="rounded-lg border border-gray-200 !p-6">
-        <h4 className="!mt-0 text-xl font-bold text-[#1B2639]">
+        <h3 className="!mt-0 text-xl font-bold text-[#1B2639]">
           Nighttime Evidence Priority
-        </h4>
+        </h3>
         <p className="text-sm text-gray-500">
           What to preserve before the claim becomes a visibility dispute
         </p>
@@ -303,7 +315,7 @@ export default function WhatHappensAfterANighttimeCarAccidetInFlorida() {
       </div>
 
       <div className="rounded-lg bg-[#1B2639] !p-6 text-white md:!p-8">
-        <h3 className="!mt-0 !text-white">A Claim Can Change by Morning</h3>
+        <h2 className="!mt-0 !text-white text-xl font-bold">A Claim Can Change by Morning</h2>
         <p className="!text-white">
           Nighttime crash victims often underestimate how quickly the claim
           window closes. Evidence disappears, memories fade, and insurers move
@@ -319,7 +331,11 @@ export default function WhatHappensAfterANighttimeCarAccidetInFlorida() {
         </p>
       </div>
 
-      <SectionTitle number="4">The 14-Day Rule Nobody Warns You About</SectionTitle>
+      <SectionTitle number="4">
+        <h2>
+          The 14-Day Rule Nobody Warns You About
+        </h2>
+      </SectionTitle>
       <p>
         This deadline catches people off guard. You walk away sore but stable,
         decide to monitor symptoms, and then pain gets worse a week later.
@@ -368,7 +384,11 @@ export default function WhatHappensAfterANighttimeCarAccidetInFlorida() {
         </StatCard>
       </div>
 
-      <SectionTitle number="5">No-Fault Benefits and Serious Injury Claims</SectionTitle>
+      <SectionTitle number="5">
+        <h2>
+          No-Fault Benefits and Serious Injury Claims
+        </h2>
+      </SectionTitle>
       <p>
         Florida is a no-fault state. After a nighttime car accident in Florida,
         your own PIP coverage generally pays first, regardless of who caused the
@@ -392,7 +412,11 @@ export default function WhatHappensAfterANighttimeCarAccidetInFlorida() {
         cost you the right to file.
       </p>
 
-      <SectionTitle number="6">Evidence That Can Decide the Claim</SectionTitle>
+      <SectionTitle number="6">
+        <h2>
+          Evidence That Can Decide the Claim
+        </h2>
+      </SectionTitle>
       <p>
         Nighttime claims are won with documentation. The goal is to replace
         guesswork with proof: light cycles, headlight direction, roadway
@@ -422,7 +446,11 @@ export default function WhatHappensAfterANighttimeCarAccidetInFlorida() {
         </table>
       </div>
 
-      <SectionTitle number="7">Myths About Nighttime Accidents</SectionTitle>
+      <SectionTitle number="7">
+        <h2>
+          Myths About Nighttime Accidents
+        </h2>
+      </SectionTitle>
       <p>
         A few common beliefs can hurt a claim. The insurer may lean into those
         assumptions if they make your case look weaker. Do not let a broad myth
@@ -438,14 +466,14 @@ export default function WhatHappensAfterANighttimeCarAccidetInFlorida() {
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EC1D21]">
               Myth
             </p>
-            <h4 className="!mt-2 text-lg font-bold text-[#1B2639]">{myth}</h4>
+            <h3 className="!mt-2 text-lg font-bold text-[#1B2639]">{myth}</h3>
             <p className="!mb-0 text-base leading-7">{reality}</p>
           </div>
         ))}
       </div>
 
       <div className="rounded-lg bg-[#EC1D21] !p-6 text-white md:!p-8">
-        <h3 className="!mt-0 !text-white">Talk to Carter Injury Law</h3>
+        <h2 className="!mt-0 !text-white text-xl font-bold">Talk to Carter Injury Law</h2>
         <p className="!text-white">
           After a nighttime crash, the facts can disappear quickly. Carter
           Injury Law can review the scene evidence, protect video, handle
@@ -465,18 +493,18 @@ export default function WhatHappensAfterANighttimeCarAccidetInFlorida() {
         </p>
       </div>
 
-      <h3 className="mt-10 text-3xl font-bold text-[#1B2639]">
+      <h2 className="mt-10 text-3xl font-bold text-[#1B2639]">
         Frequently Asked Questions
-      </h3>
+      </h2>
       <div className="space-y-4">
         {faqs.map(([question, answer]) => (
           <div
             key={question}
             className="rounded-md border border-gray-200 !p-5"
           >
-            <h4 className="!mt-0 text-lg font-bold text-[#1B2639]">
+            <h3 className="!mt-0 text-lg font-bold text-[#1B2639]">
               {question}
-            </h4>
+            </h3>
             <p className="!mb-0">{answer}</p>
           </div>
         ))}

@@ -17,9 +17,9 @@ const BlogHeroSectionforDetails = () => {
         />
 
         <div className="absolute inset-0 flex justify-center items-center z-10">
-          <h2 className="text-white font-semibold text-3xl md:text-5xl lg:text-[80px] text-center uppercase drop-shadow-[1px_0_10px_#000000]">
+          <p className="text-white font-semibold text-3xl md:text-5xl lg:text-[80px] text-center uppercase drop-shadow-[1px_0_10px_#000000]">
             blog
-          </h2>
+          </p>
         </div>
       </div>
     </div>

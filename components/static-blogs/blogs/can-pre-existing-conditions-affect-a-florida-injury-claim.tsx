@@ -115,12 +115,12 @@ const SectionTitle = ({
   number: string;
   children: ReactNode;
 }) => (
-  <h3 className="mt-10 flex items-start gap-3 text-2xl font-bold text-[#1B2639] md:text-3xl">
+  <h2 className="mt-10 flex items-start gap-3 text-2xl font-bold text-[#1B2639] md:text-3xl">
     <span className="grid h-9 w-9 flex-shrink-0 place-items-center rounded-full bg-[#EC1D21] text-base text-white">
       {number}
     </span>
     <span>{children}</span>
-  </h3>
+  </h2>
 );
 
 const StatCard = ({
@@ -173,9 +173,9 @@ export default function CanPreExistingConditionsAffectAFloridaInjuryClaim() {
 
       <div className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm">
         <div className="!p-6 md:!p-8">
-          <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#EC1D21]">
+          <h2 className="text-sm font-bold uppercase tracking-[0.18em] text-[#EC1D21]">
             Key Legal Principles
-          </p>
+          </h2>
           <ul className="mt-4 grid gap-3 !pl-0 md:grid-cols-2">
             {keyPoints.map((point) => (
               <li key={point} className="flex gap-3 !text-base text-gray-700">
@@ -188,7 +188,9 @@ export default function CanPreExistingConditionsAffectAFloridaInjuryClaim() {
       </div>
 
       <SectionTitle number="1">
-        The Eggshell Plaintiff Rule Gives You Real Protection in Florida
+        <h2>
+          The Eggshell Plaintiff Rule Gives You Real Protection in Florida
+        </h2>
       </SectionTitle>
       <p>
         Florida courts follow the eggshell plaintiff doctrine. The rule says a
@@ -232,7 +234,9 @@ export default function CanPreExistingConditionsAffectAFloridaInjuryClaim() {
       </p>
 
       <SectionTitle number="2">
-        Insurance Companies Often Use Pre-Existing Conditions Against You
+        <h2>
+          Insurance Companies Often Use Pre-Existing Conditions Against You
+        </h2>
       </SectionTitle>
       <p>
         Right away, insurance adjusters know what to do. As soon as they get hold
@@ -251,9 +255,9 @@ export default function CanPreExistingConditionsAffectAFloridaInjuryClaim() {
             key={tactic}
             className="rounded-md border border-gray-200 bg-white !p-5 shadow-sm"
           >
-            <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EC1D21]">
+            <h3 className="text-sm font-bold uppercase tracking-[0.16em] text-[#EC1D21]">
               Tactic {index + 1}
-            </p>
+            </h3>
             <p className="!mb-0 mt-2 text-base leading-7 text-gray-700">{tactic}</p>
           </div>
         ))}
@@ -278,7 +282,10 @@ export default function CanPreExistingConditionsAffectAFloridaInjuryClaim() {
       </p>
 
       <SectionTitle number="3">
-        How Does Florida Law Handle Worsening an Old Injury?
+        <h2>
+How Does Florida Law Handle Worsening an Old Injury?
+        </h2>
+        
       </SectionTitle>
       <p>
         Courts look at the clear difference between your health before and after
@@ -318,7 +325,9 @@ export default function CanPreExistingConditionsAffectAFloridaInjuryClaim() {
       </p>
 
       <SectionTitle number="4">
+       <h2>
         Does Florida's Comparative Fault Law Hurt Your Pre-Existing Condition Claim?
+       </h2>
       </SectionTitle>
       <p>
         Under Florida rules from 2023, the state follows a changed version of
@@ -350,9 +359,9 @@ export default function CanPreExistingConditionsAffectAFloridaInjuryClaim() {
       </p>
 
       <div className="rounded-lg bg-[#1B2639] !p-6 text-white md:!p-8">
-        <h4 className="!mt-0 text-xl font-bold !text-white">
+        <h2 className="!mt-0 text-xl font-bold !text-white">
           Your Pre-Existing Condition Is Not a Disqualifier
-        </h4>
+        </h2>
         <p className="mt-3 !text-white">
           Hurt in a Tampa Bay accident with a prior injury on record? Call Carter
           Injury Law now at{" "}
@@ -369,7 +378,9 @@ export default function CanPreExistingConditionsAffectAFloridaInjuryClaim() {
       </div>
 
       <SectionTitle number="5">
-        Medical Records Become the Battlefield in These Florida Cases
+        <h2>
+          Medical Records Become the Battlefield in These Florida Cases
+        </h2>
       </SectionTitle>
       <p>
         In pre-existing condition injury cases, documentation is everything.
@@ -431,7 +442,9 @@ export default function CanPreExistingConditionsAffectAFloridaInjuryClaim() {
       </blockquote>
 
       <SectionTitle number="6">
-        A Pre-Existing Condition Claim Is Winnable with the Right Tampa Attorney
+       <h2>
+         A Pre-Existing Condition Claim Is Winnable with the Right Tampa Attorney
+       </h2>
       </SectionTitle>
       <p>
         The difference in these cases is almost always the attorney. Insurance
@@ -483,7 +496,9 @@ export default function CanPreExistingConditionsAffectAFloridaInjuryClaim() {
       </div>
 
       <SectionTitle number="7">
-        Questions People Usually Ask Us (FAQs)
+       <h2>
+         Questions People Usually Ask Us (FAQs)
+       </h2>
       </SectionTitle>
       <div className="space-y-4">
         {faqs.map(([question, answer]) => (
@@ -500,9 +515,9 @@ export default function CanPreExistingConditionsAffectAFloridaInjuryClaim() {
       </div>
 
       <div className="rounded-lg bg-[#EC1D21] !p-6 text-white md:!p-8 mt-8">
-        <h4 className="!mt-0 text-xl font-bold !text-white">
+        <h2 className="!mt-0 text-xl font-bold !text-white">
           Your Health. Your Rights. Your Compensation.
-        </h4>
+        </h2>
         <p className="mt-3 !text-white">
           Pre-existing condition or not, you deserve full justice under Florida
           law. Carter Injury Law fights hard for Tampa Bay and all of Florida.

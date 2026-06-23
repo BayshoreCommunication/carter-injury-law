@@ -360,11 +360,11 @@ const page = async ({ params }) => {
                   {postDate(blogDetails?.createdAt)}
                 </p>
               </div>
-              <h2
+              <h1
                 className={`mb-0 md:mb-4 text-2xl md:text-4xl font-bold tracking-normal text-left text-[#1B2639]`}
               >
                 {blogDetails?.title}
-              </h2>
+              </h1>
               <Image
                 width={1200}
                 height={675}

@@ -104,12 +104,12 @@ const SectionTitle = ({
   number: string;
   children: ReactNode;
 }) => (
-  <h3 className="mt-10 flex items-start gap-3 text-2xl font-bold text-[#1B2639] md:text-3xl">
+  <h2 className="mt-10 flex items-start gap-3 text-2xl font-bold text-[#1B2639] md:text-3xl">
     <span className="grid h-9 w-9 flex-shrink-0 place-items-center rounded-full bg-[#EC1D21] text-base text-white">
       {number}
     </span>
     <span>{children}</span>
-  </h3>
+  </h2>
 );
 
 const StatCard = ({
@@ -160,9 +160,9 @@ export default function VehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigation
 
       <div className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm">
         <div className="!p-6 md:!p-8">
-          <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#EC1D21]">
+          <h2 className="text-sm font-bold uppercase tracking-[0.18em] text-[#EC1D21]">
             Most Important Notes
-          </p>
+          </h2>
           <ul className="mt-4 grid gap-3 !pl-0 md:grid-cols-2">
             {keyTakeaways.map((point) => (
               <li key={point} className="flex gap-3 !text-base text-gray-700">
@@ -175,7 +175,9 @@ export default function VehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigation
       </div>
 
       <SectionTitle number="1">
-        Can a Vehicle Black Box Record Everything?
+        <h2>
+          Can a Vehicle Black Box Record Everything?
+        </h2>
       </SectionTitle>
       <p>
         Legally bound by the federal law, most cars in the US built after 2014 must
@@ -192,9 +194,9 @@ export default function VehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigation
             key={step}
             className="rounded-md border border-gray-200 bg-white !p-5 shadow-sm"
           >
-            <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#EC1D21]">
+            <h3 className="text-sm font-bold uppercase tracking-[0.16em] text-[#EC1D21]">
               Category {index + 1}
-            </p>
+            </h3>
             <p className="!mb-0 mt-2 text-base leading-7 text-gray-700">{step}</p>
           </div>
         ))}
@@ -216,7 +218,9 @@ export default function VehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigation
       </blockquote>
 
       <SectionTitle number="2">
-        Florida Law and What It Says About Your Black Box Data
+        <h2>
+          Florida Law and What It Says About Your Black Box Data
+        </h2>
       </SectionTitle>
       <p>
         Under Florida Statute 316.0215, the data stored in your vehicle's EDR
@@ -265,7 +269,9 @@ export default function VehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigation
       </div>
 
       <SectionTitle number="3">
-        How Vehicle Black Box Data Flips Crash Investigations in Florida
+        <h2>
+          How Vehicle Black Box Data Flips Crash Investigations in Florida
+        </h2>
       </SectionTitle>
       <p>
         The before and after difference in your case can be dramatic.
@@ -306,9 +312,9 @@ export default function VehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigation
       </p>
 
       <div className="rounded-lg bg-[#1B2639] !p-6 text-white md:!p-8">
-        <h4 className="!mt-0 text-xl font-bold !text-white">
+        <h2 className="!mt-0 text-xl font-bold !text-white">
           Was Your Tampa Bay Crash Caught on a Black Box?
-        </h4>
+        </h2>
         <p className="mt-3 !text-white">
           That data may be disappearing right now. Call Carter Injury Law now for a
           free, confidential case evaluation.
@@ -324,7 +330,9 @@ export default function VehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigation
       </div>
 
       <SectionTitle number="4">
-        Insurance Companies Fear EDR Evidence
+        <h2>
+          Insurance Companies Fear EDR Evidence
+        </h2>
       </SectionTitle>
       <p>
         Insurance adjusters are not on your side. Their job is to close your claim
@@ -368,7 +376,9 @@ export default function VehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigation
       </p>
 
       <SectionTitle number="5">
-        You Must Act Fast to Preserve Black Box Evidence in Florida
+        <h2>
+          You Must Act Fast to Preserve Black Box Evidence in Florida
+        </h2>
       </SectionTitle>
       <p>
         Florida has a four-year statute of limitations for most personal injury claims.
@@ -405,7 +415,9 @@ export default function VehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigation
       </p>
 
       <SectionTitle number="6">
-        Carter Injury Law Builds Florida Crash Cases on Hard Evidence
+        <h2>
+          Carter Injury Law Builds Florida Crash Cases on Hard Evidence
+        </h2>
       </SectionTitle>
       <p>
         Most Florida car accident cases settle before trial. But how well you
@@ -452,18 +464,18 @@ export default function VehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigation
             key={question}
             className="rounded-md border border-gray-200 bg-white !p-5 shadow-sm"
           >
-            <h4 className="!mt-0 text-lg font-bold text-[#1B2639]">
+            <h3 className="!mt-0 text-lg font-bold text-[#1B2639]">
               {question}
-            </h4>
+            </h3>
             <p className="!mb-0 text-base text-gray-700 leading-7">{answer}</p>
           </div>
         ))}
       </div>
 
       <div className="rounded-lg bg-[#EC1D21] !p-6 text-white md:!p-8 mt-8">
-        <h4 className="!mt-0 text-xl font-bold !text-white">
+        <h2 className="!mt-0 text-xl font-bold !text-white">
           Carter Injury Law Represents Tampa Bay Crash Victims
-        </h4>
+        </h2>
         <p className="mt-3 !text-white">
           Carter Injury Law represents Tampa Bay crash victims and knows how to use
           every piece of evidence to get you what you deserve. Contact us today

@@ -18,9 +18,9 @@ const BlogHeroSection = () => {
         />
 
         <div className="absolute inset-0 flex justify-center items-center z-10 lg:h-[450px] xl:h-[550px]">
-          <h1 className="text-white font-semibold text-3xl md:text-5xl lg:text-[80px] text-center uppercase drop-shadow-[1px_0_10px_#000000]">
+          <p className="text-white font-semibold text-3xl md:text-5xl lg:text-[80px] text-center uppercase drop-shadow-[1px_0_10px_#000000]">
             blog
-          </h1>
+          </p>
         </div>
         {/* <div className="absolute -bottom-52 right-[15%] hidden lg:block">
           <HeaderForm className="bg-white" />
