@@ -62,8 +62,9 @@ const BlogCard = ({ blogs, postDate }) => {
 };
 
 const BlogMainSection = ({ blogPostData, pagination }) => {
+  const currentPage = pagination?.currentPage || 1;
   const posts = [
-    ...staticBlogPosts,
+    ...(currentPage === 1 ? staticBlogPosts : []),
     ...(blogPostData || []).filter(
       (post) =>
         !staticBlogPosts.some((staticPost) => staticPost.slug === post?.slug),
