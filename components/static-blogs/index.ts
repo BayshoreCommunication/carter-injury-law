@@ -22,6 +22,9 @@ import VehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigations, {
 import InsuranceClaimDelaysAfterACarAccidentAndWhatTheyReallyMean, {
   insuranceClaimDelaysAfterACarAccidentAndWhatTheyReallyMean,
 } from "./blogs/insurance-claim-delays-after-a-car-accident-and-what-they-really-mean";
+import WitnessStatementsFloridaCarAccidentClaims, {
+  witnessStatementsFloridaCarAccidentClaims,
+} from "./blogs/witness-statements-florida-car-accident-claims";
 
 const staticBlogPostsUnsorted = [
   howAccidentScenePhotosCanStrengthen,
@@ -32,6 +35,7 @@ const staticBlogPostsUnsorted = [
   canPreExistingConditionsAffectAFloridaInjuryClaim,
   vehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigations,
   insuranceClaimDelaysAfterACarAccidentAndWhatTheyReallyMean,
+  witnessStatementsFloridaCarAccidentClaims,
 ];
 
 export const staticBlogPosts = [...staticBlogPostsUnsorted].sort(
@@ -54,6 +58,8 @@ export const staticBlogComponents = {
     VehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigations,
   [insuranceClaimDelaysAfterACarAccidentAndWhatTheyReallyMean.slug]:
     InsuranceClaimDelaysAfterACarAccidentAndWhatTheyReallyMean,
+  [witnessStatementsFloridaCarAccidentClaims.slug]:
+    WitnessStatementsFloridaCarAccidentClaims,
 };
 
 export function getStaticBlogBySlug(slug: string) {
