@@ -611,9 +611,9 @@ export default function RentalCarAccidentsInFloridaUnderstandingInsuranceCoverag
             key={question}
             className="rounded-md border border-gray-200 bg-white !p-5 shadow-sm"
           >
-            <h4 className="!mt-0 text-lg font-bold text-[#1B2639]">
+            <h3 className="!mt-0 text-lg font-bold text-[#1B2639]">
               {question}
-            </h4>
+            </h3>
             <p className="!mb-0 text-base text-gray-700 leading-7 text-justify">
               {answer}
             </p>
