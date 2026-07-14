@@ -25,6 +25,9 @@ import InsuranceClaimDelaysAfterACarAccidentAndWhatTheyReallyMean, {
 import WitnessStatementsFloridaCarAccidentClaims, {
   witnessStatementsFloridaCarAccidentClaims,
 } from "./blogs/witness-statements-florida-car-accident-claims";
+import RentalCarAccidentsInFloridaUnderstandingInsuranceCoverage, {
+  rentalCarAccidentsInFloridaUnderstandingInsuranceCoverage,
+} from "./blogs/Rental Car Accidents in Florida Understanding Insurance Coverage";
 
 const staticBlogPostsUnsorted = [
   howAccidentScenePhotosCanStrengthen,
@@ -36,6 +39,7 @@ const staticBlogPostsUnsorted = [
   vehicleBlackBoxDataAndItsRoleInFloridaCrashInvestigations,
   insuranceClaimDelaysAfterACarAccidentAndWhatTheyReallyMean,
   witnessStatementsFloridaCarAccidentClaims,
+  rentalCarAccidentsInFloridaUnderstandingInsuranceCoverage,
 ];
 
 export const staticBlogPosts = [...staticBlogPostsUnsorted].sort(
@@ -60,6 +64,8 @@ export const staticBlogComponents = {
     InsuranceClaimDelaysAfterACarAccidentAndWhatTheyReallyMean,
   [witnessStatementsFloridaCarAccidentClaims.slug]:
     WitnessStatementsFloridaCarAccidentClaims,
+  [rentalCarAccidentsInFloridaUnderstandingInsuranceCoverage.slug]:
+    RentalCarAccidentsInFloridaUnderstandingInsuranceCoverage,
 };
 
 export function getStaticBlogBySlug(slug: string) {
