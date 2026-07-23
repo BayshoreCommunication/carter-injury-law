@@ -19,9 +19,9 @@ import FAQSection from "@/components/seo-service/tampa-wrongful-death-car-accide
 
 
 export const metadata = {
-  title: "Tampa Wrongful Death & Car Accident Lawyer | Carter Injury Law",
+  title: "Tampa Wrongful Death Car Accident Lawyer|Free Consultation",
   description:
-    "Injured in a car accident or lost a loved one in Tampa? Our experienced personal injury and wrongful death lawyers are here to fight for the compensation you deserve. Get a free consultation today.",
+    "If you’ve lost a loved one in a fatal accident, a Tampa wrongful death car accident lawyer can help you pursue justice & financial compensation.",
     robots: {
     index: false,
     follow: false,
