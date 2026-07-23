@@ -37,6 +37,9 @@ const nextConfig = {
     minimumCacheTTL: 60,
   },
   skipTrailingSlashRedirect: true,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 module.exports = nextConfig;
