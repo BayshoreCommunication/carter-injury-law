@@ -225,7 +225,7 @@ export default function WhenRoadConditionsCauseCarAccidentsInFlorida() {
         >
           Data from the Florida Department of Highway Safety and Motor Vehicles
           confirms the trend into 2024. Risk remains high even when driving
-          mistakes aren't made.
+          mistakes aren’t made.
         </StatCard>
       </div>
 
@@ -258,15 +258,15 @@ export default function WhenRoadConditionsCauseCarAccidentsInFlorida() {
         Who Is Actually Liable When a Road Defect Causes Your Crash?
       </SectionTitle>
       <p className="text-justify">
-        This is the question most people get wrong. They assume "it was the
-        road" means nobody pays. That is false. In Florida, liability for
+        This is the question most people get wrong. They assume “it was the
+        road” means nobody pays. That is false. In Florida, liability for
         road-condition crashes typically falls on state or municipal entities
         responsible for upkeep.
       </p>
       <p className="text-justify">
         Drivers depend on safe roads, maintained by different groups at
         different levels. State highways and interstitial routes fall under{" "}
-        <ExternalLink href="https://www.fdot.gov">FDOT's</ExternalLink> oversight.
+        <ExternalLink href="https://www.fdot.gov">FDOT’s</ExternalLink> oversight.
         Local streets? Those belong to county or municipal crews. When
         construction is underway, private companies take charge temporarily.
         Safety remains a shared responsibility across every group involved.
@@ -315,7 +315,7 @@ export default function WhenRoadConditionsCauseCarAccidentsInFlorida() {
           Injured in a Road Hazard Crash?
         </h2>
         <p className="mt-3 !text-white">
-          Carter Injury Law fights for Tampa Bay accident victims. Don't let
+          Carter Injury Law fights for Tampa Bay accident victims. Don’t let
           unsafe road hazards ruin your life. Get a free case evaluation with no
           upfront fees.
         </p>
@@ -334,10 +334,10 @@ export default function WhenRoadConditionsCauseCarAccidentsInFlorida() {
       </SectionTitle>
       <blockquote className="my-8 border-l-4 border-[#EC1D21] bg-[#F9FAFB] !p-6 shadow-sm rounded-r-lg">
         <p className="italic text-gray-700 text-lg leading-7">
-          "Government agencies in Florida have dedicated legal teams working to
+          “Government agencies in Florida have dedicated legal teams working to
           minimize their liability the moment a claim is filed. Injured drivers
           who go it alone almost always leave money on the table or lose
-          outright."
+          outright.”
         </p>
         <cite className="mt-4 block text-sm font-bold text-[#1B2639] not-italic">
           — Florida Civil Trial Attorney, Road Hazard Litigation Expert
@@ -363,7 +363,7 @@ export default function WhenRoadConditionsCauseCarAccidentsInFlorida() {
           <thead className="bg-[#1B2639] text-white">
             <tr>
               <th className="!px-4 !py-3 w-1/3">Action</th>
-              <th className="!px-4 !py-3 w-2/3">The Reason It's Important</th>
+              <th className="!px-4 !py-3 w-2/3">The Reason It’s Important</th>
             </tr>
           </thead>
           <tbody>
@@ -415,9 +415,9 @@ export default function WhenRoadConditionsCauseCarAccidentsInFlorida() {
       </SectionTitle>
       <blockquote className="my-8 border-l-4 border-[#EC1D21] bg-[#F9FAFB] !p-6 shadow-sm rounded-r-lg">
         <p className="italic text-gray-700 text-lg leading-7">
-          "When road conditions cause car accidents in Florida, the evidence
+          “When road conditions cause car accidents in Florida, the evidence
           timeline starts immediately. Every hour you wait to document and
-          report, the harder your case becomes to prove."
+          report, the harder your case becomes to prove.”
         </p>
         <cite className="mt-4 block text-sm font-bold text-[#1B2639] not-italic">
           — David Carter, Founder, Carter Injury Law, Tampa, FL
@@ -480,14 +480,14 @@ export default function WhenRoadConditionsCauseCarAccidentsInFlorida() {
         Potholes, cracked pavement - these aren’t rare. Year after year, federal
         traffic data points to poor road upkeep as part of countless accidents
         across the country. In Florida, it happens too often. Getting better
-        isn't enough if no one answers for what went wrong.
+        isn’t enough if no one answers for what went wrong.
       </p>
 
       <div className="my-8 border-l-4 border-amber-500 bg-amber-50/50 !p-6 shadow-sm rounded-r-lg">
-        <h3 className="!mt-0 text-lg font-bold text-amber-950 flex items-center gap-2">
+        <h2 className="!mt-0 text-lg font-bold text-amber-950 flex items-center gap-2">
           <span className="text-amber-600">⚠️</span> WARNING: Do Not Make These
           Mistakes After a Road-Condition Crash
-        </h3>
+        </h2>
         <ul className="mt-4 space-y-3 !pl-5 list-disc text-gray-700 text-base text-justify">
           <li>
             <strong>Do not apologize to anyone at the scene.</strong> People may
