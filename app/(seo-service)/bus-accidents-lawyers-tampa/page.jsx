@@ -1,20 +1,20 @@
 import React from "react";
-import HeroHeader from "@/components/seo-service/bus-accidents-lawyer-tampa/HeroHeader";
-import CommonCausesSection from "@/components/seo-service/bus-accidents-lawyer-tampa/CommonCausesSection";
-import WhyRightLawyerSection from "@/components/seo-service/bus-accidents-lawyer-tampa/WhyRightLawyerSection";
-import WhoCanFileSection from "@/components/seo-service/bus-accidents-lawyer-tampa/WhoCanFileSection";
-import MistakesSection from "@/components/seo-service/bus-accidents-lawyer-tampa/MistakesSection";
-import DedicatedCounselSection from "@/components/seo-service/bus-accidents-lawyer-tampa/DedicatedCounselSection";
-import EstablishedLegalProcessSection from "@/components/seo-service/bus-accidents-lawyer-tampa/EstablishedLegalProcessSection";
-import JusticeSecuredSection from "@/components/seo-service/bus-accidents-lawyer-tampa/JusticeSecuredSection";
-import WhyChooseUsSection from "@/components/seo-service/bus-accidents-lawyer-tampa/WhyChooseUsSection";
-import CompensationTypesSection from "@/components/seo-service/bus-accidents-lawyer-tampa/CompensationTypesSection";
-import ExpertValuationSection from "@/components/seo-service/bus-accidents-lawyer-tampa/ExpertValuationSection";
-import AreasWeServeSection from "@/components/seo-service/bus-accidents-lawyer-tampa/AreasWeServeSection";
-import TestimonialsSection from "@/components/seo-service/bus-accidents-lawyer-tampa/TestimonialsSection";
-import StatuteOfLimitationsSection from "@/components/seo-service/bus-accidents-lawyer-tampa/StatuteOfLimitationsSection";
-import FinalCTASection from "@/components/seo-service/bus-accidents-lawyer-tampa/FinalCTASection";
-import FAQSection from "@/components/seo-service/bus-accidents-lawyer-tampa/FAQSection";
+import HeroHeader from "@/components/seo-service/bus-accidents-lawyers-tampa/HeroHeader";
+import CommonCausesSection from "@/components/seo-service/bus-accidents-lawyers-tampa/CommonCausesSection";
+import WhyRightLawyerSection from "@/components/seo-service/bus-accidents-lawyers-tampa/WhyRightLawyerSection";
+import WhoCanFileSection from "@/components/seo-service/bus-accidents-lawyers-tampa/WhoCanFileSection";
+import MistakesSection from "@/components/seo-service/bus-accidents-lawyers-tampa/MistakesSection";
+import DedicatedCounselSection from "@/components/seo-service/bus-accidents-lawyers-tampa/DedicatedCounselSection";
+import EstablishedLegalProcessSection from "@/components/seo-service/bus-accidents-lawyers-tampa/EstablishedLegalProcessSection";
+import JusticeSecuredSection from "@/components/seo-service/bus-accidents-lawyers-tampa/JusticeSecuredSection";
+import WhyChooseUsSection from "@/components/seo-service/bus-accidents-lawyers-tampa/WhyChooseUsSection";
+import CompensationTypesSection from "@/components/seo-service/bus-accidents-lawyers-tampa/CompensationTypesSection";
+import ExpertValuationSection from "@/components/seo-service/bus-accidents-lawyers-tampa/ExpertValuationSection";
+import AreasWeServeSection from "@/components/seo-service/bus-accidents-lawyers-tampa/AreasWeServeSection";
+import TestimonialsSection from "@/components/seo-service/bus-accidents-lawyers-tampa/TestimonialsSection";
+import StatuteOfLimitationsSection from "@/components/seo-service/bus-accidents-lawyers-tampa/StatuteOfLimitationsSection";
+import FinalCTASection from "@/components/seo-service/bus-accidents-lawyers-tampa/FinalCTASection";
+import FAQSection from "@/components/seo-service/bus-accidents-lawyers-tampa/FAQSection";
 
 export const metadata = {
   title: "Tampa Bus Accident Lawyer | Commercial Transit Injury Claims",
