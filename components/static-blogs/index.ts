@@ -31,6 +31,9 @@ import RentalCarAccidentsInFloridaUnderstandingInsuranceCoverage, {
 import WhenRoadConditionsCauseCarAccidentsInFlorida, {
   whenRoadConditionsCauseCarAccidentsInFlorida,
 } from "./blogs/when-road-conditions-cause-car-accidents-in-florida";
+import MinorCarAccidentsSeriousInjuryClaimsFlorida, {
+  minorCarAccidentsSeriousInjuryClaimsFlorida,
+} from "./blogs/minor-car-accidents-serious-injury-claims-florida";
 
 const staticBlogPostsUnsorted = [
   howAccidentScenePhotosCanStrengthen,
@@ -44,6 +47,7 @@ const staticBlogPostsUnsorted = [
   witnessStatementsFloridaCarAccidentClaims,
   rentalCarAccidentsInFloridaUnderstandingInsuranceCoverage,
   whenRoadConditionsCauseCarAccidentsInFlorida,
+  minorCarAccidentsSeriousInjuryClaimsFlorida,
 ];
 
 export const staticBlogPosts = [...staticBlogPostsUnsorted].sort(
@@ -72,6 +76,8 @@ export const staticBlogComponents = {
     RentalCarAccidentsInFloridaUnderstandingInsuranceCoverage,
   [whenRoadConditionsCauseCarAccidentsInFlorida.slug]:
     WhenRoadConditionsCauseCarAccidentsInFlorida,
+  [minorCarAccidentsSeriousInjuryClaimsFlorida.slug]:
+    MinorCarAccidentsSeriousInjuryClaimsFlorida,
 };
 
 export function getStaticBlogBySlug(slug: string) {
