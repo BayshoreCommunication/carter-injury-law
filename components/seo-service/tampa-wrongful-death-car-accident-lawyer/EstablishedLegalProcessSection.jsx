@@ -1,11 +1,55 @@
 "use client";
 import React from "react";
-import { Scale, ChevronRight, FileSearch, Gavel, ShieldCheck } from "lucide-react";
+import { Scale, ChevronRight, ShieldCheck, Car, ClipboardList, Search, Calculator, Gavel } from "lucide-react";
 import { motion } from "framer-motion";
+
+const steps = [
+  {
+    number: "01",
+    icon: Car,
+    title: "Deconstruct the Crash",
+    body: "Our team reconstructs the crash. We bring in accident specialists, pull police reports, witness statements, and camera footage before it slips away.",
+  },
+  {
+    number: "02",
+    icon: ClipboardList,
+    title: "Secure Critical Evidence",
+    body: "We pull together police reports, witness statements, traffic camera footage, whatever we can get before it slips away.",
+  },
+  {
+    number: "03",
+    icon: Search,
+    title: "Identify Every Liable Party",
+    body: "We track down everyone who might bear liability, including the at-fault driver, trucking companies, vehicle manufacturers, or government entities.",
+  },
+  {
+    number: "04",
+    icon: Calculator,
+    title: "Calculate the Family's Full Loss",
+    body: "From there, we calculate what your family has actually lost, including financial losses, loss of companionship, and future emotional support impact.",
+  },
+  {
+    number: "05",
+    icon: Gavel,
+    title: "Demand Accountability",
+    body: "Then comes negotiation. If insurance won't offer something fair, we go to court to trial and fight for your best outcome.",
+  },
+];
+
+const staggerContainer = {
+  initial: {},
+  whileInView: { transition: { staggerChildren: 0.12 } },
+  viewport: { once: true, margin: "-100px" }
+};
+
+const fadeInUp = {
+  initial: { opacity: 0, y: 30 },
+  whileInView: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } }
+};
 
 const EstablishedLegalProcessSection = () => {
   return (
-    <section className="w-full bg-[#faf9f6] py-12 md:py-16">
+    <section className="w-full bg-[#faf9f6] py-14 md:py-20">
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8">
         
         {/* Section Header */}
@@ -14,113 +58,100 @@ const EstablishedLegalProcessSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
-          className="text-center max-w-4xl mx-auto mb-16"
+          className="text-center max-w-4xl mx-auto mb-14"
         >
-          <div className="flex items-center justify-center gap-3 mb-5">
-            <div className="flex-1 max-w-[80px] h-px bg-primary/40" />
-            <span className="text-[11px] font-extrabold tracking-[0.25em] text-primary uppercase whitespace-nowrap">
-              Our Process
-            </span>
-            <div className="flex-1 max-w-[80px] h-px bg-primary/40" />
-          </div>
+          <span className="text-[12px] font-extrabold tracking-[0.25em] text-primary uppercase block mb-4">
+            How We Fight For You
+          </span>
 
           <h2 className="text-3xl md:text-5xl font-extrabold text-secondary leading-[1.15] tracking-tight mb-5">
-            Established Legal Process for Handling <br />
-            <span className="text-primary">Tampa Wrongful Death Car Accident Cases</span>
+            How a Wrongful Death Car Accident Lawyer <br />
+            <span className="text-primary">Turns Tragic Accidents Into Accountable Outcomes</span>
           </h2>
           
-          <div className="w-24 h-[3px] bg-primary mx-auto mt-6 mb-6" />
+          <div className="w-20 h-[3px] bg-primary mx-auto mt-5 mb-6" />
           <p className="text-gray-600 text-sm md:text-base leading-relaxed max-w-3xl mx-auto font-medium">
-            We follow a structured process. It protects your claim from the first consultation all the way through to final resolution.
+            A skilled Tampa wrongful death car accident lawyer does a lot more than push documents around. Our team reconstructs the crash. We bring in accident specialists. We pull together police reports, witness statements, traffic camera footage, whatever we can get before it slips away.
           </p>
         </motion.div>
 
-        {/* Two Columns Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch mb-12">
-          
-          {/* Card 1 */}
-          <motion.div 
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.6 }}
-            className="bg-white rounded-[24px] border border-gray-100 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 p-8 md:p-10 flex flex-col justify-between"
-          >
-            <div>
-              {/* Header */}
-              <div className="flex items-center gap-4 mb-6">
-                <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center shrink-0">
-                  <FileSearch className="w-7 h-7 text-primary" strokeWidth={1.5} />
+        {/* ── Top Process Icon Bar with Connecting Line & Arrow Badges ── */}
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+          className="relative mb-10 max-w-5xl mx-auto px-4 hidden md:block"
+        >
+          {/* Continuous Horizontal Background Line */}
+          <div className="absolute top-[32px] left-16 right-16 h-[2px] bg-[#1E2538]/25 z-0" />
+
+          {/* Icons & Arrow Badges Row */}
+          <div className="flex items-center justify-between relative z-10">
+            {steps.map((step, idx) => {
+              const Icon = step.icon;
+              const isLast = idx === steps.length - 1;
+              return (
+                <React.Fragment key={idx}>
+                  {/* Main Icon Circle */}
+                  <div className="flex flex-col items-center">
+                    <div className="w-16 h-16 rounded-full bg-[#1E2538] text-white flex items-center justify-center shadow-xl border-4 border-white ring-1 ring-gray-200 hover:scale-105 hover:bg-primary transition-all duration-300">
+                      <Icon className="w-7 h-7 text-white" strokeWidth={1.75} />
+                    </div>
+                  </div>
+
+                  {/* Line Arrow Badge (between icons) */}
+                  {!isLast && (
+                    <div className="flex-1 flex items-center justify-center px-2">
+                      <div className="w-7 h-7 rounded-full bg-[#1E2538] text-white flex items-center justify-center shadow-md border border-white z-10 shrink-0">
+                        <ChevronRight className="w-4 h-4 text-white" strokeWidth={2.5} />
+                      </div>
+                    </div>
+                  )}
+                </React.Fragment>
+              );
+            })}
+          </div>
+        </motion.div>
+
+        {/* ── 5-Column Cards Grid ── */}
+        <motion.div 
+          variants={staggerContainer}
+          initial="initial"
+          whileInView="whileInView"
+          viewport={{ once: true, margin: "-100px" }}
+          className="grid grid-cols-1 md:grid-cols-5 gap-4 lg:gap-6 items-stretch mb-14"
+        >
+          {steps.map((step, idx) => (
+            <motion.div 
+              key={idx} 
+              variants={fadeInUp}
+              className="bg-white rounded-[20px] border border-gray-100/90 shadow-sm hover:shadow-md transition-all duration-300 p-5 pt-6 flex flex-col items-center text-center justify-between"
+            >
+              <div className="flex flex-col items-center">
+                {/* Red Step Number Badge */}
+                <div className="bg-[#901311] text-white font-extrabold text-xs px-3 py-1 rounded-md shadow-sm mb-4">
+                  {step.number}
                 </div>
-                <div>
-                  <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-1">
-                    Phase 01
-                  </span>
-                  <h3 
-                    className="text-xl md:text-2xl font-bold text-secondary leading-tight"
-                    style={{ fontFamily: 'Georgia, Cambria, "Times New Roman", Times, serif' }}
-                  >
-                    Building the Foundation of Your Case
-                  </h3>
-                </div>
+
+                {/* Card Title */}
+                <h3 
+                  className="text-base font-extrabold text-secondary leading-snug mb-3 tracking-tight"
+                  style={{ fontFamily: 'Georgia, Cambria, "Times New Roman", Times, serif' }}
+                >
+                  {step.title}
+                </h3>
+
+                <div className="w-8 h-px bg-gray-100 mb-3" />
+
+                {/* Card Body Text */}
+                <p className="text-gray-600 text-xs sm:text-sm leading-relaxed font-medium">
+                  {step.body}
+                </p>
               </div>
-
-              <div className="w-full h-px bg-gray-100 mb-6" />
-
-              {/* Description */}
-              <p className="text-gray-600 text-sm md:text-[15px] leading-relaxed font-medium">
-                It starts with a free consultation, looking at what happened and confirming you're eligible to file. From there, the investigation kicks in. Police reports, witness interviews, crash reconstruction. Then we count down the full scope of both financial and emotional damages.
-              </p>
-            </div>
-
-            <div className="mt-8 flex items-center gap-2 text-primary text-xs font-extrabold uppercase tracking-wider">
-              <span>Investigate & Valuate</span>
-              <ChevronRight className="w-4 h-4" strokeWidth={2.5} />
-            </div>
-          </motion.div>
-
-          {/* Card 2 */}
-          <motion.div 
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.6 }}
-            className="bg-white rounded-[24px] border border-gray-100 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 p-8 md:p-10 flex flex-col justify-between"
-          >
-            <div>
-              {/* Header */}
-              <div className="flex items-center gap-4 mb-6">
-                <div className="w-14 h-14 rounded-2xl bg-secondary/10 flex items-center justify-center shrink-0">
-                  <Gavel className="w-7 h-7 text-secondary" strokeWidth={1.5} />
-                </div>
-                <div>
-                  <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-1">
-                    Phase 02
-                  </span>
-                  <h3 
-                    className="text-xl md:text-2xl font-bold text-secondary leading-tight"
-                    style={{ fontFamily: 'Georgia, Cambria, "Times New Roman", Times, serif' }}
-                  >
-                    Pursuing Resolution and Accountability
-                  </h3>
-                </div>
-              </div>
-
-              <div className="w-full h-px bg-gray-100 mb-6" />
-
-              {/* Description */}
-              <p className="text-gray-600 text-sm md:text-[15px] leading-relaxed font-medium">
-                With the case built, we send a formal demand and negotiate with every insurance company that bears responsibility. No fair offer? We file suit and take it to trial.
-              </p>
-            </div>
-
-            <div className="mt-8 flex items-center gap-2 text-secondary text-xs font-extrabold uppercase tracking-wider">
-              <span>Negotiate & Litigate</span>
-              <ChevronRight className="w-4 h-4" strokeWidth={2.5} />
-            </div>
-          </motion.div>
-
-        </div>
+            </motion.div>
+          ))}
+        </motion.div>
 
         {/* Footer quote-style card */}
         <motion.div 
