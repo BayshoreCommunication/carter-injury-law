@@ -3,7 +3,6 @@ import HeroHeader from "@/components/seo-service/largo-wrongful-death-lawyer/Her
 import CommonCausesSection from "@/components/seo-service/largo-wrongful-death-lawyer/CommonCausesSection";
 import WhyRightLawyerSection from "@/components/seo-service/largo-wrongful-death-lawyer/WhyRightLawyerSection";
 import InvestigationProcessSection from "@/components/seo-service/largo-wrongful-death-lawyer/InvestigationProcessSection";
-import FiveStepProcessSection from "@/components/seo-service/largo-wrongful-death-lawyer/FiveStepProcessSection";
 import MistakesSection from "@/components/seo-service/largo-wrongful-death-lawyer/MistakesSection";
 import DedicatedCounselSection from "@/components/seo-service/largo-wrongful-death-lawyer/DedicatedCounselSection";
 import EstablishedLegalProcessSection from "@/components/seo-service/largo-wrongful-death-lawyer/EstablishedLegalProcessSection";
@@ -45,7 +44,6 @@ export default function LargoWrongfulDeathPage() {
       <CommonCausesSection />
       <WhyRightLawyerSection />
       <InvestigationProcessSection />
-      <FiveStepProcessSection />
       <MistakesSection />
       <DedicatedCounselSection />
       <EstablishedLegalProcessSection />

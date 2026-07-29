@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Scale, ChevronRight, FileSearch, HelpCircle, FileText, Landmark, ShieldCheck } from "lucide-react";
+import { Scale, ChevronRight, ShieldCheck, FileSearch, HelpCircle, FileText, Landmark } from "lucide-react";
 import { motion } from "framer-motion";
 
 const steps = [
@@ -56,7 +56,7 @@ const EstablishedLegalProcessSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
-          className="text-center max-w-4xl mx-auto mb-14"
+          className="text-center max-w-4xl mx-auto mb-16"
         >
           <div className="flex items-center justify-center gap-3 mb-5">
             <div className="flex-1 max-w-[80px] h-px bg-primary/40" />
@@ -77,86 +77,78 @@ const EstablishedLegalProcessSection = () => {
           </p>
         </motion.div>
 
-        {/* ── Top Process Icon Bar with Connecting Line & Arrow Badges ── */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
-          className="relative mb-10 max-w-4xl mx-auto px-4 hidden md:block"
-        >
-          {/* Continuous Horizontal Background Line */}
-          <div className="absolute top-[32px] left-16 right-16 h-[2px] bg-[#1E2538]/25 z-0" />
-
-          {/* Icons & Arrow Badges Row */}
-          <div className="flex items-center justify-between relative z-10">
-            {steps.map((step, idx) => {
-              const Icon = step.icon;
-              const isLast = idx === steps.length - 1;
-              return (
-                <React.Fragment key={idx}>
-                  {/* Main Icon Circle */}
-                  <div className="flex flex-col items-center">
-                    <div className="w-16 h-16 rounded-full bg-[#1E2538] text-white flex items-center justify-center shadow-xl border-4 border-white ring-1 ring-gray-200 hover:scale-105 hover:bg-primary transition-all duration-300">
-                      <Icon className="w-7 h-7 text-white" strokeWidth={1.75} />
-                    </div>
-                  </div>
-
-                  {/* Line Arrow Badge (between icons) */}
-                  {!isLast && (
-                    <div className="flex-1 flex items-center justify-center px-2">
-                      <div className="w-7 h-7 rounded-full bg-[#1E2538] text-white flex items-center justify-center shadow-md border border-white z-10 shrink-0">
-                        <ChevronRight className="w-4 h-4 text-white" strokeWidth={2.5} />
-                      </div>
-                    </div>
-                  )}
-                </React.Fragment>
-              );
-            })}
-          </div>
-        </motion.div>
-
-        {/* ── 4 Column Grid ── */}
+        {/* ── Process Grid with Icons Half Inside/Outside Cards ── */}
         <motion.div 
           variants={staggerContainer}
           initial="initial"
           whileInView="whileInView"
           viewport={{ once: true, margin: "-100px" }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch mb-14"
+          className="relative mb-14 max-w-5xl mx-auto"
         >
-          {steps.map((step, idx) => (
-            <motion.div 
-              key={idx} 
-              variants={fadeInUp}
-              className="bg-white rounded-[20px] border border-gray-100/90 shadow-sm hover:shadow-md transition-all duration-300 p-5 pt-6 flex flex-col items-center text-center justify-between"
-            >
-              <div className="flex flex-col items-center">
-                {/* Red Step Number Badge */}
-                <div className="bg-[#901311] text-white font-extrabold text-xs px-3 py-1 rounded-md shadow-sm mb-4">
-                  {step.number}
-                </div>
-
-                <span className="text-[10px] font-extrabold tracking-widest text-primary uppercase block mb-2">
-                  {step.phase}
-                </span>
-
-                {/* Card Title */}
-                <h3 
-                  className="text-base md:text-lg font-bold text-secondary leading-snug mb-3 tracking-tight"
-                  style={{ fontFamily: 'Georgia, Cambria, "Times New Roman", Times, serif' }}
-                >
-                  {step.title}
-                </h3>
-
-                <div className="w-8 h-px bg-gray-100 mb-3" />
-
-                {/* Card Body Text */}
-                <p className="text-gray-600 text-xs sm:text-sm leading-relaxed font-medium">
-                  {step.body}
-                </p>
+          {/* Dotted Line & Arrow Badges across desktop */}
+          <div className="hidden md:flex absolute top-[32px] left-[12%] right-[12%] z-10 items-center justify-between pointer-events-none">
+            {/* Dotted Line */}
+            <div className="w-full border-b-2 border-dotted border-[#1E2538]/40 absolute top-1/2 -translate-y-1/2 left-0 right-0 z-0" />
+            
+            {/* Arrow Badges */}
+            <div className="w-full flex items-center justify-between px-[14%] z-10">
+              <div className="w-6 h-6 rounded-full bg-[#1E2538] text-white flex items-center justify-center border border-white shadow-sm shrink-0">
+                <ChevronRight className="w-3.5 h-3.5 text-white" strokeWidth={2.5} />
               </div>
-            </motion.div>
-          ))}
+              <div className="w-6 h-6 rounded-full bg-[#1E2538] text-white flex items-center justify-center border border-white shadow-sm shrink-0">
+                <ChevronRight className="w-3.5 h-3.5 text-white" strokeWidth={2.5} />
+              </div>
+              <div className="w-6 h-6 rounded-full bg-[#1E2538] text-white flex items-center justify-center border border-white shadow-sm shrink-0">
+                <ChevronRight className="w-3.5 h-3.5 text-white" strokeWidth={2.5} />
+              </div>
+            </div>
+          </div>
+
+          {/* 4 Column Cards Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 lg:gap-6 relative items-stretch">
+            {steps.map((step, idx) => {
+              const Icon = step.icon;
+              return (
+                <motion.div key={idx} variants={fadeInUp} className="relative flex flex-col items-center group">
+                  
+                  {/* Top Icon Badge: 50% above card, 50% inside card */}
+                  <div className="w-16 h-16 rounded-full bg-[#1E2538] text-white flex items-center justify-center shadow-lg border-4 border-white ring-1 ring-gray-100 z-20 relative group-hover:scale-105 group-hover:bg-primary transition-all duration-300">
+                    <Icon className="w-7 h-7 text-white" strokeWidth={1.75} />
+                  </div>
+
+                  {/* White Card Box (mt-[-32px] places icon half inside, half outside) */}
+                  <div className="bg-white rounded-[24px] border border-gray-100/90 shadow-sm hover:shadow-md transition-all duration-300 p-5 pt-10 text-center flex flex-col items-center w-full flex-1 mt-[-32px] z-0 relative justify-between">
+                    <div className="flex flex-col items-center">
+                      {/* Red Step Number Badge */}
+                      <div className="bg-[#901311] text-white font-extrabold text-xs px-3 py-1 rounded-md shadow-sm mb-3">
+                        {step.number}
+                      </div>
+
+                      <span className="text-[10px] font-extrabold tracking-widest text-primary uppercase block mb-2">
+                        {step.phase}
+                      </span>
+
+                      {/* Card Title */}
+                      <h3 
+                        className="text-base md:text-lg font-bold text-secondary leading-snug mb-3 tracking-tight"
+                        style={{ fontFamily: 'Georgia, Cambria, "Times New Roman", Times, serif' }}
+                      >
+                        {step.title}
+                      </h3>
+
+                      <div className="w-8 h-px bg-gray-100 mb-3" />
+
+                      {/* Card Body Text */}
+                      <p className="text-gray-600 text-xs sm:text-sm leading-relaxed font-medium">
+                        {step.body}
+                      </p>
+                    </div>
+                  </div>
+
+                </motion.div>
+              );
+            })}
+          </div>
         </motion.div>
 
         {/* Footer quote-style card */}

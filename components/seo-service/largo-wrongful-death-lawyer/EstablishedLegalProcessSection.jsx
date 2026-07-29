@@ -1,34 +1,55 @@
 "use client";
 import React from "react";
-import { Scale, ChevronRight, FileSearch, Gavel, ShieldCheck, HeartHandshake } from "lucide-react";
+import { Scale, ChevronRight, ShieldCheck, FileSearch, HelpCircle, FileText, Landmark, MessageSquare } from "lucide-react";
 import { motion } from "framer-motion";
 
 const steps = [
   {
     number: "01",
     phase: "Phase 01",
-    icon: HeartHandshake,
-    title: "Building the Foundation of Your Case",
-    body: "It starts with a free consultation, looking at what happened and confirming you're eligible to file. From there, the investigation kicks in. Police reports, witness interviews, crash reconstruction. Then we count down the full scope of both financial and emotional damages.",
+    icon: FileSearch,
+    title: "Initial Case Review and Legal Strategy",
+    body: "We begin with a thorough review of the accident reports and medical records for your loved one. This analysis allows us to form a strategy that targets the most effective path to victory. You receive a clear explanation of how we will proceed to obtain justice for your loss.",
   },
   {
     number: "02",
     phase: "Phase 02",
-    icon: Gavel,
-    title: "Pursuing Resolution and Accountability",
-    body: "With the case built, we send a formal demand and negotiate with every insurance company that bears responsibility. No fair offer? We file suit and take it to trial.",
+    icon: HelpCircle,
+    title: "Independent Investigation and Evidence Development",
+    body: "Our team visits the scene and interviews witnesses and secures all available surveillance footage of the crash. We hire accident reconstruction experts to provide the technical evidence needed to win your case. Strong evidence is the key to holding the responsible parties accountable.",
+  },
+  {
+    number: "03",
+    phase: "Phase 03",
+    icon: FileText,
+    title: "Preparing a Comprehensive Demand Package",
+    body: "We organize all your damages into a detailed demand package that outlines your full financial loss. This document clearly communicates the extent of your suffering to the insurance company and adjusters. A well prepared package is often the fastest route to reaching a fair settlement.",
+  },
+  {
+    number: "04",
+    phase: "Phase 04",
+    icon: Landmark,
+    title: "Litigation When a Fair Settlement Is Not Offered",
+    body: "We file a formal lawsuit if the insurance company fails to offer a fair financial settlement. Our lawyers are prepared to present your case to a jury to secure justice for you. We fight hard in the courtroom to ensure you receive the compensation your family needs now.",
+  },
+  {
+    number: "05",
+    phase: "Phase 05",
+    icon: MessageSquare,
+    title: "Ongoing Client Communication",
+    body: "You will never have to wonder about the status of your claim because we update you. You have direct access to your attorney for any questions that arise during the legal process. We believe that honest and frequent communication is essential for your peace of mind here.",
   },
 ];
 
 const staggerContainer = {
   initial: {},
-  whileInView: { transition: { staggerChildren: 0.15 } },
+  whileInView: { transition: { staggerChildren: 0.12 } },
   viewport: { once: true, margin: "-100px" }
 };
 
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
-  whileInView: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
+  whileInView: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } }
 };
 
 const EstablishedLegalProcessSection = () => {
@@ -42,7 +63,7 @@ const EstablishedLegalProcessSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
-          className="text-center max-w-4xl mx-auto mb-14"
+          className="text-center max-w-4xl mx-auto mb-16"
         >
           <div className="flex items-center justify-center gap-3 mb-5">
             <div className="flex-1 max-w-[80px] h-px bg-primary/40" />
@@ -54,90 +75,90 @@ const EstablishedLegalProcessSection = () => {
 
           <h2 className="text-3xl md:text-5xl font-extrabold text-secondary leading-[1.15] tracking-tight mb-5">
             Established Legal Process for Handling <br />
-            <span className="text-primary">Largo Wrongful Death Claims</span>
+            <span className="text-primary">Largo Wrongful Death Cases</span>
           </h2>
           
-          <div className="w-20 h-[3px] bg-primary mx-auto mt-5 mb-6" />
+          <div className="w-24 h-[3px] bg-primary mx-auto mt-6 mb-6" />
           <p className="text-gray-600 text-sm md:text-base leading-relaxed max-w-3xl mx-auto font-medium">
             We follow a structured process. It protects your claim from the first consultation all the way through to final resolution.
           </p>
         </motion.div>
 
-        {/* ── Top Process Icon Bar with Connecting Line & Arrow Badges ── */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
-          className="relative mb-10 max-w-3xl mx-auto px-4 hidden md:block"
-        >
-          {/* Continuous Horizontal Background Line */}
-          <div className="absolute top-[32px] left-16 right-16 h-[2px] bg-[#1E2538]/25 z-0" />
-
-          {/* Icons & Arrow Badges Row */}
-          <div className="flex items-center justify-between relative z-10">
-            {steps.map((step, idx) => {
-              const Icon = step.icon;
-              const isLast = idx === steps.length - 1;
-              return (
-                <React.Fragment key={idx}>
-                  {/* Main Icon Circle */}
-                  <div className="flex flex-col items-center">
-                    <div className="w-16 h-16 rounded-full bg-[#1E2538] text-white flex items-center justify-center shadow-xl border-4 border-white ring-1 ring-gray-200 hover:scale-105 hover:bg-primary transition-all duration-300">
-                      <Icon className="w-7 h-7 text-white" strokeWidth={1.75} />
-                    </div>
-                  </div>
-
-                  {/* Line Arrow Badge (between icons) */}
-                  {!isLast && (
-                    <div className="flex-1 flex items-center justify-center px-2">
-                      <div className="w-7 h-7 rounded-full bg-[#1E2538] text-white flex items-center justify-center shadow-md border border-white z-10 shrink-0">
-                        <ChevronRight className="w-4 h-4 text-white" strokeWidth={2.5} />
-                      </div>
-                    </div>
-                  )}
-                </React.Fragment>
-              );
-            })}
-          </div>
-        </motion.div>
-
-        {/* ── 2 Column Grid ── */}
+        {/* ── Process Grid with Icons Half Inside/Outside Cards ── */}
         <motion.div 
           variants={staggerContainer}
           initial="initial"
           whileInView="whileInView"
           viewport={{ once: true, margin: "-100px" }}
-          className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch mb-14"
+          className="relative mb-14"
         >
-          {steps.map((step, idx) => {
-            return (
-              <motion.div key={idx} variants={fadeInUp} className="bg-white rounded-[24px] border border-gray-100/90 shadow-sm hover:shadow-md transition-all duration-300 p-8 pt-6 flex flex-col justify-between">
-                <div>
-                  <div className="bg-[#901311] text-white font-extrabold text-xs px-3 py-1 rounded-md shadow-sm mb-4 w-fit">
-                    {step.number}
+          {/* Dotted Line & Arrow Badges across desktop */}
+          <div className="hidden md:flex absolute top-[32px] left-[10%] right-[10%] z-10 items-center justify-between pointer-events-none">
+            {/* Dotted Line */}
+            <div className="w-full border-b-2 border-dotted border-[#1E2538]/40 absolute top-1/2 -translate-y-1/2 left-0 right-0 z-0" />
+            
+            {/* Arrow Badges */}
+            <div className="w-full flex items-center justify-between px-[11%] z-10">
+              <div className="w-6 h-6 rounded-full bg-[#1E2538] text-white flex items-center justify-center border border-white shadow-sm shrink-0">
+                <ChevronRight className="w-3.5 h-3.5 text-white" strokeWidth={2.5} />
+              </div>
+              <div className="w-6 h-6 rounded-full bg-[#1E2538] text-white flex items-center justify-center border border-white shadow-sm shrink-0">
+                <ChevronRight className="w-3.5 h-3.5 text-white" strokeWidth={2.5} />
+              </div>
+              <div className="w-6 h-6 rounded-full bg-[#1E2538] text-white flex items-center justify-center border border-white shadow-sm shrink-0">
+                <ChevronRight className="w-3.5 h-3.5 text-white" strokeWidth={2.5} />
+              </div>
+              <div className="w-6 h-6 rounded-full bg-[#1E2538] text-white flex items-center justify-center border border-white shadow-sm shrink-0">
+                <ChevronRight className="w-3.5 h-3.5 text-white" strokeWidth={2.5} />
+              </div>
+            </div>
+          </div>
+
+          {/* 5 Column Cards Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-4 lg:gap-6 relative items-stretch">
+            {steps.map((step, idx) => {
+              const Icon = step.icon;
+              return (
+                <motion.div key={idx} variants={fadeInUp} className="relative flex flex-col items-center group">
+                  
+                  {/* Top Icon Badge: 50% above card, 50% inside card */}
+                  <div className="w-16 h-16 rounded-full bg-[#1E2538] text-white flex items-center justify-center shadow-lg border-4 border-white ring-1 ring-gray-100 z-20 relative group-hover:scale-105 group-hover:bg-primary transition-all duration-300">
+                    <Icon className="w-7 h-7 text-white" strokeWidth={1.75} />
                   </div>
 
-                  <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-2">
-                    {step.phase}
-                  </span>
+                  {/* White Card Box (mt-[-32px] places icon half inside, half outside) */}
+                  <div className="bg-white rounded-[24px] border border-gray-100/90 shadow-sm hover:shadow-md transition-all duration-300 p-5 pt-10 text-center flex flex-col items-center w-full flex-1 mt-[-32px] z-0 relative justify-between">
+                    <div className="flex flex-col items-center">
+                      {/* Red Step Number Badge */}
+                      <div className="bg-[#901311] text-white font-extrabold text-xs px-3 py-1 rounded-md shadow-sm mb-3">
+                        {step.number}
+                      </div>
 
-                  <h3 
-                    className="text-xl md:text-2xl font-bold text-secondary leading-tight mb-4"
-                    style={{ fontFamily: 'Georgia, Cambria, "Times New Roman", Times, serif' }}
-                  >
-                    {step.title}
-                  </h3>
+                      <span className="text-[10px] font-extrabold tracking-widest text-primary uppercase block mb-2">
+                        {step.phase}
+                      </span>
 
-                  <div className="w-12 h-px bg-gray-100 mb-5" />
+                      {/* Card Title */}
+                      <h3 
+                        className="text-base md:text-lg font-bold text-secondary leading-snug mb-3 tracking-tight"
+                        style={{ fontFamily: 'Georgia, Cambria, "Times New Roman", Times, serif' }}
+                      >
+                        {step.title}
+                      </h3>
 
-                  <p className="text-gray-600 text-sm md:text-[15px] leading-relaxed font-medium">
-                    {step.body}
-                  </p>
-                </div>
-              </motion.div>
-            );
-          })}
+                      <div className="w-8 h-px bg-gray-100 mb-3" />
+
+                      {/* Card Body Text */}
+                      <p className="text-gray-600 text-xs sm:text-sm leading-relaxed font-medium">
+                        {step.body}
+                      </p>
+                    </div>
+                  </div>
+
+                </motion.div>
+              );
+            })}
+          </div>
         </motion.div>
 
         {/* Footer quote-style card */}

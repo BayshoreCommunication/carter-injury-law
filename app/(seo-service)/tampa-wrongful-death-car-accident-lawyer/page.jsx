@@ -3,7 +3,6 @@ import HeroHeader from "@/components/seo-service/tampa-wrongful-death-car-accide
 import CommonCausesSection from "@/components/seo-service/tampa-wrongful-death-car-accident-lawyer/CommonCausesSection";
 import WhyRightLawyerSection from "@/components/seo-service/tampa-wrongful-death-car-accident-lawyer/WhyRightLawyerSection";
 import InvestigationProcessSection from "@/components/seo-service/tampa-wrongful-death-car-accident-lawyer/InvestigationProcessSection";
-import FiveStepProcessSection from "@/components/seo-service/tampa-wrongful-death-car-accident-lawyer/FiveStepProcessSection";
 import MistakesSection from "@/components/seo-service/tampa-wrongful-death-car-accident-lawyer/MistakesSection";
 import DedicatedCounselSection from "@/components/seo-service/tampa-wrongful-death-car-accident-lawyer/DedicatedCounselSection";
 import EstablishedLegalProcessSection from "@/components/seo-service/tampa-wrongful-death-car-accident-lawyer/EstablishedLegalProcessSection";
@@ -16,7 +15,6 @@ import TestimonialsSection from "@/components/seo-service/tampa-wrongful-death-c
 import StatuteOfLimitationsSection from "@/components/seo-service/tampa-wrongful-death-car-accident-lawyer/StatuteOfLimitationsSection";
 import FinalCTASection from "@/components/seo-service/tampa-wrongful-death-car-accident-lawyer/FinalCTASection";
 import FAQSection from "@/components/seo-service/tampa-wrongful-death-car-accident-lawyer/FAQSection";
-
 
 export const metadata = {
   title: "Tampa Wrongful Death Car Accident Lawyer|Free Consultation",
@@ -46,7 +44,6 @@ export default function TampaWrongfulDeathCarAccidentPage() {
       <CommonCausesSection />
       <WhyRightLawyerSection />
       <InvestigationProcessSection />
-      <FiveStepProcessSection />
       <MistakesSection />
       <DedicatedCounselSection />
       <EstablishedLegalProcessSection />
@@ -59,7 +56,6 @@ export default function TampaWrongfulDeathCarAccidentPage() {
       <StatuteOfLimitationsSection />
       <FinalCTASection />
       <FAQSection />
-      
     </main>
   );
 }
