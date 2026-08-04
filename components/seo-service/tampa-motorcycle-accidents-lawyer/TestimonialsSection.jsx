@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React, { useRef } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,21 +16,21 @@ const reviews = [
     text: "I had a great experience working with David and his team. I really appreciated how helpful and communicative they were throughout my personal injury case. It was particularly valuable to me that they coordinated so effectively between my insurance provider and my medical appointments. I highly recommend this firm to anyone needing a personal injury attorney.",
     name: "Ian Lynch",
     location: "Tampa, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel.png", "tampa-motorcycle-accidents-lawyer").filePath,
   },
   {
     stars: 5,
     text: "Working with David was an amazing experience defined by clear and consistent communication. I felt fully informed throughout my 2018 case. I truly appreciated that David never pressured me into an early settlement; instead, he fought for my best interests until we reached a result I was truly happy with.",
     name: "Maria",
     location: "Tampa, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel.png", "tampa-motorcycle-accidents-lawyer").filePath,
   },
   {
     stars: 5,
     text: "I worked with David Carter and felt supported from the very first day. David's deep knowledge and responsiveness made the entire legal process feel straightforward rather than overwhelming. I was thrilled with the final outcome and strongly suggest reaching out to David if you want someone who genuinely cares about delivering results.",
     name: "Colin Korber",
     location: "Tampa, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel.png", "tampa-motorcycle-accidents-lawyer").filePath,
   },
 ];
 

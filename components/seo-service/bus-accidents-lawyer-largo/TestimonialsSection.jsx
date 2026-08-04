@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React, { useRef } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,21 +16,21 @@ const reviews = [
     text: "After a rear end collision left me overwhelmed, Carter Injury Law stepped in and handled everything with patience and skill. David and his team explained each step and stayed in constant contact throughout my case. Their persistence led to a policy limit settlement that covered all of my medical costs.",
     name: "Amanda",
     location: "Largo, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel", "bus-accidents-lawyer-largo").filePath,
   },
   {
     stars: 5,
     text: "English is not my first language, and I needed a patient attorney after being struck by a large vehicle. David Carter took the time to explain every part of the process and prepared me thoroughly for court. His dedication helped secure a settlement that covered my medical expenses in full.",
     name: "Judith",
     location: "Largo, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel", "bus-accidents-lawyer-largo").filePath,
   },
   {
     stars: 5,
     text: "My accident case became complicated once I learned the other driver lacked proper insurance coverage. David guided me through every step with confidence and genuine care for my recovery. His thorough trial preparation helped secure a strong settlement covering all of my medical bills.",
     name: "Steve",
     location: "Largo, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel", "bus-accidents-lawyer-largo").filePath,
   },
 ];
 

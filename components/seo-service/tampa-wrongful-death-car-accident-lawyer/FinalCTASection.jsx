@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -97,8 +99,7 @@ const FinalCTASection = () => {
         {/* ── Right: Photo ── */}
         <div className="relative hidden lg:block min-h-[480px]">
           <Image
-            src="/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/carter-team-cta.png"
-            alt="Carter Injury Law legal team"
+            src={getSeoImage("carter-team-cta.png", "tampa-wrongful-death-car-accident-lawyer").filePath} alt={getSeoImage("carter-team-cta.png", "tampa-wrongful-death-car-accident-lawyer").altText} title={getSeoImage("carter-team-cta.png", "tampa-wrongful-death-car-accident-lawyer").title}
             fill
             sizes="50vw"
             className="object-cover object-top"
@@ -132,8 +133,7 @@ const FinalCTASection = () => {
       {/* Mobile photo strip */}
       <div className="relative w-full h-64 lg:hidden">
         <Image
-          src="/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/carter-team-cta.png"
-          alt="Carter Injury Law legal team"
+          src={getSeoImage("carter-team-cta.png", "tampa-wrongful-death-car-accident-lawyer").filePath} alt={getSeoImage("carter-team-cta.png", "tampa-wrongful-death-car-accident-lawyer").altText} title={getSeoImage("carter-team-cta.png", "tampa-wrongful-death-car-accident-lawyer").title}
           fill
           className="object-cover object-top"
         />

@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React from "react";
 import Image from "next/image";
 import { Search, Scale } from "lucide-react";
@@ -20,37 +22,37 @@ const CommonCausesSection = () => {
     {
       number: "01",
       title: "Drivers Failing to Yield to Motorcyclists",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/distraction.png",
+      image: getSeoImage("distraction.png", "motorcycle-accident-lawyer-largo-fl").filePath,
       description: "Many Largo motorcycle accidents happen because drivers fail to yield the right of way to riders. Motorcycles appear smaller and harder to spot than cars when pulling out of busy side streets. Drivers often misjudge the speed and distance of oncoming bikes when making their turns in traffic. This split second error causes devastating collisions that leave riders with serious injuries needing intensive care.",
     },
     {
       number: "02",
       title: "Unsafe Left-Turn Collisions at Busy Intersections",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/impaired.png",
+      image: getSeoImage("impaired.png", "motorcycle-accident-lawyer-largo-fl").filePath,
       description: "Left turn crashes rank among the most common and dangerous types of motorcycle accidents for riders. Drivers turning left across traffic frequently fail to notice an oncoming motorcycle until it is late. These intersection collisions produce high speed impacts and catastrophic injuries for the unprotected motorcycle rider involved. We investigate the intersection conditions to prove the driver was clearly at fault for your accident.",
     },
     {
       number: "03",
       title: "Distracted Driving Around Motorcycles",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/weather.png",
+      image: getSeoImage("weather.png", "motorcycle-accident-lawyer-largo-fl").filePath,
       description: "A driver glancing at a phone for a few seconds can miss a motorcycle entirely in view. Distracted driving remains one of the leading causes of crashes across Pinellas County for many riders. Riders have little protection when an inattentive driver drifts into their lane or skips blind spots. Drivers skipping these checks put our clients at serious and unnecessary risk of severe bodily harm.",
     },
     {
       number: "04",
       title: "Speeding and Aggressive Driving Behavior",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/distraction.png",
+      image: getSeoImage("distraction.png", "motorcycle-accident-lawyer-largo-fl").filePath,
       description: "Speeding reduces a driver's ability to react when a motorcycle merges or changes lanes nearby daily. Aggressive habits like tailgating and weaving through traffic put riders at serious risk on roads. When speed is a factor the force of impact leads to life altering injuries for victims. We fight to hold these aggressive drivers accountable for their reckless behavior on our local roads.",
     },
     {
       number: "05",
       title: "Hazardous Road Conditions That Endanger Riders",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/impaired.png",
+      image: getSeoImage("impaired.png", "motorcycle-accident-lawyer-largo-fl").filePath,
       description: "Potholes and uneven pavement create hazards that affect motorcyclists more severely than they affect other drivers. A road defect that a car barely notices can throw a rider off balance very instantly. Local governments and contractors may share liability when unsafe road conditions cause an accident for you. We identify these road hazards to prove negligence in your specific injury case for damages.",
     },
     {
       number: "06",
       title: "Impaired Drivers Causing Serious Motorcycle Crashes",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/weather.png",
+      image: getSeoImage("weather.png", "motorcycle-accident-lawyer-largo-fl").filePath,
       description: "Alcohol and drug impairment slow reaction times and cloud driver judgment behind the wheel of cars. Impaired drivers often fail to see motorcycles until a collision becomes completely unavoidable for the rider. These crashes produce severe injuries and may also support a claim for punitive damages in court. We gather evidence of impairment to ensure your claim reflects the driver's negligence for you.",
     },
   ];

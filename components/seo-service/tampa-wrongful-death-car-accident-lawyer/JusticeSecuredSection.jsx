@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React from "react";
 import Image from "next/image";
 
@@ -13,8 +15,7 @@ const JusticeSecuredSection = () => {
           {/* ── Background image — right 60% of the card ── */}
           <div className="absolute inset-y-0 right-0 w-full lg:w-[58%]">
             <Image
-              src="/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/justice-family.png"
-              alt="Attorney consulting with a grieving family"
+              src={getSeoImage("justice-family.png", "tampa-wrongful-death-car-accident-lawyer").filePath} alt={getSeoImage("justice-family.png", "tampa-wrongful-death-car-accident-lawyer").altText} title={getSeoImage("justice-family.png", "tampa-wrongful-death-car-accident-lawyer").title}
               fill
               sizes="(max-width: 1024px) 100vw, 58vw"
               className="object-cover object-center"

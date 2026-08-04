@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React from "react";
 import Image from "next/image";
 import { Search, Scale } from "lucide-react";
@@ -20,37 +22,37 @@ const CommonCausesSection = () => {
     {
       number: "01",
       title: "Distracted and Reckless Drivers",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/distraction.png",
+      image: getSeoImage("distraction.png", "tampa-personal-injury-lawyers-firm").filePath,
       description: "Distracted driving remains one of the leading causes of traffic accidents in the Tampa area now. Drivers who use devices while driving put every other road user at significant risk daily. Our tampa personal injury lawyers firm use cell phone records and traffic camera footage to establish liability for your accident.",
     },
     {
       number: "02",
       title: "Speeding and Aggressive Driving",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/impaired.png",
+      image: getSeoImage("impaired.png", "tampa-personal-injury-lawyers-firm").filePath,
       description: "Excessive speed reduces reaction time and increases the force of impact in a serious collision event. Aggressive behaviors like tailgating and unsafe lane changes are common on our congested Tampa highways. These behaviors represent clear violations of the duty of care owed to other drivers daily.",
     },
     {
       number: "03",
       title: "Drunk and Drug Impaired Driving",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/weather.png",
+      image: getSeoImage("weather.png", "tampa-personal-injury-lawyers-firm").filePath,
       description: "Impaired driving crashes produce some of the most severe injuries in our personal injury litigation today. A driver operating under the influence faces criminal prosecution and full civil liability for injuries. Florida law also allows claims against establishments that served alcohol to a visibly intoxicated person.",
     },
     {
       number: "04",
       title: "Unsafe Property Conditions",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/distraction.png",
+      image: getSeoImage("distraction.png", "tampa-personal-injury-lawyers-firm").filePath,
       description: "Property owners in Tampa have a legal obligation to keep premises safe for every visitor daily. Wet floors and broken walkways or inadequate lighting lead to serious fall injuries for people. When an owner knows about a hazard and fails to act they bear legal responsibility.",
     },
     {
       number: "05",
       title: "Commercial Vehicle Negligence",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/impaired.png",
+      image: getSeoImage("impaired.png", "tampa-personal-injury-lawyers-firm").filePath,
       description: "Delivery trucks and commercial fleet vehicles operate throughout Tampa in large numbers every single day now. When a driver violates traffic laws or operates an inadequately maintained vehicle they are liable. These cases involve corporate defendants with significant insurance coverage and experienced legal defense teams involved.",
     },
     {
       number: "06",
       title: "Defective Products and Equipment",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/weather.png",
+      image: getSeoImage("weather.png", "tampa-personal-injury-lawyers-firm").filePath,
       description: "Some accidents occur because a product failed rather than because of driver or property neglect today. Defective auto parts and dangerous medications can cause serious injuries that change your entire life. Product liability claims are brought against manufacturers when a design defect is responsible for harm.",
     },
   ];

@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React, { useRef } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,21 +16,21 @@ const reviews = [
     text: "They have been so helpful to me and my mom since the accident, I don't know what I would have done without their help. They were always keeping us up to date with everything, from the beginning. They responded to our questions at all times and made time to explain the law in an understandable manner. I really liked the way they assisted me in getting medical treatment right around the corner. Just that was enough to make my recovery a lot less stressful. All staff have been professional, supportive and caring throughout this experience. I am highly recommending them!",
     name: "Jenna Seymour",
     location: "Tampa, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel.png", "tampa-wrongful-death-car-accident-lawyer").filePath,
   },
   {
     stars: 5,
     text: "Rob and David are exceptional lawyers who are very caring about their clients. They did an incredible job all the way through, they fought for me and they exceeded my expectations! If you are considering hiring an attorney, but you do not know which one is the best attorney for you, then you should check out these reviews. Garantiranje u tebe neće nađivati bolje. I initially contacted one of those billboard style law offices and had the runaround for 6 months. As soon as I reached out to David, he picked up my case and was able to have everything resolved and settled in less time than that! This office was above all the rest and explained every detail in great detail and relieved me of so much stress during my recovery. \"Recommend every time! 100% recommended every single time!\"",
     name: "Malik Harmon",
     location: "Tampa, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel.png", "tampa-wrongful-death-car-accident-lawyer").filePath,
   },
   {
     stars: 5,
     text: "I had so many questions to ask, both via email, text and telephone, and David and his team responded promptly and I felt my case was treated as if it was as much as any other. I was extremely hesitant, but everything they did made it so easy and seamless. I hope to never have to experience another automobile accident again, but if I do, I hope that David Carter will be my first choice for legal assistance!",
     name: "Yvette Maldonado",
     location: "Tampa, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel.png", "tampa-wrongful-death-car-accident-lawyer").filePath,
   },
 ];
 

@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { Users, Award, Star, MessageSquare, ShieldCheck, User, MapPin } from "lucide-react";
@@ -44,8 +46,8 @@ const CountUp = ({ end, duration = 2000, suffix = "" }) => {
 };
 
 const HeroHeader = ({
-  bgImage = "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/hero-bg.png",
-  lawyerLeft = "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/carter.png",
+  bgImage = getSeoImage("hero-bg", "bus-accidents-lawyer-largo").filePath,
+  lawyerLeft = getSeoImage("carter-attorney", "bus-accidents-lawyer-largo").filePath,
   
   titlePart1 = "Bus Accidents Lawyer Largo,",
   titlePart2 = "Compassionate Legal Support After a Bus Accident",

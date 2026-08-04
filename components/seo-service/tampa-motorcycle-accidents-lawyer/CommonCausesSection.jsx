@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React from "react";
 import Image from "next/image";
 import { Search, Scale } from "lucide-react";
@@ -20,37 +22,37 @@ const CommonCausesSection = () => {
     {
       number: "01",
       title: "Driver Inattention at Intersections",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/distraction.png",
+      image: getSeoImage("distraction.png", "tampa-motorcycle-accidents-lawyer").filePath,
       description: "Intersections are where many of the crashes involving motorcycles in Tampa occur. Often, a distracted driver checking their phone or failing to look creates a dangerous turn. You might ride responsibly but cars still pull into your path and cause severe accidents. Our Tampa motorcycle accidents lawyer investigates these crashes by reviewing all available traffic camera footage. We also gather statements from nearby witnesses to build the strongest possible case for you. Evidence confirms that the other driver had clear visibility and time to see your motorcycle approach. The duty of care is defined with precision and we establish a basis for proving their culpability at the exact time when they did not demonstrate the duty of care.",
     },
     {
       number: "02",
       title: "Unsafe Lane Changes",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/impaired.png",
+      image: getSeoImage("impaired.png", "tampa-motorcycle-accidents-lawyer").filePath,
       description: "Motorcycles can be in an unseen blind spot within a split-second. Riders are given little time as the driver fails to signal for a turn and/or does not use the rearview mirror. The sharp turns call for fast thinking turns from the riders, which can lead to crashes or accidents. Our legal experts study traffic flow and vehicle positioning to prove the driver failed their duty. We use this evidence to hold the driver responsible for the sudden and dangerous change in their path.",
     },
     {
       number: "03",
       title: "Heavy Traffic Congestion",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/weather.png",
+      image: getSeoImage("weather.png", "tampa-motorcycle-accidents-lawyer").filePath,
       description: "The interstates, such as I 275 and I 4, are heavily traveled all day. Stopping and starting traffic can lead to rear end collisions and sudden unsafe driving around motorists. We evaluate your injury by looking at the traffic conditions surrounding your accident to identify specific hazards. Anger is the direct cause of many dangerous driving behaviors, especially during periods of congestion.When frustrated drivers are stuck in heavy traffic, they make poor choices that inevitably result in unsafe driving behavior.",
     },
     {
       number: "04",
       title: "Commercial Vehicle Negligence",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/distraction.png",
+      image: getSeoImage("distraction.png", "tampa-motorcycle-accidents-lawyer").filePath,
       description: "Delivery trucks and commercial vehicles may need to cut corners on safety requirements when they need to get it done in a hurry.When time is of the essence, delivery trucks and commercial vehicles can be somewhat lax about safety. This occurs during the practice of driving while fatigued, making wide turns, or an inadequate warning for motorcycles sharing the roadway. We actively seek out businesses who have made speed before people's safety on the road their top priority. One part of our investigation is to consider the driver's log book and company training documentation, to ascertain if any trends of poor behaviour are present. The driver and the parent company are held liable.",
     },
     {
       number: "05",
       title: "Construction Zone Hazards",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/impaired.png",
+      image: getSeoImage("impaired.png", "tampa-motorcycle-accidents-lawyer").filePath,
       description: "Construction in all areas of Tampa may result in patchy pavement, loose gravel, or lanes that are improperly marked, causing riders to lose their footing. This is particularly applicable in the nighttime or when you're in unfamiliar surroundings. We hold contractors and the government responsible for injuries that occur due to a failure of them to maintain a safe work zone. Our crew records the road hazards that have been identified at the scene prior to their removal. We then examine whether the correct warning signs were displayed or whether the construction design was a natural hazard to motorcyclists.",
     },
     {
       number: "06",
       title: "Hazardous Weather Conditions",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/weather.png",
+      image: getSeoImage("weather.png", "tampa-motorcycle-accidents-lawyer").filePath,
       description: "Florida sudden downpours reduce visibility and create slick roads within minutes. Riders are especially vulnerable when drivers fail to adjust their speed or following distance during a storm. We are determining if the driver failed to take enough precautions during the recent stormy weather. Even if rain caused the accident, the law still expects that drivers operate with necessary care. We gathered weather data and witness testimony to show that the other driver was operating recklessly given the environmental conditions at the time.",
     },
   ];

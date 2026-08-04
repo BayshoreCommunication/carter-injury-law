@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React from "react";
 import Image from "next/image";
 import { Search, Scale } from "lucide-react";
@@ -20,37 +22,37 @@ const CommonCausesSection = () => {
     {
       number: "01",
       title: "Driver Inattention Behind the Wheel",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/distraction.png",
+      image: getSeoImage("distraction", "bus-accidents-lawyer-largo").filePath,
       description: "Distracted driving remains a primary cause of major bus collisions across the busy local road network. Operators often fail to observe traffic patterns while focusing on personal devices or internal bus communications. This creates hazards for passengers and nearby motorists sharing these congested local streets. Our team thoroughly reviews electronic logs to verify if the driver engaged in any prohibited activity. Proving such negligence ensures we establish a solid foundation for your personal injury claim process.",
     },
     {
       number: "02",
       title: "Failure to Inspect and Maintain Buses",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/impaired.png",
+      image: getSeoImage("impaired", "bus-accidents-lawyer-largo").filePath,
       description: "Transit agencies operate on strict preventive maintenance schedules to keep their fleet vehicles running safely. When they skip routine inspections, they breach their legal duty of care to all bus passengers. This oversight creates liability for mechanical failures like brake malfunctions or critical steering defects. Such failures are often identifiable issues that should be addressed before the bus leaves the depot. We obtain internal service logs to demonstrate a clear pattern of corporate neglect regarding vehicle safety.",
     },
     {
       number: "03",
       title: "Unsafe Passenger Loading and Unloading Practices",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/weather.png",
+      image: getSeoImage("weather", "bus-accidents-lawyer-largo").filePath,
       description: "Drivers must strictly adhere to safety protocols before passengers board or exit the transit vehicle. Rushing this process often results in slip and fall injuries at the bus curb stops. We analyze transit security footage to document these unsafe operational habits that lead to serious injuries. These preventable accidents place vulnerable commuters at immediate risk during their daily trips through local neighborhoods. Proper training would ensure drivers maintain a secure environment for every rider on the bus.",
     },
     {
       number: "04",
       title: "Traffic Congestion Along Largo's Major Roadways",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/distraction.png",
+      image: getSeoImage("traffic-congestion", "bus-accidents-lawyer-largo").filePath,
       description: "Dense traffic requires drivers to maintain wider following distances to account for the bus's increased mass. When drivers fail to adjust their driving habits for local congestion, the risk of accidents increases. Heavy traffic on major corridors like West Bay Drive complicates the safe operation of large buses. We analyze local traffic density data to establish how current congestion patterns contributed to your crash. Identifying these environmental factors helps build a compelling case against the responsible transit company operators.",
     },
     {
       number: "05",
       title: "Bus Driver Fatigue During Long Shifts",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/impaired.png",
+      image: getSeoImage("driver-fatigue", "bus-accidents-lawyer-largo").filePath,
       description: "Operating a commercial transit vehicle demands high levels of sustained mental alertness throughout the entire shift. When operators exceed mandated federal hours-of-service limits, their reaction times degrade substantially during long routes. This fatigue places every passenger and surrounding motorist in immediate danger on the public roadways. Our firm audits driver logbooks to verify strict compliance with all applicable safety and rest regulations. Holding companies accountable for scheduling practices remains vital to preventing these entirely avoidable driver accidents.",
     },
     {
       number: "06",
       title: "Negligent Actions by Other Motorists",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/weather.png",
+      image: getSeoImage("negligent-motorists", "bus-accidents-lawyer-largo").filePath,
       description: "Not every accident on the road is caused by the bus driver or the transit company. Reckless third-party drivers who speed or ignore traffic signals often trigger severe collisions with buses. We investigate every vehicle involved in the crash to identify all possible sources of legal liability. Other motorists must be held fully accountable for their role in causing your specific collision event. Securing evidence of external driver negligence strengthens your overall claim against all involved insurance entities.",
     },
   ];

@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React, { useRef } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,21 +16,21 @@ const reviews = [
     text: "David Carter was recommended to me and now I understand why he is great today. He made sure that I felt like a priority during the entire case. David fights for what is right and does not settle for less money.",
     name: "Justin Levy",
     location: "Tampa, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel.png", "tampa-personal-injury-lawyers-firm").filePath,
   },
   {
     stars: 5,
     text: "I had a great experience with Carter Injury Law because they really listened to me. David and his team were responsive and actually cared about my specific case today. They accomplished so much for my case compared to other options I considered here.",
     name: "Christina",
     location: "Tampa, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel.png", "tampa-personal-injury-lawyers-firm").filePath,
   },
   {
     stars: 5,
     text: "David guided me through everything with confidence and care during my accident case today. He explained each step and fought hard against the insurance company lawyers. His attention to detail helped secure a strong settlement for my medical bills.",
     name: "Steve",
     location: "Tampa, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel.png", "tampa-personal-injury-lawyers-firm").filePath,
   },
 ];
 

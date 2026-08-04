@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React from "react";
 import Image from "next/image";
 import { UserCheck, ShieldCheck, TrendingUp, Scale, Sparkles } from "lucide-react";
@@ -21,8 +23,7 @@ const ExpertValuationSection = () => {
               className="relative w-full h-[85%] rounded-[24px] overflow-hidden shadow-xl border border-gray-100"
             >
               <Image
-                src="/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png"
-                alt="Lawyer analyzing case evidence with expert documentation"
+                src={getSeoImage("dedicated-counsel.png", "largo-wrongful-death-lawyer").filePath} alt={getSeoImage("dedicated-counsel.png", "largo-wrongful-death-lawyer").altText} title={getSeoImage("dedicated-counsel.png", "largo-wrongful-death-lawyer").title}
                 fill
                 sizes="(max-width: 1024px) 100vw, 45vw"
                 className="object-cover"

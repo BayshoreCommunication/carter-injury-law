@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React, { useRef } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,21 +16,21 @@ const reviews = [
     text: "An uninsured driver caused my accident and I honestly did not expect much help. David made sure I received every available benefit from my coverage options here. My medical bills were covered and my car was replaced by the team. I never had to face any of it alone thanks to the lawyers.",
     name: "Estelle",
     location: "Tampa, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel.png", "bus-accidents-lawyers-tampa").filePath,
   },
   {
     stars: 5,
     text: "After our property was damaged due to contractor negligence David Carter settled. He settled our case with the insurance company in just a few months. He kept us informed at every step until the matter was resolved daily.",
     name: "Luiz",
     location: "Tampa, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel.png", "bus-accidents-lawyers-tampa").filePath,
   },
   {
     stars: 5,
     text: "No one should have to face a serious accident alone in this city. David and his team walk you through every question about your legal rights. They handle your treatment and next steps so you are never guessing here.",
     name: "Dash",
     location: "Tampa, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel.png", "bus-accidents-lawyers-tampa").filePath,
   },
 ];
 

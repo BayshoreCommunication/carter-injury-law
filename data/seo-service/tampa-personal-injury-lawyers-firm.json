@@ -1,0 +1,149 @@
+{
+  "folderSlug": "tampa-personal-injury-lawyers-firm",
+  "serviceName": "Tampa Personal Injury Lawyers Firm",
+  "location": "Tampa, FL",
+  "topic": "Personal Injury",
+  "totalImages": 14,
+  "images": [
+    {
+      "id": "carter-attorney",
+      "fileName": "carter.png",
+      "component": "HeroHeader",
+      "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/carter.png",
+      "altText": "Attorney David J. Carter - Lead Personal Injury Lawyer in Tampa, FL",
+      "title": "Tampa Personal Injury Lawyers Firm - Attorney David J. Carter",
+      "description": "Professional portrait of Attorney David J. Carter representing Tampa Personal Injury Lawyers Firm in Tampa, FL.",
+      "caption": "David J. Carter - Dedicated Personal Injury Trial Attorney"
+    },
+    {
+      "id": "hero-bg",
+      "fileName": "hero-bg.png",
+      "component": "HeroHeader (Background)",
+      "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/hero-bg.png",
+      "altText": "Hero Background Banner for Tampa Personal Injury Lawyers Firm in Tampa, FL",
+      "title": "Tampa Personal Injury Lawyers Firm Hero Section Background",
+      "description": "Dark professional background graphic for Tampa Personal Injury Lawyers Firm hero header in Tampa, FL.",
+      "caption": "Tampa Personal Injury Lawyers Firm Legal Practice Header Background"
+    },
+    {
+      "id": "dedicated-counsel",
+      "fileName": "dedicated-counsel.png",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/dedicated-counsel.png",
+      "altText": "Dedicated Personal Injury Legal Counsel Consultation in Tampa, FL",
+      "title": "Dedicated Personal Injury Legal Counsel",
+      "description": "Carter Injury Law attorney offering compassionate consultation for personal injury victims in Tampa, FL.",
+      "caption": "Compassionate legal representation for Tampa, FL clients."
+    },
+    {
+      "id": "carter-team-cta",
+      "fileName": "carter-team-cta.png",
+      "component": "FinalCTASection",
+      "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/carter-team-cta.png",
+      "altText": "Carter Injury Law Personal Injury Legal Team in Tampa, FL",
+      "title": "Carter Injury Law Personal Injury Legal Team",
+      "description": "Experienced legal team standing ready for personal injury consultation in Tampa, FL.",
+      "caption": "Our legal team is standing by to evaluate your case in Tampa, FL."
+    },
+    {
+      "id": "communication-mistakes",
+      "fileName": "communication-mistakes.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/communication-mistakes.png",
+      "altText": "Insurance Adjuster Communication Mistakes in Personal Injury Claims",
+      "title": "Insurance Communication Pitfalls",
+      "description": "Illustration of common communication mistakes with insurance adjusters in Tampa, FL personal injury cases.",
+      "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
+    },
+    {
+      "id": "evidence-timing",
+      "fileName": "evidence-timing.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/evidence-timing.png",
+      "altText": "Evidence Preservation and Timing Delays in Tampa, FL Personal Injury Cases",
+      "title": "Evidence Preservation & Legal Deadlines",
+      "description": "Critical timing and evidence collection guidelines for personal injury claims in Tampa, FL.",
+      "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
+    },
+    {
+      "id": "justice-family",
+      "fileName": "justice-family.png",
+      "component": "JusticeSecuredSection",
+      "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/justice-family.png",
+      "altText": "Justice and Compensation for Tampa, FL Families after Personal Injury",
+      "title": "Justice for Tampa, FL Families",
+      "description": "Supporting grieving families in Tampa, FL to secure full financial recovery and legal justice.",
+      "caption": "Fighting to secure financial peace of mind for surviving family members."
+    },
+    {
+      "id": "review",
+      "fileName": "review.png",
+      "component": "WhyRightLawyerSection",
+      "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/review.png",
+      "altText": "5-Star Client Review for Tampa Personal Injury Lawyers Firm",
+      "title": "5-Star Rated Personal Injury Lawyer in Tampa, FL",
+      "description": "Top-rated review badge for Tampa Personal Injury Lawyers Firm serving Tampa, FL.",
+      "caption": "Trusted by clients across Tampa, FL."
+    },
+    {
+      "id": "distraction",
+      "fileName": "distraction.png",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/distraction.png",
+      "altText": "Distracted Driving Cause of Personal Injury in Tampa, FL",
+      "title": "Distracted Driving Hazards",
+      "description": "Driver distracted by mobile device leading to severe collision in Tampa, FL.",
+      "caption": "Distracted driving remains a leading cause of severe traffic crashes."
+    },
+    {
+      "id": "impaired",
+      "fileName": "impaired.png",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/impaired.png",
+      "altText": "Impaired and Drunk Driving Related Personal Injury in Tampa, FL",
+      "title": "Impaired Driving Collision Cause",
+      "description": "Drunk and drug-impaired driving hazards on Tampa, FL roadways.",
+      "caption": "Impaired drivers are held fully liable under Florida law."
+    },
+    {
+      "id": "weather",
+      "fileName": "weather.png",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/weather.png",
+      "altText": "Adverse Weather and Road Conditions Causing Personal Injury in Tampa, FL",
+      "title": "Hazardous Weather Road Hazards",
+      "description": "Heavy rain and slippery road conditions resulting in catastrophic crashes in Tampa, FL.",
+      "caption": "Adverse weather requires increased driver caution and responsibility."
+    },
+    {
+      "id": "traffic-congestion",
+      "fileName": "traffic-congestion.png",
+      "component": "CommonCausesSection (Cause 04)",
+      "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/traffic-congestion.png",
+      "altText": "Traffic Congestion Along Major Roadways Causing Personal Injury in Tampa, FL",
+      "title": "Traffic Congestion Road Hazards",
+      "description": "Heavy traffic congestion and rapid stop-and-go conditions along major corridors in Tampa, FL.",
+      "caption": "Dense traffic requires increased driver vigilance to prevent collisions."
+    },
+    {
+      "id": "driver-fatigue",
+      "fileName": "driver-fatigue.png",
+      "component": "CommonCausesSection (Cause 05)",
+      "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/driver-fatigue.png",
+      "altText": "Driver Fatigue and Exhaustion During Long Shifts in Tampa, FL",
+      "title": "Commercial Driver Fatigue Hazards",
+      "description": "Long shifts and fatigue degrading driver reaction times on Tampa, FL highways.",
+      "caption": "Operator fatigue poses severe risks to passengers and motorists."
+    },
+    {
+      "id": "negligent-motorists",
+      "fileName": "negligent-motorists.png",
+      "component": "CommonCausesSection (Cause 06)",
+      "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/negligent-motorists.png",
+      "altText": "Negligent Actions by Surrounding Motorists in Tampa, FL Personal Injury",
+      "title": "Third-Party Motorist Negligence",
+      "description": "Reckless third-party drivers triggering severe crashes involving transit vehicles in Tampa, FL.",
+      "caption": "All negligent third-party drivers face full legal liability."
+    }
+  ]
+}

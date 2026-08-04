@@ -1,0 +1,149 @@
+{
+  "folderSlug": "largo-wrongful-death-lawyer",
+  "serviceName": "Largo Wrongful Death Lawyer",
+  "location": "Largo, FL",
+  "topic": "Wrongful Death",
+  "totalImages": 14,
+  "images": [
+    {
+      "id": "carter-attorney",
+      "fileName": "carter.png",
+      "component": "HeroHeader",
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/carter.png",
+      "altText": "Attorney David J. Carter - Lead Wrongful Death Lawyer in Largo, FL",
+      "title": "Largo Wrongful Death Lawyer - Attorney David J. Carter",
+      "description": "Professional portrait of Attorney David J. Carter representing Largo Wrongful Death Lawyer in Largo, FL.",
+      "caption": "David J. Carter - Dedicated Wrongful Death Trial Attorney"
+    },
+    {
+      "id": "hero-bg",
+      "fileName": "hero-bg.png",
+      "component": "HeroHeader (Background)",
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/hero-bg.png",
+      "altText": "Hero Background Banner for Largo Wrongful Death Lawyer in Largo, FL",
+      "title": "Largo Wrongful Death Lawyer Hero Section Background",
+      "description": "Dark professional background graphic for Largo Wrongful Death Lawyer hero header in Largo, FL.",
+      "caption": "Largo Wrongful Death Lawyer Legal Practice Header Background"
+    },
+    {
+      "id": "dedicated-counsel",
+      "fileName": "dedicated-counsel.png",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/dedicated-counsel.png",
+      "altText": "Dedicated Wrongful Death Legal Counsel Consultation in Largo, FL",
+      "title": "Dedicated Wrongful Death Legal Counsel",
+      "description": "Carter Injury Law attorney offering compassionate consultation for wrongful death victims in Largo, FL.",
+      "caption": "Compassionate legal representation for Largo, FL clients."
+    },
+    {
+      "id": "carter-team-cta",
+      "fileName": "carter-team-cta.png",
+      "component": "FinalCTASection",
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/carter-team-cta.png",
+      "altText": "Carter Injury Law Wrongful Death Legal Team in Largo, FL",
+      "title": "Carter Injury Law Wrongful Death Legal Team",
+      "description": "Experienced legal team standing ready for wrongful death consultation in Largo, FL.",
+      "caption": "Our legal team is standing by to evaluate your case in Largo, FL."
+    },
+    {
+      "id": "communication-mistakes",
+      "fileName": "communication-mistakes.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/communication-mistakes.png",
+      "altText": "Insurance Adjuster Communication Mistakes in Wrongful Death Claims",
+      "title": "Insurance Communication Pitfalls",
+      "description": "Illustration of common communication mistakes with insurance adjusters in Largo, FL wrongful death cases.",
+      "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
+    },
+    {
+      "id": "evidence-timing",
+      "fileName": "evidence-timing.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/evidence-timing.png",
+      "altText": "Evidence Preservation and Timing Delays in Largo, FL Wrongful Death Cases",
+      "title": "Evidence Preservation & Legal Deadlines",
+      "description": "Critical timing and evidence collection guidelines for wrongful death claims in Largo, FL.",
+      "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
+    },
+    {
+      "id": "justice-family",
+      "fileName": "justice-family.png",
+      "component": "JusticeSecuredSection",
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/justice-family.png",
+      "altText": "Justice and Compensation for Largo, FL Families after Wrongful Death",
+      "title": "Justice for Largo, FL Families",
+      "description": "Supporting grieving families in Largo, FL to secure full financial recovery and legal justice.",
+      "caption": "Fighting to secure financial peace of mind for surviving family members."
+    },
+    {
+      "id": "review",
+      "fileName": "review.png",
+      "component": "WhyRightLawyerSection",
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/review.png",
+      "altText": "5-Star Client Review for Largo Wrongful Death Lawyer",
+      "title": "5-Star Rated Wrongful Death Lawyer in Largo, FL",
+      "description": "Top-rated review badge for Largo Wrongful Death Lawyer serving Largo, FL.",
+      "caption": "Trusted by clients across Largo, FL."
+    },
+    {
+      "id": "distraction",
+      "fileName": "distraction.png",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/distraction.png",
+      "altText": "Distracted Driving Cause of Wrongful Death in Largo, FL",
+      "title": "Distracted Driving Hazards",
+      "description": "Driver distracted by mobile device leading to severe collision in Largo, FL.",
+      "caption": "Distracted driving remains a leading cause of severe traffic crashes."
+    },
+    {
+      "id": "impaired",
+      "fileName": "impaired.png",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/impaired.png",
+      "altText": "Impaired and Drunk Driving Related Wrongful Death in Largo, FL",
+      "title": "Impaired Driving Collision Cause",
+      "description": "Drunk and drug-impaired driving hazards on Largo, FL roadways.",
+      "caption": "Impaired drivers are held fully liable under Florida law."
+    },
+    {
+      "id": "weather",
+      "fileName": "weather.png",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/weather.png",
+      "altText": "Adverse Weather and Road Conditions Causing Wrongful Death in Largo, FL",
+      "title": "Hazardous Weather Road Hazards",
+      "description": "Heavy rain and slippery road conditions resulting in catastrophic crashes in Largo, FL.",
+      "caption": "Adverse weather requires increased driver caution and responsibility."
+    },
+    {
+      "id": "traffic-congestion",
+      "fileName": "traffic-congestion.png",
+      "component": "CommonCausesSection (Cause 04)",
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/traffic-congestion.png",
+      "altText": "Traffic Congestion Along Major Roadways Causing Wrongful Death in Largo, FL",
+      "title": "Traffic Congestion Road Hazards",
+      "description": "Heavy traffic congestion and rapid stop-and-go conditions along major corridors in Largo, FL.",
+      "caption": "Dense traffic requires increased driver vigilance to prevent collisions."
+    },
+    {
+      "id": "driver-fatigue",
+      "fileName": "driver-fatigue.png",
+      "component": "CommonCausesSection (Cause 05)",
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/driver-fatigue.png",
+      "altText": "Driver Fatigue and Exhaustion During Long Shifts in Largo, FL",
+      "title": "Commercial Driver Fatigue Hazards",
+      "description": "Long shifts and fatigue degrading driver reaction times on Largo, FL highways.",
+      "caption": "Operator fatigue poses severe risks to passengers and motorists."
+    },
+    {
+      "id": "negligent-motorists",
+      "fileName": "negligent-motorists.png",
+      "component": "CommonCausesSection (Cause 06)",
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/negligent-motorists.png",
+      "altText": "Negligent Actions by Surrounding Motorists in Largo, FL Wrongful Death",
+      "title": "Third-Party Motorist Negligence",
+      "description": "Reckless third-party drivers triggering severe crashes involving transit vehicles in Largo, FL.",
+      "caption": "All negligent third-party drivers face full legal liability."
+    }
+  ]
+}

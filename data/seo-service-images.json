@@ -1,0 +1,1049 @@
+{
+  "description": "Centralized JSON image configuration for all 7 SEO Service folders in components/seo-service (Includes all 14 images per folder)",
+  "servicesCount": 7,
+  "services": {
+    "bus-accidents-lawyer-largo": {
+      "folderSlug": "bus-accidents-lawyer-largo",
+      "serviceName": "Bus Accidents Lawyer Largo",
+      "location": "Largo, FL",
+      "topic": "Bus Accidents",
+      "totalImages": 14,
+      "images": [
+        {
+          "sequence": 1,
+          "id": "carter-attorney",
+          "component": "HeroHeader",
+          "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/carter.png",
+          "altText": "Attorney David J. Carter - Lead Bus Accidents Lawyer in Largo, FL",
+          "title": "Bus Accidents Lawyer Largo - Attorney David J. Carter",
+          "description": "Professional portrait of Attorney David J. Carter representing Bus Accidents Lawyer Largo in Largo, FL.",
+          "caption": "David J. Carter - Dedicated Bus Accidents Trial Attorney"
+        },
+        {
+          "sequence": 2,
+          "id": "hero-bg",
+          "component": "HeroHeader (Background)",
+          "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/hero-bg.png",
+          "altText": "Hero Background Banner for Bus Accidents Lawyer Largo in Largo, FL",
+          "title": "Bus Accidents Lawyer Largo Hero Section Background",
+          "description": "Dark professional background graphic for Bus Accidents Lawyer Largo hero header in Largo, FL.",
+          "caption": "Bus Accidents Lawyer Largo Legal Practice Header Background"
+        },
+        {
+          "sequence": 3,
+          "id": "distraction",
+          "component": "CommonCausesSection (Cause 01)",
+          "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/driver-inattention-causing-largo-bus-accident-scene.webp",
+          "altText": "Bus driver distracted while operating a city bus, highlighting the dangers of inattention and accident risks in Largo.",
+          "title": "Driver Inattention and Largo Bus Accident Risks Guide",
+          "description": "A distracted bus driver can endanger passengers, pedestrians, and nearby motorists. Driver inattention is a common factor in serious Largo bus accidents and may establish liability for injured victims seeking compensation.",
+          "caption": "Driver distraction behind the wheel can lead to devastating bus accidents and serious injuries."
+        },
+        {
+          "sequence": 4,
+          "id": "impaired",
+          "component": "CommonCausesSection (Cause 02)",
+          "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/failure-to-inspect-and-maintain-largo-city-buses.webp",
+          "altText": "Mechanic inspecting a city bus during maintenance to prevent equipment failures and reduce accident risks.",
+          "title": "Failure to Inspect and Maintain Largo Transit Buses",
+          "description": "Routine inspections and proper maintenance are essential for safe bus operations. Mechanical failures caused by neglected maintenance may contribute to preventable bus accidents and legal claims.",
+          "caption": "Proper maintenance helps prevent mechanical failures that can result in serious bus accidents."
+        },
+        {
+          "sequence": 5,
+          "id": "weather",
+          "component": "CommonCausesSection (Cause 03)",
+          "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/unsafe-passenger-loading-at-largo-bus-stop-scene.webp",
+          "altText": "Passengers exiting a city bus at a stop where unsafe loading and unloading practices increase injury risks.",
+          "title": "Unsafe Passenger Loading and Unloading Practices Guide",
+          "description": "Unsafe passenger boarding or exiting procedures can expose riders to falls, traffic hazards, and injuries. Transit agencies and drivers have a duty to provide safe loading and unloading conditions.",
+          "caption": "Safe boarding and exiting procedures help reduce preventable passenger injuries at bus stops."
+        },
+        {
+          "sequence": 6,
+          "id": "traffic-congestion",
+          "component": "CommonCausesSection (Cause 04)",
+          "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/traffic-congestion-on-largo-major-roadways-buses.webp",
+          "altText": "Heavy traffic surrounding a city bus on Largo roads, increasing collision risks and travel delays.",
+          "title": "Traffic Congestion Along Largo Major Roadways Today",
+          "description": "Congested roads increase the likelihood of bus collisions, sudden braking incidents, and multi-vehicle crashes. Understanding traffic-related accident causes can help determine legal liability.",
+          "caption": "Heavy traffic conditions can significantly increase the risk of bus-related collisions."
+        },
+        {
+          "sequence": 7,
+          "id": "driver-fatigue",
+          "component": "CommonCausesSection (Cause 05)",
+          "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/bus-driver-fatigue-during-long-shifts-in-largo.webp",
+          "altText": "Exhausted bus driver showing signs of fatigue during a long shift, increasing the risk of serious accidents.",
+          "title": "Bus Driver Fatigue During Long Shifts Explained",
+          "description": "Driver fatigue reduces reaction time, judgment, and awareness. Long working hours without adequate rest may contribute to preventable bus accidents and establish negligence.",
+          "caption": "Fatigued bus drivers face slower reactions that can lead to dangerous roadway accidents."
+        },
+        {
+          "sequence": 8,
+          "id": "negligent-motorists",
+          "component": "CommonCausesSection (Cause 06)",
+          "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/negligent-motorist-causing-largo-bus-traffic-crash.webp",
+          "altText": "Collision involving a city bus and passenger vehicle caused by negligent driving at a busy intersection.",
+          "title": "Negligent Actions by Other Motorists in Bus Crashes",
+          "description": "Bus accidents are not always caused by bus operators. Reckless or distracted motorists can create dangerous situations that result in serious collisions involving public transportation.",
+          "caption": "Negligent drivers can cause devastating crashes involving buses and innocent passengers."
+        },
+        {
+          "sequence": 9,
+          "id": "review",
+          "component": "WhyRightLawyerSection",
+          "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/deep-knowledge-of-florida-bus-accident-laws.webp",
+          "altText": "Attorney explaining Florida bus accident laws to clients during a legal consultation after a serious crash.",
+          "title": "Deep Knowledge of Florida Bus Accident Laws Guide",
+          "description": "Florida bus accident claims often involve unique liability rules and government entities. An attorney familiar with Florida law can build a stronger case and protect your legal interests.",
+          "caption": "Understanding Florida bus accident laws is essential when pursuing compensation after a crash."
+        },
+        {
+          "sequence": 10,
+          "id": "communication-mistakes",
+          "component": "MistakesSection",
+          "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/communication-mistakes.png",
+          "altText": "Insurance Adjuster Communication Mistakes in Bus Accidents Claims",
+          "title": "Insurance Communication Pitfalls",
+          "description": "Illustration of common communication mistakes with insurance adjusters in Largo, FL bus accidents cases.",
+          "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
+        },
+        {
+          "sequence": 11,
+          "id": "evidence-timing",
+          "component": "MistakesSection",
+          "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/evidence-timing.png",
+          "altText": "Evidence Preservation and Timing Delays in Largo, FL Bus Accidents Cases",
+          "title": "Evidence Preservation & Legal Deadlines",
+          "description": "Critical timing and evidence collection guidelines for bus accidents claims in Largo, FL.",
+          "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
+        },
+        {
+          "sequence": 12,
+          "id": "dedicated-counsel",
+          "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+          "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/dedicated-legal-counsel-for-largo-bus-accident.webp",
+          "altText": "Experienced attorney consulting with bus accident victims about their legal rights and compensation options.",
+          "title": "Dedicated Legal Counsel for Largo Bus Accident Victims",
+          "description": "Experienced legal representation can help bus accident victims investigate liability, negotiate with insurers, and pursue maximum compensation for medical expenses, lost income, and other damages.",
+          "caption": "Dedicated legal guidance helps bus accident victims protect their rights and seek compensation."
+        },
+        {
+          "sequence": 13,
+          "id": "justice-family",
+          "component": "JusticeSecuredSection",
+          "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/justice-family.png",
+          "altText": "Justice and Compensation for Largo, FL Families after Bus Accidents",
+          "title": "Justice for Largo, FL Families",
+          "description": "Supporting grieving families in Largo, FL to secure full financial recovery and legal justice.",
+          "caption": "Fighting to secure financial peace of mind for surviving family members."
+        },
+        {
+          "sequence": 14,
+          "id": "carter-team-cta",
+          "component": "FinalCTASection",
+          "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/carter-team-cta.png",
+          "altText": "Carter Injury Law Bus Accidents Legal Team in Largo, FL",
+          "title": "Carter Injury Law Bus Accidents Legal Team",
+          "description": "Experienced legal team standing ready for bus accidents consultation in Largo, FL.",
+          "caption": "Our legal team is standing by to evaluate your case in Largo, FL."
+        }
+      ]
+    },
+    "bus-accidents-lawyers-tampa": {
+      "folderSlug": "bus-accidents-lawyers-tampa",
+      "serviceName": "Bus Accidents Lawyers Tampa",
+      "location": "Tampa, FL",
+      "topic": "Bus Accidents",
+      "totalImages": 14,
+      "images": [
+        {
+          "sequence": 1,
+          "id": "carter-attorney",
+          "component": "HeroHeader",
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/carter.png",
+          "altText": "Attorney David J. Carter - Lead Bus Accidents Lawyer in Tampa, FL",
+          "title": "Bus Accidents Lawyers Tampa - Attorney David J. Carter",
+          "description": "Professional portrait of Attorney David J. Carter representing Bus Accidents Lawyers Tampa in Tampa, FL.",
+          "caption": "David J. Carter - Dedicated Bus Accidents Trial Attorney"
+        },
+        {
+          "sequence": 2,
+          "id": "hero-bg",
+          "component": "HeroHeader (Background)",
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/hero-bg.png",
+          "altText": "Hero Background Banner for Bus Accidents Lawyers Tampa in Tampa, FL",
+          "title": "Bus Accidents Lawyers Tampa Hero Section Background",
+          "description": "Dark professional background graphic for Bus Accidents Lawyers Tampa hero header in Tampa, FL.",
+          "caption": "Bus Accidents Lawyers Tampa Legal Practice Header Background"
+        },
+        {
+          "sequence": 3,
+          "id": "distraction",
+          "component": "CommonCausesSection (Cause 01)",
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/distraction.png",
+          "altText": "Distracted Driving Cause of Bus Accidents in Tampa, FL",
+          "title": "Distracted Driving Hazards",
+          "description": "Driver distracted by mobile device leading to severe collision in Tampa, FL.",
+          "caption": "Distracted driving remains a leading cause of severe traffic crashes."
+        },
+        {
+          "sequence": 4,
+          "id": "impaired",
+          "component": "CommonCausesSection (Cause 02)",
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/impaired.png",
+          "altText": "Impaired and Drunk Driving Related Bus Accidents in Tampa, FL",
+          "title": "Impaired Driving Collision Cause",
+          "description": "Drunk and drug-impaired driving hazards on Tampa, FL roadways.",
+          "caption": "Impaired drivers are held fully liable under Florida law."
+        },
+        {
+          "sequence": 5,
+          "id": "weather",
+          "component": "CommonCausesSection (Cause 03)",
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/weather.png",
+          "altText": "Adverse Weather and Road Conditions Causing Bus Accidents in Tampa, FL",
+          "title": "Hazardous Weather Road Hazards",
+          "description": "Heavy rain and slippery road conditions resulting in catastrophic crashes in Tampa, FL.",
+          "caption": "Adverse weather requires increased driver caution and responsibility."
+        },
+        {
+          "sequence": 6,
+          "id": "traffic-congestion",
+          "component": "CommonCausesSection (Cause 04)",
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/traffic-congestion.png",
+          "altText": "Traffic Congestion Along Major Roadways Causing Bus Accidents in Tampa, FL",
+          "title": "Traffic Congestion Road Hazards",
+          "description": "Heavy traffic congestion and rapid stop-and-go conditions along major corridors in Tampa, FL.",
+          "caption": "Dense traffic requires increased driver vigilance to prevent collisions."
+        },
+        {
+          "sequence": 7,
+          "id": "driver-fatigue",
+          "component": "CommonCausesSection (Cause 05)",
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/driver-fatigue.png",
+          "altText": "Driver Fatigue and Exhaustion During Long Shifts in Tampa, FL",
+          "title": "Commercial Driver Fatigue Hazards",
+          "description": "Long shifts and fatigue degrading driver reaction times on Tampa, FL highways.",
+          "caption": "Operator fatigue poses severe risks to passengers and motorists."
+        },
+        {
+          "sequence": 8,
+          "id": "negligent-motorists",
+          "component": "CommonCausesSection (Cause 06)",
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/negligent-motorists.png",
+          "altText": "Negligent Actions by Surrounding Motorists in Tampa, FL Bus Accidents",
+          "title": "Third-Party Motorist Negligence",
+          "description": "Reckless third-party drivers triggering severe crashes involving transit vehicles in Tampa, FL.",
+          "caption": "All negligent third-party drivers face full legal liability."
+        },
+        {
+          "sequence": 9,
+          "id": "review",
+          "component": "WhyRightLawyerSection",
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/review.png",
+          "altText": "5-Star Client Review for Bus Accidents Lawyers Tampa",
+          "title": "5-Star Rated Bus Accidents Lawyer in Tampa, FL",
+          "description": "Top-rated review badge for Bus Accidents Lawyers Tampa serving Tampa, FL.",
+          "caption": "Trusted by clients across Tampa, FL."
+        },
+        {
+          "sequence": 10,
+          "id": "communication-mistakes",
+          "component": "MistakesSection",
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/communication-mistakes.png",
+          "altText": "Insurance Adjuster Communication Mistakes in Bus Accidents Claims",
+          "title": "Insurance Communication Pitfalls",
+          "description": "Illustration of common communication mistakes with insurance adjusters in Tampa, FL bus accidents cases.",
+          "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
+        },
+        {
+          "sequence": 11,
+          "id": "evidence-timing",
+          "component": "MistakesSection",
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/evidence-timing.png",
+          "altText": "Evidence Preservation and Timing Delays in Tampa, FL Bus Accidents Cases",
+          "title": "Evidence Preservation & Legal Deadlines",
+          "description": "Critical timing and evidence collection guidelines for bus accidents claims in Tampa, FL.",
+          "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
+        },
+        {
+          "sequence": 12,
+          "id": "dedicated-counsel",
+          "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/dedicated-counsel.png",
+          "altText": "Dedicated Bus Accidents Legal Counsel Consultation in Tampa, FL",
+          "title": "Dedicated Bus Accidents Legal Counsel",
+          "description": "Carter Injury Law attorney offering compassionate consultation for bus accidents victims in Tampa, FL.",
+          "caption": "Compassionate legal representation for Tampa, FL clients."
+        },
+        {
+          "sequence": 13,
+          "id": "justice-family",
+          "component": "JusticeSecuredSection",
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/justice-family.png",
+          "altText": "Justice and Compensation for Tampa, FL Families after Bus Accidents",
+          "title": "Justice for Tampa, FL Families",
+          "description": "Supporting grieving families in Tampa, FL to secure full financial recovery and legal justice.",
+          "caption": "Fighting to secure financial peace of mind for surviving family members."
+        },
+        {
+          "sequence": 14,
+          "id": "carter-team-cta",
+          "component": "FinalCTASection",
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/carter-team-cta.png",
+          "altText": "Carter Injury Law Bus Accidents Legal Team in Tampa, FL",
+          "title": "Carter Injury Law Bus Accidents Legal Team",
+          "description": "Experienced legal team standing ready for bus accidents consultation in Tampa, FL.",
+          "caption": "Our legal team is standing by to evaluate your case in Tampa, FL."
+        }
+      ]
+    },
+    "largo-wrongful-death-lawyer": {
+      "folderSlug": "largo-wrongful-death-lawyer",
+      "serviceName": "Largo Wrongful Death Lawyer",
+      "location": "Largo, FL",
+      "topic": "Wrongful Death",
+      "totalImages": 14,
+      "images": [
+        {
+          "sequence": 1,
+          "id": "carter-attorney",
+          "component": "HeroHeader",
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/carter.png",
+          "altText": "Attorney David J. Carter - Lead Wrongful Death Lawyer in Largo, FL",
+          "title": "Largo Wrongful Death Lawyer - Attorney David J. Carter",
+          "description": "Professional portrait of Attorney David J. Carter representing Largo Wrongful Death Lawyer in Largo, FL.",
+          "caption": "David J. Carter - Dedicated Wrongful Death Trial Attorney"
+        },
+        {
+          "sequence": 2,
+          "id": "hero-bg",
+          "component": "HeroHeader (Background)",
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/hero-bg.png",
+          "altText": "Hero Background Banner for Largo Wrongful Death Lawyer in Largo, FL",
+          "title": "Largo Wrongful Death Lawyer Hero Section Background",
+          "description": "Dark professional background graphic for Largo Wrongful Death Lawyer hero header in Largo, FL.",
+          "caption": "Largo Wrongful Death Lawyer Legal Practice Header Background"
+        },
+        {
+          "sequence": 3,
+          "id": "distraction",
+          "component": "CommonCausesSection (Cause 01)",
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/distraction.png",
+          "altText": "Distracted Driving Cause of Wrongful Death in Largo, FL",
+          "title": "Distracted Driving Hazards",
+          "description": "Driver distracted by mobile device leading to severe collision in Largo, FL.",
+          "caption": "Distracted driving remains a leading cause of severe traffic crashes."
+        },
+        {
+          "sequence": 4,
+          "id": "impaired",
+          "component": "CommonCausesSection (Cause 02)",
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/impaired.png",
+          "altText": "Impaired and Drunk Driving Related Wrongful Death in Largo, FL",
+          "title": "Impaired Driving Collision Cause",
+          "description": "Drunk and drug-impaired driving hazards on Largo, FL roadways.",
+          "caption": "Impaired drivers are held fully liable under Florida law."
+        },
+        {
+          "sequence": 5,
+          "id": "weather",
+          "component": "CommonCausesSection (Cause 03)",
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/weather.png",
+          "altText": "Adverse Weather and Road Conditions Causing Wrongful Death in Largo, FL",
+          "title": "Hazardous Weather Road Hazards",
+          "description": "Heavy rain and slippery road conditions resulting in catastrophic crashes in Largo, FL.",
+          "caption": "Adverse weather requires increased driver caution and responsibility."
+        },
+        {
+          "sequence": 6,
+          "id": "traffic-congestion",
+          "component": "CommonCausesSection (Cause 04)",
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/traffic-congestion.png",
+          "altText": "Traffic Congestion Along Major Roadways Causing Wrongful Death in Largo, FL",
+          "title": "Traffic Congestion Road Hazards",
+          "description": "Heavy traffic congestion and rapid stop-and-go conditions along major corridors in Largo, FL.",
+          "caption": "Dense traffic requires increased driver vigilance to prevent collisions."
+        },
+        {
+          "sequence": 7,
+          "id": "driver-fatigue",
+          "component": "CommonCausesSection (Cause 05)",
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/driver-fatigue.png",
+          "altText": "Driver Fatigue and Exhaustion During Long Shifts in Largo, FL",
+          "title": "Commercial Driver Fatigue Hazards",
+          "description": "Long shifts and fatigue degrading driver reaction times on Largo, FL highways.",
+          "caption": "Operator fatigue poses severe risks to passengers and motorists."
+        },
+        {
+          "sequence": 8,
+          "id": "negligent-motorists",
+          "component": "CommonCausesSection (Cause 06)",
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/negligent-motorists.png",
+          "altText": "Negligent Actions by Surrounding Motorists in Largo, FL Wrongful Death",
+          "title": "Third-Party Motorist Negligence",
+          "description": "Reckless third-party drivers triggering severe crashes involving transit vehicles in Largo, FL.",
+          "caption": "All negligent third-party drivers face full legal liability."
+        },
+        {
+          "sequence": 9,
+          "id": "review",
+          "component": "WhyRightLawyerSection",
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/review.png",
+          "altText": "5-Star Client Review for Largo Wrongful Death Lawyer",
+          "title": "5-Star Rated Wrongful Death Lawyer in Largo, FL",
+          "description": "Top-rated review badge for Largo Wrongful Death Lawyer serving Largo, FL.",
+          "caption": "Trusted by clients across Largo, FL."
+        },
+        {
+          "sequence": 10,
+          "id": "communication-mistakes",
+          "component": "MistakesSection",
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/communication-mistakes.png",
+          "altText": "Insurance Adjuster Communication Mistakes in Wrongful Death Claims",
+          "title": "Insurance Communication Pitfalls",
+          "description": "Illustration of common communication mistakes with insurance adjusters in Largo, FL wrongful death cases.",
+          "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
+        },
+        {
+          "sequence": 11,
+          "id": "evidence-timing",
+          "component": "MistakesSection",
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/evidence-timing.png",
+          "altText": "Evidence Preservation and Timing Delays in Largo, FL Wrongful Death Cases",
+          "title": "Evidence Preservation & Legal Deadlines",
+          "description": "Critical timing and evidence collection guidelines for wrongful death claims in Largo, FL.",
+          "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
+        },
+        {
+          "sequence": 12,
+          "id": "dedicated-counsel",
+          "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/dedicated-counsel.png",
+          "altText": "Dedicated Wrongful Death Legal Counsel Consultation in Largo, FL",
+          "title": "Dedicated Wrongful Death Legal Counsel",
+          "description": "Carter Injury Law attorney offering compassionate consultation for wrongful death victims in Largo, FL.",
+          "caption": "Compassionate legal representation for Largo, FL clients."
+        },
+        {
+          "sequence": 13,
+          "id": "justice-family",
+          "component": "JusticeSecuredSection",
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/justice-family.png",
+          "altText": "Justice and Compensation for Largo, FL Families after Wrongful Death",
+          "title": "Justice for Largo, FL Families",
+          "description": "Supporting grieving families in Largo, FL to secure full financial recovery and legal justice.",
+          "caption": "Fighting to secure financial peace of mind for surviving family members."
+        },
+        {
+          "sequence": 14,
+          "id": "carter-team-cta",
+          "component": "FinalCTASection",
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/carter-team-cta.png",
+          "altText": "Carter Injury Law Wrongful Death Legal Team in Largo, FL",
+          "title": "Carter Injury Law Wrongful Death Legal Team",
+          "description": "Experienced legal team standing ready for wrongful death consultation in Largo, FL.",
+          "caption": "Our legal team is standing by to evaluate your case in Largo, FL."
+        }
+      ]
+    },
+    "motorcycle-accident-lawyer-largo-fl": {
+      "folderSlug": "motorcycle-accident-lawyer-largo-fl",
+      "serviceName": "Motorcycle Accident Lawyer Largo FL",
+      "location": "Largo, FL",
+      "topic": "Motorcycle Accidents",
+      "totalImages": 14,
+      "images": [
+        {
+          "sequence": 1,
+          "id": "carter-attorney",
+          "component": "HeroHeader",
+          "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/carter.png",
+          "altText": "Attorney David J. Carter - Lead Motorcycle Accidents Lawyer in Largo, FL",
+          "title": "Motorcycle Accident Lawyer Largo FL - Attorney David J. Carter",
+          "description": "Professional portrait of Attorney David J. Carter representing Motorcycle Accident Lawyer Largo FL in Largo, FL.",
+          "caption": "David J. Carter - Dedicated Motorcycle Accidents Trial Attorney"
+        },
+        {
+          "sequence": 2,
+          "id": "hero-bg",
+          "component": "HeroHeader (Background)",
+          "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/hero-bg.png",
+          "altText": "Hero Background Banner for Motorcycle Accident Lawyer Largo FL in Largo, FL",
+          "title": "Motorcycle Accident Lawyer Largo FL Hero Section Background",
+          "description": "Dark professional background graphic for Motorcycle Accident Lawyer Largo FL hero header in Largo, FL.",
+          "caption": "Motorcycle Accident Lawyer Largo FL Legal Practice Header Background"
+        },
+        {
+          "sequence": 3,
+          "id": "distraction",
+          "component": "CommonCausesSection (Cause 01)",
+          "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/distraction.png",
+          "altText": "Distracted Driving Cause of Motorcycle Accidents in Largo, FL",
+          "title": "Distracted Driving Hazards",
+          "description": "Driver distracted by mobile device leading to severe collision in Largo, FL.",
+          "caption": "Distracted driving remains a leading cause of severe traffic crashes."
+        },
+        {
+          "sequence": 4,
+          "id": "impaired",
+          "component": "CommonCausesSection (Cause 02)",
+          "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/impaired.png",
+          "altText": "Impaired and Drunk Driving Related Motorcycle Accidents in Largo, FL",
+          "title": "Impaired Driving Collision Cause",
+          "description": "Drunk and drug-impaired driving hazards on Largo, FL roadways.",
+          "caption": "Impaired drivers are held fully liable under Florida law."
+        },
+        {
+          "sequence": 5,
+          "id": "weather",
+          "component": "CommonCausesSection (Cause 03)",
+          "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/weather.png",
+          "altText": "Adverse Weather and Road Conditions Causing Motorcycle Accidents in Largo, FL",
+          "title": "Hazardous Weather Road Hazards",
+          "description": "Heavy rain and slippery road conditions resulting in catastrophic crashes in Largo, FL.",
+          "caption": "Adverse weather requires increased driver caution and responsibility."
+        },
+        {
+          "sequence": 6,
+          "id": "traffic-congestion",
+          "component": "CommonCausesSection (Cause 04)",
+          "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/traffic-congestion.png",
+          "altText": "Traffic Congestion Along Major Roadways Causing Motorcycle Accidents in Largo, FL",
+          "title": "Traffic Congestion Road Hazards",
+          "description": "Heavy traffic congestion and rapid stop-and-go conditions along major corridors in Largo, FL.",
+          "caption": "Dense traffic requires increased driver vigilance to prevent collisions."
+        },
+        {
+          "sequence": 7,
+          "id": "driver-fatigue",
+          "component": "CommonCausesSection (Cause 05)",
+          "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/driver-fatigue.png",
+          "altText": "Driver Fatigue and Exhaustion During Long Shifts in Largo, FL",
+          "title": "Commercial Driver Fatigue Hazards",
+          "description": "Long shifts and fatigue degrading driver reaction times on Largo, FL highways.",
+          "caption": "Operator fatigue poses severe risks to passengers and motorists."
+        },
+        {
+          "sequence": 8,
+          "id": "negligent-motorists",
+          "component": "CommonCausesSection (Cause 06)",
+          "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/negligent-motorists.png",
+          "altText": "Negligent Actions by Surrounding Motorists in Largo, FL Motorcycle Accidents",
+          "title": "Third-Party Motorist Negligence",
+          "description": "Reckless third-party drivers triggering severe crashes involving transit vehicles in Largo, FL.",
+          "caption": "All negligent third-party drivers face full legal liability."
+        },
+        {
+          "sequence": 9,
+          "id": "review",
+          "component": "WhyRightLawyerSection",
+          "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/review.png",
+          "altText": "5-Star Client Review for Motorcycle Accident Lawyer Largo FL",
+          "title": "5-Star Rated Motorcycle Accidents Lawyer in Largo, FL",
+          "description": "Top-rated review badge for Motorcycle Accident Lawyer Largo FL serving Largo, FL.",
+          "caption": "Trusted by clients across Largo, FL."
+        },
+        {
+          "sequence": 10,
+          "id": "communication-mistakes",
+          "component": "MistakesSection",
+          "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/communication-mistakes.png",
+          "altText": "Insurance Adjuster Communication Mistakes in Motorcycle Accidents Claims",
+          "title": "Insurance Communication Pitfalls",
+          "description": "Illustration of common communication mistakes with insurance adjusters in Largo, FL motorcycle accidents cases.",
+          "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
+        },
+        {
+          "sequence": 11,
+          "id": "evidence-timing",
+          "component": "MistakesSection",
+          "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/evidence-timing.png",
+          "altText": "Evidence Preservation and Timing Delays in Largo, FL Motorcycle Accidents Cases",
+          "title": "Evidence Preservation & Legal Deadlines",
+          "description": "Critical timing and evidence collection guidelines for motorcycle accidents claims in Largo, FL.",
+          "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
+        },
+        {
+          "sequence": 12,
+          "id": "dedicated-counsel",
+          "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+          "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/dedicated-counsel.png",
+          "altText": "Dedicated Motorcycle Accidents Legal Counsel Consultation in Largo, FL",
+          "title": "Dedicated Motorcycle Accidents Legal Counsel",
+          "description": "Carter Injury Law attorney offering compassionate consultation for motorcycle accidents victims in Largo, FL.",
+          "caption": "Compassionate legal representation for Largo, FL clients."
+        },
+        {
+          "sequence": 13,
+          "id": "justice-family",
+          "component": "JusticeSecuredSection",
+          "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/justice-family.png",
+          "altText": "Justice and Compensation for Largo, FL Families after Motorcycle Accidents",
+          "title": "Justice for Largo, FL Families",
+          "description": "Supporting grieving families in Largo, FL to secure full financial recovery and legal justice.",
+          "caption": "Fighting to secure financial peace of mind for surviving family members."
+        },
+        {
+          "sequence": 14,
+          "id": "carter-team-cta",
+          "component": "FinalCTASection",
+          "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/carter-team-cta.png",
+          "altText": "Carter Injury Law Motorcycle Accidents Legal Team in Largo, FL",
+          "title": "Carter Injury Law Motorcycle Accidents Legal Team",
+          "description": "Experienced legal team standing ready for motorcycle accidents consultation in Largo, FL.",
+          "caption": "Our legal team is standing by to evaluate your case in Largo, FL."
+        }
+      ]
+    },
+    "tampa-motorcycle-accidents-lawyer": {
+      "folderSlug": "tampa-motorcycle-accidents-lawyer",
+      "serviceName": "Tampa Motorcycle Accidents Lawyer",
+      "location": "Tampa, FL",
+      "topic": "Motorcycle Accidents",
+      "totalImages": 14,
+      "images": [
+        {
+          "sequence": 1,
+          "id": "carter-attorney",
+          "component": "HeroHeader",
+          "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/carter.png",
+          "altText": "Attorney David J. Carter - Lead Motorcycle Accidents Lawyer in Tampa, FL",
+          "title": "Tampa Motorcycle Accidents Lawyer - Attorney David J. Carter",
+          "description": "Professional portrait of Attorney David J. Carter representing Tampa Motorcycle Accidents Lawyer in Tampa, FL.",
+          "caption": "David J. Carter - Dedicated Motorcycle Accidents Trial Attorney"
+        },
+        {
+          "sequence": 2,
+          "id": "hero-bg",
+          "component": "HeroHeader (Background)",
+          "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/hero-bg.png",
+          "altText": "Hero Background Banner for Tampa Motorcycle Accidents Lawyer in Tampa, FL",
+          "title": "Tampa Motorcycle Accidents Lawyer Hero Section Background",
+          "description": "Dark professional background graphic for Tampa Motorcycle Accidents Lawyer hero header in Tampa, FL.",
+          "caption": "Tampa Motorcycle Accidents Lawyer Legal Practice Header Background"
+        },
+        {
+          "sequence": 3,
+          "id": "distraction",
+          "component": "CommonCausesSection (Cause 01)",
+          "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/distraction.png",
+          "altText": "Distracted Driving Cause of Motorcycle Accidents in Tampa, FL",
+          "title": "Distracted Driving Hazards",
+          "description": "Driver distracted by mobile device leading to severe collision in Tampa, FL.",
+          "caption": "Distracted driving remains a leading cause of severe traffic crashes."
+        },
+        {
+          "sequence": 4,
+          "id": "impaired",
+          "component": "CommonCausesSection (Cause 02)",
+          "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/impaired.png",
+          "altText": "Impaired and Drunk Driving Related Motorcycle Accidents in Tampa, FL",
+          "title": "Impaired Driving Collision Cause",
+          "description": "Drunk and drug-impaired driving hazards on Tampa, FL roadways.",
+          "caption": "Impaired drivers are held fully liable under Florida law."
+        },
+        {
+          "sequence": 5,
+          "id": "weather",
+          "component": "CommonCausesSection (Cause 03)",
+          "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/weather.png",
+          "altText": "Adverse Weather and Road Conditions Causing Motorcycle Accidents in Tampa, FL",
+          "title": "Hazardous Weather Road Hazards",
+          "description": "Heavy rain and slippery road conditions resulting in catastrophic crashes in Tampa, FL.",
+          "caption": "Adverse weather requires increased driver caution and responsibility."
+        },
+        {
+          "sequence": 6,
+          "id": "traffic-congestion",
+          "component": "CommonCausesSection (Cause 04)",
+          "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/traffic-congestion.png",
+          "altText": "Traffic Congestion Along Major Roadways Causing Motorcycle Accidents in Tampa, FL",
+          "title": "Traffic Congestion Road Hazards",
+          "description": "Heavy traffic congestion and rapid stop-and-go conditions along major corridors in Tampa, FL.",
+          "caption": "Dense traffic requires increased driver vigilance to prevent collisions."
+        },
+        {
+          "sequence": 7,
+          "id": "driver-fatigue",
+          "component": "CommonCausesSection (Cause 05)",
+          "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/driver-fatigue.png",
+          "altText": "Driver Fatigue and Exhaustion During Long Shifts in Tampa, FL",
+          "title": "Commercial Driver Fatigue Hazards",
+          "description": "Long shifts and fatigue degrading driver reaction times on Tampa, FL highways.",
+          "caption": "Operator fatigue poses severe risks to passengers and motorists."
+        },
+        {
+          "sequence": 8,
+          "id": "negligent-motorists",
+          "component": "CommonCausesSection (Cause 06)",
+          "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/negligent-motorists.png",
+          "altText": "Negligent Actions by Surrounding Motorists in Tampa, FL Motorcycle Accidents",
+          "title": "Third-Party Motorist Negligence",
+          "description": "Reckless third-party drivers triggering severe crashes involving transit vehicles in Tampa, FL.",
+          "caption": "All negligent third-party drivers face full legal liability."
+        },
+        {
+          "sequence": 9,
+          "id": "review",
+          "component": "WhyRightLawyerSection",
+          "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/review.png",
+          "altText": "5-Star Client Review for Tampa Motorcycle Accidents Lawyer",
+          "title": "5-Star Rated Motorcycle Accidents Lawyer in Tampa, FL",
+          "description": "Top-rated review badge for Tampa Motorcycle Accidents Lawyer serving Tampa, FL.",
+          "caption": "Trusted by clients across Tampa, FL."
+        },
+        {
+          "sequence": 10,
+          "id": "communication-mistakes",
+          "component": "MistakesSection",
+          "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/communication-mistakes.png",
+          "altText": "Insurance Adjuster Communication Mistakes in Motorcycle Accidents Claims",
+          "title": "Insurance Communication Pitfalls",
+          "description": "Illustration of common communication mistakes with insurance adjusters in Tampa, FL motorcycle accidents cases.",
+          "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
+        },
+        {
+          "sequence": 11,
+          "id": "evidence-timing",
+          "component": "MistakesSection",
+          "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/evidence-timing.png",
+          "altText": "Evidence Preservation and Timing Delays in Tampa, FL Motorcycle Accidents Cases",
+          "title": "Evidence Preservation & Legal Deadlines",
+          "description": "Critical timing and evidence collection guidelines for motorcycle accidents claims in Tampa, FL.",
+          "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
+        },
+        {
+          "sequence": 12,
+          "id": "dedicated-counsel",
+          "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+          "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/dedicated-counsel.png",
+          "altText": "Dedicated Motorcycle Accidents Legal Counsel Consultation in Tampa, FL",
+          "title": "Dedicated Motorcycle Accidents Legal Counsel",
+          "description": "Carter Injury Law attorney offering compassionate consultation for motorcycle accidents victims in Tampa, FL.",
+          "caption": "Compassionate legal representation for Tampa, FL clients."
+        },
+        {
+          "sequence": 13,
+          "id": "justice-family",
+          "component": "JusticeSecuredSection",
+          "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/justice-family.png",
+          "altText": "Justice and Compensation for Tampa, FL Families after Motorcycle Accidents",
+          "title": "Justice for Tampa, FL Families",
+          "description": "Supporting grieving families in Tampa, FL to secure full financial recovery and legal justice.",
+          "caption": "Fighting to secure financial peace of mind for surviving family members."
+        },
+        {
+          "sequence": 14,
+          "id": "carter-team-cta",
+          "component": "FinalCTASection",
+          "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/carter-team-cta.png",
+          "altText": "Carter Injury Law Motorcycle Accidents Legal Team in Tampa, FL",
+          "title": "Carter Injury Law Motorcycle Accidents Legal Team",
+          "description": "Experienced legal team standing ready for motorcycle accidents consultation in Tampa, FL.",
+          "caption": "Our legal team is standing by to evaluate your case in Tampa, FL."
+        }
+      ]
+    },
+    "tampa-personal-injury-lawyers-firm": {
+      "folderSlug": "tampa-personal-injury-lawyers-firm",
+      "serviceName": "Tampa Personal Injury Lawyers Firm",
+      "location": "Tampa, FL",
+      "topic": "Personal Injury",
+      "totalImages": 14,
+      "images": [
+        {
+          "sequence": 1,
+          "id": "carter-attorney",
+          "component": "HeroHeader",
+          "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/carter.png",
+          "altText": "Attorney David J. Carter - Lead Personal Injury Lawyer in Tampa, FL",
+          "title": "Tampa Personal Injury Lawyers Firm - Attorney David J. Carter",
+          "description": "Professional portrait of Attorney David J. Carter representing Tampa Personal Injury Lawyers Firm in Tampa, FL.",
+          "caption": "David J. Carter - Dedicated Personal Injury Trial Attorney"
+        },
+        {
+          "sequence": 2,
+          "id": "hero-bg",
+          "component": "HeroHeader (Background)",
+          "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/hero-bg.png",
+          "altText": "Hero Background Banner for Tampa Personal Injury Lawyers Firm in Tampa, FL",
+          "title": "Tampa Personal Injury Lawyers Firm Hero Section Background",
+          "description": "Dark professional background graphic for Tampa Personal Injury Lawyers Firm hero header in Tampa, FL.",
+          "caption": "Tampa Personal Injury Lawyers Firm Legal Practice Header Background"
+        },
+        {
+          "sequence": 3,
+          "id": "distraction",
+          "component": "CommonCausesSection (Cause 01)",
+          "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/distraction.png",
+          "altText": "Distracted Driving Cause of Personal Injury in Tampa, FL",
+          "title": "Distracted Driving Hazards",
+          "description": "Driver distracted by mobile device leading to severe collision in Tampa, FL.",
+          "caption": "Distracted driving remains a leading cause of severe traffic crashes."
+        },
+        {
+          "sequence": 4,
+          "id": "impaired",
+          "component": "CommonCausesSection (Cause 02)",
+          "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/impaired.png",
+          "altText": "Impaired and Drunk Driving Related Personal Injury in Tampa, FL",
+          "title": "Impaired Driving Collision Cause",
+          "description": "Drunk and drug-impaired driving hazards on Tampa, FL roadways.",
+          "caption": "Impaired drivers are held fully liable under Florida law."
+        },
+        {
+          "sequence": 5,
+          "id": "weather",
+          "component": "CommonCausesSection (Cause 03)",
+          "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/weather.png",
+          "altText": "Adverse Weather and Road Conditions Causing Personal Injury in Tampa, FL",
+          "title": "Hazardous Weather Road Hazards",
+          "description": "Heavy rain and slippery road conditions resulting in catastrophic crashes in Tampa, FL.",
+          "caption": "Adverse weather requires increased driver caution and responsibility."
+        },
+        {
+          "sequence": 6,
+          "id": "traffic-congestion",
+          "component": "CommonCausesSection (Cause 04)",
+          "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/traffic-congestion.png",
+          "altText": "Traffic Congestion Along Major Roadways Causing Personal Injury in Tampa, FL",
+          "title": "Traffic Congestion Road Hazards",
+          "description": "Heavy traffic congestion and rapid stop-and-go conditions along major corridors in Tampa, FL.",
+          "caption": "Dense traffic requires increased driver vigilance to prevent collisions."
+        },
+        {
+          "sequence": 7,
+          "id": "driver-fatigue",
+          "component": "CommonCausesSection (Cause 05)",
+          "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/driver-fatigue.png",
+          "altText": "Driver Fatigue and Exhaustion During Long Shifts in Tampa, FL",
+          "title": "Commercial Driver Fatigue Hazards",
+          "description": "Long shifts and fatigue degrading driver reaction times on Tampa, FL highways.",
+          "caption": "Operator fatigue poses severe risks to passengers and motorists."
+        },
+        {
+          "sequence": 8,
+          "id": "negligent-motorists",
+          "component": "CommonCausesSection (Cause 06)",
+          "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/negligent-motorists.png",
+          "altText": "Negligent Actions by Surrounding Motorists in Tampa, FL Personal Injury",
+          "title": "Third-Party Motorist Negligence",
+          "description": "Reckless third-party drivers triggering severe crashes involving transit vehicles in Tampa, FL.",
+          "caption": "All negligent third-party drivers face full legal liability."
+        },
+        {
+          "sequence": 9,
+          "id": "review",
+          "component": "WhyRightLawyerSection",
+          "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/review.png",
+          "altText": "5-Star Client Review for Tampa Personal Injury Lawyers Firm",
+          "title": "5-Star Rated Personal Injury Lawyer in Tampa, FL",
+          "description": "Top-rated review badge for Tampa Personal Injury Lawyers Firm serving Tampa, FL.",
+          "caption": "Trusted by clients across Tampa, FL."
+        },
+        {
+          "sequence": 10,
+          "id": "communication-mistakes",
+          "component": "MistakesSection",
+          "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/communication-mistakes.png",
+          "altText": "Insurance Adjuster Communication Mistakes in Personal Injury Claims",
+          "title": "Insurance Communication Pitfalls",
+          "description": "Illustration of common communication mistakes with insurance adjusters in Tampa, FL personal injury cases.",
+          "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
+        },
+        {
+          "sequence": 11,
+          "id": "evidence-timing",
+          "component": "MistakesSection",
+          "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/evidence-timing.png",
+          "altText": "Evidence Preservation and Timing Delays in Tampa, FL Personal Injury Cases",
+          "title": "Evidence Preservation & Legal Deadlines",
+          "description": "Critical timing and evidence collection guidelines for personal injury claims in Tampa, FL.",
+          "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
+        },
+        {
+          "sequence": 12,
+          "id": "dedicated-counsel",
+          "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+          "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/dedicated-counsel.png",
+          "altText": "Dedicated Personal Injury Legal Counsel Consultation in Tampa, FL",
+          "title": "Dedicated Personal Injury Legal Counsel",
+          "description": "Carter Injury Law attorney offering compassionate consultation for personal injury victims in Tampa, FL.",
+          "caption": "Compassionate legal representation for Tampa, FL clients."
+        },
+        {
+          "sequence": 13,
+          "id": "justice-family",
+          "component": "JusticeSecuredSection",
+          "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/justice-family.png",
+          "altText": "Justice and Compensation for Tampa, FL Families after Personal Injury",
+          "title": "Justice for Tampa, FL Families",
+          "description": "Supporting grieving families in Tampa, FL to secure full financial recovery and legal justice.",
+          "caption": "Fighting to secure financial peace of mind for surviving family members."
+        },
+        {
+          "sequence": 14,
+          "id": "carter-team-cta",
+          "component": "FinalCTASection",
+          "filePath": "/assets/seo-service/tampa-personal-injury-lawyers-firm/carter-team-cta.png",
+          "altText": "Carter Injury Law Personal Injury Legal Team in Tampa, FL",
+          "title": "Carter Injury Law Personal Injury Legal Team",
+          "description": "Experienced legal team standing ready for personal injury consultation in Tampa, FL.",
+          "caption": "Our legal team is standing by to evaluate your case in Tampa, FL."
+        }
+      ]
+    },
+    "tampa-wrongful-death-car-accident-lawyer": {
+      "folderSlug": "tampa-wrongful-death-car-accident-lawyer",
+      "serviceName": "Tampa Wrongful Death Car Accident Lawyer",
+      "location": "Tampa, FL",
+      "topic": "Wrongful Death & Car Accidents",
+      "totalImages": 14,
+      "images": [
+        {
+          "sequence": 1,
+          "id": "carter-attorney",
+          "component": "HeroHeader",
+          "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/carter.png",
+          "altText": "Attorney David J. Carter - Lead Wrongful Death & Car Accidents Lawyer in Tampa, FL",
+          "title": "Tampa Wrongful Death Car Accident Lawyer - Attorney David J. Carter",
+          "description": "Professional portrait of Attorney David J. Carter representing Tampa Wrongful Death Car Accident Lawyer in Tampa, FL.",
+          "caption": "David J. Carter - Dedicated Wrongful Death & Car Accidents Trial Attorney"
+        },
+        {
+          "sequence": 2,
+          "id": "hero-bg",
+          "component": "HeroHeader (Background)",
+          "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/hero-bg.png",
+          "altText": "Hero Background Banner for Tampa Wrongful Death Car Accident Lawyer in Tampa, FL",
+          "title": "Tampa Wrongful Death Car Accident Lawyer Hero Section Background",
+          "description": "Dark professional background graphic for Tampa Wrongful Death Car Accident Lawyer hero header in Tampa, FL.",
+          "caption": "Tampa Wrongful Death Car Accident Lawyer Legal Practice Header Background"
+        },
+        {
+          "sequence": 3,
+          "id": "distraction",
+          "component": "CommonCausesSection (Cause 01)",
+          "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/distraction.png",
+          "altText": "Distracted Driving Cause of Wrongful Death & Car Accidents in Tampa, FL",
+          "title": "Distracted Driving Hazards",
+          "description": "Driver distracted by mobile device leading to severe collision in Tampa, FL.",
+          "caption": "Distracted driving remains a leading cause of severe traffic crashes."
+        },
+        {
+          "sequence": 4,
+          "id": "impaired",
+          "component": "CommonCausesSection (Cause 02)",
+          "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/impaired.png",
+          "altText": "Impaired and Drunk Driving Related Wrongful Death & Car Accidents in Tampa, FL",
+          "title": "Impaired Driving Collision Cause",
+          "description": "Drunk and drug-impaired driving hazards on Tampa, FL roadways.",
+          "caption": "Impaired drivers are held fully liable under Florida law."
+        },
+        {
+          "sequence": 5,
+          "id": "weather",
+          "component": "CommonCausesSection (Cause 03)",
+          "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/weather.png",
+          "altText": "Adverse Weather and Road Conditions Causing Wrongful Death & Car Accidents in Tampa, FL",
+          "title": "Hazardous Weather Road Hazards",
+          "description": "Heavy rain and slippery road conditions resulting in catastrophic crashes in Tampa, FL.",
+          "caption": "Adverse weather requires increased driver caution and responsibility."
+        },
+        {
+          "sequence": 6,
+          "id": "traffic-congestion",
+          "component": "CommonCausesSection (Cause 04)",
+          "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/traffic-congestion.png",
+          "altText": "Traffic Congestion Along Major Roadways Causing Wrongful Death & Car Accidents in Tampa, FL",
+          "title": "Traffic Congestion Road Hazards",
+          "description": "Heavy traffic congestion and rapid stop-and-go conditions along major corridors in Tampa, FL.",
+          "caption": "Dense traffic requires increased driver vigilance to prevent collisions."
+        },
+        {
+          "sequence": 7,
+          "id": "driver-fatigue",
+          "component": "CommonCausesSection (Cause 05)",
+          "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/driver-fatigue.png",
+          "altText": "Driver Fatigue and Exhaustion During Long Shifts in Tampa, FL",
+          "title": "Commercial Driver Fatigue Hazards",
+          "description": "Long shifts and fatigue degrading driver reaction times on Tampa, FL highways.",
+          "caption": "Operator fatigue poses severe risks to passengers and motorists."
+        },
+        {
+          "sequence": 8,
+          "id": "negligent-motorists",
+          "component": "CommonCausesSection (Cause 06)",
+          "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/negligent-motorists.png",
+          "altText": "Negligent Actions by Surrounding Motorists in Tampa, FL Wrongful Death & Car Accidents",
+          "title": "Third-Party Motorist Negligence",
+          "description": "Reckless third-party drivers triggering severe crashes involving transit vehicles in Tampa, FL.",
+          "caption": "All negligent third-party drivers face full legal liability."
+        },
+        {
+          "sequence": 9,
+          "id": "review",
+          "component": "WhyRightLawyerSection",
+          "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/review.png",
+          "altText": "5-Star Client Review for Tampa Wrongful Death Car Accident Lawyer",
+          "title": "5-Star Rated Wrongful Death & Car Accidents Lawyer in Tampa, FL",
+          "description": "Top-rated review badge for Tampa Wrongful Death Car Accident Lawyer serving Tampa, FL.",
+          "caption": "Trusted by clients across Tampa, FL."
+        },
+        {
+          "sequence": 10,
+          "id": "communication-mistakes",
+          "component": "MistakesSection",
+          "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/communication-mistakes.png",
+          "altText": "Insurance Adjuster Communication Mistakes in Wrongful Death & Car Accidents Claims",
+          "title": "Insurance Communication Pitfalls",
+          "description": "Illustration of common communication mistakes with insurance adjusters in Tampa, FL wrongful death & car accidents cases.",
+          "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
+        },
+        {
+          "sequence": 11,
+          "id": "evidence-timing",
+          "component": "MistakesSection",
+          "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/evidence-timing.png",
+          "altText": "Evidence Preservation and Timing Delays in Tampa, FL Wrongful Death & Car Accidents Cases",
+          "title": "Evidence Preservation & Legal Deadlines",
+          "description": "Critical timing and evidence collection guidelines for wrongful death & car accidents claims in Tampa, FL.",
+          "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
+        },
+        {
+          "sequence": 12,
+          "id": "dedicated-counsel",
+          "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+          "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+          "altText": "Dedicated Wrongful Death & Car Accidents Legal Counsel Consultation in Tampa, FL",
+          "title": "Dedicated Wrongful Death & Car Accidents Legal Counsel",
+          "description": "Carter Injury Law attorney offering compassionate consultation for wrongful death & car accidents victims in Tampa, FL.",
+          "caption": "Compassionate legal representation for Tampa, FL clients."
+        },
+        {
+          "sequence": 13,
+          "id": "justice-family",
+          "component": "JusticeSecuredSection",
+          "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/justice-family.png",
+          "altText": "Justice and Compensation for Tampa, FL Families after Wrongful Death & Car Accidents",
+          "title": "Justice for Tampa, FL Families",
+          "description": "Supporting grieving families in Tampa, FL to secure full financial recovery and legal justice.",
+          "caption": "Fighting to secure financial peace of mind for surviving family members."
+        },
+        {
+          "sequence": 14,
+          "id": "carter-team-cta",
+          "component": "FinalCTASection",
+          "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/carter-team-cta.png",
+          "altText": "Carter Injury Law Wrongful Death & Car Accidents Legal Team in Tampa, FL",
+          "title": "Carter Injury Law Wrongful Death & Car Accidents Legal Team",
+          "description": "Experienced legal team standing ready for wrongful death & car accidents consultation in Tampa, FL.",
+          "caption": "Our legal team is standing by to evaluate your case in Tampa, FL."
+        }
+      ]
+    }
+  }
+}

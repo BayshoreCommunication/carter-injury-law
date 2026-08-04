@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React, { useRef } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,21 +16,21 @@ const reviews = [
     text: "I didn't know where to turn after my accident, but this team guided me through every step. They fought hard against the insurance company and got me a settlement that covered all my medical bills.",
     name: "Amanda",
     location: "Largo, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel.png", "motorcycle-accident-lawyer-largo-fl").filePath,
   },
   {
     stars: 5,
     text: "After my crash, I was in constant pain and worried about how I would pay for treatment. My attorney kept me informed throughout the process and never let the insurance company push me around.",
     name: "Steve",
     location: "Largo, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel.png", "motorcycle-accident-lawyer-largo-fl").filePath,
   },
   {
     stars: 5,
     text: "The team treated me like family from day one. They handled every detail of my case so I could focus on recovering from my injuries.",
     name: "Ray",
     location: "Largo, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel.png", "motorcycle-accident-lawyer-largo-fl").filePath,
   },
 ];
 

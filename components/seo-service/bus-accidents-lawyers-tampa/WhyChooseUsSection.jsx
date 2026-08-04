@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React from "react";
 import Image from "next/image";
 import { Shield, Scale, MessageCircle, PhoneCall, UserCheck } from "lucide-react";
@@ -67,8 +69,7 @@ const WhyChooseUsSection = () => {
           >
             <div className="absolute inset-0">
               <Image
-                src="/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png"
-                alt="Attorney speaking with clients in Tampa"
+                src={getSeoImage("dedicated-counsel.png", "bus-accidents-lawyers-tampa").filePath} alt={getSeoImage("dedicated-counsel.png", "bus-accidents-lawyers-tampa").altText} title={getSeoImage("dedicated-counsel.png", "bus-accidents-lawyers-tampa").title}
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover object-center group-hover:scale-105 transition-transform duration-500"

@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React from "react";
 import Image from "next/image";
 import { Search, Scale } from "lucide-react";
@@ -20,37 +22,37 @@ const CommonCausesSection = () => {
     {
       number: "01",
       title: "Distracted or Fatigued Bus Drivers",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/distraction.png",
+      image: getSeoImage("distraction.png", "bus-accidents-lawyers-tampa").filePath,
       description: "Long work shifts wear drivers down quickly and reduce their ability to react to sudden road hazards. A quick glance at a radio or phone often causes a serious highway collision for passengers. Fatigue slows human reflexes right when a split-second reaction matters the absolute most for safety. Companies ignoring strict hours of service rules are asking for trouble on the public roadway daily.",
     },
     {
       number: "02",
       title: "Speeding and Reckless Operation of Passenger Buses",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/impaired.png",
+      image: getSeoImage("impaired.png", "bus-accidents-lawyers-tampa").filePath,
       description: "A fully loaded bus requires significant distance to stop safely in emergency traffic situations on highways. Excessive speeding erases that vital safety margin in a single heartbeat while traveling the road. Reckless driving on major highways like the Selmon Expressway turns routine rides into absolute disasters. We investigate speed data to prove the driver operated the bus without necessary caution for passengers.",
     },
     {
       number: "03",
       title: "Poor Bus Maintenance and Mechanical Failures",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/weather.png",
+      image: getSeoImage("weather.png", "bus-accidents-lawyers-tampa").filePath,
       description: "Critical systems like brakes and steering require regular upkeep to ensure passenger safety on the road. Skipped inspections and delayed repairs appear often in our bus accidents lawyer tampa litigation cases. Companies cutting maintenance corners put every single passenger at risk of serious physical injury and trauma. Maintenance logs become key evidence to prove negligence once the legal process begins for clients.",
     },
     {
       number: "04",
       title: "Unsafe Lane Changes and Blind Spot Collisions",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/distraction.png",
+      image: getSeoImage("distraction.png", "bus-accidents-lawyers-tampa").filePath,
       description: "Buses carry massive blind spots that make changing lanes an extremely dangerous maneuver for other motorists. A driver failing to check mirrors can sideswipe smaller cars without any warning to passengers. These collisions happen in an instant right in the middle of heavy Tampa traffic patterns. Careful observation remains the only way for drivers to prevent these common accidents from occurring.",
     },
     {
       number: "05",
       title: "Dangerous Intersections and Heavy Tampa Traffic",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/impaired.png",
+      image: getSeoImage("impaired.png", "bus-accidents-lawyers-tampa").filePath,
       description: "Specific Tampa intersections frequently see bus accidents due to poor sightlines and confusing signage for drivers. Constant gridlock and traffic volume add significant risk to every turn on the local road. We study the history of locations because past incidents strengthen your negligence claim for compensation. Prior accidents prove the location was unsafe long before your specific crash occurred in Tampa.",
     },
     {
       number: "06",
       title: "Negligent School Bus, Transit Bus, and Charter Bus Operations",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/weather.png",
+      image: getSeoImage("weather.png", "bus-accidents-lawyers-tampa").filePath,
       description: "School buses and transit buses answer to very different sets of safety regulations in Florida law. A company that skips driver training or ignores safety complaints invites serious accidents for passengers. We identify which specific local or state regulations applied to your unique bus crash event. Proving a violation of these standards builds the strongest possible case for your rightful compensation.",
     },
   ];

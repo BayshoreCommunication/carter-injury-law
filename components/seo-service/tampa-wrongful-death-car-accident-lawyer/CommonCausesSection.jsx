@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React from "react";
 import Image from "next/image";
 import { MapPin, Search, Scale } from "lucide-react";
@@ -21,20 +23,20 @@ const CommonCausesSection = () => {
     {
       number: "01",
       title: "Dangerous Driver Distractions and Violations",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/distraction.png",
+      image: getSeoImage("distraction.png", "tampa-wrongful-death-car-accident-lawyer").filePath,
       description: "Too many fatal collisions stem from preventable choices. Drivers look away to text, call, or use screens. This danger increases when motorists speed through local neighborhoods. High-traffic commercial zones face the same threat. Running red lights and stop signs turns commutes deadly.",
     },
     {
       number: "02",
       title: "Impaired Driving Along High-Speed Corridors",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/impaired.png",
+      image: getSeoImage("impaired.png", "tampa-wrongful-death-car-accident-lawyer").filePath,
       description: "Drunk or drugged driving causes catastrophic local wrecks. Impaired motorists endanger lives on our busiest routes. This includes I-275, I-4, and Dale Mabry Highway. Intoxication severely slows down reaction times. On fast corridors, full-speed impacts are usually fatal.",
       location: "I-275  •  I-4  •  Dale Mabry Hwy",
     },
     {
       number: "03",
       title: "Commercial Truck Fatigue and Extreme Weather",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/weather.png",
+      image: getSeoImage("weather.png", "tampa-wrongful-death-car-accident-lawyer").filePath,
       description: "Risks multiply with massive commercial vehicles around. Truck drivers face tight delivery deadlines. Many push past safety limits, driving while exhausted. On top of that, sudden Florida rainstorms drop visibility instantly.",
     },
   ];

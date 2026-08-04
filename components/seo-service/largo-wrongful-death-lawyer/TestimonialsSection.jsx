@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React, { useRef } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,21 +16,21 @@ const reviews = [
     text: "The team at Carter Injury Law guided us through the most difficult time of our lives. They explained every legal step and made sure we were never in the dark about our case. We finally feel like we have the financial security we need to move forward. I cannot thank them enough for their kindness and their relentless work ethic.",
     name: "Elena Rodriguez",
     location: "Largo, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel.png", "largo-wrongful-death-lawyer").filePath,
   },
   {
     stars: 5,
     text: "I was worried about hiring a lawyer while grieving but David made the process so easy. He handled all the stressful calls with the insurance company so I could focus on my kids. The settlement was much higher than we expected and we are so grateful. This firm truly cares about their clients and it shows in everything they do.",
     name: "Thomas H.",
     location: "Largo, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel.png", "largo-wrongful-death-lawyer").filePath,
   },
   {
     stars: 5,
     text: "I had so many questions and David and his team responded promptly and I felt my case was treated as if it was as much as any other. I was extremely hesitant but everything they did made it so easy and seamless. I hope to never have to experience another accident again but if I do I hope that David Carter will be my first choice.",
     name: "Yvette Maldonado",
     location: "Largo, FL",
-    image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+    image: getSeoImage("dedicated-counsel.png", "largo-wrongful-death-lawyer").filePath,
   },
 ];
 

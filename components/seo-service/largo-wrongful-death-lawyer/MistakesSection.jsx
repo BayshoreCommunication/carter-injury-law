@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React from "react";
 import Image from "next/image";
 import { X, ShieldCheck, Scale } from "lucide-react";
@@ -63,8 +65,7 @@ const MistakesSection = () => {
             <div className="flex items-center gap-5 mb-8">
               <div className="relative w-24 h-24 shrink-0">
                 <Image
-                  src="/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/communication-mistakes.png"
-                  alt="Timing and documentation mistakes illustration"
+                  src={getSeoImage("communication-mistakes.png", "largo-wrongful-death-lawyer").filePath} alt={getSeoImage("communication-mistakes.png", "largo-wrongful-death-lawyer").altText} title={getSeoImage("communication-mistakes.png", "largo-wrongful-death-lawyer").title}
                   fill
                   className="object-contain"
                   sizes="96px"
@@ -104,8 +105,7 @@ const MistakesSection = () => {
             <div className="flex items-center gap-5 mb-8">
               <div className="relative w-24 h-24 shrink-0">
                 <Image
-                  src="/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/evidence-timing.png"
-                  alt="Evidence and liability mistakes illustration"
+                  src={getSeoImage("evidence-timing.png", "largo-wrongful-death-lawyer").filePath} alt={getSeoImage("evidence-timing.png", "largo-wrongful-death-lawyer").altText} title={getSeoImage("evidence-timing.png", "largo-wrongful-death-lawyer").title}
                   fill
                   className="object-contain"
                   sizes="96px"

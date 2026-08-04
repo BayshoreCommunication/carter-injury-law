@@ -1,0 +1,149 @@
+{
+  "folderSlug": "motorcycle-accident-lawyer-largo-fl",
+  "serviceName": "Motorcycle Accident Lawyer Largo FL",
+  "location": "Largo, FL",
+  "topic": "Motorcycle Accidents",
+  "totalImages": 14,
+  "images": [
+    {
+      "id": "carter-attorney",
+      "fileName": "carter.png",
+      "component": "HeroHeader",
+      "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/carter.png",
+      "altText": "Attorney David J. Carter - Lead Motorcycle Accidents Lawyer in Largo, FL",
+      "title": "Motorcycle Accident Lawyer Largo FL - Attorney David J. Carter",
+      "description": "Professional portrait of Attorney David J. Carter representing Motorcycle Accident Lawyer Largo FL in Largo, FL.",
+      "caption": "David J. Carter - Dedicated Motorcycle Accidents Trial Attorney"
+    },
+    {
+      "id": "hero-bg",
+      "fileName": "hero-bg.png",
+      "component": "HeroHeader (Background)",
+      "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/hero-bg.png",
+      "altText": "Hero Background Banner for Motorcycle Accident Lawyer Largo FL in Largo, FL",
+      "title": "Motorcycle Accident Lawyer Largo FL Hero Section Background",
+      "description": "Dark professional background graphic for Motorcycle Accident Lawyer Largo FL hero header in Largo, FL.",
+      "caption": "Motorcycle Accident Lawyer Largo FL Legal Practice Header Background"
+    },
+    {
+      "id": "dedicated-counsel",
+      "fileName": "dedicated-counsel.png",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/dedicated-counsel.png",
+      "altText": "Dedicated Motorcycle Accidents Legal Counsel Consultation in Largo, FL",
+      "title": "Dedicated Motorcycle Accidents Legal Counsel",
+      "description": "Carter Injury Law attorney offering compassionate consultation for motorcycle accidents victims in Largo, FL.",
+      "caption": "Compassionate legal representation for Largo, FL clients."
+    },
+    {
+      "id": "carter-team-cta",
+      "fileName": "carter-team-cta.png",
+      "component": "FinalCTASection",
+      "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/carter-team-cta.png",
+      "altText": "Carter Injury Law Motorcycle Accidents Legal Team in Largo, FL",
+      "title": "Carter Injury Law Motorcycle Accidents Legal Team",
+      "description": "Experienced legal team standing ready for motorcycle accidents consultation in Largo, FL.",
+      "caption": "Our legal team is standing by to evaluate your case in Largo, FL."
+    },
+    {
+      "id": "communication-mistakes",
+      "fileName": "communication-mistakes.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/communication-mistakes.png",
+      "altText": "Insurance Adjuster Communication Mistakes in Motorcycle Accidents Claims",
+      "title": "Insurance Communication Pitfalls",
+      "description": "Illustration of common communication mistakes with insurance adjusters in Largo, FL motorcycle accidents cases.",
+      "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
+    },
+    {
+      "id": "evidence-timing",
+      "fileName": "evidence-timing.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/evidence-timing.png",
+      "altText": "Evidence Preservation and Timing Delays in Largo, FL Motorcycle Accidents Cases",
+      "title": "Evidence Preservation & Legal Deadlines",
+      "description": "Critical timing and evidence collection guidelines for motorcycle accidents claims in Largo, FL.",
+      "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
+    },
+    {
+      "id": "justice-family",
+      "fileName": "justice-family.png",
+      "component": "JusticeSecuredSection",
+      "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/justice-family.png",
+      "altText": "Justice and Compensation for Largo, FL Families after Motorcycle Accidents",
+      "title": "Justice for Largo, FL Families",
+      "description": "Supporting grieving families in Largo, FL to secure full financial recovery and legal justice.",
+      "caption": "Fighting to secure financial peace of mind for surviving family members."
+    },
+    {
+      "id": "review",
+      "fileName": "review.png",
+      "component": "WhyRightLawyerSection",
+      "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/review.png",
+      "altText": "5-Star Client Review for Motorcycle Accident Lawyer Largo FL",
+      "title": "5-Star Rated Motorcycle Accidents Lawyer in Largo, FL",
+      "description": "Top-rated review badge for Motorcycle Accident Lawyer Largo FL serving Largo, FL.",
+      "caption": "Trusted by clients across Largo, FL."
+    },
+    {
+      "id": "distraction",
+      "fileName": "distraction.png",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/distraction.png",
+      "altText": "Distracted Driving Cause of Motorcycle Accidents in Largo, FL",
+      "title": "Distracted Driving Hazards",
+      "description": "Driver distracted by mobile device leading to severe collision in Largo, FL.",
+      "caption": "Distracted driving remains a leading cause of severe traffic crashes."
+    },
+    {
+      "id": "impaired",
+      "fileName": "impaired.png",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/impaired.png",
+      "altText": "Impaired and Drunk Driving Related Motorcycle Accidents in Largo, FL",
+      "title": "Impaired Driving Collision Cause",
+      "description": "Drunk and drug-impaired driving hazards on Largo, FL roadways.",
+      "caption": "Impaired drivers are held fully liable under Florida law."
+    },
+    {
+      "id": "weather",
+      "fileName": "weather.png",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/weather.png",
+      "altText": "Adverse Weather and Road Conditions Causing Motorcycle Accidents in Largo, FL",
+      "title": "Hazardous Weather Road Hazards",
+      "description": "Heavy rain and slippery road conditions resulting in catastrophic crashes in Largo, FL.",
+      "caption": "Adverse weather requires increased driver caution and responsibility."
+    },
+    {
+      "id": "traffic-congestion",
+      "fileName": "traffic-congestion.png",
+      "component": "CommonCausesSection (Cause 04)",
+      "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/traffic-congestion.png",
+      "altText": "Traffic Congestion Along Major Roadways Causing Motorcycle Accidents in Largo, FL",
+      "title": "Traffic Congestion Road Hazards",
+      "description": "Heavy traffic congestion and rapid stop-and-go conditions along major corridors in Largo, FL.",
+      "caption": "Dense traffic requires increased driver vigilance to prevent collisions."
+    },
+    {
+      "id": "driver-fatigue",
+      "fileName": "driver-fatigue.png",
+      "component": "CommonCausesSection (Cause 05)",
+      "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/driver-fatigue.png",
+      "altText": "Driver Fatigue and Exhaustion During Long Shifts in Largo, FL",
+      "title": "Commercial Driver Fatigue Hazards",
+      "description": "Long shifts and fatigue degrading driver reaction times on Largo, FL highways.",
+      "caption": "Operator fatigue poses severe risks to passengers and motorists."
+    },
+    {
+      "id": "negligent-motorists",
+      "fileName": "negligent-motorists.png",
+      "component": "CommonCausesSection (Cause 06)",
+      "filePath": "/assets/seo-service/motorcycle-accident-lawyer-largo-fl/negligent-motorists.png",
+      "altText": "Negligent Actions by Surrounding Motorists in Largo, FL Motorcycle Accidents",
+      "title": "Third-Party Motorist Negligence",
+      "description": "Reckless third-party drivers triggering severe crashes involving transit vehicles in Largo, FL.",
+      "caption": "All negligent third-party drivers face full legal liability."
+    }
+  ]
+}

@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -47,8 +49,7 @@ const DedicatedCounselSection = () => {
             className="relative w-full h-[380px] lg:h-auto"
           >
             <Image
-              src="/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png"
-              alt="Attorney meeting with clients in office"
+              src={getSeoImage("dedicated-counsel.png", "largo-wrongful-death-lawyer").filePath} alt={getSeoImage("dedicated-counsel.png", "largo-wrongful-death-lawyer").altText} title={getSeoImage("dedicated-counsel.png", "largo-wrongful-death-lawyer").title}
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover object-center"

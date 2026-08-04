@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React from "react";
 import Image from "next/image";
 import { UserCog, BadgeDollarSign, ShieldX, TrendingDown, EyeOff, Clock, Calendar, ArrowDown, Scale, ShieldCheck, Lock, User } from "lucide-react";
@@ -49,8 +51,7 @@ const WhyRightLawyerSection = () => {
         {/* Bottom Image Panel */}
         <div className="mt-12 relative w-full h-[280px] md:h-[340px] rounded-2xl overflow-hidden shadow-2xl border border-gray-200/50">
           <Image
-            src="/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/review.png"
-            alt="Lawyer reviewing documents with clients"
+            src={getSeoImage("review.png", "tampa-personal-injury-lawyers-firm").filePath} alt={getSeoImage("review.png", "tampa-personal-injury-lawyers-firm").altText} title={getSeoImage("review.png", "tampa-personal-injury-lawyers-firm").title}
             fill
             sizes="(max-width: 1024px) 100vw, 40vw"
             className="object-cover"

@@ -1,4 +1,6 @@
 "use client";
+import { getSeoImage } from "@/lib/seo-service-images";
+
 import React from "react";
 import Image from "next/image";
 import { MapPin, Search, Scale } from "lucide-react";
@@ -20,33 +22,33 @@ const CommonCausesSection = () => {
     {
       number: "01",
       title: "High-Risk Intersections Throughout Largo",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/distraction.png",
+      image: getSeoImage("distraction.png", "largo-wrongful-death-lawyer").filePath,
       description: "Dangerous intersections in Largo witness too many fatal collisions due to poor traffic management and speed. We identify the specific traffic patterns that contributed to the accident involving your loved one today. Our Largo wrongful death lawyer tracks down signal timing logs and traffic reports to prove fault at these locations.",
       location: "Largo Intersections",
     },
     {
       number: "02",
       title: "Negligent Drivers on Busy Pinellas County Roads",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/impaired.png",
+      image: getSeoImage("impaired.png", "largo-wrongful-death-lawyer").filePath,
       description: "Drivers who text or speed or operate vehicles while impaired pose a constant threat to everyone. We hold these negligent motorists accountable for the devastating harm they cause on our local roads. Holding them responsible provides the financial security your family needs to move forward after your loss.",
       location: "Pinellas County Roads",
     },
     {
       number: "03",
       title: "Commercial Vehicle and Delivery Fleet Collisions",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/weather.png",
+      image: getSeoImage("weather.png", "largo-wrongful-death-lawyer").filePath,
       description: "Large commercial trucks and delivery vehicles operate under intense pressure that frequently leads to safety failures. We examine maintenance records and driver fatigue logs to identify corporate negligence behind these fatal events. Our firm demands full accountability from the companies that ignore safety rules for their own profit.",
     },
     {
       number: "04",
       title: "Dangerous Roadway Defects and Infrastructure Failures",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/distraction.png",
+      image: getSeoImage("distraction.png", "largo-wrongful-death-lawyer").filePath,
       description: "Poorly designed roads or obscured signage or broken traffic signals can lead to fatal accident outcomes. As a Largo wrongful death lawyer, we investigate whether government entities failed to maintain safe infrastructure in the area of the crash. Public agencies must be held responsible when their failure to act leads to a tragic death.",
     },
     {
       number: "05",
       title: "Fatal Bicycle and Pedestrian Accidents",
-      image: "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/weather.png",
+      image: getSeoImage("weather.png", "largo-wrongful-death-lawyer").filePath,
       description: "Vulnerable road users like bicyclists and pedestrians suffer the most when drivers fail to watch out. We gather evidence like security footage and witness accounts to build a case against the driver. These cases require a deep understanding of Florida traffic laws to ensure justice for the victim.",
     },
   ];

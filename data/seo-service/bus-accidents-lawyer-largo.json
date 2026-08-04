@@ -1,0 +1,149 @@
+{
+  "folderSlug": "bus-accidents-lawyer-largo",
+  "serviceName": "Bus Accidents Lawyer Largo",
+  "location": "Largo, FL",
+  "topic": "Bus Accidents",
+  "totalImages": 14,
+  "images": [
+    {
+      "id": "carter-attorney",
+      "fileName": "carter.png",
+      "component": "HeroHeader",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/carter.png",
+      "altText": "Attorney David J. Carter - Lead Bus Accidents Lawyer in Largo, FL",
+      "title": "Bus Accidents Lawyer Largo - Attorney David J. Carter",
+      "description": "Professional portrait of Attorney David J. Carter representing Bus Accidents Lawyer Largo in Largo, FL.",
+      "caption": "David J. Carter - Dedicated Bus Accidents Trial Attorney"
+    },
+    {
+      "id": "hero-bg",
+      "fileName": "hero-bg.png",
+      "component": "HeroHeader (Background)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/hero-bg.png",
+      "altText": "Hero Background Banner for Bus Accidents Lawyer Largo in Largo, FL",
+      "title": "Bus Accidents Lawyer Largo Hero Section Background",
+      "description": "Dark professional background graphic for Bus Accidents Lawyer Largo hero header in Largo, FL.",
+      "caption": "Bus Accidents Lawyer Largo Legal Practice Header Background"
+    },
+    {
+      "id": "dedicated-counsel",
+      "fileName": "dedicated-counsel.png",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/dedicated-counsel.png",
+      "altText": "Dedicated Bus Accidents Legal Counsel Consultation in Largo, FL",
+      "title": "Dedicated Bus Accidents Legal Counsel",
+      "description": "Carter Injury Law attorney offering compassionate consultation for bus accidents victims in Largo, FL.",
+      "caption": "Compassionate legal representation for Largo, FL clients."
+    },
+    {
+      "id": "carter-team-cta",
+      "fileName": "carter-team-cta.png",
+      "component": "FinalCTASection",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/carter-team-cta.png",
+      "altText": "Carter Injury Law Bus Accidents Legal Team in Largo, FL",
+      "title": "Carter Injury Law Bus Accidents Legal Team",
+      "description": "Experienced legal team standing ready for bus accidents consultation in Largo, FL.",
+      "caption": "Our legal team is standing by to evaluate your case in Largo, FL."
+    },
+    {
+      "id": "communication-mistakes",
+      "fileName": "communication-mistakes.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/communication-mistakes.png",
+      "altText": "Insurance Adjuster Communication Mistakes in Bus Accidents Claims",
+      "title": "Insurance Communication Pitfalls",
+      "description": "Illustration of common communication mistakes with insurance adjusters in Largo, FL bus accidents cases.",
+      "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
+    },
+    {
+      "id": "evidence-timing",
+      "fileName": "evidence-timing.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/evidence-timing.png",
+      "altText": "Evidence Preservation and Timing Delays in Largo, FL Bus Accidents Cases",
+      "title": "Evidence Preservation & Legal Deadlines",
+      "description": "Critical timing and evidence collection guidelines for bus accidents claims in Largo, FL.",
+      "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
+    },
+    {
+      "id": "justice-family",
+      "fileName": "justice-family.png",
+      "component": "JusticeSecuredSection",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/justice-family.png",
+      "altText": "Justice and Compensation for Largo, FL Families after Bus Accidents",
+      "title": "Justice for Largo, FL Families",
+      "description": "Supporting grieving families in Largo, FL to secure full financial recovery and legal justice.",
+      "caption": "Fighting to secure financial peace of mind for surviving family members."
+    },
+    {
+      "id": "review",
+      "fileName": "review.png",
+      "component": "WhyRightLawyerSection",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/review.png",
+      "altText": "5-Star Client Review for Bus Accidents Lawyer Largo",
+      "title": "5-Star Rated Bus Accidents Lawyer in Largo, FL",
+      "description": "Top-rated review badge for Bus Accidents Lawyer Largo serving Largo, FL.",
+      "caption": "Trusted by clients across Largo, FL."
+    },
+    {
+      "id": "distraction",
+      "fileName": "distraction.png",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/distraction.png",
+      "altText": "Distracted Driving Cause of Bus Accidents in Largo, FL",
+      "title": "Distracted Driving Hazards",
+      "description": "Driver distracted by mobile device leading to severe collision in Largo, FL.",
+      "caption": "Distracted driving remains a leading cause of severe traffic crashes."
+    },
+    {
+      "id": "impaired",
+      "fileName": "impaired.png",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/impaired.png",
+      "altText": "Impaired and Drunk Driving Related Bus Accidents in Largo, FL",
+      "title": "Impaired Driving Collision Cause",
+      "description": "Drunk and drug-impaired driving hazards on Largo, FL roadways.",
+      "caption": "Impaired drivers are held fully liable under Florida law."
+    },
+    {
+      "id": "weather",
+      "fileName": "weather.png",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/weather.png",
+      "altText": "Adverse Weather and Road Conditions Causing Bus Accidents in Largo, FL",
+      "title": "Hazardous Weather Road Hazards",
+      "description": "Heavy rain and slippery road conditions resulting in catastrophic crashes in Largo, FL.",
+      "caption": "Adverse weather requires increased driver caution and responsibility."
+    },
+    {
+      "id": "traffic-congestion",
+      "fileName": "traffic-congestion.png",
+      "component": "CommonCausesSection (Cause 04)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/traffic-congestion.png",
+      "altText": "Traffic Congestion Along Major Roadways Causing Bus Accidents in Largo, FL",
+      "title": "Traffic Congestion Road Hazards",
+      "description": "Heavy traffic congestion and rapid stop-and-go conditions along major corridors in Largo, FL.",
+      "caption": "Dense traffic requires increased driver vigilance to prevent collisions."
+    },
+    {
+      "id": "driver-fatigue",
+      "fileName": "driver-fatigue.png",
+      "component": "CommonCausesSection (Cause 05)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/driver-fatigue.png",
+      "altText": "Driver Fatigue and Exhaustion During Long Shifts in Largo, FL",
+      "title": "Commercial Driver Fatigue Hazards",
+      "description": "Long shifts and fatigue degrading driver reaction times on Largo, FL highways.",
+      "caption": "Operator fatigue poses severe risks to passengers and motorists."
+    },
+    {
+      "id": "negligent-motorists",
+      "fileName": "negligent-motorists.png",
+      "component": "CommonCausesSection (Cause 06)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/negligent-motorists.png",
+      "altText": "Negligent Actions by Surrounding Motorists in Largo, FL Bus Accidents",
+      "title": "Third-Party Motorist Negligence",
+      "description": "Reckless third-party drivers triggering severe crashes involving transit vehicles in Largo, FL.",
+      "caption": "All negligent third-party drivers face full legal liability."
+    }
+  ]
+}
