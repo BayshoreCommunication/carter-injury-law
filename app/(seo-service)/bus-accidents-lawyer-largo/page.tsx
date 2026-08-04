@@ -21,12 +21,12 @@ export const metadata = {
   description:
     "Get legal help after a bus crash in Largo. A bus accidents lawyer can protect your rights and pursue the compensation you deserve.",
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
+      index: true,
+      follow: true,
+      noimageindex: false,
     },
   },
   alternates: {
