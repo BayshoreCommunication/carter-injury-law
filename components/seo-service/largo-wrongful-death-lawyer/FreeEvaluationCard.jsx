@@ -104,7 +104,7 @@ const FreeEvaluationCard = ({ className = "" }) => {
               >
                 Schedule Your Free, Confidential <br />
                 <span className="text-primary">Largo Wrongful Death Case Evaluation Today</span>
-              </h3>
+              </h2>
             </div>
             <p className="text-gray-600 text-xs sm:text-sm leading-relaxed font-medium">
               Taking swift action today is the only way to protect your family's future after this tragedy. We provide a clear path forward for your case during our free and confidential consultation session.

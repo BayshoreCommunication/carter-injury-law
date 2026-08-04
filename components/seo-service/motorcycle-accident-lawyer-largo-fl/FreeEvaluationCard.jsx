@@ -99,10 +99,10 @@ const FreeEvaluationCard = ({ className = "" }) => {
         <div className="flex-1 flex flex-col justify-between space-y-4 lg:max-w-[42%]">
           <div className="space-y-3">
             <div className="flex items-start gap-3">
-              <h3 className="text-xl md:text-[25px] font-extrabold text-secondary leading-tight pt-1">
+              <h2 className="text-xl md:text-[25px] font-extrabold text-secondary leading-tight pt-1">
                 Schedule Your Free, Confidential <br />
                 <span className="text-primary">Largo Motorcycle Accident Case Evaluation Today</span>
-              </h3>
+              </h2>
             </div>
             <p className="text-gray-600 text-xs sm:text-sm leading-relaxed font-medium">
               Your recovery matters far more than documentation. Let our firm handle the legal fight for you while you focus on your physical recovery.

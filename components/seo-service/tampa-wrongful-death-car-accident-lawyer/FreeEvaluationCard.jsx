@@ -104,7 +104,7 @@ const FreeEvaluationCard = ({ className = "" }) => {
               >
                 Schedule Your Free, Confidential <br />
                 <span className="text-primary">Tampa Wrongful Death Case Evaluation Today</span>
-              </h3>
+              </h2>
             </div>
             <p className="text-gray-600 text-xs sm:text-sm leading-relaxed font-medium">
               Every wrongful death claim runs on a clock, and evidence has a way of vanishing fast after a fatal collision. Talk to us soon.

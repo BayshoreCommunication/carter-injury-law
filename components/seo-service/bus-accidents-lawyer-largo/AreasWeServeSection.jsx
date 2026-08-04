@@ -70,46 +70,9 @@ const AreasWeServeSection = () => {
             Bus Accidents Lawyer Largo,{" "}
             <span className="block text-primary">Areas We Serve</span>
           </h2>
-
-          <p className="text-gray-600 text-sm md:text-base leading-relaxed font-medium">
-            Our bus accidents lawyer Largo team represents victims throughout the city and surrounding local communities.
-          </p>
         </div>
 
-        {/* ── Neighborhoods & Surrounding Communities List ── */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-          <div className="bg-white rounded-[20px] border border-gray-100 p-6 md:p-8 shadow-sm">
-            <h3 className="text-lg md:text-xl font-extrabold text-secondary mb-4 pb-3 border-b border-gray-100 flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-primary" />
-              Largo Neighborhoods We Serve
-            </h3>
-            <div className="grid grid-cols-2 gap-2 text-sm text-gray-600 font-medium">
-              {neighborhoods.map((item, idx) => (
-                <div key={idx} className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
-                  <span>{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="bg-white rounded-[20px] border border-gray-100 p-6 md:p-8 shadow-sm">
-            <h3 className="text-lg md:text-xl font-extrabold text-secondary mb-4 pb-3 border-b border-gray-100 flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-primary" />
-              Surrounding Pinellas County Communities
-            </h3>
-            <div className="grid grid-cols-2 gap-2 text-sm text-gray-600 font-medium">
-              {surroundingCommunities.map((item, idx) => (
-                <div key={idx} className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
-                  <span>{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        {/* ── Content Grid ── */}
+        {/* ── Content Grid: Map + Office Cards ── */}
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_400px] gap-6 mb-6">
 
           {/* ── Left: Google Map Embed ── */}
@@ -185,7 +148,7 @@ const AreasWeServeSection = () => {
           </div>
 
           <button
-            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            onClick={() => window.location.href = '/contact'}
             className="flex items-center gap-3 bg-transparent border-2 border-primary text-white font-extrabold text-sm px-7 py-4 rounded-xl hover:bg-primary transition-all duration-200 active:scale-95 uppercase tracking-wider shrink-0 whitespace-nowrap"
           >
             Start Your Free Consultation

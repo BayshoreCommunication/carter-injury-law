@@ -136,16 +136,6 @@ const CompensationCard = ({ card }) => {
           {card.body}
         </p>
       </div>
-
-      <div className="flex justify-end mt-4 pt-2">
-        <button
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="w-9 h-9 rounded-full border border-gray-200 flex items-center justify-center text-secondary hover:bg-secondary hover:text-white hover:border-secondary transition-all duration-200"
-          aria-label="Get started"
-        >
-          <ArrowRight className="w-4 h-4" strokeWidth={2} />
-        </button>
-      </div>
     </motion.div>
   );
 };

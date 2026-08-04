@@ -252,9 +252,9 @@ const HeroHeader = ({
               <MessageSquare className="w-5 h-5 text-white/80" />
             </div>
             <div>
-              <h4 className="text-[13px] font-extrabold tracking-wider uppercase text-white">
+              <p className="text-[13px] font-extrabold tracking-wider uppercase text-white">
                 Free Consultation
-              </h4>
+              </p>
               <p className="text-gray-400 text-xs sm:text-sm mt-1.5 leading-normal">
                 No obligation. Ever.
               </p>
@@ -267,9 +267,9 @@ const HeroHeader = ({
               <ShieldCheck className="w-5 h-5 text-white/80" />
             </div>
             <div>
-              <h4 className="text-[13px] font-extrabold tracking-wider uppercase text-white">
+              <p className="text-[13px] font-extrabold tracking-wider uppercase text-white">
                 No Fee Unless We Win
-              </h4>
+              </p>
               <p className="text-gray-400 text-xs sm:text-sm mt-1.5 leading-normal">
                 You don't pay unless we win.
               </p>
@@ -282,9 +282,9 @@ const HeroHeader = ({
               <User className="w-5 h-5 text-white/80" />
             </div>
             <div>
-              <h4 className="text-[13px] font-extrabold tracking-wider uppercase text-white">
+              <p className="text-[13px] font-extrabold tracking-wider uppercase text-white">
                 Direct Attorney Access
-              </h4>
+              </p>
               <p className="text-gray-400 text-xs sm:text-sm mt-1.5 leading-normal">
                 Talk to your lawyer, not a case manager.
               </p>
@@ -297,9 +297,9 @@ const HeroHeader = ({
               <MapPin className="w-5 h-5 text-white/80" />
             </div>
             <div>
-              <h4 className="text-[13px] font-extrabold tracking-wider uppercase text-white">
+              <p className="text-[13px] font-extrabold tracking-wider uppercase text-white">
                 Tampa-Based Representation
-              </h4>
+              </p>
               <p className="text-gray-400 text-xs sm:text-sm mt-1.5 leading-normal">
                 Local lawyers. Local results. Proudly serving Tampa Bay.
               </p>

@@ -99,10 +99,10 @@ const FreeEvaluationCard = ({ className = "" }) => {
         <div className="flex-1 flex flex-col justify-between space-y-4 lg:max-w-[42%]">
           <div className="space-y-3">
             <div className="flex items-start gap-3">
-              <h3 className="text-xl md:text-[25px] font-extrabold text-secondary leading-tight pt-1">
+              <h2 className="text-xl md:text-[25px] font-extrabold text-secondary leading-tight pt-1">
                 Schedule Your Free, Confidential <br />
                 <span className="text-primary">Tampa Bus Accident Case Evaluation Today</span>
-              </h3>
+              </h2>
             </div>
             <p className="text-gray-600 text-xs sm:text-sm leading-relaxed font-medium">
               Evidence from a massive bus crash vanishes quickly without an immediate and aggressive investigation by professionals. Talk to a skilled bus accidents lawyer tampa before you sign any documents or speak to representatives.

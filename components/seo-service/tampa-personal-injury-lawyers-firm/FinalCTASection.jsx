@@ -103,7 +103,7 @@ const FinalCTASection = () => {
 
               {/* Form redirect call button */}
               <button
-                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                onClick={() => window.location.href = '/contact'}
                 className="w-full bg-primary hover:bg-primary/95 text-white font-extrabold tracking-wider uppercase py-4 rounded-xl flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 active:scale-95 text-xs sm:text-sm"
               >
                 <Calendar className="w-5 h-5 text-white" strokeWidth={2} />

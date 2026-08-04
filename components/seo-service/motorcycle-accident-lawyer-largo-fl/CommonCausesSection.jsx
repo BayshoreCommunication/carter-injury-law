@@ -147,9 +147,9 @@ const CommonCausesSection = () => {
             </div>
 
             <div className="flex-1 text-center md:text-left">
-              <h4 className="text-lg md:text-[22px] font-bold text-white tracking-wide">
+              <p className="text-lg md:text-[22px] font-bold text-white tracking-wide">
                 ACCIDENT SCRUTINY AND COMPREHENSIVE INVESTIGATION
-              </h4>
+              </p>
               <p className="text-gray-300 text-sm md:text-base mt-2 md:mt-3 leading-relaxed max-w-4xl font-medium">
                 Federal and state regulations govern commercial and personal liability. When a negligent driver causes harm, we collect every piece of evidence to build the strongest possible claim for full compensation.
               </p>

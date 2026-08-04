@@ -196,7 +196,7 @@ const WhyRightLawyerSection = () => {
             </div>
             {/* Button links to form at top */}
             <button 
-              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              onClick={() => window.location.href = '/contact'}
               className="bg-secondary hover:bg-secondary/90 border border-white/10 text-white font-bold text-xs px-5 py-3 rounded-lg flex items-center gap-2 shadow-sm transition-all shrink-0 active:scale-95 uppercase tracking-wider"
             >
               <Calendar className="w-4 h-4 text-white" strokeWidth={2.5} />

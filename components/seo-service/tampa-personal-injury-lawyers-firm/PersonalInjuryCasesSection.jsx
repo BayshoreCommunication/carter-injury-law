@@ -167,7 +167,7 @@ const PersonalInjuryCasesSection = () => {
                 </div>
 
                 <div 
-                  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                  onClick={() => window.location.href = '/contact'}
                   className="mt-6 flex items-center gap-1.5 text-primary text-[10px] font-extrabold uppercase tracking-wider cursor-pointer group-hover:underline"
                 >
                   <span>Request Consultation</span>

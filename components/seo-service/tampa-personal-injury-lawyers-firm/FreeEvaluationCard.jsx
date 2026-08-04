@@ -104,7 +104,7 @@ const FreeEvaluationCard = ({ className = "" }) => {
               >
                 Schedule Your Free Confidential <br />
                 <span className="text-primary">Tampa Personal Injury Case Evaluation Today</span>
-              </h3>
+              </h2>
             </div>
             <p className="text-gray-600 text-xs sm:text-sm leading-relaxed font-medium">
               The window of time after an accident is short because surveillance footage often gets deleted very quickly. We identify every party that bears legal responsibility and give an honest assessment of your case.

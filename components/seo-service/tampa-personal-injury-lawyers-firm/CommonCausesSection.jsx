@@ -151,11 +151,11 @@ const CommonCausesSection = () => {
             </div>
 
             <div className="flex-1 text-center md:text-left">
-              <h4 
+              <p 
                 className="text-lg md:text-[22px] font-bold text-white tracking-wide"
               >
                 THE ACCIDENT IS ONLY THE BEGINNING OF THE INVESTIGATION.
-              </h4>
+              </p>
               <p className="text-gray-300 text-sm md:text-base mt-2 md:mt-3 leading-relaxed max-w-4xl font-medium">
                 Whatever the cause, a close look almost always turns up negligence somebody would rather keep buried. We go digging for that evidence. It's what we use to build your claim.
               </p>

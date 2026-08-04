@@ -116,9 +116,9 @@ const DedicatedCounselSection = () => {
                   </span>
                   <div className="w-px self-stretch bg-gray-200 shrink-0" />
                   <div className="flex-1">
-                    <p className="text-xs font-extrabold text-secondary uppercase tracking-widest mb-1">
+                    <h3 className="text-xs font-extrabold text-secondary uppercase tracking-widest mb-1">
                       {f.title}
-                    </p>
+                    </h3>
                     <p className="text-gray-600 text-sm leading-relaxed font-medium">{f.body}</p>
                   </div>
                 </motion.div>

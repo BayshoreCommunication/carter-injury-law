@@ -36,9 +36,9 @@ const JusticeSecuredSection = () => {
             </span>
 
             {/* Main heading */}
-            <h2 className="text-3xl md:text-4xl xl:text-[44px] font-extrabold text-white leading-[1.12] tracking-tight mb-5">
+            <p className="text-3xl md:text-4xl xl:text-[44px] font-extrabold text-white leading-[1.12] tracking-tight mb-5">
               Justice Secured for Tampa Families We Have Represented for Wrongful Death Claims
-            </h2>
+            </p>
 
             {/* Short accent underline */}
             <div className="w-12 h-[3px] bg-primary mb-10" />

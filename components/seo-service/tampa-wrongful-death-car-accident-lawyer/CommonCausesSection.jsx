@@ -160,11 +160,11 @@ const CommonCausesSection = () => {
             {/* Banner Text Columns */}
             <div className="flex-1 text-center md:text-left">
               {/* Header Title */}
-              <h4 
+              <p 
                 className="text-lg md:text-[22px] font-bold text-white tracking-wide"
               >
                 THE CRASH IS ONLY THE BEGINNING OF THE INVESTIGATION.
-              </h4>
+              </p>
               
               {/* Description subtext */}
               <p className="text-gray-300 text-sm md:text-base mt-2 md:mt-3 leading-relaxed max-w-4xl font-medium">

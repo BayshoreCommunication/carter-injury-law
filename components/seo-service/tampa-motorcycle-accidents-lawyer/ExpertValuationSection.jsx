@@ -101,7 +101,7 @@ const ExpertValuationSection = () => {
                 </a>
 
                 <button
-                  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                  onClick={() => window.location.href = '/contact'}
                   className="w-full bg-primary hover:bg-primary/95 text-white font-extrabold tracking-wider uppercase py-4 rounded-xl flex items-center justify-center gap-2 shadow-sm transition-all duration-300 active:scale-95 text-xs sm:text-sm"
                 >
                   <Calendar className="w-4 h-4 text-white" strokeWidth={2} />

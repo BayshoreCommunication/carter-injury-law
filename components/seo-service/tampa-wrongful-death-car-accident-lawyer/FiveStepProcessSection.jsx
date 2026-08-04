@@ -256,7 +256,7 @@ const FiveStepProcessSection = () => {
             </div>
             <div className="flex flex-col items-center gap-3 shrink-0">
               <button
-                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                onClick={() => window.location.href = '/contact'}
                 className="bg-secondary hover:bg-secondary/90 text-white font-extrabold text-sm px-7 py-4 rounded-lg flex items-center gap-2 shadow-md transition-all active:scale-95 uppercase tracking-wider border border-white/10"
               >
                 <Calendar className="w-5 h-5 text-white" strokeWidth={2} />

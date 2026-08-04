@@ -45,9 +45,9 @@ const FAQSection = () => {
               </div>
 
               <div>
-                <h3 className="text-xl md:text-2xl font-extrabold text-white leading-tight">
+                <p className="text-xl md:text-2xl font-extrabold text-white leading-tight">
                   Have More Questions?
-                </h3>
+                </p>
                 <p className="text-gray-300 text-xs sm:text-sm mt-2 leading-relaxed font-medium">
                   We are here to provide answers and help you navigate this complex process. Let us handle the legalities while you focus on healing.
                 </p>
@@ -73,7 +73,7 @@ const FAQSection = () => {
                 </a>
 
                 <button
-                  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                  onClick={() => window.location.href = '/contact'}
                   className="w-full bg-primary hover:bg-primary/95 text-white font-bold text-xs uppercase tracking-wider py-3.5 rounded-xl flex items-center justify-center gap-2 shadow-sm transition-all active:scale-95 border border-primary/20"
                 >
                   <Calendar className="w-4 h-4 text-white" strokeWidth={2} />
@@ -113,9 +113,9 @@ const FAQSection = () => {
                       onClick={() => toggle(idx)}
                       className="w-full text-left p-5 sm:p-6 flex justify-between items-center gap-4 focus:outline-none"
                     >
-                      <span className="text-secondary font-extrabold text-sm sm:text-base leading-snug">
+                      <h3 className="text-secondary font-extrabold text-sm sm:text-base leading-snug">
                         {faq.question}
-                      </span>
+                      </h3>
                       <span className="shrink-0 text-secondary">
                         {isOpen ? (
                           <ChevronUp className="w-5 h-5 text-primary" strokeWidth={2.5} />

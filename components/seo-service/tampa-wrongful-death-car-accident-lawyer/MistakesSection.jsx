@@ -96,7 +96,7 @@ const MistakesSection = () => {
                     <X className="w-3.5 h-3.5 text-primary" strokeWidth={3} />
                   </div>
                   <div>
-                    <p className="font-extrabold text-secondary text-sm md:text-[15px] mb-1">{item.title}</p>
+                    <h4 className="font-extrabold text-secondary text-sm md:text-[15px] mb-1">{item.title}</h4>
                     <p className="text-gray-500 text-sm leading-relaxed font-medium">{item.body}</p>
                   </div>
                 </li>
@@ -138,7 +138,7 @@ const MistakesSection = () => {
                     <X className="w-3.5 h-3.5 text-primary" strokeWidth={3} />
                   </div>
                   <div>
-                    <p className="font-extrabold text-secondary text-sm md:text-[15px] mb-1">{item.title}</p>
+                    <h4 className="font-extrabold text-secondary text-sm md:text-[15px] mb-1">{item.title}</h4>
                     <p className="text-gray-500 text-sm leading-relaxed font-medium">{item.body}</p>
                   </div>
                 </li>
@@ -178,7 +178,7 @@ const MistakesSection = () => {
 
             {/* Right: CTA Button */}
             <button
-              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              onClick={() => window.location.href = '/contact'}
               className="bg-primary hover:bg-primary/95 text-white font-extrabold text-sm px-7 py-4 rounded-lg flex items-center gap-2 shadow-md transition-all active:scale-95 uppercase tracking-wider shrink-0 border border-primary/30"
             >
               <Scale className="w-5 h-5 text-white" strokeWidth={2} />
