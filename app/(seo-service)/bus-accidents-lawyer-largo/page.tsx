@@ -39,7 +39,7 @@ export const metadata = {
 
 export default function LargoBusAccidentPage() {
   return (
-    <main className="w-full">
+    <main className="w-full ">
       <HeroHeader />
       <CommonCausesSection />
       <WhyRightLawyerSection />

@@ -99,7 +99,7 @@ const FreeEvaluationCard = ({ className = "" }) => {
         <div className="flex-1 flex flex-col justify-between space-y-4 lg:max-w-[42%]">
           <div className="space-y-3">
             <div className="flex items-start gap-3">
-              <h3
+              <h2
                 className="text-xl md:text-[27px] font-extrabold text-secondary leading-tight pt-1"
               >
                 Schedule Your Free, Confidential <br />
