@@ -290,7 +290,7 @@ export default function WeatherRelatedCarAccidentsInFloridaAndWhoMayBeLiable() {
 
       <blockquote className="my-6 border-l-4 border-[#EC1D21] bg-[#F9FAFB] !p-6 italic text-gray-600 shadow-sm">
         <p className="!mb-4 text-lg leading-7">
-          “Rain does not cause a crash on its own. A driver's failure to slow down
+          “Rain does not cause a crash on its own. A driver&apos;s failure to slow down
           does. We build every weather case around that one fact.”
         </p>
         <cite className="block text-sm font-bold text-[#1B2639] not-italic">
@@ -307,7 +307,7 @@ export default function WeatherRelatedCarAccidentsInFloridaAndWhoMayBeLiable() {
         ride over standing water. Bald tires and high speed both make it far worse.
       </p>
       <p className="text-justify">
-        Wet roads can cut tire traction nearly in half. Florida's basic speed law
+        Wet roads can cut tire traction nearly in half. Florida&apos;s basic speed law
         still applies during heavy rain. Tire tread depth often becomes key
         evidence in a dispute. Worn tires grip the road far less in rain. That one
         detail has shifted fault in many cases.
@@ -377,7 +377,7 @@ export default function WeatherRelatedCarAccidentsInFloridaAndWhoMayBeLiable() {
       </SectionTitle>
       <p className="text-justify">
         Yes. Florida law requires you to slow down for any hazard. That includes
-        rain, fog, and standing water on roads. Florida's basic speed law sets a
+        rain, fog, and standing water on roads. Florida&apos;s basic speed law sets a
         prudent and reasonable standard. A posted speed limit is a ceiling, not a
         default. Headlights are also required when rain or fog cuts visibility.
       </p>
@@ -419,7 +419,7 @@ export default function WeatherRelatedCarAccidentsInFloridaAndWhoMayBeLiable() {
       </div>
 
       <SectionTitle number="5">
-        How Does Florida's Negligence Law Affect Your Weather Crash Claim?
+        How Does Florida&apos;s Negligence Law Affect Your Weather Crash Claim?
       </SectionTitle>
       <p className="text-justify">
         Florida uses modified comparative negligence under{" "}
