@@ -19,7 +19,7 @@ import FAQSection from "@/components/seo-service/bus-accidents-lawyers-tampa/FAQ
 export const metadata = {
   title: "Tampa Bus Accident Lawyer | Commercial Transit Injury Claims",
   description:
-    "Injured in a bus crash? An experienced Tampa bus accident lawyer at Carter Injury Law holds negligent transit authorities and companies accountable. Free evaluation.",
+    "Injured in a bus crash? An experienced Tampa bus accident lawyer at Carter Injury Law holds negligent transit authorities and companies accountable.",
   robots: {
     index: true,
     follow: true,
