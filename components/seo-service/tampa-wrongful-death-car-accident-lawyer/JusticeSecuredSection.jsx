@@ -15,7 +15,7 @@ const JusticeSecuredSection = () => {
           {/* ── Background image — right 60% of the card ── */}
           <div className="absolute inset-y-0 right-0 w-full lg:w-[58%]">
             <Image
-              src={getSeoImage("justice-family.png", "tampa-wrongful-death-car-accident-lawyer").filePath} alt={getSeoImage("justice-family.png", "tampa-wrongful-death-car-accident-lawyer").altText} title={getSeoImage("justice-family.png", "tampa-wrongful-death-car-accident-lawyer").title}
+              src={getSeoImage("Justice Secured for Tampa Families Wrongful Death Claims.webp", "tampa-wrongful-death-car-accident-lawyer").filePath} alt={getSeoImage("Justice Secured for Tampa Families Wrongful Death Claims.webp", "tampa-wrongful-death-car-accident-lawyer").altText} title={getSeoImage("Justice Secured for Tampa Families Wrongful Death Claims.webp", "tampa-wrongful-death-car-accident-lawyer").title}
               fill
               sizes="(max-width: 1024px) 100vw, 58vw"
               className="object-cover object-center"

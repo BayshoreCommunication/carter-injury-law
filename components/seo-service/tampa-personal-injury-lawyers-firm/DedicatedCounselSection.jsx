@@ -49,7 +49,7 @@ const DedicatedCounselSection = () => {
             className="relative w-full h-[380px] lg:h-auto"
           >
             <Image
-              src={getSeoImage("dedicated-counsel.png", "tampa-personal-injury-lawyers-firm").filePath} alt={getSeoImage("dedicated-counsel.png", "tampa-personal-injury-lawyers-firm").altText} title={getSeoImage("dedicated-counsel.png", "tampa-personal-injury-lawyers-firm").title}
+              src={getSeoImage("Dedicated Legal Counsel for Injured Victims Tampa Bay.webp", "tampa-personal-injury-lawyers-firm").filePath} alt={getSeoImage("Dedicated Legal Counsel for Injured Victims Tampa Bay.webp", "tampa-personal-injury-lawyers-firm").altText} title={getSeoImage("Dedicated Legal Counsel for Injured Victims Tampa Bay.webp", "tampa-personal-injury-lawyers-firm").title}
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover object-center"
