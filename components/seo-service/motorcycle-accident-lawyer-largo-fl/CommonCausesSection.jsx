@@ -40,19 +40,19 @@ const CommonCausesSection = () => {
     {
       number: "04",
       title: "Speeding and Aggressive Driving Behavior",
-      image: getSeoImage("distraction.png", "motorcycle-accident-lawyer-largo-fl").filePath,
+      image: getSeoImage("traffic-congestion.png", "motorcycle-accident-lawyer-largo-fl").filePath,
       description: "Speeding reduces a driver's ability to react when a motorcycle merges or changes lanes nearby daily. Aggressive habits like tailgating and weaving through traffic put riders at serious risk on roads. When speed is a factor the force of impact leads to life altering injuries for victims. We fight to hold these aggressive drivers accountable for their reckless behavior on our local roads.",
     },
     {
       number: "05",
       title: "Hazardous Road Conditions That Endanger Riders",
-      image: getSeoImage("impaired.png", "motorcycle-accident-lawyer-largo-fl").filePath,
+      image: getSeoImage("driver-fatigue.png", "motorcycle-accident-lawyer-largo-fl").filePath,
       description: "Potholes and uneven pavement create hazards that affect motorcyclists more severely than they affect other drivers. A road defect that a car barely notices can throw a rider off balance very instantly. Local governments and contractors may share liability when unsafe road conditions cause an accident for you. We identify these road hazards to prove negligence in your specific injury case for damages.",
     },
     {
       number: "06",
       title: "Impaired Drivers Causing Serious Motorcycle Crashes",
-      image: getSeoImage("weather.png", "motorcycle-accident-lawyer-largo-fl").filePath,
+      image: getSeoImage("negligent-motorists.png", "motorcycle-accident-lawyer-largo-fl").filePath,
       description: "Alcohol and drug impairment slow reaction times and cloud driver judgment behind the wheel of cars. Impaired drivers often fail to see motorcycles until a collision becomes completely unavoidable for the rider. These crashes produce severe injuries and may also support a claim for punitive damages in court. We gather evidence of impairment to ensure your claim reflects the driver's negligence for you.",
     },
   ];

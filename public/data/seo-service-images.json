@@ -156,7 +156,7 @@
       "serviceName": "Bus Accidents Lawyers Tampa",
       "location": "Tampa, FL",
       "topic": "Bus Accidents",
-      "totalImages": 14,
+      "totalImages": 15,
       "images": [
         {
           "id": "carter-attorney",
@@ -180,13 +180,13 @@
         },
         {
           "id": "dedicated-counsel",
-          "fileName": "dedicated-counsel.png",
+          "fileName": "legal-counsel-tampa-bus-accident-victims-florida.webp",
           "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
-          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/dedicated-counsel.png",
-          "altText": "Dedicated Bus Accidents Legal Counsel Consultation in Tampa, FL",
-          "title": "Dedicated Bus Accidents Legal Counsel",
-          "description": "Carter Injury Law attorney offering compassionate consultation for bus accidents victims in Tampa, FL.",
-          "caption": "Compassionate legal representation for Tampa, FL clients."
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/legal-counsel-tampa-bus-accident-victims-florida.webp",
+          "altText": "Attorney meeting with clients in a law office to discuss a potential bus accident claim.",
+          "title": "Legal Counsel for Tampa Bus Accident Victims in Florida",
+          "description": "An attorney meets with clients in a law office, representing legal counsel for Tampa bus accident victims seeking guidance, protection of their rights, and compensation after an injury.",
+          "caption": "Experienced legal counsel can help Tampa bus accident victims pursue compensation."
         },
         {
           "id": "carter-team-cta",
@@ -229,74 +229,84 @@
           "caption": "Fighting to secure financial peace of mind for surviving family members."
         },
         {
+          "id": "local-representation",
+          "fileName": "local-representation-strong-community-ties-tampa.webp",
+          "component": "WhyChooseUsSection",
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/local-representation-strong-community-ties-tampa.webp",
+          "altText": "Attorney meeting with a client in a Tampa law office for personalized legal guidance.",
+          "title": "Local Representation With Strong Community Ties in Tampa",
+          "description": "An attorney discusses legal documents with a client in a professional office, illustrating the value of local representation, personal attention, and strong community ties for injured Tampa residents.",
+          "caption": "Local legal representation provides personalized guidance when it matters most."
+        },
+        {
           "id": "review",
-          "fileName": "review.png",
+          "fileName": "tampa-bus-accident-victims-compensation-legal-help.webp",
           "component": "WhyRightLawyerSection",
-          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/review.png",
-          "altText": "5-Star Client Review for Bus Accidents Lawyers Tampa",
-          "title": "5-Star Rated Bus Accidents Lawyer in Tampa, FL",
-          "description": "Top-rated review badge for Bus Accidents Lawyers Tampa serving Tampa, FL.",
-          "caption": "Trusted by clients across Tampa, FL."
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/tampa-bus-accident-victims-compensation-legal-help.webp",
+          "altText": "Attorney advising an injured client about legal documents and compensation after a bus accident.",
+          "title": "Why Tampa Bus Accident Victims May Lose Compensation",
+          "description": "An attorney reviews legal documents with a client, illustrating why injured Tampa bus accident victims may risk losing compensation when claims are not properly investigated, documented, and pursued.",
+          "caption": "Legal representation can help protect a bus accident victim's right to compensation."
         },
         {
           "id": "distraction",
-          "fileName": "distraction.png",
+          "fileName": "distracted-fatigued-bus-drivers-tampa-accidents.webp",
           "component": "CommonCausesSection (Cause 01)",
-          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/distraction.png",
-          "altText": "Distracted Driving Cause of Bus Accidents in Tampa, FL",
-          "title": "Distracted Driving Hazards",
-          "description": "Driver distracted by mobile device leading to severe collision in Tampa, FL.",
-          "caption": "Distracted driving remains a leading cause of severe traffic crashes."
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/distracted-fatigued-bus-drivers-tampa-accidents.webp",
+          "altText": "Distracted or fatigued bus driver using a phone while driving through rainy Tampa traffic.",
+          "title": "Distracted or Fatigued Bus Drivers in Tampa Accidents",
+          "description": "This image shows a bus driver using a phone while driving through rainy traffic, illustrating the dangers of distracted or fatigued driving and the potential for serious bus accidents in Tampa.",
+          "caption": "Distraction and fatigue can put bus passengers and other motorists at serious risk."
         },
         {
           "id": "impaired",
-          "fileName": "impaired.png",
+          "fileName": "speeding-reckless-passenger-bus-operation-tampa.webp",
           "component": "CommonCausesSection (Cause 02)",
-          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/impaired.png",
-          "altText": "Impaired and Drunk Driving Related Bus Accidents in Tampa, FL",
-          "title": "Impaired Driving Collision Cause",
-          "description": "Drunk and drug-impaired driving hazards on Tampa, FL roadways.",
-          "caption": "Impaired drivers are held fully liable under Florida law."
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/speeding-reckless-passenger-bus-operation-tampa.webp",
+          "altText": "Passenger bus traveling dangerously fast on a wet Tampa highway during heavy traffic.",
+          "title": "Speeding and Reckless Passenger Bus Operation Risks",
+          "description": "A passenger bus travels through heavy traffic on a wet highway, illustrating how speeding and reckless operation can increase the risk of crashes, injuries, and property damage.",
+          "caption": "Speeding and reckless bus operation can lead to devastating roadway crashes."
         },
         {
           "id": "weather",
-          "fileName": "weather.png",
+          "fileName": "poor-bus-maintenance-mechanical-failures-tampa.webp",
           "component": "CommonCausesSection (Cause 03)",
-          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/weather.png",
-          "altText": "Adverse Weather and Road Conditions Causing Bus Accidents in Tampa, FL",
-          "title": "Hazardous Weather Road Hazards",
-          "description": "Heavy rain and slippery road conditions resulting in catastrophic crashes in Tampa, FL.",
-          "caption": "Adverse weather requires increased driver caution and responsibility."
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/poor-bus-maintenance-mechanical-failures-tampa.webp",
+          "altText": "Mechanic inspecting a bus wheel and brake system for maintenance and mechanical problems.",
+          "title": "Poor Bus Maintenance and Mechanical Failures in Tampa",
+          "description": "A mechanic works on a bus wheel and brake assembly, highlighting how poor maintenance, worn components, and mechanical failures can create serious safety hazards for passengers and other road users.",
+          "caption": "Proper bus maintenance is essential for preventing mechanical failures and crashes."
         },
         {
           "id": "traffic-congestion",
-          "fileName": "traffic-congestion.png",
+          "fileName": "unsafe-lane-changes-blind-spot-bus-collisions.webp",
           "component": "CommonCausesSection (Cause 04)",
-          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/traffic-congestion.png",
-          "altText": "Traffic Congestion Along Major Roadways Causing Bus Accidents in Tampa, FL",
-          "title": "Traffic Congestion Road Hazards",
-          "description": "Heavy traffic congestion and rapid stop-and-go conditions along major corridors in Tampa, FL.",
-          "caption": "Dense traffic requires increased driver vigilance to prevent collisions."
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/unsafe-lane-changes-blind-spot-bus-collisions.webp",
+          "altText": "Car traveling beside a bus on a busy highway, showing the danger of blind spot collisions.",
+          "title": "Unsafe Lane Changes and Blind Spot Bus Collisions in Tampa",
+          "description": "A passenger car travels beside a large bus in heavy traffic, illustrating the risks of unsafe lane changes, limited visibility, and blind spot collisions involving commercial buses.",
+          "caption": "Unsafe lane changes and bus blind spots can cause serious collisions."
         },
         {
           "id": "driver-fatigue",
-          "fileName": "driver-fatigue.png",
+          "fileName": "dangerous-intersections-heavy-tampa-traffic-risks.webp",
           "component": "CommonCausesSection (Cause 05)",
-          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/driver-fatigue.png",
-          "altText": "Driver Fatigue and Exhaustion During Long Shifts in Tampa, FL",
-          "title": "Commercial Driver Fatigue Hazards",
-          "description": "Long shifts and fatigue degrading driver reaction times on Tampa, FL highways.",
-          "caption": "Operator fatigue poses severe risks to passengers and motorists."
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/dangerous-intersections-heavy-tampa-traffic-risks.webp",
+          "altText": "City bus navigating a crowded Tampa intersection surrounded by heavy traffic and vehicles.",
+          "title": "Dangerous Intersections and Heavy Tampa Traffic Risks",
+          "description": "A city bus moves through a congested intersection surrounded by vehicles, highlighting how heavy Tampa traffic and dangerous intersections can increase the risk of bus-related collisions.",
+          "caption": "Heavy traffic and dangerous intersections can increase bus accident risks."
         },
         {
           "id": "negligent-motorists",
-          "fileName": "negligent-motorists.png",
+          "fileName": "negligent-school-transit-charter-bus-operations.webp",
           "component": "CommonCausesSection (Cause 06)",
-          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/negligent-motorists.png",
-          "altText": "Negligent Actions by Surrounding Motorists in Tampa, FL Bus Accidents",
-          "title": "Third-Party Motorist Negligence",
-          "description": "Reckless third-party drivers triggering severe crashes involving transit vehicles in Tampa, FL.",
-          "caption": "All negligent third-party drivers face full legal liability."
+          "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/negligent-school-transit-charter-bus-operations.webp",
+          "altText": "Emergency responders inspect a damaged transit bus after a serious roadway collision.",
+          "title": "Negligent School, Transit, and Charter Bus Operations",
+          "description": "Emergency responders assess a damaged transit bus after a collision, representing the serious consequences of negligent operation involving school buses, transit buses, and charter buses.",
+          "caption": "Negligent bus operations can cause serious injuries and life-changing consequences."
         }
       ]
     },
@@ -305,7 +315,7 @@
       "serviceName": "Largo Wrongful Death Lawyer",
       "location": "Largo, FL",
       "topic": "Wrongful Death",
-      "totalImages": 14,
+      "totalImages": 15,
       "images": [
         {
           "id": "carter-attorney",
@@ -329,13 +339,13 @@
         },
         {
           "id": "dedicated-counsel",
-          "fileName": "dedicated-counsel.png",
+          "fileName": "dedicated-legal-counsel-largo-wrongful-death.webp",
           "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
-          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/dedicated-counsel.png",
-          "altText": "Dedicated Wrongful Death Legal Counsel Consultation in Largo, FL",
-          "title": "Dedicated Wrongful Death Legal Counsel",
-          "description": "Carter Injury Law attorney offering compassionate consultation for wrongful death victims in Largo, FL.",
-          "caption": "Compassionate legal representation for Largo, FL clients."
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/dedicated-legal-counsel-largo-wrongful-death.webp",
+          "altText": "Largo wrongful death attorney meeting with a family in a professional law office",
+          "title": "Dedicated Legal Counsel for Largo Wrongful Death Claims",
+          "description": "An attorney meets with family members in a professional law office, providing legal guidance and discussing options following a wrongful death claim after a fatal accident.",
+          "caption": "Experienced legal counsel can help families navigate wrongful death claims."
         },
         {
           "id": "carter-team-cta",
@@ -378,74 +388,84 @@
           "caption": "Fighting to secure financial peace of mind for surviving family members."
         },
         {
+          "id": "local-representation",
+          "fileName": "local-legal-representation-largo-community-ties.webp",
+          "component": "WhyChooseUsSection",
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/local-legal-representation-largo-community-ties.webp",
+          "altText": "Largo attorney providing personalized legal guidance to clients during a consultation",
+          "title": "Local Legal Representation With Strong Community Ties",
+          "description": "A Largo attorney discusses a legal matter with clients in a private office, emphasizing personalized representation and strong connections to the local community.",
+          "caption": "Local representation provides personalized support when families need it most."
+        },
+        {
           "id": "review",
-          "fileName": "review.png",
+          "fileName": "largo-wrongful-death-claims-legal-representation.webp",
           "component": "WhyRightLawyerSection",
-          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/review.png",
-          "altText": "5-Star Client Review for Largo Wrongful Death Lawyer",
-          "title": "5-Star Rated Wrongful Death Lawyer in Largo, FL",
-          "description": "Top-rated review badge for Largo Wrongful Death Lawyer serving Largo, FL.",
-          "caption": "Trusted by clients across Largo, FL."
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/largo-wrongful-death-claims-legal-representation.webp",
+          "altText": "Attorney explaining legal documents to grieving clients after a fatal accident in Largo",
+          "title": "Why Largo Families Need Legal Representation After Fatal Accidents",
+          "description": "An attorney reviews important documents with a distressed couple, illustrating how legal representation can help grieving Largo families pursue justice after a fatal accident.",
+          "caption": "Legal guidance can help grieving families pursue justice after a fatal accident."
+        },
+        {
+          "id": "expert-analysis",
+          "fileName": "expert-analysis-wrongful-death-damage-claims.webp",
+          "component": "ExpertValuationSection",
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/expert-analysis-wrongful-death-damage-claims.webp",
+          "altText": "Attorney reviewing documents with clients to support a wrongful death damage claim",
+          "title": "Supporting Every Damage Claim With Expert Analysis",
+          "description": "An attorney carefully reviews legal documents with clients during a consultation, demonstrating the detailed analysis used to support damages in a wrongful death claim.",
+          "caption": "Detailed evidence and expert analysis can strengthen a damage claim."
         },
         {
           "id": "distraction",
-          "fileName": "distraction.png",
+          "fileName": "high-risk-intersections-largo-florida-accidents.webp",
           "component": "CommonCausesSection (Cause 01)",
-          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/distraction.png",
-          "altText": "Distracted Driving Cause of Wrongful Death in Largo, FL",
-          "title": "Distracted Driving Hazards",
-          "description": "Driver distracted by mobile device leading to severe collision in Largo, FL.",
-          "caption": "Distracted driving remains a leading cause of severe traffic crashes."
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/high-risk-intersections-largo-florida-accidents.webp",
+          "altText": "High-risk Largo intersections with traffic signals and vehicles involved in a serious collision",
+          "title": "High-Risk Intersections and Traffic Accidents in Largo",
+          "description": "A serious vehicle collision at a busy Largo, Florida intersection with damaged cars, emergency responders, police officers, and traffic surrounding the accident scene.",
+          "caption": "Busy Largo intersections can become dangerous when serious traffic accidents occur."
         },
         {
           "id": "impaired",
-          "fileName": "impaired.png",
+          "fileName": "negligent-drivers-pinellas-county-road-accidents.webp",
           "component": "CommonCausesSection (Cause 02)",
-          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/impaired.png",
-          "altText": "Impaired and Drunk Driving Related Wrongful Death in Largo, FL",
-          "title": "Impaired Driving Collision Cause",
-          "description": "Drunk and drug-impaired driving hazards on Largo, FL roadways.",
-          "caption": "Impaired drivers are held fully liable under Florida law."
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/negligent-drivers-pinellas-county-road-accidents.webp",
+          "altText": "Distracted driver using a smartphone while driving on a busy Pinellas County road",
+          "title": "Negligent Drivers on Busy Pinellas County Roads",
+          "description": "A distracted driver looks at a smartphone while operating a vehicle in heavy traffic, illustrating the dangers of negligent and distracted driving on busy Pinellas County roads.",
+          "caption": "Distracted driving can create serious risks for everyone on busy roads."
         },
         {
           "id": "weather",
-          "fileName": "weather.png",
+          "fileName": "commercial-vehicle-delivery-fleet-collisions-largo.webp",
           "component": "CommonCausesSection (Cause 03)",
-          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/weather.png",
-          "altText": "Adverse Weather and Road Conditions Causing Wrongful Death in Largo, FL",
-          "title": "Hazardous Weather Road Hazards",
-          "description": "Heavy rain and slippery road conditions resulting in catastrophic crashes in Largo, FL.",
-          "caption": "Adverse weather requires increased driver caution and responsibility."
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/commercial-vehicle-delivery-fleet-collisions-largo.webp",
+          "altText": "Damaged commercial truck after a collision on a busy Largo Florida roadway",
+          "title": "Commercial Vehicle and Delivery Fleet Collisions in Largo",
+          "description": "A damaged commercial delivery truck sits at a roadway crash scene after a collision, highlighting the serious risks associated with commercial vehicles and delivery fleets.",
+          "caption": "Commercial vehicle crashes can result in severe injuries and property damage."
         },
         {
           "id": "traffic-congestion",
-          "fileName": "traffic-congestion.png",
+          "fileName": "dangerous-roadway-defects-infrastructure-failures-largo.webp",
           "component": "CommonCausesSection (Cause 04)",
-          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/traffic-congestion.png",
-          "altText": "Traffic Congestion Along Major Roadways Causing Wrongful Death in Largo, FL",
-          "title": "Traffic Congestion Road Hazards",
-          "description": "Heavy traffic congestion and rapid stop-and-go conditions along major corridors in Largo, FL.",
-          "caption": "Dense traffic requires increased driver vigilance to prevent collisions."
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/dangerous-roadway-defects-infrastructure-failures-largo.webp",
+          "altText": "Large pothole and damaged roadway creating dangerous driving conditions in Largo",
+          "title": "Dangerous Roadway Defects and Infrastructure Failures",
+          "description": "A large pothole and deteriorated pavement appear on a busy Largo roadway, illustrating how dangerous road defects and infrastructure problems can contribute to serious accidents.",
+          "caption": "Unsafe road conditions can contribute to preventable vehicle accidents."
         },
         {
           "id": "driver-fatigue",
-          "fileName": "driver-fatigue.png",
+          "fileName": "fatal-bicycle-pedestrian-accidents-largo-florida.webp",
           "component": "CommonCausesSection (Cause 05)",
-          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/driver-fatigue.png",
-          "altText": "Driver Fatigue and Exhaustion During Long Shifts in Largo, FL",
-          "title": "Commercial Driver Fatigue Hazards",
-          "description": "Long shifts and fatigue degrading driver reaction times on Largo, FL highways.",
-          "caption": "Operator fatigue poses severe risks to passengers and motorists."
-        },
-        {
-          "id": "negligent-motorists",
-          "fileName": "negligent-motorists.png",
-          "component": "CommonCausesSection (Cause 06)",
-          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/negligent-motorists.png",
-          "altText": "Negligent Actions by Surrounding Motorists in Largo, FL Wrongful Death",
-          "title": "Third-Party Motorist Negligence",
-          "description": "Reckless third-party drivers triggering severe crashes involving transit vehicles in Largo, FL.",
-          "caption": "All negligent third-party drivers face full legal liability."
+          "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/fatal-bicycle-pedestrian-accidents-largo-florida.webp",
+          "altText": "Damaged bicycle at a Largo intersection after a serious pedestrian traffic accident",
+          "title": "Fatal Bicycle and Pedestrian Accidents in Largo, Florida",
+          "description": "A damaged bicycle lies near a vehicle at a Largo intersection while police investigate the crash, highlighting the devastating consequences of bicycle and pedestrian accidents.",
+          "caption": "Bicycle and pedestrian crashes can have devastating consequences for families."
         }
       ]
     },

@@ -49,7 +49,7 @@ const DedicatedCounselSection = () => {
             className="relative w-full h-[380px] lg:h-auto"
           >
             <Image
-              src={getSeoImage("dedicated-counsel.png", "largo-wrongful-death-lawyer").filePath} alt={getSeoImage("dedicated-counsel.png", "largo-wrongful-death-lawyer").altText} title={getSeoImage("dedicated-counsel.png", "largo-wrongful-death-lawyer").title}
+              src={getSeoImage("dedicated-legal-counsel-largo-wrongful-death.webp", "largo-wrongful-death-lawyer").filePath} alt={getSeoImage("dedicated-legal-counsel-largo-wrongful-death.webp", "largo-wrongful-death-lawyer").altText} title={getSeoImage("dedicated-legal-counsel-largo-wrongful-death.webp", "largo-wrongful-death-lawyer").title}
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover object-center"

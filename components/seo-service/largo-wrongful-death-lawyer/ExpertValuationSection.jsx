@@ -23,7 +23,7 @@ const ExpertValuationSection = () => {
               className="relative w-full h-[85%] rounded-[24px] overflow-hidden shadow-xl border border-gray-100"
             >
               <Image
-                src={getSeoImage("dedicated-counsel.png", "largo-wrongful-death-lawyer").filePath} alt={getSeoImage("dedicated-counsel.png", "largo-wrongful-death-lawyer").altText} title={getSeoImage("dedicated-counsel.png", "largo-wrongful-death-lawyer").title}
+                src={getSeoImage("expert-analysis-wrongful-death-damage-claims.webp", "largo-wrongful-death-lawyer").filePath} alt={getSeoImage("expert-analysis-wrongful-death-damage-claims.webp", "largo-wrongful-death-lawyer").altText} title={getSeoImage("expert-analysis-wrongful-death-damage-claims.webp", "largo-wrongful-death-lawyer").title}
                 fill
                 sizes="(max-width: 1024px) 100vw, 45vw"
                 className="object-cover"

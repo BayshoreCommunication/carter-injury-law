@@ -51,7 +51,7 @@ const WhyRightLawyerSection = () => {
         {/* Bottom Image Panel */}
         <div className="mt-12 relative w-full h-[280px] md:h-[340px] rounded-2xl overflow-hidden shadow-2xl border border-gray-200/50">
           <Image
-            src={getSeoImage("review.png", "largo-wrongful-death-lawyer").filePath} alt={getSeoImage("review.png", "largo-wrongful-death-lawyer").altText} title={getSeoImage("review.png", "largo-wrongful-death-lawyer").title}
+            src={getSeoImage("largo-wrongful-death-claims-legal-representation.webp", "largo-wrongful-death-lawyer").filePath} alt={getSeoImage("largo-wrongful-death-claims-legal-representation.webp", "largo-wrongful-death-lawyer").altText} title={getSeoImage("largo-wrongful-death-claims-legal-representation.webp", "largo-wrongful-death-lawyer").title}
             fill
             sizes="(max-width: 1024px) 100vw, 40vw"
             className="object-cover"

@@ -3,7 +3,7 @@
   "serviceName": "Largo Wrongful Death Lawyer",
   "location": "Largo, FL",
   "topic": "Wrongful Death",
-  "totalImages": 14,
+  "totalImages": 15,
   "images": [
     {
       "id": "carter-attorney",
@@ -27,13 +27,13 @@
     },
     {
       "id": "dedicated-counsel",
-      "fileName": "dedicated-counsel.png",
+      "fileName": "dedicated-legal-counsel-largo-wrongful-death.webp",
       "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
-      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/dedicated-counsel.png",
-      "altText": "Dedicated Wrongful Death Legal Counsel Consultation in Largo, FL",
-      "title": "Dedicated Wrongful Death Legal Counsel",
-      "description": "Carter Injury Law attorney offering compassionate consultation for wrongful death victims in Largo, FL.",
-      "caption": "Compassionate legal representation for Largo, FL clients."
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/dedicated-legal-counsel-largo-wrongful-death.webp",
+      "altText": "Largo wrongful death attorney meeting with a family in a professional law office",
+      "title": "Dedicated Legal Counsel for Largo Wrongful Death Claims",
+      "description": "An attorney meets with family members in a professional law office, providing legal guidance and discussing options following a wrongful death claim after a fatal accident.",
+      "caption": "Experienced legal counsel can help families navigate wrongful death claims."
     },
     {
       "id": "carter-team-cta",
@@ -76,74 +76,84 @@
       "caption": "Fighting to secure financial peace of mind for surviving family members."
     },
     {
+      "id": "local-representation",
+      "fileName": "local-legal-representation-largo-community-ties.webp",
+      "component": "WhyChooseUsSection",
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/local-legal-representation-largo-community-ties.webp",
+      "altText": "Largo attorney providing personalized legal guidance to clients during a consultation",
+      "title": "Local Legal Representation With Strong Community Ties",
+      "description": "A Largo attorney discusses a legal matter with clients in a private office, emphasizing personalized representation and strong connections to the local community.",
+      "caption": "Local representation provides personalized support when families need it most."
+    },
+    {
       "id": "review",
-      "fileName": "review.png",
+      "fileName": "largo-wrongful-death-claims-legal-representation.webp",
       "component": "WhyRightLawyerSection",
-      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/review.png",
-      "altText": "5-Star Client Review for Largo Wrongful Death Lawyer",
-      "title": "5-Star Rated Wrongful Death Lawyer in Largo, FL",
-      "description": "Top-rated review badge for Largo Wrongful Death Lawyer serving Largo, FL.",
-      "caption": "Trusted by clients across Largo, FL."
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/largo-wrongful-death-claims-legal-representation.webp",
+      "altText": "Attorney explaining legal documents to grieving clients after a fatal accident in Largo",
+      "title": "Why Largo Families Need Legal Representation After Fatal Accidents",
+      "description": "An attorney reviews important documents with a distressed couple, illustrating how legal representation can help grieving Largo families pursue justice after a fatal accident.",
+      "caption": "Legal guidance can help grieving families pursue justice after a fatal accident."
+    },
+    {
+      "id": "expert-analysis",
+      "fileName": "expert-analysis-wrongful-death-damage-claims.webp",
+      "component": "ExpertValuationSection",
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/expert-analysis-wrongful-death-damage-claims.webp",
+      "altText": "Attorney reviewing documents with clients to support a wrongful death damage claim",
+      "title": "Supporting Every Damage Claim With Expert Analysis",
+      "description": "An attorney carefully reviews legal documents with clients during a consultation, demonstrating the detailed analysis used to support damages in a wrongful death claim.",
+      "caption": "Detailed evidence and expert analysis can strengthen a damage claim."
     },
     {
       "id": "distraction",
-      "fileName": "distraction.png",
+      "fileName": "high-risk-intersections-largo-florida-accidents.webp",
       "component": "CommonCausesSection (Cause 01)",
-      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/distraction.png",
-      "altText": "Distracted Driving Cause of Wrongful Death in Largo, FL",
-      "title": "Distracted Driving Hazards",
-      "description": "Driver distracted by mobile device leading to severe collision in Largo, FL.",
-      "caption": "Distracted driving remains a leading cause of severe traffic crashes."
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/high-risk-intersections-largo-florida-accidents.webp",
+      "altText": "High-risk Largo intersections with traffic signals and vehicles involved in a serious collision",
+      "title": "High-Risk Intersections and Traffic Accidents in Largo",
+      "description": "A serious vehicle collision at a busy Largo, Florida intersection with damaged cars, emergency responders, police officers, and traffic surrounding the accident scene.",
+      "caption": "Busy Largo intersections can become dangerous when serious traffic accidents occur."
     },
     {
       "id": "impaired",
-      "fileName": "impaired.png",
+      "fileName": "negligent-drivers-pinellas-county-road-accidents.webp",
       "component": "CommonCausesSection (Cause 02)",
-      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/impaired.png",
-      "altText": "Impaired and Drunk Driving Related Wrongful Death in Largo, FL",
-      "title": "Impaired Driving Collision Cause",
-      "description": "Drunk and drug-impaired driving hazards on Largo, FL roadways.",
-      "caption": "Impaired drivers are held fully liable under Florida law."
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/negligent-drivers-pinellas-county-road-accidents.webp",
+      "altText": "Distracted driver using a smartphone while driving on a busy Pinellas County road",
+      "title": "Negligent Drivers on Busy Pinellas County Roads",
+      "description": "A distracted driver looks at a smartphone while operating a vehicle in heavy traffic, illustrating the dangers of negligent and distracted driving on busy Pinellas County roads.",
+      "caption": "Distracted driving can create serious risks for everyone on busy roads."
     },
     {
       "id": "weather",
-      "fileName": "weather.png",
+      "fileName": "commercial-vehicle-delivery-fleet-collisions-largo.webp",
       "component": "CommonCausesSection (Cause 03)",
-      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/weather.png",
-      "altText": "Adverse Weather and Road Conditions Causing Wrongful Death in Largo, FL",
-      "title": "Hazardous Weather Road Hazards",
-      "description": "Heavy rain and slippery road conditions resulting in catastrophic crashes in Largo, FL.",
-      "caption": "Adverse weather requires increased driver caution and responsibility."
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/commercial-vehicle-delivery-fleet-collisions-largo.webp",
+      "altText": "Damaged commercial truck after a collision on a busy Largo Florida roadway",
+      "title": "Commercial Vehicle and Delivery Fleet Collisions in Largo",
+      "description": "A damaged commercial delivery truck sits at a roadway crash scene after a collision, highlighting the serious risks associated with commercial vehicles and delivery fleets.",
+      "caption": "Commercial vehicle crashes can result in severe injuries and property damage."
     },
     {
       "id": "traffic-congestion",
-      "fileName": "traffic-congestion.png",
+      "fileName": "dangerous-roadway-defects-infrastructure-failures-largo.webp",
       "component": "CommonCausesSection (Cause 04)",
-      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/traffic-congestion.png",
-      "altText": "Traffic Congestion Along Major Roadways Causing Wrongful Death in Largo, FL",
-      "title": "Traffic Congestion Road Hazards",
-      "description": "Heavy traffic congestion and rapid stop-and-go conditions along major corridors in Largo, FL.",
-      "caption": "Dense traffic requires increased driver vigilance to prevent collisions."
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/dangerous-roadway-defects-infrastructure-failures-largo.webp",
+      "altText": "Large pothole and damaged roadway creating dangerous driving conditions in Largo",
+      "title": "Dangerous Roadway Defects and Infrastructure Failures",
+      "description": "A large pothole and deteriorated pavement appear on a busy Largo roadway, illustrating how dangerous road defects and infrastructure problems can contribute to serious accidents.",
+      "caption": "Unsafe road conditions can contribute to preventable vehicle accidents."
     },
     {
       "id": "driver-fatigue",
-      "fileName": "driver-fatigue.png",
+      "fileName": "fatal-bicycle-pedestrian-accidents-largo-florida.webp",
       "component": "CommonCausesSection (Cause 05)",
-      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/driver-fatigue.png",
-      "altText": "Driver Fatigue and Exhaustion During Long Shifts in Largo, FL",
-      "title": "Commercial Driver Fatigue Hazards",
-      "description": "Long shifts and fatigue degrading driver reaction times on Largo, FL highways.",
-      "caption": "Operator fatigue poses severe risks to passengers and motorists."
-    },
-    {
-      "id": "negligent-motorists",
-      "fileName": "negligent-motorists.png",
-      "component": "CommonCausesSection (Cause 06)",
-      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/negligent-motorists.png",
-      "altText": "Negligent Actions by Surrounding Motorists in Largo, FL Wrongful Death",
-      "title": "Third-Party Motorist Negligence",
-      "description": "Reckless third-party drivers triggering severe crashes involving transit vehicles in Largo, FL.",
-      "caption": "All negligent third-party drivers face full legal liability."
+      "filePath": "/assets/seo-service/largo-wrongful-death-lawyer/fatal-bicycle-pedestrian-accidents-largo-florida.webp",
+      "altText": "Damaged bicycle at a Largo intersection after a serious pedestrian traffic accident",
+      "title": "Fatal Bicycle and Pedestrian Accidents in Largo, Florida",
+      "description": "A damaged bicycle lies near a vehicle at a Largo intersection while police investigate the crash, highlighting the devastating consequences of bicycle and pedestrian accidents.",
+      "caption": "Bicycle and pedestrian crashes can have devastating consequences for families."
     }
   ]
 }

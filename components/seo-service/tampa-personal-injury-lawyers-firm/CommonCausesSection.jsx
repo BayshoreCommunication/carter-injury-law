@@ -40,19 +40,19 @@ const CommonCausesSection = () => {
     {
       number: "04",
       title: "Unsafe Property Conditions",
-      image: getSeoImage("distraction.png", "tampa-personal-injury-lawyers-firm").filePath,
+      image: getSeoImage("traffic-congestion.png", "tampa-personal-injury-lawyers-firm").filePath,
       description: "Property owners in Tampa have a legal obligation to keep premises safe for every visitor daily. Wet floors and broken walkways or inadequate lighting lead to serious fall injuries for people. When an owner knows about a hazard and fails to act they bear legal responsibility.",
     },
     {
       number: "05",
       title: "Commercial Vehicle Negligence",
-      image: getSeoImage("impaired.png", "tampa-personal-injury-lawyers-firm").filePath,
+      image: getSeoImage("driver-fatigue.png", "tampa-personal-injury-lawyers-firm").filePath,
       description: "Delivery trucks and commercial fleet vehicles operate throughout Tampa in large numbers every single day now. When a driver violates traffic laws or operates an inadequately maintained vehicle they are liable. These cases involve corporate defendants with significant insurance coverage and experienced legal defense teams involved.",
     },
     {
       number: "06",
       title: "Defective Products and Equipment",
-      image: getSeoImage("weather.png", "tampa-personal-injury-lawyers-firm").filePath,
+      image: getSeoImage("negligent-motorists.png", "tampa-personal-injury-lawyers-firm").filePath,
       description: "Some accidents occur because a product failed rather than because of driver or property neglect today. Defective auto parts and dangerous medications can cause serious injuries that change your entire life. Product liability claims are brought against manufacturers when a design defect is responsible for harm.",
     },
   ];

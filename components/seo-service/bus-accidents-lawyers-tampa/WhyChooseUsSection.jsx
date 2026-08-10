@@ -69,7 +69,7 @@ const WhyChooseUsSection = () => {
           >
             <div className="absolute inset-0">
               <Image
-                src={getSeoImage("dedicated-counsel.png", "bus-accidents-lawyers-tampa").filePath} alt={getSeoImage("dedicated-counsel.png", "bus-accidents-lawyers-tampa").altText} title={getSeoImage("dedicated-counsel.png", "bus-accidents-lawyers-tampa").title}
+                src={getSeoImage("local-representation-strong-community-ties-tampa.webp", "bus-accidents-lawyers-tampa").filePath} alt={getSeoImage("local-representation-strong-community-ties-tampa.webp", "bus-accidents-lawyers-tampa").altText} title={getSeoImage("local-representation-strong-community-ties-tampa.webp", "bus-accidents-lawyers-tampa").title}
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover object-center group-hover:scale-105 transition-transform duration-500"

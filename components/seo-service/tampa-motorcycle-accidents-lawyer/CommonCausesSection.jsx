@@ -34,19 +34,19 @@ const CommonCausesSection = () => {
     {
       number: "03",
       title: "Heavy Traffic Congestion",
-      image: getSeoImage("weather.png", "tampa-motorcycle-accidents-lawyer").filePath,
+      image: getSeoImage("traffic-congestion.png", "tampa-motorcycle-accidents-lawyer").filePath,
       description: "The interstates, such as I 275 and I 4, are heavily traveled all day. Stopping and starting traffic can lead to rear end collisions and sudden unsafe driving around motorists. We evaluate your injury by looking at the traffic conditions surrounding your accident to identify specific hazards. Anger is the direct cause of many dangerous driving behaviors, especially during periods of congestion.When frustrated drivers are stuck in heavy traffic, they make poor choices that inevitably result in unsafe driving behavior.",
     },
     {
       number: "04",
       title: "Commercial Vehicle Negligence",
-      image: getSeoImage("distraction.png", "tampa-motorcycle-accidents-lawyer").filePath,
+      image: getSeoImage("driver-fatigue.png", "tampa-motorcycle-accidents-lawyer").filePath,
       description: "Delivery trucks and commercial vehicles may need to cut corners on safety requirements when they need to get it done in a hurry.When time is of the essence, delivery trucks and commercial vehicles can be somewhat lax about safety. This occurs during the practice of driving while fatigued, making wide turns, or an inadequate warning for motorcycles sharing the roadway. We actively seek out businesses who have made speed before people's safety on the road their top priority. One part of our investigation is to consider the driver's log book and company training documentation, to ascertain if any trends of poor behaviour are present. The driver and the parent company are held liable.",
     },
     {
       number: "05",
       title: "Construction Zone Hazards",
-      image: getSeoImage("impaired.png", "tampa-motorcycle-accidents-lawyer").filePath,
+      image: getSeoImage("negligent-motorists.png", "tampa-motorcycle-accidents-lawyer").filePath,
       description: "Construction in all areas of Tampa may result in patchy pavement, loose gravel, or lanes that are improperly marked, causing riders to lose their footing. This is particularly applicable in the nighttime or when you're in unfamiliar surroundings. We hold contractors and the government responsible for injuries that occur due to a failure of them to maintain a safe work zone. Our crew records the road hazards that have been identified at the scene prior to their removal. We then examine whether the correct warning signs were displayed or whether the construction design was a natural hazard to motorcyclists.",
     },
     {
