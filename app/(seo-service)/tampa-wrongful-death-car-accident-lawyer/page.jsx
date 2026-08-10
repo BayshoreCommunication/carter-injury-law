@@ -21,12 +21,12 @@ export const metadata = {
   description:
     "If you’ve lost a loved one in a fatal accident, a Tampa wrongful death car accident lawyer can help you pursue justice & financial compensation.",
     robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
+      index: true,
+      follow: true,
+      noimageindex: false,
     },
   },
   alternates: {

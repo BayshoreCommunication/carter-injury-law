@@ -23,12 +23,12 @@ export const metadata = {
   description:
     "Recover compensation after an accident with help from a Tampa personal injury lawyers firm. We handle injury claims with dedication and care.",
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
+      index: true,
+      follow: true,
+      noimageindex: false,
     },
   },
   alternates: {

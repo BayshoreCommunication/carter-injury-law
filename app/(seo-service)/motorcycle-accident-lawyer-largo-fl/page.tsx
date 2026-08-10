@@ -21,12 +21,12 @@ export const metadata = {
   description:
     "A motorcycle accident lawyer in Largo, FL helps injured riders pursue compensation for medical expenses, lost wages, and other accident-related losses.",
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
+      index: true,
+      follow: true,
+      noimageindex: false,
     },
   },
   alternates: {

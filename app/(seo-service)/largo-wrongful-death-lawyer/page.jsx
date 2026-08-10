@@ -21,12 +21,12 @@ export const metadata = {
   description:
     "A Largo wrongful death lawyer can help your family seek compensation and hold negligent parties accountable after the loss of a loved one.",
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
+      index: true,
+      follow: true,
+      noimageindex: false,
     },
   },
   alternates: {

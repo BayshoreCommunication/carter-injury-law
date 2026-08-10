@@ -21,12 +21,12 @@ export const metadata = {
   description:
     "Injured in a bus crash? An experienced Tampa bus accident lawyer at Carter Injury Law holds negligent transit authorities and companies accountable. Free evaluation.",
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
+      index: true,
+      follow: true,
+      noimageindex: false,
     },
   },
   alternates: {

@@ -21,12 +21,12 @@ export const metadata = {
   description:
     "Recover compensation after a motorcycle crash with help from a Tampa motorcycle accidents lawyer focused on protecting injured riders.",
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
+      index: true,
+      follow: true,
+      noimageindex: false,
     },
   },
   alternates: {
