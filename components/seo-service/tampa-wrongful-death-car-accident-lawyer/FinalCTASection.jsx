@@ -99,7 +99,7 @@ const FinalCTASection = () => {
         {/* ── Right: Photo ── */}
         <div className="relative hidden lg:block min-h-[480px]">
           <Image
-            src={getSeoImage("carter-team-cta.png", "tampa-wrongful-death-car-accident-lawyer").filePath} alt={getSeoImage("carter-team-cta.png", "tampa-wrongful-death-car-accident-lawyer").altText} title={getSeoImage("carter-team-cta.png", "tampa-wrongful-death-car-accident-lawyer").title}
+            src={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "tampa-wrongful-death-car-accident-lawyer").filePath} alt={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "tampa-wrongful-death-car-accident-lawyer").altText} title={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "tampa-wrongful-death-car-accident-lawyer").title}
             fill
             sizes="50vw"
             className="object-cover object-top"
@@ -133,7 +133,7 @@ const FinalCTASection = () => {
       {/* Mobile photo strip */}
       <div className="relative w-full h-64 lg:hidden">
         <Image
-          src={getSeoImage("carter-team-cta.png", "tampa-wrongful-death-car-accident-lawyer").filePath} alt={getSeoImage("carter-team-cta.png", "tampa-wrongful-death-car-accident-lawyer").altText} title={getSeoImage("carter-team-cta.png", "tampa-wrongful-death-car-accident-lawyer").title}
+          src={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "tampa-wrongful-death-car-accident-lawyer").filePath} alt={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "tampa-wrongful-death-car-accident-lawyer").altText} title={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "tampa-wrongful-death-car-accident-lawyer").title}
           fill
           className="object-cover object-top"
         />
