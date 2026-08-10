@@ -30,7 +30,7 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: "/tampa-bus-accident-lawyer",
+    canonical: "/bus-accidents-lawyers-tampa",
     languages: {
       "en-US": "/en-USA",
     },
