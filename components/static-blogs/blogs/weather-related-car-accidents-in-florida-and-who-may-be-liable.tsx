@@ -196,9 +196,136 @@ const DefenseVersusFails = ({
   </div>
 );
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.carterinjurylaw.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.carterinjurylaw.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Weather-Related Car Accidents in Florida and Who May Be Liable",
+          "item": "https://www.carterinjurylaw.com/blog/weather-related-car-accidents-in-florida-and-who-may-be-liable"
+        }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.carterinjurylaw.com/blog/weather-related-car-accidents-in-florida-and-who-may-be-liable"
+      },
+      "headline": "Weather-Related Car Accidents in Florida and Who May Be Liable",
+      "name": "Weather Car Accidents in FL and Who Is Liable",
+      "description": "Rain and storms cause many Tampa crashes. Learn who is liable for weather-related car accidents in Florida and how Carter Injury Law can help.",
+      "url": "https://www.carterinjurylaw.com/blog/weather-related-car-accidents-in-florida-and-who-may-be-liable",
+      "image": "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fstatic-blogs%2Fhow-crash-reconstruction-experts-prove-fault-florida.png&w=1200&q=75",
+      "isPartOf": {
+        "@type": "Blog",
+        "@id": "https://www.carterinjurylaw.com/blog"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Weather-Related Car Accidents in Florida",
+        "description": "An overview of weather-related car accidents in Florida, including rain, fog, flooding, hydroplaning, driver negligence, comparative fault, and evidence used to establish liability."
+      },
+      "keywords": [
+        "weather-related car accidents in Florida",
+        "weather car accidents Florida",
+        "Florida weather accident lawyer",
+        "rain car accidents Florida",
+        "hydroplaning accidents Florida",
+        "weather crash liability Florida",
+        "car accident lawyer Florida",
+        "Florida car accident claims",
+        "comparative negligence Florida car accidents",
+        "Tampa car accident lawyer",
+        "weather-related crash injury claim"
+      ],
+      "author": {
+        "@type": "Organization",
+        "name": "Carter Injury Law, PA"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Carter Injury Law, PA",
+        "url": "https://www.carterinjurylaw.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fsite-logo%2Flogo.png&w=1080&q=75"
+        }
+      },
+      "datePublished": "2026-08-09",
+      "dateModified": "2026-08-09"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does rain automatically make the crash the other driver's fault?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Fault still depends on whether that driver was negligent."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the defense really use weather to reduce my settlement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. They use the 51% rule to cut or block your recovery."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if both drivers were speeding in the rain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fault is split based on each driver's percentage of negligence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is hydroplaning ever truly an accident in Florida courts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rarely. Tire condition and speed usually point back to driver fault."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How soon should I call a lawyer after a weather crash?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call within days. Evidence disappears fast after a storm."
+          }
+        }
+      ]
+    }
+  ]
+};
+
 export default function WeatherRelatedCarAccidentsInFloridaAndWhoMayBeLiable() {
   return (
     <article className="space-y-7">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="flex flex-wrap gap-4 text-sm text-gray-500 mb-6 border-b border-gray-100 pb-4">
         <span>
           <strong>Published:</strong> August 9, 2026
