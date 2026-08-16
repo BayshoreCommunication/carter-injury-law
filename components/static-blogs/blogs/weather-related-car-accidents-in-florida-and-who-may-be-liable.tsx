@@ -170,8 +170,8 @@ const DefenseVersusFails = ({
   whyFails: string;
 }) => (
   <div className="my-6 overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm">
-    <div className="bg-[#1B2639] !px-5 !py-3 text-white">
-      <h3 className="!mt-0 !mb-0 text-sm font-bold uppercase tracking-[0.16em] text-white">
+    <div className="bg-[#1B2639] !px-5 !py-3 !text-white">
+      <h3 className="!mt-0 !mb-0 text-sm font-bold uppercase tracking-[0.16em] !text-white">
         DEFENSE SAYS vs WHY IT FAILS
       </h3>
     </div>
@@ -406,9 +406,9 @@ export default function WeatherRelatedCarAccidentsInFloridaAndWhoMayBeLiable() {
         fault share fast. Carter Injury Law focuses on driver conduct, not storm
         clouds.
       </p>
-      <p className="text-justify font-semibold text-[#1B2639]">
+      <h3 className="text-justify font-semibold text-[#1B2639]">
         We will explain you by example
-      </p>
+      </h3>
 
       <DefenseVersusFails
         defense="The storm was sudden and unforeseeable. My client had no way to react in time. The weather was the same for every driver on that road."
@@ -450,7 +450,7 @@ export default function WeatherRelatedCarAccidentsInFloridaAndWhoMayBeLiable() {
       </h3>
       <div className="overflow-x-auto rounded-lg border border-gray-200 mt-4">
         <table className="min-w-[720px] w-full border-collapse bg-white text-left text-sm">
-          <thead className="bg-[#1B2639] text-white">
+          <thead className="bg-[#1B2639] !text-white">
             <tr>
               <th className="!px-4 !py-3">Weather Type</th>
               <th className="!px-4 !py-3">Main Hazard</th>
@@ -610,7 +610,7 @@ export default function WeatherRelatedCarAccidentsInFloridaAndWhoMayBeLiable() {
       </h3>
       <div className="overflow-x-auto rounded-lg border border-gray-200 mt-4">
         <table className="min-w-[720px] w-full border-collapse bg-white text-left text-sm">
-          <thead className="bg-[#1B2639] text-white">
+          <thead className="bg-[#1B2639] !text-white">
             <tr>
               <th className="!px-4 !py-3 w-1/3">Timeframe</th>
               <th className="!px-4 !py-3 w-2/3">Action Required</th>
