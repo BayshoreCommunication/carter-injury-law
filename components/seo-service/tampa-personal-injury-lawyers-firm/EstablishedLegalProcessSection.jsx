@@ -86,12 +86,15 @@ const EstablishedLegalProcessSection = () => {
           className="relative mb-14 max-w-5xl mx-auto"
         >
           {/* Dotted Line & Arrow Badges across desktop */}
-          <div className="hidden md:flex absolute top-[32px] left-[12%] right-[12%] z-10 items-center justify-between pointer-events-none">
+          <div className="hidden lg:flex absolute top-[32px] left-[10%] right-[10%] z-10 items-center justify-between pointer-events-none">
             {/* Dotted Line */}
             <div className="w-full border-b-2 border-dotted border-[#1E2538]/40 absolute top-1/2 -translate-y-1/2 left-0 right-0 z-0" />
             
             {/* Arrow Badges */}
-            <div className="w-full flex items-center justify-between px-[14%] z-10">
+            <div className="w-full flex items-center justify-between px-[11%] z-10">
+              <div className="w-6 h-6 rounded-full bg-[#1E2538] text-white flex items-center justify-center border border-white shadow-sm shrink-0">
+                <ChevronRight className="w-3.5 h-3.5 text-white" strokeWidth={2.5} />
+              </div>
               <div className="w-6 h-6 rounded-full bg-[#1E2538] text-white flex items-center justify-center border border-white shadow-sm shrink-0">
                 <ChevronRight className="w-3.5 h-3.5 text-white" strokeWidth={2.5} />
               </div>
@@ -104,8 +107,8 @@ const EstablishedLegalProcessSection = () => {
             </div>
           </div>
 
-          {/* 4 Column Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 lg:gap-6 relative items-stretch">
+          {/* 5 Column Cards Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-6 relative items-stretch">
             {steps.map((step, idx) => {
               const Icon = step.icon;
               return (

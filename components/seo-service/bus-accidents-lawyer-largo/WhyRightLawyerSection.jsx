@@ -71,127 +71,127 @@ const WhyRightLawyerSection = () => {
         >
           
           {/* Step 01 */}
-          <motion.div variants={fadeInUp} className="flex gap-6 items-start">
-            <div className="relative w-16 h-16 rounded-full bg-secondary flex items-center justify-center shrink-0 text-white shadow-md border border-white/10">
-              <UserCog className="w-8 h-8 text-white" strokeWidth={1.5} />
-              <div className="absolute -bottom-1 -right-1 bg-primary text-white w-6 h-6 rounded-full flex items-center justify-center border-2 border-[#faf9f6]">
-                <TrendingDown className="w-3.5 h-3.5" strokeWidth={2.5} />
+          <motion.div variants={fadeInUp} className="flex gap-4 sm:gap-6 items-start">
+            <div className="relative w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-secondary flex items-center justify-center shrink-0 text-white shadow-md border border-white/10">
+              <UserCog className="w-6 h-6 sm:w-8 sm:h-8 text-white" strokeWidth={1.5} />
+              <div className="absolute -bottom-1 -right-1 bg-primary text-white w-5 h-5 sm:w-6 sm:h-6 rounded-full flex items-center justify-center border-2 border-[#faf9f6]">
+                <TrendingDown className="w-3 h-3 sm:w-3.5 sm:h-3.5" strokeWidth={2.5} />
               </div>
             </div>
-            <div className="space-y-2 pt-1 flex-1">
-              <div className="flex items-center gap-3">
-                <span className="text-2xl font-extrabold text-primary leading-none">01</span>
+            <div className="space-y-2 pt-0.5 flex-1">
+              <div className="flex items-center gap-2.5 sm:gap-3">
+                <span className="text-xl sm:text-2xl font-extrabold text-primary leading-none">01</span>
                 <div className="w-px h-4 bg-gray-300" />
                 <h3 
-                  className="text-lg md:text-xl font-bold leading-tight tracking-tight"
+                  className="text-base sm:text-lg md:text-xl font-bold leading-tight tracking-tight"
                   style={{ fontFamily: 'Georgia, Cambria, "Times New Roman", Times, serif' }}
                 >
                   Determining Liability Can Be More Complex Than Expected
                 </h3>
               </div>
-              <p className="text-gray-600 text-sm md:text-[15px] leading-relaxed font-medium">
+              <p className="text-gray-600 text-xs sm:text-sm md:text-[15px] leading-relaxed font-medium">
                 In commercial transit, liability may be split between the driver, the company, or even the manufacturer. Without a thorough investigation to untangle these relationships, you may miss the actual at-fault party. We sort through these complex legal relationships to ensure full accountability for all of your damages. Professional guidance is essential to ensure that key defendants cannot escape their responsibility for the crash. Missing an investigation step can significantly reduce the potential financial recovery for your serious injuries.
               </p>
             </div>
           </motion.div>
 
           {/* Arrow 1 */}
-          <motion.div variants={fadeInUp} className="flex pl-8 justify-start">
-            <div className="w-0.5 h-10 bg-gray-200 relative flex items-center justify-center">
-              <div className="absolute w-6 h-6 rounded-full bg-secondary border border-gray-100 flex items-center justify-center shadow-sm">
-                <ArrowDown className="w-3.5 h-3.5 text-white" strokeWidth={3} />
+          <motion.div variants={fadeInUp} className="flex pl-6 sm:pl-8 justify-start">
+            <div className="w-0.5 h-8 sm:h-10 bg-gray-200 relative flex items-center justify-center">
+              <div className="absolute w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-secondary border border-gray-100 flex items-center justify-center shadow-sm">
+                <ArrowDown className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-white" strokeWidth={3} />
               </div>
             </div>
           </motion.div>
 
           {/* Step 02 */}
-          <motion.div variants={fadeInUp} className="flex gap-6 items-start">
-            <div className="relative w-16 h-16 rounded-full bg-secondary flex items-center justify-center shrink-0 text-white shadow-md border border-white/10">
-              <BadgeDollarSign className="w-8 h-8 text-white" strokeWidth={1.5} />
-              <div className="absolute -bottom-1 -right-1 bg-primary text-white w-6 h-6 rounded-full flex items-center justify-center border-2 border-[#faf9f6]">
-                <EyeOff className="w-3.5 h-3.5" strokeWidth={2.5} />
+          <motion.div variants={fadeInUp} className="flex gap-4 sm:gap-6 items-start">
+            <div className="relative w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-secondary flex items-center justify-center shrink-0 text-white shadow-md border border-white/10">
+              <BadgeDollarSign className="w-6 h-6 sm:w-8 sm:h-8 text-white" strokeWidth={1.5} />
+              <div className="absolute -bottom-1 -right-1 bg-primary text-white w-5 h-5 sm:w-6 sm:h-6 rounded-full flex items-center justify-center border-2 border-[#faf9f6]">
+                <EyeOff className="w-3 h-3 sm:w-3.5 sm:h-3.5" strokeWidth={2.5} />
               </div>
             </div>
-            <div className="space-y-2 pt-1 flex-1">
-              <div className="flex items-center gap-3">
-                <span className="text-2xl font-extrabold text-primary leading-none">02</span>
+            <div className="space-y-2 pt-0.5 flex-1">
+              <div className="flex items-center gap-2.5 sm:gap-3">
+                <span className="text-xl sm:text-2xl font-extrabold text-primary leading-none">02</span>
                 <div className="w-px h-4 bg-gray-300" />
                 <h3 
-                  className="text-lg md:text-xl font-bold leading-tight tracking-tight"
+                  className="text-base sm:text-lg md:text-xl font-bold leading-tight tracking-tight"
                   style={{ fontFamily: 'Georgia, Cambria, "Times New Roman", Times, serif' }}
                 >
                   Insurance Adjusters Look for Reasons to Minimize Claims
                 </h3>
               </div>
-              <p className="text-gray-600 text-sm md:text-[15px] leading-relaxed font-medium">
+              <p className="text-gray-600 text-xs sm:text-sm md:text-[15px] leading-relaxed font-medium">
                 Insurance carriers employ adjusters specifically trained to limit payouts for all accident-related injury claims. They use recorded statements and early settlement offers to lock victims into low payment amounts. Retaining an attorney prevents these companies from taking unfair advantage of you during the claim process. Skilled lawyers can counter these manipulative tactics by protecting your statements from being misused by insurers. Protecting your rights early is crucial to securing the fair compensation that you legitimately deserve.
               </p>
             </div>
           </motion.div>
 
           {/* Arrow 2 */}
-          <motion.div variants={fadeInUp} className="flex pl-8 justify-start">
-            <div className="w-0.5 h-10 bg-gray-200 relative flex items-center justify-center">
-              <div className="absolute w-6 h-6 rounded-full bg-secondary border border-gray-100 flex items-center justify-center shadow-sm">
-                <ArrowDown className="w-3.5 h-3.5 text-white" strokeWidth={3} />
+          <motion.div variants={fadeInUp} className="flex pl-6 sm:pl-8 justify-start">
+            <div className="w-0.5 h-8 sm:h-10 bg-gray-200 relative flex items-center justify-center">
+              <div className="absolute w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-secondary border border-gray-100 flex items-center justify-center shadow-sm">
+                <ArrowDown className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-white" strokeWidth={3} />
               </div>
             </div>
           </motion.div>
 
           {/* Step 03 */}
-          <motion.div variants={fadeInUp} className="flex gap-6 items-start">
-            <div className="relative w-16 h-16 rounded-full bg-secondary flex items-center justify-center shrink-0 text-white shadow-md border border-white/10">
-              <ShieldX className="w-8 h-8 text-white" strokeWidth={1.5} />
-              <div className="absolute -bottom-1 -right-1 bg-primary text-white w-6 h-6 rounded-full flex items-center justify-center border-2 border-[#faf9f6]">
-                <Clock className="w-3.5 h-3.5" strokeWidth={2.5} />
+          <motion.div variants={fadeInUp} className="flex gap-4 sm:gap-6 items-start">
+            <div className="relative w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-secondary flex items-center justify-center shrink-0 text-white shadow-md border border-white/10">
+              <ShieldX className="w-6 h-6 sm:w-8 sm:h-8 text-white" strokeWidth={1.5} />
+              <div className="absolute -bottom-1 -right-1 bg-primary text-white w-5 h-5 sm:w-6 sm:h-6 rounded-full flex items-center justify-center border-2 border-[#faf9f6]">
+                <Clock className="w-3 h-3 sm:w-3.5 sm:h-3.5" strokeWidth={2.5} />
               </div>
             </div>
-            <div className="space-y-2 pt-1 flex-1">
-              <div className="flex items-center gap-3">
-                <span className="text-2xl font-extrabold text-primary leading-none">03</span>
+            <div className="space-y-2 pt-0.5 flex-1">
+              <div className="flex items-center gap-2.5 sm:gap-3">
+                <span className="text-xl sm:text-2xl font-extrabold text-primary leading-none">03</span>
                 <div className="w-px h-4 bg-gray-300" />
                 <h3 
-                  className="text-lg md:text-xl font-bold leading-tight tracking-tight"
+                  className="text-base sm:text-lg md:text-xl font-bold leading-tight tracking-tight"
                   style={{ fontFamily: 'Georgia, Cambria, "Times New Roman", Times, serif' }}
                 >
                   Medical Records Alone May Not Prove the Full Extent of Your Injuries
                 </h3>
               </div>
-              <p className="text-gray-600 text-sm md:text-[15px] leading-relaxed font-medium">
+              <p className="text-gray-600 text-xs sm:text-sm md:text-[15px] leading-relaxed font-medium">
                 Clinical billing records verify the cost of treatment, but they do not capture your personal suffering. We provide the additional context required to quantify these intangible damages for your legal claim. This proof is essential for obtaining the total compensation you need for a full recovery. We compile comprehensive documentation that translates medical data into a clear financial impact on life. This expert documentation helps clarify the long-term consequences of your injuries for the insurance adjusters.
               </p>
             </div>
           </motion.div>
 
           {/* Arrow 3 */}
-          <motion.div variants={fadeInUp} className="flex pl-8 justify-start">
-            <div className="w-0.5 h-10 bg-gray-200 relative flex items-center justify-center">
-              <div className="absolute w-6 h-6 rounded-full bg-secondary border border-gray-100 flex items-center justify-center shadow-sm">
-                <ArrowDown className="w-3.5 h-3.5 text-white" strokeWidth={3} />
+          <motion.div variants={fadeInUp} className="flex pl-6 sm:pl-8 justify-start">
+            <div className="w-0.5 h-8 sm:h-10 bg-gray-200 relative flex items-center justify-center">
+              <div className="absolute w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-secondary border border-gray-100 flex items-center justify-center shadow-sm">
+                <ArrowDown className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-white" strokeWidth={3} />
               </div>
             </div>
           </motion.div>
 
           {/* Step 04 */}
-          <motion.div variants={fadeInUp} className="flex gap-6 items-start">
-            <div className="relative w-16 h-16 rounded-full bg-secondary flex items-center justify-center shrink-0 text-white shadow-md border border-white/10">
-              <RefreshCw className="w-8 h-8 text-white" strokeWidth={1.5} />
-              <div className="absolute -bottom-1 -right-1 bg-primary text-white w-6 h-6 rounded-full flex items-center justify-center border-2 border-[#faf9f6]">
-                <Clock className="w-3.5 h-3.5" strokeWidth={2.5} />
+          <motion.div variants={fadeInUp} className="flex gap-4 sm:gap-6 items-start">
+            <div className="relative w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-secondary flex items-center justify-center shrink-0 text-white shadow-md border border-white/10">
+              <RefreshCw className="w-6 h-6 sm:w-8 sm:h-8 text-white" strokeWidth={1.5} />
+              <div className="absolute -bottom-1 -right-1 bg-primary text-white w-5 h-5 sm:w-6 sm:h-6 rounded-full flex items-center justify-center border-2 border-[#faf9f6]">
+                <Clock className="w-3 h-3 sm:w-3.5 sm:h-3.5" strokeWidth={2.5} />
               </div>
             </div>
-            <div className="space-y-2 pt-1 flex-1">
-              <div className="flex items-center gap-3">
-                <span className="text-2xl font-extrabold text-primary leading-none">04</span>
+            <div className="space-y-2 pt-0.5 flex-1">
+              <div className="flex items-center gap-2.5 sm:gap-3">
+                <span className="text-xl sm:text-2xl font-extrabold text-primary leading-none">04</span>
                 <div className="w-px h-4 bg-gray-300" />
                 <h3 
-                  className="text-lg md:text-xl font-bold leading-tight tracking-tight"
+                  className="text-base sm:text-lg md:text-xl font-bold leading-tight tracking-tight"
                   style={{ fontFamily: 'Georgia, Cambria, "Times New Roman", Times, serif' }}
                 >
                   Missing Deadlines Can Endanger Your Right to Compensation
                 </h3>
               </div>
-              <p className="text-gray-600 text-sm md:text-[15px] leading-relaxed font-medium">
+              <p className="text-gray-600 text-xs sm:text-sm md:text-[15px] leading-relaxed font-medium">
                 Statutes of limitations and specific notice deadlines for government entities are extremely strict and unforgiving. Missing these critical dates serves as a permanent bar to recovery for your accident claim. We manage all procedural schedules so you never lose your right to seek legal justice. Strict compliance with these legal timelines remains critical for a successful outcome in your case. Relying on our firm ensures that every filing happens within the required window of time.
               </p>
             </div>
@@ -208,24 +208,24 @@ const WhyRightLawyerSection = () => {
           className="space-y-6 max-w-2xl"
         >
           
-          <div className="w-full bg-primary rounded-[16px] text-white p-6 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-md border border-primary/20">
+          <div className="w-full bg-primary rounded-[16px] text-white p-5 sm:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6 shadow-md border border-primary/20">
             <div className="flex items-center gap-4 text-center sm:text-left">
               <Scale className="w-10 h-10 shrink-0 hidden sm:block text-white" strokeWidth={1.5} />
               <div>
-                <p className="font-extrabold text-[15px] tracking-wide">Secure your recovery and your rights today.</p>
+                <p className="font-extrabold text-[14px] sm:text-[15px] tracking-wide">Secure your recovery and your rights today.</p>
                 <p className="text-white/80 text-xs mt-1 font-semibold">Let our legal team build the foundation of your claim.</p>
               </div>
             </div>
             <button 
               onClick={() => window.location.href = '/contact'}
-              className="bg-secondary hover:bg-secondary/90 border border-white/10 text-white font-bold text-xs px-5 py-3 rounded-lg flex items-center gap-2 shadow-sm transition-all shrink-0 active:scale-95 uppercase tracking-wider"
+              className="w-full sm:w-auto justify-center bg-secondary hover:bg-secondary/90 border border-white/10 text-white font-bold text-xs px-5 py-3 rounded-lg flex items-center gap-2 shadow-sm transition-all shrink-0 active:scale-95 uppercase tracking-wider"
             >
               <Calendar className="w-4 h-4 text-white" strokeWidth={2.5} />
               Get Case Evaluation
             </button>
           </div>
 
-          <div className="flex flex-wrap items-center justify-between gap-y-2 border-t border-gray-200/60 pt-6 px-2 text-secondary font-bold text-xs tracking-wider">
+          <div className="flex flex-wrap items-center justify-center sm:justify-between gap-3 sm:gap-y-2 border-t border-gray-200/60 pt-6 px-2 text-secondary font-bold text-xs tracking-wider">
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-4.5 h-4.5 text-primary" />
               <span>No Fee Unless We Win</span>

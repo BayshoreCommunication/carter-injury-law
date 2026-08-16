@@ -97,15 +97,15 @@ const FiveStepProcessSection = () => {
             const isLast = idx === steps.length - 1;
             return (
               <motion.div key={idx} variants={fadeInUp} className="flex flex-col items-center w-full">
-                <div className="flex items-start gap-4 w-full">
+                <div className="flex items-start gap-3 sm:gap-4 w-full">
                   <div className="flex flex-col items-center shrink-0">
-                    <div className="w-16 h-16 rounded-full bg-secondary flex items-center justify-center shadow-lg border-2 border-secondary/60">
-                      <Icon className="w-8 h-8 text-white" strokeWidth={1.5} />
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-secondary flex items-center justify-center shadow-lg border-2 border-secondary/60">
+                      <Icon className="w-6 h-6 sm:w-8 sm:h-8 text-white" strokeWidth={1.5} />
                     </div>
                   </div>
 
                   <div className="flex-1 bg-white rounded-2xl border border-gray-100 shadow-sm px-4 py-4 mb-2 hover:shadow-md transition-shadow duration-300">
-                    <span className="inline-flex items-center justify-center bg-primary text-white text-[11px] font-extrabold w-7 h-7 rounded-full mb-2 shadow-sm">
+                    <span className="inline-flex items-center justify-center bg-primary text-white text-[11px] font-extrabold w-6 h-6 sm:w-7 sm:h-7 rounded-full mb-2 shadow-sm">
                       {step.number}
                     </span>
                     <h3 className="text-[14px] font-extrabold text-secondary leading-snug mb-2">
@@ -117,11 +117,11 @@ const FiveStepProcessSection = () => {
 
                 {!isLast && (
                   <div className="flex flex-col items-center my-1">
-                    <div className="w-px h-4 bg-gray-200" />
-                    <div className="w-6 h-6 rounded-full bg-secondary flex items-center justify-center shadow border border-secondary/70">
-                      <ArrowDown className="w-3.5 h-3.5 text-white" strokeWidth={3} />
+                    <div className="w-px h-3 sm:h-4 bg-gray-200" />
+                    <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-secondary flex items-center justify-center shadow border border-secondary/70">
+                      <ArrowDown className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-white" strokeWidth={3} />
                     </div>
-                    <div className="w-px h-4 bg-gray-200" />
+                    <div className="w-px h-3 sm:h-4 bg-gray-200" />
                   </div>
                 )}
               </motion.div>
@@ -184,31 +184,31 @@ const FiveStepProcessSection = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
-          className="w-full bg-primary rounded-[20px] text-white p-8 md:p-10 relative overflow-hidden shadow-lg"
+          className="w-full bg-primary rounded-[20px] text-white p-6 sm:p-8 md:p-10 relative overflow-hidden shadow-lg"
         >
           <div className="absolute right-[-20px] bottom-[-20px] text-white/5 pointer-events-none select-none">
             <Scale className="w-48 h-48 transform -rotate-12" />
           </div>
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6 relative z-10">
-            <div className="flex items-center gap-6">
-              <div className="w-14 h-14 rounded-full border-[2px] border-white/30 flex items-center justify-center shrink-0 bg-white/10">
-                <Scale className="w-7 h-7 text-white" strokeWidth={1.5} />
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6 relative z-10 text-center md:text-left">
+            <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
+              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full border-[2px] border-white/30 flex items-center justify-center shrink-0 bg-white/10">
+                <Scale className="w-6 h-6 sm:w-7 sm:h-7 text-white" strokeWidth={1.5} />
               </div>
               <div>
-                <p className="font-extrabold text-xl md:text-2xl leading-snug">
+                <p className="font-extrabold text-lg sm:text-xl md:text-2xl leading-snug">
                   You Don't Have to Face This Alone.
                 </p>
-                <p className="text-white/80 text-sm mt-1 font-medium max-w-lg">
+                <p className="text-white/80 text-xs sm:text-sm mt-1 font-medium max-w-lg">
                   Our compassionate legal team is here to protect your rights and fight for the justice your family deserves.
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center gap-3 shrink-0">
+            <div className="flex flex-col items-center gap-3 shrink-0 w-full md:w-auto">
               <button
                 onClick={() => window.location.href = '/contact'}
-                className="bg-secondary hover:bg-secondary/90 text-white font-extrabold text-sm px-7 py-4 rounded-lg flex items-center gap-2 shadow-md transition-all active:scale-95 uppercase tracking-wider border border-white/10"
+                className="bg-secondary hover:bg-secondary/90 text-white font-extrabold text-xs sm:text-sm px-5 sm:px-7 py-3.5 sm:py-4 rounded-lg flex items-center justify-center gap-2 shadow-md transition-all active:scale-95 uppercase tracking-wider border border-white/10 w-full sm:w-auto"
               >
-                <Calendar className="w-5 h-5 text-white" strokeWidth={2} />
+                <Calendar className="w-4 h-4 sm:w-5 sm:h-5 text-white" strokeWidth={2} />
                 Get a Free Case Evaluation
               </button>
               <div className="flex items-center gap-3 text-white/70 text-xs font-semibold">

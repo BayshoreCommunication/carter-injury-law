@@ -93,7 +93,7 @@ const EstablishedLegalProcessSection = () => {
           className="relative mb-14"
         >
           {/* Dotted Line & Arrow Badges across desktop */}
-          <div className="hidden md:flex absolute top-[32px] left-[10%] right-[10%] z-10 items-center justify-between pointer-events-none">
+          <div className="hidden lg:flex absolute top-[32px] left-[10%] right-[10%] z-10 items-center justify-between pointer-events-none">
             {/* Dotted Line */}
             <div className="w-full border-b-2 border-dotted border-[#1E2538]/40 absolute top-1/2 -translate-y-1/2 left-0 right-0 z-0" />
             
@@ -115,7 +115,7 @@ const EstablishedLegalProcessSection = () => {
           </div>
 
           {/* 5 Column Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-4 lg:gap-6 relative items-stretch">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-6 relative items-stretch">
             {steps.map((step, idx) => {
               const Icon = step.icon;
               return (

@@ -100,7 +100,7 @@ const FreeEvaluationCard = ({ className = "" }) => {
           <div className="space-y-3">
             <div className="flex items-start gap-3">
               <h2 className="text-xl md:text-[25px] font-extrabold text-secondary leading-tight pt-1">
-                Schedule Your Free, Confidential <br />
+                Schedule Your Free, Confidential <br className="hidden sm:inline" />
                 <span className="text-primary">Largo Bus Accident Case Evaluation Today</span>
               </h2>
             </div>
@@ -119,7 +119,7 @@ const FreeEvaluationCard = ({ className = "" }) => {
             
             <div className="mt-4">
               <p className="text-black text-[15px] font-bold">Call Our Team</p>
-              <p className="text-primary font-extrabold text-base md:text-2xl leading-tight group-hover:underline">
+              <p className="text-primary font-extrabold text-base sm:text-xl md:text-2xl leading-tight group-hover:underline">
                 (727) 955-1922
               </p>
             </div>

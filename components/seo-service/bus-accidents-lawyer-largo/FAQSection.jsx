@@ -34,8 +34,8 @@ const FAQSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           
           {/* Left Column: CTA Banner */}
-          <div className="col-span-12 lg:col-span-4 bg-secondary rounded-[24px] text-white p-8 border border-white/5 shadow-xl relative overflow-hidden lg:sticky lg:top-8">
-            <div className="absolute right-[-20px] bottom-[-20px] text-white/5 pointer-events-none select-none">
+          <div className="col-span-12 lg:col-span-4 bg-secondary rounded-[24px] text-white p-6 sm:p-8 border border-white/5 shadow-xl relative overflow-hidden lg:sticky lg:top-8 order-2 lg:order-1">
+            <div className="absolute right-[-20px] bottom-[-20px] text-white/5 pointer-events-none select-none overflow-hidden">
               <Scale className="w-48 h-48 transform -rotate-12" />
             </div>
 
@@ -84,7 +84,7 @@ const FAQSection = () => {
           </div>
 
           {/* Right Column: Accordion Q&A list */}
-          <div className="col-span-12 lg:col-span-8 space-y-4">
+          <div className="col-span-12 lg:col-span-8 space-y-4 order-1 lg:order-2">
             
             {/* Header */}
             <div className="mb-8">

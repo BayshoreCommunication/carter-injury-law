@@ -79,7 +79,7 @@ const HeroHeader = ({
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.1 }}
-                className="text-4xl sm:text-5xl lg:text-6xl xl:text-[52px] font-extrabold text-white lg:text-secondary leading-[1.1] tracking-tight animate-none"
+                className="text-3xl xs:text-4xl sm:text-5xl lg:text-6xl xl:text-[52px] font-extrabold text-white lg:text-secondary leading-[1.1] tracking-tight animate-none break-words"
               >
                 {titlePart1} <br />
                 <span className="text-primary">{titlePart2}</span>
@@ -98,45 +98,41 @@ const HeroHeader = ({
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.3 }}
-                className="flex flex-row items-stretch justify-between pt-8 border-t border-white/10 lg:border-gray-200/60 max-w-md sm:max-w-xl"
+                className="grid grid-cols-3 gap-1 sm:gap-4 divide-x divide-white/10 lg:divide-gray-200/60 pt-8 border-t border-white/10 lg:border-gray-200/60 max-w-md sm:max-w-xl"
               >
                 
-                <div className="flex-1 flex flex-col items-center text-center px-2">
-                  <div className="w-12 h-12 rounded-full bg-white/10 lg:bg-red-50 flex items-center justify-center text-white lg:text-primary mb-3 shadow-sm hover:scale-110 transition-transform duration-300">
-                    <Users className="w-5 h-5" />
+                <div className="flex flex-col items-center text-center px-1 sm:px-2">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white/10 lg:bg-red-50 flex items-center justify-center text-white lg:text-primary mb-2 sm:mb-3 shadow-sm hover:scale-110 transition-transform duration-300">
+                    <Users className="w-4 h-4 sm:w-5 sm:h-5" />
                   </div>
-                  <span className="text-base sm:text-md font-extrabold text-white lg:text-secondary block leading-none">
+                  <span className="text-xs xs:text-sm sm:text-base md:text-md font-extrabold text-white lg:text-secondary block leading-none">
                     <CountUp end={10000} suffix="+" />
                   </span>
-                  <span className="text-[10px] sm:text-xs text-gray-400 lg:text-gray-500 font-bold uppercase tracking-wider mt-1.5 leading-tight">
+                  <span className="text-[9px] sm:text-xs text-gray-400 lg:text-gray-500 font-bold uppercase tracking-wider mt-1.5 leading-tight">
                     Clients Helped
                   </span>
                 </div>
 
-                <div className="w-px bg-white/10 lg:bg-gray-200 self-stretch my-2" />
-
-                <div className="flex-1 flex flex-col items-center text-center px-2">
-                  <div className="w-12 h-12 rounded-full bg-white/10 lg:bg-red-50 flex items-center justify-center text-white lg:text-primary mb-3 shadow-sm hover:scale-110 transition-transform duration-300">
-                    <Award className="w-5 h-5" />
+                <div className="flex flex-col items-center text-center px-1 sm:px-2">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white/10 lg:bg-red-50 flex items-center justify-center text-white lg:text-primary mb-2 sm:mb-3 shadow-sm hover:scale-110 transition-transform duration-300">
+                    <Award className="w-4 h-4 sm:w-5 sm:h-5" />
                   </div>
-                  <span className="text-base sm:text-md font-extrabold text-white lg:text-secondary block leading-none">
+                  <span className="text-xs xs:text-sm sm:text-base md:text-md font-extrabold text-white lg:text-secondary block leading-none">
                     Millions Won
                   </span>
-                  <span className="text-[10px] sm:text-xs text-gray-400 lg:text-gray-500 font-bold uppercase tracking-wider mt-1.5 leading-tight">
+                  <span className="text-[9px] sm:text-xs text-gray-400 lg:text-gray-500 font-bold uppercase tracking-wider mt-1.5 leading-tight">
                     for Our Clients
                   </span>
                 </div>
 
-                <div className="w-px bg-white/10 lg:bg-gray-200 self-stretch my-2" />
-
-                <div className="flex-1 flex flex-col items-center text-center px-2">
-                  <div className="w-12 h-12 rounded-full bg-white/10 lg:bg-red-50 flex items-center justify-center text-white lg:text-primary mb-3 shadow-sm hover:scale-110 transition-transform duration-300">
-                    <Star className="w-5 h-5 text-white lg:text-primary fill-white lg:fill-primary" />
+                <div className="flex flex-col items-center text-center px-1 sm:px-2">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white/10 lg:bg-red-50 flex items-center justify-center text-white lg:text-primary mb-2 sm:mb-3 shadow-sm hover:scale-110 transition-transform duration-300">
+                    <Star className="w-4 h-4 sm:w-5 sm:h-5 text-white lg:text-primary fill-white lg:fill-primary" />
                   </div>
-                  <span className="text-base sm:text-md font-extrabold text-white lg:text-secondary block leading-none">
+                  <span className="text-xs xs:text-sm sm:text-base md:text-md font-extrabold text-white lg:text-secondary block leading-none">
                     <CountUp end={5} /> Star Rated
                   </span>
-                  <span className="text-[10px] sm:text-xs text-gray-400 lg:text-gray-500 font-bold uppercase tracking-wider mt-1.5 leading-tight">
+                  <span className="text-[9px] sm:text-xs text-gray-400 lg:text-gray-500 font-bold uppercase tracking-wider mt-1.5 leading-tight">
                     by Our Clients
                   </span>
                 </div>
@@ -197,7 +193,7 @@ const HeroHeader = ({
             padding-top: 48px !important;
           }
           .lawyer-image-container {
-            transform: scale(1.1) translateY(0) translateX(-35px) !important;
+            transform: scale(1.05) translateY(0) translateX(0) !important;
           }
         }
         @media (max-width: 639px) {

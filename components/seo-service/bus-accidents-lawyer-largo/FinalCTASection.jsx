@@ -63,7 +63,7 @@ const FinalCTASection = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6 }}
-              className="bg-white text-secondary rounded-[24px] p-8 md:p-10 shadow-2xl w-full border border-gray-100/50 flex flex-col gap-5 relative"
+              className="bg-white text-secondary rounded-[24px] p-6 sm:p-8 md:p-10 shadow-2xl w-full border border-gray-100/50 flex flex-col gap-5 relative"
             >
               
               <a
@@ -83,11 +83,11 @@ const FinalCTASection = () => {
 
               <button
                 onClick={() => window.location.href = '/contact'}
-                className="w-full bg-primary hover:bg-primary/95 text-white font-extrabold tracking-wider uppercase py-4 rounded-xl flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 active:scale-95 text-xs sm:text-sm"
+                className="w-full bg-primary hover:bg-primary/95 text-white font-extrabold tracking-wider uppercase py-3.5 sm:py-4 px-4 rounded-xl flex items-center justify-center gap-2 sm:gap-3 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5 active:scale-95 text-xs sm:text-sm"
               >
-                <Calendar className="w-5 h-5 text-white" strokeWidth={2} />
+                <Calendar className="w-5 h-5 text-white shrink-0" strokeWidth={2} />
                 <span>Schedule Online Consultation</span>
-                <ArrowRight className="w-4 h-4 text-white" strokeWidth={2.5} />
+                <ArrowRight className="w-4 h-4 text-white shrink-0" strokeWidth={2.5} />
               </button>
 
               <div className="w-full h-px bg-gray-100" />
