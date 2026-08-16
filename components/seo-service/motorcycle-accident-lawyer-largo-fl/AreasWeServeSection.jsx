@@ -24,24 +24,6 @@ const offices = [
   },
 ];
 
-const neighborhoods = [
-  "Downtown Largo",
-  "Ridgecrest",
-  "Bardmoor",
-  "Whitney Ranch",
-  "Ponderosa Park",
-  "Eagle Lake",
-];
-
-const surroundingCommunities = [
-  "Clearwater",
-  "Seminole",
-  "Pinellas Park",
-  "Belleair",
-  "Dunedin",
-  "St. Petersburg",
-];
-
 const AreasWeServeSection = () => {
   return (
     <section className="w-full bg-[#faf9f6] py-12 md:py-16">
@@ -61,56 +43,19 @@ const AreasWeServeSection = () => {
             Motorcycle Accident Lawyer Largo FL,{" "}
             <span className="block text-primary">Areas We Serve</span>
           </h2>
-
-          <p className="text-gray-600 text-sm md:text-base leading-relaxed font-medium">
-            Carter Injury Law represents riders throughout local communities. We help victims across the entire region to ensure you have the best legal help. We are the motorcycle accident lawyer Largo FL choice for riders in your local area. You can count on us to serve your neighborhood and surrounding communities in Florida.
-          </p>
         </div>
 
-        {/* ── Neighborhoods & Surrounding Communities List ── */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-          <div className="bg-white rounded-[20px] border border-gray-100 p-6 md:p-8 shadow-sm">
-            <h3 className="text-lg md:text-xl font-extrabold text-secondary mb-4 pb-3 border-b border-gray-100 flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-primary" />
-              Largo Neighborhoods We Serve
-            </h3>
-            <div className="grid grid-cols-2 gap-2 text-sm text-gray-600 font-medium">
-              {neighborhoods.map((item, idx) => (
-                <div key={idx} className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
-                  <span>{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="bg-white rounded-[20px] border border-gray-100 p-6 md:p-8 shadow-sm">
-            <h3 className="text-lg md:text-xl font-extrabold text-secondary mb-4 pb-3 border-b border-gray-100 flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-primary" />
-              Surrounding Pinellas County Communities
-            </h3>
-            <div className="grid grid-cols-2 gap-2 text-sm text-gray-600 font-medium">
-              {surroundingCommunities.map((item, idx) => (
-                <div key={idx} className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
-                  <span>{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        {/* ── Content Grid ── */}
+        {/* ── Content Grid: Map + Office Cards ── */}
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_400px] gap-6 mb-6">
 
           {/* ── Left: Google Map Embed ── */}
-          <div className="rounded-[20px] overflow-hidden border border-gray-100 shadow-sm w-full h-[380px] sm:h-[460px] lg:h-auto lg:min-h-[320px]">
+          <div className="rounded-[20px] overflow-hidden border border-gray-100 shadow-sm w-full h-[250px] sm:h-[360px] lg:h-auto lg:min-h-[320px]">
             <iframe
               title="Carter Injury Law — Largo Office Location"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3527.234567890123!2d-82.79876543210987!3d27.91543210987654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2f1e2d3c4b5a6%3A0x7b8a9c0d1e2f3a4b!2s801%20W%20Bay%20Dr%20%23229%2C%20Largo%2C%20FL%2033770!5e0!3m2!1sen!2sus!4v1784709237604!5m2!1sen!2sus"
               width="100%"
               height="100%"
-              style={{ border: 0, display: "block", minHeight: "320px" }}
+              style={{ border: 0, display: "block", minHeight: "250px" }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -165,10 +110,10 @@ const AreasWeServeSection = () => {
         </div>
 
         {/* ── Bottom CTA Bar ── */}
-        <div className="bg-secondary rounded-[20px] p-7 md:p-9 flex flex-col md:flex-row items-center justify-between gap-6 shadow-lg mt-8">
-          <div className="flex items-center gap-5">
-            <div className="w-14 h-14 rounded-full border-2 border-white/20 bg-white/10 flex items-center justify-center shrink-0">
-              <Scale className="w-7 h-7 text-white" strokeWidth={1.5} />
+        <div className="bg-secondary rounded-[20px] p-6 sm:p-7 md:p-9 flex flex-col md:flex-row items-center justify-between gap-5 md:gap-6 shadow-lg mt-8 text-center md:text-left">
+          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-5">
+            <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full border-2 border-white/20 bg-white/10 flex items-center justify-center shrink-0">
+              <Scale className="w-6 h-6 sm:w-7 sm:h-7 text-white" strokeWidth={1.5} />
             </div>
             <p className="text-white font-bold text-sm md:text-base leading-snug max-w-lg">
               Wherever in Largo or Pinellas County you are located, we are ready to sit down and start your claim.
@@ -177,7 +122,7 @@ const AreasWeServeSection = () => {
 
           <button
             onClick={() => window.location.href = '/contact'}
-            className="flex items-center gap-3 bg-transparent border-2 border-primary text-white font-extrabold text-sm px-7 py-4 rounded-xl hover:bg-primary transition-all duration-200 active:scale-95 uppercase tracking-wider shrink-0 whitespace-nowrap"
+            className="flex items-center justify-center gap-2 sm:gap-3 bg-transparent border-2 border-primary text-white font-extrabold text-xs sm:text-sm px-5 sm:px-7 py-3.5 sm:py-4 rounded-xl hover:bg-primary transition-all duration-200 active:scale-95 uppercase tracking-wider w-full md:w-auto shrink-0"
           >
             Start Your Free Consultation
             <ArrowRight className="w-4 h-4 text-white" strokeWidth={2.5} />
