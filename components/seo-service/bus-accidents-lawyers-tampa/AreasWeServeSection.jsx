@@ -41,12 +41,8 @@ const AreasWeServeSection = () => {
 
           <h2 className="text-3xl md:text-5xl font-extrabold text-secondary leading-[1.15] tracking-tight mb-5">
             Bus Accidents Lawyer Tampa —{" "}
-            <span className="block text-primary">Areas of Practice and Neighborhoods We Serve</span>
+            <span className="block text-primary">Areas We Serve</span>
           </h2>
-
-          <p className="text-gray-600 text-sm md:text-base leading-relaxed font-medium">
-            Our firm represents injury victims across Tampa and the surrounding Hillsborough County communities. It does not matter where your accident happened.
-          </p>
         </div>
 
         {/* ── Content Grid ── */}

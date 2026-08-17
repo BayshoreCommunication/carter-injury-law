@@ -24,28 +24,6 @@ const offices = [
   },
 ];
 
-const neighborhoods = [
-  "Ybor City",
-  "Seminole Heights",
-  "Hyde Park",
-  "Davis Islands",
-  "Westshore",
-  "Channelside",
-  "Carrollwood",
-  "New Tampa",
-];
-
-const surroundingCommunities = [
-  "Brandon",
-  "Riverview",
-  "Temple Terrace",
-  "Town N Country",
-  "Plant City",
-  "Valrico",
-  "Lutz",
-  "Apollo Beach",
-];
-
 const AreasWeServeSection = () => {
   return (
     <section className="w-full bg-[#faf9f6] py-12 md:py-16">
@@ -65,43 +43,6 @@ const AreasWeServeSection = () => {
             Tampa motorcycle accidents lawyer{" "}
             <span className="block text-primary">Areas We Serve</span>
           </h2>
-
-          <p className="text-gray-600 text-sm md:text-base leading-relaxed font-medium">
-            Our firm proudly represents injured riders throughout Tampa and the surrounding Hillsborough County area.
-          </p>
-        </div>
-
-        {/* ── Neighborhoods & Surrounding Communities List ── */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-          <div className="bg-white rounded-[20px] border border-gray-100 p-6 md:p-8 shadow-sm">
-            <h3 className="text-lg md:text-xl font-extrabold text-secondary mb-4 pb-3 border-b border-gray-100 flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-primary" />
-              Tampa Neighborhoods We Serve
-            </h3>
-            <div className="grid grid-cols-2 gap-2 text-sm text-gray-600 font-medium">
-              {neighborhoods.map((item, idx) => (
-                <div key={idx} className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
-                  <span>{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="bg-white rounded-[20px] border border-gray-100 p-6 md:p-8 shadow-sm">
-            <h3 className="text-lg md:text-xl font-extrabold text-secondary mb-4 pb-3 border-b border-gray-100 flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-primary" />
-              Surrounding Hillsborough County Communities
-            </h3>
-            <div className="grid grid-cols-2 gap-2 text-sm text-gray-600 font-medium">
-              {surroundingCommunities.map((item, idx) => (
-                <div key={idx} className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
-                  <span>{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
 
         {/* ── Content Grid ── */}

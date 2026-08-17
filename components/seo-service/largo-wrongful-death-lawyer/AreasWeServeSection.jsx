@@ -41,12 +41,8 @@ const AreasWeServeSection = () => {
 
           <h2 className="text-3xl md:text-5xl font-extrabold text-secondary leading-[1.15] tracking-tight mb-5">
             Largo Wrongful Death Lawyer —{" "}
-            <span className="block text-primary">Areas of Practice and Neighborhoods We Serve</span>
+            <span className="block text-primary">Areas We Serve</span>
           </h2>
-
-          <p className="text-gray-600 text-sm md:text-base leading-relaxed font-medium">
-            Carter Injury Law represents families across Largo and the surrounding Pinellas County communities. Doesn't matter where the accident happened.
-          </p>
         </div>
 
         {/* ── Content Grid ── */}

@@ -24,33 +24,6 @@ const offices = [
   },
 ];
 
-const neighborhoods = [
-  "Downtown Largo",
-  "Ridgecrest",
-  "Harbor Bluffs",
-  "Belleair Bluffs",
-  "Anona",
-  "Walsingham",
-  "Largo Central Park",
-  "Palm Hill",
-  "Greenbrook Estates",
-  "Shadow Pines",
-  "North Largo",
-];
-
-const surroundingCommunities = [
-  "Clearwater",
-  "Seminole",
-  "Belleair",
-  "Indian Rocks Beach",
-  "Pinellas Park",
-  "Dunedin",
-  "Safety Harbor",
-  "Oldsmar",
-  "Palm Harbor",
-  "St. Petersburg",
-];
-
 const AreasWeServeSection = () => {
   return (
     <section className="w-full bg-[#faf9f6] py-12 md:py-16">
