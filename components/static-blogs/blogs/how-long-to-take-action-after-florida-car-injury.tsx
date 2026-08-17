@@ -273,18 +273,21 @@ const jsonLd = {
       },
       "about": {
         "@type": "Thing",
-        "name": "Florida Auto Accident Injury Deadlines",
-        "description": "An overview of Florida auto accident legal deadlines, including the 2-year statute of limitations under HB 837, 14-day PIP rule, exceptions, and immediate post-crash action steps."
+        "name": "Florida Auto Injury Deadlines",
+        "description": "An overview of Florida car accident injury deadlines, including the statute of limitations, PIP medical treatment requirements, tolling exceptions, and steps injured drivers should take after a crash."
       },
       "keywords": [
-        "Florida auto injury deadline",
-        "statute of limitations Florida car accident",
-        "14 day PIP rule Florida",
+        "how long to take action after Florida car injury",
+        "Florida car accident injury deadline",
+        "Florida auto injury statute of limitations",
         "Florida car accident lawsuit deadline",
-        "House Bill 837 Florida car accident",
-        "Florida injury claim timeline",
-        "car accident lawyer Tampa",
-        "Florida auto accident attorney"
+        "Florida PIP 14 day rule",
+        "Florida car accident lawyer",
+        "Florida auto injury lawyer",
+        "Florida accident claim deadline",
+        "Florida personal injury statute of limitations",
+        "Tampa car accident lawyer",
+        "Tampa auto injury lawyer"
       ],
       "author": {
         "@type": "Organization",
