@@ -299,7 +299,7 @@ export async function generateStaticParams() {
     ];
   } catch (error) {
     console.error("Error generating static params:", error.message);
-    return [];
+    return staticBlogPosts.map((post) => ({ slug: post.slug }));
   }
 }
 

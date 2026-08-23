@@ -353,7 +353,7 @@ export default function VehicleSafetyFailuresAndAccidentInjuries() {
 
       <p className="text-justify">
         When a car crashes because a brake snaps or an airbag goes off wrong or
-        some software glitches out, it’s not always just the person behind the
+        some software glitches out, it&apos;s not always just the person behind the
         wheel who messed up. When a mechanical failure causes a wreck down in
         Florida, the people who built the car, the folks who shipped the parts or
         even the shop that fixed it might share the blame for those injuries.
@@ -403,13 +403,13 @@ export default function VehicleSafetyFailuresAndAccidentInjuries() {
         tourists, the snowbirds, and the roads that just never seem to get a break.
         Hillsborough County saw 169 traffic deaths in 2025 and thousands of other
         injury crashes that nobody ever reads about in the paper. Most of the
-        time, people just assume it’s simple negligence. A distracted driver hits
+        time, people just assume it&apos;s simple negligence. A distracted driver hits
         someone from behind, the insurance cuts a check, and everybody moves on.
       </p>
       <p className="text-justify">
         That quick close misses the mechanical side. Brake lines corrode early.
         Tires separate at the tread. Airbags explode with way too much force, or
-        they don’t open at all. Backup cameras go dark. Every one of these is a
+        they don&apos;t open at all. Backup cameras go dark. Every one of these is a
         category NHTSA has recalled vehicles for in 2026 alone. Ford pulled back
         nearly 890,000 vehicles for a rearview camera fault, Nissan recalled over
         642,000 Rogues for a bearing defect that could cause sudden power loss in
@@ -443,7 +443,7 @@ export default function VehicleSafetyFailuresAndAccidentInjuries() {
       </div>
 
       <SectionTitle number="2">
-        Who’s Liable When A Defective Part Causes A Crash?
+        Who&apos;s Liable When A Defective Part Causes A Crash?
       </SectionTitle>
       <p className="text-justify">
         Blame for a safety failure can go all the way up the supply chain, not
@@ -508,7 +508,7 @@ export default function VehicleSafetyFailuresAndAccidentInjuries() {
           House Bill 837
         </ExternalLink>
         , and that same window usually applies to a negligence-based defect claim
-        too. Now, strict liability claims, the ones where you don’t have to prove the
+        too. Now, strict liability claims, the ones where you don&apos;t have to prove the
         factory was being sloppy, give you a longer 4-year runway. But that is
         capped by a 12-year statute of repose from the day the car was first sold.
         If you miss that window, your claim is gone, no matter how much proof you
