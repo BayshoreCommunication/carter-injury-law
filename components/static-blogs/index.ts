@@ -27,7 +27,7 @@ import WitnessStatementsFloridaCarAccidentClaims, {
 } from "./blogs/witness-statements-florida-car-accident-claims";
 import RentalCarAccidentsInFloridaUnderstandingInsuranceCoverage, {
   rentalCarAccidentsInFloridaUnderstandingInsuranceCoverage,
-} from "./blogs/Rental Car Accidents in Florida Understanding Insurance Coverage";
+} from "./blogs/rental-car-accidents-in-florida-understanding-insurance-coverage";
 import WhenRoadConditionsCauseCarAccidentsInFlorida, {
   whenRoadConditionsCauseCarAccidentsInFlorida,
 } from "./blogs/when-road-conditions-cause-car-accidents-in-florida";
