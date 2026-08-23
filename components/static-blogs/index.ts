@@ -40,6 +40,9 @@ import WeatherRelatedCarAccidentsInFloridaAndWhoMayBeLiable, {
 import HowLongToTakeActionAfterFloridaCarInjury, {
   howLongToTakeActionAfterFloridaCarInjury,
 } from "./blogs/how-long-to-take-action-after-florida-car-injury";
+import VehicleSafetyFailuresAndAccidentInjuries, {
+  vehicleSafetyFailuresAndAccidentInjuries,
+} from "./blogs/vehicle-safety-failures-and-accident-injuries";
 
 const staticBlogPostsUnsorted = [
   howAccidentScenePhotosCanStrengthen,
@@ -56,6 +59,7 @@ const staticBlogPostsUnsorted = [
   minorCarAccidentsSeriousInjuryClaimsFlorida,
   weatherRelatedCarAccidentsInFloridaAndWhoMayBeLiable,
   howLongToTakeActionAfterFloridaCarInjury,
+  vehicleSafetyFailuresAndAccidentInjuries,
 ];
 
 export const staticBlogPosts = [...staticBlogPostsUnsorted].sort(
@@ -90,6 +94,8 @@ export const staticBlogComponents = {
     WeatherRelatedCarAccidentsInFloridaAndWhoMayBeLiable,
   [howLongToTakeActionAfterFloridaCarInjury.slug]:
     HowLongToTakeActionAfterFloridaCarInjury,
+  [vehicleSafetyFailuresAndAccidentInjuries.slug]:
+    VehicleSafetyFailuresAndAccidentInjuries,
 };
 
 export function getStaticBlogBySlug(slug: string) {
