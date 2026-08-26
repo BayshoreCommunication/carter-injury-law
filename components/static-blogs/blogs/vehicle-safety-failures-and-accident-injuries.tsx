@@ -235,8 +235,10 @@ const jsonLd = {
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Vehicle Safety Failures and Accident Injuries",
-          "item": "https://www.carterinjurylaw.com/blog/vehicle-safety-failures-and-accident-injuries"
+          "name":
+            "Vehicle Safety Failures and Accident Injuries: When Liability Extends Beyond Drivers",
+          "item":
+            "https://www.carterinjurylaw.com/blog/vehicle-safety-failures-and-accident-injuries"
         }
       ]
     },
@@ -244,36 +246,50 @@ const jsonLd = {
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://www.carterinjurylaw.com/blog/vehicle-safety-failures-and-accident-injuries"
+        "@id":
+          "https://www.carterinjurylaw.com/blog/vehicle-safety-failures-and-accident-injuries"
       },
       "headline":
         "Vehicle Safety Failures and Accident Injuries: When Liability Extends Beyond Drivers",
       "name": "Can a Vehicle Safety Failure Force Huge Payouts for You?",
       "description":
         "Automakers share legal blame for injuries from mechanical failures in Tampa. See the rules that win people huge checks without going to a courtroom.",
-      "url": "https://www.carterinjurylaw.com/blog/vehicle-safety-failures-and-accident-injuries",
+      "url":
+        "https://www.carterinjurylaw.com/blog/vehicle-safety-failures-and-accident-injuries",
       "image":
-        "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fstatic-blogs%2Fvehicle-safety-failures-accident-injury-liability.webp&w=1200&q=75",
+        "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fstatic-blogs%2Fvehicle-safety-failures-accident-injury-liability.webp&w=1200&q=75&dpl=dpl_9XQP6ccPJn7fYyYxbyqHSrb7jXmi",
       "isPartOf": {
         "@type": "Blog",
         "@id": "https://www.carterinjurylaw.com/blog"
       },
       "about": {
         "@type": "Thing",
-        "name": "Vehicle Safety Failures & Product Liability Claims",
+        "name": "Vehicle Safety Failures and Product Liability Claims",
         "description":
-          "An overview of vehicle safety failures and auto product liability claims in Florida, including manufacturer negligence, recall completions, comparative fault rules, and dual claims against drivers and automakers."
+          "An overview of how defective vehicle components, recalls, mechanical failures, driver negligence, manufacturers, parts suppliers, dealerships, and repair shops can affect liability and injury claims after a Florida vehicle accident."
       },
       "keywords": [
-        "vehicle safety failures and accident injuries",
-        "defective car parts accident Tampa",
-        "Florida auto product liability lawyer",
-        "car manufacturer negligence Florida",
-        "Takata airbag defect lawsuit Tampa",
-        "vehicle recall accident claim Florida",
-        "strict liability car defect Florida",
+        "vehicle safety failures",
+        "vehicle safety failure accident",
+        "vehicle defect accident",
+        "defective vehicle parts",
+        "vehicle product liability",
+        "car accident product liability",
+        "Florida vehicle defect claim",
+        "Florida product liability claim",
+        "Florida car accident lawyer",
         "Tampa car accident lawyer",
-        "Carter Injury Law vehicle safety failure"
+        "Tampa product liability lawyer",
+        "defective car accident",
+        "manufacturer liability car accident",
+        "car manufacturer liability",
+        "defective brake accident",
+        "airbag defect accident",
+        "vehicle recall accident",
+        "NHTSA vehicle recalls",
+        "Florida auto accident",
+        "Florida injury claim",
+        "Carter Injury Law"
       ],
       "author": {
         "@type": "Organization",
@@ -285,7 +301,8 @@ const jsonLd = {
         "url": "https://www.carterinjurylaw.com/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fsite-logo%2Flogo.png&w=1080&q=75"
+          "url":
+            "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fsite-logo%2Flogo.png&w=1080&q=75&dpl=dpl_9XQP6ccPJn7fYyYxbyqHSrb7jXmi"
         }
       },
       "datePublished": "2026-08-23",
