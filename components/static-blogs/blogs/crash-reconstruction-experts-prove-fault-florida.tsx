@@ -261,25 +261,38 @@ const jsonLd = {
       "url":
         "https://www.carterinjurylaw.com/blog/crash-reconstruction-experts-prove-fault-florida",
       "image":
-        "https://www.carterinjurylaw.com/assets/static-blogs/crash-reconstruction-experts-prove-fault-florida.jpg",
+        "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fstatic-blogs%2Fcrash-reconstruction-experts-prove-fault-florida.jpg&w=1200&q=75&dpl=dpl_3eUJ5c4SkTGgF6CtYNEKUtkEd4YR",
       "isPartOf": {
         "@type": "Blog",
         "@id": "https://www.carterinjurylaw.com/blog"
       },
       "about": {
         "@type": "Thing",
-        "name": "Crash Reconstruction and Fault Proof in Florida",
+        "name": "Crash Reconstruction and Proving Fault in Florida",
         "description":
-          "How accident reconstruction experts use EDR data, physics, skid marks, and crush depth to establish liability under Florida's 51% comparative fault rule."
+          "An overview of how crash reconstruction experts investigate Florida vehicle accidents using event data recorder information, skid marks, vehicle damage, traffic camera footage, dashcam footage, scene evidence, and physics to determine how a crash occurred and establish fault."
       },
       "keywords": [
-        "crash reconstruction experts Florida",
-        "accident reconstruction expert Tampa",
-        "Florida car crash fault proof",
-        "event data recorder accident claim",
-        "Florida 51 percent fault rule",
-        "prove fault car accident Florida",
-        "Florida comparative negligence",
+        "crash reconstruction experts prove fault Florida",
+        "crash reconstruction Florida",
+        "accident reconstruction expert Florida",
+        "crash reconstruction expert",
+        "car accident reconstruction Florida",
+        "accident reconstruction lawyer Florida",
+        "how crash reconstruction proves fault",
+        "how to prove fault in a car accident Florida",
+        "Florida car accident fault",
+        "Florida comparative fault",
+        "Florida 51% fault rule",
+        "Florida Statute 768.81",
+        "event data recorder accident",
+        "EDR data car accident",
+        "black box accident evidence",
+        "skid mark analysis accident",
+        "vehicle damage accident reconstruction",
+        "traffic camera accident evidence",
+        "dashcam accident evidence",
+        "Florida car accident lawyer",
         "Tampa car accident lawyer",
         "Carter Injury Law"
       ],
@@ -294,7 +307,7 @@ const jsonLd = {
         "logo": {
           "@type": "ImageObject",
           "url":
-            "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fsite-logo%2Flogo.png&w=1080&q=75&dpl=dpl_9XQP6ccPJn7fYyYxbyqHSrb7jXmi"
+            "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fsite-logo%2Flogo.png&w=1080&q=75&dpl=dpl_3eUJ5c4SkTGgF6CtYNEKUtkEd4YR"
         }
       },
       "datePublished": "2026-08-30",
@@ -354,9 +367,9 @@ export default function CrashReconstructionExpertsProveFaultFlorida() {
       </div>
 
       <div className="my-8 rounded-lg border border-gray-200 bg-[#F7F8FA] !p-6 shadow-sm">
-        <h3 className="!mt-0 text-xl font-bold text-[#1B2639]">
+        <h2 className="!mt-0 text-xl font-bold text-[#1B2639]">
           Florida Crash Statistics &amp; Legal Deadlines
-        </h3>
+        </h2>
         <div className="mt-4 flex flex-col gap-4 md:flex-row">
           <StatCard
             value="366,300"
