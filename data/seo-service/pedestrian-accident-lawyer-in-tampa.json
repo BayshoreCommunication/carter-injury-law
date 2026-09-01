@@ -1,0 +1,48 @@
+{
+  "images": {
+    "hero-bg.png": {
+      "fileName": "hero-bg.png",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/hero-bg.png"
+    },
+    "carter.png": {
+      "fileName": "carter.png",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/carter.png"
+    },
+    "distraction": {
+      "fileName": "distraction.png",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/distraction.png"
+    },
+    "impaired": {
+      "fileName": "impaired.png",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/impaired.png"
+    },
+    "weather": {
+      "fileName": "weather.png",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/weather.png"
+    },
+    "traffic-congestion": {
+      "fileName": "traffic-congestion.png",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/traffic-congestion.png"
+    },
+    "driver-fatigue": {
+      "fileName": "driver-fatigue.png",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/driver-fatigue.png"
+    },
+    "evidence-timing": {
+      "fileName": "evidence-timing.png",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/evidence-timing.png"
+    },
+    "review": {
+      "fileName": "review.png",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/review.png"
+    },
+    "local-representation": {
+      "fileName": "local-representation.png",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/local-representation.png"
+    },
+    "carter-team-cta.png": {
+      "fileName": "carter-team-cta.png",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/carter-team-cta.png"
+    }
+  }
+}
