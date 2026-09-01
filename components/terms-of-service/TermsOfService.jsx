@@ -66,7 +66,7 @@ const TermsOfService = () => {
             </p>
             <p className="text-lg text-stone-950 text-center md:text-left ">
               Liability: Our website and the materials on our website are
-              provided on an 'as is' basis. To the extent permitted by law,
+              provided on an &apos;as is&apos; basis. To the extent permitted by law,
               Carter Injury Law, PA makes no warranties, expressed or implied,
               and hereby disclaims and negates all other warranties including,
               without limitation, implied warranties or conditions of
