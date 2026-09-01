@@ -65,7 +65,7 @@ const TestimonialsSection = () => {
                 <span className="font-extrabold text-secondary text-base">
                   — {item.name}
                 </span>
-                <Quote className="w-6 h-6 text-gray-300" />
+                <Quote className="w-6 h-6 text-gray-300 " />
               </div>
             </motion.div>
           ))}
