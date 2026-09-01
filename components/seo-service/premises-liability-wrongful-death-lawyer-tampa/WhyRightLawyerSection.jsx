@@ -19,7 +19,7 @@ const WhyRightLawyerSection = () => {
     },
     {
       icon: Layers,
-      title: "Multiple Liable Parties Can Complicate a Claim ",
+      title: "Multiple Liable Parties Can Complicate a Claim",
       description: "One fatal accident can involve a landlord, a management company, a maintenance contractor, a security firm, and a commercial insurance company, each with their own attorney pointing responsibility at someone else. Families navigating that without legal counsel usually end up caught in the middle of a blame loop that benefits everyone except them. Sorting out who actually owes what requires someone who has done it before.",
     },
     {
