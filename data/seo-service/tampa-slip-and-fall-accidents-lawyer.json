@@ -1,0 +1,159 @@
+{
+  "folderSlug": "tampa-slip-and-fall-accidents-lawyer",
+  "serviceName": "Tampa Slip and Fall Accidents Lawyer",
+  "location": "Tampa, FL",
+  "topic": "Slip and Fall Accidents & Premises Liability",
+  "totalImages": 15,
+  "images": [
+    {
+      "id": "carter-attorney",
+      "fileName": "carter.png",
+      "component": "HeroHeader",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/carter.png",
+      "altText": "Attorney David J. Carter - Lead Tampa Slip and Fall Accidents Lawyer",
+      "title": "Tampa Slip and Fall Accidents Lawyer - Attorney David J. Carter",
+      "description": "Professional portrait of Attorney David J. Carter representing Tampa Slip and Fall Accidents Lawyer in Tampa, FL.",
+      "caption": "David J. Carter - Dedicated Tampa Slip and Fall Personal Injury Trial Attorney"
+    },
+    {
+      "id": "hero-bg",
+      "fileName": "hero-bg.png",
+      "component": "HeroHeader (Background)",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/hero-bg.png",
+      "altText": "Hero Background Banner for Tampa Slip and Fall Accidents Lawyer",
+      "title": "Tampa Slip and Fall Accidents Lawyer Hero Section Background",
+      "description": "Dark professional background graphic for Tampa Slip and Fall Accidents Lawyer hero header in Tampa, FL.",
+      "caption": "Tampa Slip and Fall Accidents Lawyer Practice Header Background"
+    },
+    {
+      "id": "dedicated-counsel",
+      "fileName": "dedicated-counsel.png",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/dedicated-counsel.png",
+      "altText": "Tampa slip and fall accidents attorney meeting with an injured client in a professional law office",
+      "title": "Dedicated Legal Counsel for Tampa Slip and Fall Injury Claims",
+      "description": "An attorney meets with an injured client in a professional law office, providing legal guidance and discussing options following a slip and fall accident.",
+      "caption": "Experienced legal counsel can help injured clients navigate slip and fall claims."
+    },
+    {
+      "id": "carter-team-cta",
+      "fileName": "carter-team-cta.png",
+      "component": "FinalCTASection",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/carter-team-cta.png",
+      "altText": "Carter Injury Law Tampa Slip and Fall Legal Team in Tampa, FL",
+      "title": "Carter Injury Law Tampa Slip and Fall Legal Team",
+      "description": "Experienced legal team standing ready for slip and fall accident consultations in Tampa, FL.",
+      "caption": "Our legal team is standing by to evaluate your slip and fall case in Tampa, FL."
+    },
+    {
+      "id": "communication-mistakes",
+      "fileName": "communication-mistakes.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/communication-mistakes.png",
+      "altText": "Insurance Adjuster Communication Mistakes in Slip and Fall Claims",
+      "title": "Insurance Communication Pitfalls",
+      "description": "Illustration of common communication mistakes with insurance adjusters in Tampa slip and fall cases.",
+      "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
+    },
+    {
+      "id": "evidence-timing",
+      "fileName": "evidence-timing.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/evidence-timing.png",
+      "altText": "Evidence Preservation and Timing Delays in Tampa Slip and Fall Cases",
+      "title": "Evidence Preservation & Legal Deadlines",
+      "description": "Critical timing and evidence collection guidelines for slip and fall accident claims in Tampa, FL.",
+      "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
+    },
+    {
+      "id": "justice-family",
+      "fileName": "justice-family.png",
+      "component": "JusticeSecuredSection",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/justice-family.png",
+      "altText": "Justice and Compensation for Tampa Families after Slip and Fall Accidents",
+      "title": "Justice for Tampa Slip and Fall Clients",
+      "description": "Supporting injured clients in Tampa, FL to secure full financial recovery and legal justice.",
+      "caption": "Fighting to secure financial peace of mind for injured slip and fall victims."
+    },
+    {
+      "id": "local-representation",
+      "fileName": "local-representation.png",
+      "component": "WhyChooseUsSection",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/local-representation.png",
+      "altText": "Tampa attorney providing personalized legal guidance to clients during a consultation",
+      "title": "Local Legal Representation With Strong Community Ties",
+      "description": "A Tampa attorney discusses a legal matter with clients in a private office, emphasizing personalized representation.",
+      "caption": "Local representation provides personalized support when injured clients need it most."
+    },
+    {
+      "id": "review",
+      "fileName": "review.png",
+      "component": "WhyRightLawyerSection",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/review.png",
+      "altText": "Attorney explaining legal documents to injured clients after a slip and fall accident in Tampa",
+      "title": "Why Injured Tampa Victims Need Legal Representation After a Slip and Fall",
+      "description": "An attorney reviews important documents with an injured client, illustrating how legal representation helps pursue full compensation.",
+      "caption": "Legal guidance helps injured victims pursue full financial compensation."
+    },
+    {
+      "id": "expert-analysis",
+      "fileName": "expert-analysis.png",
+      "component": "ExpertValuationSection",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/expert-analysis.png",
+      "altText": "Attorney reviewing documents with clients to support a slip and fall damage claim",
+      "title": "Supporting Every Damage Claim With Expert Analysis",
+      "description": "An attorney carefully reviews legal documents with clients during a consultation, demonstrating detailed analysis for slip and fall claims.",
+      "caption": "Detailed evidence and expert analysis strengthen slip and fall injury claims."
+    },
+    {
+      "id": "distraction",
+      "fileName": "distraction.png",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/distraction.png",
+      "altText": "Wet Floors and Spilled Liquids causing Slip and Fall Accidents in Tampa",
+      "title": "Wet Floors and Spilled Liquids",
+      "description": "Uncleaned puddles and unflagged liquid spills causing severe falls in Tampa commercial venues.",
+      "caption": "Neglecting spilled liquids triggers premises liability for property operators."
+    },
+    {
+      "id": "impaired",
+      "fileName": "impaired.png",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/impaired.png",
+      "altText": "Uneven Sidewalks and Damaged Walkways in Tampa",
+      "title": "Uneven Sidewalks and Damaged Walkways",
+      "description": "Broken pavement and lifted concrete edges causing trip and fall injuries in Tampa.",
+      "caption": "Property maintenance failures lead to emergency room fall injuries."
+    },
+    {
+      "id": "weather",
+      "fileName": "weather.png",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/weather.png",
+      "altText": "Unsafe Stairways and Missing Handrails in Tampa",
+      "title": "Unsafe Stairways and Missing Handrails",
+      "description": "Building code violations, broken handrails, and slippery steps in Tampa properties.",
+      "caption": "Stairway hazards are fully predictable and preventable under Florida building codes."
+    },
+    {
+      "id": "traffic-congestion",
+      "fileName": "traffic-congestion.png",
+      "component": "CommonCausesSection (Cause 04)",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/traffic-congestion.png",
+      "altText": "Poor Lighting in Public and Commercial Spaces in Tampa",
+      "title": "Poor Lighting in Public and Commercial Spaces",
+      "description": "Dimly lit parking lots, stairwells, and hallways hiding property hazards in Tampa.",
+      "caption": "Inadequate lighting is a recognized dangerous condition under Florida premises liability law."
+    },
+    {
+      "id": "driver-fatigue",
+      "fileName": "driver-fatigue.png",
+      "component": "CommonCausesSection (Cause 05)",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/driver-fatigue.png",
+      "altText": "Cluttered Walkways and Falling Merchandise in Tampa Retail Stores",
+      "title": "Cluttered Walkways and Falling Merchandise",
+      "description": "Leftover boxes, equipment obstacles, and unanchored merchandise causing injuries in Tampa stores.",
+      "caption": "Retail and warehouse operators bear direct legal responsibility for cluttered walkways."
+    }
+  ]
+}

@@ -115,7 +115,7 @@ const AreasWeServeSection = () => {
               <Scale className="w-7 h-7 text-white" strokeWidth={1.5} />
             </div>
             <p className="text-white font-bold text-sm md:text-base leading-snug max-w-lg">
-              Wherever in Tampa Bay your family is, we're ready to sit down with you and get your claim started.
+              Wherever in Tampa Bay your family is, we&apos;re ready to sit down with you and get your claim started.
             </p>
           </div>
 

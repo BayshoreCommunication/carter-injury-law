@@ -4,21 +4,21 @@ import { MapPin, ArrowRight, Scale, ExternalLink } from "lucide-react";
 
 const offices = [
   {
-    label: "Main Largo Office",
-    name: "Carter Injury Law",
-    address: "801 W. Bay Dr., Suite 229",
-    cityState: "Largo, FL 33770",
-    badge: null,
-    mapsUrl: "https://maps.google.com/?q=801+W+Bay+Dr+Suite+229+Largo+FL+33770",
-    embedSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3525.5693099386745!2d-82.7995663239731!3d27.915187216292992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2fa72fe14cedf%3A0x6af59f2dc2dfe3b4!2s801%20W%20Bay%20Dr%20Ste.%20229%2C%20Largo%2C%20FL%2033770%2C%20USA!5e0!3m2!1sen!2sbd!4v1771997309287!5m2!1sen!2sbd",
-  },
-  {
-    label: "Tampa Office",
-    name: "Carter Injury Law",
+    label: "Main Office",
+    name: "Carter Injury Law — Tampa",
     address: "3114 N. Boulevard",
     cityState: "Tampa, FL 33603",
     badge: null,
     mapsUrl: "https://maps.google.com/?q=3114+N+Boulevard+Tampa+FL+33603",
+    embedSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4335.809177193109!2d-82.47045932387964!3d27.972312213754044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2c3b1208be12d%3A0x4cce7467aad41864!2sCarter%20Injury%20Law!5e1!3m2!1sen!2sbd!4v1784709237604!5m2!1sen!2sbd",
+  },
+  {
+    label: "Satellite Office",
+    name: "Carter Injury Law — Largo",
+    address: "801 W. Bay Dr., Suite 229",
+    cityState: "Largo, FL 33770",
+    badge: "By Appointment Only",
+    mapsUrl: "https://maps.google.com/?q=801+W+Bay+Dr+Suite+229+Largo+FL+33770",
     embedSrc: null,
   },
 ];
@@ -39,18 +39,18 @@ const AreasWeServeSection = () => {
           </div>
 
           <h2 className="text-3xl md:text-5xl font-extrabold text-secondary leading-[1.15] tracking-tight mb-5">
-            Premises Liability Wrongful Death Lawyer Largo —{" "}
+            Tampa Slip and Fall Accidents Lawyer —{" "}
             <span className="block text-primary">Areas We Serve</span>
           </h2>
         </div>
 
         {/* ── Content Grid ── */}
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_400px] gap-6 mb-8">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_400px] gap-6 mb-6">
 
           {/* ── Left: Google Map Embed ── */}
-          <div className="rounded-[20px] overflow-hidden border border-gray-100 shadow-sm w-full h-[380px] sm:h-[460px] lg:h-auto lg:min-h-[380px]">
+          <div className="rounded-[20px] overflow-hidden border border-gray-100 shadow-sm w-full h-[380px] sm:h-[460px] lg:h-auto lg:min-h-[520px]">
             <iframe
-              title="Carter Injury Law — Largo Office Location"
+              title="Carter Injury Law — Tampa Office Location"
               src={offices[0].embedSrc}
               width="100%"
               height="100%"
@@ -91,6 +91,11 @@ const AreasWeServeSection = () => {
                     <p className="font-semibold text-secondary text-sm">
                       {office.cityState}
                     </p>
+                    {office.badge && (
+                      <span className="inline-block mt-2 text-[11px] font-extrabold tracking-wider text-primary bg-primary/10 rounded-full px-3 py-1 uppercase">
+                        {office.badge}
+                      </span>
+                    )}
                   </div>
                 </div>
 
@@ -101,7 +106,6 @@ const AreasWeServeSection = () => {
               </a>
             ))}
           </div>
-
         </div>
 
         {/* ── Bottom CTA Bar ── */}
@@ -111,7 +115,7 @@ const AreasWeServeSection = () => {
               <Scale className="w-7 h-7 text-white" strokeWidth={1.5} />
             </div>
             <p className="text-white font-bold text-sm md:text-base leading-snug max-w-lg">
-              Wherever in Pinellas County your family is, we&apos;re ready to sit down with you and get your claim started.
+              Wherever in Tampa Bay your family is, we&apos;re ready to sit down with you and get your claim started.
             </p>
           </div>
 
