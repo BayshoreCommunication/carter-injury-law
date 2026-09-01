@@ -18,7 +18,7 @@ import FinalCTASection from "@/components/seo-service/pedestrian-accidents-lawye
 import FAQSection from "@/components/seo-service/pedestrian-accidents-lawyer-largo/FAQSection";
 
 export const metadata = {
-  title: "Pedestrian Accidents Lawyer Largo | Recover After a Serious Injury ",
+  title: "Pedestrian Accidents Lawyer Largo | Recover After a Serious Injury",
   description:
     "Pedestrian accidents lawyer in Largo providing legal representation for victims seeking compensation after crashes caused by negligent drivers.",
   robots: {
