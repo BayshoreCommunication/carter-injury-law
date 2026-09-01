@@ -57,7 +57,7 @@ const TestimonialsSection = () => {
                 </div>
 
                 <p className="text-gray-700 text-sm leading-relaxed font-medium italic mb-6">
-                  "{item.quote}"
+                  &quot;{item.quote}&quot;
                 </p>
               </div>
 
