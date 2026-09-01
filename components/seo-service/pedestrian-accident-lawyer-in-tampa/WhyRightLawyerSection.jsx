@@ -45,7 +45,7 @@ const WhyRightLawyerSection = () => {
             >
               <div className="relative w-full h-[400px] sm:h-[480px]">
                 <Image
-                  src={getSeoImage("review", "pedestrian-accident-lawyer-in-tampa").filePath}
+                  src={getSeoImage("Tampa Families Need Legal Help After Car Accidents.webp", "pedestrian-accident-lawyer-in-tampa").filePath}
                   alt="Why Injured Pedestrians Lose Out on Compensation Without Legal Representation"
                   fill
                   className="object-cover"

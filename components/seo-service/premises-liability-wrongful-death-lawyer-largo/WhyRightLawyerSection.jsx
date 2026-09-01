@@ -45,8 +45,8 @@ const WhyRightLawyerSection = () => {
             >
               <div className="relative w-full h-[400px] sm:h-[480px]">
                 <Image
-                  src={getSeoImage("review", "premises-liability-wrongful-death-lawyer-largo").filePath}
-                  alt="Why Grieving Largo Families Need Legal Representation"
+                  src={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "premises-liability-wrongful-death-lawyer-largo").filePath}
+                  alt="Why Injured Victims Need Legal Counsel After an Accident"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 40vw"

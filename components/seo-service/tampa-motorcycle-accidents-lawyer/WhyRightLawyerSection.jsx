@@ -50,7 +50,7 @@ const WhyRightLawyerSection = () => {
 
         <div className="mt-12 relative w-full h-[280px] md:h-[340px] rounded-2xl overflow-hidden shadow-2xl border border-gray-200/50">
           <Image
-            src={getSeoImage("review.png", "tampa-motorcycle-accidents-lawyer").filePath} alt={getSeoImage("review.png", "tampa-motorcycle-accidents-lawyer").altText} title={getSeoImage("review.png", "tampa-motorcycle-accidents-lawyer").title}
+            src={getSeoImage("Tampa Families Need Legal Help After Car Accidents.webp", "tampa-motorcycle-accidents-lawyer").filePath} alt={getSeoImage("Tampa Families Need Legal Help After Car Accidents.webp", "tampa-motorcycle-accidents-lawyer").altText} title={getSeoImage("Tampa Families Need Legal Help After Car Accidents.webp", "tampa-motorcycle-accidents-lawyer").title}
             fill
             sizes="(max-width: 1024px) 100vw, 40vw"
             className="object-cover"
