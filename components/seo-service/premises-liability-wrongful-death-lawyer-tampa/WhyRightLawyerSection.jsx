@@ -10,7 +10,7 @@ const WhyRightLawyerSection = () => {
     {
       icon: Clock,
       title: "Property Owners Begin Protecting Their Interests Immediately",
-      description: "The moment a fatal accident happens on a property, the owner's commercial insurer activates. Risk managers document the scene. Adjusters take photographs. Defense attorneys get retained. All of this happens while your family is still sitting in a hospital or making funeral arrangements. Waiting even a few days without legal representation gives the other side an open runway to shape what the evidence looks like before anyone is there to push back.",
+      description: "The moment a fatal accident happens on a property, the owner&apos;s commercial insurer activates. Risk managers document the scene. Adjusters take photographs. Defense attorneys get retained. All of this happens while your family is still sitting in a hospital or making funeral arrangements. Waiting even a few days without legal representation gives the other side an open runway to shape what the evidence looks like before anyone is there to push back.",
     },
     {
       icon: ShieldAlert,
@@ -25,7 +25,7 @@ const WhyRightLawyerSection = () => {
     {
       icon: Scale,
       title: "Corporate Insurance Defense Strategies",
-      description: "Commercial insurance carriers defending property owners don't approach these claims neutrally. They look for ways to reduce the payout. That might mean arguing the deceased was partly at fault, that the hazard was obvious, or that the property owner had no prior notice of the condition. These arguments can be dismantled with the right evidence and legal preparation, but they're genuinely difficult to counter without an experienced attorney in your corner.",
+      description: "Commercial insurance carriers defending property owners don&apos;t approach these claims neutrally. They look for ways to reduce the payout. That might mean arguing the deceased was partly at fault, that the hazard was obvious, or that the property owner had no prior notice of the condition. These arguments can be dismantled with the right evidence and legal preparation, but they&apos;re genuinely difficult to counter without an experienced attorney in your corner.",
     },
   ];
 
@@ -60,7 +60,7 @@ const WhyRightLawyerSection = () => {
                   Immediate Protection Required
                 </p>
                 <p className="text-base sm:text-lg font-bold leading-snug">
-                  The property owner's side is organized before a family has had time to grieve.
+                  The property owner&apos;s side is organized before a family has had time to grieve.
                 </p>
               </div>
             </motion.div>
@@ -81,7 +81,7 @@ const WhyRightLawyerSection = () => {
                 Why Grieving Tampa Families Lose Out on Justice Without Legal Representation After a Fatal Premises Liability Accident
               </h2>
               <p className="text-gray-600 text-sm sm:text-base mt-4 font-medium leading-relaxed">
-                Most families don't realize how quickly the deck gets stacked against them. The property owner's side is organized before a family has had time to grieve. So, the most important thing now is to understand what happens in those early hours.
+                Most families don&apos;t realize how quickly the deck gets stacked against them. The property owner&apos;s side is organized before a family has had time to grieve. So, the most important thing now is to understand what happens in those early hours.
               </p>
             </motion.div>
 

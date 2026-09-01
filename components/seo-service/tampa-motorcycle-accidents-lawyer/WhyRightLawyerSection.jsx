@@ -90,7 +90,7 @@ const WhyRightLawyerSection = () => {
                 </h3>
               </div>
               <p className="text-gray-600 text-sm md:text-[15px] leading-relaxed font-medium">
-                Figuring out who is to blame in a motorcycle crash could be made difficult by disagreements, prejudiced views against riders, and understanding which traffic laws apply. Few people can handle this process on their own. A reliable Tampa motorcycle accidents lawyer can help riders decide who is to blame making sure they aren't being taken advantage of. Insurance companies could try to make a rider seem like an aggressive driver. We counter these narratives with objective evidence and expert testimony to protect your reputation and your claim.
+                Figuring out who is to blame in a motorcycle crash could be made difficult by disagreements, prejudiced views against riders, and understanding which traffic laws apply. Few people can handle this process on their own. A reliable Tampa motorcycle accidents lawyer can help riders decide who is to blame making sure they aren&apos;t being taken advantage of. Insurance companies could try to make a rider seem like an aggressive driver. We counter these narratives with objective evidence and expert testimony to protect your reputation and your claim.
               </p>
             </div>
           </motion.div>
