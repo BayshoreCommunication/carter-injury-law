@@ -45,7 +45,7 @@ const WhyRightLawyerSection = () => {
             >
               <div className="relative w-full h-[400px] sm:h-[480px]">
                 <Image
-                  src={getSeoImage("Tampa Families Need Legal Help After Car Accidents.webp", "tampa-slip-and-fall-accidents-lawyer").filePath}
+                  src={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "tampa-slip-and-fall-accidents-lawyer").filePath}
                   alt="Why Slip and Fall Accident Victims Lose Out on Compensation Without Legal Representation"
                   fill
                   className="object-cover"
