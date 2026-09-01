@@ -14,7 +14,7 @@ const WhyRightLawyerSection = () => {
     },
     {
       icon: ShieldAlert,
-      title: "Missing Maintenance Records and Inspection Reports",
+      title: "Missing Maintenance Records and Inspection Reports ",
       description: "Maintenance logs are some of the most revealing documents in a premises liability case. They show what the property owner knew, when they knew it, and what they chose not to do about it. Without a formal preservation demand delivered quickly, those records follow routine destruction schedules. An attorney can issue a legal hold notice that stops that clock and obligates the property owner to keep every relevant document intact.",
     },
     {
