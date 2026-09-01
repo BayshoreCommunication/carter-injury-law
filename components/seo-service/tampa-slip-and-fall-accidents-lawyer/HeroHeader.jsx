@@ -236,7 +236,7 @@ const HeroHeader = ({
                 No Fee Unless We Win
               </p>
               <p className="text-gray-400 text-xs sm:text-sm mt-1.5 leading-normal">
-                You don't pay unless we win.
+                You don&apos;t pay unless we win.
               </p>
             </div>
           </div>
