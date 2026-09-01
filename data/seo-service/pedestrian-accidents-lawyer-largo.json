@@ -1,0 +1,48 @@
+{
+  "images": {
+    "hero-bg.png": {
+      "fileName": "hero-bg.png",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/hero-bg.png"
+    },
+    "carter.png": {
+      "fileName": "carter.png",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/carter.png"
+    },
+    "distraction": {
+      "fileName": "distraction.png",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/distraction.png"
+    },
+    "impaired": {
+      "fileName": "impaired.png",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/impaired.png"
+    },
+    "weather": {
+      "fileName": "weather.png",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/weather.png"
+    },
+    "traffic-congestion": {
+      "fileName": "traffic-congestion.png",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/traffic-congestion.png"
+    },
+    "driver-fatigue": {
+      "fileName": "driver-fatigue.png",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/driver-fatigue.png"
+    },
+    "evidence-timing": {
+      "fileName": "evidence-timing.png",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/evidence-timing.png"
+    },
+    "review": {
+      "fileName": "review.png",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/review.png"
+    },
+    "local-representation": {
+      "fileName": "local-representation.png",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/local-representation.png"
+    },
+    "carter-team-cta.png": {
+      "fileName": "carter-team-cta.png",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/carter-team-cta.png"
+    }
+  }
+}

@@ -1824,6 +1824,136 @@
           "caption": "Our legal team is available 24/7 for a free confidential case evaluation."
         }
       ]
+    },
+    "pedestrian-accidents-lawyer-largo": {
+      "folderSlug": "pedestrian-accidents-lawyer-largo",
+      "serviceName": "Pedestrian Accidents Lawyer Largo",
+      "location": "Largo, FL",
+      "topic": "Pedestrian Accidents",
+      "totalImages": 11,
+      "images": [
+        {
+          "sequence": 1,
+          "id": "carter-attorney",
+          "fileName": "carter.png",
+          "component": "HeroHeader",
+          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/carter.png",
+          "altText": "Attorney David J. Carter - Lead Pedestrian Accidents Lawyer in Largo, FL",
+          "title": "Pedestrian Accidents Lawyer Largo - Attorney David J. Carter",
+          "description": "Professional portrait of Attorney David J. Carter representing Pedestrian Accidents Lawyer Largo in Largo, FL.",
+          "caption": "David J. Carter - Dedicated Pedestrian Accident Trial Attorney"
+        },
+        {
+          "sequence": 2,
+          "id": "hero-bg",
+          "fileName": "hero-bg.png",
+          "component": "HeroHeader (Background)",
+          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/hero-bg.png",
+          "altText": "Hero Background Banner for Pedestrian Accidents Lawyer Largo in Largo, FL",
+          "title": "Pedestrian Accidents Lawyer Largo Hero Section Background",
+          "description": "Dark professional background graphic for Pedestrian Accidents Lawyer Largo hero header.",
+          "caption": "Pedestrian Accidents Lawyer Largo Legal Practice Header Background"
+        },
+        {
+          "sequence": 3,
+          "id": "distraction",
+          "fileName": "distraction.png",
+          "component": "CommonCausesSection (Cause 01)",
+          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/distraction.png",
+          "altText": "Crosswalk Collisions Near Busy Retail Centers in Largo",
+          "title": "Crosswalk Collisions Near Busy Retail Centers",
+          "description": "Busy retail center crosswalk hazards in Largo, FL.",
+          "caption": "Drivers turning near retail corridors must yield to pedestrians."
+        },
+        {
+          "sequence": 4,
+          "id": "impaired",
+          "fileName": "impaired.png",
+          "component": "CommonCausesSection (Cause 02)",
+          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/impaired.png",
+          "altText": "Drivers Overlooking Pedestrians at Signalized Intersections",
+          "title": "Drivers Overlooking Pedestrians at Signalized Intersections",
+          "description": "Intersection turning hazards and walk signal violations in Largo.",
+          "caption": "Florida law requires drivers to yield to pedestrians with walk signals."
+        },
+        {
+          "sequence": 5,
+          "id": "weather",
+          "fileName": "weather.png",
+          "component": "CommonCausesSection (Cause 03)",
+          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/weather.png",
+          "altText": "School Zone and Neighborhood Traffic Hazards in Largo",
+          "title": "School Zone and Neighborhood Traffic Hazards",
+          "description": "Speeding hazards near Pinellas County school zones and residential roads.",
+          "caption": "Ignoring school zone speed limits places pedestrians at grave risk."
+        },
+        {
+          "sequence": 6,
+          "id": "traffic-congestion",
+          "fileName": "traffic-congestion.png",
+          "component": "CommonCausesSection (Cause 04)",
+          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/traffic-congestion.png",
+          "altText": "Parking Lot and Private Property Incidents in Largo",
+          "title": "Parking Lot and Private Property Incidents",
+          "description": "Foot traffic and backing vehicle hazards in Largo commercial lots.",
+          "caption": "Property owners must maintain safe marked pedestrian paths."
+        },
+        {
+          "sequence": 7,
+          "id": "driver-fatigue",
+          "fileName": "driver-fatigue.png",
+          "component": "CommonCausesSection (Cause 05)",
+          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/driver-fatigue.png",
+          "altText": "Pedestrian Crashes Involving Commercial Vehicles in Largo",
+          "title": "Pedestrian Crashes Involving Commercial Vehicles",
+          "description": "Delivery fleet and commercial vehicle collisions in Largo.",
+          "caption": "Commercial vehicle operators hold heightened legal duties."
+        },
+        {
+          "sequence": 8,
+          "id": "evidence-timing",
+          "fileName": "evidence-timing.png",
+          "component": "CommonCausesSection (Cause 06)",
+          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/evidence-timing.png",
+          "altText": "Reduced Visibility During Evening Hours in Largo",
+          "title": "Reduced Visibility During Evening Hours",
+          "description": "Nighttime and unlit road pedestrian hazards in Pinellas County.",
+          "caption": "Drivers must exercise increased care during dark evening hours."
+        },
+        {
+          "sequence": 9,
+          "id": "review",
+          "fileName": "review.png",
+          "component": "WhyRightLawyerSection",
+          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/review.png",
+          "altText": "Why Injured Pedestrians Lose Out on Compensation Without Legal Representation",
+          "title": "Protecting Injured Pedestrians in Largo",
+          "description": "Challenging unfair defense tactics and disputed liability in Largo.",
+          "caption": "Dedicated legal counsel protects your rights after a pedestrian crash."
+        },
+        {
+          "sequence": 10,
+          "id": "local-representation",
+          "fileName": "local-representation.png",
+          "component": "WhyChooseUsSection",
+          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/local-representation.png",
+          "altText": "Why Largo Injury Victims Choose Carter Injury Law",
+          "title": "Local Pedestrian Accident Representation in Largo",
+          "description": "Personal attention and direct attorney access in Largo, FL.",
+          "caption": "Direct communication with your attorney from intake to resolution."
+        },
+        {
+          "sequence": 11,
+          "id": "carter-team-cta",
+          "fileName": "carter-team-cta.png",
+          "component": "FinalCTASection",
+          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/carter-team-cta.png",
+          "altText": "Carter Injury Law Pedestrian Accident Legal Team in Largo, FL",
+          "title": "Carter Injury Law Pedestrian Accident Legal Team",
+          "description": "Experienced legal team ready for 24/7 consultation in Largo, FL.",
+          "caption": "Our legal team is available 24/7 for a free confidential case evaluation."
+        }
+      ]
     }
   }
 }
