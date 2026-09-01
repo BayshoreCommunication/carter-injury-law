@@ -55,7 +55,7 @@ const WhyRightLawyerSection = () => {
               </div>
 
               <div className="absolute bottom-0 inset-x-0 p-6 sm:p-8 text-white z-10">
-                <p className="text-xs font-bold uppercase tracking-widest text-primary mb-2">
+                <p className="text-xs font-bold uppercase tracking-widest text-primary mb-2 ">
                   Immediate Legal Action Needed
                 </p>
                 <p className="text-base sm:text-lg font-bold leading-snug">
