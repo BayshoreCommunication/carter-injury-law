@@ -50,7 +50,7 @@ const CompensationTypesSection = () => {
           </h2>
           <div className="w-24 h-[3px] bg-primary mx-auto mt-6 mb-6" />
           <p className="text-gray-600 text-sm md:text-base leading-relaxed font-medium">
-            The financial impact of a serious fall extends well past the first hospital visit. Florida premises liability law allows injured victims to pursue compensation for every form of harm caused by the property owner's negligence, economic and non-economic alike.
+            The financial impact of a serious fall extends well past the first hospital visit. Florida premises liability law allows injured victims to pursue compensation for every form of harm caused by the property owner&apos;s negligence, economic and non-economic alike.
           </p>
         </div>
 

@@ -47,7 +47,7 @@ const WhyChooseUsSection = () => {
           </h2>
           <div className="w-24 h-[3px] bg-primary mx-auto mt-6 mb-6" />
           <p className="text-gray-600 text-sm md:text-base leading-relaxed font-medium">
-            There's no shortage of personal injury firms in Tampa. What separates Carter Injury Law is the way the firm actually handles cases and treats the people it represents.
+            There&apos;s no shortage of personal injury firms in Tampa. What separates Carter Injury Law is the way the firm actually handles cases and treats the people it represents.
           </p>
         </div>
 

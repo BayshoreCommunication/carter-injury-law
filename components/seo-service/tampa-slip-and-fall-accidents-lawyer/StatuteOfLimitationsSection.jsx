@@ -43,7 +43,7 @@ const StatuteOfLimitationsSection = () => {
           </div>
 
           <h2 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-secondary tracking-tight leading-tight">
-            Florida's Statute of Limitations, Why Timing Is Important in Your Case
+            Florida&apos;s Statute of Limitations, Why Timing Is Important in Your Case
           </h2>
 
           <div className="w-24 h-[3px] bg-primary mx-auto mt-6 mb-6" />

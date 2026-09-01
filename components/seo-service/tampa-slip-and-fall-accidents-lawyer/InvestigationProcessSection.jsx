@@ -40,7 +40,7 @@ const InvestigationProcessSection = () => {
           </h2>
           <div className="w-24 h-[3px] bg-primary mx-auto mt-6 mb-6" />
           <p className="text-gray-600 text-sm md:text-base leading-relaxed font-medium">
-            The property owner isn't always the only party that can be held liable. Florida premises liability law can reach property managers, landlords, and government entities depending on who controlled the conditions that led to the injury.
+            The property owner isn&apos;t always the only party that can be held liable. Florida premises liability law can reach property managers, landlords, and government entities depending on who controlled the conditions that led to the injury.
           </p>
         </div>
 

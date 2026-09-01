@@ -81,7 +81,7 @@ const CommonCausesSection = () => {
           </h2>
           <div className="w-24 h-[3px] bg-primary mx-auto mt-6 mb-6" />
           <p className="text-gray-600 text-sm md:text-base leading-relaxed font-medium">
-            Falls don't happen in a vacuum. Behind almost every serious slip and fall is a property owner who knew, or should have known, that a dangerous condition existed and chose to do nothing about it.
+            Falls don&apos;t happen in a vacuum. Behind almost every serious slip and fall is a property owner who knew, or should have known, that a dangerous condition existed and chose to do nothing about it.
           </p>
         </motion.div>
 

@@ -22,7 +22,7 @@ const FinalCTASection = () => {
               </h2>
               <div className="w-24 h-[3px] bg-primary mt-6 mb-6" />
               <p className="text-gray-300 text-base sm:text-lg leading-relaxed font-medium">
-                If you've been seriously hurt on someone else's property, waiting is the worst decision you can make. Carter Injury Law is available 24 hours a day, seven days a week. Call, share what happened, and let an experienced attorney take it from there.
+                If you&apos;ve been seriously hurt on someone else&apos;s property, waiting is the worst decision you can make. Carter Injury Law is available 24 hours a day, seven days a week. Call, share what happened, and let an experienced attorney take it from there.
               </p>
             </div>
 
