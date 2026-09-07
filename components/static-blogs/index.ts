@@ -46,6 +46,9 @@ import VehicleSafetyFailuresAndAccidentInjuries, {
 import CrashReconstructionExpertsProveFaultFlorida, {
   crashReconstructionExpertsProveFaultFlorida,
 } from "./blogs/crash-reconstruction-experts-prove-fault-florida";
+import WhatEvidenceIsMostImportantInAFloridaCarAccidentCase, {
+  whatEvidenceIsMostImportantInAFloridaCarAccidentCase,
+} from "./blogs/what-evidence-is-most-important-in-a-florida-car-accident-case";
 
 const staticBlogPostsUnsorted = [
   howAccidentScenePhotosCanStrengthen,
@@ -64,6 +67,7 @@ const staticBlogPostsUnsorted = [
   howLongToTakeActionAfterFloridaCarInjury,
   vehicleSafetyFailuresAndAccidentInjuries,
   crashReconstructionExpertsProveFaultFlorida,
+  whatEvidenceIsMostImportantInAFloridaCarAccidentCase,
 ];
 
 export const staticBlogPosts = [...staticBlogPostsUnsorted].sort(
@@ -102,6 +106,8 @@ export const staticBlogComponents = {
     VehicleSafetyFailuresAndAccidentInjuries,
   [crashReconstructionExpertsProveFaultFlorida.slug]:
     CrashReconstructionExpertsProveFaultFlorida,
+  [whatEvidenceIsMostImportantInAFloridaCarAccidentCase.slug]:
+    WhatEvidenceIsMostImportantInAFloridaCarAccidentCase,
 };
 
 export function getStaticBlogBySlug(slug: string) {

@@ -264,7 +264,7 @@ export default function CanPreExistingConditionsAffectAFloridaInjuryClaim() {
       </div>
 
       <p className="mt-6">
-        Florida's{" "}
+        Florida&apos;s{" "}
         <ExternalLink href="https://www.nolo.com/legal-encyclopedia/pre-existing-conditions-personal-injury.html">
           insurance bad faith laws
         </ExternalLink>{" "}
@@ -326,7 +326,7 @@ How Does Florida Law Handle Worsening an Old Injury?
 
       <SectionTitle number="4">
        <h2>
-        Does Florida's Comparative Fault Law Hurt Your Pre-Existing Condition Claim?
+        Does Florida&apos;s Comparative Fault Law Hurt Your Pre-Existing Condition Claim?
        </h2>
       </SectionTitle>
       <p>
@@ -403,7 +403,7 @@ How Does Florida Law Handle Worsening an Old Injury?
       </div>
 
       <p className="mt-6">
-        Florida's hot climate keeps people active and moving. Too many
+        Florida&apos;s hot climate keeps people active and moving. Too many
         Floridians tell themselves the pain after an accident will go away on
         its own. Sometimes it does not.{" "}
         <ExternalLink href="https://www.webmd.com/pain-management/features/chronic-pain-conditions-accidents">
@@ -430,10 +430,10 @@ How Does Florida Law Handle Worsening an Old Injury?
 
       <blockquote className="border-l-4 border-[#EC1D21] bg-[#F9FAFB] !p-6 my-6 italic text-gray-600">
         <p className="!mb-4">
-          "Aggravation cases require a precise presentation of before-and-after
+          &quot;Aggravation cases require a precise presentation of before-and-after
           medical evidence. The strongest claims combine treating physician
           testimony with objective imaging that documents measurable change in the
-          patient's condition."
+          patient&apos;s condition.&quot;
         </p>
         <cite className="block text-sm font-bold text-[#1B2639] not-italic">
           — Dr. Michael Torres, Orthopedic Specialist and Medical Expert Witness,
@@ -455,10 +455,10 @@ How Does Florida Law Handle Worsening an Old Injury?
 
       <blockquote className="border-l-4 border-[#EC1D21] bg-[#F9FAFB] !p-6 my-6 italic text-gray-600">
         <p className="!mb-4">
-          "Pre-existing conditions are a hurdle. We know exactly how to clear
+          &quot;Pre-existing conditions are a hurdle. We know exactly how to clear
           them. Every case I take with a prior injury history, I go in with a
           strategy to show exactly what difference this accident made in my
-          client's life."
+          client&apos;s life.&quot;
         </p>
         <cite className="block text-sm font-bold text-[#1B2639] not-italic">
           — David Carter, Carter Injury Law, Tampa, Florida
