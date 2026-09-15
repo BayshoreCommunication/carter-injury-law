@@ -1,48 +1,262 @@
 {
-  "images": {
-    "hero-bg.png": {
-      "fileName": "hero-bg.png",
-      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/hero-bg.png"
-    },
-    "carter.png": {
-      "fileName": "carter.png",
-      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/carter.png"
-    },
-    "distraction": {
-      "fileName": "distraction.png",
-      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/distraction.png"
-    },
-    "impaired": {
-      "fileName": "impaired.png",
-      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/impaired.png"
-    },
-    "weather": {
-      "fileName": "weather.png",
-      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/weather.png"
-    },
-    "traffic-congestion": {
-      "fileName": "traffic-congestion.png",
-      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/traffic-congestion.png"
-    },
-    "driver-fatigue": {
-      "fileName": "driver-fatigue.png",
-      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/driver-fatigue.png"
-    },
-    "evidence-timing": {
-      "fileName": "evidence-timing.png",
-      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/evidence-timing.png"
-    },
-    "review": {
-      "fileName": "review.png",
-      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/review.png"
-    },
-    "local-representation": {
-      "fileName": "local-representation.png",
-      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/local-representation.png"
-    },
-    "carter-team-cta.png": {
+  "folderSlug": "pedestrian-accidents-lawyer-largo",
+  "serviceName": "Pedestrian Accidents Lawyer Largo",
+  "location": "Largo, FL",
+  "topic": "Pedestrian Accidents",
+  "totalImages": 23,
+  "images": [
+    {
+      "sequence": 1,
+      "id": "carter-team-cta",
       "fileName": "carter-team-cta.png",
-      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/carter-team-cta.png"
+      "component": "FinalCTASection",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/carter-team-cta.png",
+      "altText": "Carter Injury Law Pedestrian Accident Legal Team in Largo, FL",
+      "title": "Carter Injury Law Pedestrian Accident Legal Team",
+      "description": "Experienced legal team ready for 24/7 consultation in Largo, FL.",
+      "caption": "Our legal team is available 24/7 for a free confidential case evaluation."
+    },
+    {
+      "sequence": 2,
+      "id": "carter-attorney",
+      "fileName": "carter.png",
+      "component": "HeroHeader",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/carter.png",
+      "altText": "Attorney David J. Carter - Lead Pedestrian Accidents Lawyer in Largo, FL",
+      "title": "Pedestrian Accidents Lawyer Largo - Attorney David J. Carter",
+      "description": "Professional portrait of Attorney David J. Carter representing Pedestrian Accidents Lawyer Largo in Largo, FL.",
+      "caption": "David J. Carter - Dedicated Pedestrian Accident Trial Attorney"
+    },
+    {
+      "sequence": 3,
+      "id": "Commercial Truck Driver Fatigue Extreme Weather Risks.webp",
+      "fileName": "Commercial Truck Driver Fatigue Extreme Weather Risks.webp",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/Commercial Truck Driver Fatigue Extreme Weather Risks.webp",
+      "altText": "Commercial Truck Driver Fatigue Extreme Weather Risks - Pedestrian Accidents Lawyer Largo in Largo, FL",
+      "title": "Commercial Truck Driver Fatigue Extreme Weather Risks - Pedestrian Accidents Lawyer Largo",
+      "description": "Professional legal asset representation for Commercial Truck Driver Fatigue Extreme Weather Risks in Largo, FL.",
+      "caption": "Commercial Truck Driver Fatigue Extreme Weather Risks for Pedestrian Accidents Lawyer Largo clients."
+    },
+    {
+      "sequence": 4,
+      "id": "communication-mistakes",
+      "fileName": "communication-mistakes.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/communication-mistakes.png",
+      "altText": "Communication Mistakes - Pedestrian Accidents Lawyer Largo in Largo, FL",
+      "title": "Communication Mistakes - Pedestrian Accidents Lawyer Largo",
+      "description": "Professional legal asset representation for Communication Mistakes in Largo, FL.",
+      "caption": "Communication Mistakes for Pedestrian Accidents Lawyer Largo clients."
+    },
+    {
+      "sequence": 5,
+      "id": "Dangerous Driver Distractions Traffic Violations Tampa.webp",
+      "fileName": "Dangerous Driver Distractions Traffic Violations Tampa.webp",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/Dangerous Driver Distractions Traffic Violations Tampa.webp",
+      "altText": "Dangerous Driver Distractions Traffic Violations Tampa - Pedestrian Accidents Lawyer Largo in Largo, FL",
+      "title": "Dangerous Driver Distractions Traffic Violations Tampa - Pedestrian Accidents Lawyer Largo",
+      "description": "Professional legal asset representation for Dangerous Driver Distractions Traffic Violations Tampa in Largo, FL.",
+      "caption": "Dangerous Driver Distractions Traffic Violations Tampa for Pedestrian Accidents Lawyer Largo clients."
+    },
+    {
+      "sequence": 6,
+      "id": "Dedicated Legal Counsel Tampa Wrongful Death Claims.webp",
+      "fileName": "Dedicated Legal Counsel Tampa Wrongful Death Claims.webp",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/Dedicated Legal Counsel Tampa Wrongful Death Claims.webp",
+      "altText": "Dedicated Legal Counsel Tampa Wrongful Death Claims - Pedestrian Accidents Lawyer Largo in Largo, FL",
+      "title": "Dedicated Legal Counsel Tampa Wrongful Death Claims - Pedestrian Accidents Lawyer Largo",
+      "description": "Professional legal asset representation for Dedicated Legal Counsel Tampa Wrongful Death Claims in Largo, FL.",
+      "caption": "Dedicated Legal Counsel Tampa Wrongful Death Claims for Pedestrian Accidents Lawyer Largo clients."
+    },
+    {
+      "sequence": 7,
+      "id": "dedicated-counsel",
+      "fileName": "dedicated-counsel.png",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/dedicated-counsel.png",
+      "altText": "Dedicated Counsel - Pedestrian Accidents Lawyer Largo in Largo, FL",
+      "title": "Dedicated Counsel - Pedestrian Accidents Lawyer Largo",
+      "description": "Professional legal asset representation for Dedicated Counsel in Largo, FL.",
+      "caption": "Dedicated Counsel for Pedestrian Accidents Lawyer Largo clients."
+    },
+    {
+      "sequence": 8,
+      "id": "Direct Attorney Access Throughout Your Accident Case.webp",
+      "fileName": "Direct Attorney Access Throughout Your Accident Case.webp",
+      "component": "General SEO Section",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/Direct Attorney Access Throughout Your Accident Case.webp",
+      "altText": "Direct Attorney Access Throughout Your Accident Case - Pedestrian Accidents Lawyer Largo in Largo, FL",
+      "title": "Direct Attorney Access Throughout Your Accident Case - Pedestrian Accidents Lawyer Largo",
+      "description": "Professional legal asset representation for Direct Attorney Access Throughout Your Accident Case in Largo, FL.",
+      "caption": "Direct Attorney Access Throughout Your Accident Case for Pedestrian Accidents Lawyer Largo clients."
+    },
+    {
+      "sequence": 9,
+      "id": "distraction",
+      "fileName": "distraction.png",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/distraction.png",
+      "altText": "Crosswalk Collisions Near Busy Retail Centers in Largo",
+      "title": "Crosswalk Collisions Near Busy Retail Centers",
+      "description": "Busy retail center crosswalk hazards in Largo, FL.",
+      "caption": "Drivers turning near retail corridors must yield to pedestrians."
+    },
+    {
+      "sequence": 10,
+      "id": "driver-fatigue",
+      "fileName": "driver-fatigue.png",
+      "component": "CommonCausesSection (Cause 05)",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/driver-fatigue.png",
+      "altText": "Pedestrian Crashes Involving Commercial Vehicles in Largo",
+      "title": "Pedestrian Crashes Involving Commercial Vehicles",
+      "description": "Delivery fleet and commercial vehicle collisions in Largo.",
+      "caption": "Commercial vehicle operators hold heightened legal duties."
+    },
+    {
+      "sequence": 11,
+      "id": "evidence-timing",
+      "fileName": "evidence-timing.png",
+      "component": "CommonCausesSection (Cause 06)",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/evidence-timing.png",
+      "altText": "Reduced Visibility During Evening Hours in Largo",
+      "title": "Reduced Visibility During Evening Hours",
+      "description": "Nighttime and unlit road pedestrian hazards in Pinellas County.",
+      "caption": "Drivers must exercise increased care during dark evening hours."
+    },
+    {
+      "sequence": 12,
+      "id": "expert-analysis",
+      "fileName": "expert-analysis.png",
+      "component": "ExpertValuationSection",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/expert-analysis.png",
+      "altText": "Expert Analysis - Pedestrian Accidents Lawyer Largo in Largo, FL",
+      "title": "Expert Analysis - Pedestrian Accidents Lawyer Largo",
+      "description": "Professional legal asset representation for Expert Analysis in Largo, FL.",
+      "caption": "Expert Analysis for Pedestrian Accidents Lawyer Largo clients."
+    },
+    {
+      "sequence": 13,
+      "id": "hero-bg",
+      "fileName": "hero-bg.png",
+      "component": "HeroHeader (Background)",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/hero-bg.png",
+      "altText": "Hero Background Banner for Pedestrian Accidents Lawyer Largo in Largo, FL",
+      "title": "Pedestrian Accidents Lawyer Largo Hero Section Background",
+      "description": "Dark professional background graphic for Pedestrian Accidents Lawyer Largo hero header.",
+      "caption": "Pedestrian Accidents Lawyer Largo Legal Practice Header Background"
+    },
+    {
+      "sequence": 14,
+      "id": "Impaired Driving High Speed Highway Corridor Risks.webp",
+      "fileName": "Impaired Driving High Speed Highway Corridor Risks.webp",
+      "component": "General SEO Section",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/Impaired Driving High Speed Highway Corridor Risks.webp",
+      "altText": "Impaired Driving High Speed Highway Corridor Risks - Pedestrian Accidents Lawyer Largo in Largo, FL",
+      "title": "Impaired Driving High Speed Highway Corridor Risks - Pedestrian Accidents Lawyer Largo",
+      "description": "Professional legal asset representation for Impaired Driving High Speed Highway Corridor Risks in Largo, FL.",
+      "caption": "Impaired Driving High Speed Highway Corridor Risks for Pedestrian Accidents Lawyer Largo clients."
+    },
+    {
+      "sequence": 15,
+      "id": "impaired",
+      "fileName": "impaired.png",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/impaired.png",
+      "altText": "Drivers Overlooking Pedestrians at Signalized Intersections",
+      "title": "Drivers Overlooking Pedestrians at Signalized Intersections",
+      "description": "Intersection turning hazards and walk signal violations in Largo.",
+      "caption": "Florida law requires drivers to yield to pedestrians with walk signals."
+    },
+    {
+      "sequence": 16,
+      "id": "Justice Secured for Tampa Families Wrongful Death Claims.webp",
+      "fileName": "Justice Secured for Tampa Families Wrongful Death Claims.webp",
+      "component": "JusticeSecuredSection",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/Justice Secured for Tampa Families Wrongful Death Claims.webp",
+      "altText": "Justice Secured For Tampa Families Wrongful Death Claims - Pedestrian Accidents Lawyer Largo in Largo, FL",
+      "title": "Justice Secured For Tampa Families Wrongful Death Claims - Pedestrian Accidents Lawyer Largo",
+      "description": "Professional legal asset representation for Justice Secured For Tampa Families Wrongful Death Claims in Largo, FL.",
+      "caption": "Justice Secured For Tampa Families Wrongful Death Claims for Pedestrian Accidents Lawyer Largo clients."
+    },
+    {
+      "sequence": 17,
+      "id": "justice-family",
+      "fileName": "justice-family.png",
+      "component": "JusticeSecuredSection",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/justice-family.png",
+      "altText": "Justice Family - Pedestrian Accidents Lawyer Largo in Largo, FL",
+      "title": "Justice Family - Pedestrian Accidents Lawyer Largo",
+      "description": "Professional legal asset representation for Justice Family in Largo, FL.",
+      "caption": "Justice Family for Pedestrian Accidents Lawyer Largo clients."
+    },
+    {
+      "sequence": 18,
+      "id": "local-representation",
+      "fileName": "local-representation.png",
+      "component": "WhyChooseUsSection",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/local-representation.png",
+      "altText": "Why Largo Injury Victims Choose Carter Injury Law",
+      "title": "Local Pedestrian Accident Representation in Largo",
+      "description": "Personal attention and direct attorney access in Largo, FL.",
+      "caption": "Direct communication with your attorney from intake to resolution."
+    },
+    {
+      "sequence": 19,
+      "id": "negligent-motorists",
+      "fileName": "negligent-motorists.png",
+      "component": "CommonCausesSection (Cause 06)",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/negligent-motorists.png",
+      "altText": "Negligent Motorists - Pedestrian Accidents Lawyer Largo in Largo, FL",
+      "title": "Negligent Motorists - Pedestrian Accidents Lawyer Largo",
+      "description": "Professional legal asset representation for Negligent Motorists in Largo, FL.",
+      "caption": "Negligent Motorists for Pedestrian Accidents Lawyer Largo clients."
+    },
+    {
+      "sequence": 20,
+      "id": "review",
+      "fileName": "review.png",
+      "component": "WhyRightLawyerSection",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/review.png",
+      "altText": "Why Injured Pedestrians Lose Out on Compensation Without Legal Representation",
+      "title": "Protecting Injured Pedestrians in Largo",
+      "description": "Challenging unfair defense tactics and disputed liability in Largo.",
+      "caption": "Dedicated legal counsel protects your rights after a pedestrian crash."
+    },
+    {
+      "sequence": 21,
+      "id": "Tampa Families Need Legal Help After Car Accidents.webp",
+      "fileName": "Tampa Families Need Legal Help After Car Accidents.webp",
+      "component": "General SEO Section",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/Tampa Families Need Legal Help After Car Accidents.webp",
+      "altText": "Tampa Families Need Legal Help After Car Accidents - Pedestrian Accidents Lawyer Largo in Largo, FL",
+      "title": "Tampa Families Need Legal Help After Car Accidents - Pedestrian Accidents Lawyer Largo",
+      "description": "Professional legal asset representation for Tampa Families Need Legal Help After Car Accidents in Largo, FL.",
+      "caption": "Tampa Families Need Legal Help After Car Accidents for Pedestrian Accidents Lawyer Largo clients."
+    },
+    {
+      "sequence": 22,
+      "id": "traffic-congestion",
+      "fileName": "traffic-congestion.png",
+      "component": "CommonCausesSection (Cause 04)",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/traffic-congestion.png",
+      "altText": "Parking Lot and Private Property Incidents in Largo",
+      "title": "Parking Lot and Private Property Incidents",
+      "description": "Foot traffic and backing vehicle hazards in Largo commercial lots.",
+      "caption": "Property owners must maintain safe marked pedestrian paths."
+    },
+    {
+      "sequence": 23,
+      "id": "weather",
+      "fileName": "weather.png",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/weather.png",
+      "altText": "School Zone and Neighborhood Traffic Hazards in Largo",
+      "title": "School Zone and Neighborhood Traffic Hazards",
+      "description": "Speeding hazards near Pinellas County school zones and residential roads.",
+      "caption": "Ignoring school zone speed limits places pedestrians at grave risk."
     }
-  }
+  ]
 }

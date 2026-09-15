@@ -3,39 +3,10 @@
   "serviceName": "Tampa Motorcycle Accidents Lawyer",
   "location": "Tampa, FL",
   "topic": "Motorcycle Accidents",
-  "totalImages": 15,
+  "totalImages": 23,
   "images": [
     {
-      "id": "carter-attorney",
-      "fileName": "carter.png",
-      "component": "HeroHeader",
-      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/carter.png",
-      "altText": "Attorney David J. Carter - Lead Motorcycle Accidents Lawyer in Tampa, FL",
-      "title": "Tampa Motorcycle Accidents Lawyer - Attorney David J. Carter",
-      "description": "Professional portrait of Attorney David J. Carter representing Tampa Motorcycle Accidents Lawyer in Tampa, FL.",
-      "caption": "David J. Carter - Dedicated Motorcycle Accidents Trial Attorney"
-    },
-    {
-      "id": "hero-bg",
-      "fileName": "hero-bg.png",
-      "component": "HeroHeader (Background)",
-      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/hero-bg.png",
-      "altText": "Hero Background Banner for Tampa Motorcycle Accidents Lawyer in Tampa, FL",
-      "title": "Tampa Motorcycle Accidents Lawyer Hero Section Background",
-      "description": "Dark professional background graphic for Tampa Motorcycle Accidents Lawyer hero header in Tampa, FL.",
-      "caption": "Tampa Motorcycle Accidents Lawyer Legal Practice Header Background"
-    },
-    {
-      "id": "dedicated-counsel",
-      "fileName": "dedicated-legal-counsel-tampa-motorcycle-victims.webp",
-      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
-      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/dedicated-legal-counsel-tampa-motorcycle-victims.webp",
-      "altText": "An attorney meets with clients in a law office, providing personalized legal guidance to Tampa motorcycle accident victims.",
-      "title": "Dedicated Legal Counsel for Tampa Motorcycle Victims",
-      "description": "After a motorcycle accident, injured riders may face medical bills, insurance disputes, and lost income. Dedicated legal counsel can help Tampa motorcycle victims understand their rights and legal options.",
-      "caption": "Personalized legal guidance can help Tampa motorcycle accident victims understand their options."
-    },
-    {
+      "sequence": 1,
       "id": "carter-team-cta",
       "fileName": "carter-team-cta.png",
       "component": "FinalCTASection",
@@ -46,86 +17,18 @@
       "caption": "Our legal team is standing by to evaluate your case in Tampa, FL."
     },
     {
-      "id": "communication-mistakes",
-      "fileName": "communication-mistakes.png",
-      "component": "MistakesSection",
-      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/communication-mistakes.png",
-      "altText": "Insurance Adjuster Communication Mistakes in Motorcycle Accidents Claims",
-      "title": "Insurance Communication Pitfalls",
-      "description": "Illustration of common communication mistakes with insurance adjusters in Tampa, FL motorcycle accidents cases.",
-      "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
+      "sequence": 2,
+      "id": "carter-attorney",
+      "fileName": "carter.png",
+      "component": "HeroHeader",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/carter.png",
+      "altText": "Attorney David J. Carter - Lead Motorcycle Accidents Lawyer in Tampa, FL",
+      "title": "Tampa Motorcycle Accidents Lawyer - Attorney David J. Carter",
+      "description": "Professional portrait of Attorney David J. Carter representing Tampa Motorcycle Accidents Lawyer in Tampa, FL.",
+      "caption": "David J. Carter - Dedicated Motorcycle Accidents Trial Attorney"
     },
     {
-      "id": "evidence-timing",
-      "fileName": "evidence-timing.png",
-      "component": "MistakesSection",
-      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/evidence-timing.png",
-      "altText": "Evidence Preservation and Timing Delays in Tampa, FL Motorcycle Accidents Cases",
-      "title": "Evidence Preservation & Legal Deadlines",
-      "description": "Critical timing and evidence collection guidelines for motorcycle accidents claims in Tampa, FL.",
-      "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
-    },
-    {
-      "id": "justice-family",
-      "fileName": "justice-family.png",
-      "component": "JusticeSecuredSection",
-      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/justice-family.png",
-      "altText": "Justice and Compensation for Tampa, FL Families after Motorcycle Accidents",
-      "title": "Justice for Tampa, FL Families",
-      "description": "Supporting grieving families in Tampa, FL to secure full financial recovery and legal justice.",
-      "caption": "Fighting to secure financial peace of mind for surviving family members."
-    },
-    {
-      "id": "local-representation",
-      "fileName": "dedicated-rider-advocacy-tampa-motorcycle-attorney.webp",
-      "component": "WhyChooseUsSection",
-      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/dedicated-rider-advocacy-tampa-motorcycle-attorney.webp",
-      "altText": "An attorney discusses an accident case with an injured rider, representing dedicated advocacy for Tampa motorcycle accident victims.",
-      "title": "Dedicated Rider Advocacy for Tampa Motorcycle Victims",
-      "description": "Motorcycle accident victims deserve focused legal advocacy after a serious crash. A dedicated attorney can investigate the accident, communicate with insurers, and work to protect an injured rider's interests.",
-      "caption": "Dedicated rider advocacy helps injured motorcyclists pursue fair treatment after a crash."
-    },
-    {
-      "id": "review",
-      "fileName": "tampa-motorcycle-legal-representation-compensation.webp",
-      "component": "WhyRightLawyerSection",
-      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/tampa-motorcycle-legal-representation-compensation.webp",
-      "altText": "An attorney consults with a motorcycle accident victim about legal representation and pursuing compensation after a Tampa crash.",
-      "title": "Legal Representation After Tampa Motorcycle Crashes",
-      "description": "Without experienced legal representation, injured motorcycle riders may struggle with insurance claims and compensation issues. Legal counsel can help protect their interests and address the financial impact of a crash.",
-      "caption": "Legal representation can help Tampa motorcycle accident victims protect their compensation claims."
-    },
-    {
-      "id": "distraction",
-      "fileName": "driver-inattention-tampa-motorcycle-intersection.webp",
-      "component": "CommonCausesSection (Cause 01)",
-      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/driver-inattention-tampa-motorcycle-intersection.webp",
-      "altText": "A distracted driver turns across a Tampa intersection while a motorcyclist waits nearby, creating a collision risk.",
-      "title": "Driver Inattention at Tampa Motorcycle Intersections",
-      "description": "Driver inattention at busy Tampa intersections can create dangerous situations for motorcyclists. Understanding these risks can help injured riders document what happened and pursue appropriate legal guidance.",
-      "caption": "Driver inattention at intersections can put Tampa motorcyclists at serious risk of a collision."
-    },
-    {
-      "id": "impaired",
-      "fileName": "unsafe-lane-changes-tampa-motorcycle-accidents.webp",
-      "component": "CommonCausesSection (Cause 02)",
-      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/unsafe-lane-changes-tampa-motorcycle-accidents.webp",
-      "altText": "A motorcyclist rides beside a changing vehicle on a Tampa roadway, highlighting unsafe lane changes and blind spots.",
-      "title": "Unsafe Lane Changes and Tampa Motorcycle Accidents",
-      "description": "Unsafe lane changes can leave motorcycle riders with little time to react. This Tampa roadway scene illustrates how blind spots, sudden merges, and driver errors can contribute to serious motorcycle crashes.",
-      "caption": "Unsafe lane changes can create dangerous blind-spot situations for Tampa motorcycle riders."
-    },
-    {
-      "id": "traffic-congestion",
-      "fileName": "heavy-traffic-tampa-motorcycle-highway-risks.webp",
-      "component": "CommonCausesSection (Cause 03)",
-      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/heavy-traffic-tampa-motorcycle-highway-risks.webp",
-      "altText": "A motorcyclist travels through heavy Tampa traffic surrounded by vehicles, illustrating increased risks during congestion.",
-      "title": "Heavy Traffic Congestion and Motorcycle Crash Risks",
-      "description": "Heavy traffic can increase the risk of motorcycle crashes as vehicles merge, stop suddenly, and change lanes. Tampa riders face added hazards when navigating congested highways and busy roadways.",
-      "caption": "Heavy traffic and sudden vehicle movements can increase motorcycle crash risks."
-    },
-    {
+      "sequence": 3,
       "id": "driver-fatigue",
       "fileName": "commercial-vehicle-negligence-tampa-motorcycle.webp",
       "component": "CommonCausesSection (Cause 04)",
@@ -136,6 +39,18 @@
       "caption": "Large commercial vehicles can create serious hazards for Tampa motorcycle riders."
     },
     {
+      "sequence": 4,
+      "id": "communication-mistakes",
+      "fileName": "communication-mistakes.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/communication-mistakes.png",
+      "altText": "Insurance Adjuster Communication Mistakes in Motorcycle Accidents Claims",
+      "title": "Insurance Communication Pitfalls",
+      "description": "Illustration of common communication mistakes with insurance adjusters in Tampa, FL motorcycle accidents cases.",
+      "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
+    },
+    {
+      "sequence": 5,
       "id": "negligent-motorists",
       "fileName": "construction-zone-hazards-tampa-motorcycle-accidents.webp",
       "component": "CommonCausesSection (Cause 05)",
@@ -146,6 +61,84 @@
       "caption": "Road construction, debris, and changing lanes can create serious hazards for motorcyclists."
     },
     {
+      "sequence": 6,
+      "id": "dedicated-counsel",
+      "fileName": "dedicated-counsel.png",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/dedicated-counsel.png",
+      "altText": "Dedicated Counsel - Tampa Motorcycle Accidents Lawyer in Tampa, FL",
+      "title": "Dedicated Counsel - Tampa Motorcycle Accidents Lawyer",
+      "description": "Professional legal asset representation for Dedicated Counsel in Tampa, FL.",
+      "caption": "Dedicated Counsel for Tampa Motorcycle Accidents Lawyer clients."
+    },
+    {
+      "sequence": 7,
+      "id": "dedicated-counsel",
+      "fileName": "dedicated-legal-counsel-tampa-motorcycle-victims.webp",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/dedicated-legal-counsel-tampa-motorcycle-victims.webp",
+      "altText": "An attorney meets with clients in a law office, providing personalized legal guidance to Tampa motorcycle accident victims.",
+      "title": "Dedicated Legal Counsel for Tampa Motorcycle Victims",
+      "description": "After a motorcycle accident, injured riders may face medical bills, insurance disputes, and lost income. Dedicated legal counsel can help Tampa motorcycle victims understand their rights and legal options.",
+      "caption": "Personalized legal guidance can help Tampa motorcycle accident victims understand their options."
+    },
+    {
+      "sequence": 8,
+      "id": "local-representation",
+      "fileName": "dedicated-rider-advocacy-tampa-motorcycle-attorney.webp",
+      "component": "WhyChooseUsSection",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/dedicated-rider-advocacy-tampa-motorcycle-attorney.webp",
+      "altText": "An attorney discusses an accident case with an injured rider, representing dedicated advocacy for Tampa motorcycle accident victims.",
+      "title": "Dedicated Rider Advocacy for Tampa Motorcycle Victims",
+      "description": "Motorcycle accident victims deserve focused legal advocacy after a serious crash. A dedicated attorney can investigate the accident, communicate with insurers, and work to protect an injured rider's interests.",
+      "caption": "Dedicated rider advocacy helps injured motorcyclists pursue fair treatment after a crash."
+    },
+    {
+      "sequence": 9,
+      "id": "distraction",
+      "fileName": "distraction.png",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/distraction.png",
+      "altText": "Distraction - Tampa Motorcycle Accidents Lawyer in Tampa, FL",
+      "title": "Distraction - Tampa Motorcycle Accidents Lawyer",
+      "description": "Professional legal asset representation for Distraction in Tampa, FL.",
+      "caption": "Distraction for Tampa Motorcycle Accidents Lawyer clients."
+    },
+    {
+      "sequence": 10,
+      "id": "driver-fatigue",
+      "fileName": "driver-fatigue.png",
+      "component": "CommonCausesSection (Cause 05)",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/driver-fatigue.png",
+      "altText": "Driver Fatigue - Tampa Motorcycle Accidents Lawyer in Tampa, FL",
+      "title": "Driver Fatigue - Tampa Motorcycle Accidents Lawyer",
+      "description": "Professional legal asset representation for Driver Fatigue in Tampa, FL.",
+      "caption": "Driver Fatigue for Tampa Motorcycle Accidents Lawyer clients."
+    },
+    {
+      "sequence": 11,
+      "id": "distraction",
+      "fileName": "driver-inattention-tampa-motorcycle-intersection.webp",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/driver-inattention-tampa-motorcycle-intersection.webp",
+      "altText": "A distracted driver turns across a Tampa intersection while a motorcyclist waits nearby, creating a collision risk.",
+      "title": "Driver Inattention at Tampa Motorcycle Intersections",
+      "description": "Driver inattention at busy Tampa intersections can create dangerous situations for motorcyclists. Understanding these risks can help injured riders document what happened and pursue appropriate legal guidance.",
+      "caption": "Driver inattention at intersections can put Tampa motorcyclists at serious risk of a collision."
+    },
+    {
+      "sequence": 12,
+      "id": "evidence-timing",
+      "fileName": "evidence-timing.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/evidence-timing.png",
+      "altText": "Evidence Preservation and Timing Delays in Tampa, FL Motorcycle Accidents Cases",
+      "title": "Evidence Preservation & Legal Deadlines",
+      "description": "Critical timing and evidence collection guidelines for motorcycle accidents claims in Tampa, FL.",
+      "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
+    },
+    {
+      "sequence": 13,
       "id": "weather",
       "fileName": "hazardous-weather-tampa-motorcycle-rider-accidents.webp",
       "component": "CommonCausesSection (Cause 06)",
@@ -154,6 +147,116 @@
       "title": "Hazardous Weather Conditions and Motorcycle Accidents",
       "description": "Rain, standing water, and reduced visibility can make Tampa roads more dangerous for motorcycle riders. Hazardous weather conditions may affect traction, braking, and a driver's ability to see nearby riders.",
       "caption": "Heavy rain and reduced visibility can make Tampa motorcycle riding especially dangerous."
+    },
+    {
+      "sequence": 14,
+      "id": "traffic-congestion",
+      "fileName": "heavy-traffic-tampa-motorcycle-highway-risks.webp",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/heavy-traffic-tampa-motorcycle-highway-risks.webp",
+      "altText": "A motorcyclist travels through heavy Tampa traffic surrounded by vehicles, illustrating increased risks during congestion.",
+      "title": "Heavy Traffic Congestion and Motorcycle Crash Risks",
+      "description": "Heavy traffic can increase the risk of motorcycle crashes as vehicles merge, stop suddenly, and change lanes. Tampa riders face added hazards when navigating congested highways and busy roadways.",
+      "caption": "Heavy traffic and sudden vehicle movements can increase motorcycle crash risks."
+    },
+    {
+      "sequence": 15,
+      "id": "hero-bg",
+      "fileName": "hero-bg.png",
+      "component": "HeroHeader (Background)",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/hero-bg.png",
+      "altText": "Hero Background Banner for Tampa Motorcycle Accidents Lawyer in Tampa, FL",
+      "title": "Tampa Motorcycle Accidents Lawyer Hero Section Background",
+      "description": "Dark professional background graphic for Tampa Motorcycle Accidents Lawyer hero header in Tampa, FL.",
+      "caption": "Tampa Motorcycle Accidents Lawyer Legal Practice Header Background"
+    },
+    {
+      "sequence": 16,
+      "id": "impaired",
+      "fileName": "impaired.png",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/impaired.png",
+      "altText": "Impaired - Tampa Motorcycle Accidents Lawyer in Tampa, FL",
+      "title": "Impaired - Tampa Motorcycle Accidents Lawyer",
+      "description": "Professional legal asset representation for Impaired in Tampa, FL.",
+      "caption": "Impaired for Tampa Motorcycle Accidents Lawyer clients."
+    },
+    {
+      "sequence": 17,
+      "id": "justice-family",
+      "fileName": "justice-family.png",
+      "component": "JusticeSecuredSection",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/justice-family.png",
+      "altText": "Justice and Compensation for Tampa, FL Families after Motorcycle Accidents",
+      "title": "Justice for Tampa, FL Families",
+      "description": "Supporting grieving families in Tampa, FL to secure full financial recovery and legal justice.",
+      "caption": "Fighting to secure financial peace of mind for surviving family members."
+    },
+    {
+      "sequence": 18,
+      "id": "negligent-motorists",
+      "fileName": "negligent-motorists.png",
+      "component": "CommonCausesSection (Cause 06)",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/negligent-motorists.png",
+      "altText": "Negligent Motorists - Tampa Motorcycle Accidents Lawyer in Tampa, FL",
+      "title": "Negligent Motorists - Tampa Motorcycle Accidents Lawyer",
+      "description": "Professional legal asset representation for Negligent Motorists in Tampa, FL.",
+      "caption": "Negligent Motorists for Tampa Motorcycle Accidents Lawyer clients."
+    },
+    {
+      "sequence": 19,
+      "id": "review",
+      "fileName": "review.png",
+      "component": "WhyRightLawyerSection",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/review.png",
+      "altText": "Review - Tampa Motorcycle Accidents Lawyer in Tampa, FL",
+      "title": "Review - Tampa Motorcycle Accidents Lawyer",
+      "description": "Professional legal asset representation for Review in Tampa, FL.",
+      "caption": "Review for Tampa Motorcycle Accidents Lawyer clients."
+    },
+    {
+      "sequence": 20,
+      "id": "review",
+      "fileName": "tampa-motorcycle-legal-representation-compensation.webp",
+      "component": "WhyRightLawyerSection",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/tampa-motorcycle-legal-representation-compensation.webp",
+      "altText": "An attorney consults with a motorcycle accident victim about legal representation and pursuing compensation after a Tampa crash.",
+      "title": "Legal Representation After Tampa Motorcycle Crashes",
+      "description": "Without experienced legal representation, injured motorcycle riders may struggle with insurance claims and compensation issues. Legal counsel can help protect their interests and address the financial impact of a crash.",
+      "caption": "Legal representation can help Tampa motorcycle accident victims protect their compensation claims."
+    },
+    {
+      "sequence": 21,
+      "id": "traffic-congestion",
+      "fileName": "traffic-congestion.png",
+      "component": "CommonCausesSection (Cause 04)",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/traffic-congestion.png",
+      "altText": "Traffic Congestion - Tampa Motorcycle Accidents Lawyer in Tampa, FL",
+      "title": "Traffic Congestion - Tampa Motorcycle Accidents Lawyer",
+      "description": "Professional legal asset representation for Traffic Congestion in Tampa, FL.",
+      "caption": "Traffic Congestion for Tampa Motorcycle Accidents Lawyer clients."
+    },
+    {
+      "sequence": 22,
+      "id": "impaired",
+      "fileName": "unsafe-lane-changes-tampa-motorcycle-accidents.webp",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/unsafe-lane-changes-tampa-motorcycle-accidents.webp",
+      "altText": "A motorcyclist rides beside a changing vehicle on a Tampa roadway, highlighting unsafe lane changes and blind spots.",
+      "title": "Unsafe Lane Changes and Tampa Motorcycle Accidents",
+      "description": "Unsafe lane changes can leave motorcycle riders with little time to react. This Tampa roadway scene illustrates how blind spots, sudden merges, and driver errors can contribute to serious motorcycle crashes.",
+      "caption": "Unsafe lane changes can create dangerous blind-spot situations for Tampa motorcycle riders."
+    },
+    {
+      "sequence": 23,
+      "id": "weather",
+      "fileName": "weather.png",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/tampa-motorcycle-accidents-lawyer/weather.png",
+      "altText": "Weather - Tampa Motorcycle Accidents Lawyer in Tampa, FL",
+      "title": "Weather - Tampa Motorcycle Accidents Lawyer",
+      "description": "Professional legal asset representation for Weather in Tampa, FL.",
+      "caption": "Weather for Tampa Motorcycle Accidents Lawyer clients."
     }
   ]
 }

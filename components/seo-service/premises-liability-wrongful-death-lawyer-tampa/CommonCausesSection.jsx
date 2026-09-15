@@ -21,49 +21,49 @@ const CommonCausesSection = () => {
     {
       number: "01",
       title: "Apartment Complex Safety Failures",
-      image: getSeoImage("distraction.png", "premises-liability-wrongful-death-lawyer-tampa").filePath,
+      image: getSeoImage("premises-liability-wrongful-death-lawyer-tampa-hero.webp", "premises-liability-wrongful-death-lawyer-tampa").filePath,
       description: "Apartment properties in Tampa carry real obligations. Common areas, stairwells, parking lots and hallways should be free of reasonably foreseeable hazards which are known to, or should have been discovered by, the management. From broken handrails to burned exterior lighting, failed security gates and deteriorating walkways are no small matters. When a resident or visitor dies because a complex let a known problem sit unaddressed, the property management company faces serious legal exposure under Florida negligence law.",
       location: "Tampa Apartments",
     },
     {
       number: "02",
       title: "Fatal Accidents at Hotels, Resorts, and Vacation Rentals",
-      image: getSeoImage("impaired.png", "premises-liability-wrongful-death-lawyer-tampa").filePath,
+      image: getSeoImage("fatal-accidents-hotels-resorts-vacation-rentals-tampa.webp", "premises-liability-wrongful-death-lawyer-tampa").filePath,
       description: "Guests at hotels, resorts, and short-term rentals arrive without any knowledge of the property's layout or its history of maintenance problems. A slick pool deck, an unmarked step, a balcony railing that shouldn't have passed inspection. Each of these has contributed to guest deaths at Tampa Bay properties. The Florida Building Code applies to commercial lodging throughout Hillsborough County, and operators who let those standards slip bear responsibility when a guest doesn't make it home.",
       location: "Lodging Properties",
     },
     {
       number: "03",
       title: "Inadequate Security Leading to Fatal Criminal Acts",
-      image: getSeoImage("weather.png", "premises-liability-wrongful-death-lawyer-tampa").filePath,
+      image: getSeoImage("inadequate-security-fatal-criminal-acts-tampa.webp", "premises-liability-wrongful-death-lawyer-tampa").filePath,
       description: "If a property owner is aware that crime has taken place on his or her property at some time in the past, he or she has a legal responsibility to address the issue. If there is no adequate lighting, working cameras or proper access controls in the parking garage, common areas of apartment complexes and commercial strips are a risk to the tenants and visitors. Florida law does hold that negligent security is a valid cause of action when the negligent failure to secure contributes to a fatal attack.",
       location: "Negligent Security Sites",
     },
     {
       number: "04",
       title: "Unsafe Stairways, Walkways, and Balcony Collapses",
-      image: getSeoImage("traffic-congestion.png", "premises-liability-wrongful-death-lawyer-tampa").filePath,
+      image: getSeoImage("unsafe-stairways-walkways-balcony-collapses-tampa.webp", "premises-liability-wrongful-death-lawyer-tampa").filePath,
       description: "The Florida Building Code exists for a reason. Stairways need adequate railing height, proper load ratings, and surfaces that hold traction. Walkways need to be maintained. Balconies need to be inspected and structurally sound. When maintenance crews sign off on defective structures without making real repairs, or when inspections simply don't happen, the property owner takes on legal responsibility for any fatality that follows.",
       location: "Structural Hazards",
     },
     {
       number: "05",
       title: "Swimming Pool and Drowning Fatalities",
-      image: getSeoImage("driver-fatigue.png", "premises-liability-wrongful-death-lawyer-tampa").filePath,
+      image: getSeoImage("swimming-pool-drowning-fatalities-tampa.webp", "premises-liability-wrongful-death-lawyer-tampa").filePath,
       description: "Florida law is specific about what pool operators owe to users. Barrier fencing, self-latching gates, compliant drain covers and depth marking are all mandatory by law. If a person owns a swimming pool (either a residential pool or commercial pool) and fails to comply with the above requirements, and their negligence was a contributing factor for the drowning, then they are liable under premises liability and wrongful death laws. They exist because people have died when operators treated them as optional.",
       location: "Residential & Commercial Pools",
     },
     {
       number: "06",
       title: "Building Fires, Electrical Hazards, and Carbon Monoxide Exposure",
-      image: getSeoImage("evidence-timing.png", "premises-liability-wrongful-death-lawyer-tampa").filePath,
+      image: getSeoImage("building-fires-electrical-hazards-carbon-monoxide-exposure-tampa.webp", "premises-liability-wrongful-death-lawyer-tampa").filePath,
       description: "Defective wiring, smoke detectors that haven't worked in months, blocked fire exits, and absent carbon monoxide alarms have each caused deaths in Tampa residential and commercial buildings. OSHA requirements and the Florida Fire Prevention Code set out what occupied structures must have. When a property owner chooses to defer those repairs and someone inside dies, the family left behind has grounds to pursue a wrongful death claim.",
       location: "Commercial & Housing Structures",
     },
     {
       number: "07",
       title: "Construction and Maintenance Hazards on Private Property",
-      image: getSeoImage("justice-family.png", "premises-liability-wrongful-death-lawyer-tampa").filePath,
+      image: getSeoImage("construction-maintenance-hazards-private-property-tampa.webp", "premises-liability-wrongful-death-lawyer-tampa").filePath,
       description: "Unmarked excavations, scaffolding that wasn't secured, exposed electrical lines, and hazardous materials left in walkways are all conditions that OSHA regulations and the Florida Building Code prohibit outright. Active construction sites and poorly maintained commercial properties create real danger for anyone nearby. When a contractor or property owner lets those conditions persist and a fatal accident happens, fault often doesn't stop at one party.",
       location: "Private Construction Sites",
     },
@@ -88,7 +88,7 @@ const CommonCausesSection = () => {
           </h2>
           <div className="w-24 h-[3px] bg-primary mx-auto mt-6 mb-6" />
           <p className="text-gray-600 text-sm md:text-base leading-relaxed font-medium">
-            Florida law holds property owners to a clear standard. They must maintain reasonably safe premises for anyone who has a legal right to be there. When they don't, and someone dies as a result, the surviving family has a legal path forward. The Florida Building Code and OSHA set the floor for what safe looks like. Ignoring those standards while a known hazard goes unaddressed is exactly what gives rise to a wrongful death premises liability claim.
+            Florida law holds property owners to a clear standard. They must maintain reasonably safe premises for anyone who has a legal right to be there. When they don&apos;t, and someone dies as a result, the surviving family has a legal path forward. The Florida Building Code and OSHA set the floor for what safe looks like. Ignoring those standards while a known hazard goes unaddressed is exactly what gives rise to a wrongful death premises liability claim.
           </p>
         </motion.div>
 

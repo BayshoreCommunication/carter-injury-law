@@ -3,39 +3,21 @@
   "serviceName": "Premises Liability Wrongful Death Lawyer Tampa",
   "location": "Tampa, FL",
   "topic": "Premises Liability & Wrongful Death",
-  "totalImages": 15,
+  "totalImages": 28,
   "images": [
     {
-      "id": "carter-attorney",
-      "fileName": "carter.png",
-      "component": "HeroHeader",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/carter.png",
-      "altText": "Attorney David J. Carter - Lead Premises Liability Wrongful Death Lawyer in Tampa, FL",
-      "title": "Premises Liability Wrongful Death Lawyer Tampa - Attorney David J. Carter",
-      "description": "Professional portrait of Attorney David J. Carter representing Premises Liability Wrongful Death Lawyer in Tampa, FL.",
-      "caption": "David J. Carter - Dedicated Premises Liability Wrongful Death Trial Attorney"
+      "sequence": 1,
+      "id": "building-fires-electrical-hazards-carbon-monoxide-exposure-tampa.webp",
+      "fileName": "building-fires-electrical-hazards-carbon-monoxide-exposure-tampa.webp",
+      "component": "CommonCausesSection (Cause 06)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/building-fires-electrical-hazards-carbon-monoxide-exposure-tampa.webp",
+      "altText": "Building fire, electrical hazards, and carbon monoxide risks causing fatal premises liability accidents in Tampa.",
+      "title": "Building Fires and Electrical Hazards Premises Liability Tampa",
+      "description": "Fatal building fires, electrical defects, and carbon monoxide leaks caused by unaddressed property hazards in Tampa, FL.",
+      "caption": "Defective wiring and unmaintained safety systems can lead to deadly building fires and gas leaks."
     },
     {
-      "id": "hero-bg",
-      "fileName": "hero-bg.png",
-      "component": "HeroHeader (Background)",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/hero-bg.png",
-      "altText": "Hero Background Banner for Premises Liability Wrongful Death Lawyer in Tampa, FL",
-      "title": "Premises Liability Wrongful Death Lawyer Tampa Hero Section Background",
-      "description": "Dark professional background graphic for Premises Liability Wrongful Death Lawyer hero header in Tampa, FL.",
-      "caption": "Premises Liability Wrongful Death Lawyer Tampa Legal Practice Header Background"
-    },
-    {
-      "id": "dedicated-counsel",
-      "fileName": "dedicated-counsel.png",
-      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/dedicated-counsel.png",
-      "altText": "Tampa premises liability wrongful death attorney meeting with a family in a professional law office",
-      "title": "Dedicated Legal Counsel for Tampa Premises Liability Wrongful Death Claims",
-      "description": "An attorney meets with family members in a professional law office, providing legal guidance and discussing options following a wrongful death claim after an unsafe property accident.",
-      "caption": "Experienced legal counsel can help families navigate premises liability wrongful death claims."
-    },
-    {
+      "sequence": 2,
       "id": "carter-team-cta",
       "fileName": "carter-team-cta.png",
       "component": "FinalCTASection",
@@ -46,6 +28,29 @@
       "caption": "Our legal team is standing by to evaluate your case in Tampa, FL."
     },
     {
+      "sequence": 3,
+      "id": "carter-attorney",
+      "fileName": "carter.png",
+      "component": "HeroHeader",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/carter.png",
+      "altText": "Attorney David J. Carter - Lead Premises Liability Wrongful Death Lawyer in Tampa, FL",
+      "title": "Premises Liability Wrongful Death Lawyer Tampa - Attorney David J. Carter",
+      "description": "Professional portrait of Attorney David J. Carter representing Premises Liability Wrongful Death Lawyer in Tampa, FL.",
+      "caption": "David J. Carter - Dedicated Premises Liability Wrongful Death Trial Attorney"
+    },
+    {
+      "sequence": 4,
+      "id": "Commercial Truck Driver Fatigue Extreme Weather Risks.webp",
+      "fileName": "Commercial Truck Driver Fatigue Extreme Weather Risks.webp",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/Commercial Truck Driver Fatigue Extreme Weather Risks.webp",
+      "altText": "Commercial Truck Driver Fatigue Extreme Weather Risks - Premises Liability Wrongful Death Lawyer Tampa in Tampa, FL",
+      "title": "Commercial Truck Driver Fatigue Extreme Weather Risks - Premises Liability Wrongful Death Lawyer Tampa",
+      "description": "Professional legal asset representation for Commercial Truck Driver Fatigue Extreme Weather Risks in Tampa, FL.",
+      "caption": "Commercial Truck Driver Fatigue Extreme Weather Risks for Premises Liability Wrongful Death Lawyer Tampa clients."
+    },
+    {
+      "sequence": 5,
       "id": "communication-mistakes",
       "fileName": "communication-mistakes.png",
       "component": "MistakesSection",
@@ -56,46 +61,51 @@
       "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
     },
     {
-      "id": "evidence-timing",
-      "fileName": "evidence-timing.png",
-      "component": "MistakesSection",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/evidence-timing.png",
-      "altText": "Evidence Preservation and Timing Delays in Tampa, FL Wrongful Death Cases",
-      "title": "Evidence Preservation & Legal Deadlines",
-      "description": "Critical timing and evidence collection guidelines for premises liability wrongful death claims in Tampa, FL.",
-      "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
+      "sequence": 6,
+      "id": "construction-maintenance-hazards-private-property-tampa.webp",
+      "fileName": "construction-maintenance-hazards-private-property-tampa.webp",
+      "component": "CommonCausesSection (Cause 07)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/construction-maintenance-hazards-private-property-tampa.webp",
+      "altText": "Unmarked construction hazards and unsecured equipment on private Tampa commercial property.",
+      "title": "Construction and Maintenance Hazards on Tampa Private Property",
+      "description": "Dangerous construction site conditions and maintenance failures on private property leading to wrongful death claims in Tampa.",
+      "caption": "Negligent construction and maintenance practices create high-risk hazards for visitors."
     },
     {
-      "id": "justice-family",
-      "fileName": "justice-family.png",
-      "component": "JusticeSecuredSection",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/justice-family.png",
-      "altText": "Justice and Compensation for Tampa, FL Families after Wrongful Death",
-      "title": "Justice for Tampa, FL Families",
-      "description": "Supporting grieving families in Tampa, FL to secure full financial recovery and legal justice.",
-      "caption": "Fighting to secure financial peace of mind for surviving family members."
+      "sequence": 7,
+      "id": "Dangerous Driver Distractions Traffic Violations Tampa.webp",
+      "fileName": "Dangerous Driver Distractions Traffic Violations Tampa.webp",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/Dangerous Driver Distractions Traffic Violations Tampa.webp",
+      "altText": "Dangerous Driver Distractions Traffic Violations Tampa - Premises Liability Wrongful Death Lawyer Tampa in Tampa, FL",
+      "title": "Dangerous Driver Distractions Traffic Violations Tampa - Premises Liability Wrongful Death Lawyer Tampa",
+      "description": "Professional legal asset representation for Dangerous Driver Distractions Traffic Violations Tampa in Tampa, FL.",
+      "caption": "Dangerous Driver Distractions Traffic Violations Tampa for Premises Liability Wrongful Death Lawyer Tampa clients."
     },
     {
-      "id": "local-representation",
-      "fileName": "Tampa Families Need Legal Help After Car Accidents.webp",
-      "component": "WhyChooseUsSection",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/Tampa Families Need Legal Help After Car Accidents.webp",
-      "altText": "Tampa attorney providing personalized legal guidance to clients during a consultation",
-      "title": "Local Legal Representation With Strong Community Ties",
-      "description": "A Tampa attorney discusses a legal matter with clients in a private office, emphasizing personalized representation and strong connections to the local community.",
-      "caption": "Local representation provides personalized support when families need it most."
+      "sequence": 8,
+      "id": "Dedicated Legal Counsel Tampa Wrongful Death Claims.webp",
+      "fileName": "Dedicated Legal Counsel Tampa Wrongful Death Claims.webp",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/Dedicated Legal Counsel Tampa Wrongful Death Claims.webp",
+      "altText": "Dedicated Legal Counsel Tampa Wrongful Death Claims - Premises Liability Wrongful Death Lawyer Tampa in Tampa, FL",
+      "title": "Dedicated Legal Counsel Tampa Wrongful Death Claims - Premises Liability Wrongful Death Lawyer Tampa",
+      "description": "Professional legal asset representation for Dedicated Legal Counsel Tampa Wrongful Death Claims in Tampa, FL.",
+      "caption": "Dedicated Legal Counsel Tampa Wrongful Death Claims for Premises Liability Wrongful Death Lawyer Tampa clients."
     },
     {
-      "id": "review",
-      "fileName": "review.png",
-      "component": "WhyRightLawyerSection",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/review.png",
-      "altText": "Attorney explaining legal documents to grieving clients after a fatal property accident in Tampa",
-      "title": "Why Tampa Families Need Legal Representation After Fatal Premises Liability Accidents",
-      "description": "An attorney reviews important documents with a distressed couple, illustrating how legal representation can help grieving Tampa families pursue justice after a fatal property accident.",
-      "caption": "Legal guidance can help grieving families pursue justice after a fatal property accident."
+      "sequence": 9,
+      "id": "dedicated-counsel",
+      "fileName": "dedicated-counsel.png",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/dedicated-counsel.png",
+      "altText": "Tampa premises liability wrongful death attorney meeting with a family in a professional law office",
+      "title": "Dedicated Legal Counsel for Tampa Premises Liability Wrongful Death Claims",
+      "description": "An attorney meets with family members in a professional law office, providing legal guidance and discussing options following a wrongful death claim after an unsafe property accident.",
+      "caption": "Experienced legal counsel can help families navigate premises liability wrongful death claims."
     },
     {
+      "sequence": 10,
       "id": "expert-analysis",
       "fileName": "Direct Attorney Access Throughout Your Accident Case.webp",
       "component": "ExpertValuationSection",
@@ -106,6 +116,7 @@
       "caption": "Detailed evidence and expert analysis can strengthen a damage claim."
     },
     {
+      "sequence": 11,
       "id": "distraction",
       "fileName": "distraction.png",
       "component": "CommonCausesSection (Cause 01)",
@@ -116,6 +127,62 @@
       "caption": "Property management companies face legal exposure when safety hazards are left unaddressed."
     },
     {
+      "sequence": 12,
+      "id": "driver-fatigue",
+      "fileName": "driver-fatigue.png",
+      "component": "CommonCausesSection (Cause 05)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/driver-fatigue.png",
+      "altText": "Swimming Pool and Drowning Fatalities",
+      "title": "Swimming Pool and Drowning Fatalities",
+      "description": "Pool safety violations and drowning incidents in Tampa properties.",
+      "caption": "Non-compliant pool safety barriers and drains trigger liability."
+    },
+    {
+      "sequence": 13,
+      "id": "evidence-timing",
+      "fileName": "evidence-timing.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/evidence-timing.png",
+      "altText": "Evidence Preservation and Timing Delays in Tampa, FL Wrongful Death Cases",
+      "title": "Evidence Preservation & Legal Deadlines",
+      "description": "Critical timing and evidence collection guidelines for premises liability wrongful death claims in Tampa, FL.",
+      "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
+    },
+    {
+      "sequence": 14,
+      "id": "fatal-accidents-hotels-resorts-vacation-rentals-tampa.webp",
+      "fileName": "fatal-accidents-hotels-resorts-vacation-rentals-tampa.webp",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/fatal-accidents-hotels-resorts-vacation-rentals-tampa.webp",
+      "altText": "Unsafe hotel resort walkway and hazardous vacation rental property in Tampa Bay.",
+      "title": "Fatal Accidents at Hotels, Resorts, and Vacation Rentals in Tampa",
+      "description": "Investigation of deadly accidents at Tampa resorts, hotels, and short-term rentals caused by property negligence.",
+      "caption": "Hotel and resort operators are legally obligated to maintain safe guest premises under Florida law."
+    },
+    {
+      "sequence": 15,
+      "id": "hero-bg",
+      "fileName": "hero-bg.png",
+      "component": "HeroHeader (Background)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/hero-bg.png",
+      "altText": "Hero Background Banner for Premises Liability Wrongful Death Lawyer in Tampa, FL",
+      "title": "Premises Liability Wrongful Death Lawyer Tampa Hero Section Background",
+      "description": "Dark professional background graphic for Premises Liability Wrongful Death Lawyer hero header in Tampa, FL.",
+      "caption": "Premises Liability Wrongful Death Lawyer Tampa Legal Practice Header Background"
+    },
+    {
+      "sequence": 16,
+      "id": "Impaired Driving High Speed Highway Corridor Risks.webp",
+      "fileName": "Impaired Driving High Speed Highway Corridor Risks.webp",
+      "component": "General SEO Section",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/Impaired Driving High Speed Highway Corridor Risks.webp",
+      "altText": "Impaired Driving High Speed Highway Corridor Risks - Premises Liability Wrongful Death Lawyer Tampa in Tampa, FL",
+      "title": "Impaired Driving High Speed Highway Corridor Risks - Premises Liability Wrongful Death Lawyer Tampa",
+      "description": "Professional legal asset representation for Impaired Driving High Speed Highway Corridor Risks in Tampa, FL.",
+      "caption": "Impaired Driving High Speed Highway Corridor Risks for Premises Liability Wrongful Death Lawyer Tampa clients."
+    },
+    {
+      "sequence": 17,
       "id": "impaired",
       "fileName": "impaired.png",
       "component": "CommonCausesSection (Cause 02)",
@@ -126,16 +193,95 @@
       "caption": "Commercial lodging operators bear responsibility when maintenance standards slip."
     },
     {
-      "id": "weather",
-      "fileName": "weather.png",
+      "sequence": 18,
+      "id": "inadequate-security-fatal-criminal-acts-tampa.webp",
+      "fileName": "inadequate-security-fatal-criminal-acts-tampa.webp",
       "component": "CommonCausesSection (Cause 03)",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/weather.png",
-      "altText": "Inadequate Security Leading to Fatal Criminal Acts",
-      "title": "Inadequate Security Leading to Fatal Criminal Acts",
-      "description": "Negligent security conditions contributing to fatal attacks in Tampa.",
-      "caption": "Florida law holds property owners accountable for negligent security."
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/inadequate-security-fatal-criminal-acts-tampa.webp",
+      "altText": "Dimly lit parking garage with broken security cameras leading to negligent security wrongful death in Tampa.",
+      "title": "Inadequate Security and Negligent Security Fatalities in Tampa",
+      "description": "Negligent security claims in Tampa involving unlit areas, broken locks, and lack of security personnel.",
+      "caption": "Property owners face liability when preventable violent crimes occur due to inadequate security."
     },
     {
+      "sequence": 19,
+      "id": "Justice Secured for Tampa Families Wrongful Death Claims.webp",
+      "fileName": "Justice Secured for Tampa Families Wrongful Death Claims.webp",
+      "component": "JusticeSecuredSection",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/Justice Secured for Tampa Families Wrongful Death Claims.webp",
+      "altText": "Justice Secured For Tampa Families Wrongful Death Claims - Premises Liability Wrongful Death Lawyer Tampa in Tampa, FL",
+      "title": "Justice Secured For Tampa Families Wrongful Death Claims - Premises Liability Wrongful Death Lawyer Tampa",
+      "description": "Professional legal asset representation for Justice Secured For Tampa Families Wrongful Death Claims in Tampa, FL.",
+      "caption": "Justice Secured For Tampa Families Wrongful Death Claims for Premises Liability Wrongful Death Lawyer Tampa clients."
+    },
+    {
+      "sequence": 20,
+      "id": "justice-family",
+      "fileName": "justice-family.png",
+      "component": "JusticeSecuredSection",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/justice-family.png",
+      "altText": "Justice and Compensation for Tampa, FL Families after Wrongful Death",
+      "title": "Justice for Tampa, FL Families",
+      "description": "Supporting grieving families in Tampa, FL to secure full financial recovery and legal justice.",
+      "caption": "Fighting to secure financial peace of mind for surviving family members."
+    },
+    {
+      "sequence": 21,
+      "id": "negligent-motorists",
+      "fileName": "negligent-motorists.png",
+      "component": "CommonCausesSection (Cause 06)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/negligent-motorists.png",
+      "altText": "Negligent Motorists - Premises Liability Wrongful Death Lawyer Tampa in Tampa, FL",
+      "title": "Negligent Motorists - Premises Liability Wrongful Death Lawyer Tampa",
+      "description": "Professional legal asset representation for Negligent Motorists in Tampa, FL.",
+      "caption": "Negligent Motorists for Premises Liability Wrongful Death Lawyer Tampa clients."
+    },
+    {
+      "sequence": 22,
+      "id": "premises-liability-wrongful-death-lawyer-tampa-hero.webp",
+      "fileName": "premises-liability-wrongful-death-lawyer-tampa-hero.webp",
+      "component": "HeroHeader / WhyRightLawyerSection",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/premises-liability-wrongful-death-lawyer-tampa-hero.webp",
+      "altText": "Premises Liability Wrongful Death Lawyer in Tampa, FL representing grieving families.",
+      "title": "Premises Liability Wrongful Death Attorney in Tampa, FL",
+      "description": "Dedicated legal representation for Tampa families pursuing justice after fatal premises liability accidents.",
+      "caption": "Fighting for maximum financial recovery and justice for surviving Tampa family members."
+    },
+    {
+      "sequence": 23,
+      "id": "review",
+      "fileName": "review.png",
+      "component": "WhyRightLawyerSection",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/review.png",
+      "altText": "Attorney explaining legal documents to grieving clients after a fatal property accident in Tampa",
+      "title": "Why Tampa Families Need Legal Representation After Fatal Premises Liability Accidents",
+      "description": "An attorney reviews important documents with a distressed couple, illustrating how legal representation can help grieving Tampa families pursue justice after a fatal property accident.",
+      "caption": "Legal guidance can help grieving families pursue justice after a fatal property accident."
+    },
+    {
+      "sequence": 24,
+      "id": "swimming-pool-drowning-fatalities-tampa.webp",
+      "fileName": "swimming-pool-drowning-fatalities-tampa.webp",
+      "component": "CommonCausesSection (Cause 05)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/swimming-pool-drowning-fatalities-tampa.webp",
+      "altText": "Unfenced commercial swimming pool with defective gate leading to drowning fatality in Tampa.",
+      "title": "Swimming Pool and Drowning Fatalities Premises Liability Tampa",
+      "description": "Florida premises liability law regarding pool barriers, latching gates, and drowning prevention.",
+      "caption": "Swimming pool operators must strictly comply with Florida safety enclosure standards."
+    },
+    {
+      "sequence": 25,
+      "id": "local-representation",
+      "fileName": "Tampa Families Need Legal Help After Car Accidents.webp",
+      "component": "WhyChooseUsSection",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/Tampa Families Need Legal Help After Car Accidents.webp",
+      "altText": "Tampa attorney providing personalized legal guidance to clients during a consultation",
+      "title": "Local Legal Representation With Strong Community Ties",
+      "description": "A Tampa attorney discusses a legal matter with clients in a private office, emphasizing personalized representation and strong connections to the local community.",
+      "caption": "Local representation provides personalized support when families need it most."
+    },
+    {
+      "sequence": 26,
       "id": "traffic-congestion",
       "fileName": "traffic-congestion.png",
       "component": "CommonCausesSection (Cause 04)",
@@ -146,14 +292,26 @@
       "caption": "Building code violations and unsafe structures create legal liability."
     },
     {
-      "id": "driver-fatigue",
-      "fileName": "driver-fatigue.png",
-      "component": "CommonCausesSection (Cause 05)",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/driver-fatigue.png",
-      "altText": "Swimming Pool and Drowning Fatalities",
-      "title": "Swimming Pool and Drowning Fatalities",
-      "description": "Pool safety violations and drowning incidents in Tampa properties.",
-      "caption": "Non-compliant pool safety barriers and drains trigger liability."
+      "sequence": 27,
+      "id": "unsafe-stairways-walkways-balcony-collapses-tampa.webp",
+      "fileName": "unsafe-stairways-walkways-balcony-collapses-tampa.webp",
+      "component": "CommonCausesSection (Cause 04)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/unsafe-stairways-walkways-balcony-collapses-tampa.webp",
+      "altText": "Deteriorating apartment balcony and broken stair handrail causing fatal fall in Tampa.",
+      "title": "Unsafe Stairways, Walkways, and Balcony Collapses in Tampa",
+      "description": "Structural defects, failed inspections, and unmaintained balconies causing fatal falls on Tampa properties.",
+      "caption": "Property maintenance failures and code violations can result in catastrophic structural collapses."
+    },
+    {
+      "sequence": 28,
+      "id": "weather",
+      "fileName": "weather.png",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-tampa/weather.png",
+      "altText": "Inadequate Security Leading to Fatal Criminal Acts",
+      "title": "Inadequate Security Leading to Fatal Criminal Acts",
+      "description": "Negligent security conditions contributing to fatal attacks in Tampa.",
+      "caption": "Florida law holds property owners accountable for negligent security."
     }
   ]
 }

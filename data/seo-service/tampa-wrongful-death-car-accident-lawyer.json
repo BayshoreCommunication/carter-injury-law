@@ -3,39 +3,10 @@
   "serviceName": "Tampa Wrongful Death Car Accident Lawyer",
   "location": "Tampa, FL",
   "topic": "Wrongful Death & Car Accidents",
-  "totalImages": 13,
+  "totalImages": 21,
   "images": [
     {
-      "id": "carter-attorney",
-      "fileName": "carter.png",
-      "component": "HeroHeader",
-      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/carter.png",
-      "altText": "Attorney David J. Carter - Lead Wrongful Death & Car Accidents Lawyer in Tampa, FL",
-      "title": "Tampa Wrongful Death Car Accident Lawyer - Attorney David J. Carter",
-      "description": "Professional portrait of Attorney David J. Carter representing Tampa Wrongful Death Car Accident Lawyer in Tampa, FL.",
-      "caption": "David J. Carter - Dedicated Wrongful Death & Car Accidents Trial Attorney"
-    },
-    {
-      "id": "hero-bg",
-      "fileName": "hero-bg.png",
-      "component": "HeroHeader (Background)",
-      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/hero-bg.png",
-      "altText": "Hero Background Banner for Tampa Wrongful Death Car Accident Lawyer in Tampa, FL",
-      "title": "Tampa Wrongful Death Car Accident Lawyer Hero Section Background",
-      "description": "Dark professional background graphic for Tampa Wrongful Death Car Accident Lawyer hero header in Tampa, FL.",
-      "caption": "Tampa Wrongful Death Car Accident Lawyer Legal Practice Header Background"
-    },
-    {
-      "id": "dedicated-counsel",
-      "fileName": "Dedicated Legal Counsel Tampa Wrongful Death Claims.webp",
-      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
-      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/Dedicated Legal Counsel Tampa Wrongful Death Claims.webp",
-      "altText": "Attorney meeting with Tampa family to discuss a wrongful death legal claim",
-      "title": "Dedicated Legal Counsel for Tampa Wrongful Death Claims",
-      "description": "This image shows an attorney meeting with family members in a law office, representing the dedicated legal counsel Tampa families may seek when facing the devastating loss of a loved one.",
-      "caption": "Tampa families facing wrongful death claims deserve dedicated legal counsel and compassionate guidance."
-    },
-    {
+      "sequence": 1,
       "id": "carter-team-cta",
       "fileName": "carter-team-cta.png",
       "component": "FinalCTASection",
@@ -46,76 +17,18 @@
       "caption": "Our legal team is standing by to evaluate your case in Tampa, FL."
     },
     {
-      "id": "communication-mistakes",
-      "fileName": "communication-mistakes.png",
-      "component": "MistakesSection",
-      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/communication-mistakes.png",
-      "altText": "Insurance Adjuster Communication Mistakes in Wrongful Death & Car Accidents Claims",
-      "title": "Insurance Communication Pitfalls",
-      "description": "Illustration of common communication mistakes with insurance adjusters in Tampa, FL wrongful death & car accidents cases.",
-      "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
+      "sequence": 2,
+      "id": "carter-attorney",
+      "fileName": "carter.png",
+      "component": "HeroHeader",
+      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/carter.png",
+      "altText": "Attorney David J. Carter - Lead Wrongful Death & Car Accidents Lawyer in Tampa, FL",
+      "title": "Tampa Wrongful Death Car Accident Lawyer - Attorney David J. Carter",
+      "description": "Professional portrait of Attorney David J. Carter representing Tampa Wrongful Death Car Accident Lawyer in Tampa, FL.",
+      "caption": "David J. Carter - Dedicated Wrongful Death & Car Accidents Trial Attorney"
     },
     {
-      "id": "evidence-timing",
-      "fileName": "evidence-timing.png",
-      "component": "MistakesSection",
-      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/evidence-timing.png",
-      "altText": "Evidence Preservation and Timing Delays in Tampa, FL Wrongful Death & Car Accidents Cases",
-      "title": "Evidence Preservation & Legal Deadlines",
-      "description": "Critical timing and evidence collection guidelines for wrongful death & car accidents claims in Tampa, FL.",
-      "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
-    },
-    {
-      "id": "justice-family",
-      "fileName": "Justice Secured for Tampa Families Wrongful Death Claims.webp",
-      "component": "JusticeSecuredSection",
-      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/Justice Secured for Tampa Families Wrongful Death Claims.webp",
-      "altText": "Attorney representing Tampa families during a wrongful death case consultation",
-      "title": "Justice Secured for Tampa Families in Wrongful Death Claims",
-      "description": "This image shows an attorney meeting with clients in a professional law office, reflecting the advocacy and legal representation available to Tampa families pursuing justice after a wrongful death.",
-      "caption": "Strong legal representation can help Tampa families pursue justice after a wrongful death."
-    },
-    {
-      "id": "local-representation",
-      "fileName": "Direct Attorney Access Throughout Your Accident Case.webp",
-      "component": "WhyChooseUsSection",
-      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/Direct Attorney Access Throughout Your Accident Case.webp",
-      "altText": "Attorney providing direct guidance to clients during a legal case consultation",
-      "title": "Direct Attorney Access Throughout Your Accident Case",
-      "description": "This image depicts an attorney speaking directly with clients during a case consultation, illustrating personalized legal guidance and direct attorney access throughout a wrongful death or accident claim.",
-      "caption": "Direct attorney access helps clients stay informed and supported throughout their legal case."
-    },
-    {
-      "id": "review",
-      "fileName": "review.png",
-      "component": "WhyRightLawyerSection",
-      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/review.png",
-      "altText": "5-Star Client Review for Tampa Wrongful Death Car Accident Lawyer",
-      "title": "5-Star Rated Wrongful Death & Car Accidents Lawyer in Tampa, FL",
-      "description": "Top-rated review badge for Tampa Wrongful Death Car Accident Lawyer serving Tampa, FL.",
-      "caption": "Trusted by clients across Tampa, FL."
-    },
-    {
-      "id": "distraction",
-      "fileName": "Dangerous Driver Distractions Traffic Violations Tampa.webp",
-      "component": "CommonCausesSection (Cause 01)",
-      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/Dangerous Driver Distractions Traffic Violations Tampa.webp",
-      "altText": "Dangerous driver distractions and traffic violations at an intersection",
-      "title": "Dangerous Driver Distractions and Traffic Violations",
-      "description": "This image shows a driver using a smartphone while driving through a busy intersection, highlighting dangerous distractions and traffic violations that can contribute to serious vehicle accidents.",
-      "caption": "Driver distraction and traffic violations can create dangerous conditions for everyone on the road."
-    },
-    {
-      "id": "impaired",
-      "fileName": "Impaired Driving High Speed Highway Corridor Risks.webp",
-      "component": "CommonCausesSection (Cause 02)",
-      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/Impaired Driving High Speed Highway Corridor Risks.webp",
-      "altText": "Impaired driver traveling on a busy highway as emergency vehicles respond nearby",
-      "title": "Impaired Driving Along High-Speed Highway Corridors",
-      "description": "This nighttime highway scene illustrates the dangers of impaired driving on high-speed corridors, with heavy traffic and emergency responders visible near an apparent roadway incident.",
-      "caption": "Impaired driving on busy highways can quickly lead to devastating crashes and serious injuries."
-    },
-    {
+      "sequence": 3,
       "id": "weather",
       "fileName": "Commercial Truck Driver Fatigue Extreme Weather Risks.webp",
       "component": "CommonCausesSection (Cause 03)",
@@ -126,6 +39,172 @@
       "caption": "Truck driver fatigue and extreme weather can combine to create dangerous roadway conditions."
     },
     {
+      "sequence": 4,
+      "id": "communication-mistakes",
+      "fileName": "communication-mistakes.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/communication-mistakes.png",
+      "altText": "Insurance Adjuster Communication Mistakes in Wrongful Death & Car Accidents Claims",
+      "title": "Insurance Communication Pitfalls",
+      "description": "Illustration of common communication mistakes with insurance adjusters in Tampa, FL wrongful death & car accidents cases.",
+      "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
+    },
+    {
+      "sequence": 5,
+      "id": "distraction",
+      "fileName": "Dangerous Driver Distractions Traffic Violations Tampa.webp",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/Dangerous Driver Distractions Traffic Violations Tampa.webp",
+      "altText": "Dangerous driver distractions and traffic violations at an intersection",
+      "title": "Dangerous Driver Distractions and Traffic Violations",
+      "description": "This image shows a driver using a smartphone while driving through a busy intersection, highlighting dangerous distractions and traffic violations that can contribute to serious vehicle accidents.",
+      "caption": "Driver distraction and traffic violations can create dangerous conditions for everyone on the road."
+    },
+    {
+      "sequence": 6,
+      "id": "dedicated-counsel",
+      "fileName": "Dedicated Legal Counsel Tampa Wrongful Death Claims.webp",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/Dedicated Legal Counsel Tampa Wrongful Death Claims.webp",
+      "altText": "Attorney meeting with Tampa family to discuss a wrongful death legal claim",
+      "title": "Dedicated Legal Counsel for Tampa Wrongful Death Claims",
+      "description": "This image shows an attorney meeting with family members in a law office, representing the dedicated legal counsel Tampa families may seek when facing the devastating loss of a loved one.",
+      "caption": "Tampa families facing wrongful death claims deserve dedicated legal counsel and compassionate guidance."
+    },
+    {
+      "sequence": 7,
+      "id": "dedicated-counsel",
+      "fileName": "dedicated-counsel.png",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/dedicated-counsel.png",
+      "altText": "Dedicated Counsel - Tampa Wrongful Death Car Accident Lawyer in Tampa, FL",
+      "title": "Dedicated Counsel - Tampa Wrongful Death Car Accident Lawyer",
+      "description": "Professional legal asset representation for Dedicated Counsel in Tampa, FL.",
+      "caption": "Dedicated Counsel for Tampa Wrongful Death Car Accident Lawyer clients."
+    },
+    {
+      "sequence": 8,
+      "id": "local-representation",
+      "fileName": "Direct Attorney Access Throughout Your Accident Case.webp",
+      "component": "WhyChooseUsSection",
+      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/Direct Attorney Access Throughout Your Accident Case.webp",
+      "altText": "Attorney providing direct guidance to clients during a legal case consultation",
+      "title": "Direct Attorney Access Throughout Your Accident Case",
+      "description": "This image depicts an attorney speaking directly with clients during a case consultation, illustrating personalized legal guidance and direct attorney access throughout a wrongful death or accident claim.",
+      "caption": "Direct attorney access helps clients stay informed and supported throughout their legal case."
+    },
+    {
+      "sequence": 9,
+      "id": "distraction",
+      "fileName": "distraction.png",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/distraction.png",
+      "altText": "Distraction - Tampa Wrongful Death Car Accident Lawyer in Tampa, FL",
+      "title": "Distraction - Tampa Wrongful Death Car Accident Lawyer",
+      "description": "Professional legal asset representation for Distraction in Tampa, FL.",
+      "caption": "Distraction for Tampa Wrongful Death Car Accident Lawyer clients."
+    },
+    {
+      "sequence": 10,
+      "id": "driver-fatigue",
+      "fileName": "driver-fatigue.png",
+      "component": "CommonCausesSection (Cause 05)",
+      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/driver-fatigue.png",
+      "altText": "Driver Fatigue - Tampa Wrongful Death Car Accident Lawyer in Tampa, FL",
+      "title": "Driver Fatigue - Tampa Wrongful Death Car Accident Lawyer",
+      "description": "Professional legal asset representation for Driver Fatigue in Tampa, FL.",
+      "caption": "Driver Fatigue for Tampa Wrongful Death Car Accident Lawyer clients."
+    },
+    {
+      "sequence": 11,
+      "id": "evidence-timing",
+      "fileName": "evidence-timing.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/evidence-timing.png",
+      "altText": "Evidence Preservation and Timing Delays in Tampa, FL Wrongful Death & Car Accidents Cases",
+      "title": "Evidence Preservation & Legal Deadlines",
+      "description": "Critical timing and evidence collection guidelines for wrongful death & car accidents claims in Tampa, FL.",
+      "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
+    },
+    {
+      "sequence": 12,
+      "id": "hero-bg",
+      "fileName": "hero-bg.png",
+      "component": "HeroHeader (Background)",
+      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/hero-bg.png",
+      "altText": "Hero Background Banner for Tampa Wrongful Death Car Accident Lawyer in Tampa, FL",
+      "title": "Tampa Wrongful Death Car Accident Lawyer Hero Section Background",
+      "description": "Dark professional background graphic for Tampa Wrongful Death Car Accident Lawyer hero header in Tampa, FL.",
+      "caption": "Tampa Wrongful Death Car Accident Lawyer Legal Practice Header Background"
+    },
+    {
+      "sequence": 13,
+      "id": "impaired",
+      "fileName": "Impaired Driving High Speed Highway Corridor Risks.webp",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/Impaired Driving High Speed Highway Corridor Risks.webp",
+      "altText": "Impaired driver traveling on a busy highway as emergency vehicles respond nearby",
+      "title": "Impaired Driving Along High-Speed Highway Corridors",
+      "description": "This nighttime highway scene illustrates the dangers of impaired driving on high-speed corridors, with heavy traffic and emergency responders visible near an apparent roadway incident.",
+      "caption": "Impaired driving on busy highways can quickly lead to devastating crashes and serious injuries."
+    },
+    {
+      "sequence": 14,
+      "id": "impaired",
+      "fileName": "impaired.png",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/impaired.png",
+      "altText": "Impaired - Tampa Wrongful Death Car Accident Lawyer in Tampa, FL",
+      "title": "Impaired - Tampa Wrongful Death Car Accident Lawyer",
+      "description": "Professional legal asset representation for Impaired in Tampa, FL.",
+      "caption": "Impaired for Tampa Wrongful Death Car Accident Lawyer clients."
+    },
+    {
+      "sequence": 15,
+      "id": "justice-family",
+      "fileName": "Justice Secured for Tampa Families Wrongful Death Claims.webp",
+      "component": "JusticeSecuredSection",
+      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/Justice Secured for Tampa Families Wrongful Death Claims.webp",
+      "altText": "Attorney representing Tampa families during a wrongful death case consultation",
+      "title": "Justice Secured for Tampa Families in Wrongful Death Claims",
+      "description": "This image shows an attorney meeting with clients in a professional law office, reflecting the advocacy and legal representation available to Tampa families pursuing justice after a wrongful death.",
+      "caption": "Strong legal representation can help Tampa families pursue justice after a wrongful death."
+    },
+    {
+      "sequence": 16,
+      "id": "justice-family",
+      "fileName": "justice-family.png",
+      "component": "JusticeSecuredSection",
+      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/justice-family.png",
+      "altText": "Justice Family - Tampa Wrongful Death Car Accident Lawyer in Tampa, FL",
+      "title": "Justice Family - Tampa Wrongful Death Car Accident Lawyer",
+      "description": "Professional legal asset representation for Justice Family in Tampa, FL.",
+      "caption": "Justice Family for Tampa Wrongful Death Car Accident Lawyer clients."
+    },
+    {
+      "sequence": 17,
+      "id": "negligent-motorists",
+      "fileName": "negligent-motorists.png",
+      "component": "CommonCausesSection (Cause 06)",
+      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/negligent-motorists.png",
+      "altText": "Negligent Motorists - Tampa Wrongful Death Car Accident Lawyer in Tampa, FL",
+      "title": "Negligent Motorists - Tampa Wrongful Death Car Accident Lawyer",
+      "description": "Professional legal asset representation for Negligent Motorists in Tampa, FL.",
+      "caption": "Negligent Motorists for Tampa Wrongful Death Car Accident Lawyer clients."
+    },
+    {
+      "sequence": 18,
+      "id": "review",
+      "fileName": "review.png",
+      "component": "WhyRightLawyerSection",
+      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/review.png",
+      "altText": "5-Star Client Review for Tampa Wrongful Death Car Accident Lawyer",
+      "title": "5-Star Rated Wrongful Death & Car Accidents Lawyer in Tampa, FL",
+      "description": "Top-rated review badge for Tampa Wrongful Death Car Accident Lawyer serving Tampa, FL.",
+      "caption": "Trusted by clients across Tampa, FL."
+    },
+    {
+      "sequence": 19,
       "id": "tampa-families-legal-help",
       "fileName": "Tampa Families Need Legal Help After Car Accidents.webp",
       "component": "WhyRightLawyerSection",
@@ -134,6 +213,28 @@
       "title": "Why Tampa Families Need Legal Help After Car Accidents",
       "description": "This image shows a grieving couple meeting with an attorney after a serious car accident, illustrating why legal representation can be important when families face complex claims and pursue justice.",
       "caption": "Legal guidance can help grieving Tampa families protect their rights after a serious car accident."
+    },
+    {
+      "sequence": 20,
+      "id": "traffic-congestion",
+      "fileName": "traffic-congestion.png",
+      "component": "CommonCausesSection (Cause 04)",
+      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/traffic-congestion.png",
+      "altText": "Traffic Congestion - Tampa Wrongful Death Car Accident Lawyer in Tampa, FL",
+      "title": "Traffic Congestion - Tampa Wrongful Death Car Accident Lawyer",
+      "description": "Professional legal asset representation for Traffic Congestion in Tampa, FL.",
+      "caption": "Traffic Congestion for Tampa Wrongful Death Car Accident Lawyer clients."
+    },
+    {
+      "sequence": 21,
+      "id": "weather",
+      "fileName": "weather.png",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/tampa-wrongful-death-car-accident-lawyer/weather.png",
+      "altText": "Weather - Tampa Wrongful Death Car Accident Lawyer in Tampa, FL",
+      "title": "Weather - Tampa Wrongful Death Car Accident Lawyer",
+      "description": "Professional legal asset representation for Weather in Tampa, FL.",
+      "caption": "Weather for Tampa Wrongful Death Car Accident Lawyer clients."
     }
   ]
 }

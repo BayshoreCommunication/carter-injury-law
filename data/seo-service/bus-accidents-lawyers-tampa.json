@@ -3,39 +3,10 @@
   "serviceName": "Bus Accidents Lawyers Tampa",
   "location": "Tampa, FL",
   "topic": "Bus Accidents",
-  "totalImages": 15,
+  "totalImages": 23,
   "images": [
     {
-      "id": "carter-attorney",
-      "fileName": "carter.png",
-      "component": "HeroHeader",
-      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/carter.png",
-      "altText": "Attorney David J. Carter - Lead Bus Accidents Lawyer in Tampa, FL",
-      "title": "Bus Accidents Lawyers Tampa - Attorney David J. Carter",
-      "description": "Professional portrait of Attorney David J. Carter representing Bus Accidents Lawyers Tampa in Tampa, FL.",
-      "caption": "David J. Carter - Dedicated Bus Accidents Trial Attorney"
-    },
-    {
-      "id": "hero-bg",
-      "fileName": "hero-bg.png",
-      "component": "HeroHeader (Background)",
-      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/hero-bg.png",
-      "altText": "Hero Background Banner for Bus Accidents Lawyers Tampa in Tampa, FL",
-      "title": "Bus Accidents Lawyers Tampa Hero Section Background",
-      "description": "Dark professional background graphic for Bus Accidents Lawyers Tampa hero header in Tampa, FL.",
-      "caption": "Bus Accidents Lawyers Tampa Legal Practice Header Background"
-    },
-    {
-      "id": "dedicated-counsel",
-      "fileName": "legal-counsel-tampa-bus-accident-victims-florida.webp",
-      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
-      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/legal-counsel-tampa-bus-accident-victims-florida.webp",
-      "altText": "Attorney meeting with clients in a law office to discuss a potential bus accident claim.",
-      "title": "Legal Counsel for Tampa Bus Accident Victims in Florida",
-      "description": "An attorney meets with clients in a law office, representing legal counsel for Tampa bus accident victims seeking guidance, protection of their rights, and compensation after an injury.",
-      "caption": "Experienced legal counsel can help Tampa bus accident victims pursue compensation."
-    },
-    {
+      "sequence": 1,
       "id": "carter-team-cta",
       "fileName": "carter-team-cta.png",
       "component": "FinalCTASection",
@@ -46,6 +17,18 @@
       "caption": "Our legal team is standing by to evaluate your case in Tampa, FL."
     },
     {
+      "sequence": 2,
+      "id": "carter-attorney",
+      "fileName": "carter.png",
+      "component": "HeroHeader",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/carter.png",
+      "altText": "Attorney David J. Carter - Lead Bus Accidents Lawyer in Tampa, FL",
+      "title": "Bus Accidents Lawyers Tampa - Attorney David J. Carter",
+      "description": "Professional portrait of Attorney David J. Carter representing Bus Accidents Lawyers Tampa in Tampa, FL.",
+      "caption": "David J. Carter - Dedicated Bus Accidents Trial Attorney"
+    },
+    {
+      "sequence": 3,
       "id": "communication-mistakes",
       "fileName": "communication-mistakes.png",
       "component": "MistakesSection",
@@ -56,86 +39,7 @@
       "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
     },
     {
-      "id": "evidence-timing",
-      "fileName": "evidence-timing.png",
-      "component": "MistakesSection",
-      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/evidence-timing.png",
-      "altText": "Evidence Preservation and Timing Delays in Tampa, FL Bus Accidents Cases",
-      "title": "Evidence Preservation & Legal Deadlines",
-      "description": "Critical timing and evidence collection guidelines for bus accidents claims in Tampa, FL.",
-      "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
-    },
-    {
-      "id": "justice-family",
-      "fileName": "justice-family.png",
-      "component": "JusticeSecuredSection",
-      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/justice-family.png",
-      "altText": "Justice and Compensation for Tampa, FL Families after Bus Accidents",
-      "title": "Justice for Tampa, FL Families",
-      "description": "Supporting grieving families in Tampa, FL to secure full financial recovery and legal justice.",
-      "caption": "Fighting to secure financial peace of mind for surviving family members."
-    },
-    {
-      "id": "local-representation",
-      "fileName": "local-representation-strong-community-ties-tampa.webp",
-      "component": "WhyChooseUsSection",
-      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/local-representation-strong-community-ties-tampa.webp",
-      "altText": "Attorney meeting with a client in a Tampa law office for personalized legal guidance.",
-      "title": "Local Representation With Strong Community Ties in Tampa",
-      "description": "An attorney discusses legal documents with a client in a professional office, illustrating the value of local representation, personal attention, and strong community ties for injured Tampa residents.",
-      "caption": "Local legal representation provides personalized guidance when it matters most."
-    },
-    {
-      "id": "review",
-      "fileName": "tampa-bus-accident-victims-compensation-legal-help.webp",
-      "component": "WhyRightLawyerSection",
-      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/tampa-bus-accident-victims-compensation-legal-help.webp",
-      "altText": "Attorney advising an injured client about legal documents and compensation after a bus accident.",
-      "title": "Why Tampa Bus Accident Victims May Lose Compensation",
-      "description": "An attorney reviews legal documents with a client, illustrating why injured Tampa bus accident victims may risk losing compensation when claims are not properly investigated, documented, and pursued.",
-      "caption": "Legal representation can help protect a bus accident victim's right to compensation."
-    },
-    {
-      "id": "distraction",
-      "fileName": "distracted-fatigued-bus-drivers-tampa-accidents.webp",
-      "component": "CommonCausesSection (Cause 01)",
-      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/distracted-fatigued-bus-drivers-tampa-accidents.webp",
-      "altText": "Distracted or fatigued bus driver using a phone while driving through rainy Tampa traffic.",
-      "title": "Distracted or Fatigued Bus Drivers in Tampa Accidents",
-      "description": "This image shows a bus driver using a phone while driving through rainy traffic, illustrating the dangers of distracted or fatigued driving and the potential for serious bus accidents in Tampa.",
-      "caption": "Distraction and fatigue can put bus passengers and other motorists at serious risk."
-    },
-    {
-      "id": "impaired",
-      "fileName": "speeding-reckless-passenger-bus-operation-tampa.webp",
-      "component": "CommonCausesSection (Cause 02)",
-      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/speeding-reckless-passenger-bus-operation-tampa.webp",
-      "altText": "Passenger bus traveling dangerously fast on a wet Tampa highway during heavy traffic.",
-      "title": "Speeding and Reckless Passenger Bus Operation Risks",
-      "description": "A passenger bus travels through heavy traffic on a wet highway, illustrating how speeding and reckless operation can increase the risk of crashes, injuries, and property damage.",
-      "caption": "Speeding and reckless bus operation can lead to devastating roadway crashes."
-    },
-    {
-      "id": "weather",
-      "fileName": "poor-bus-maintenance-mechanical-failures-tampa.webp",
-      "component": "CommonCausesSection (Cause 03)",
-      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/poor-bus-maintenance-mechanical-failures-tampa.webp",
-      "altText": "Mechanic inspecting a bus wheel and brake system for maintenance and mechanical problems.",
-      "title": "Poor Bus Maintenance and Mechanical Failures in Tampa",
-      "description": "A mechanic works on a bus wheel and brake assembly, highlighting how poor maintenance, worn components, and mechanical failures can create serious safety hazards for passengers and other road users.",
-      "caption": "Proper bus maintenance is essential for preventing mechanical failures and crashes."
-    },
-    {
-      "id": "traffic-congestion",
-      "fileName": "unsafe-lane-changes-blind-spot-bus-collisions.webp",
-      "component": "CommonCausesSection (Cause 04)",
-      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/unsafe-lane-changes-blind-spot-bus-collisions.webp",
-      "altText": "Car traveling beside a bus on a busy highway, showing the danger of blind spot collisions.",
-      "title": "Unsafe Lane Changes and Blind Spot Bus Collisions in Tampa",
-      "description": "A passenger car travels beside a large bus in heavy traffic, illustrating the risks of unsafe lane changes, limited visibility, and blind spot collisions involving commercial buses.",
-      "caption": "Unsafe lane changes and bus blind spots can cause serious collisions."
-    },
-    {
+      "sequence": 4,
       "id": "driver-fatigue",
       "fileName": "dangerous-intersections-heavy-tampa-traffic-risks.webp",
       "component": "CommonCausesSection (Cause 05)",
@@ -146,6 +50,128 @@
       "caption": "Heavy traffic and dangerous intersections can increase bus accident risks."
     },
     {
+      "sequence": 5,
+      "id": "dedicated-counsel",
+      "fileName": "dedicated-counsel.png",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/dedicated-counsel.png",
+      "altText": "Dedicated Counsel - Bus Accidents Lawyers Tampa in Tampa, FL",
+      "title": "Dedicated Counsel - Bus Accidents Lawyers Tampa",
+      "description": "Professional legal asset representation for Dedicated Counsel in Tampa, FL.",
+      "caption": "Dedicated Counsel for Bus Accidents Lawyers Tampa clients."
+    },
+    {
+      "sequence": 6,
+      "id": "distraction",
+      "fileName": "distracted-fatigued-bus-drivers-tampa-accidents.webp",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/distracted-fatigued-bus-drivers-tampa-accidents.webp",
+      "altText": "Distracted or fatigued bus driver using a phone while driving through rainy Tampa traffic.",
+      "title": "Distracted or Fatigued Bus Drivers in Tampa Accidents",
+      "description": "This image shows a bus driver using a phone while driving through rainy traffic, illustrating the dangers of distracted or fatigued driving and the potential for serious bus accidents in Tampa.",
+      "caption": "Distraction and fatigue can put bus passengers and other motorists at serious risk."
+    },
+    {
+      "sequence": 7,
+      "id": "distraction",
+      "fileName": "distraction.png",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/distraction.png",
+      "altText": "Distraction - Bus Accidents Lawyers Tampa in Tampa, FL",
+      "title": "Distraction - Bus Accidents Lawyers Tampa",
+      "description": "Professional legal asset representation for Distraction in Tampa, FL.",
+      "caption": "Distraction for Bus Accidents Lawyers Tampa clients."
+    },
+    {
+      "sequence": 8,
+      "id": "driver-fatigue",
+      "fileName": "driver-fatigue.png",
+      "component": "CommonCausesSection (Cause 05)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/driver-fatigue.png",
+      "altText": "Driver Fatigue - Bus Accidents Lawyers Tampa in Tampa, FL",
+      "title": "Driver Fatigue - Bus Accidents Lawyers Tampa",
+      "description": "Professional legal asset representation for Driver Fatigue in Tampa, FL.",
+      "caption": "Driver Fatigue for Bus Accidents Lawyers Tampa clients."
+    },
+    {
+      "sequence": 9,
+      "id": "evidence-timing",
+      "fileName": "evidence-timing.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/evidence-timing.png",
+      "altText": "Evidence Preservation and Timing Delays in Tampa, FL Bus Accidents Cases",
+      "title": "Evidence Preservation & Legal Deadlines",
+      "description": "Critical timing and evidence collection guidelines for bus accidents claims in Tampa, FL.",
+      "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
+    },
+    {
+      "sequence": 10,
+      "id": "hero-bg",
+      "fileName": "hero-bg.png",
+      "component": "HeroHeader (Background)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/hero-bg.png",
+      "altText": "Hero Background Banner for Bus Accidents Lawyers Tampa in Tampa, FL",
+      "title": "Bus Accidents Lawyers Tampa Hero Section Background",
+      "description": "Dark professional background graphic for Bus Accidents Lawyers Tampa hero header in Tampa, FL.",
+      "caption": "Bus Accidents Lawyers Tampa Legal Practice Header Background"
+    },
+    {
+      "sequence": 11,
+      "id": "impaired",
+      "fileName": "impaired.png",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/impaired.png",
+      "altText": "Impaired - Bus Accidents Lawyers Tampa in Tampa, FL",
+      "title": "Impaired - Bus Accidents Lawyers Tampa",
+      "description": "Professional legal asset representation for Impaired in Tampa, FL.",
+      "caption": "Impaired for Bus Accidents Lawyers Tampa clients."
+    },
+    {
+      "sequence": 12,
+      "id": "justice-family",
+      "fileName": "justice-family.png",
+      "component": "JusticeSecuredSection",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/justice-family.png",
+      "altText": "Justice and Compensation for Tampa, FL Families after Bus Accidents",
+      "title": "Justice for Tampa, FL Families",
+      "description": "Supporting grieving families in Tampa, FL to secure full financial recovery and legal justice.",
+      "caption": "Fighting to secure financial peace of mind for surviving family members."
+    },
+    {
+      "sequence": 13,
+      "id": "dedicated-counsel",
+      "fileName": "legal-counsel-tampa-bus-accident-victims-florida.webp",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/legal-counsel-tampa-bus-accident-victims-florida.webp",
+      "altText": "Attorney meeting with clients in a law office to discuss a potential bus accident claim.",
+      "title": "Legal Counsel for Tampa Bus Accident Victims in Florida",
+      "description": "An attorney meets with clients in a law office, representing legal counsel for Tampa bus accident victims seeking guidance, protection of their rights, and compensation after an injury.",
+      "caption": "Experienced legal counsel can help Tampa bus accident victims pursue compensation."
+    },
+    {
+      "sequence": 14,
+      "id": "local-representation",
+      "fileName": "local-representation-strong-community-ties-tampa.webp",
+      "component": "WhyChooseUsSection",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/local-representation-strong-community-ties-tampa.webp",
+      "altText": "Attorney meeting with a client in a Tampa law office for personalized legal guidance.",
+      "title": "Local Representation With Strong Community Ties in Tampa",
+      "description": "An attorney discusses legal documents with a client in a professional office, illustrating the value of local representation, personal attention, and strong community ties for injured Tampa residents.",
+      "caption": "Local legal representation provides personalized guidance when it matters most."
+    },
+    {
+      "sequence": 15,
+      "id": "negligent-motorists",
+      "fileName": "negligent-motorists.png",
+      "component": "CommonCausesSection (Cause 06)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/negligent-motorists.png",
+      "altText": "Negligent Motorists - Bus Accidents Lawyers Tampa in Tampa, FL",
+      "title": "Negligent Motorists - Bus Accidents Lawyers Tampa",
+      "description": "Professional legal asset representation for Negligent Motorists in Tampa, FL.",
+      "caption": "Negligent Motorists for Bus Accidents Lawyers Tampa clients."
+    },
+    {
+      "sequence": 16,
       "id": "negligent-motorists",
       "fileName": "negligent-school-transit-charter-bus-operations.webp",
       "component": "CommonCausesSection (Cause 06)",
@@ -154,6 +180,83 @@
       "title": "Negligent School, Transit, and Charter Bus Operations",
       "description": "Emergency responders assess a damaged transit bus after a collision, representing the serious consequences of negligent operation involving school buses, transit buses, and charter buses.",
       "caption": "Negligent bus operations can cause serious injuries and life-changing consequences."
+    },
+    {
+      "sequence": 17,
+      "id": "weather",
+      "fileName": "poor-bus-maintenance-mechanical-failures-tampa.webp",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/poor-bus-maintenance-mechanical-failures-tampa.webp",
+      "altText": "Mechanic inspecting a bus wheel and brake system for maintenance and mechanical problems.",
+      "title": "Poor Bus Maintenance and Mechanical Failures in Tampa",
+      "description": "A mechanic works on a bus wheel and brake assembly, highlighting how poor maintenance, worn components, and mechanical failures can create serious safety hazards for passengers and other road users.",
+      "caption": "Proper bus maintenance is essential for preventing mechanical failures and crashes."
+    },
+    {
+      "sequence": 18,
+      "id": "review",
+      "fileName": "review.png",
+      "component": "WhyRightLawyerSection",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/review.png",
+      "altText": "Review - Bus Accidents Lawyers Tampa in Tampa, FL",
+      "title": "Review - Bus Accidents Lawyers Tampa",
+      "description": "Professional legal asset representation for Review in Tampa, FL.",
+      "caption": "Review for Bus Accidents Lawyers Tampa clients."
+    },
+    {
+      "sequence": 19,
+      "id": "impaired",
+      "fileName": "speeding-reckless-passenger-bus-operation-tampa.webp",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/speeding-reckless-passenger-bus-operation-tampa.webp",
+      "altText": "Passenger bus traveling dangerously fast on a wet Tampa highway during heavy traffic.",
+      "title": "Speeding and Reckless Passenger Bus Operation Risks",
+      "description": "A passenger bus travels through heavy traffic on a wet highway, illustrating how speeding and reckless operation can increase the risk of crashes, injuries, and property damage.",
+      "caption": "Speeding and reckless bus operation can lead to devastating roadway crashes."
+    },
+    {
+      "sequence": 20,
+      "id": "review",
+      "fileName": "tampa-bus-accident-victims-compensation-legal-help.webp",
+      "component": "WhyRightLawyerSection",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/tampa-bus-accident-victims-compensation-legal-help.webp",
+      "altText": "Attorney advising an injured client about legal documents and compensation after a bus accident.",
+      "title": "Why Tampa Bus Accident Victims May Lose Compensation",
+      "description": "An attorney reviews legal documents with a client, illustrating why injured Tampa bus accident victims may risk losing compensation when claims are not properly investigated, documented, and pursued.",
+      "caption": "Legal representation can help protect a bus accident victim's right to compensation."
+    },
+    {
+      "sequence": 21,
+      "id": "traffic-congestion",
+      "fileName": "traffic-congestion.png",
+      "component": "CommonCausesSection (Cause 04)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/traffic-congestion.png",
+      "altText": "Traffic Congestion - Bus Accidents Lawyers Tampa in Tampa, FL",
+      "title": "Traffic Congestion - Bus Accidents Lawyers Tampa",
+      "description": "Professional legal asset representation for Traffic Congestion in Tampa, FL.",
+      "caption": "Traffic Congestion for Bus Accidents Lawyers Tampa clients."
+    },
+    {
+      "sequence": 22,
+      "id": "traffic-congestion",
+      "fileName": "unsafe-lane-changes-blind-spot-bus-collisions.webp",
+      "component": "CommonCausesSection (Cause 04)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/unsafe-lane-changes-blind-spot-bus-collisions.webp",
+      "altText": "Car traveling beside a bus on a busy highway, showing the danger of blind spot collisions.",
+      "title": "Unsafe Lane Changes and Blind Spot Bus Collisions in Tampa",
+      "description": "A passenger car travels beside a large bus in heavy traffic, illustrating the risks of unsafe lane changes, limited visibility, and blind spot collisions involving commercial buses.",
+      "caption": "Unsafe lane changes and bus blind spots can cause serious collisions."
+    },
+    {
+      "sequence": 23,
+      "id": "weather",
+      "fileName": "weather.png",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyers-tampa/weather.png",
+      "altText": "Weather - Bus Accidents Lawyers Tampa in Tampa, FL",
+      "title": "Weather - Bus Accidents Lawyers Tampa",
+      "description": "Professional legal asset representation for Weather in Tampa, FL.",
+      "caption": "Weather for Bus Accidents Lawyers Tampa clients."
     }
   ]
 }

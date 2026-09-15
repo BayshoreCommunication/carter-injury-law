@@ -1,48 +1,262 @@
 {
-  "images": {
-    "hero-bg.png": {
-      "fileName": "hero-bg.png",
-      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/hero-bg.png"
-    },
-    "carter.png": {
-      "fileName": "carter.png",
-      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/carter.png"
-    },
-    "distraction": {
-      "fileName": "distraction.png",
-      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/distraction.png"
-    },
-    "impaired": {
-      "fileName": "impaired.png",
-      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/impaired.png"
-    },
-    "weather": {
-      "fileName": "weather.png",
-      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/weather.png"
-    },
-    "traffic-congestion": {
-      "fileName": "traffic-congestion.png",
-      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/traffic-congestion.png"
-    },
-    "driver-fatigue": {
-      "fileName": "driver-fatigue.png",
-      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/driver-fatigue.png"
-    },
-    "evidence-timing": {
-      "fileName": "evidence-timing.png",
-      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/evidence-timing.png"
-    },
-    "review": {
-      "fileName": "review.png",
-      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/review.png"
-    },
-    "local-representation": {
-      "fileName": "local-representation.png",
-      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/local-representation.png"
-    },
-    "carter-team-cta.png": {
+  "folderSlug": "pedestrian-accident-lawyer-in-tampa",
+  "serviceName": "Pedestrian Accident Lawyer in Tampa",
+  "location": "Tampa, FL",
+  "topic": "Pedestrian Accidents",
+  "totalImages": 23,
+  "images": [
+    {
+      "sequence": 1,
+      "id": "carter-team-cta",
       "fileName": "carter-team-cta.png",
-      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/carter-team-cta.png"
+      "component": "FinalCTASection",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/carter-team-cta.png",
+      "altText": "Carter Injury Law Pedestrian Accident Legal Team in Tampa, FL",
+      "title": "Carter Injury Law Pedestrian Accident Legal Team",
+      "description": "Experienced legal team ready for 24/7 consultation in Tampa, FL.",
+      "caption": "Our legal team is available 24/7 for a free confidential case evaluation."
+    },
+    {
+      "sequence": 2,
+      "id": "carter-attorney",
+      "fileName": "carter.png",
+      "component": "HeroHeader",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/carter.png",
+      "altText": "Attorney David J. Carter - Lead Pedestrian Accident Lawyer in Tampa, FL",
+      "title": "Pedestrian Accident Lawyer in Tampa - Attorney David J. Carter",
+      "description": "Professional portrait of Attorney David J. Carter representing Pedestrian Accident Lawyer in Tampa in Tampa, FL.",
+      "caption": "David J. Carter - Dedicated Pedestrian Accident Trial Attorney"
+    },
+    {
+      "sequence": 3,
+      "id": "Commercial Truck Driver Fatigue Extreme Weather Risks.webp",
+      "fileName": "Commercial Truck Driver Fatigue Extreme Weather Risks.webp",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/Commercial Truck Driver Fatigue Extreme Weather Risks.webp",
+      "altText": "Commercial Truck Driver Fatigue Extreme Weather Risks - Pedestrian Accident Lawyer in Tampa in Tampa, FL",
+      "title": "Commercial Truck Driver Fatigue Extreme Weather Risks - Pedestrian Accident Lawyer in Tampa",
+      "description": "Professional legal asset representation for Commercial Truck Driver Fatigue Extreme Weather Risks in Tampa, FL.",
+      "caption": "Commercial Truck Driver Fatigue Extreme Weather Risks for Pedestrian Accident Lawyer in Tampa clients."
+    },
+    {
+      "sequence": 4,
+      "id": "communication-mistakes",
+      "fileName": "communication-mistakes.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/communication-mistakes.png",
+      "altText": "Communication Mistakes - Pedestrian Accident Lawyer in Tampa in Tampa, FL",
+      "title": "Communication Mistakes - Pedestrian Accident Lawyer in Tampa",
+      "description": "Professional legal asset representation for Communication Mistakes in Tampa, FL.",
+      "caption": "Communication Mistakes for Pedestrian Accident Lawyer in Tampa clients."
+    },
+    {
+      "sequence": 5,
+      "id": "Dangerous Driver Distractions Traffic Violations Tampa.webp",
+      "fileName": "Dangerous Driver Distractions Traffic Violations Tampa.webp",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/Dangerous Driver Distractions Traffic Violations Tampa.webp",
+      "altText": "Dangerous Driver Distractions Traffic Violations Tampa - Pedestrian Accident Lawyer in Tampa in Tampa, FL",
+      "title": "Dangerous Driver Distractions Traffic Violations Tampa - Pedestrian Accident Lawyer in Tampa",
+      "description": "Professional legal asset representation for Dangerous Driver Distractions Traffic Violations Tampa in Tampa, FL.",
+      "caption": "Dangerous Driver Distractions Traffic Violations Tampa for Pedestrian Accident Lawyer in Tampa clients."
+    },
+    {
+      "sequence": 6,
+      "id": "Dedicated Legal Counsel Tampa Wrongful Death Claims.webp",
+      "fileName": "Dedicated Legal Counsel Tampa Wrongful Death Claims.webp",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/Dedicated Legal Counsel Tampa Wrongful Death Claims.webp",
+      "altText": "Dedicated Legal Counsel Tampa Wrongful Death Claims - Pedestrian Accident Lawyer in Tampa in Tampa, FL",
+      "title": "Dedicated Legal Counsel Tampa Wrongful Death Claims - Pedestrian Accident Lawyer in Tampa",
+      "description": "Professional legal asset representation for Dedicated Legal Counsel Tampa Wrongful Death Claims in Tampa, FL.",
+      "caption": "Dedicated Legal Counsel Tampa Wrongful Death Claims for Pedestrian Accident Lawyer in Tampa clients."
+    },
+    {
+      "sequence": 7,
+      "id": "dedicated-counsel",
+      "fileName": "dedicated-counsel.png",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/dedicated-counsel.png",
+      "altText": "Dedicated Counsel - Pedestrian Accident Lawyer in Tampa in Tampa, FL",
+      "title": "Dedicated Counsel - Pedestrian Accident Lawyer in Tampa",
+      "description": "Professional legal asset representation for Dedicated Counsel in Tampa, FL.",
+      "caption": "Dedicated Counsel for Pedestrian Accident Lawyer in Tampa clients."
+    },
+    {
+      "sequence": 8,
+      "id": "Direct Attorney Access Throughout Your Accident Case.webp",
+      "fileName": "Direct Attorney Access Throughout Your Accident Case.webp",
+      "component": "General SEO Section",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/Direct Attorney Access Throughout Your Accident Case.webp",
+      "altText": "Direct Attorney Access Throughout Your Accident Case - Pedestrian Accident Lawyer in Tampa in Tampa, FL",
+      "title": "Direct Attorney Access Throughout Your Accident Case - Pedestrian Accident Lawyer in Tampa",
+      "description": "Professional legal asset representation for Direct Attorney Access Throughout Your Accident Case in Tampa, FL.",
+      "caption": "Direct Attorney Access Throughout Your Accident Case for Pedestrian Accident Lawyer in Tampa clients."
+    },
+    {
+      "sequence": 9,
+      "id": "distraction",
+      "fileName": "distraction.png",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/distraction.png",
+      "altText": "Drivers Failing to Yield at Crosswalks in Tampa",
+      "title": "Drivers Failing to Yield at Crosswalks",
+      "description": "Crosswalk collisions and failure to yield to pedestrians in Tampa, FL.",
+      "caption": "Drivers approaching marked crosswalks must yield to pedestrians."
+    },
+    {
+      "sequence": 10,
+      "id": "driver-fatigue",
+      "fileName": "driver-fatigue.png",
+      "component": "CommonCausesSection (Cause 05)",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/driver-fatigue.png",
+      "altText": "Drunk and Drug-Impaired Driving in Tampa",
+      "title": "Drunk and Drug-Impaired Driving",
+      "description": "Impaired drivers causing severe pedestrian accidents in Hillsborough County.",
+      "caption": "Impaired driving results in some of the most devastating pedestrian injuries."
+    },
+    {
+      "sequence": 11,
+      "id": "evidence-timing",
+      "fileName": "evidence-timing.png",
+      "component": "CommonCausesSection (Cause 06)",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/evidence-timing.png",
+      "altText": "Poor Visibility During Nighttime and Severe Weather in Tampa",
+      "title": "Poor Visibility During Nighttime and Severe Weather",
+      "description": "Low light and severe weather pedestrian hazards in Tampa.",
+      "caption": "Drivers have a legal duty to exercise heightened care during poor visibility."
+    },
+    {
+      "sequence": 12,
+      "id": "expert-analysis",
+      "fileName": "expert-analysis.png",
+      "component": "ExpertValuationSection",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/expert-analysis.png",
+      "altText": "Expert Analysis - Pedestrian Accident Lawyer in Tampa in Tampa, FL",
+      "title": "Expert Analysis - Pedestrian Accident Lawyer in Tampa",
+      "description": "Professional legal asset representation for Expert Analysis in Tampa, FL.",
+      "caption": "Expert Analysis for Pedestrian Accident Lawyer in Tampa clients."
+    },
+    {
+      "sequence": 13,
+      "id": "hero-bg",
+      "fileName": "hero-bg.png",
+      "component": "HeroHeader (Background)",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/hero-bg.png",
+      "altText": "Hero Background Banner for Pedestrian Accident Lawyer in Tampa, FL",
+      "title": "Pedestrian Accident Lawyer in Tampa Hero Section Background",
+      "description": "Dark professional background graphic for Pedestrian Accident Lawyer in Tampa hero header.",
+      "caption": "Pedestrian Accident Lawyer in Tampa Legal Practice Header Background"
+    },
+    {
+      "sequence": 14,
+      "id": "Impaired Driving High Speed Highway Corridor Risks.webp",
+      "fileName": "Impaired Driving High Speed Highway Corridor Risks.webp",
+      "component": "General SEO Section",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/Impaired Driving High Speed Highway Corridor Risks.webp",
+      "altText": "Impaired Driving High Speed Highway Corridor Risks - Pedestrian Accident Lawyer in Tampa in Tampa, FL",
+      "title": "Impaired Driving High Speed Highway Corridor Risks - Pedestrian Accident Lawyer in Tampa",
+      "description": "Professional legal asset representation for Impaired Driving High Speed Highway Corridor Risks in Tampa, FL.",
+      "caption": "Impaired Driving High Speed Highway Corridor Risks for Pedestrian Accident Lawyer in Tampa clients."
+    },
+    {
+      "sequence": 15,
+      "id": "impaired",
+      "fileName": "impaired.png",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/impaired.png",
+      "altText": "Distracted Driving in Busy Urban Areas in Tampa",
+      "title": "Distracted Driving in Busy Urban Areas",
+      "description": "Distracted driving risks near downtown Tampa and Westshore.",
+      "caption": "Distracted driving is a leading cause of pedestrian injuries in Tampa."
+    },
+    {
+      "sequence": 16,
+      "id": "Justice Secured for Tampa Families Wrongful Death Claims.webp",
+      "fileName": "Justice Secured for Tampa Families Wrongful Death Claims.webp",
+      "component": "JusticeSecuredSection",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/Justice Secured for Tampa Families Wrongful Death Claims.webp",
+      "altText": "Justice Secured For Tampa Families Wrongful Death Claims - Pedestrian Accident Lawyer in Tampa in Tampa, FL",
+      "title": "Justice Secured For Tampa Families Wrongful Death Claims - Pedestrian Accident Lawyer in Tampa",
+      "description": "Professional legal asset representation for Justice Secured For Tampa Families Wrongful Death Claims in Tampa, FL.",
+      "caption": "Justice Secured For Tampa Families Wrongful Death Claims for Pedestrian Accident Lawyer in Tampa clients."
+    },
+    {
+      "sequence": 17,
+      "id": "justice-family",
+      "fileName": "justice-family.png",
+      "component": "JusticeSecuredSection",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/justice-family.png",
+      "altText": "Justice Family - Pedestrian Accident Lawyer in Tampa in Tampa, FL",
+      "title": "Justice Family - Pedestrian Accident Lawyer in Tampa",
+      "description": "Professional legal asset representation for Justice Family in Tampa, FL.",
+      "caption": "Justice Family for Pedestrian Accident Lawyer in Tampa clients."
+    },
+    {
+      "sequence": 18,
+      "id": "local-representation",
+      "fileName": "local-representation.png",
+      "component": "WhyChooseUsSection",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/local-representation.png",
+      "altText": "Why Tampa Injury Victims Choose Our Law Firm After a Pedestrian Accident",
+      "title": "Local Pedestrian Accident Representation in Tampa",
+      "description": "Direct attorney access and disciplined trial preparation for Tampa victims.",
+      "caption": "Direct communication with your attorney from intake to resolution."
+    },
+    {
+      "sequence": 19,
+      "id": "negligent-motorists",
+      "fileName": "negligent-motorists.png",
+      "component": "CommonCausesSection (Cause 06)",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/negligent-motorists.png",
+      "altText": "Negligent Motorists - Pedestrian Accident Lawyer in Tampa in Tampa, FL",
+      "title": "Negligent Motorists - Pedestrian Accident Lawyer in Tampa",
+      "description": "Professional legal asset representation for Negligent Motorists in Tampa, FL.",
+      "caption": "Negligent Motorists for Pedestrian Accident Lawyer in Tampa clients."
+    },
+    {
+      "sequence": 20,
+      "id": "review",
+      "fileName": "review.png",
+      "component": "WhyRightLawyerSection",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/review.png",
+      "altText": "Why Injured Pedestrians Lose Out on Compensation Without Legal Representation",
+      "title": "Protecting Injured Pedestrians in Tampa",
+      "description": "Preventing insurance companies from shifting fault onto injured pedestrians in Tampa.",
+      "caption": "Dedicated legal counsel protects your rights after a pedestrian crash."
+    },
+    {
+      "sequence": 21,
+      "id": "Tampa Families Need Legal Help After Car Accidents.webp",
+      "fileName": "Tampa Families Need Legal Help After Car Accidents.webp",
+      "component": "General SEO Section",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/Tampa Families Need Legal Help After Car Accidents.webp",
+      "altText": "Tampa Families Need Legal Help After Car Accidents - Pedestrian Accident Lawyer in Tampa in Tampa, FL",
+      "title": "Tampa Families Need Legal Help After Car Accidents - Pedestrian Accident Lawyer in Tampa",
+      "description": "Professional legal asset representation for Tampa Families Need Legal Help After Car Accidents in Tampa, FL.",
+      "caption": "Tampa Families Need Legal Help After Car Accidents for Pedestrian Accident Lawyer in Tampa clients."
+    },
+    {
+      "sequence": 22,
+      "id": "traffic-congestion",
+      "fileName": "traffic-congestion.png",
+      "component": "CommonCausesSection (Cause 04)",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/traffic-congestion.png",
+      "altText": "Dangerous Left-Turn and Right-Turn Collisions in Tampa",
+      "title": "Dangerous Left-Turn and Right-Turn Collisions",
+      "description": "Turning vehicles striking pedestrians who have the legal right of way.",
+      "caption": "Turning drivers often fail to check crosswalks before proceeding."
+    },
+    {
+      "sequence": 23,
+      "id": "weather",
+      "fileName": "weather.png",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/weather.png",
+      "altText": "Speeding Through Residential Neighborhoods in Tampa",
+      "title": "Speeding Through Residential Neighborhoods",
+      "description": "Excessive speed on residential streets in Seminole Heights and Carrollwood.",
+      "caption": "High speeds leave pedestrians with almost no time to react."
     }
-  }
+  ]
 }

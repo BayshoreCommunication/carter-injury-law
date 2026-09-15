@@ -3,39 +3,21 @@
   "serviceName": "Bus Accidents Lawyer Largo",
   "location": "Largo, FL",
   "topic": "Bus Accidents",
-  "totalImages": 14,
+  "totalImages": 23,
   "images": [
     {
-      "id": "carter-attorney",
-      "fileName": "carter.png",
-      "component": "HeroHeader",
-      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/carter.png",
-      "altText": "Attorney David J. Carter - Lead Bus Accidents Lawyer in Largo, FL",
-      "title": "Bus Accidents Lawyer Largo - Attorney David J. Carter",
-      "description": "Professional portrait of Attorney David J. Carter representing Bus Accidents Lawyer Largo in Largo, FL.",
-      "caption": "David J. Carter - Dedicated Bus Accidents Trial Attorney"
+      "sequence": 1,
+      "id": "driver-fatigue",
+      "fileName": "bus-driver-fatigue-during-long-shifts-in-largo.webp",
+      "component": "CommonCausesSection (Cause 05)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/bus-driver-fatigue-during-long-shifts-in-largo.webp",
+      "altText": "Exhausted bus driver showing signs of fatigue during a long shift, increasing the risk of serious accidents.",
+      "title": "Bus Driver Fatigue During Long Shifts Explained",
+      "description": "Driver fatigue reduces reaction time, judgment, and awareness. Long working hours without adequate rest may contribute to preventable bus accidents and establish negligence.",
+      "caption": "Fatigued bus drivers face slower reactions that can lead to dangerous roadway accidents."
     },
     {
-      "id": "hero-bg",
-      "fileName": "hero-bg.png",
-      "component": "HeroHeader (Background)",
-      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/hero-bg.png",
-      "altText": "Hero Background Banner for Bus Accidents Lawyer Largo in Largo, FL",
-      "title": "Bus Accidents Lawyer Largo Hero Section Background",
-      "description": "Dark professional background graphic for Bus Accidents Lawyer Largo hero header in Largo, FL.",
-      "caption": "Bus Accidents Lawyer Largo Legal Practice Header Background"
-    },
-    {
-      "id": "dedicated-counsel",
-      "fileName": "dedicated-counsel.png",
-      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
-      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/dedicated-counsel.png",
-      "altText": "Dedicated Bus Accidents Legal Counsel Consultation in Largo, FL",
-      "title": "Dedicated Bus Accidents Legal Counsel",
-      "description": "Carter Injury Law attorney offering compassionate consultation for bus accidents victims in Largo, FL.",
-      "caption": "Compassionate legal representation for Largo, FL clients."
-    },
-    {
+      "sequence": 2,
       "id": "carter-team-cta",
       "fileName": "carter-team-cta.png",
       "component": "FinalCTASection",
@@ -46,6 +28,18 @@
       "caption": "Our legal team is standing by to evaluate your case in Largo, FL."
     },
     {
+      "sequence": 3,
+      "id": "carter-attorney",
+      "fileName": "carter.png",
+      "component": "HeroHeader",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/carter.png",
+      "altText": "Attorney David J. Carter - Lead Bus Accidents Lawyer in Largo, FL",
+      "title": "Bus Accidents Lawyer Largo - Attorney David J. Carter",
+      "description": "Professional portrait of Attorney David J. Carter representing Bus Accidents Lawyer Largo in Largo, FL.",
+      "caption": "David J. Carter - Dedicated Bus Accidents Trial Attorney"
+    },
+    {
+      "sequence": 4,
       "id": "communication-mistakes",
       "fileName": "communication-mistakes.png",
       "component": "MistakesSection",
@@ -56,6 +50,73 @@
       "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
     },
     {
+      "sequence": 5,
+      "id": "dedicated-counsel",
+      "fileName": "dedicated-counsel.png",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/dedicated-counsel.png",
+      "altText": "Experienced attorney consulting with bus accident victims about their legal rights and compensation options.",
+      "title": "Dedicated Legal Counsel for Largo Bus Accident Victims",
+      "description": "Experienced legal representation can help bus accident victims investigate liability, negotiate with insurers, and pursue maximum compensation for medical expenses, lost income, and other damages.",
+      "caption": "Dedicated legal guidance helps bus accident victims protect their rights and seek compensation."
+    },
+    {
+      "sequence": 6,
+      "id": "dedicated-counsel",
+      "fileName": "dedicated-legal-counsel-for-largo-bus-accident.webp",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/dedicated-legal-counsel-for-largo-bus-accident.webp",
+      "altText": "Experienced attorney consulting with bus accident victims about their legal rights and compensation options.",
+      "title": "Dedicated Legal Counsel for Largo Bus Accident Victims",
+      "description": "Experienced legal representation can help bus accident victims investigate liability, negotiate with insurers, and pursue maximum compensation for medical expenses, lost income, and other damages.",
+      "caption": "Dedicated legal guidance helps bus accident victims protect their rights and seek compensation."
+    },
+    {
+      "sequence": 7,
+      "id": "review",
+      "fileName": "deep-knowledge-of-florida-bus-accident-laws.webp",
+      "component": "WhyRightLawyerSection",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/deep-knowledge-of-florida-bus-accident-laws.webp",
+      "altText": "Attorney explaining Florida bus accident laws to clients during a legal consultation after a serious crash.",
+      "title": "Deep Knowledge of Florida Bus Accident Laws Guide",
+      "description": "Florida bus accident claims often involve unique liability rules and government entities. An attorney familiar with Florida law can build a stronger case and protect your legal interests.",
+      "caption": "Understanding Florida bus accident laws is essential when pursuing compensation after a crash."
+    },
+    {
+      "sequence": 8,
+      "id": "distraction",
+      "fileName": "distraction.png",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/distraction.png",
+      "altText": "Bus driver distracted while operating a city bus, highlighting the dangers of inattention and accident risks in Largo.",
+      "title": "Driver Inattention and Largo Bus Accident Risks Guide",
+      "description": "A distracted bus driver can endanger passengers, pedestrians, and nearby motorists. Driver inattention is a common factor in serious Largo bus accidents and may establish liability for injured victims seeking compensation.",
+      "caption": "Driver distraction behind the wheel can lead to devastating bus accidents and serious injuries."
+    },
+    {
+      "sequence": 9,
+      "id": "driver-fatigue",
+      "fileName": "driver-fatigue.png",
+      "component": "CommonCausesSection (Cause 05)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/driver-fatigue.png",
+      "altText": "Exhausted bus driver showing signs of fatigue during a long shift, increasing the risk of serious accidents.",
+      "title": "Bus Driver Fatigue During Long Shifts Explained",
+      "description": "Driver fatigue reduces reaction time, judgment, and awareness. Long working hours without adequate rest may contribute to preventable bus accidents and establish negligence.",
+      "caption": "Fatigued bus drivers face slower reactions that can lead to dangerous roadway accidents."
+    },
+    {
+      "sequence": 10,
+      "id": "distraction",
+      "fileName": "driver-inattention-causing-largo-bus-accident-scene.webp",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/driver-inattention-causing-largo-bus-accident-scene.webp",
+      "altText": "Bus driver distracted while operating a city bus, highlighting the dangers of inattention and accident risks in Largo.",
+      "title": "Driver Inattention and Largo Bus Accident Risks Guide",
+      "description": "A distracted bus driver can endanger passengers, pedestrians, and nearby motorists. Driver inattention is a common factor in serious Largo bus accidents and may establish liability for injured victims seeking compensation.",
+      "caption": "Driver distraction behind the wheel can lead to devastating bus accidents and serious injuries."
+    },
+    {
+      "sequence": 11,
       "id": "evidence-timing",
       "fileName": "evidence-timing.png",
       "component": "MistakesSection",
@@ -66,6 +127,40 @@
       "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
     },
     {
+      "sequence": 12,
+      "id": "impaired",
+      "fileName": "failure-to-inspect-and-maintain-largo-city-buses.webp",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/failure-to-inspect-and-maintain-largo-city-buses.webp",
+      "altText": "Mechanic inspecting a city bus during maintenance to prevent equipment failures and reduce accident risks.",
+      "title": "Failure to Inspect and Maintain Largo Transit Buses",
+      "description": "Routine inspections and proper maintenance are essential for safe bus operations. Mechanical failures caused by neglected maintenance may contribute to preventable bus accidents and legal claims.",
+      "caption": "Proper maintenance helps prevent mechanical failures that can result in serious bus accidents."
+    },
+    {
+      "sequence": 13,
+      "id": "hero-bg",
+      "fileName": "hero-bg.png",
+      "component": "HeroHeader (Background)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/hero-bg.png",
+      "altText": "Hero Background Banner for Bus Accidents Lawyer Largo in Largo, FL",
+      "title": "Bus Accidents Lawyer Largo Hero Section Background",
+      "description": "Dark professional background graphic for Bus Accidents Lawyer Largo hero header in Largo, FL.",
+      "caption": "Bus Accidents Lawyer Largo Legal Practice Header Background"
+    },
+    {
+      "sequence": 14,
+      "id": "impaired",
+      "fileName": "impaired.png",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/impaired.png",
+      "altText": "Mechanic inspecting a city bus during maintenance to prevent equipment failures and reduce accident risks.",
+      "title": "Failure to Inspect and Maintain Largo Transit Buses",
+      "description": "Routine inspections and proper maintenance are essential for safe bus operations. Mechanical failures caused by neglected maintenance may contribute to preventable bus accidents and legal claims.",
+      "caption": "Proper maintenance helps prevent mechanical failures that can result in serious bus accidents."
+    },
+    {
+      "sequence": 15,
       "id": "justice-family",
       "fileName": "justice-family.png",
       "component": "JusticeSecuredSection",
@@ -76,74 +171,92 @@
       "caption": "Fighting to secure financial peace of mind for surviving family members."
     },
     {
-      "id": "review",
-      "fileName": "review.png",
-      "component": "WhyRightLawyerSection",
-      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/review.png",
-      "altText": "5-Star Client Review for Bus Accidents Lawyer Largo",
-      "title": "5-Star Rated Bus Accidents Lawyer in Largo, FL",
-      "description": "Top-rated review badge for Bus Accidents Lawyer Largo serving Largo, FL.",
-      "caption": "Trusted by clients across Largo, FL."
+      "sequence": 16,
+      "id": "largo-bus-accident-victims-without-legal-help.webp",
+      "fileName": "largo-bus-accident-victims-without-legal-help.webp",
+      "component": "General SEO Section",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/largo-bus-accident-victims-without-legal-help.webp",
+      "altText": "Largo Bus Accident Victims Without Legal Help - Bus Accidents Lawyer Largo in Largo, FL",
+      "title": "Largo Bus Accident Victims Without Legal Help - Bus Accidents Lawyer Largo",
+      "description": "Professional legal asset representation for Largo Bus Accident Victims Without Legal Help in Largo, FL.",
+      "caption": "Largo Bus Accident Victims Without Legal Help for Bus Accidents Lawyer Largo clients."
     },
     {
-      "id": "distraction",
-      "fileName": "distraction.png",
-      "component": "CommonCausesSection (Cause 01)",
-      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/distraction.png",
-      "altText": "Distracted Driving Cause of Bus Accidents in Largo, FL",
-      "title": "Distracted Driving Hazards",
-      "description": "Driver distracted by mobile device leading to severe collision in Largo, FL.",
-      "caption": "Distracted driving remains a leading cause of severe traffic crashes."
+      "sequence": 17,
+      "id": "negligent-motorists",
+      "fileName": "negligent-motorist-causing-largo-bus-traffic-crash.webp",
+      "component": "CommonCausesSection (Cause 06)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/negligent-motorist-causing-largo-bus-traffic-crash.webp",
+      "altText": "Collision involving a city bus and passenger vehicle caused by negligent driving at a busy intersection.",
+      "title": "Negligent Actions by Other Motorists in Bus Crashes",
+      "description": "Bus accidents are not always caused by bus operators. Reckless or distracted motorists can create dangerous situations that result in serious collisions involving public transportation.",
+      "caption": "Negligent drivers can cause devastating crashes involving buses and innocent passengers."
     },
     {
-      "id": "impaired",
-      "fileName": "impaired.png",
-      "component": "CommonCausesSection (Cause 02)",
-      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/impaired.png",
-      "altText": "Impaired and Drunk Driving Related Bus Accidents in Largo, FL",
-      "title": "Impaired Driving Collision Cause",
-      "description": "Drunk and drug-impaired driving hazards on Largo, FL roadways.",
-      "caption": "Impaired drivers are held fully liable under Florida law."
-    },
-    {
-      "id": "weather",
-      "fileName": "weather.png",
-      "component": "CommonCausesSection (Cause 03)",
-      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/weather.png",
-      "altText": "Adverse Weather and Road Conditions Causing Bus Accidents in Largo, FL",
-      "title": "Hazardous Weather Road Hazards",
-      "description": "Heavy rain and slippery road conditions resulting in catastrophic crashes in Largo, FL.",
-      "caption": "Adverse weather requires increased driver caution and responsibility."
-    },
-    {
-      "id": "traffic-congestion",
-      "fileName": "traffic-congestion.png",
-      "component": "CommonCausesSection (Cause 04)",
-      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/traffic-congestion.png",
-      "altText": "Traffic Congestion Along Major Roadways Causing Bus Accidents in Largo, FL",
-      "title": "Traffic Congestion Road Hazards",
-      "description": "Heavy traffic congestion and rapid stop-and-go conditions along major corridors in Largo, FL.",
-      "caption": "Dense traffic requires increased driver vigilance to prevent collisions."
-    },
-    {
-      "id": "driver-fatigue",
-      "fileName": "driver-fatigue.png",
-      "component": "CommonCausesSection (Cause 05)",
-      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/driver-fatigue.png",
-      "altText": "Driver Fatigue and Exhaustion During Long Shifts in Largo, FL",
-      "title": "Commercial Driver Fatigue Hazards",
-      "description": "Long shifts and fatigue degrading driver reaction times on Largo, FL highways.",
-      "caption": "Operator fatigue poses severe risks to passengers and motorists."
-    },
-    {
+      "sequence": 18,
       "id": "negligent-motorists",
       "fileName": "negligent-motorists.png",
       "component": "CommonCausesSection (Cause 06)",
       "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/negligent-motorists.png",
-      "altText": "Negligent Actions by Surrounding Motorists in Largo, FL Bus Accidents",
-      "title": "Third-Party Motorist Negligence",
-      "description": "Reckless third-party drivers triggering severe crashes involving transit vehicles in Largo, FL.",
-      "caption": "All negligent third-party drivers face full legal liability."
+      "altText": "Collision involving a city bus and passenger vehicle caused by negligent driving at a busy intersection.",
+      "title": "Negligent Actions by Other Motorists in Bus Crashes",
+      "description": "Bus accidents are not always caused by bus operators. Reckless or distracted motorists can create dangerous situations that result in serious collisions involving public transportation.",
+      "caption": "Negligent drivers can cause devastating crashes involving buses and innocent passengers."
+    },
+    {
+      "sequence": 19,
+      "id": "review",
+      "fileName": "review.png",
+      "component": "WhyRightLawyerSection",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/review.png",
+      "altText": "Attorney explaining Florida bus accident laws to clients during a legal consultation after a serious crash.",
+      "title": "Deep Knowledge of Florida Bus Accident Laws Guide",
+      "description": "Florida bus accident claims often involve unique liability rules and government entities. An attorney familiar with Florida law can build a stronger case and protect your legal interests.",
+      "caption": "Understanding Florida bus accident laws is essential when pursuing compensation after a crash."
+    },
+    {
+      "sequence": 20,
+      "id": "traffic-congestion",
+      "fileName": "traffic-congestion-on-largo-major-roadways-buses.webp",
+      "component": "CommonCausesSection (Cause 04)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/traffic-congestion-on-largo-major-roadways-buses.webp",
+      "altText": "Heavy traffic surrounding a city bus on Largo roads, increasing collision risks and travel delays.",
+      "title": "Traffic Congestion Along Largo Major Roadways Today",
+      "description": "Congested roads increase the likelihood of bus collisions, sudden braking incidents, and multi-vehicle crashes. Understanding traffic-related accident causes can help determine legal liability.",
+      "caption": "Heavy traffic conditions can significantly increase the risk of bus-related collisions."
+    },
+    {
+      "sequence": 21,
+      "id": "traffic-congestion",
+      "fileName": "traffic-congestion.png",
+      "component": "CommonCausesSection (Cause 04)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/traffic-congestion.png",
+      "altText": "Heavy traffic surrounding a city bus on Largo roads, increasing collision risks and travel delays.",
+      "title": "Traffic Congestion Along Largo Major Roadways Today",
+      "description": "Congested roads increase the likelihood of bus collisions, sudden braking incidents, and multi-vehicle crashes. Understanding traffic-related accident causes can help determine legal liability.",
+      "caption": "Heavy traffic conditions can significantly increase the risk of bus-related collisions."
+    },
+    {
+      "sequence": 22,
+      "id": "weather",
+      "fileName": "unsafe-passenger-loading-at-largo-bus-stop-scene.webp",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/unsafe-passenger-loading-at-largo-bus-stop-scene.webp",
+      "altText": "Passengers exiting a city bus at a stop where unsafe loading and unloading practices increase injury risks.",
+      "title": "Unsafe Passenger Loading and Unloading Practices Guide",
+      "description": "Unsafe passenger boarding or exiting procedures can expose riders to falls, traffic hazards, and injuries. Transit agencies and drivers have a duty to provide safe loading and unloading conditions.",
+      "caption": "Safe boarding and exiting procedures help reduce preventable passenger injuries at bus stops."
+    },
+    {
+      "sequence": 23,
+      "id": "weather",
+      "fileName": "weather.png",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/bus-accidents-lawyer-largo/weather.png",
+      "altText": "Passengers exiting a city bus at a stop where unsafe loading and unloading practices increase injury risks.",
+      "title": "Unsafe Passenger Loading and Unloading Practices Guide",
+      "description": "Unsafe passenger boarding or exiting procedures can expose riders to falls, traffic hazards, and injuries. Transit agencies and drivers have a duty to provide safe loading and unloading conditions.",
+      "caption": "Safe boarding and exiting procedures help reduce preventable passenger injuries at bus stops."
     }
   ]
 }

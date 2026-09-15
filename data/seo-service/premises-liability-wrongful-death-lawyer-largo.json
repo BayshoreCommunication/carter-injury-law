@@ -3,39 +3,10 @@
   "serviceName": "Premises Liability Wrongful Death Lawyer Largo",
   "location": "Largo, FL",
   "topic": "Premises Liability & Wrongful Death",
-  "totalImages": 15,
+  "totalImages": 23,
   "images": [
     {
-      "id": "carter-attorney",
-      "fileName": "carter.png",
-      "component": "HeroHeader",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/carter.png",
-      "altText": "Attorney David J. Carter - Lead Premises Liability Wrongful Death Lawyer in Largo, FL",
-      "title": "Premises Liability Wrongful Death Lawyer Largo - Attorney David J. Carter",
-      "description": "Professional portrait of Attorney David J. Carter representing Premises Liability Wrongful Death Lawyer in Largo, FL.",
-      "caption": "David J. Carter - Dedicated Premises Liability Wrongful Death Trial Attorney"
-    },
-    {
-      "id": "hero-bg",
-      "fileName": "hero-bg.png",
-      "component": "HeroHeader (Background)",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/hero-bg.png",
-      "altText": "Hero Background Banner for Premises Liability Wrongful Death Lawyer in Largo, FL",
-      "title": "Premises Liability Wrongful Death Lawyer Largo Hero Section Background",
-      "description": "Dark professional background graphic for Premises Liability Wrongful Death Lawyer hero header in Largo, FL.",
-      "caption": "Premises Liability Wrongful Death Lawyer Largo Legal Practice Header Background"
-    },
-    {
-      "id": "dedicated-counsel",
-      "fileName": "dedicated-legal-counsel-largo-wrongful-death.webp",
-      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/dedicated-legal-counsel-largo-wrongful-death.webp",
-      "altText": "Largo premises liability wrongful death attorney meeting with a family in a professional law office",
-      "title": "Dedicated Legal Counsel for Largo Premises Liability Wrongful Death Claims",
-      "description": "An attorney meets with family members in a professional law office, providing legal guidance and discussing options following a wrongful death claim after an unsafe property accident.",
-      "caption": "Experienced legal counsel can help families navigate premises liability wrongful death claims."
-    },
-    {
+      "sequence": 1,
       "id": "carter-team-cta",
       "fileName": "carter-team-cta.png",
       "component": "FinalCTASection",
@@ -46,86 +17,18 @@
       "caption": "Our legal team is standing by to evaluate your case in Largo, FL."
     },
     {
-      "id": "communication-mistakes",
-      "fileName": "communication-mistakes.png",
-      "component": "MistakesSection",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/communication-mistakes.png",
-      "altText": "Insurance Adjuster Communication Mistakes in Wrongful Death Claims",
-      "title": "Insurance Communication Pitfalls",
-      "description": "Illustration of common communication mistakes with insurance adjusters in Largo, FL premises liability wrongful death cases.",
-      "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
+      "sequence": 2,
+      "id": "carter-attorney",
+      "fileName": "carter.png",
+      "component": "HeroHeader",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/carter.png",
+      "altText": "Attorney David J. Carter - Lead Premises Liability Wrongful Death Lawyer in Largo, FL",
+      "title": "Premises Liability Wrongful Death Lawyer Largo - Attorney David J. Carter",
+      "description": "Professional portrait of Attorney David J. Carter representing Premises Liability Wrongful Death Lawyer in Largo, FL.",
+      "caption": "David J. Carter - Dedicated Premises Liability Wrongful Death Trial Attorney"
     },
     {
-      "id": "evidence-timing",
-      "fileName": "evidence-timing.png",
-      "component": "MistakesSection",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/evidence-timing.png",
-      "altText": "Evidence Preservation and Timing Delays in Largo, FL Wrongful Death Cases",
-      "title": "Evidence Preservation & Legal Deadlines",
-      "description": "Critical timing and evidence collection guidelines for premises liability wrongful death claims in Largo, FL.",
-      "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
-    },
-    {
-      "id": "justice-family",
-      "fileName": "justice-family.png",
-      "component": "JusticeSecuredSection",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/justice-family.png",
-      "altText": "Justice and Compensation for Largo, FL Families after Wrongful Death",
-      "title": "Justice for Largo, FL Families",
-      "description": "Supporting grieving families in Largo, FL to secure full financial recovery and legal justice.",
-      "caption": "Fighting to secure financial peace of mind for surviving family members."
-    },
-    {
-      "id": "local-representation",
-      "fileName": "local-legal-representation-largo-community-ties.webp",
-      "component": "WhyChooseUsSection",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/local-legal-representation-largo-community-ties.webp",
-      "altText": "Largo attorney providing personalized legal guidance to clients during a consultation",
-      "title": "Local Legal Representation With Strong Community Ties",
-      "description": "A Largo attorney discusses a legal matter with clients in a private office, emphasizing personalized representation and strong connections to the local community.",
-      "caption": "Local representation provides personalized support when families need it most."
-    },
-    {
-      "id": "review",
-      "fileName": "largo-wrongful-death-claims-legal-representation.webp",
-      "component": "WhyRightLawyerSection",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/largo-wrongful-death-claims-legal-representation.webp",
-      "altText": "Attorney explaining legal documents to grieving clients after a fatal property accident in Largo",
-      "title": "Why Largo Families Need Legal Representation After Fatal Premises Liability Accidents",
-      "description": "An attorney reviews important documents with a distressed couple, illustrating how legal representation can help grieving Largo families pursue justice after a fatal property accident.",
-      "caption": "Legal guidance can help grieving families pursue justice after a fatal property accident."
-    },
-    {
-      "id": "expert-analysis",
-      "fileName": "expert-analysis-wrongful-death-damage-claims.webp",
-      "component": "ExpertValuationSection",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/expert-analysis-wrongful-death-damage-claims.webp",
-      "altText": "Attorney reviewing documents with clients to support a premises liability wrongful death damage claim",
-      "title": "Supporting Every Damage Claim With Expert Analysis",
-      "description": "An attorney carefully reviews legal documents with clients during a consultation, demonstrating the detailed analysis used to support damages in a wrongful death claim.",
-      "caption": "Detailed evidence and expert analysis can strengthen a damage claim."
-    },
-    {
-      "id": "distraction",
-      "fileName": "high-risk-intersections-largo-florida-accidents.webp",
-      "component": "CommonCausesSection (Cause 01)",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/high-risk-intersections-largo-florida-accidents.webp",
-      "altText": "Fatal Falls at Shopping Centers and Retail Stores in Largo",
-      "title": "Fatal Falls at Shopping Centers and Retail Stores",
-      "description": "Hazardous retail conditions and wet floors causing fatal injuries in Largo.",
-      "caption": "Shopping center operators face legal liability when safety hazards are neglected."
-    },
-    {
-      "id": "impaired",
-      "fileName": "negligent-drivers-pinellas-county-road-accidents.webp",
-      "component": "CommonCausesSection (Cause 02)",
-      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/negligent-drivers-pinellas-county-road-accidents.webp",
-      "altText": "Nursing Home and Assisted Living Facility Negligence in Largo",
-      "title": "Nursing Home and Assisted Living Facility Negligence",
-      "description": "Staffing shortages and fall hazards in Largo care facilities.",
-      "caption": "Strict Florida regulatory standards govern elder care facility safety."
-    },
-    {
+      "sequence": 3,
       "id": "weather",
       "fileName": "commercial-vehicle-delivery-fleet-collisions-largo.webp",
       "component": "CommonCausesSection (Cause 03)",
@@ -136,6 +39,18 @@
       "caption": "Venue operators owe patrons the highest duty of care under Florida law."
     },
     {
+      "sequence": 4,
+      "id": "communication-mistakes",
+      "fileName": "communication-mistakes.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/communication-mistakes.png",
+      "altText": "Insurance Adjuster Communication Mistakes in Wrongful Death Claims",
+      "title": "Insurance Communication Pitfalls",
+      "description": "Illustration of common communication mistakes with insurance adjusters in Largo, FL premises liability wrongful death cases.",
+      "caption": "Avoid speaking directly to insurance adjusters without a lawyer."
+    },
+    {
+      "sequence": 5,
       "id": "traffic-congestion",
       "fileName": "dangerous-roadway-defects-infrastructure-failures-largo.webp",
       "component": "CommonCausesSection (Cause 04)",
@@ -146,6 +61,73 @@
       "caption": "Property maintenance duties extend fully into parking areas."
     },
     {
+      "sequence": 6,
+      "id": "dedicated-counsel",
+      "fileName": "dedicated-counsel.png",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/dedicated-counsel.png",
+      "altText": "Dedicated Counsel - Premises Liability Wrongful Death Lawyer Largo in Largo, FL",
+      "title": "Dedicated Counsel - Premises Liability Wrongful Death Lawyer Largo",
+      "description": "Professional legal asset representation for Dedicated Counsel in Largo, FL.",
+      "caption": "Dedicated Counsel for Premises Liability Wrongful Death Lawyer Largo clients."
+    },
+    {
+      "sequence": 7,
+      "id": "dedicated-counsel",
+      "fileName": "dedicated-legal-counsel-largo-wrongful-death.webp",
+      "component": "WhyChooseUsSection / DedicatedCounselSection / TestimonialsSection",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/dedicated-legal-counsel-largo-wrongful-death.webp",
+      "altText": "Largo premises liability wrongful death attorney meeting with a family in a professional law office",
+      "title": "Dedicated Legal Counsel for Largo Premises Liability Wrongful Death Claims",
+      "description": "An attorney meets with family members in a professional law office, providing legal guidance and discussing options following a wrongful death claim after an unsafe property accident.",
+      "caption": "Experienced legal counsel can help families navigate premises liability wrongful death claims."
+    },
+    {
+      "sequence": 8,
+      "id": "distraction",
+      "fileName": "distraction.png",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/distraction.png",
+      "altText": "Distraction - Premises Liability Wrongful Death Lawyer Largo in Largo, FL",
+      "title": "Distraction - Premises Liability Wrongful Death Lawyer Largo",
+      "description": "Professional legal asset representation for Distraction in Largo, FL.",
+      "caption": "Distraction for Premises Liability Wrongful Death Lawyer Largo clients."
+    },
+    {
+      "sequence": 9,
+      "id": "driver-fatigue",
+      "fileName": "driver-fatigue.png",
+      "component": "CommonCausesSection (Cause 05)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/driver-fatigue.png",
+      "altText": "Driver Fatigue - Premises Liability Wrongful Death Lawyer Largo in Largo, FL",
+      "title": "Driver Fatigue - Premises Liability Wrongful Death Lawyer Largo",
+      "description": "Professional legal asset representation for Driver Fatigue in Largo, FL.",
+      "caption": "Driver Fatigue for Premises Liability Wrongful Death Lawyer Largo clients."
+    },
+    {
+      "sequence": 10,
+      "id": "evidence-timing",
+      "fileName": "evidence-timing.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/evidence-timing.png",
+      "altText": "Evidence Preservation and Timing Delays in Largo, FL Wrongful Death Cases",
+      "title": "Evidence Preservation & Legal Deadlines",
+      "description": "Critical timing and evidence collection guidelines for premises liability wrongful death claims in Largo, FL.",
+      "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
+    },
+    {
+      "sequence": 11,
+      "id": "expert-analysis",
+      "fileName": "expert-analysis-wrongful-death-damage-claims.webp",
+      "component": "ExpertValuationSection",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/expert-analysis-wrongful-death-damage-claims.webp",
+      "altText": "Attorney reviewing documents with clients to support a premises liability wrongful death damage claim",
+      "title": "Supporting Every Damage Claim With Expert Analysis",
+      "description": "An attorney carefully reviews legal documents with clients during a consultation, demonstrating the detailed analysis used to support damages in a wrongful death claim.",
+      "caption": "Detailed evidence and expert analysis can strengthen a damage claim."
+    },
+    {
+      "sequence": 12,
       "id": "driver-fatigue",
       "fileName": "fatal-bicycle-pedestrian-accidents-largo-florida.webp",
       "component": "CommonCausesSection (Cause 05)",
@@ -154,6 +136,127 @@
       "title": "Fatal Accidents Caused by Falling Objects",
       "description": "Unanchored shelving and unsecured overhead material in Largo commercial spaces.",
       "caption": "Commercial operators bear direct legal responsibility for overhead falling hazards."
+    },
+    {
+      "sequence": 13,
+      "id": "hero-bg",
+      "fileName": "hero-bg.png",
+      "component": "HeroHeader (Background)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/hero-bg.png",
+      "altText": "Hero Background Banner for Premises Liability Wrongful Death Lawyer in Largo, FL",
+      "title": "Premises Liability Wrongful Death Lawyer Largo Hero Section Background",
+      "description": "Dark professional background graphic for Premises Liability Wrongful Death Lawyer hero header in Largo, FL.",
+      "caption": "Premises Liability Wrongful Death Lawyer Largo Legal Practice Header Background"
+    },
+    {
+      "sequence": 14,
+      "id": "distraction",
+      "fileName": "high-risk-intersections-largo-florida-accidents.webp",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/high-risk-intersections-largo-florida-accidents.webp",
+      "altText": "Fatal Falls at Shopping Centers and Retail Stores in Largo",
+      "title": "Fatal Falls at Shopping Centers and Retail Stores",
+      "description": "Hazardous retail conditions and wet floors causing fatal injuries in Largo.",
+      "caption": "Shopping center operators face legal liability when safety hazards are neglected."
+    },
+    {
+      "sequence": 15,
+      "id": "impaired",
+      "fileName": "impaired.png",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/impaired.png",
+      "altText": "Impaired - Premises Liability Wrongful Death Lawyer Largo in Largo, FL",
+      "title": "Impaired - Premises Liability Wrongful Death Lawyer Largo",
+      "description": "Professional legal asset representation for Impaired in Largo, FL.",
+      "caption": "Impaired for Premises Liability Wrongful Death Lawyer Largo clients."
+    },
+    {
+      "sequence": 16,
+      "id": "justice-family",
+      "fileName": "justice-family.png",
+      "component": "JusticeSecuredSection",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/justice-family.png",
+      "altText": "Justice and Compensation for Largo, FL Families after Wrongful Death",
+      "title": "Justice for Largo, FL Families",
+      "description": "Supporting grieving families in Largo, FL to secure full financial recovery and legal justice.",
+      "caption": "Fighting to secure financial peace of mind for surviving family members."
+    },
+    {
+      "sequence": 17,
+      "id": "review",
+      "fileName": "largo-wrongful-death-claims-legal-representation.webp",
+      "component": "WhyRightLawyerSection",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/largo-wrongful-death-claims-legal-representation.webp",
+      "altText": "Attorney explaining legal documents to grieving clients after a fatal property accident in Largo",
+      "title": "Why Largo Families Need Legal Representation After Fatal Premises Liability Accidents",
+      "description": "An attorney reviews important documents with a distressed couple, illustrating how legal representation can help grieving Largo families pursue justice after a fatal property accident.",
+      "caption": "Legal guidance can help grieving families pursue justice after a fatal property accident."
+    },
+    {
+      "sequence": 18,
+      "id": "local-representation",
+      "fileName": "local-legal-representation-largo-community-ties.webp",
+      "component": "WhyChooseUsSection",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/local-legal-representation-largo-community-ties.webp",
+      "altText": "Largo attorney providing personalized legal guidance to clients during a consultation",
+      "title": "Local Legal Representation With Strong Community Ties",
+      "description": "A Largo attorney discusses a legal matter with clients in a private office, emphasizing personalized representation and strong connections to the local community.",
+      "caption": "Local representation provides personalized support when families need it most."
+    },
+    {
+      "sequence": 19,
+      "id": "impaired",
+      "fileName": "negligent-drivers-pinellas-county-road-accidents.webp",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/negligent-drivers-pinellas-county-road-accidents.webp",
+      "altText": "Nursing Home and Assisted Living Facility Negligence in Largo",
+      "title": "Nursing Home and Assisted Living Facility Negligence",
+      "description": "Staffing shortages and fall hazards in Largo care facilities.",
+      "caption": "Strict Florida regulatory standards govern elder care facility safety."
+    },
+    {
+      "sequence": 20,
+      "id": "negligent-motorists",
+      "fileName": "negligent-motorists.png",
+      "component": "CommonCausesSection (Cause 06)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/negligent-motorists.png",
+      "altText": "Negligent Motorists - Premises Liability Wrongful Death Lawyer Largo in Largo, FL",
+      "title": "Negligent Motorists - Premises Liability Wrongful Death Lawyer Largo",
+      "description": "Professional legal asset representation for Negligent Motorists in Largo, FL.",
+      "caption": "Negligent Motorists for Premises Liability Wrongful Death Lawyer Largo clients."
+    },
+    {
+      "sequence": 21,
+      "id": "review",
+      "fileName": "review.png",
+      "component": "WhyRightLawyerSection",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/review.png",
+      "altText": "Review - Premises Liability Wrongful Death Lawyer Largo in Largo, FL",
+      "title": "Review - Premises Liability Wrongful Death Lawyer Largo",
+      "description": "Professional legal asset representation for Review in Largo, FL.",
+      "caption": "Review for Premises Liability Wrongful Death Lawyer Largo clients."
+    },
+    {
+      "sequence": 22,
+      "id": "traffic-congestion",
+      "fileName": "traffic-congestion.png",
+      "component": "CommonCausesSection (Cause 04)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/traffic-congestion.png",
+      "altText": "Traffic Congestion - Premises Liability Wrongful Death Lawyer Largo in Largo, FL",
+      "title": "Traffic Congestion - Premises Liability Wrongful Death Lawyer Largo",
+      "description": "Professional legal asset representation for Traffic Congestion in Largo, FL.",
+      "caption": "Traffic Congestion for Premises Liability Wrongful Death Lawyer Largo clients."
+    },
+    {
+      "sequence": 23,
+      "id": "weather",
+      "fileName": "weather.png",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/premises-liability-wrongful-death-lawyer-largo/weather.png",
+      "altText": "Weather - Premises Liability Wrongful Death Lawyer Largo in Largo, FL",
+      "title": "Weather - Premises Liability Wrongful Death Lawyer Largo",
+      "description": "Professional legal asset representation for Weather in Largo, FL.",
+      "caption": "Weather for Premises Liability Wrongful Death Lawyer Largo clients."
     }
   ]
 }
