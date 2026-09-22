@@ -52,6 +52,9 @@ import WhatEvidenceIsMostImportantInAFloridaCarAccidentCase, {
 import PainAndSufferingDamagesInFloridaAutoInjuryClaims, {
   painAndSufferingDamagesInFloridaAutoInjuryClaims,
 } from "./blogs/pain-and-suffering-damages-in-florida-auto-injury-claims";
+import DrowsyDrivingAccidentsInFloridaCanTheDriverBeHeldLiable, {
+  drowsyDrivingAccidentsInFloridaCanTheDriverBeHeldLiable,
+} from "./blogs/drowsy-driving-accidents-in-florida-can-the-driver-be-held-liable";
 
 const staticBlogPostsUnsorted = [
   howAccidentScenePhotosCanStrengthen,
@@ -72,6 +75,7 @@ const staticBlogPostsUnsorted = [
   crashReconstructionExpertsProveFaultFlorida,
   whatEvidenceIsMostImportantInAFloridaCarAccidentCase,
   painAndSufferingDamagesInFloridaAutoInjuryClaims,
+  drowsyDrivingAccidentsInFloridaCanTheDriverBeHeldLiable,
 ];
 
 export const staticBlogPosts = [...staticBlogPostsUnsorted].sort(
@@ -114,6 +118,8 @@ export const staticBlogComponents = {
     WhatEvidenceIsMostImportantInAFloridaCarAccidentCase,
   [painAndSufferingDamagesInFloridaAutoInjuryClaims.slug]:
     PainAndSufferingDamagesInFloridaAutoInjuryClaims,
+  [drowsyDrivingAccidentsInFloridaCanTheDriverBeHeldLiable.slug]:
+    DrowsyDrivingAccidentsInFloridaCanTheDriverBeHeldLiable,
 };
 
 export function getStaticBlogBySlug(slug: string) {
