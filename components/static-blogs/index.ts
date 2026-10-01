@@ -55,6 +55,9 @@ import PainAndSufferingDamagesInFloridaAutoInjuryClaims, {
 import DrowsyDrivingAccidentsInFloridaCanTheDriverBeHeldLiable, {
   drowsyDrivingAccidentsInFloridaCanTheDriverBeHeldLiable,
 } from "./blogs/drowsy-driving-accidents-in-florida-can-the-driver-be-held-liable";
+import CanYouRecoverDamagesIfYouWereNotWearingASeatBeltInFlorida, {
+  canYouRecoverDamagesIfYouWereNotWearingASeatBeltInFlorida,
+} from "./blogs/can-you-recover-damages-if-you-were-not-wearing-a-seat-belt-in-florida";
 
 const staticBlogPostsUnsorted = [
   howAccidentScenePhotosCanStrengthen,
@@ -76,6 +79,7 @@ const staticBlogPostsUnsorted = [
   whatEvidenceIsMostImportantInAFloridaCarAccidentCase,
   painAndSufferingDamagesInFloridaAutoInjuryClaims,
   drowsyDrivingAccidentsInFloridaCanTheDriverBeHeldLiable,
+  canYouRecoverDamagesIfYouWereNotWearingASeatBeltInFlorida,
 ];
 
 export const staticBlogPosts = [...staticBlogPostsUnsorted].sort(
@@ -120,6 +124,8 @@ export const staticBlogComponents = {
     PainAndSufferingDamagesInFloridaAutoInjuryClaims,
   [drowsyDrivingAccidentsInFloridaCanTheDriverBeHeldLiable.slug]:
     DrowsyDrivingAccidentsInFloridaCanTheDriverBeHeldLiable,
+  [canYouRecoverDamagesIfYouWereNotWearingASeatBeltInFlorida.slug]:
+    CanYouRecoverDamagesIfYouWereNotWearingASeatBeltInFlorida,
 };
 
 export function getStaticBlogBySlug(slug: string) {

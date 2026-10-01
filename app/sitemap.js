@@ -64,7 +64,7 @@ export default async function sitemap() {
   // 3. Static Blog Posts
   const staticBlogEntries = (staticBlogPosts || []).map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: new Date(post.createdAt || new Date()),
+    lastModified: new Date(post.updatedAt || post.createdAt || new Date()),
     changeFrequency: "weekly",
     priority: 0.6,
   }));

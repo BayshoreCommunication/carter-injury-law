@@ -352,33 +352,56 @@ const page = async ({ params }) => {
         >
           <div className="grid gap-12 mb-10 grid-cols-3">
             <div className="col-span-3 lg:col-span-2">
-              <div className="flex items-center justify-between">
-                <p className="text-[.9rem] md:text-[1rem] text-black text-left italic mt-4 ">
-                  {/* {blogDetails?.author} */}
-                </p>
-                <p className="text-[.9rem] md:text-[1rem] text-black text-left italic mt-4 ">
-                  {postDate(blogDetails?.createdAt)}
-                </p>
+              <div className="flex flex-wrap items-center justify-between gap-2 mt-4 text-[.9rem] md:text-[1rem] text-gray-600 italic">
+                <div className="flex flex-wrap items-center gap-4">
+                  {blogDetails?.createdAt && (
+                    <p>
+                      <span className="font-semibold text-[#1B2639] not-italic">
+                        Published:
+                      </span>{" "}
+                      {postDate(blogDetails.createdAt)}
+                    </p>
+                  )}
+                  {blogDetails?.updatedAt && (
+                    <p>
+                      <span className="font-semibold text-[#1B2639] not-italic">
+                        Updated:
+                      </span>{" "}
+                      {postDate(blogDetails.updatedAt)}
+                    </p>
+                  )}
+                </div>
               </div>
               <h1
-                className={`mb-0 md:mb-4 text-2xl md:text-4xl font-bold tracking-normal text-left text-[#1B2639]`}
+                className={`mb-0 md:mb-4 text-2xl md:text-4xl font-bold tracking-normal text-left text-[#1B2639] mt-3`}
               >
                 {blogDetails?.title}
               </h1>
-              <Image
-                width={1200}
-                height={675}
-                src={blogDetails?.featuredImage?.image?.url}
-                alt={
-                  blogDetails?.featuredImage?.altText ||
-                  blogDetails?.title ||
-                  "Blog image"
-                }
-                title={blogDetails?.featuredImage?.title || blogDetails?.title}
-                className="w-full h-auto mt-5"
-                priority
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px"
-              />
+              {blogDetails?.featuredImage?.image?.url && (
+                <figure className="mt-5">
+                  <Image
+                    width={1200}
+                    height={675}
+                    src={blogDetails?.featuredImage?.image?.url}
+                    alt={
+                      blogDetails?.featuredImage?.altText ||
+                      blogDetails?.title ||
+                      "Blog image"
+                    }
+                    title={
+                      blogDetails?.featuredImage?.title || blogDetails?.title
+                    }
+                    className="w-full h-auto rounded-lg shadow-sm"
+                    priority
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px"
+                  />
+                  {blogDetails?.featuredImage?.caption && (
+                    <figcaption className="mt-2 text-center text-sm italic text-gray-500">
+                      {blogDetails.featuredImage.caption}
+                    </figcaption>
+                  )}
+                </figure>
+              )}
 
               <div className="mt-2 text-md blog-content">
                 {StaticBlogContent ? (
