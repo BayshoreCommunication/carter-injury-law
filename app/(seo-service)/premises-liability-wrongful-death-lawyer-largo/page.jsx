@@ -22,12 +22,12 @@ export const metadata = {
   description:
     "Legal representation for premises liability wrongful death claims in Largo. Seek financial recovery while holding negligent property owners accountable.",
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
+      index: true,
+      follow: true,
+      noimageindex: false,
     },
   },
   alternates: {

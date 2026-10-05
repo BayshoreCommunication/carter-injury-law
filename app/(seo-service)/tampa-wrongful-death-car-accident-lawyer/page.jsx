@@ -20,7 +20,7 @@ export const metadata = {
   title: "Tampa Wrongful Death Car Accident Lawyer|Free Consultation",
   description:
     "If you’ve lost a loved one in a fatal accident, a Tampa wrongful death car accident lawyer can help you pursue justice & financial compensation.",
-    robots: {
+  robots: {
     index: true,
     follow: true,
     googleBot: {

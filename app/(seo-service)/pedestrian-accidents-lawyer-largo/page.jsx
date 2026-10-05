@@ -22,12 +22,12 @@ export const metadata = {
   description:
     "Pedestrian accidents lawyer in Largo providing legal representation for victims seeking compensation after crashes caused by negligent drivers.",
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
+      index: true,
+      follow: true,
+      noimageindex: false,
     },
   },
   alternates: {

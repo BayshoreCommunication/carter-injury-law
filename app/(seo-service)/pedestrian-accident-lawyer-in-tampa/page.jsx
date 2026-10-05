@@ -22,12 +22,12 @@ export const metadata = {
   description:
     "Pedestrian accident lawyer serving Tampa, helping injured victims pursue compensation for medical expenses, lost wages, and long-term recovery.",
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
+      index: true,
+      follow: true,
+      noimageindex: false,
     },
   },
   alternates: {

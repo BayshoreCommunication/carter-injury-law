@@ -22,12 +22,12 @@ export const metadata = {
   description:
     "Slip and fall accidents lawyer in Tampa for injury claims involving unsafe property conditions and negligent property owners.",
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
+      index: true,
+      follow: true,
+      noimageindex: false,
     },
   },
   alternates: {

@@ -22,12 +22,12 @@ export const metadata = {
   description:
     "Premises liability wrongful death lawyer serving Tampa, helping families pursue compensation after fatal accidents caused by unsafe property conditions.",
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
+      index: true,
+      follow: true,
+      noimageindex: false,
     },
   },
   alternates: {
