@@ -83,8 +83,9 @@ const WhyChooseUsSection = () => {
           <div className="col-span-12 lg:col-span-5 relative">
             <div className="relative rounded-[24px] overflow-hidden shadow-2xl bg-slate-900 border border-gray-100 h-[500px]">
               <Image
-                src={getSeoImage("local-representation", "tampa-slip-and-fall-accidents-lawyer").filePath}
-                alt="Why Tampa Injury Victims Choose Our Law Firm"
+                src={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "tampa-slip-and-fall-accidents-lawyer").filePath}
+                alt={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "tampa-slip-and-fall-accidents-lawyer").altText || "Attorney David J. Carter - Dedicated Legal Counsel in Tampa"}
+                title={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "tampa-slip-and-fall-accidents-lawyer").title}
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 40vw"

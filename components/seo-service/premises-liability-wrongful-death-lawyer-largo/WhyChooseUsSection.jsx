@@ -83,8 +83,9 @@ const WhyChooseUsSection = () => {
           <div className="col-span-12 lg:col-span-5 relative">
             <div className="relative rounded-[24px] overflow-hidden shadow-2xl bg-slate-900 border border-gray-100 h-[500px]">
               <Image
-                src={getSeoImage("local-representation", "premises-liability-wrongful-death-lawyer-largo").filePath}
-                alt="Why Largo Families Choose Our Law Firm"
+                src={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "premises-liability-wrongful-death-lawyer-largo").filePath}
+                alt={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "premises-liability-wrongful-death-lawyer-largo").altText || "Attorney David J. Carter - Dedicated Legal Counsel in Largo"}
+                title={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "premises-liability-wrongful-death-lawyer-largo").title}
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 40vw"

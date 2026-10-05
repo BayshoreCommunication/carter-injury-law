@@ -95,28 +95,6 @@
     },
     {
       "sequence": 9,
-      "id": "distraction",
-      "fileName": "distraction.png",
-      "component": "CommonCausesSection (Cause 01)",
-      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/distraction.png",
-      "altText": "Wet Floors and Spilled Liquids causing Slip and Fall Accidents in Tampa",
-      "title": "Wet Floors and Spilled Liquids",
-      "description": "Uncleaned puddles and unflagged liquid spills causing severe falls in Tampa commercial venues.",
-      "caption": "Neglecting spilled liquids triggers premises liability for property operators."
-    },
-    {
-      "sequence": 10,
-      "id": "driver-fatigue",
-      "fileName": "driver-fatigue.png",
-      "component": "CommonCausesSection (Cause 05)",
-      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/driver-fatigue.png",
-      "altText": "Cluttered Walkways and Falling Merchandise in Tampa Retail Stores",
-      "title": "Cluttered Walkways and Falling Merchandise",
-      "description": "Leftover boxes, equipment obstacles, and unanchored merchandise causing injuries in Tampa stores.",
-      "caption": "Retail and warehouse operators bear direct legal responsibility for cluttered walkways."
-    },
-    {
-      "sequence": 11,
       "id": "evidence-timing",
       "fileName": "evidence-timing.png",
       "component": "MistakesSection",
@@ -127,7 +105,7 @@
       "caption": "Immediate evidence preservation is crucial for maximum financial recovery."
     },
     {
-      "sequence": 12,
+      "sequence": 10,
       "id": "expert-analysis",
       "fileName": "expert-analysis.png",
       "component": "ExpertValuationSection",
@@ -138,7 +116,7 @@
       "caption": "Detailed evidence and expert analysis strengthen slip and fall injury claims."
     },
     {
-      "sequence": 13,
+      "sequence": 11,
       "id": "hero-bg",
       "fileName": "hero-bg.png",
       "component": "HeroHeader (Background)",
@@ -149,7 +127,7 @@
       "caption": "Tampa Slip and Fall Accidents Lawyer Practice Header Background"
     },
     {
-      "sequence": 14,
+      "sequence": 12,
       "id": "Impaired Driving High Speed Highway Corridor Risks.webp",
       "fileName": "Impaired Driving High Speed Highway Corridor Risks.webp",
       "component": "General SEO Section",
@@ -160,18 +138,7 @@
       "caption": "Impaired Driving High Speed Highway Corridor Risks for Tampa Slip and Fall Accidents Lawyer clients."
     },
     {
-      "sequence": 15,
-      "id": "impaired",
-      "fileName": "impaired.png",
-      "component": "CommonCausesSection (Cause 02)",
-      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/impaired.png",
-      "altText": "Uneven Sidewalks and Damaged Walkways in Tampa",
-      "title": "Uneven Sidewalks and Damaged Walkways",
-      "description": "Broken pavement and lifted concrete edges causing trip and fall injuries in Tampa.",
-      "caption": "Property maintenance failures lead to emergency room fall injuries."
-    },
-    {
-      "sequence": 16,
+      "sequence": 13,
       "id": "Justice Secured for Tampa Families Wrongful Death Claims.webp",
       "fileName": "Justice Secured for Tampa Families Wrongful Death Claims.webp",
       "component": "JusticeSecuredSection",
@@ -182,7 +149,7 @@
       "caption": "Justice Secured For Tampa Families Wrongful Death Claims for Tampa Slip and Fall Accidents Lawyer clients."
     },
     {
-      "sequence": 17,
+      "sequence": 14,
       "id": "justice-family",
       "fileName": "justice-family.png",
       "component": "JusticeSecuredSection",
@@ -193,7 +160,7 @@
       "caption": "Fighting to secure financial peace of mind for injured slip and fall victims."
     },
     {
-      "sequence": 18,
+      "sequence": 15,
       "id": "local-representation",
       "fileName": "local-representation.png",
       "component": "WhyChooseUsSection",
@@ -204,18 +171,7 @@
       "caption": "Local representation provides personalized support when injured clients need it most."
     },
     {
-      "sequence": 19,
-      "id": "negligent-motorists",
-      "fileName": "negligent-motorists.png",
-      "component": "CommonCausesSection (Cause 06)",
-      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/negligent-motorists.png",
-      "altText": "Negligent Motorists - Tampa Slip and Fall Accidents Lawyer in Tampa, FL",
-      "title": "Negligent Motorists - Tampa Slip and Fall Accidents Lawyer",
-      "description": "Professional legal asset representation for Negligent Motorists in Tampa, FL.",
-      "caption": "Negligent Motorists for Tampa Slip and Fall Accidents Lawyer clients."
-    },
-    {
-      "sequence": 20,
+      "sequence": 16,
       "id": "review",
       "fileName": "review.png",
       "component": "WhyRightLawyerSection",
@@ -226,7 +182,7 @@
       "caption": "Legal guidance helps injured victims pursue full financial compensation."
     },
     {
-      "sequence": 21,
+      "sequence": 17,
       "id": "Tampa Families Need Legal Help After Car Accidents.webp",
       "fileName": "Tampa Families Need Legal Help After Car Accidents.webp",
       "component": "General SEO Section",
@@ -237,26 +193,70 @@
       "caption": "Tampa Families Need Legal Help After Car Accidents for Tampa Slip and Fall Accidents Lawyer clients."
     },
     {
-      "sequence": 22,
-      "id": "traffic-congestion",
-      "fileName": "traffic-congestion.png",
-      "component": "CommonCausesSection (Cause 04)",
-      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/traffic-congestion.png",
-      "altText": "Poor Lighting in Public and Commercial Spaces in Tampa",
-      "title": "Poor Lighting in Public and Commercial Spaces",
-      "description": "Dimly lit parking lots, stairwells, and hallways hiding property hazards in Tampa.",
-      "caption": "Inadequate lighting is a recognized dangerous condition under Florida premises liability law."
+      "id": "wet-floors-spilled-liquids-tampa",
+      "fileName": "wet-floors-spilled-liquids-tampa.webp",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/wet-floors-spilled-liquids-tampa.webp",
+      "altText": "Wet floors and uncleaned spilled liquids causing serious slip and fall accidents in Tampa.",
+      "title": "Wet Floors and Spilled Liquids Slip and Fall Tampa",
+      "description": "Unaddressed puddles in grocery aisles and liquid spills at restaurant entrances leading to severe fall injuries across Tampa, FL.",
+      "caption": "Failure to clean spills or post warning signs triggers premises liability for Tampa business owners.",
+      "sequence": 18
     },
     {
-      "sequence": 23,
-      "id": "weather",
-      "fileName": "weather.png",
+      "id": "uneven-sidewalks-damaged-walkways-tampa",
+      "fileName": "uneven-sidewalks-damaged-walkways-tampa.webp",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/uneven-sidewalks-damaged-walkways-tampa.webp",
+      "altText": "Broken pavement, cracked concrete, and lifted sidewalk edges causing trip and fall injuries in Tampa.",
+      "title": "Uneven Sidewalks and Damaged Walkways in Tampa",
+      "description": "Cracked pavement and lifted sidewalk slabs in commercial corridors and residential blocks across Tampa, FL.",
+      "caption": "Property owners have a legal obligation to repair damaged walkways and prevent trip-and-fall accidents.",
+      "sequence": 19
+    },
+    {
+      "id": "unsafe-stairways-missing-handrails-tampa",
+      "fileName": "unsafe-stairways-missing-handrails-tampa.webp",
       "component": "CommonCausesSection (Cause 03)",
-      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/weather.png",
-      "altText": "Unsafe Stairways and Missing Handrails in Tampa",
-      "title": "Unsafe Stairways and Missing Handrails",
-      "description": "Building code violations, broken handrails, and slippery steps in Tampa properties.",
-      "caption": "Stairway hazards are fully predictable and preventable under Florida building codes."
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/unsafe-stairways-missing-handrails-tampa.webp",
+      "altText": "Unsafe staircases, broken handrails, and non-compliant steps in Tampa commercial and residential properties.",
+      "title": "Unsafe Stairways and Missing Handrails in Tampa",
+      "description": "Florida building code violations including missing handrails, inadequate lighting, and broken steps in Tampa buildings.",
+      "caption": "Stairway hazards and building code violations create predictable and preventable fall accidents in Tampa.",
+      "sequence": 20
+    },
+    {
+      "id": "poor-lighting-public-commercial-spaces-tampa",
+      "fileName": "poor-lighting-public-commercial-spaces-tampa.webp",
+      "component": "CommonCausesSection (Cause 04)",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/poor-lighting-public-commercial-spaces-tampa.webp",
+      "altText": "Dimly lit parking lot and dark public walkways hiding dangerous property hazards in Tampa.",
+      "title": "Poor Lighting in Public and Commercial Spaces in Tampa",
+      "description": "Inadequate exterior lighting, dark hallways, and unlit entrances contributing to severe premises liability falls in Tampa, FL.",
+      "caption": "Florida premises liability law recognizes inadequate lighting as a dangerous property condition requiring remediation.",
+      "sequence": 21
+    },
+    {
+      "id": "cluttered-walkways-falling-merchandise-tampa",
+      "fileName": "cluttered-walkways-falling-merchandise-tampa.webp",
+      "component": "CommonCausesSection (Cause 05)",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/cluttered-walkways-falling-merchandise-tampa.webp",
+      "altText": "Cluttered retail store aisles, warehouse obstacles, and falling merchandise hazards in Tampa.",
+      "title": "Cluttered Walkways and Falling Merchandise in Tampa",
+      "description": "Unattended boxes, equipment obstacles, and unstable retail shelving causing serious trip and impact injuries in Tampa.",
+      "caption": "Retailers and commercial warehouses bear direct responsibility for hazards created by cluttered aisles and falling merchandise.",
+      "sequence": 22
+    },
+    {
+      "id": "hazardous-conditions-hotels-restaurants-retail-stores-tampa",
+      "fileName": "hazardous-conditions-hotels-restaurants-retail-stores-tampa.webp",
+      "component": "CommonCausesSection (Cause 06)",
+      "filePath": "/assets/seo-service/tampa-slip-and-fall-accidents-lawyer/hazardous-conditions-hotels-restaurants-retail-stores-tampa.webp",
+      "altText": "Hazardous conditions and unaddressed premises dangers at Tampa hospitality and entertainment venues.",
+      "title": "Hazardous Conditions at Hotels, Restaurants, and Retail Stores in Tampa",
+      "description": "Failure to inspect and correct hazardous property conditions at Tampa hotels, restaurants, and retail establishments.",
+      "caption": "Tampa commercial establishments carrying high visitor volumes owe invitees a legal duty to keep premises reasonably safe.",
+      "sequence": 23
     }
   ]
 }

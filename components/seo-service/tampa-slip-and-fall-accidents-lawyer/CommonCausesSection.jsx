@@ -21,42 +21,48 @@ const CommonCausesSection = () => {
     {
       number: "01",
       title: "Wet Floors and Spilled Liquids",
-      image: getSeoImage("distraction", "tampa-slip-and-fall-accidents-lawyer").filePath,
+      image: getSeoImage("wet-floors-spilled-liquids-tampa.webp", "tampa-slip-and-fall-accidents-lawyer").filePath,
+      imageObj: getSeoImage("wet-floors-spilled-liquids-tampa.webp", "tampa-slip-and-fall-accidents-lawyer"),
       description: "A puddle in a grocery aisle. A spill near a restaurant entrance that nobody wiped up. These situations happen daily across Tampa, and when staff skips the cleanup or forgets to put out a warning sign, customers get hurt. Injuries from wet floor falls are rarely minor and often require weeks of medical attention.",
       location: "Grocery Stores & Restaurants",
     },
     {
       number: "02",
       title: "Uneven Sidewalks and Damaged Walkways",
-      image: getSeoImage("impaired", "tampa-slip-and-fall-accidents-lawyer").filePath,
+      image: getSeoImage("uneven-sidewalks-damaged-walkways-tampa.webp", "tampa-slip-and-fall-accidents-lawyer").filePath,
+      imageObj: getSeoImage("uneven-sidewalks-damaged-walkways-tampa.webp", "tampa-slip-and-fall-accidents-lawyer"),
       description: "There are lots of broken pavement and concrete edges that are lifted in older commercial corridors and residential blocks of Tampa. They can be hard to spot at night or when you're carrying something. If a sidewalk slab lifts up one-half inch, it could send a person to the emergency room.",
       location: "Commercial Corridors & Sidewalks",
     },
     {
       number: "03",
       title: "Unsafe Stairways and Missing Handrails",
-      image: getSeoImage("weather", "tampa-slip-and-fall-accidents-lawyer").filePath,
+      image: getSeoImage("unsafe-stairways-missing-handrails-tampa.webp", "tampa-slip-and-fall-accidents-lawyer").filePath,
+      imageObj: getSeoImage("unsafe-stairways-missing-handrails-tampa.webp", "tampa-slip-and-fall-accidents-lawyer"),
       description: "Florida building codes make specific requirements for a stairway. Install handrails, proper lighting and slip-resistant steps on each step. If the apartment building, office complex or public facility does not meet those requirements, then falls are completely predictable and completely preventable.",
       location: "Apartments & Commercial Stairs",
     },
     {
       number: "04",
       title: "Poor Lighting in Public and Commercial Spaces",
-      image: getSeoImage("traffic-congestion", "tampa-slip-and-fall-accidents-lawyer").filePath,
+      image: getSeoImage("poor-lighting-public-commercial-spaces-tampa.webp", "tampa-slip-and-fall-accidents-lawyer").filePath,
+      imageObj: getSeoImage("poor-lighting-public-commercial-spaces-tampa.webp", "tampa-slip-and-fall-accidents-lawyer"),
       description: "Dark parking lots, poorly lighted hallways, and poorly lit building entrances make it truly difficult to see hazards on the ground. The law in Florida considers poor lighting as being a condition of the property that the owner has a duty to fix and any injury caused by this is definitely included in the premises liability.",
       location: "Parking Lots & Entrances",
     },
     {
       number: "05",
       title: "Cluttered Walkways and Falling Merchandise",
-      image: getSeoImage("driver-fatigue", "tampa-slip-and-fall-accidents-lawyer").filePath,
+      image: getSeoImage("cluttered-walkways-falling-merchandise-tampa.webp", "tampa-slip-and-fall-accidents-lawyer").filePath,
+      imageObj: getSeoImage("cluttered-walkways-falling-merchandise-tampa.webp", "tampa-slip-and-fall-accidents-lawyer"),
       description: "Aisle boxes left open, equipment in front of an opening, shelves too high. These conditions occur in retail stores and warehouses on a regular basis. If the customer stumbles over an object or is hit by a falling object, the company is responsible for what happens.",
       location: "Retail Stores & Warehouses",
     },
     {
       number: "06",
       title: "Hazardous Conditions at Hotels, Restaurants, and Retail Stores",
-      image: getSeoImage("evidence-timing", "tampa-slip-and-fall-accidents-lawyer").filePath,
+      image: getSeoImage("hazardous-conditions-hotels-restaurants-retail-stores-tampa.webp", "tampa-slip-and-fall-accidents-lawyer").filePath,
+      imageObj: getSeoImage("hazardous-conditions-hotels-restaurants-retail-stores-tampa.webp", "tampa-slip-and-fall-accidents-lawyer"),
       description: "Tampa draws heavy visitor traffic year-round, and that volume doesn't reduce the obligation to maintain safe premises. Hotels, restaurants, and retail establishments that invite the public through their doors carry a legal duty to inspect, identify hazards, and fix them before someone gets hurt.",
       location: "Tampa Hospitality & Entertainment",
     },
@@ -101,7 +107,8 @@ const CommonCausesSection = () => {
               <div className="relative w-full h-[220px] bg-slate-900 overflow-hidden">
                 <Image
                   src={cause.image}
-                  alt={cause.title}
+                  alt={cause.imageObj?.altText || cause.title}
+                  title={cause.imageObj?.title || cause.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover hover:scale-105 transition-transform duration-500"
