@@ -21,49 +21,56 @@ const CommonCausesSection = () => {
     {
       number: "01",
       title: "Fatal Falls at Shopping Centers and Retail Stores",
-      image: getSeoImage("distraction", "premises-liability-wrongful-death-lawyer-largo").filePath,
+      image: getSeoImage("fatal-falls-shopping-centers-retail-stores-largo.webp", "premises-liability-wrongful-death-lawyer-largo").filePath,
+      imageObj: getSeoImage("fatal-falls-shopping-centers-retail-stores-largo.webp", "premises-liability-wrongful-death-lawyer-largo"),
       description: "Retail floors that are mopped and left wet, product pallets that spill into walkways, broken handrails that nobody bothered to flag. These are the result of decisions, or the absence of them, made by property owners and retail operators who had a duty to do better. When conditions like these at Largo shopping centers and stores cause a death, the Florida Building Code makes the standard of care clear. Ignoring it has legal consequences.",
       location: "Largo Retail & Malls",
     },
     {
       number: "02",
       title: "Nursing Home and Assisted Living Facility Negligence",
-      image: getSeoImage("impaired", "premises-liability-wrongful-death-lawyer-largo").filePath,
+      image: getSeoImage("nursing-home-assisted-living-facility-negligence-largo.webp", "premises-liability-wrongful-death-lawyer-largo").filePath,
+      imageObj: getSeoImage("nursing-home-assisted-living-facility-negligence-largo.webp", "premises-liability-wrongful-death-lawyer-largo"),
       description: "People placed in the care of Largo nursing homes and assisted living facilities trust those facilities with everything. They cannot independently assess whether the environment is safe. When a facility cuts corners on staffing levels, fall prevention, or basic hazard control to protect its margins, residents pay with their lives. Florida imposes strict regulatory standards on these facilities, and those standards exist precisely because the population they serve cannot protect itself.",
       location: "Pinellas Care Facilities",
     },
     {
       number: "03",
       title: "Dangerous Conditions at Restaurants and Entertainment Venues",
-      image: getSeoImage("weather", "premises-liability-wrongful-death-lawyer-largo").filePath,
+      image: getSeoImage("dangerous-conditions-restaurants-entertainment-venues-largo.webp", "premises-liability-wrongful-death-lawyer-largo").filePath,
+      imageObj: getSeoImage("dangerous-conditions-restaurants-entertainment-venues-largo.webp", "premises-liability-wrongful-death-lawyer-largo"),
       description: "Someone who walks into a Largo restaurant or entertainment venue to enjoy an evening should not leave in an ambulance. Slippery surfaces near service areas, structurally compromised seating, broken barriers near elevated sections, and electrical hazards in dimly lit entertainment spaces are all conditions that operators are legally required to prevent. Patrons are owed the highest duty of care under Florida premises liability law, and that duty does not come with an asterisk.",
       location: "Dining & Venues",
     },
     {
       number: "04",
       title: "Unsafe Parking Lots and Poor Exterior Lighting",
-      image: getSeoImage("traffic-congestion", "premises-liability-wrongful-death-lawyer-largo").filePath,
+      image: getSeoImage("unsafe-parking-lots-poor-exterior-lighting-largo.webp", "premises-liability-wrongful-death-lawyer-largo").filePath,
+      imageObj: getSeoImage("unsafe-parking-lots-poor-exterior-lighting-largo.webp", "premises-liability-wrongful-death-lawyer-largo"),
       description: "The parking lot outside a Largo business is part of the premises, and the duty to maintain it safely does not end at the front door. Uneven asphalt, absent wheel stops, burned-out lighting across a full section of a lot, and missing pedestrian markings are all violations of Florida property maintenance codes that create real physical risk. When someone dies in a parking lot because a property owner refused to address these conditions, the owner's liability does not disappear because the accident happened outside.",
       location: "Commercial Parking Lots",
     },
     {
       number: "05",
       title: "Fatal Accidents Caused by Falling Objects",
-      image: getSeoImage("driver-fatigue", "premises-liability-wrongful-death-lawyer-largo").filePath,
+      image: getSeoImage("fatal-accidents-falling-objects-largo.webp", "premises-liability-wrongful-death-lawyer-largo").filePath,
+      imageObj: getSeoImage("fatal-accidents-falling-objects-largo.webp", "premises-liability-wrongful-death-lawyer-largo"),
       description: "A warehouse shelf that was never properly anchored, a ceiling tile compromised by a roof leak that sat uninspected for months, construction materials stored above a public walkway without adequate protection. Falling objects at Largo commercial locations cause traumatic, often fatal head injuries. Property management companies and business operators who allow these conditions to persist bear direct legal responsibility when someone is killed.",
       location: "Commercial Warehouses & Sites",
     },
     {
       number: "06",
       title: "Hazardous Electrical Systems and Fire Safety Failures",
-      image: getSeoImage("evidence-timing", "premises-liability-wrongful-death-lawyer-largo").filePath,
+      image: getSeoImage("hazardous-electrical-systems-fire-safety-failures-largo.webp", "premises-liability-wrongful-death-lawyer-largo").filePath,
+      imageObj: getSeoImage("hazardous-electrical-systems-fire-safety-failures-largo.webp", "premises-liability-wrongful-death-lawyer-largo"),
       description: "Damaged wiring, fire suppression systems that have not been serviced in years, and emergency exits that cannot be opened from the inside create serious safety risks. Fire extinguishers with long-expired inspection tags are also more than technical violations in an abstract sense. They are active dangers, and every one of them is a violation of the Florida Building Code that a property owner is responsible for correcting. When a resident or guest dies because of one of these failures, the liability belongs to the property owner who ignored the obligation.",
       location: "Largo Commercial Buildings",
     },
     {
       number: "07",
       title: "Unsafe Rental Properties and Landlord Negligence",
-      image: getSeoImage("justice-family", "premises-liability-wrongful-death-lawyer-largo").filePath,
+      image: getSeoImage("unsafe-rental-properties-landlord-negligence-largo.webp", "premises-liability-wrongful-death-lawyer-largo").filePath,
+      imageObj: getSeoImage("unsafe-rental-properties-landlord-negligence-largo.webp", "premises-liability-wrongful-death-lawyer-largo"),
       description: "Every residential tenant in Pinellas County has a legal right to housing that is structurally sound and free of known hazards. That is not optional for landlords and it is not negotiable through the lease agreement. Rotting stair supports, wiring that throws sparks, missing smoke alarms in units that burn, and mold accumulations that cause fatal respiratory complications are all evidence of landlord negligence. When a tenant dies in conditions the landlord had the power and the obligation to fix, the Florida Wrongful Death Act gives the family a path to financial recovery.",
       location: "Pinellas Housing & Rentals",
     },
@@ -108,7 +115,8 @@ const CommonCausesSection = () => {
               <div className="relative w-full h-[220px] bg-slate-900 overflow-hidden">
                 <Image
                   src={cause.image}
-                  alt={cause.title}
+                  alt={cause.imageObj?.altText || cause.title}
+                  title={cause.imageObj?.title || cause.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover hover:scale-105 transition-transform duration-500"

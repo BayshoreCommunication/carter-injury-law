@@ -83,7 +83,7 @@ const FinalCTASection = () => {
           <div className="col-span-12 lg:col-span-5 relative">
             <div className="relative rounded-[24px] overflow-hidden shadow-2xl bg-slate-900 border border-white/10 h-[450px]">
               <Image
-                src={getSeoImage("carter-team-cta.png", "premises-liability-wrongful-death-lawyer-largo").filePath}
+                src={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "premises-liability-wrongful-death-lawyer-largo").filePath}
                 alt="Carter Injury Law Team"
                 fill
                 className="object-cover"
