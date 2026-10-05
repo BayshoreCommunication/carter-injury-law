@@ -2845,7 +2845,7 @@
       "serviceName": "Pedestrian Accidents Lawyer Largo",
       "location": "Largo, FL",
       "topic": "Pedestrian Accidents",
-      "totalImages": 23,
+      "totalImages": 22,
       "images": [
         {
           "sequence": 1,
@@ -2937,39 +2937,6 @@
         },
         {
           "sequence": 9,
-          "id": "distraction",
-          "fileName": "distraction.png",
-          "component": "CommonCausesSection (Cause 01)",
-          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/distraction.png",
-          "altText": "Crosswalk Collisions Near Busy Retail Centers in Largo",
-          "title": "Crosswalk Collisions Near Busy Retail Centers",
-          "description": "Busy retail center crosswalk hazards in Largo, FL.",
-          "caption": "Drivers turning near retail corridors must yield to pedestrians."
-        },
-        {
-          "sequence": 10,
-          "id": "driver-fatigue",
-          "fileName": "driver-fatigue.png",
-          "component": "CommonCausesSection (Cause 05)",
-          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/driver-fatigue.png",
-          "altText": "Pedestrian Crashes Involving Commercial Vehicles in Largo",
-          "title": "Pedestrian Crashes Involving Commercial Vehicles",
-          "description": "Delivery fleet and commercial vehicle collisions in Largo.",
-          "caption": "Commercial vehicle operators hold heightened legal duties."
-        },
-        {
-          "sequence": 11,
-          "id": "evidence-timing",
-          "fileName": "evidence-timing.png",
-          "component": "CommonCausesSection (Cause 06)",
-          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/evidence-timing.png",
-          "altText": "Reduced Visibility During Evening Hours in Largo",
-          "title": "Reduced Visibility During Evening Hours",
-          "description": "Nighttime and unlit road pedestrian hazards in Pinellas County.",
-          "caption": "Drivers must exercise increased care during dark evening hours."
-        },
-        {
-          "sequence": 12,
           "id": "expert-analysis",
           "fileName": "expert-analysis.png",
           "component": "ExpertValuationSection",
@@ -2980,7 +2947,7 @@
           "caption": "Expert Analysis for Pedestrian Accidents Lawyer Largo clients."
         },
         {
-          "sequence": 13,
+          "sequence": 10,
           "id": "hero-bg",
           "fileName": "hero-bg.png",
           "component": "HeroHeader (Background)",
@@ -2991,7 +2958,7 @@
           "caption": "Pedestrian Accidents Lawyer Largo Legal Practice Header Background"
         },
         {
-          "sequence": 14,
+          "sequence": 11,
           "id": "Impaired Driving High Speed Highway Corridor Risks.webp",
           "fileName": "Impaired Driving High Speed Highway Corridor Risks.webp",
           "component": "General SEO Section",
@@ -3002,18 +2969,7 @@
           "caption": "Impaired Driving High Speed Highway Corridor Risks for Pedestrian Accidents Lawyer Largo clients."
         },
         {
-          "sequence": 15,
-          "id": "impaired",
-          "fileName": "impaired.png",
-          "component": "CommonCausesSection (Cause 02)",
-          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/impaired.png",
-          "altText": "Drivers Overlooking Pedestrians at Signalized Intersections",
-          "title": "Drivers Overlooking Pedestrians at Signalized Intersections",
-          "description": "Intersection turning hazards and walk signal violations in Largo.",
-          "caption": "Florida law requires drivers to yield to pedestrians with walk signals."
-        },
-        {
-          "sequence": 16,
+          "sequence": 12,
           "id": "Justice Secured for Tampa Families Wrongful Death Claims.webp",
           "fileName": "Justice Secured for Tampa Families Wrongful Death Claims.webp",
           "component": "JusticeSecuredSection",
@@ -3024,7 +2980,7 @@
           "caption": "Justice Secured For Tampa Families Wrongful Death Claims for Pedestrian Accidents Lawyer Largo clients."
         },
         {
-          "sequence": 17,
+          "sequence": 13,
           "id": "justice-family",
           "fileName": "justice-family.png",
           "component": "JusticeSecuredSection",
@@ -3035,7 +2991,7 @@
           "caption": "Justice Family for Pedestrian Accidents Lawyer Largo clients."
         },
         {
-          "sequence": 18,
+          "sequence": 14,
           "id": "local-representation",
           "fileName": "local-representation.png",
           "component": "WhyChooseUsSection",
@@ -3046,18 +3002,7 @@
           "caption": "Direct communication with your attorney from intake to resolution."
         },
         {
-          "sequence": 19,
-          "id": "negligent-motorists",
-          "fileName": "negligent-motorists.png",
-          "component": "CommonCausesSection (Cause 06)",
-          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/negligent-motorists.png",
-          "altText": "Negligent Motorists - Pedestrian Accidents Lawyer Largo in Largo, FL",
-          "title": "Negligent Motorists - Pedestrian Accidents Lawyer Largo",
-          "description": "Professional legal asset representation for Negligent Motorists in Largo, FL.",
-          "caption": "Negligent Motorists for Pedestrian Accidents Lawyer Largo clients."
-        },
-        {
-          "sequence": 20,
+          "sequence": 15,
           "id": "review",
           "fileName": "review.png",
           "component": "WhyRightLawyerSection",
@@ -3068,7 +3013,7 @@
           "caption": "Dedicated legal counsel protects your rights after a pedestrian crash."
         },
         {
-          "sequence": 21,
+          "sequence": 16,
           "id": "Tampa Families Need Legal Help After Car Accidents.webp",
           "fileName": "Tampa Families Need Legal Help After Car Accidents.webp",
           "component": "General SEO Section",
@@ -3079,26 +3024,70 @@
           "caption": "Tampa Families Need Legal Help After Car Accidents for Pedestrian Accidents Lawyer Largo clients."
         },
         {
-          "sequence": 22,
-          "id": "traffic-congestion",
-          "fileName": "traffic-congestion.png",
-          "component": "CommonCausesSection (Cause 04)",
-          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/traffic-congestion.png",
-          "altText": "Parking Lot and Private Property Incidents in Largo",
-          "title": "Parking Lot and Private Property Incidents",
-          "description": "Foot traffic and backing vehicle hazards in Largo commercial lots.",
-          "caption": "Property owners must maintain safe marked pedestrian paths."
+          "id": "crosswalk-collisions-busy-retail-centers-largo",
+          "fileName": "crosswalk-collisions-busy-retail-centers-largo.webp",
+          "component": "CommonCausesSection (Cause 01)",
+          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/crosswalk-collisions-busy-retail-centers-largo.webp",
+          "altText": "Crosswalk collisions near busy retail shopping centers on East Bay Drive and Ulmerton Road in Largo.",
+          "title": "Crosswalk Collisions Near Busy Retail Centers in Largo",
+          "description": "Vehicles striking crossing pedestrians near retail parking entrances along busy Largo corridors like East Bay Drive and Ulmerton Road.",
+          "caption": "Drivers turning in or out of busy shopping plazas must yield to pedestrians crossing marked crosswalks.",
+          "sequence": 17
         },
         {
-          "sequence": 23,
-          "id": "weather",
-          "fileName": "weather.png",
+          "id": "drivers-overlooking-pedestrians-signalized-intersections-largo",
+          "fileName": "drivers-overlooking-pedestrians-signalized-intersections-largo.webp",
+          "component": "CommonCausesSection (Cause 02)",
+          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/drivers-overlooking-pedestrians-signalized-intersections-largo.webp",
+          "altText": "Drivers failing to yield to crossing pedestrians at signalized intersections in Largo, FL.",
+          "title": "Drivers Overlooking Pedestrians at Signalized Intersections in Largo",
+          "description": "Motorists violating Florida traffic laws by turning on red or rolling through pedestrian walk signals at Largo intersections.",
+          "caption": "Florida Statute 316.130 requires drivers to yield when a pedestrian has the lawful walk signal.",
+          "sequence": 18
+        },
+        {
+          "id": "school-zone-neighborhood-traffic-hazards-largo",
+          "fileName": "school-zone-neighborhood-traffic-hazards-largo.webp",
           "component": "CommonCausesSection (Cause 03)",
-          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/weather.png",
-          "altText": "School Zone and Neighborhood Traffic Hazards in Largo",
-          "title": "School Zone and Neighborhood Traffic Hazards",
-          "description": "Speeding hazards near Pinellas County school zones and residential roads.",
-          "caption": "Ignoring school zone speed limits places pedestrians at grave risk."
+          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/school-zone-neighborhood-traffic-hazards-largo.webp",
+          "altText": "School zone and residential neighborhood traffic hazards endangering pedestrians in Largo and Pinellas County.",
+          "title": "School Zone and Neighborhood Traffic Hazards in Largo",
+          "description": "Speeding vehicles and obstructed sightlines creating grave danger in Pinellas County school zones and residential blocks.",
+          "caption": "School zone speed limits exist to protect vulnerable children and neighborhood pedestrians from reckless drivers.",
+          "sequence": 19
+        },
+        {
+          "id": "parking-lot-private-property-incidents-largo",
+          "fileName": "parking-lot-private-property-incidents-largo.webp",
+          "component": "CommonCausesSection (Cause 04)",
+          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/parking-lot-private-property-incidents-largo.webp",
+          "altText": "Pedestrian accidents occurring in commercial parking lots and private properties in Largo.",
+          "title": "Parking Lot and Private Property Incidents in Largo",
+          "description": "Pedestrians struck by reversing vehicles and speeding cars in shopping centers, apartment complexes, and hospital lots across Largo.",
+          "caption": "Property owners and careless drivers share liability for pedestrian collisions in poorly marked parking areas.",
+          "sequence": 20
+        },
+        {
+          "id": "pedestrian-crashes-commercial-vehicles-largo",
+          "fileName": "pedestrian-crashes-commercial-vehicles-largo.webp",
+          "component": "CommonCausesSection (Cause 05)",
+          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/pedestrian-crashes-commercial-vehicles-largo.webp",
+          "altText": "Commercial delivery trucks and vans causing catastrophic pedestrian accidents in Largo.",
+          "title": "Pedestrian Crashes Involving Commercial Vehicles in Largo",
+          "description": "Box trucks, delivery vans, and commercial vehicles causing severe impact injuries to Largo pedestrians.",
+          "caption": "Commercial vehicle drivers and their corporate employers carry strict safety duties on Largo delivery routes.",
+          "sequence": 21
+        },
+        {
+          "id": "reduced-visibility-evening-hours-largo",
+          "fileName": "reduced-visibility-evening-hours-largo.webp",
+          "component": "CommonCausesSection (Cause 06)",
+          "filePath": "/assets/seo-service/pedestrian-accidents-lawyer-largo/reduced-visibility-evening-hours-largo.webp",
+          "altText": "Reduced visibility pedestrian accidents on unlit roads during evening hours in Largo.",
+          "title": "Reduced Visibility During Evening Hours in Largo",
+          "description": "Poor street lighting and nighttime driving hazards resulting in devastating pedestrian crashes across Largo, FL.",
+          "caption": "The legal duty for drivers to look out for pedestrians continues after dark on all Largo roadways.",
+          "sequence": 22
         }
       ]
     }

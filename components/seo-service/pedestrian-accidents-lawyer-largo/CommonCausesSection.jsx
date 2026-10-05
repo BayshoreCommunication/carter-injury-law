@@ -21,42 +21,48 @@ const CommonCausesSection = () => {
     {
       number: "01",
       title: "Crosswalk Collisions Near Busy Retail Centers",
-      image: getSeoImage("distraction", "pedestrian-accidents-lawyer-largo").filePath,
+      image: getSeoImage("crosswalk-collisions-busy-retail-centers-largo.webp", "pedestrian-accidents-lawyer-largo").filePath,
+      imageObj: getSeoImage("crosswalk-collisions-busy-retail-centers-largo.webp", "pedestrian-accidents-lawyer-largo"),
       description: "East Bay Drive and Ulmerton Road stay busy from morning through evening with shoppers, delivery drivers, and people running errands. Drivers turning into or out of parking lots frequently cut across crosswalks without slowing down. They're watching for other vehicles, not the person stepping off the curb. A marked crosswalk offers legal protection, but it doesn't stop a two-ton vehicle driven by someone who isn't paying attention.",
       location: "East Bay Dr & Ulmerton Rd Corridors",
     },
     {
       number: "02",
       title: "Drivers Overlooking Pedestrians at Signalized Intersections",
-      image: getSeoImage("impaired", "pedestrian-accidents-lawyer-largo").filePath,
+      image: getSeoImage("drivers-overlooking-pedestrians-signalized-intersections-largo.webp", "pedestrian-accidents-lawyer-largo").filePath,
+      imageObj: getSeoImage("drivers-overlooking-pedestrians-signalized-intersections-largo.webp", "pedestrian-accidents-lawyer-largo"),
       description: "Florida Statute 316.130 puts the obligation on drivers to yield when a pedestrian has the walk signal. That law gets broken dozens of times a day across Largo. A driver running a light that just turned red, glancing at a phone while rolling through a turn, or accelerating too early can hit someone in a crosswalk before they ever hit the brakes. Such accidents are frequently preventable, but occur when drivers are distracted.",
       location: "Largo Signalized Intersections",
     },
     {
       number: "03",
       title: "School Zone and Neighborhood Traffic Hazards",
-      image: getSeoImage("weather", "pedestrian-accidents-lawyer-largo").filePath,
+      image: getSeoImage("school-zone-neighborhood-traffic-hazards-largo.webp", "pedestrian-accidents-lawyer-largo").filePath,
+      imageObj: getSeoImage("school-zone-neighborhood-traffic-hazards-largo.webp", "pedestrian-accidents-lawyer-largo"),
       description: "Posted school zone speed limits near Pinellas County schools exist because children cross those streets. Drivers who ignore those limits are gambling with other people's kids. Neighborhood roads present their own problems, where parked cars block sightlines and crossings aren't always marked. Anyone struck while walking in a school zone or a residential block deserves to know whether the driver's violation played a role.",
       location: "Pinellas County School Zones",
     },
     {
       number: "04",
       title: "Parking Lot and Private Property Incidents",
-      image: getSeoImage("traffic-congestion", "pedestrian-accidents-lawyer-largo").filePath,
+      image: getSeoImage("parking-lot-private-property-incidents-largo.webp", "pedestrian-accidents-lawyer-largo").filePath,
+      imageObj: getSeoImage("parking-lot-private-property-incidents-largo.webp", "pedestrian-accidents-lawyer-largo"),
       description: "Plenty of serious pedestrian accidents happen nowhere near a public intersection. Hospital parking areas, apartment complex lots, and big-box store parking fields all see regular foot traffic alongside moving vehicles. Drivers backing out without looking, or cutting through a lot at speed, create genuine danger. When the property owner has failed to mark pedestrian paths or keep lighting adequate, they may owe a share of the damages too.",
       location: "Commercial Lots & Apartment Fields",
     },
     {
       number: "05",
       title: "Pedestrian Crashes Involving Commercial Vehicles",
-      image: getSeoImage("driver-fatigue", "pedestrian-accidents-lawyer-largo").filePath,
+      image: getSeoImage("pedestrian-crashes-commercial-vehicles-largo.webp", "pedestrian-accidents-lawyer-largo").filePath,
+      imageObj: getSeoImage("pedestrian-crashes-commercial-vehicles-largo.webp", "pedestrian-accidents-lawyer-largo"),
       description: "Box trucks, cargo vans, and delivery vehicles work Largo routes all day. Their drivers carry federal and state safety obligations that private drivers do not. When one of those drivers strikes a pedestrian while on the job, the employer doesn't get to simply watch from the sidelines. Corporate liability in those cases can mean access to commercial insurance coverage far exceeding a personal auto policy.",
       location: "Commercial Delivery Routes in Largo",
     },
     {
       number: "06",
       title: "Reduced Visibility During Evening Hours",
-      image: getSeoImage("evidence-timing", "pedestrian-accidents-lawyer-largo").filePath,
+      image: getSeoImage("reduced-visibility-evening-hours-largo.webp", "pedestrian-accidents-lawyer-largo").filePath,
+      imageObj: getSeoImage("reduced-visibility-evening-hours-largo.webp", "pedestrian-accidents-lawyer-largo"),
       description: "After dark, pedestrian accidents get more dangerous and more common. Stretches of Largo with minimal street lighting leave walkers nearly invisible to approaching drivers. Florida evenings are warm and people stay outside late, which means foot traffic continues well after sunset. A driver who claims they never saw someone walking is not automatically off the hook. The duty to watch for pedestrians does not go away when it gets dark.",
       location: "Unlit Largo Roadways & Evening Corridors",
     },
@@ -101,7 +107,8 @@ const CommonCausesSection = () => {
               <div className="relative w-full h-[220px] bg-slate-900 overflow-hidden">
                 <Image
                   src={cause.image}
-                  alt={cause.title}
+                  alt={cause.imageObj?.altText || cause.title}
+                  title={cause.imageObj?.title || cause.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover hover:scale-105 transition-transform duration-500"
