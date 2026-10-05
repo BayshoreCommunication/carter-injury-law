@@ -3,7 +3,7 @@
   "serviceName": "Pedestrian Accident Lawyer in Tampa",
   "location": "Tampa, FL",
   "topic": "Pedestrian Accidents",
-  "totalImages": 23,
+  "totalImages": 22,
   "images": [
     {
       "sequence": 1,
@@ -95,39 +95,6 @@
     },
     {
       "sequence": 9,
-      "id": "distraction",
-      "fileName": "distraction.png",
-      "component": "CommonCausesSection (Cause 01)",
-      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/distraction.png",
-      "altText": "Drivers Failing to Yield at Crosswalks in Tampa",
-      "title": "Drivers Failing to Yield at Crosswalks",
-      "description": "Crosswalk collisions and failure to yield to pedestrians in Tampa, FL.",
-      "caption": "Drivers approaching marked crosswalks must yield to pedestrians."
-    },
-    {
-      "sequence": 10,
-      "id": "driver-fatigue",
-      "fileName": "driver-fatigue.png",
-      "component": "CommonCausesSection (Cause 05)",
-      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/driver-fatigue.png",
-      "altText": "Drunk and Drug-Impaired Driving in Tampa",
-      "title": "Drunk and Drug-Impaired Driving",
-      "description": "Impaired drivers causing severe pedestrian accidents in Hillsborough County.",
-      "caption": "Impaired driving results in some of the most devastating pedestrian injuries."
-    },
-    {
-      "sequence": 11,
-      "id": "evidence-timing",
-      "fileName": "evidence-timing.png",
-      "component": "CommonCausesSection (Cause 06)",
-      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/evidence-timing.png",
-      "altText": "Poor Visibility During Nighttime and Severe Weather in Tampa",
-      "title": "Poor Visibility During Nighttime and Severe Weather",
-      "description": "Low light and severe weather pedestrian hazards in Tampa.",
-      "caption": "Drivers have a legal duty to exercise heightened care during poor visibility."
-    },
-    {
-      "sequence": 12,
       "id": "expert-analysis",
       "fileName": "expert-analysis.png",
       "component": "ExpertValuationSection",
@@ -138,7 +105,7 @@
       "caption": "Expert Analysis for Pedestrian Accident Lawyer in Tampa clients."
     },
     {
-      "sequence": 13,
+      "sequence": 10,
       "id": "hero-bg",
       "fileName": "hero-bg.png",
       "component": "HeroHeader (Background)",
@@ -149,7 +116,7 @@
       "caption": "Pedestrian Accident Lawyer in Tampa Legal Practice Header Background"
     },
     {
-      "sequence": 14,
+      "sequence": 11,
       "id": "Impaired Driving High Speed Highway Corridor Risks.webp",
       "fileName": "Impaired Driving High Speed Highway Corridor Risks.webp",
       "component": "General SEO Section",
@@ -160,18 +127,7 @@
       "caption": "Impaired Driving High Speed Highway Corridor Risks for Pedestrian Accident Lawyer in Tampa clients."
     },
     {
-      "sequence": 15,
-      "id": "impaired",
-      "fileName": "impaired.png",
-      "component": "CommonCausesSection (Cause 02)",
-      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/impaired.png",
-      "altText": "Distracted Driving in Busy Urban Areas in Tampa",
-      "title": "Distracted Driving in Busy Urban Areas",
-      "description": "Distracted driving risks near downtown Tampa and Westshore.",
-      "caption": "Distracted driving is a leading cause of pedestrian injuries in Tampa."
-    },
-    {
-      "sequence": 16,
+      "sequence": 12,
       "id": "Justice Secured for Tampa Families Wrongful Death Claims.webp",
       "fileName": "Justice Secured for Tampa Families Wrongful Death Claims.webp",
       "component": "JusticeSecuredSection",
@@ -182,7 +138,7 @@
       "caption": "Justice Secured For Tampa Families Wrongful Death Claims for Pedestrian Accident Lawyer in Tampa clients."
     },
     {
-      "sequence": 17,
+      "sequence": 13,
       "id": "justice-family",
       "fileName": "justice-family.png",
       "component": "JusticeSecuredSection",
@@ -193,7 +149,7 @@
       "caption": "Justice Family for Pedestrian Accident Lawyer in Tampa clients."
     },
     {
-      "sequence": 18,
+      "sequence": 14,
       "id": "local-representation",
       "fileName": "local-representation.png",
       "component": "WhyChooseUsSection",
@@ -204,18 +160,7 @@
       "caption": "Direct communication with your attorney from intake to resolution."
     },
     {
-      "sequence": 19,
-      "id": "negligent-motorists",
-      "fileName": "negligent-motorists.png",
-      "component": "CommonCausesSection (Cause 06)",
-      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/negligent-motorists.png",
-      "altText": "Negligent Motorists - Pedestrian Accident Lawyer in Tampa in Tampa, FL",
-      "title": "Negligent Motorists - Pedestrian Accident Lawyer in Tampa",
-      "description": "Professional legal asset representation for Negligent Motorists in Tampa, FL.",
-      "caption": "Negligent Motorists for Pedestrian Accident Lawyer in Tampa clients."
-    },
-    {
-      "sequence": 20,
+      "sequence": 15,
       "id": "review",
       "fileName": "review.png",
       "component": "WhyRightLawyerSection",
@@ -226,7 +171,7 @@
       "caption": "Dedicated legal counsel protects your rights after a pedestrian crash."
     },
     {
-      "sequence": 21,
+      "sequence": 16,
       "id": "Tampa Families Need Legal Help After Car Accidents.webp",
       "fileName": "Tampa Families Need Legal Help After Car Accidents.webp",
       "component": "General SEO Section",
@@ -237,26 +182,70 @@
       "caption": "Tampa Families Need Legal Help After Car Accidents for Pedestrian Accident Lawyer in Tampa clients."
     },
     {
-      "sequence": 22,
-      "id": "traffic-congestion",
-      "fileName": "traffic-congestion.png",
-      "component": "CommonCausesSection (Cause 04)",
-      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/traffic-congestion.png",
-      "altText": "Dangerous Left-Turn and Right-Turn Collisions in Tampa",
-      "title": "Dangerous Left-Turn and Right-Turn Collisions",
-      "description": "Turning vehicles striking pedestrians who have the legal right of way.",
-      "caption": "Turning drivers often fail to check crosswalks before proceeding."
+      "id": "drivers-failing-yield-crosswalks-tampa",
+      "fileName": "drivers-failing-yield-crosswalks-tampa.webp",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/drivers-failing-yield-crosswalks-tampa.webp",
+      "altText": "Drivers failing to yield to pedestrians at marked crosswalks and intersections in Tampa.",
+      "title": "Drivers Failing to Yield at Crosswalks in Tampa",
+      "description": "Motorists failing to yield right of way to crossing pedestrians at marked Tampa intersections and crosswalks.",
+      "caption": "Florida law strictly requires motorists to stop for pedestrians crossing legally at marked crosswalks.",
+      "sequence": 17
     },
     {
-      "sequence": 23,
-      "id": "weather",
-      "fileName": "weather.png",
+      "id": "distracted-driving-busy-urban-areas-tampa",
+      "fileName": "distracted-driving-busy-urban-areas-tampa.webp",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/distracted-driving-busy-urban-areas-tampa.webp",
+      "altText": "Distracted driver looking at a mobile phone while driving through busy urban streets in Tampa.",
+      "title": "Distracted Driving in Busy Urban Areas in Tampa",
+      "description": "Smartphone use and distracted driving hazards causing severe pedestrian strikes in downtown Tampa and Westshore.",
+      "caption": "Taking eyes off the road for even two seconds leads to catastrophic pedestrian collisions in busy Tampa corridors.",
+      "sequence": 18
+    },
+    {
+      "id": "speeding-residential-neighborhoods-tampa",
+      "fileName": "speeding-residential-neighborhoods-tampa.webp",
       "component": "CommonCausesSection (Cause 03)",
-      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/weather.png",
-      "altText": "Speeding Through Residential Neighborhoods in Tampa",
-      "title": "Speeding Through Residential Neighborhoods",
-      "description": "Excessive speed on residential streets in Seminole Heights and Carrollwood.",
-      "caption": "High speeds leave pedestrians with almost no time to react."
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/speeding-residential-neighborhoods-tampa.webp",
+      "altText": "Speeding vehicle endangering pedestrians in residential neighborhoods across Tampa, Florida.",
+      "title": "Speeding Through Residential Neighborhoods in Tampa",
+      "description": "Excessive vehicle speeds through residential neighborhoods like Seminole Heights and Carrollwood resulting in pedestrian injuries.",
+      "caption": "Excessive speed reduces driver reaction time and dramatically worsens injury severity in neighborhood pedestrian accidents.",
+      "sequence": 19
+    },
+    {
+      "id": "dangerous-left-turn-right-turn-collisions-tampa",
+      "fileName": "dangerous-left-turn-right-turn-collisions-tampa.webp",
+      "component": "CommonCausesSection (Cause 04)",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/dangerous-left-turn-right-turn-collisions-tampa.webp",
+      "altText": "Dangerous left-turn and right-turn collisions striking pedestrians in busy Tampa crosswalks.",
+      "title": "Dangerous Left-Turn and Right-Turn Collisions in Tampa",
+      "description": "Drivers making turns without checking for crossing pedestrians at busy Tampa traffic intersections.",
+      "caption": "Turning drivers focused only on oncoming traffic frequently hit unsuspecting pedestrians who have the legal right of way.",
+      "sequence": 20
+    },
+    {
+      "id": "drunk-drug-impaired-driving-tampa",
+      "fileName": "drunk-drug-impaired-driving-tampa.webp",
+      "component": "CommonCausesSection (Cause 05)",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/drunk-drug-impaired-driving-tampa.webp",
+      "altText": "Drunk and drug-impaired driving causing devastating pedestrian accidents in Tampa.",
+      "title": "Drunk and Drug-Impaired Driving in Tampa",
+      "description": "Intoxicated motorists causing tragic pedestrian crashes during late-night hours across Tampa's entertainment and highway corridors.",
+      "caption": "Impaired driving results in delayed perception and severe, life-threatening impacts for pedestrians.",
+      "sequence": 21
+    },
+    {
+      "id": "poor-visibility-nighttime-severe-weather-tampa",
+      "fileName": "poor-visibility-nighttime-severe-weather-tampa.webp",
+      "component": "CommonCausesSection (Cause 06)",
+      "filePath": "/assets/seo-service/pedestrian-accident-lawyer-in-tampa/poor-visibility-nighttime-severe-weather-tampa.webp",
+      "altText": "Poor visibility conditions during nighttime and severe tropical rainstorms on unlit Tampa roads.",
+      "title": "Poor Visibility During Nighttime and Severe Weather in Tampa",
+      "description": "Inadequate street lighting and torrential Florida downpours contributing to serious pedestrian collision risks.",
+      "caption": "Drivers have a legal duty to adjust speeds and exercise heightened vigilance during darkness and severe Florida weather.",
+      "sequence": 22
     }
   ]
 }

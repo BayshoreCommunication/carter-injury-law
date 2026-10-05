@@ -21,42 +21,48 @@ const CommonCausesSection = () => {
     {
       number: "01",
       title: "Drivers Failing to Yield at Crosswalks",
-      image: getSeoImage("distraction", "pedestrian-accident-lawyer-in-tampa").filePath,
+      image: getSeoImage("drivers-failing-yield-crosswalks-tampa.webp", "pedestrian-accident-lawyer-in-tampa").filePath,
+      imageObj: getSeoImage("drivers-failing-yield-crosswalks-tampa.webp", "pedestrian-accident-lawyer-in-tampa"),
       description: "Florida law is clear on this. A driver approaching a marked crosswalk has to stop. Many drivers in Tampa treat that rule as optional. They roll through without slowing and without looking. Someone crossing legally takes the full force of that decision. The injuries from these collisions are often serious because the pedestrian has nowhere to go.",
       location: "Marked Crosswalks & Intersections",
     },
     {
       number: "02",
       title: "Distracted Driving in Busy Urban Areas",
-      image: getSeoImage("impaired", "pedestrian-accident-lawyer-in-tampa").filePath,
+      image: getSeoImage("distracted-driving-busy-urban-areas-tampa.webp", "pedestrian-accident-lawyer-in-tampa").filePath,
+      imageObj: getSeoImage("distracted-driving-busy-urban-areas-tampa.webp", "pedestrian-accident-lawyer-in-tampa"),
       description: "A driver going 35 miles per hour who looks at a phone for 2 seconds covers roughly 100 feet without watching the road. That is more than enough distance to hit someone stepping off a curb in downtown Tampa or near Westshore. Distracted driving has quietly become one of the top causes of pedestrian deaths in Hillsborough County.",
       location: "Downtown Tampa & Westshore Corridors",
     },
     {
       number: "03",
       title: "Speeding Through Residential Neighborhoods",
-      image: getSeoImage("weather", "pedestrian-accident-lawyer-in-tampa").filePath,
+      image: getSeoImage("speeding-residential-neighborhoods-tampa.webp", "pedestrian-accident-lawyer-in-tampa").filePath,
+      imageObj: getSeoImage("speeding-residential-neighborhoods-tampa.webp", "pedestrian-accident-lawyer-in-tampa"),
       description: "Residential streets were built for low speeds. The posted limits exist for a reason. When someone blows through a neighborhood in Seminole Heights or Carrollwood, a pedestrian stepping into the road has almost no chance. Higher speed means less time to react and much worse injuries when contact is made.",
       location: "Seminole Heights & Carrollwood",
     },
     {
       number: "04",
       title: "Dangerous Left-Turn and Right-Turn Collisions",
-      image: getSeoImage("traffic-congestion", "pedestrian-accident-lawyer-in-tampa").filePath,
+      image: getSeoImage("dangerous-left-turn-right-turn-collisions-tampa.webp", "pedestrian-accident-lawyer-in-tampa").filePath,
+      imageObj: getSeoImage("dangerous-left-turn-right-turn-collisions-tampa.webp", "pedestrian-accident-lawyer-in-tampa"),
       description: "Turning accidents catch pedestrians off guard because they often have the legal right to be there. The driver is watching for oncoming cars and never checks the crosswalk. By the time they see the person, it is already too late to do anything about it. These crashes happen across Tampa every week.",
       location: "Tampa Busy Intersection Crossings",
     },
     {
       number: "05",
       title: "Drunk and Drug-Impaired Driving",
-      image: getSeoImage("driver-fatigue", "pedestrian-accident-lawyer-in-tampa").filePath,
+      image: getSeoImage("drunk-drug-impaired-driving-tampa.webp", "pedestrian-accident-lawyer-in-tampa").filePath,
+      imageObj: getSeoImage("drunk-drug-impaired-driving-tampa.webp", "pedestrian-accident-lawyer-in-tampa"),
       description: "Alcohol or drugs may cause loss of concentration, reduced reaction, and poor visibility of hazards. These issues are further compounded at night or in bad weather, when pedestrian traffic may be harder to see. Pedestrian accidents caused by drunk or impaired drivers tend to produce the worst injuries the firm sees.",
       location: "Late Night & High-Traffic Corridors",
     },
     {
       number: "06",
       title: "Poor Visibility During Nighttime and Severe Weather",
-      image: getSeoImage("evidence-timing", "pedestrian-accident-lawyer-in-tampa").filePath,
+      image: getSeoImage("poor-visibility-nighttime-severe-weather-tampa.webp", "pedestrian-accident-lawyer-in-tampa").filePath,
+      imageObj: getSeoImage("poor-visibility-nighttime-severe-weather-tampa.webp", "pedestrian-accident-lawyer-in-tampa"),
       description: "Tampa gets a lot of rain and has stretches of road that are poorly lit after dark. Florida law expects drivers to slow down and pay more attention when conditions make seeing harder. When they do not do that and someone gets hurt, that failure can be the foundation of a negligence claim.",
       location: "Unlit Roads & Rainy Traffic Hazards",
     },
@@ -101,7 +107,8 @@ const CommonCausesSection = () => {
               <div className="relative w-full h-[220px] bg-slate-900 overflow-hidden">
                 <Image
                   src={cause.image}
-                  alt={cause.title}
+                  alt={cause.imageObj?.altText || cause.title}
+                  title={cause.imageObj?.title || cause.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover hover:scale-105 transition-transform duration-500"
