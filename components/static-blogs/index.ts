@@ -61,6 +61,9 @@ import CanYouRecoverDamagesIfYouWereNotWearingASeatBeltInFlorida, {
 import CanAMisdiagnosisLeadToAMedicalMalpracticeClaimInFlorida, {
   canAMisdiagnosisLeadToAMedicalMalpracticeClaimInFlorida,
 } from "./blogs/can-a-misdiagnosis-lead-to-a-medical-malpractice-claim-in-florida";
+import WhatIfYourCarAccidentInjuriesAppearDaysLater, {
+  whatIfYourCarAccidentInjuriesAppearDaysLater,
+} from "./blogs/what-if-your-car-accident-injuries-appear-days-later";
 
 const staticBlogPostsUnsorted = [
   howAccidentScenePhotosCanStrengthen,
@@ -84,6 +87,7 @@ const staticBlogPostsUnsorted = [
   drowsyDrivingAccidentsInFloridaCanTheDriverBeHeldLiable,
   canYouRecoverDamagesIfYouWereNotWearingASeatBeltInFlorida,
   canAMisdiagnosisLeadToAMedicalMalpracticeClaimInFlorida,
+  whatIfYourCarAccidentInjuriesAppearDaysLater,
 ];
 
 export const staticBlogPosts = [...staticBlogPostsUnsorted].sort(
@@ -132,6 +136,8 @@ export const staticBlogComponents = {
     CanYouRecoverDamagesIfYouWereNotWearingASeatBeltInFlorida,
   [canAMisdiagnosisLeadToAMedicalMalpracticeClaimInFlorida.slug]:
     CanAMisdiagnosisLeadToAMedicalMalpracticeClaimInFlorida,
+  [whatIfYourCarAccidentInjuriesAppearDaysLater.slug]:
+    WhatIfYourCarAccidentInjuriesAppearDaysLater,
 };
 
 export function getStaticBlogBySlug(slug: string) {
