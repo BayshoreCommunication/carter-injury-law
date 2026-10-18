@@ -21,28 +21,13 @@ export const metadata = {
   },
 };
 
-const page = async ({ searchParams }) => {
-  const currentPage = Number(searchParams?.page) || 1;
-  const limit = 9;
-
-  const blogData = await GetAllPostData(currentPage, limit);
-
-  const postDate = (date) => {
-    const formattedDate = new Date(date).toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    });
-    return formattedDate;
-  };
+const page = async () => {
+  const blogData = await GetAllPostData(1, 100);
 
   return (
     <>
       <BlogHeroSection />
-      <BlogMainSection
-        blogPostData={blogData?.data}
-        pagination={blogData?.pagination}
-      />
+      <BlogMainSection blogPostData={blogData?.data} />
       <CallToAction />
     </>
   );

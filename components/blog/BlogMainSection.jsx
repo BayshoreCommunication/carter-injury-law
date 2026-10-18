@@ -7,7 +7,6 @@ import { staticBlogPosts } from "../static-blogs";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 import SectionLayout from "../shared/SectionLayout";
 import BlogLoader from "./BlogLoader";
-import Pagination from "./Pagination";
 
 const BlogCard = ({ blogs, postDate }) => {
   const [imageLoading, setImageLoading] = useState(true);
@@ -61,15 +60,17 @@ const BlogCard = ({ blogs, postDate }) => {
   );
 };
 
-const BlogMainSection = ({ blogPostData, pagination }) => {
-  const currentPage = pagination?.currentPage || 1;
+const BlogMainSection = ({ blogPostData }) => {
   const posts = [
-    ...(currentPage === 1 ? staticBlogPosts : []),
+    ...staticBlogPosts,
     ...(blogPostData || []).filter(
       (post) =>
         !staticBlogPosts.some((staticPost) => staticPost.slug === post?.slug),
     ),
-  ];
+  ].sort(
+    (a, b) =>
+      new Date(b?.createdAt).getTime() - new Date(a?.createdAt).getTime(),
+  );
 
   const postDate = (date) => {
     const formattedDate = new Date(date).toLocaleDateString("en-US", {
@@ -95,22 +96,17 @@ const BlogMainSection = ({ blogPostData, pagination }) => {
             {!posts || posts.length === 0 ? (
               <BlogLoader />
             ) : (
-              <>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8  justify-center text-center h-full">
-                  {posts
-                    ?.filter((pub, no) => pub.published === true)
-                    ?.map((blogs, index) => (
-                      <BlogCard
-                        key={`${blogs?.slug}-${index}`}
-                        blogs={blogs}
-                        postDate={postDate}
-                      />
-                    ))}
-                </div>
-
-                {/* Pagination Component */}
-                {pagination && <Pagination pagination={pagination} />}
-              </>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8  justify-center text-center h-full">
+                {posts
+                  ?.filter((pub) => pub.published === true)
+                  ?.map((blogs, index) => (
+                    <BlogCard
+                      key={`${blogs?.slug}-${index}`}
+                      blogs={blogs}
+                      postDate={postDate}
+                    />
+                  ))}
+              </div>
             )}
           </div>
         </div>
