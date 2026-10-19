@@ -11,7 +11,7 @@ export const metadata = {
   title: "Blog - Carter Injury Law",
   description: `At Carter Injury Law, you’re family. We offer open lines of communication to foster personal relationships and optimize case outcomes for our clients. `,
   alternates: {
-    canonical: "/",
+    canonical: "/blog",
     languages: {
       "en-US": "/en-USA",
     },
@@ -21,13 +21,11 @@ export const metadata = {
   },
 };
 
-const page = async () => {
-  const blogData = await GetAllPostData(1, 100);
-
+const page = () => {
   return (
     <>
       <BlogHeroSection />
-      <BlogMainSection blogPostData={blogData?.data} />
+      <BlogMainSection />
       <CallToAction />
     </>
   );

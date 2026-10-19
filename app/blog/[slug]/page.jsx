@@ -293,10 +293,18 @@ export async function generateStaticParams() {
       ?.filter((post) => post?.published === true && !!post?.slug)
       ?.map((post) => ({ slug: post.slug }));
 
-    return [
+    const allSlugs = new Set();
+    const result = [];
+    for (const item of [
       ...(slugs || []),
       ...staticBlogPosts.map((post) => ({ slug: post.slug })),
-    ];
+    ]) {
+      if (item?.slug && !allSlugs.has(item.slug)) {
+        allSlugs.add(item.slug);
+        result.push(item);
+      }
+    }
+    return result;
   } catch (error) {
     console.error("Error generating static params:", error.message);
     return staticBlogPosts.map((post) => ({ slug: post.slug }));
