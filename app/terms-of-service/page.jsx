@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Need expert legal help after an accident? Our  Experienced personal injury attorney in Tampa, Florida, is here to fight for your rights and secure the compensation you deserve. Call today for a free consultation!",
   alternates: {
-    canonical: "/",
+    canonical: "/terms-of-service",
     languages: {
       "en-US": "/en-USA",
     },

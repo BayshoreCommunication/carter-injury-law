@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Were you injured in a Largo crash? A Largo car accident attorney at Carter Injury Law knows local roads, local courts, and how to win.",
   alternates: {
-    canonical: "/",
+    canonical: "/largo-car-accident-attorney",
     languages: {
       "en-US": "/en-USA",
     },

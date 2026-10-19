@@ -5,7 +5,7 @@ export const metadata = {
   title: "",
   description: "",
   alternates: {
-    canonical: "/",
+    canonical: "/disclaimers-and-terms-of-use",
     languages: {
       "en-US": "/en-USA",
     },

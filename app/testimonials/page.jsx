@@ -10,7 +10,7 @@ export const metadata = {
     "Read client testimonials to see why Carter Injury Law is a top choice for personal injury representation in Tampa, Florida. Hear from clients who received successful outcomes in auto accidents, slip and falls, and other injury cases.",
 
   alternates: {
-    canonical: "/",
+    canonical: "/testimonials",
     languages: {
       "en-US": "/en-USA",
     },

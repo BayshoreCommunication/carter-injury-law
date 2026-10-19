@@ -16,6 +16,8 @@ export const intersectionCarAccidentsInTampa = {
   metaTitle: "Common Cause of Tampa Intersection Car Accidents",
   metaDescription:
     "96% of intersection crashes stem from driver error. Review the evidence, confirm your PIP benefits, and secure the compensation you deserve.",
+  canonicalUrl:
+    "https://www.carterinjurylaw.com/blog/intersection-car-accidents-in-tampa",
   featuredImage: {
     image: {
       url: featuredImage,

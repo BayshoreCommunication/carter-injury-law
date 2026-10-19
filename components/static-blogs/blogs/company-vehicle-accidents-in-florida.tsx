@@ -14,6 +14,8 @@ export const companyVehicleAccidentsInFlorida = {
   metaTitle: "Company Vehicle Accidents in Florida: Who Is Responsible?",
   metaDescription:
     "Crashed with a company car? Learn about vicarious liability, negligent hiring, and Florida commercial vehicle laws. Find out who is responsible.",
+  canonicalUrl:
+    "https://www.carterinjurylaw.com/blog/company-vehicle-accidents-in-florida",
   featuredImage: {
     image: {
       url: featuredImage,

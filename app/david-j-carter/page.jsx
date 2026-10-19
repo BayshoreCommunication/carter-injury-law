@@ -11,7 +11,7 @@ export const metadata = {
                     compensation for accidents, medical malpractice, and
                     wrongful death cases. Compassionate and results-driven.`,
   alternates: {
-    canonical: "/",
+    canonical: "/david-j-carter",
     languages: {
       "en-US": "/en-USA",
     },

@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Get to know the dedicated team of personal injury attorneys at Carter Injury Law in Tampa, Florida. Our experienced lawyers handle auto accidents, slip & falls, medical malpractice, and more. Discover the professionals fighting for your rights.",
   alternates: {
-    canonical: "/",
+    canonical: "/our-team",
     languages: {
       "en-US": "/en-USA",
     },

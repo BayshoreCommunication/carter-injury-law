@@ -271,7 +271,7 @@ export async function generateMetadata({ params }) {
     alternates: {
       canonical:
         blogDetails?.canonicalUrl ||
-        `https://www.carterinjurylaw.com/blog/${blogDetails?.slug}`,
+        `https://www.carterinjurylaw.com/blog/${blogDetails?.slug || params?.slug}`,
     },
     openGraph: {
       title: blogDetails?.metaTitle || blogDetails?.title,

@@ -12,7 +12,7 @@ export const metadata = {
   description:
     "Learn more about our dedicated team of personal injury attorneys. Specializing in Auto Accidents, Premises Liability, Wrongful Death, Medical Malpractice, and more, we’re here to fight for your rights in Tampa, Florida.",
   alternates: {
-    canonical: "/",
+    canonical: "/mission-statement",
     languages: {
       "en-US": "/en-USA",
     },

@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Get answers to your questions about personal injury claims, auto accidents, medical malpractice, and more at Carter Injury Law. Our FAQs provide valuable insights to help you understand your legal rights and the claims process.",
   alternates: {
-    canonical: "/",
+    canonical: "/faq",
     languages: {
       "en-US": "/en-USA",
     },

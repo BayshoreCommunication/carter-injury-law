@@ -15,6 +15,8 @@ export const floridaComparativeFaultAccidentCompensation = {
   metaTitle: "Is Florida Comparative Fault Reducing Your Compensation?",
   metaDescription:
     "Learn how Florida comparative fault laws affect accident compensation and why the 51% bar rule makes hiring Carter Injury Law important for your recovery.",
+  canonicalUrl:
+    "https://www.carterinjurylaw.com/blog/florida-comparative-fault-accident-compensation",
   featuredImage: {
     image: {
       url: featuredImage,

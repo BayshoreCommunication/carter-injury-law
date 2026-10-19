@@ -14,7 +14,7 @@ export const metadata = {
                     central Florida and because of that he considers Florida,
                     more specifically the Tampa Bay area, to be his home.`,
   alternates: {
-    canonical: "/",
+    canonical: "/robert-johnson",
     languages: {
       "en-US": "/en-USA",
     },
