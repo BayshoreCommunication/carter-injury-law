@@ -221,90 +221,124 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "BreadcrumbList",
-      "itemListElement": [
+      "@id":
+        "https://www.carterinjurylaw.com/blog/what-evidence-is-most-important-in-a-florida-car-accident-case#breadcrumb",
+      itemListElement: [
         {
           "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.carterinjurylaw.com/",
+          position: 1,
+          name: "Home",
+          item: "https://www.carterinjurylaw.com/",
         },
         {
           "@type": "ListItem",
-          "position": 2,
-          "name": "Blog",
-          "item": "https://www.carterinjurylaw.com/blog",
+          position: 2,
+          name: "Blog",
+          item: "https://www.carterinjurylaw.com/blog",
         },
         {
           "@type": "ListItem",
-          "position": 3,
-          "name":
+          position: 3,
+          name:
             "What Evidence Is Most Important in a Florida Car Accident Case?",
-          "item":
+          item:
             "https://www.carterinjurylaw.com/blog/what-evidence-is-most-important-in-a-florida-car-accident-case",
         },
       ],
     },
     {
       "@type": "BlogPosting",
-      "mainEntityOfPage": {
+      "@id":
+        "https://www.carterinjurylaw.com/blog/what-evidence-is-most-important-in-a-florida-car-accident-case#blogposting",
+      mainEntityOfPage: {
         "@type": "WebPage",
         "@id":
           "https://www.carterinjurylaw.com/blog/what-evidence-is-most-important-in-a-florida-car-accident-case",
       },
-      "headline":
+      headline:
         "What Evidence Is Most Important in a Florida Car Accident Case?",
-      "name": "Florida Car Accident Evidence: EDR Logs, Reports & Proof (2026)",
-      "description":
+      name: "Florida Car Accident Evidence: EDR Logs, Reports & Proof (2026)",
+      description:
         "Discover what evidence matters most in a Florida car accident case under the 51% fault rule, from EDR black box data to medical records and crash reports.",
-      "url":
+      url:
         "https://www.carterinjurylaw.com/blog/what-evidence-is-most-important-in-a-florida-car-accident-case",
-      "image":
-        "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fstatic-blogs%2Fimportant-evidence-in-florida-car-accident-case.webp&w=1200&q=75",
-      "isPartOf": {
+      image:
+        "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fstatic-blogs%2Fimportant-evidence-in-florida-car-accident-case.webp&w=1200&q=75&dpl=dpl_6QwHZkkt3nM4m6yF3QuuRh5Z6Jcr",
+      isPartOf: {
         "@type": "Blog",
-        "@id": "https://www.carterinjurylaw.com/blog",
+        name: "Carter Injury Law Blog",
+        url: "https://www.carterinjurylaw.com/blog",
       },
-      "author": {
+      about: {
+        "@type": "Thing",
+        name: "Evidence in Florida Car Accident Cases",
+      },
+      keywords: [
+        "Florida car accident evidence",
+        "evidence in a car accident case",
+        "Florida car accident case",
+        "car accident evidence Florida",
+        "police crash report",
+        "event data recorder",
+        "black box data",
+        "car accident photos",
+        "dash camera footage",
+        "traffic camera footage",
+        "witness statements",
+        "medical records",
+        "Florida comparative fault",
+        "Florida car accident attorney",
+        "Tampa car accident lawyer",
+      ],
+      author: {
         "@type": "Organization",
-        "name": "Carter Injury Law, PA",
+        name: "Carter Injury Law, PA",
+        url: "https://www.carterinjurylaw.com/",
       },
-      "publisher": {
+      publisher: {
         "@type": "Organization",
-        "name": "Carter Injury Law, PA",
-        "url": "https://www.carterinjurylaw.com/",
+        name: "Carter Injury Law, PA",
+        url: "https://www.carterinjurylaw.com/",
+        logo: {
+          "@type": "ImageObject",
+          url:
+            "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fsite-logo%2Flogo.png&w=1080&q=75&dpl=dpl_6QwHZkkt3nM4m6yF3QuuRh5Z6Jcr",
+        },
       },
-      "datePublished": "2026-09-07",
-      "dateModified": "2026-09-07",
+      datePublished: "2026-09-07",
+      dateModified: "2026-09-07",
     },
     {
       "@type": "FAQPage",
-      "mainEntity": [
+      "@id":
+        "https://www.carterinjurylaw.com/blog/what-evidence-is-most-important-in-a-florida-car-accident-case#faq",
+      mainEntity: [
         {
           "@type": "Question",
-          "name":
+          name:
             "Can I still recover damages if I do not have a police report?",
-          "acceptedAnswer": {
+          acceptedAnswer: {
             "@type": "Answer",
-            "text":
+            text:
               "Yes, you sure can. A police report helps set the stage while hospital records, photos, eyewitness stories, and black box downloads can prove what happened. Even without an official police document.",
           },
         },
         {
           "@type": "Question",
-          "name": "How long do I have to file a car accident claim in Florida?",
-          "acceptedAnswer": {
+          name: "How long do I have to file a car accident claim in Florida?",
+          acceptedAnswer: {
             "@type": "Answer",
-            "text":
+            text:
               "You have two years from the day of the crash for most negligence claims, down from four years before the legal changes in 2023.",
           },
         },
         {
           "@type": "Question",
-          "name":
+          name:
             "Does Florida's no-fault law mean I cannot sue the other driver?",
-          "acceptedAnswer": {
+          acceptedAnswer: {
             "@type": "Answer",
-            "text":
+            text:
               "No, it doesn't. PIP insurance covers your initial medical bills no matter who caused the wreck. If you suffered serious injuries, you can still file a claim against the driver who hit you.",
           },
         },

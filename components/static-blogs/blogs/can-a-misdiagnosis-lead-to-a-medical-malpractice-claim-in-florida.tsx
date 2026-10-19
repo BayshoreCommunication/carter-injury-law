@@ -222,9 +222,146 @@ const ExternalLink = ({
   </a>
 );
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id":
+        "https://www.carterinjurylaw.com/blog/can-a-misdiagnosis-lead-to-a-medical-malpractice-claim-in-florida#breadcrumb",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.carterinjurylaw.com/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Blog",
+          item: "https://www.carterinjurylaw.com/blog",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name:
+            "Can a Misdiagnosis Lead to a Medical Malpractice Claim in Florida?",
+          item:
+            "https://www.carterinjurylaw.com/blog/can-a-misdiagnosis-lead-to-a-medical-malpractice-claim-in-florida",
+        },
+      ],
+    },
+    {
+      "@type": "BlogPosting",
+      "@id":
+        "https://www.carterinjurylaw.com/blog/can-a-misdiagnosis-lead-to-a-medical-malpractice-claim-in-florida#blogposting",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id":
+          "https://www.carterinjurylaw.com/blog/can-a-misdiagnosis-lead-to-a-medical-malpractice-claim-in-florida",
+      },
+      headline:
+        "Can a Misdiagnosis Lead to a Medical Malpractice Claim in Florida?",
+      name: "Florida Misdiagnosis Laws: Can You File a Lawsuit?",
+      description:
+        "Did a Florida doctor misdiagnose your condition? Learn your legal rights, deadlines, and standard of care requirements.",
+      url:
+        "https://www.carterinjurylaw.com/blog/can-a-misdiagnosis-lead-to-a-medical-malpractice-claim-in-florida",
+      image: {
+        "@type": "ImageObject",
+        url:
+          "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fstatic-blogs%2Fcan-a-misdiagnosis-lead-to-a-medical-malpractice-claim-in-florida.webp&w=1200&q=75&dpl=dpl_7baY1M3c6ZBbMGWX7JSZJ8Eub9Mp",
+      },
+      isPartOf: {
+        "@type": "Blog",
+        "@id": "https://www.carterinjurylaw.com/blog#blog",
+        name: "Carter Injury Law Blog",
+        url: "https://www.carterinjurylaw.com/blog",
+      },
+      about: {
+        "@type": "Thing",
+        name: "Medical Misdiagnosis and Medical Malpractice in Florida",
+      },
+      keywords: [
+        "medical misdiagnosis Florida",
+        "medical malpractice claim Florida",
+        "Florida misdiagnosis lawyer",
+        "misdiagnosis lawsuit Florida",
+        "delayed diagnosis malpractice",
+        "missed diagnosis medical negligence",
+        "medical malpractice statute of limitations Florida",
+        "medical malpractice presuit investigation",
+        "medical negligence attorney Tampa",
+        "Florida medical malpractice damages",
+      ],
+      author: {
+        "@type": "Person",
+        name: "David Carter",
+        url: "https://www.carterinjurylaw.com/",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Carter Injury Law, P.A.",
+        url: "https://www.carterinjurylaw.com/",
+        logo: {
+          "@type": "ImageObject",
+          url:
+            "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fsite-logo%2Flogo.png&w=1080&q=75&dpl=dpl_7baY1M3c6ZBbMGWX7JSZJ8Eub9Mp",
+        },
+      },
+      datePublished: "2026-10-07",
+      dateModified: "2026-10-07",
+      inLanguage: "en-US",
+    },
+    {
+      "@type": "FAQPage",
+      "@id":
+        "https://www.carterinjurylaw.com/blog/can-a-misdiagnosis-lead-to-a-medical-malpractice-claim-in-florida#faq",
+      url:
+        "https://www.carterinjurylaw.com/blog/can-a-misdiagnosis-lead-to-a-medical-malpractice-claim-in-florida",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name:
+            "Can I sue if the misdiagnosis happened at a hospital instead of a private practice?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Yes. Hospitals and government run facilities can involve sovereign immunity limits under Fla. Stat. section 768.28. An attorney needs to identify who employed the provider.",
+          },
+        },
+        {
+          "@type": "Question",
+          name:
+            "What if I signed paperwork agreeing to arbitration before treatment?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Some providers include arbitration clauses in intake paperwork. This can shift where your claim gets resolved, but it rarely erases your right to compensation.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Do I need to pay anything upfront to have my case reviewed?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "No. Reputable Florida malpractice firms, Carter Injury Law included, work on contingency and get paid only if your case wins.",
+          },
+        },
+      ],
+    },
+  ],
+};
+
 export default function CanAMisdiagnosisLeadToAMedicalMalpracticeClaimInFlorida() {
   return (
     <article className="space-y-7">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Intro paragraph with doc-specified alignment */}
       <p className="text-justify leading-relaxed text-gray-700 md:text-left text-lg">
         A misdiagnosis may give rise to a medical malpractice claim in the state
@@ -318,12 +455,12 @@ export default function CanAMisdiagnosisLeadToAMedicalMalpracticeClaimInFlorida(
       <div className="my-8 rounded-lg bg-[#1B2A4A] !p-6 md:!p-8 !text-white shadow-md">
         <div className="flex items-center gap-3">
           <span className="h-3 w-3 rounded-full bg-[#F59E0B]" />
-          <h3
+          <h2
             className="text-base font-bold uppercase tracking-wider !text-[#F59E0B] !my-0"
             style={{ color: "#F59E0B" }}
           >
             Diagnostic Error
-          </h3>
+          </h2>
         </div>
         <p
           className="mt-4 text-base leading-relaxed !text-white"

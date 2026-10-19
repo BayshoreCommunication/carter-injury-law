@@ -164,69 +164,125 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "BreadcrumbList",
-      "itemListElement": [
+      "@id":
+        "https://www.carterinjurylaw.com/blog/pain-and-suffering-damages-in-florida-auto-injury-claims#breadcrumb",
+      itemListElement: [
         {
           "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.carterinjurylaw.com/",
+          position: 1,
+          name: "Home",
+          item: "https://www.carterinjurylaw.com/",
         },
         {
           "@type": "ListItem",
-          "position": 2,
-          "name": "Blog",
-          "item": "https://www.carterinjurylaw.com/blog",
+          position: 2,
+          name: "Blog",
+          item: "https://www.carterinjurylaw.com/blog",
         },
         {
           "@type": "ListItem",
-          "position": 3,
-          "name": "Pain and Suffering Damages in Florida Auto Injury Claims",
-          "item":
+          position: 3,
+          name: "Pain and Suffering Damages in Florida Auto Injury Claims",
+          item:
             "https://www.carterinjurylaw.com/blog/pain-and-suffering-damages-in-florida-auto-injury-claims",
         },
       ],
     },
     {
       "@type": "BlogPosting",
-      "mainEntityOfPage": {
+      "@id":
+        "https://www.carterinjurylaw.com/blog/pain-and-suffering-damages-in-florida-auto-injury-claims#blogposting",
+      mainEntityOfPage: {
         "@type": "WebPage",
         "@id":
           "https://www.carterinjurylaw.com/blog/pain-and-suffering-damages-in-florida-auto-injury-claims",
       },
-      "headline": "Pain and Suffering Damages in Florida Auto Injury Claims",
-      "name": "Pain and Suffering Damages in Florida Auto Injury Claims",
-      "description":
+      headline: "Pain and Suffering Damages in Florida Auto Injury Claims",
+      name: "Pain and Suffering Damages in Florida Auto Injury Claims",
+      description:
         "How much can you recover? Learn what affects pain and suffering damages in Florida auto injury claims and how compensation is determined",
-      "url":
+      url:
         "https://www.carterinjurylaw.com/blog/pain-and-suffering-damages-in-florida-auto-injury-claims",
-      "image":
-        "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fstatic-blogs%2Fpain-and-suffering-damages-in-florida-auto-injury-claims.webp&w=1200&q=75",
-      "isPartOf": {
+      image:
+        "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fstatic-blogs%2Fpain-and-suffering-damages-in-florida-auto-injury-claims.webp&w=1200&q=75&dpl=dpl_FR6xqETP1qtV65DpBjMe2rGPWeNt",
+      isPartOf: {
         "@type": "Blog",
-        "@id": "https://www.carterinjurylaw.com/blog",
+        name: "Carter Injury Law Blog",
+        url: "https://www.carterinjurylaw.com/blog",
       },
-      "author": {
+      about: {
+        "@type": "Thing",
+        name: "Pain and Suffering Damages in Florida Auto Injury Claims",
+      },
+      keywords: [
+        "pain and suffering damages Florida",
+        "pain and suffering Florida car accident",
+        "Florida auto injury claims",
+        "Florida car accident compensation",
+        "pain and suffering compensation",
+        "Florida personal injury claims",
+        "Florida car accident lawyer",
+        "permanent injury threshold Florida",
+        "Florida PIP insurance",
+        "Florida comparative negligence",
+        "Florida auto accident damages",
+        "non-economic damages Florida",
+        "car accident settlement Florida",
+        "Tampa car accident lawyer",
+        "Carter Injury Law",
+      ],
+      author: {
         "@type": "Organization",
-        "name": "Carter Injury Law, PA",
+        name: "Carter Injury Law, P.A.",
+        url: "https://www.carterinjurylaw.com/",
       },
-      "publisher": {
+      publisher: {
         "@type": "Organization",
-        "name": "Carter Injury Law, PA",
-        "url": "https://www.carterinjurylaw.com/",
+        name: "Carter Injury Law, P.A.",
+        url: "https://www.carterinjurylaw.com/",
+        logo: {
+          "@type": "ImageObject",
+          url:
+            "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fsite-logo%2Flogo.png&w=1080&q=75&dpl=dpl_FR6xqETP1qtV65DpBjMe2rGPWeNt",
+        },
       },
-      "datePublished": "2026-09-14",
-      "dateModified": "2026-09-14",
+      datePublished: "2026-09-14",
+      dateModified: "2026-09-14",
     },
     {
       "@type": "FAQPage",
-      "mainEntity": faqs.map(([q, a]) => ({
-        "@type": "Question",
-        "name": q,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": a,
+      "@id":
+        "https://www.carterinjurylaw.com/blog/pain-and-suffering-damages-in-florida-auto-injury-claims#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Do I need to hire a lawyer before my PIP benefits run out?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "It’s better to hire one, as waiting often costs value. PIP only covers $10,000 in medical and wage benefits, and it never covers pain and suffering, so building your liability case early protects the claim.",
+          },
         },
-      })),
+        {
+          "@type": "Question",
+          name:
+            "Can I still get pain and suffering if I was partly at fault for the accident?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Yes, as long as you are found 50% or less at fault. Your recovery is reduced by your fault percentage. At 51% or more, Florida law bars recovery entirely under the HB 837 comparative negligence rule.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is pain and suffering taxable in Florida?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Generally no. Compensation for physical pain and suffering tied to a physical injury is typically excluded from federal taxable income under IRS rules.",
+          },
+        },
+      ],
     },
   ],
 };

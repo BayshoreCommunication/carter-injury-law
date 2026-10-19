@@ -169,61 +169,126 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "BreadcrumbList",
       "@id":
-        "https://www.carterinjurylaw.com/blog/what-if-your-car-accident-injuries-appear-days-later#article",
-      "isPartOf": {
+        "https://www.carterinjurylaw.com/blog/what-if-your-car-accident-injuries-appear-days-later#breadcrumb",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.carterinjurylaw.com/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Blog",
+          item: "https://www.carterinjurylaw.com/blog",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "What If Your Car Accident Injuries Appear Days Later?",
+          item:
+            "https://www.carterinjurylaw.com/blog/what-if-your-car-accident-injuries-appear-days-later",
+        },
+      ],
+    },
+    {
+      "@type": "BlogPosting",
+      "@id":
+        "https://www.carterinjurylaw.com/blog/what-if-your-car-accident-injuries-appear-days-later#blogposting",
+      mainEntityOfPage: {
         "@type": "WebPage",
         "@id":
           "https://www.carterinjurylaw.com/blog/what-if-your-car-accident-injuries-appear-days-later",
-        "url":
-          "https://www.carterinjurylaw.com/blog/what-if-your-car-accident-injuries-appear-days-later",
-        "name": "What If Car Accident Injuries Appear Days After a Crash?",
-        "description":
-          "Pain showing up days after a Florida car crash? Learn the 14-day PIP rule, your filing deadline and next steps to protect your claim.",
       },
-      "headline": "What If Your Car Accident Injuries Appear Days Later?",
-      "description":
+      headline: "What If Your Car Accident Injuries Appear Days Later?",
+      name: "What If Car Accident Injuries Appear Days After a Crash?",
+      description:
         "Pain showing up days after a Florida car crash? Learn the 14-day PIP rule, your filing deadline and next steps to protect your claim.",
-      "image": {
+      url:
+        "https://www.carterinjurylaw.com/blog/what-if-your-car-accident-injuries-appear-days-later",
+      image: {
         "@type": "ImageObject",
-        "url": `https://www.carterinjurylaw.com${featuredImage}`,
-        "caption":
-          "Discover why delayed car accident injuries can still support your personal injury claim and why getting a prompt medical evaluation is crucial.",
+        url:
+          "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fstatic-blogs%2Fwhat-if-your-car-accident-injuries-appear-days-later.webp&w=1200&q=75&dpl=dpl_7baY1M3c6ZBbMGWX7JSZJ8Eub9Mp",
       },
-      "author": {
+      isPartOf: {
+        "@type": "Blog",
+        "@id": "https://www.carterinjurylaw.com/blog#blog",
+        name: "Carter Injury Law Blog",
+        url: "https://www.carterinjurylaw.com/blog",
+      },
+      about: {
+        "@type": "Thing",
+        name: "Delayed Car Accident Injuries and Personal Injury Claims",
+      },
+      keywords: [
+        "delayed car accident injuries",
+        "car accident injuries appear days later",
+        "delayed injury symptoms after car accident",
+        "Florida car accident lawyer",
+        "Tampa car accident attorney",
+        "Florida PIP 14-day rule",
+        "car accident injury claim",
+        "whiplash symptoms after accident",
+        "delayed injury medical documentation",
+        "Carter Injury Law",
+      ],
+      author: {
         "@type": "Person",
-        "name": "David J. Carter",
-        "jobTitle": "Personal Injury Attorney",
-        "url": "https://www.carterinjurylaw.com/david-j-carter",
+        name: "David J. Carter",
       },
-      "publisher": {
-        "@type": "LegalService",
-        "name": "Carter Injury Law, P.A.",
-        "url": "https://www.carterinjurylaw.com",
-        "logo": {
+      publisher: {
+        "@type": "Organization",
+        name: "Carter Injury Law, P.A.",
+        url: "https://www.carterinjurylaw.com/",
+        logo: {
           "@type": "ImageObject",
-          "url":
-            "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fsite-logo%2Flogo.png&w=1080&q=75",
+          url:
+            "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fsite-logo%2Flogo.png&w=1080&q=75&dpl=dpl_7baY1M3c6ZBbMGWX7JSZJ8Eub9Mp",
         },
       },
-      "datePublished": "2026-10-14T12:00:00.000Z",
-      "dateModified": "2026-10-14T12:00:00.000Z",
-      "mainEntityOfPage":
-        "https://www.carterinjurylaw.com/blog/what-if-your-car-accident-injuries-appear-days-later",
+      datePublished: "2026-10-14",
+      dateModified: "2026-10-14",
+      inLanguage: "en-US",
     },
     {
       "@type": "FAQPage",
       "@id":
         "https://www.carterinjurylaw.com/blog/what-if-your-car-accident-injuries-appear-days-later#faq",
-      "mainEntity": faqs.map((faq) => ({
-        "@type": "Question",
-        "name": faq.q,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": faq.a,
+      url:
+        "https://www.carterinjurylaw.com/blog/what-if-your-car-accident-injuries-appear-days-later",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Which providers count toward the 14-day requirement?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Licensed physicians, chiropractors, dentists, PAs, ARNPs, and EMTs qualify. Physicians, dentists, PAs, and ARNPs can certify emergency conditions.",
+          },
         },
-      })),
+        {
+          "@type": "Question",
+          name: "Can passengers claim delayed injuries too?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Yes, PIP covers passengers, and the same 14-day rule applies. Passengers may also claim against the at-fault driver.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What if the at-fault driver has no insurance?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Your uninsured motorist coverage may pay. Check your policy today. Florida generally does not require bodily injury coverage.",
+          },
+        },
+      ],
     },
   ],
 };

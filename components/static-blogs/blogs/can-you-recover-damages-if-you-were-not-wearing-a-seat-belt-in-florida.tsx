@@ -195,9 +195,149 @@ const ExternalLink = ({
   </a>
 );
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id":
+        "https://www.carterinjurylaw.com/blog/can-you-recover-damages-if-you-were-not-wearing-a-seat-belt-in-florida#breadcrumb",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.carterinjurylaw.com/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Blog",
+          item: "https://www.carterinjurylaw.com/blog",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name:
+            "Can You Recover Damages If You Were Not Wearing a Seat Belt in Florida?",
+          item:
+            "https://www.carterinjurylaw.com/blog/can-you-recover-damages-if-you-were-not-wearing-a-seat-belt-in-florida",
+        },
+      ],
+    },
+    {
+      "@type": "BlogPosting",
+      "@id":
+        "https://www.carterinjurylaw.com/blog/can-you-recover-damages-if-you-were-not-wearing-a-seat-belt-in-florida#blogposting",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id":
+          "https://www.carterinjurylaw.com/blog/can-you-recover-damages-if-you-were-not-wearing-a-seat-belt-in-florida",
+      },
+      headline:
+        "Can You Recover Damages If You Were Not Wearing a Seat Belt in Florida?",
+      name: "Seat Belt Off in a Florida Crash? You Can Still Sue",
+      description:
+        "Not wearing a seat belt in a Florida crash doesn't end your claim. Learn how comparative negligence works and how to protect your payout.",
+      url:
+        "https://www.carterinjurylaw.com/blog/can-you-recover-damages-if-you-were-not-wearing-a-seat-belt-in-florida",
+      image: {
+        "@type": "ImageObject",
+        url:
+          "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fstatic-blogs%2Fcan-you-recover-damages-if-you-were-not-wearing-a-seat-belt-in-florida.webp&w=1200&q=75&dpl=dpl_J6s2g1CX9DT3X1Qvj8pKaQA2VMgp",
+      },
+      isPartOf: {
+        "@type": "Blog",
+        "@id": "https://www.carterinjurylaw.com/blog#blog",
+      },
+      about: {
+        "@type": "Thing",
+        name: "Seat Belt Injury Claims in Florida",
+      },
+      keywords: [
+        "seat belt accident Florida",
+        "not wearing a seat belt Florida",
+        "Florida seat belt law",
+        "seat belt defense Florida",
+        "car accident damages Florida",
+        "Florida personal injury claim",
+        "comparative negligence Florida",
+        "unbelted car accident injury claim",
+      ],
+      author: {
+        "@type": "Person",
+        name: "David Carter",
+        url: "https://www.carterinjurylaw.com/",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Carter Injury Law, P.A.",
+        url: "https://www.carterinjurylaw.com/",
+        logo: {
+          "@type": "ImageObject",
+          url:
+            "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fsite-logo%2Flogo.png&w=1080&q=75&dpl=dpl_J6s2g1CX9DT3X1Qvj8pKaQA2VMgp",
+        },
+      },
+      datePublished: "2026-09-27",
+      dateModified: "2026-09-27",
+    },
+    {
+      "@type": "FAQPage",
+      "@id":
+        "https://www.carterinjurylaw.com/blog/can-you-recover-damages-if-you-were-not-wearing-a-seat-belt-in-florida#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name:
+            "Does a seat belt ticket automatically hurt my injury claim?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "No. A citation is a separate administrative matter under Florida statute 316.614(8) and doesn’t by itself establish comparative negligence in a civil claim. The defense still has to prove the Pasakarnis elements independently.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What if the seat belt itself was broken or malfunctioning?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Florida courts have allowed juries to still weigh non-use even with a malfunctioning belt, since the statute isn't strictly limited to operable belts. Document the defect immediately and preserve any repair records, photos, or text messages about it.",
+          },
+        },
+        {
+          "@type": "Question",
+          name:
+            "Does the seat belt defense apply in motorcycle accident claims?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "No. Motorcycles fall under helmet requirements in Florida statute 316.211, not the seat belt statute. A comparable helmet use argument can arise, but it follows a completely different legal analysis.",
+          },
+        },
+        {
+          "@type": "Question",
+          name:
+            "Will my case settle faster if I just take the seat belt deduction the insurer is offering?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "It could settle quicker, but it's a bad idea to accept an unproven seat belt deduction. Insurers routinely use this tactic knowing claimants won’t research the defense, leaving thousands of dollars on the table that they are legally owed.",
+          },
+        },
+      ],
+    },
+  ],
+};
+
 export default function CanYouRecoverDamagesIfYouWereNotWearingASeatBeltInFlorida() {
   return (
     <article className="space-y-7">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Intro Highlight Box */}
       <div className="rounded-lg border-l-4 border-[#1B2639] bg-[#F7F8FA] !p-6 text-base leading-relaxed text-gray-700 shadow-sm md:!p-7">
         <p className="!my-0">
@@ -431,9 +571,9 @@ export default function CanYouRecoverDamagesIfYouWereNotWearingASeatBeltInFlorid
 
       {/* Mid-Article Callout */}
       <div className="rounded-lg bg-[#1B2639] !p-6 text-white shadow-sm md:!p-8">
-        <h3 className="!mt-0 text-xl font-bold !text-white">
+        <h2 className="!mt-0 text-xl font-bold !text-white">
           Were You Unbelted in a Florida Car Crash?
-        </h3>
+        </h2>
         <p className="mt-3 !text-white">
           Do not let an insurance adjuster intimidate you into giving up your
           claim. We analyze the police report, medical records, and accident

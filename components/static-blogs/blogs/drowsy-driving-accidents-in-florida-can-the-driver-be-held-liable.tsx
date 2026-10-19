@@ -184,9 +184,156 @@ const ExternalLink = ({
   </a>
 );
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id":
+        "https://www.carterinjurylaw.com/blog/drowsy-driving-accidents-in-florida-can-the-driver-be-held-liable#breadcrumb",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.carterinjurylaw.com/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Blog",
+          item: "https://www.carterinjurylaw.com/blog",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name:
+            "Drowsy Driving Accidents in Florida: Can the Driver Be Held Liable?",
+          item:
+            "https://www.carterinjurylaw.com/blog/drowsy-driving-accidents-in-florida-can-the-driver-be-held-liable",
+        },
+      ],
+    },
+    {
+      "@type": "BlogPosting",
+      "@id":
+        "https://www.carterinjurylaw.com/blog/drowsy-driving-accidents-in-florida-can-the-driver-be-held-liable#blogposting",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id":
+          "https://www.carterinjurylaw.com/blog/drowsy-driving-accidents-in-florida-can-the-driver-be-held-liable",
+      },
+      headline:
+        "Drowsy Driving Accidents in Florida: Can the Driver Be Held Liable?",
+      name: "Can You Sue a Drowsy Driver in Florida? State Laws",
+      description:
+        "Yes. You can hold drowsy drivers liable as per state negligence laws. However, there are loopholes that could prevent you from getting the full amount of loss.",
+      url:
+        "https://www.carterinjurylaw.com/blog/drowsy-driving-accidents-in-florida-can-the-driver-be-held-liable",
+      image: {
+        "@type": "ImageObject",
+        url:
+          "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fstatic-blogs%2Fdrowsy-driving-accidents-in-florida-can-the-driver-be-held-liable.webp&w=1200&q=75&dpl=dpl_FR6xqETP1qtV65DpBjMe2rGPWeNt",
+        caption:
+          "Drowsy Driving Accidents in Florida: Can the Driver Be Held Liable?",
+      },
+      isPartOf: {
+        "@type": "Blog",
+        "@id": "https://www.carterinjurylaw.com/blog#blog",
+        name: "Carter Injury Law Blog",
+        url: "https://www.carterinjurylaw.com/blog",
+      },
+      about: {
+        "@type": "Thing",
+        name: "Drowsy Driving Accidents in Florida",
+      },
+      keywords: [
+        "drowsy driving accidents in Florida",
+        "drowsy driving Florida",
+        "drowsy driver liability",
+        "Florida car accidents",
+        "fatigued driving accidents",
+        "drowsy driving injury claim",
+        "Florida personal injury",
+        "Florida negligence law",
+        "Tampa car accident lawyer",
+        "drowsy driving liability",
+      ],
+      author: {
+        "@type": "Person",
+        name: "David Carter",
+        url: "https://www.carterinjurylaw.com/",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Carter Injury Law, P.A.",
+        url: "https://www.carterinjurylaw.com/",
+        logo: {
+          "@type": "ImageObject",
+          url:
+            "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fsite-logo%2Flogo.png&w=1080&q=75&dpl=dpl_FR6xqETP1qtV65DpBjMe2rGPWeNt",
+        },
+      },
+      datePublished: "2026-09-22",
+      dateModified: "2026-09-22",
+    },
+    {
+      "@type": "FAQPage",
+      "@id":
+        "https://www.carterinjurylaw.com/blog/drowsy-driving-accidents-in-florida-can-the-driver-be-held-liable#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name:
+            "Can a passenger sue a drowsy driver if that driver is family?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Yes. Florida negligence law doesn't make an exception for relatives and most auto policies cover injuries to passengers regardless of the relationship.",
+          },
+        },
+        {
+          "@type": "Question",
+          name:
+            "What if the sleepy driver says they passed out from a medical emergency?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Florida does recognize a narrow defense of sudden medical emergency, but only if the emergency was unexpected. A driver with untreated sleep apnea or a known seizure history usually can't rely on it.",
+          },
+        },
+        {
+          "@type": "Question",
+          name:
+            "How long do I have to file a drowsy driving injury claim in Florida?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Florida's statute of limitations for most negligence based personal injury claims is two years from the date of the crash, so evidence preservation early on matters more than people expect.",
+          },
+        },
+        {
+          "@type": "Question",
+          name:
+            "Can I expect rideshare or delivery drivers to be more fatigued?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text:
+              "Companies like Uber, lyft, etc, can calculate from the rideshare/delivery driver's app how many hours he had driven before the accident.",
+          },
+        },
+      ],
+    },
+  ],
+};
+
 export default function DrowsyDrivingAccidentsInFloridaCanTheDriverBeHeldLiable() {
   return (
     <article className="space-y-7">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="flex items-center gap-4 text-sm text-gray-500 italic pb-2 border-b border-gray-100">
         <span>Published: September 22, 2026</span>
         <span>•</span>
