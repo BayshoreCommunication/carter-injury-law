@@ -20,6 +20,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* GoConverto Chatbot Widget */}
+        <Script
+          src="https://widget.goconverto.com/widget.js"
+          data-api-key="org-6adef5d741547784947496d3"
+          strategy="afterInteractive"
+        />
+
         {/* Microsoft Clarity */}
         <Script id="clarity" strategy="afterInteractive">
           {`
