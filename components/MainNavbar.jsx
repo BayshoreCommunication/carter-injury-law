@@ -561,12 +561,17 @@ const MainNavbar = () => {
                     </button>
 
                     {menuItem.subMenu && activeMenu === index && (
-                      <ul className="absolute top-full left-0 bg-white mt-5 rounded shadow-lg border text-lg min-w-[300px] font-semibold py-4 list-none m-0 capitalize">
+                      <ul
+                        className={`absolute top-full ${
+                          // right-side items open leftwards so they stay on screen
+                          index >= menuItems.length / 2 ? "right-0" : "left-0"
+                        } bg-white mt-5 rounded shadow-lg border text-lg min-w-[300px] font-semibold py-4 list-none m-0 capitalize before:content-[''] before:absolute before:-top-6 before:inset-x-0 before:h-6`}
+                      >
                         {menuItem.subMenu.map((subMenuItem, subIndex) => (
                           <li
                             key={subIndex}
                             onMouseEnter={() => toggleSubMenu(subIndex)}
-                            className="relative group border-b"
+                            className="group border-b"
                           >
                             <button className="text-black px-4 py-2 w-full text-left">
                               {subMenuItem.subList ? (
@@ -612,7 +617,7 @@ const MainNavbar = () => {
 
                             {subMenuItem.subList &&
                               activeSubMenu === subIndex && (
-                                <ul className="absolute top-0 right-0 translate-x-full bg-white rounded shadow-lg border text-lg min-w-[300px] font-semibold capitalize list-none">
+                                <ul className="absolute top-0 right-0 translate-x-full min-h-full max-h-[calc(100vh-210px)] overflow-y-auto bg-white rounded shadow-lg border text-lg min-w-[300px] font-semibold capitalize list-none">
                                   {subMenuItem.subList.map(
                                     (item, itemIndex) => (
                                       <li key={itemIndex}>
@@ -981,12 +986,17 @@ const MainNavbar = () => {
                     </button>
 
                     {menuItem.subMenu && activeMenu === index && (
-                      <ul className="absolute top-full left-0 bg-white mt-5 rounded shadow-lg border text-lg min-w-[300px] font-semibold py-4 list-none m-0 capitalize">
+                      <ul
+                        className={`absolute top-full ${
+                          // right-side items open leftwards so they stay on screen
+                          index >= menuItems.length / 2 ? "right-0" : "left-0"
+                        } bg-white mt-5 rounded shadow-lg border text-lg min-w-[300px] font-semibold py-4 list-none m-0 capitalize before:content-[''] before:absolute before:-top-6 before:inset-x-0 before:h-6`}
+                      >
                         {menuItem.subMenu.map((subMenuItem, subIndex) => (
                           <li
                             key={subIndex}
                             onMouseEnter={() => toggleSubMenu(subIndex)}
-                            className="relative group border-b"
+                            className="group border-b"
                           >
                             <button className="text-black px-4 py-2 w-full text-left">
                               {subMenuItem.subList ? (
@@ -1032,7 +1042,7 @@ const MainNavbar = () => {
 
                             {subMenuItem.subList &&
                               activeSubMenu === subIndex && (
-                                <ul className="absolute top-0 right-0 translate-x-full bg-white rounded shadow-lg border text-lg min-w-[300px] font-semibold capitalize list-none">
+                                <ul className="absolute top-0 right-0 translate-x-full min-h-full max-h-[calc(100vh-210px)] overflow-y-auto bg-white rounded shadow-lg border text-lg min-w-[300px] font-semibold capitalize list-none">
                                   {subMenuItem.subList.map(
                                     (item, itemIndex) => (
                                       <li key={itemIndex}>

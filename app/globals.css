@@ -164,6 +164,17 @@ h1 {
   transform-origin: bottom left;
 }
 
+/* GoConverto chatbot: its transparent 400x676 container sits above the page
+   and blocks clicks on whatever is under it (e.g. Blog/Contact nav links on
+   ~1300x800 screens). Let clicks pass through the empty area; the widget
+   already re-enables clicks on the open chat frame and the speech bubble. */
+.chatbot-widget-container {
+  pointer-events: none !important;
+}
+.chatbot-widget-container .chatbot-toggle {
+  pointer-events: auto !important;
+}
+
 @keyframes pulse-ring {
   0% {
     transform: scale(0.9);
