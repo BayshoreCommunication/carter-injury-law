@@ -1,3 +1,4 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
     remotePatterns: [
@@ -39,6 +40,15 @@ const nextConfig = {
   skipTrailingSlashRedirect: true,
   eslint: {
     ignoreDuringBuilds: true,
+  },
+  webpack: (config, { dev }) => {
+    if (dev) {
+      // Use memory cache on NTFS to avoid file rename locking and EINVAL errors
+      config.cache = {
+        type: "memory",
+      };
+    }
+    return config;
   },
 };
 
