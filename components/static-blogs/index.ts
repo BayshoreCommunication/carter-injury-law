@@ -67,6 +67,9 @@ import WhatIfYourCarAccidentInjuriesAppearDaysLater, {
 import HowPoliceReportsAffectFloridaCarAccidentClaims, {
   howPoliceReportsAffectFloridaCarAccidentClaims,
 } from "./blogs/how-police-reports-affect-florida-car-accident-claims";
+import ParkingLotAccidentsInFloridaWhoIsResponsibleForYourInjuries, {
+  parkingLotAccidentsInFloridaWhoIsResponsibleForYourInjuries,
+} from "./blogs/parking-lot-accidents-in-florida-who-is-responsible-for-your-injuries";
 
 const staticBlogPostsUnsorted = [
   howAccidentScenePhotosCanStrengthen,
@@ -92,6 +95,7 @@ const staticBlogPostsUnsorted = [
   canAMisdiagnosisLeadToAMedicalMalpracticeClaimInFlorida,
   whatIfYourCarAccidentInjuriesAppearDaysLater,
   howPoliceReportsAffectFloridaCarAccidentClaims,
+  parkingLotAccidentsInFloridaWhoIsResponsibleForYourInjuries,
 ];
 
 export const staticBlogPosts = [...staticBlogPostsUnsorted].sort(
@@ -144,6 +148,8 @@ export const staticBlogComponents = {
     WhatIfYourCarAccidentInjuriesAppearDaysLater,
   [howPoliceReportsAffectFloridaCarAccidentClaims.slug]:
     HowPoliceReportsAffectFloridaCarAccidentClaims,
+  [parkingLotAccidentsInFloridaWhoIsResponsibleForYourInjuries.slug]:
+    ParkingLotAccidentsInFloridaWhoIsResponsibleForYourInjuries,
 };
 
 export function getStaticBlogBySlug(slug: string) {
