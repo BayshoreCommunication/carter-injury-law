@@ -227,7 +227,7 @@ const jsonLd = {
       image: {
         "@type": "ImageObject",
         url:
-          "https://www.carterinjurylaw.com/assets/static-blogs/how-police-reports-affect-florida-car-accident.webp",
+          "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fstatic-blogs%2Fhow-police-reports-affect-florida-car-accident.webp&w=1080&q=75&dpl=dpl_23JrGVLXKqPG1pwgiRTz92L5AygA",
       },
       isPartOf: {
         "@type": "Blog",
@@ -237,25 +237,22 @@ const jsonLd = {
       },
       about: {
         "@type": "Thing",
-        name: "Florida Police Reports and Car Accident Claims",
+        name: "Florida Car Accident Claims and Police Reports",
       },
       keywords: [
-        "Florida police report car accident",
-        "Florida crash report insurance claim",
-        "how police reports affect car accident claims Florida",
-        "Florida Statute 316.065 crash report",
-        "Florida Statute 316.066 long form",
-        "Florida 51 percent comparative fault car accident",
-        "correct police report Florida car crash",
-        "police report not admissible in court Florida",
-        "Tampa car accident police report",
-        "Florida Highway Patrol crash report",
-        "car accident lawyer Tampa",
+        "how police reports affect car accident claims",
+        "Florida car accident claims",
+        "Florida police accident report",
+        "car accident police report",
+        "Florida crash report",
+        "car accident insurance claims",
+        "Florida comparative negligence",
+        "Tampa car accident lawyer",
+        "Carter Injury Law",
       ],
       author: {
         "@type": "Person",
         name: "David Carter",
-        url: "https://www.carterinjurylaw.com/",
       },
       publisher: {
         "@type": "Organization",
@@ -264,7 +261,7 @@ const jsonLd = {
         logo: {
           "@type": "ImageObject",
           url:
-            "https://www.carterinjurylaw.com/assets/site-logo/logo.png",
+            "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fsite-logo%2Flogo.png&w=1080&q=75&dpl=dpl_23JrGVLXKqPG1pwgiRTz92L5AygA",
         },
       },
       datePublished: "2026-10-21",

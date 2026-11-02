@@ -259,7 +259,7 @@ const jsonLd = {
       image: {
         "@type": "ImageObject",
         url:
-          "https://www.carterinjurylaw.com/assets/static-blogs/parking-lot-accidents-florida-liability-guide.webp",
+          "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fstatic-blogs%2Fparking-lot-accidents-florida-liability-guide.webp&w=1080&q=75&dpl=dpl_23JrGVLXKqPG1pwgiRTz92L5AygA",
       },
       isPartOf: {
         "@type": "Blog",
@@ -269,24 +269,25 @@ const jsonLd = {
       },
       about: {
         "@type": "Thing",
-        name: "Florida Parking Lot Accidents, Premises Liability, and Negligence",
+        name: "Florida Parking Lot Accident Liability and Personal Injury Claims",
       },
       keywords: [
-        "parking lot accidents Florida",
-        "who is at fault in a parking lot accident Florida",
-        "Florida parking lot accident liability",
-        "Tampa parking lot car crash lawyer",
-        "Florida premises liability parking lot",
-        "backing out accident fault Florida",
-        "Florida 50 percent comparative fault",
-        "parking lot pedestrian accident Florida",
-        "Fla Stat 768.81 parking lot",
-        "Carter Injury Law Tampa",
+        "parking lot accidents in Florida",
+        "Florida parking lot accident lawyer",
+        "who is responsible for parking lot accidents",
+        "parking lot injury claims",
+        "driver negligence",
+        "premises liability",
+        "property owner liability",
+        "Florida comparative negligence",
+        "parking lot pedestrian accidents",
+        "Tampa parking lot accident lawyer",
+        "Largo personal injury lawyer",
+        "Carter Injury Law",
       ],
       author: {
         "@type": "Person",
         name: "David Carter",
-        url: "https://www.carterinjurylaw.com/",
       },
       publisher: {
         "@type": "Organization",
@@ -294,7 +295,8 @@ const jsonLd = {
         url: "https://www.carterinjurylaw.com/",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.carterinjurylaw.com/assets/site-logo/logo.png",
+          url:
+            "https://www.carterinjurylaw.com/_next/image?url=%2Fassets%2Fsite-logo%2Flogo.png&w=1080&q=75&dpl=dpl_23JrGVLXKqPG1pwgiRTz92L5AygA",
         },
       },
       datePublished: "2026-10-28",
