@@ -1,0 +1,163 @@
+{
+  "folderSlug": "tampa-uber-lyft-accident-lawyer",
+  "serviceName": "Tampa Uber and Lyft Accident Lawyer",
+  "location": "Tampa, FL",
+  "topic": "Uber and Lyft Accidents",
+  "totalImages": 26,
+  "images": [
+    {
+      "sequence": 1,
+      "id": "carter-team-cta",
+      "fileName": "carter-team-cta.png",
+      "component": "FinalCTASection",
+      "filePath": "/assets/seo-service/tampa-uber-lyft-accident-lawyer/carter-team-cta.png",
+      "altText": "Carter Injury Law Tampa Uber and Lyft Accident Legal Team",
+      "title": "Carter Injury Law Tampa Uber and Lyft Accident Legal Team",
+      "description": "Experienced legal team standing ready 24/7 for rideshare collision consultations in Tampa, FL.",
+      "caption": "Our legal team is standing by to evaluate your rideshare accident claim in Tampa, FL."
+    },
+    {
+      "sequence": 2,
+      "id": "carter-attorney",
+      "fileName": "carter.png",
+      "component": "HeroHeader",
+      "filePath": "/assets/seo-service/tampa-uber-lyft-accident-lawyer/carter.png",
+      "altText": "Attorney David J. Carter - Lead Tampa Uber and Lyft Accident Lawyer",
+      "title": "Tampa Uber and Lyft Accident Lawyer - Attorney David J. Carter",
+      "description": "Professional portrait of Attorney David J. Carter representing injured Uber and Lyft passengers and drivers in Tampa, FL.",
+      "caption": "David J. Carter - Dedicated Tampa Rideshare Accident Trial Attorney"
+    },
+    {
+      "sequence": 3,
+      "id": "distracted-driving-app-navigation",
+      "fileName": "distracted-driving-app-navigation-ride-requests-tampa.webp",
+      "component": "CommonCausesSection (Cause 01)",
+      "filePath": "/assets/seo-service/tampa-uber-lyft-accident-lawyer/distracted-driving-app-navigation-ride-requests-tampa.webp",
+      "altText": "Rideshare driver distracted by mobile app navigation and ride alerts in Tampa traffic.",
+      "title": "Distracted Driving During App Navigation and Ride Requests in Tampa",
+      "description": "Smartphones and incoming ride requests frequently divert rideshare drivers' attention from congested Tampa roadways, leading to serious crashes.",
+      "caption": "App notifications and GPS screens cause dangerous driver distractions on Tampa roads."
+    },
+    {
+      "sequence": 4,
+      "id": "unsafe-passenger-pickups-dropoffs",
+      "fileName": "unsafe-passenger-pickups-dropoffs-busy-tampa-streets.webp",
+      "component": "CommonCausesSection (Cause 02)",
+      "filePath": "/assets/seo-service/tampa-uber-lyft-accident-lawyer/unsafe-passenger-pickups-dropoffs-busy-tampa-streets.webp",
+      "altText": "Uber or Lyft vehicle making an abrupt, unsafe passenger pickup or drop-off on a busy Tampa street.",
+      "title": "Unsafe Passenger Pickups and Drop-Offs Near Busy Tampa Streets",
+      "description": "Stopping abruptly or blocking bike lanes and active traffic lanes on corridors like Kennedy Boulevard creates extreme collision hazards.",
+      "caption": "Sudden stops for passenger boarding or exit create severe hazards for motorists and cyclists."
+    },
+    {
+      "sequence": 5,
+      "id": "speeding-aggressive-driving",
+      "fileName": "speeding-aggressive-driving-rideshare-trips-tampa.webp",
+      "component": "CommonCausesSection (Cause 03)",
+      "filePath": "/assets/seo-service/tampa-uber-lyft-accident-lawyer/speeding-aggressive-driving-rideshare-trips-tampa.webp",
+      "altText": "Rideshare car speeding and aggressively navigating through Tampa city traffic.",
+      "title": "Speeding and Aggressive Driving to Complete More Trips in Tampa",
+      "description": "Financial incentives to complete more fares per hour encourage speeding, rapid lane changes, and aggressive driving among gig workers.",
+      "caption": "Rushing to complete more rides drastically cuts driver reaction time and increases crash severity."
+    },
+    {
+      "sequence": 6,
+      "id": "fatigue-extended-driving-hours",
+      "fileName": "fatigue-extended-rideshare-driving-hours-tampa.webp",
+      "component": "CommonCausesSection (Cause 04)",
+      "filePath": "/assets/seo-service/tampa-uber-lyft-accident-lawyer/fatigue-extended-rideshare-driving-hours-tampa.webp",
+      "altText": "Exhausted Uber or Lyft driver behind the wheel during a long evening shift in Tampa.",
+      "title": "Fatigue From Extended Rideshare Driving Hours in Tampa",
+      "description": "Drivers working long hours or secondary gig shifts experience impaired reflexes, drowsiness, and slowed hazard perception.",
+      "caption": "Driver exhaustion during extended shifts significantly elevates the risk of severe traffic collisions."
+    },
+    {
+      "sequence": 7,
+      "id": "rear-end-collisions-sudden-stops",
+      "fileName": "rear-end-collisions-sudden-stops-heavy-traffic-tampa.webp",
+      "component": "CommonCausesSection (Cause 05)",
+      "filePath": "/assets/seo-service/tampa-uber-lyft-accident-lawyer/rear-end-collisions-sudden-stops-heavy-traffic-tampa.webp",
+      "altText": "Rear-end collision involving an Uber or Lyft vehicle during traffic slowdown on Interstate 275 in Tampa.",
+      "title": "Rear-End Collisions and Sudden Stops in Heavy Tampa Traffic",
+      "description": "Tailgating and sudden braking on high-volume Tampa corridors result in severe whiplash, neck trauma, and spinal injuries.",
+      "caption": "Heavy highway congestion and sudden braking frequently lead to violent rear-end rideshare impacts."
+    },
+    {
+      "sequence": 8,
+      "id": "unsafe-lane-changes-airport-downtown",
+      "fileName": "unsafe-lane-changes-tampa-airport-downtown.webp",
+      "component": "CommonCausesSection (Cause 06)",
+      "filePath": "/assets/seo-service/tampa-uber-lyft-accident-lawyer/unsafe-lane-changes-tampa-airport-downtown.webp",
+      "altText": "Rideshare driver making an erratic lane change near Tampa International Airport terminal ramps.",
+      "title": "Unsafe Lane Changes Around Tampa International Airport and Downtown",
+      "description": "Confusing multi-lane airport access roads and downtown corridors lead to missed blind-spot checks and dangerous sideswipes.",
+      "caption": "Erratic maneuvers and missed exits near Tampa International Airport cause destructive sideswipe crashes."
+    },
+    {
+      "sequence": 9,
+      "id": "dedicated-legal-counsel",
+      "fileName": "dedicated-legal-counsel-tampa-uber-lyft-accident.webp",
+      "component": "WhyRightLawyerSection / DedicatedCounselSection",
+      "filePath": "/assets/seo-service/tampa-uber-lyft-accident-lawyer/dedicated-legal-counsel-tampa-uber-lyft-accident.webp",
+      "altText": "Attorney David J. Carter consulting with an injured rideshare accident client in Tampa.",
+      "title": "Dedicated Legal Counsel for Tampa Uber and Lyft Accident Victims",
+      "description": "Carter Injury Law provides personalized, aggressive representation to protect injury victims against large corporate insurers.",
+      "caption": "Dedicated legal advocacy helps rideshare accident victims recover maximum compensation."
+    },
+    {
+      "sequence": 10,
+      "id": "justice-secured-rideshare",
+      "fileName": "justice-secured-tampa-uber-lyft-accident.webp",
+      "component": "JusticeSecuredSection",
+      "filePath": "/assets/seo-service/tampa-uber-lyft-accident-lawyer/justice-secured-tampa-uber-lyft-accident.webp",
+      "altText": "Justice secured for Tampa rideshare accident victims and their families.",
+      "title": "Justice Secured for Tampa Uber and Lyft Accident Clients",
+      "description": "Demonstrated history of securing substantial financial settlements for injured passengers, drivers, and pedestrians.",
+      "caption": "Our legal team applies rigorous investigation to secure justice and full financial recovery."
+    },
+    {
+      "sequence": 11,
+      "id": "direct-attorney-access",
+      "fileName": "direct-attorney-access-tampa-uber-lyft-claims.webp",
+      "component": "WhyChooseUsSection",
+      "filePath": "/assets/seo-service/tampa-uber-lyft-accident-lawyer/direct-attorney-access-tampa-uber-lyft-claims.webp",
+      "altText": "Direct attorney communication and personal attention for Tampa rideshare injury claims.",
+      "title": "Direct Attorney Communication Throughout Your Claim",
+      "description": "Clients work directly with experienced attorneys, not case managers, ensuring clear guidance at every step.",
+      "caption": "Direct attorney access guarantees transparent guidance and focused strategic advocacy."
+    },
+    {
+      "sequence": 12,
+      "id": "communication-mistakes",
+      "fileName": "communication-mistakes.png",
+      "component": "MistakesSection",
+      "filePath": "/assets/seo-service/tampa-uber-lyft-accident-lawyer/communication-mistakes.png",
+      "altText": "Common insurance communication mistakes after a Tampa rideshare accident.",
+      "title": "Insurance Communication Traps in Uber and Lyft Claims",
+      "description": "Insurers exploit early recorded statements to undervalue claims; an attorney shields clients from harmful admissions.",
+      "caption": "Never give recorded statements to insurance adjusters without legal representation."
+    },
+    {
+      "sequence": 13,
+      "id": "hero-bg",
+      "fileName": "hero-bg.png",
+      "component": "HeroHeader",
+      "filePath": "/assets/seo-service/tampa-uber-lyft-accident-lawyer/hero-bg.png",
+      "altText": "Tampa skyline background for Uber and Lyft accident legal services.",
+      "title": "Tampa Uber and Lyft Accident Lawyer Header",
+      "description": "Background image for the hero section of the Tampa Uber and Lyft accident lawyer page.",
+      "caption": "Legal representation for injured rideshare passengers and motorists across Tampa Bay."
+    },
+    {
+      "sequence": 14,
+      "id": "uber-lyft-rideshare-accidents",
+      "fileName": "uber-lyft-rideshare-accidents-tampa-roads.webp",
+      "component": "CommonCausesSection Overview",
+      "filePath": "/assets/seo-service/tampa-uber-lyft-accident-lawyer/uber-lyft-rideshare-accidents-tampa-roads.webp",
+      "altText": "Overview of Uber and Lyft rideshare accidents on Tampa roads.",
+      "title": "Understanding Uber and Lyft Accident Causes in Tampa",
+      "description": "Comprehensive analysis of factors contributing to rideshare collisions across Tampa and Hillsborough County.",
+      "caption": "Thorough accident investigation establishes clear liability and insurance coverage tiers."
+    }
+  ]
+}
