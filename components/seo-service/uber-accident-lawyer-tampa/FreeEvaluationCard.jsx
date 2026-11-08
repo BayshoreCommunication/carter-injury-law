@@ -60,10 +60,11 @@ const FreeEvaluationCard = ({
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label className="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5">
+                <label htmlFor="uber-eval-name" className="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5">
                   Full Name *
                 </label>
                 <input
+                  id="uber-eval-name"
                   type="text"
                   name="name"
                   required
@@ -75,10 +76,11 @@ const FreeEvaluationCard = ({
               </div>
 
               <div>
-                <label className="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5">
+                <label htmlFor="uber-eval-phone" className="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5">
                   Phone Number *
                 </label>
                 <input
+                  id="uber-eval-phone"
                   type="tel"
                   name="phone"
                   required
@@ -91,10 +93,11 @@ const FreeEvaluationCard = ({
             </div>
 
             <div>
-              <label className="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5">
+              <label htmlFor="uber-eval-email" className="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5">
                 Email Address *
               </label>
               <input
+                id="uber-eval-email"
                 type="email"
                 name="email"
                 required
@@ -106,10 +109,11 @@ const FreeEvaluationCard = ({
             </div>
 
             <div>
-              <label className="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5">
+              <label htmlFor="uber-eval-notes" className="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1.5">
                 Accident Description / Case Details *
               </label>
               <textarea
+                id="uber-eval-notes"
                 name="notes"
                 required
                 rows={3}

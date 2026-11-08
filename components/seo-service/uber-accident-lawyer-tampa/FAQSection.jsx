@@ -51,6 +51,7 @@ const FAQSection = () => {
               >
                 <button
                   onClick={() => toggleFAQ(idx)}
+                  aria-expanded={isOpen}
                   className="w-full p-6 text-left flex items-center justify-between gap-4 font-extrabold text-secondary text-base sm:text-lg hover:text-primary transition-colors focus:outline-none"
                 >
                   <span>{item.question}</span>
