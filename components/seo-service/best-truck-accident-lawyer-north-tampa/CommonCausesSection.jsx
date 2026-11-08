@@ -145,3 +145,4 @@ const CommonCausesSection = () => {
 };
 
 export default CommonCausesSection;
+

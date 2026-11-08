@@ -30,3 +30,4 @@ const JusticeSecuredSection = () => {
 };
 
 export default JusticeSecuredSection;
+

@@ -93,3 +93,4 @@ const CompensationTypesSection = () => {
 };
 
 export default CompensationTypesSection;
+

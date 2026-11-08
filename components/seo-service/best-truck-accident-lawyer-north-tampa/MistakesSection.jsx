@@ -89,3 +89,4 @@ const MistakesSection = () => {
 };
 
 export default MistakesSection;
+

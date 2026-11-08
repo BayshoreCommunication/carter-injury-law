@@ -100,3 +100,4 @@ const EstablishedLegalProcessSection = () => {
 };
 
 export default EstablishedLegalProcessSection;
+
