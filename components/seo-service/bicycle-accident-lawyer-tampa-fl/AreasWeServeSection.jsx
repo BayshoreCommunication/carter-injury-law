@@ -23,29 +23,6 @@ const offices = [
   },
 ];
 
-const tampaNeighborhoods = [
-  "Downtown Tampa",
-  "South Tampa",
-  "Hyde Park",
-  "Westshore",
-  "Ybor City",
-  "Seminole Heights",
-  "Tampa Heights",
-  "University",
-  "New Tampa",
-  "Carrollwood",
-];
-
-const surroundingCommunities = [
-  "Temple Terrace",
-  "Town N Country",
-  "Brandon",
-  "Riverview",
-  "Lutz",
-  "Seffner",
-  "Plant City",
-];
-
 const AreasWeServeSection = () => {
   return (
     <section className="w-full bg-[#faf9f6] py-12 md:py-16">
@@ -128,43 +105,6 @@ const AreasWeServeSection = () => {
                 </div>
               </a>
             ))}
-          </div>
-        </div>
-
-        {/* ── Areas Lists Grid ── */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-          <div className="bg-white rounded-[20px] border border-gray-100 p-6 sm:p-8 shadow-sm">
-            <h3 className="text-xl font-extrabold text-secondary mb-4 flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-primary" />
-              <span>Tampa Neighborhoods We Serve</span>
-            </h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-              {tampaNeighborhoods.map((area, idx) => (
-                <div
-                  key={idx}
-                  className="px-3.5 py-2.5 rounded-xl bg-gray-50 border border-gray-100 text-xs sm:text-sm font-bold text-secondary text-center hover:bg-red-50/40 hover:text-primary transition-colors"
-                >
-                  {area}
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="bg-white rounded-[20px] border border-gray-100 p-6 sm:p-8 shadow-sm">
-            <h3 className="text-xl font-extrabold text-secondary mb-4 flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-primary" />
-              <span>Surrounding Hillsborough County Communities</span>
-            </h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-              {surroundingCommunities.map((area, idx) => (
-                <div
-                  key={idx}
-                  className="px-3.5 py-2.5 rounded-xl bg-gray-50 border border-gray-100 text-xs sm:text-sm font-bold text-secondary text-center hover:bg-red-50/40 hover:text-primary transition-colors"
-                >
-                  {area}
-                </div>
-              ))}
-            </div>
           </div>
         </div>
 
