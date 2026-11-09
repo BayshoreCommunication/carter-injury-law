@@ -52,7 +52,7 @@ const CompensationTypesSection = () => {
           <div className="w-24 h-[3px] bg-primary mx-auto mt-6 mb-6" />
           <p className="text-gray-600 text-sm md:text-base leading-relaxed font-medium">
             Full financial compensation accounts for both immediate costs and long-term financial consequences caused by a crash. Our firm calculates every category of damages to pursue a recovery that fully protects your future. Cyclists injured in traffic accidents may face medical bills and lost income. A{" "}
-            <Link href="https://www.carterinjurylaw.com/bicycle-accident-lawyer-tampa-fl/" className="text-primary hover:underline font-semibold">
+            <Link href="/bicycle-accident-lawyer-tampa-fl" className="text-primary hover:underline font-semibold">
               bicycle accident injury lawyer Tampa FL
             </Link>{" "}
             can explain their options for seeking compensation.

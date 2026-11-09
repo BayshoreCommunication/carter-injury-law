@@ -2,6 +2,7 @@
 import { getSeoImage } from "@/lib/seo-service-images";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Phone, MapPin, Globe, Clock, ArrowRight, ShieldCheck } from "lucide-react";
 
 const FinalCTASection = () => {
@@ -62,9 +63,9 @@ const FinalCTASection = () => {
                 </div>
                 <div>
                   <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Website &amp; Contact Form</p>
-                  <a href="https://www.carterinjurylaw.com" target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-white mt-0.5 hover:text-primary transition-colors block">
+                  <Link href="/" className="text-sm font-semibold text-white mt-0.5 hover:text-primary transition-colors block">
                     www.carterinjurylaw.com
-                  </a>
+                  </Link>
                 </div>
               </div>
 
