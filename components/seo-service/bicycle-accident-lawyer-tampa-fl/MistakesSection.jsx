@@ -18,22 +18,22 @@ const MistakesSection = () => {
     {
       icon: Shield,
       title: "Failing to Preserve Helmet Clothing and Cycling Equipment",
-      description: "A cracked helmet proves the severity of a head impact. Torn clothing shows how you were thrown onto the pavement. Keep all damaged gear in a secure storage bag immediately. Do not wash the clothes you wore during the accident. Physical evidence speaks louder than insurance company excuses.",
+      description: "A cracked helmet proves the severity of a head impact. Torn clothing shows how you were thrown onto the pavement. Keep all damaged gear in a secure storage bag immediately. Do not wash the clothes you wore during the crash. This physical evidence demonstrates the violent force of the impact.",
     },
     {
       icon: FileText,
       title: "Giving Incomplete Information About Preexisting Injuries",
-      description: "Insurance companies search for preexisting conditions to deny coverage. Be completely honest about prior health issues with your lawyer. Hiding previous physical conditions can destroy your personal credibility. We prove how the crash specifically aggravated your prior injuries. Honesty prevents insurance adjusters from discrediting your current claim.",
+      description: "Always be completely honest with your doctor about past injuries. Failing to disclose pre-existing medical conditions can damage your credibility during the claims process. Insurance companies will disclose your past medical records during their investigation. Explain how the recent crash worsened your old injury symptoms. Truthful medical histories make your current injury claim much stronger.",
     },
     {
       icon: CheckCircle2,
       title: "Accepting Compensation Before Understanding Future Treatment Needs",
-      description: "Quick settlement offers are a trap designed to save insurers money. You forfeit all future compensation rights once you sign a release. Some crash injuries require years of ongoing physical rehabilitation. Wait until reaching maximum medical improvement before discussing settlement numbers. We ensure your final settlement covers all future medical requirements.",
+      description: "Never sign a settlement release without knowing your future prognosis. Early offers will not cover your upcoming surgeries or rehabilitation. Once you accept a settlement your case is closed forever. We consult medical experts to project your lifelong care needs. Protect your future by waiting for a complete medical assessment.",
     },
     {
       icon: Share2,
       title: "Posting Accident Related Content That Conflicts With Your Injury Records",
-      description: "Insurance investigators constantly monitor your public social media accounts. An innocent photograph can be used to disprove physical injuries. Do not discuss your accident or physical recovery online anywhere. Insurance defense lawyers twist innocent comments to devalue injury claims. Stay off social media until your case is completely resolved.",
+      description: "Insurance investigators monitor your social media accounts after a crash. Pictures of you exercising will ruin a severe injury claim. Avoid posting anything about your accident or physical recovery online. Even innocent updates can be twisted to deny your compensation. Stay entirely off social media while your legal case continues.",
     },
   ];
 

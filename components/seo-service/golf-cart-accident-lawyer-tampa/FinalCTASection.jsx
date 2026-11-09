@@ -2,6 +2,7 @@
 import { getSeoImage } from "@/lib/seo-service-images";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Phone, MapPin, Globe, ShieldCheck, ArrowRight } from "lucide-react";
 
 const FinalCTASection = () => {
@@ -52,7 +53,12 @@ const FinalCTASection = () => {
                 </div>
                 <div>
                   <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Website</p>
-                  <p className="text-sm font-semibold text-white mt-0.5">www.carterinjurylaw.com</p>
+                  <Link
+                    href="/"
+                    className="text-sm font-semibold text-white mt-0.5 hover:text-primary transition-colors block"
+                  >
+                    www.carterinjurylaw.com
+                  </Link>
                 </div>
               </div>
 

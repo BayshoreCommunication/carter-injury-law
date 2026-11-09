@@ -64,7 +64,13 @@ const FinalCTASection = () => {
                 </div>
                 <div>
                   <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Consultation</p>
-                  <p className="text-sm font-semibold text-white mt-0.5">Free and confidential case evaluation.</p>
+                  <p className="text-sm font-semibold text-white mt-0.5">
+                    Free and confidential case evaluation.{" "}
+                    <Link href="/contact" className="text-primary hover:underline font-semibold">
+                      Contact us
+                    </Link>{" "}
+                    to schedule your free evaluation.
+                  </p>
                 </div>
               </div>
             </div>

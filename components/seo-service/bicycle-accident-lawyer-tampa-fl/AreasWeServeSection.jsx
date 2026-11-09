@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 import { MapPin, ArrowRight, Scale, ExternalLink } from "lucide-react";
 
 const offices = [
@@ -119,13 +120,13 @@ const AreasWeServeSection = () => {
             </p>
           </div>
 
-          <button
-            onClick={() => window.location.href = '/contact'}
+          <Link
+            href="/contact"
             className="flex items-center gap-3 bg-transparent border-2 border-primary text-white font-extrabold text-sm px-7 py-4 rounded-xl hover:bg-primary transition-all duration-200 active:scale-95 uppercase tracking-wider shrink-0 whitespace-nowrap"
           >
             Start Your Free Consultation
             <ArrowRight className="w-4 h-4 text-white" strokeWidth={2.5} />
-          </button>
+          </Link>
         </div>
 
       </div>

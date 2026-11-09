@@ -56,7 +56,7 @@ const EstablishedLegalProcessSection = () => {
           </h2>
           <div className="w-24 h-[3px] bg-primary mx-auto mt-6 mb-6" />
           <p className="text-gray-600 text-sm md:text-base leading-relaxed font-medium">
-            A structured legal process ensures no detail is overlooked in your claim. Every injured client deserves to know exactly what to expect. We guide you through each stage while preparing for potential delays.
+            A structured legal process ensures no detail is overlooked in your claim. Every client deserves to know exactly what to expect. We guide you through each stage while preparing for potential challenges.
           </p>
         </div>
 
