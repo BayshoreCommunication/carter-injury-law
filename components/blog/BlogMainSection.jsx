@@ -8,16 +8,16 @@ import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 import SectionLayout from "../shared/SectionLayout";
 import BlogLoader from "./BlogLoader";
 
-const BlogCard = ({ blogs, postDate }) => {
+const BlogCard = ({ blogs, postDate, priority = false }) => {
   const [imageLoading, setImageLoading] = useState(true);
 
   return (
     <ScrollMotionEffect effect="fade-up" duration="2000">
-      <Link href={`/blog/${blogs?.slug}`}>
-        <div className="bg-white h-full border rounded-md">
-          <div className="relative w-full aspect-video overflow-hidden rounded-t-md bg-gray-200">
+      <Link href={`/blog/${blogs?.slug}`} className="block h-full">
+        <div className="bg-white h-full border rounded-md flex flex-col overflow-hidden">
+          <div className="relative w-full aspect-video overflow-hidden rounded-t-md bg-[#07172A]">
             {imageLoading && (
-              <div className="absolute inset-0 animate-pulse bg-gray-300 z-10 rounded-t-md" />
+              <div className="absolute inset-0 animate-pulse bg-[#0E243D] z-0 rounded-t-md" />
             )}
             {blogs?.featuredImage?.image?.url ? (
               <Image
@@ -28,17 +28,18 @@ const BlogCard = ({ blogs, postDate }) => {
                   blogs?.title ||
                   "Blog post image"
                 }
-                className="object-cover"
-                loading="lazy"
+                className="relative z-10 object-contain object-center"
+                priority={priority}
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 onLoad={() => setImageLoading(false)}
+                onError={() => setImageLoading(false)}
               />
             ) : (
               <div className="w-full h-full bg-gray-200" />
             )}
           </div>
 
-          <div className="p-6 flex flex-col gap-1">
+          <div className="p-6 flex flex-col flex-1 gap-1">
             <div className="text-sm text-gray-500 flex items-center justify-between">
               <span>
                 {Array.isArray(blogs?.category)
@@ -57,7 +58,7 @@ const BlogCard = ({ blogs, postDate }) => {
                   ? blogs.body.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim().slice(0, 160)
                   : "")}
             </p>
-            <div className="text-start mt-5">
+            <div className="text-start mt-auto pt-5">
               <button
                 type="submit"
                 className="text-white bg-[#EC1D21] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base w-full sm:w-auto px-10 py-2 text-center uppercase space-x-4 hover:scale-105 transition duration-300"
@@ -191,6 +192,7 @@ const BlogMainSection = ({ blogPostData = [] }) => {
                       key={`${blogs?.slug}-${index}`}
                       blogs={blogs}
                       postDate={postDate}
+                      priority={index < 3}
                     />
                   ))}
               </div>

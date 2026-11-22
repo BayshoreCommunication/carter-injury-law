@@ -76,6 +76,9 @@ import HospitalNegligenceVsMedicalMalpracticeInFlorida, {
 import WhatHappensWhenAPedestrianIsHitInACrosswalkInFlorida, {
   whatHappensWhenAPedestrianIsHitInACrosswalkInFlorida,
 } from "./blogs/what-happens-when-a-pedestrian-is-hit-in-a-crosswalk-in-florida";
+import TBoneCrashesInFloridaCommonInjuriesAndLegalOptions, {
+  tBoneCrashesInFloridaCommonInjuriesAndLegalOptions,
+} from "./blogs/t-bone-crashes-in-florida-common-injuries-and-legal-options";
 
 const staticBlogPostsUnsorted = [
   howAccidentScenePhotosCanStrengthen,
@@ -104,6 +107,7 @@ const staticBlogPostsUnsorted = [
   parkingLotAccidentsInFloridaWhoIsResponsibleForYourInjuries,
   hospitalNegligenceVsMedicalMalpracticeInFlorida,
   whatHappensWhenAPedestrianIsHitInACrosswalkInFlorida,
+  tBoneCrashesInFloridaCommonInjuriesAndLegalOptions,
 ];
 
 export const staticBlogPosts = [...staticBlogPostsUnsorted].sort(
@@ -162,6 +166,8 @@ export const staticBlogComponents = {
     HospitalNegligenceVsMedicalMalpracticeInFlorida,
   [whatHappensWhenAPedestrianIsHitInACrosswalkInFlorida.slug]:
     WhatHappensWhenAPedestrianIsHitInACrosswalkInFlorida,
+  [tBoneCrashesInFloridaCommonInjuriesAndLegalOptions.slug]:
+    TBoneCrashesInFloridaCommonInjuriesAndLegalOptions,
 };
 
 export function getStaticBlogBySlug(slug: string) {

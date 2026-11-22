@@ -11,22 +11,24 @@ const SidebarBlogCard = ({ blogs }) => {
       className="flex items-start gap-2 ps-3 py-3 drop-shadow-lg bg-white my-3"
       href={`/blog/${blogs?.slug}`}
     >
-      <div className="relative h-[64px] w-[100px] overflow-hidden bg-gray-200 flex-shrink-0">
+      <div className="relative w-[112px] aspect-video overflow-hidden rounded bg-[#07172A] flex-shrink-0">
         {!imageLoaded && (
-          <div className="absolute inset-0 animate-pulse bg-gray-300 z-10" />
+          <div className="absolute inset-0 animate-pulse bg-[#0E243D] z-0" />
         )}
-        <Image
-          width={100}
-          height={100}
-          src={blogs?.featuredImage?.image?.url}
-          alt={
-            blogs?.featuredImage?.altText || blogs?.title || "Blog thumbnail"
-          }
-          className="h-full w-full object-cover"
-          loading="lazy"
-          sizes="100px"
-          onLoad={() => setImageLoaded(true)}
-        />
+        {blogs?.featuredImage?.image?.url && (
+          <Image
+            fill
+            src={blogs.featuredImage.image.url}
+            alt={
+              blogs?.featuredImage?.altText || blogs?.title || "Blog thumbnail"
+            }
+            className="relative z-10 object-contain object-center"
+            loading="lazy"
+            sizes="112px"
+            onLoad={() => setImageLoaded(true)}
+            onError={() => setImageLoaded(true)}
+          />
+        )}
       </div>
       <div>
         <div className="text-md font-bold text-black text-left line-clamp-2">

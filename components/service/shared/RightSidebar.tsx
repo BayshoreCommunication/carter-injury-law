@@ -326,12 +326,13 @@ export default function ContactForm({
                   href={`/blog/${item.slug}`}
                   className="flex gap-3 items-start group"
                 >
-                  <div className="w-[80px] h-[60px] relative flex-shrink-0 rounded overflow-hidden">
+                  <div className="w-[104px] aspect-video relative flex-shrink-0 rounded overflow-hidden bg-[#07172A]">
                     <Image
                       src={item.featuredImage || "/placeholder.jpg"}
                       alt={item.title}
                       fill
-                      className="object-cover group-hover:scale-105 transition"
+                      sizes="104px"
+                      className="object-contain object-center group-hover:scale-105 transition"
                     />
                   </div>
 
