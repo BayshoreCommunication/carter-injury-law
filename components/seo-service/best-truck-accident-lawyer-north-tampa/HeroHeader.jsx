@@ -43,12 +43,13 @@ const CountUp = ({ end, duration = 2000, suffix = "" }) => {
 };
 
 const HeroHeader = ({
-  bgImage = getSeoImage("hero-bg.png", "best-truck-accident-lawyer-north-tampa").filePath,
-  lawyerLeft = getSeoImage("carter.png", "best-truck-accident-lawyer-north-tampa").filePath,
+  bgImage = getSeoImage("north-tampa-commercial-truck-lawyer-skyline-banner.webp", "best-truck-accident-lawyer-north-tampa").filePath,
+  lawyerLeft = getSeoImage("david-carter-north-tampa-truck-accident-lawyer-pro.webp", "best-truck-accident-lawyer-north-tampa").filePath,
   titlePart1 = "Best Truck Accident Lawyer in North Tampa,",
   titlePart2 = "Representation for Truck Accident Victims",
   subtitle = "Commercial truck accidents can cause serious, debilitating physical harm and far-reaching legal disputes for businesses. Large trucking firms possess valuable evidence and rely on ruthless commercial insurance defense lawyers upon the instant. You desperately need someone highly capable of fighting back aggressively against these deceptive corporate defense strategies. Early legal help from the best truck accident lawyer in North Tampa can help protect your rights and strengthen your claim. Carter Injury Law brings dedicated focus and substantial legal experience to every commercial trucking collision. We proudly hold remarkably strong credentials within the Florida legal community for complex personal injury litigation.",
 }) => {
+  const lawyerImg = getSeoImage("david-carter-north-tampa-truck-accident-lawyer-pro.webp", "best-truck-accident-lawyer-north-tampa");
   return (
     <section 
       className="relative w-full overflow-hidden bg-cover bg-center bg-no-repeat hero-section-bg"
@@ -146,7 +147,8 @@ const HeroHeader = ({
               >
                 <Image
                   src={lawyerLeft}
-                  alt="Attorney David Carter"
+                  alt={lawyerImg.altText || "Attorney David Carter"}
+                  title={lawyerImg.title}
                   fill
                   sizes="(max-width: 1024px) 90vw, 45vw"
                   className="object-contain object-bottom"
@@ -199,7 +201,7 @@ const HeroHeader = ({
         }
       `}</style>
 
-      <div className="relative w-full z-30 custom-card-margin px-4 sm:px-6 md:px-8">
+      <div id="case-evaluation" className="relative w-full z-30 custom-card-margin px-4 sm:px-6 md:px-8">
         <div className="max-w-[1520px] mx-auto w-full">
           <FreeEvaluationCard />
         </div>

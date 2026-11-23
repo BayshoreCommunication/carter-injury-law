@@ -32,9 +32,9 @@ const FreeEvaluationCard = ({
             <span>Free &amp; Confidential Legal Consultation</span>
           </div>
 
-          <h3 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-secondary tracking-tight leading-tight">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-secondary tracking-tight leading-tight">
             {title}
-          </h3>
+          </h2>
 
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed font-medium">
             {subtitle}

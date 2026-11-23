@@ -1,6 +1,27 @@
 "use client";
 import React from "react";
-import { MapPin, ArrowRight, Scale, ExternalLink } from "lucide-react";
+import { MapPin, ArrowRight, Scale } from "lucide-react";
+
+const northTampaAreas = [
+  "North Tampa",
+  "University",
+  "Forest Hills",
+  "Sulphur Springs",
+  "Temple Terrace",
+  "Carrollwood",
+  "New Tampa",
+  "Tampa Palms",
+  "Wesley Chapel",
+];
+
+const hillsboroughCommunities = [
+  "Lutz",
+  "Brandon",
+  "Riverview",
+  "Town 'N' Country",
+  "Seffner",
+  "Plant City",
+];
 
 const offices = [
   {
@@ -9,7 +30,6 @@ const offices = [
     address: "3114 N. Boulevard",
     cityState: "Tampa, FL 33603",
     badge: null,
-    mapsUrl: "https://maps.google.com/?q=3114+N+Boulevard+Tampa+FL+33603",
     embedSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4335.809177193109!2d-82.47045932387964!3d27.972312213754044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2c3b1208be12d%3A0x4cce7467aad41864!2sCarter%20Injury%20Law!5e1!3m2!1sen!2sbd!4v1784709237604!5m2!1sen!2sbd",
   },
   {
@@ -18,12 +38,18 @@ const offices = [
     address: "801 W. Bay Dr., Suite 229",
     cityState: "Largo, FL 33770",
     badge: "By Appointment Only",
-    mapsUrl: "https://maps.google.com/?q=801+W+Bay+Dr+Suite+229+Largo+FL+33770",
     embedSrc: null,
   },
 ];
 
 const AreasWeServeSection = () => {
+  const scrollToForm = () => {
+    const el = document.getElementById("case-evaluation");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="w-full bg-[#faf9f6] py-12 md:py-16">
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8">
@@ -42,6 +68,43 @@ const AreasWeServeSection = () => {
             North Tampa Truck Accident Lawyer,{" "}
             <span className="block text-primary">Areas We Serve</span>
           </h2>
+        </div>
+
+        {/* ── Communities Grid ── */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+          <div className="bg-white rounded-[20px] border border-gray-100 shadow-sm p-6 sm:p-8">
+            <h3 className="text-xl sm:text-2xl font-extrabold text-secondary mb-5">
+              North Tampa Areas We Serve
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {northTampaAreas.map((area) => (
+                <div
+                  key={area}
+                  className="flex items-center gap-2.5 bg-[#faf9f6] border border-gray-100 rounded-xl px-4 py-3 text-sm font-bold text-secondary"
+                >
+                  <MapPin className="w-4 h-4 text-primary shrink-0" />
+                  <span>{area}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="bg-white rounded-[20px] border border-gray-100 shadow-sm p-6 sm:p-8">
+            <h3 className="text-xl sm:text-2xl font-extrabold text-secondary mb-5">
+              Surrounding Hillsborough County Communities
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {hillsboroughCommunities.map((community) => (
+                <div
+                  key={community}
+                  className="flex items-center gap-2.5 bg-[#faf9f6] border border-gray-100 rounded-xl px-4 py-3 text-sm font-bold text-secondary"
+                >
+                  <MapPin className="w-4 h-4 text-primary shrink-0" />
+                  <span>{community}</span>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
 
         {/* ── Content Grid ── */}
@@ -64,24 +127,20 @@ const AreasWeServeSection = () => {
           {/* ── Right: Office Location Cards ── */}
           <div className="flex flex-col gap-5 justify-between">
             {offices.map((office, i) => (
-              <a
+              <div
                 key={i}
-                href={office.mapsUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group bg-white rounded-[20px] border border-gray-100 shadow-sm p-6 flex flex-col gap-4 hover:shadow-md hover:border-primary/20 transition-all duration-300 cursor-pointer flex-1 justify-center"
+                className="bg-white rounded-[20px] border border-gray-100 shadow-sm p-6 flex flex-col gap-4 flex-1 justify-center"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-[11px] font-extrabold tracking-[0.2em] text-primary uppercase">
                     {office.label}
                   </span>
-                  <ExternalLink className="w-4 h-4 text-gray-300 group-hover:text-primary transition-colors duration-200" strokeWidth={2} />
                 </div>
 
                 <div className="w-full h-px bg-gray-100" />
 
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors duration-200">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
                     <MapPin className="w-5 h-5 text-primary" strokeWidth={1.5} />
                   </div>
                   <div>
@@ -98,12 +157,7 @@ const AreasWeServeSection = () => {
                     )}
                   </div>
                 </div>
-
-                <div className="flex items-center gap-2 text-primary text-xs font-extrabold uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity duration-200 mt-1">
-                  <span>View on Google Maps</span>
-                  <ArrowRight className="w-3.5 h-3.5" strokeWidth={2.5} />
-                </div>
-              </a>
+              </div>
             ))}
           </div>
         </div>
@@ -115,12 +169,13 @@ const AreasWeServeSection = () => {
               <Scale className="w-7 h-7 text-white" strokeWidth={1.5} />
             </div>
             <p className="text-white font-bold text-sm md:text-base leading-snug max-w-lg">
-              Wherever in Tampa Bay your family is, we&apos;re ready to sit down with you and get your claim started.
+              Free, confidential case evaluation
             </p>
           </div>
 
           <button
-            onClick={() => window.location.href = '/contact'}
+            type="button"
+            onClick={scrollToForm}
             className="flex items-center gap-3 bg-transparent border-2 border-primary text-white font-extrabold text-sm px-7 py-4 rounded-xl hover:bg-primary transition-all duration-200 active:scale-95 uppercase tracking-wider shrink-0 whitespace-nowrap"
           >
             Start Your Free Consultation

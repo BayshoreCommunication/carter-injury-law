@@ -50,8 +50,9 @@ const WhyRightLawyerSection = () => {
             >
               <div className="relative w-full h-[400px] sm:h-[480px]">
                 <Image
-                  src={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "best-truck-accident-lawyer-north-tampa").filePath}
-                  alt="Why Truck Accident Victims Can Lose Valuable Compensation Without Legal Representation"
+                  src={getSeoImage("north-tampa-truck-crash-lawyer-client-consultation.webp", "best-truck-accident-lawyer-north-tampa").filePath}
+                  alt={getSeoImage("north-tampa-truck-crash-lawyer-client-consultation.webp", "best-truck-accident-lawyer-north-tampa").altText}
+                  title={getSeoImage("north-tampa-truck-crash-lawyer-client-consultation.webp", "best-truck-accident-lawyer-north-tampa").title}
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 40vw"
@@ -64,7 +65,7 @@ const WhyRightLawyerSection = () => {
                   Protection For Truck Accident Victims
                 </p>
                 <p className="text-base sm:text-lg font-bold leading-snug">
-                  Unrepresented crash victims face significant disadvantages against corporate insurers. Representation protects your recovery.
+                  Unrepresented crash victims face significant disadvantages when going up against national trucking lines and corporate insurance companies.
                 </p>
               </div>
             </motion.div>
@@ -84,7 +85,7 @@ const WhyRightLawyerSection = () => {
                 Why Truck Accident Victims Can Lose Valuable Compensation Without Legal Representation
               </h2>
               <p className="text-gray-600 text-sm sm:text-base mt-4 font-medium leading-relaxed">
-                Unrepresented crash victims face significant disadvantages when going up against national trucking lines and corporate insurers. Early legal representation ensures that vital evidence remains intact and your rights stay protected.
+                Unrepresented crash victims face significant disadvantages when going up against national trucking lines and corporate insurance companies. Early legal representation ensures that vital evidence remains intact and your rights stay protected.
               </p>
             </motion.div>
 

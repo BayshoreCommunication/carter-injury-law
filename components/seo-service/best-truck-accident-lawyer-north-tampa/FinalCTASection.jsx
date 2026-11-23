@@ -101,8 +101,9 @@ const FinalCTASection = () => {
           <div className="col-span-12 lg:col-span-5 relative">
             <div className="relative rounded-[24px] overflow-hidden shadow-2xl bg-slate-900 border border-white/10 h-[480px]">
               <Image
-                src={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "best-truck-accident-lawyer-north-tampa").filePath}
-                alt="Carter Injury Law Legal Team"
+                src={getSeoImage("carter-injury-law-legal-team-north-tampa-truck-law.webp", "best-truck-accident-lawyer-north-tampa").filePath}
+                alt={getSeoImage("carter-injury-law-legal-team-north-tampa-truck-law.webp", "best-truck-accident-lawyer-north-tampa").altText}
+                title={getSeoImage("carter-injury-law-legal-team-north-tampa-truck-law.webp", "best-truck-accident-lawyer-north-tampa").title}
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 40vw"

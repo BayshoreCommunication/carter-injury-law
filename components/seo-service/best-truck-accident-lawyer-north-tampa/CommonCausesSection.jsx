@@ -21,8 +21,8 @@ const CommonCausesSection = () => {
     {
       number: "01",
       title: "Driver Fatigue and Hours of Service Violations",
-      image: getSeoImage("driver-fatigue.png", "best-truck-accident-lawyer-north-tampa").filePath,
-      imageObj: getSeoImage("driver-fatigue.png", "best-truck-accident-lawyer-north-tampa"),
+      image: getSeoImage("driver-fatigue-hours-of-service-north-tampa-trucks.webp", "best-truck-accident-lawyer-north-tampa").filePath,
+      imageObj: getSeoImage("driver-fatigue-hours-of-service-north-tampa-trucks.webp", "best-truck-accident-lawyer-north-tampa"),
       description: (
         <>
           The Federal Government has strict rules that determine how long a commercial truck driver can have a vehicle on for in total. When commercial drivers get extremely fatigued, they can cause deadly accidents on heavily-traveled local highways, such as I-4 and I-275. Victims injured in these collisions may also need guidance from our{" "}
@@ -37,32 +37,32 @@ const CommonCausesSection = () => {
     {
       number: "02",
       title: "Distracted, Aggressive, or Impaired Truck Drivers",
-      image: getSeoImage("distracted-fatigued-bus-drivers-tampa-accidents.webp", "best-truck-accident-lawyer-north-tampa").filePath,
-      imageObj: getSeoImage("distracted-fatigued-bus-drivers-tampa-accidents.webp", "best-truck-accident-lawyer-north-tampa"),
+      image: getSeoImage("distracted-aggressive-truck-drivers-north-tampa-fl.webp", "best-truck-accident-lawyer-north-tampa").filePath,
+      imageObj: getSeoImage("distracted-aggressive-truck-drivers-north-tampa-fl.webp", "best-truck-accident-lawyer-north-tampa"),
       description: "Safely operating a massive commercial delivery vehicle requires absolute mental focus and complete undivided attention always. Distracted or highly aggressive driving on congested Hillsborough Avenue frequently leads to catastrophic and deadly roadway pileups.",
       location: "Hillsborough Avenue Corridors",
     },
     {
       number: "03",
       title: "Improperly Loaded or Unsecured Cargo",
-      image: getSeoImage("speeding-reckless-passenger-bus-operation-tampa.webp", "best-truck-accident-lawyer-north-tampa").filePath,
-      imageObj: getSeoImage("speeding-reckless-passenger-bus-operation-tampa.webp", "best-truck-accident-lawyer-north-tampa"),
+      image: getSeoImage("improperly-loaded-unsecured-truck-cargo-north-tampa.webp", "best-truck-accident-lawyer-north-tampa").filePath,
+      imageObj: getSeoImage("improperly-loaded-unsecured-truck-cargo-north-tampa.webp", "best-truck-accident-lawyer-north-tampa"),
       description: "Professional freight loaders must secure heavy cargo properly to prevent incredibly dangerous weight shifts during highway transit. Falling commercial cargo on busy roads like US 41 creates absolutely deadly hazards for surrounding passenger vehicles.",
       location: "US 41 Corridors",
     },
     {
       number: "04",
       title: "Poor Truck Maintenance and Mechanical Failures",
-      image: getSeoImage("poor-bus-maintenance-mechanical-failures-tampa.webp", "best-truck-accident-lawyer-north-tampa").filePath,
-      imageObj: getSeoImage("poor-bus-maintenance-mechanical-failures-tampa.webp", "best-truck-accident-lawyer-north-tampa"),
+      image: getSeoImage("poor-truck-maintenance-mechanical-failures-n-tampa.webp", "best-truck-accident-lawyer-north-tampa").filePath,
+      imageObj: getSeoImage("poor-truck-maintenance-mechanical-failures-n-tampa.webp", "best-truck-accident-lawyer-north-tampa"),
       description: "All commercial fleet vehicles should be subject to periodical safety checks and appropriate maintenance by trucking companies. Multi vehicle accidents are often severe in North Tampa commercial corridors as a result of a sudden brake failure and tire blowout.",
       location: "North Tampa Commercial Corridors",
     },
     {
       number: "05",
       title: "Unsafe Lane Changes and Large Truck Blind Spots",
-      image: getSeoImage("unsafe-lane-changes-blind-spot-bus-collisions.webp", "best-truck-accident-lawyer-north-tampa").filePath,
-      imageObj: getSeoImage("unsafe-lane-changes-blind-spot-bus-collisions.webp", "best-truck-accident-lawyer-north-tampa"),
+      image: getSeoImage("unsafe-lane-changes-truck-blind-spots-north-tampa-fl.webp", "best-truck-accident-lawyer-north-tampa").filePath,
+      imageObj: getSeoImage("unsafe-lane-changes-truck-blind-spots-north-tampa-fl.webp", "best-truck-accident-lawyer-north-tampa"),
       description: "Commercial trucks possess massive blind spots requiring extreme driver caution during every single highway passing maneuver. Careless high speed lane changes on Fowler Avenue often trap smaller passenger vehicles under heavy moving trailers.",
       location: "Fowler Avenue Corridors",
     },
@@ -108,7 +108,8 @@ const CommonCausesSection = () => {
                 <div className="relative w-full h-[220px] overflow-hidden bg-slate-900">
                   <Image
                     src={item.image}
-                    alt={item.title}
+                    alt={item.imageObj?.altText || item.title}
+                    title={item.imageObj?.title || item.title}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
