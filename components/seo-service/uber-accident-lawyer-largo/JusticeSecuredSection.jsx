@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { Award } from "lucide-react";
 import { motion } from "framer-motion";
 
 const JusticeSecuredSection = () => {
@@ -14,11 +13,6 @@ const JusticeSecuredSection = () => {
           transition={{ duration: 0.6 }}
           className="max-w-4xl mx-auto text-center space-y-6"
         >
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 text-primary font-bold text-xs uppercase tracking-wider mx-auto border border-white/10">
-            <Award className="w-4 h-4 text-primary" />
-            <span>Proven Case Results</span>
-          </div>
-
           <h2 className="text-3xl sm:text-4xl md:text-[42px] font-extrabold text-white tracking-tight leading-tight">
             Justice Secured for Largo Uber Accident Clients We Have Represented
           </h2>

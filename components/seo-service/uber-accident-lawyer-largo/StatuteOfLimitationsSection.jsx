@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Clock, AlertTriangle, Calendar, Smartphone, Building, Layers } from "lucide-react";
+import { Clock, Calendar, Smartphone, Building, Layers } from "lucide-react";
 import { motion } from "framer-motion";
 
 const StatuteOfLimitationsSection = () => {
@@ -23,7 +23,7 @@ const StatuteOfLimitationsSection = () => {
     {
       icon: Layers,
       title: "Avoiding Filing Delays While Fault Remains Disputed",
-      description: "Insurance adjusters often prolong liability reviews to push your claim uncomfortably close to statutory deadlines. Stalling tactics give insurance companies undue leverage during settlement talks. We file a formal court complaint promptly when adjusters refuse to negotiate fairly, forcing them to address your claim under court supervision.",
+      description: "Insurance adjusters often prolong liability reviews to push your claim uncomfortably close to statutory deadlines. Stalling strategies give insurance companies undue leverage during settlement talks. We file a formal court complaint promptly when adjusters refuse to negotiate fairly, forcing them to address your claim under court supervision.",
     },
     {
       icon: Clock,
@@ -36,11 +36,6 @@ const StatuteOfLimitationsSection = () => {
     <section className="w-full bg-[#faf9f6] py-14 md:py-20">
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-50 text-amber-700 font-bold text-xs uppercase tracking-wider mb-3">
-            <AlertTriangle className="w-4 h-4" />
-            <span>Time-Sensitive Legal Deadlines</span>
-          </div>
-
           <h2 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-secondary tracking-tight leading-tight">
             Florida&apos;s Statute of Limitations, Why Timing Is Important in Your Case
           </h2>

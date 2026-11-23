@@ -2,7 +2,7 @@
 import { getSeoImage } from "@/lib/seo-service-images";
 import React from "react";
 import Image from "next/image";
-import { HeartHandshake, MessageSquare, DollarSign, FileSpreadsheet, ShieldAlert, Scale } from "lucide-react";
+import { HeartHandshake, MessageSquare, DollarSign, FileSpreadsheet, ShieldAlert } from "lucide-react";
 import { motion } from "framer-motion";
 
 const WhyChooseUsSection = () => {
@@ -30,12 +30,7 @@ const WhyChooseUsSection = () => {
     {
       icon: ShieldAlert,
       title: "Legal Preparation for Cases Involving Disputed Responsibility",
-      description: "When insurance companies deny fault, passive negotiation tactics fail. We approach every single case as if it is headed straight to trial from day one. Assembling expert witnesses, crash reconstructionists and clear visual exhibits ensures we are fully equipped to win contested liability battles in court.",
-    },
-    {
-      icon: Scale,
-      title: "Clear Communication About Available Options and Potential Risks",
-      description: "We simplify the legal process and explain every detail of your case, helping you weigh settlement offers, understand potential litigation risks, and make informed choices for your recovery.",
+      description: "When insurance companies deny fault, passive negotiation strategies fail. We approach every single case as if it is headed straight to trial from day one. Assembling expert witnesses, crash reconstructionists and clear visual exhibits ensures we are fully equipped to win contested liability battles in court.",
     },
   ];
 
@@ -43,9 +38,6 @@ const WhyChooseUsSection = () => {
     <section className="w-full bg-white py-14 md:py-20">
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-2">
-            Why Choose Carter Injury Law
-          </span>
           <h2 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-secondary tracking-tight leading-tight">
             Why Largo Uber Accident Victims Choose Our Law Firm
           </h2>
@@ -87,21 +79,13 @@ const WhyChooseUsSection = () => {
           <div className="col-span-12 lg:col-span-5 relative">
             <div className="relative rounded-[24px] overflow-hidden shadow-2xl bg-slate-900 border border-gray-100 h-[520px]">
               <Image
-                src={getSeoImage("direct-attorney-communication-uber-claims-largo.webp", "uber-accident-lawyer-largo").filePath}
-                alt="Direct attorney communication for Largo Uber accident claims"
+                src={getSeoImage("direct-attorney-communication-largo-uber-claims-fl.webp", "uber-accident-lawyer-largo").filePath}
+                alt={getSeoImage("direct-attorney-communication-largo-uber-claims-fl.webp", "uber-accident-lawyer-largo").altText || "Direct attorney communication for Largo Uber accident claims"}
+                title={getSeoImage("direct-attorney-communication-largo-uber-claims-fl.webp", "uber-accident-lawyer-largo").title}
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 40vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 via-secondary/20 to-transparent" />
-              <div className="absolute bottom-0 inset-x-0 p-8 text-white">
-                <p className="text-xs font-bold uppercase tracking-widest text-primary mb-2">
-                  Dedicated &amp; Responsive
-                </p>
-                <p className="text-lg font-bold leading-snug">
-                  Direct Access to Your Attorney Throughout Your Case
-                </p>
-              </div>
             </div>
           </div>
         </div>

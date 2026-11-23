@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { AlertTriangle, Users, PackageX, CalendarX, MessageSquareX, Receipt } from "lucide-react";
+import { Users, PackageX, CalendarX, MessageSquareX, Receipt } from "lucide-react";
 import { motion } from "framer-motion";
 
 const MistakesSection = () => {
@@ -28,7 +28,7 @@ const MistakesSection = () => {
     {
       icon: Receipt,
       title: "Overlooking Reimbursement for Necessary Accident-Related Expenses",
-      description: "Many injury victims focus solely on hospital bills and forget about routine out-of-pocket costs. Prescription copays, medical equipment rentals, OTC pain medications and mileage driven to physical therapy add up to thousands of dollars. Keeping every itemized receipt allows your attorney to add these expenses directly to your total claim demand.",
+      description: "Many injury victims focus solely on hospital bills and forget about other costs. Prescription copays, medical equipment rentals, OTC pain medications and mileage driven to physical therapy add up to thousands of dollars. Keeping every itemized receipt allows your attorney to add these expenses directly to your total claim demand.",
     },
   ];
 
@@ -36,11 +36,6 @@ const MistakesSection = () => {
     <section className="w-full bg-white py-12 md:py-16">
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8">
         <div className="text-center max-w-3xl mx-auto mb-14">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-50 text-amber-700 font-bold text-xs uppercase tracking-wider mb-3">
-            <AlertTriangle className="w-4 h-4" />
-            <span>Avoid Costly Missteps</span>
-          </div>
-
           <h2 className="text-3xl md:text-4xl lg:text-[40px] font-extrabold text-secondary tracking-tight leading-tight">
             Mistakes That Can Reduce the Value of Your Largo Uber Accident Claim
           </h2>

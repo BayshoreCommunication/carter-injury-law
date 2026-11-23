@@ -20,11 +20,7 @@ const InvestigationProcessSection = () => {
       title: "Motorists Who Strike an Uber Vehicle From Another Lane",
       description: (
         <p>
-          Your rideshare driver is not always the party responsible for a crash. Negligent third-party drivers who drift across lanes, run red lights, or rear-end an Uber vehicle share primary fault. In these scenarios, we file direct claims against the third party&apos;s auto insurance policy to recover maximum damages for your injuries. Collisions involving larger commercial vehicles can raise similar questions about driver negligence and insurance coverage. Injured people involved in these crashes may benefit from speaking with a{" "}
-          <Link href="/bus-accidents-lawyer-largo" className="text-primary hover:underline font-semibold">
-            bus accidents lawyer Largo
-          </Link>
-          .
+          Your rideshare driver is not always the party responsible for a crash. Negligent third-party drivers who drift across lanes, run red lights, or rear-end an Uber vehicle share primary fault. In these scenarios, we file direct claims against the third party&apos;s auto insurance policy to recover maximum damages for your injuries.
         </p>
       ),
     },
@@ -42,7 +38,11 @@ const InvestigationProcessSection = () => {
       title: "Vehicle Maintenance Providers in Cases Involving Mechanical Defects",
       description: (
         <p>
-          Mechanical issues such as losing power to the brakes or the tires blowing out indicate poor service of the vehicle. An auto repair shop is legally liable if they performed an unsafe repair job or allowed an unsafe car to pass through them on a routine inspection. Full service records are retrieved to determine if mechanical failure played a role or exacerbated, in a collision.
+          Mechanical issues such as losing power to the brakes or the tires blowing out indicate poor service of the vehicle. An auto repair shop is legally liable if they performed an unsafe repair job or allowed an unsafe car to pass through them on a routine inspection. Full service records help determine if mechanical failure played a role in a collision. Similar mechanical defects can arise in lyft accident cases. So, injured people can consult our{" "}
+          <Link href="/tampa-uber-lyft-accident-lawyer" className="text-primary hover:underline font-semibold">
+            Uber and Lyft accident lawyer
+          </Link>
+          , when such defects contribute to their injury.
         </p>
       ),
     },
@@ -61,9 +61,6 @@ const InvestigationProcessSection = () => {
     <section className="w-full bg-[#faf9f6] py-12 md:py-16">
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8">
         <div className="text-center max-w-3xl mx-auto mb-14">
-          <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-2">
-            Potentially Liable Parties
-          </span>
           <h2 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-secondary tracking-tight leading-tight">
             Who May Be Held Responsible for an Uber Accident in Largo, Florida
           </h2>

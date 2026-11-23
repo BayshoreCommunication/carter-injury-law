@@ -25,7 +25,7 @@ const WhyRightLawyerSection = () => {
     {
       icon: Activity,
       title: "Difficulty Valuing Injuries That Affect Everyday Activities",
-      description: "Insurance adjusters rely on the inflexible algorithms of the computer software they employ which provide a predetermined dollar value for certain medical codes. These computer models do not take into account human factors like not being able to lift your child, keep your home, or have hobbies. We work with medical specialists and vocational experts to calculate the true, long-term impact of your physical limitations.",
+      description: "Insurance adjusters rely on the inflexible algorithms of the computer software they employ which provide a predetermined dollar value for certain medical codes. These computer models do not take into account human factors like not being able to lift your child, keep your home or have hobbies. We work with medical specialists and vocational experts to calculate the true, long-term impact of your physical limitations.",
     },
     {
       icon: Users,
@@ -48,22 +48,13 @@ const WhyRightLawyerSection = () => {
             >
               <div className="relative w-full h-[400px] sm:h-[480px]">
                 <Image
-                  src={getSeoImage("dedicated-uber-accident-lawyer-largo.webp", "uber-accident-lawyer-largo").filePath}
-                  alt="Why Injured Largo Uber Passengers and Other Road Users May Face Difficulties Obtaining Compensation"
+                  src={getSeoImage("dedicated-uber-accident-lawyer-largo-claims-review.webp", "uber-accident-lawyer-largo").filePath}
+                  alt={getSeoImage("dedicated-uber-accident-lawyer-largo-claims-review.webp", "uber-accident-lawyer-largo").altText || "Why Injured Largo Uber Passengers and Other Road Users May Face Difficulties Obtaining Compensation"}
+                  title={getSeoImage("dedicated-uber-accident-lawyer-largo-claims-review.webp", "uber-accident-lawyer-largo").title}
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 40vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 via-secondary/30 to-transparent" />
-              </div>
-
-              <div className="absolute bottom-0 inset-x-0 p-6 sm:p-8 text-white z-10">
-                <p className="text-xs font-bold uppercase tracking-widest text-primary mb-2">
-                  Largo Claim Protection
-                </p>
-                <p className="text-base sm:text-lg font-bold leading-snug">
-                  A fair settlement is rarely simple. Insurance carriers leverage complex policy language to delay processing or minimize payouts.
-                </p>
               </div>
             </motion.div>
           </div>
@@ -75,14 +66,11 @@ const WhyRightLawyerSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-2">
-                Rideshare Claim Protection
-              </span>
               <h2 className="text-3xl sm:text-4xl lg:text-[40px] font-extrabold text-secondary tracking-tight leading-tight">
                 Why Injured Largo Uber Passengers and Other Road Users May Face Difficulties Obtaining Compensation
               </h2>
               <p className="text-gray-600 text-sm sm:text-base mt-4 font-medium leading-relaxed">
-                A fair settlement is rarely simple. Insurance carriers leverage complex policy language to delay processing or minimize payouts.
+                A fair settlement is rarely simple. Insurance carriers utilize complex policy language to delay processing or minimize payouts.
               </p>
             </motion.div>
 

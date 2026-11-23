@@ -42,12 +42,9 @@ const ExpertValuationSection = () => {
           transition={{ duration: 0.5 }}
           className="text-center max-w-3xl mx-auto mb-14"
         >
-          <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-2">
-            Comparison Guide
-          </span>
-          <h2 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-secondary tracking-tight leading-tight">
+          <h3 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-secondary tracking-tight leading-tight">
             Clear Communication About Available Options and Potential Risks
-          </h2>
+          </h3>
           <div className="w-24 h-[3px] bg-primary mx-auto mt-6 mb-6" />
         </motion.div>
 

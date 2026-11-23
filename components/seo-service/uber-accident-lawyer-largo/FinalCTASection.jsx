@@ -3,10 +3,11 @@ import { getSeoImage } from "@/lib/seo-service-images";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Phone, MapPin, Building, ShieldCheck, ArrowRight, FileText } from "lucide-react";
+import { MapPin, Building, ShieldCheck, FileText } from "lucide-react";
 import { motion } from "framer-motion";
 
 const FinalCTASection = () => {
+  const ctaImg = getSeoImage("carter-injury-law-uber-accident-legal-team-largo-fl.webp", "uber-accident-lawyer-largo");
   return (
     <section className="w-full bg-[#1E2538] text-white py-16 md:py-24 relative overflow-hidden">
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8 relative z-10">
@@ -18,9 +19,6 @@ const FinalCTASection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-3">
-                Carter Injury Law, P.A.
-              </span>
               <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-white tracking-tight leading-tight">
                 Secure Committed Legal Advocacy, Contact Carter Injury Law for a Confidential Consultation
               </h2>
@@ -30,46 +28,56 @@ const FinalCTASection = () => {
               </p>
             </motion.div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 border-t border-white/10">
-              <div className="flex items-start gap-3.5">
-                <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0 text-primary">
-                  <Building className="w-5 h-5" />
-                </div>
-                <div>
-                  <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Largo Office (Satellite office, by appointment)</p>
-                  <p className="text-sm font-semibold text-white mt-0.5">801 W. Bay Dr., Suite 229, Largo, FL 33770</p>
-                  <p className="text-xs text-primary font-bold mt-0.5">Phone: (727) 955-1922</p>
-                </div>
-              </div>
+            <div className="space-y-4 pt-4 border-t border-white/10">
+              <p className="text-xs font-extrabold tracking-widest text-primary uppercase">
+                Contact Information
+              </p>
+              <p className="text-sm font-semibold text-white">
+                Firm: Carter Injury Law, P.A.
+              </p>
 
-              <div className="flex items-start gap-3.5">
-                <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0 text-primary">
-                  <MapPin className="w-5 h-5" />
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="flex items-start gap-3.5">
+                  <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0 text-primary">
+                    <Building className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Largo Office:</p>
+                    <p className="text-sm font-semibold text-white mt-0.5">801 W. Bay Dr., Suite 229, Largo, FL 33770</p>
+                    <p className="text-xs text-primary font-bold mt-0.5">Phone: (727) 955-1922</p>
+                    <p className="text-xs text-gray-300 mt-0.5">Office Type: Satellite office, by appointment</p>
+                  </div>
                 </div>
-                <div>
-                  <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Tampa Office</p>
-                  <p className="text-sm font-semibold text-white mt-0.5">3114 N. Boulevard, Tampa, FL 33603</p>
-                  <p className="text-xs text-primary font-bold mt-0.5">Phone: (813) 922-0228</p>
-                </div>
-              </div>
 
-              <div className="flex items-start gap-3.5">
-                <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0 text-primary">
-                  <ShieldCheck className="w-5 h-5" />
+                <div className="flex items-start gap-3.5">
+                  <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0 text-primary">
+                    <MapPin className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Tampa Office:</p>
+                    <p className="text-sm font-semibold text-white mt-0.5">3114 N. Boulevard, Tampa, FL 33603</p>
+                    <p className="text-xs text-primary font-bold mt-0.5">Phone: (813) 922-0228</p>
+                  </div>
                 </div>
-                <div>
-                  <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Consultation</p>
-                  <p className="text-sm font-semibold text-white mt-0.5">Free case evaluation</p>
-                </div>
-              </div>
 
-              <div className="flex items-start gap-3.5">
-                <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0 text-primary">
-                  <FileText className="w-5 h-5" />
+                <div className="flex items-start gap-3.5">
+                  <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0 text-primary">
+                    <ShieldCheck className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Consultation:</p>
+                    <p className="text-sm font-semibold text-white mt-0.5">Free case evaluation</p>
+                  </div>
                 </div>
-                <div>
-                  <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Fee Arrangement</p>
-                  <p className="text-sm font-semibold text-white mt-0.5">Contingency-based representation, subject to a written agreement.</p>
+
+                <div className="flex items-start gap-3.5">
+                  <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0 text-primary">
+                    <FileText className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Fee Arrangement:</p>
+                    <p className="text-sm font-semibold text-white mt-0.5">Contingency-based representation, subject to a written agreement.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -81,44 +89,18 @@ const FinalCTASection = () => {
               </Link>{" "}
               to verify all contact details.
             </p>
-
-            <div className="pt-2 flex flex-wrap items-center gap-4">
-              <a
-                href="tel:7279551922"
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-primary hover:bg-red-700 text-white font-extrabold text-base uppercase tracking-wider shadow-xl transition-all duration-300 group"
-              >
-                <span>Call (727) 955-1922</span>
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </a>
-
-              <Link
-                href="/contact"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl border-2 border-white/20 hover:border-primary hover:bg-primary/20 text-white font-bold text-base tracking-wide transition-all duration-300"
-              >
-                <span>Schedule Confidential Consultation</span>
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
           </div>
 
           <div className="col-span-12 lg:col-span-5 relative">
             <div className="relative rounded-[24px] overflow-hidden shadow-2xl bg-slate-900 border border-white/10 h-[480px]">
               <Image
-                src={getSeoImage("carter-team-cta.png", "uber-accident-lawyer-largo").filePath}
-                alt="Carter Injury Law Uber Accident Legal Team in Largo, FL"
+                src={ctaImg.filePath}
+                alt={ctaImg.altText || "Carter Injury Law Uber Accident Legal Team in Largo, FL"}
+                title={ctaImg.title}
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 40vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-secondary via-transparent to-transparent" />
-              <div className="absolute bottom-6 inset-x-6 text-center">
-                <p className="text-sm font-bold text-white uppercase tracking-wider">
-                  Carter Injury Law Legal Team
-                </p>
-                <p className="text-xs text-gray-300 mt-1">
-                  Ready 24/7 to advocate for your family in Largo
-                </p>
-              </div>
             </div>
           </div>
         </div>

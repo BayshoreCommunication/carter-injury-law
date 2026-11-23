@@ -21,18 +21,19 @@ const CommonCausesSection = () => {
     {
       number: "01",
       title: "Drivers Cutting Across Traffic to Reach Pickup Points",
-      image: getSeoImage("drivers-cutting-across-traffic-largo.webp", "uber-accident-lawyer-largo").filePath,
+      image: getSeoImage("uber-drivers-cutting-across-largo-traffic-lanes-fl.webp", "uber-accident-lawyer-largo").filePath,
+      imageObj: getSeoImage("uber-drivers-cutting-across-largo-traffic-lanes-fl.webp", "uber-accident-lawyer-largo"),
       description: (
         <p>
           Rideshare drivers often make sudden lane changes for a ride. Many drivers are found by breaking the rules of the road by crossing several lanes without signaling for a ride. Such reckless maneuvers push oncoming traffic to slam on their brakes, resulting in &ldquo;rear-end&rdquo; and &ldquo;side-swipe&rdquo; crashes at high speeds, before anyone can react safely.
         </p>
       ),
-      location: "Largo Roadways & Intersections",
     },
     {
       number: "02",
       title: "Collisions Near Largo Central Park and Surrounding Streets",
-      image: getSeoImage("collisions-near-largo-central-park.webp", "uber-accident-lawyer-largo").filePath,
+      image: getSeoImage("uber-collisions-near-largo-central-park-streets-fl.webp", "uber-accident-lawyer-largo").filePath,
+      imageObj: getSeoImage("uber-collisions-near-largo-central-park-streets-fl.webp", "uber-accident-lawyer-largo"),
       description: (
         <p>
           The area around Largo Central Park is a high-risk driving area due to the volume of pedestrian traffic and vehicles. Distracted rideshare drivers frequently fail to stop at a sudden halt, yield to crosswalks or yield to pedestrians who are making their way across crowded parts of Seminole Boulevard. This lapse in attention leads directly to severe, preventable crashes near popular community landmarks. Pedestrians struck by inattentive drivers near crosswalks or busy intersections may also need guidance from a{" "}
@@ -42,62 +43,61 @@ const CommonCausesSection = () => {
           when pursuing compensation for their injuries.
         </p>
       ),
-      location: "Largo Central Park & Seminole Blvd",
     },
     {
       number: "03",
       title: "Unsafe Reversing in Shopping Center Parking Areas",
-      image: getSeoImage("unsafe-reversing-shopping-center-largo.webp", "uber-accident-lawyer-largo").filePath,
+      image: getSeoImage("unsafe-reversing-shopping-center-parking-lot-largo.webp", "uber-accident-lawyer-largo").filePath,
+      imageObj: getSeoImage("unsafe-reversing-shopping-center-parking-lot-largo.webp", "uber-accident-lawyer-largo"),
       description: (
         <p>
           At busy parks such as the Largo Mall, the rideshare community can be seen often turning over throughout the day. Often drivers look for someone to park or load and unload, backing out of parking spaces or loading and unloading without looking for blind spots. At low speeds a reversing vehicle can cause devastating orthopedic and spinal injuries to a pedestrian, or a smaller car.
         </p>
       ),
-      location: "Largo Mall & Commercial Centers",
     },
     {
       number: "04",
       title: "Passenger Injuries During Abrupt Curbside Stops",
-      image: getSeoImage("abrupt-curbside-stops-passenger-injuries-largo.webp", "uber-accident-lawyer-largo").filePath,
+      image: getSeoImage("abrupt-uber-curbside-stops-passenger-injuries-largo.webp", "uber-accident-lawyer-largo").filePath,
+      imageObj: getSeoImage("abrupt-uber-curbside-stops-passenger-injuries-largo.webp", "uber-accident-lawyer-largo"),
       description: (
         <p>
           Rideshare drivers frequently stop in an unplanned way on a busy curbside to pick up and drop off passengers. When drivers in active traffic stop their cars without warning, passengers inside don&apos;t have enough time to slow down. The resulting whip-like motion sends occupants into seats and door panels, resulting in immediate whiplash, concussion and facial trauma.
         </p>
       ),
-      location: "Active Traffic Pickup Corridors",
     },
     {
       number: "05",
       title: "Drivers Missing Traffic Signals While Following Navigation Prompts",
-      image: getSeoImage("distracted-driving-navigation-prompts-largo.webp", "uber-accident-lawyer-largo").filePath,
+      image: getSeoImage("distracted-uber-driving-navigation-signals-largo-fl.webp", "uber-accident-lawyer-largo").filePath,
+      imageObj: getSeoImage("distracted-uber-driving-navigation-signals-largo-fl.webp", "uber-accident-lawyer-largo"),
       description: (
         <p>
-          A driver’s eyes leave the roadway every time they glance down at a smartphone screen to check GPS routes. This split-second visual distraction causes drivers to run red lights, blow through stop signs, or make illegal turns at busy intersections. These navigation-induced errors frequently result in violent, high-impact crashes.
+          A driver’s eyes leave the roadway every time they glance down at a smartphone screen to check GPS routes. This split-second visual distraction causes drivers to run red lights, blow through stop signs or make illegal turns at busy intersections. These navigation-induced errors frequently result in violent, high-impact crashes.
         </p>
       ),
-      location: "Largo Signalized Intersections",
     },
     {
       number: "06",
       title: "Side-Impact Crashes at Busy Commercial Entrances",
-      image: getSeoImage("side-impact-t-bone-crashes-commercial-entrances-largo.webp", "uber-accident-lawyer-largo").filePath,
+      image: getSeoImage("side-impact-uber-crashes-commercial-entrances-largo.webp", "uber-accident-lawyer-largo").filePath,
+      imageObj: getSeoImage("side-impact-uber-crashes-commercial-entrances-largo.webp", "uber-accident-lawyer-largo"),
       description: (
         <p>
           When exiting from a busy commercial plaza to an arterial road such as East Bay Drive, there is a great need for caution. Rideshare drivers will sometimes underestimate the speed of oncoming traffic when turning left onto them. The consequences include catastrophic T-bone collisions, in which only one side of the car is struck and the passengers inside are protected by the contents of the other.
         </p>
       ),
-      location: "East Bay Drive Corridor",
     },
     {
       number: "07",
       title: "Wet Pavement and Reduced Stopping Distance During Heavy Rain",
-      image: getSeoImage("wet-pavement-stopping-distance-rain-largo.webp", "uber-accident-lawyer-largo").filePath,
+      image: getSeoImage("wet-pavement-uber-stopping-distance-heavy-rain-largo.webp", "uber-accident-lawyer-largo").filePath,
+      imageObj: getSeoImage("wet-pavement-uber-stopping-distance-heavy-rain-largo.webp", "uber-accident-lawyer-largo"),
       description: (
         <p>
           Florida’s sudden afternoon downpours turn Largo roads slick in a matter of seconds. Rideshare vehicles operating with worn tire treads lose traction rapidly on flooded asphalt, causing stopping distances to double or triple. When drivers follow too closely in torrential rain, massive multi-vehicle pileups become almost inevitable.
         </p>
       ),
-      location: "Pinellas County Arterials & Highway Routes",
     },
   ];
 
@@ -141,15 +141,13 @@ const CommonCausesSection = () => {
                 <div className="relative w-full h-[220px] overflow-hidden bg-slate-900">
                   <Image
                     src={item.image}
-                    alt={item.title}
+                    alt={item.imageObj?.altText || item.title}
+                    title={item.imageObj?.title}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent" />
-                  <span className="absolute top-4 left-4 bg-primary text-white text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
-                    Cause {item.number}
-                  </span>
                 </div>
 
                 <div className="p-6">
@@ -160,13 +158,6 @@ const CommonCausesSection = () => {
                     {item.description}
                   </div>
                 </div>
-              </div>
-
-              <div className="px-6 pb-6 pt-2 border-t border-gray-50 flex items-center justify-between text-xs text-gray-400 font-bold uppercase tracking-wider">
-                <span>{item.location}</span>
-                <span className="text-primary font-extrabold group-hover:translate-x-1 transition-transform">
-                  &rarr;
-                </span>
               </div>
             </motion.div>
           ))}
