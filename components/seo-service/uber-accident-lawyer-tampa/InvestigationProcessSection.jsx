@@ -65,19 +65,12 @@ const InvestigationProcessSection = () => {
     <section className="w-full bg-[#faf9f6] py-12 md:py-16">
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8">
         <div className="text-center max-w-3xl mx-auto mb-14">
-          <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-2">
-            Potentially Liable Parties
-          </span>
           <h2 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-secondary tracking-tight leading-tight">
             Who May Be Legally Responsible for an Uber Accident in Florida
           </h2>
           <div className="w-24 h-[3px] bg-primary mx-auto mt-6 mb-6" />
           <p className="text-gray-600 text-sm md:text-base leading-relaxed font-medium">
-            The absolute most important part of any injury claim involves pinpointing exactly who caused your accident. We investigate everyone involved to maximize the available insurance money for your expensive physical recovery. Liability becomes more complicated when a collision involves a commercial vehicle or several motorists. People injured in truck crashes can explore our{" "}
-            <Link href="/best-truck-accident-lawyer-north-tampa" className="text-primary hover:underline font-semibold">
-              best truck accident lawyer in north tampa
-            </Link>{" "}
-            service to learn more about pursuing compensation for serious accident injuries.
+            The absolute most important part of any injury claim involves pinpointing exactly who caused your accident. We investigate everyone involved to maximize the available insurance money for your expensive physical recovery. Liability becomes more complicated when a collision involves a commercial vehicle or several motorists.
           </p>
         </div>
 

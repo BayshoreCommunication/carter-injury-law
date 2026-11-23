@@ -20,51 +20,51 @@ const CommonCausesSection = () => {
     {
       number: "01",
       title: "Drivers Rushing Between Passenger Requests",
-      image: getSeoImage("drivers-rushing-passenger-requests-tampa.webp", "uber-accident-lawyer-tampa").filePath,
+      image: getSeoImage("drivers-rushing-between-uber-requests-tampa-bay-fl.webp", "uber-accident-lawyer-tampa").filePath,
+      imageObj: getSeoImage("drivers-rushing-between-uber-requests-tampa-bay-fl.webp", "uber-accident-lawyer-tampa"),
       description: "The application payment model forces many drivers to rush recklessly to grab their next fare. This constant financial pressure creates dangerous driving habits that put trusting passengers at serious physical risk.",
-      location: "Tampa Roadways & Commute Routes",
     },
     {
       number: "02",
       title: "Unsafe U Turns and Last Minute Route Changes",
-      image: getSeoImage("unsafe-u-turns-route-changes-tampa.webp", "uber-accident-lawyer-tampa").filePath,
+      image: getSeoImage("unsafe-u-turns-last-minute-route-changes-tampa-bay.webp", "uber-accident-lawyer-tampa").filePath,
+      imageObj: getSeoImage("unsafe-u-turns-last-minute-route-changes-tampa-bay.webp", "uber-accident-lawyer-tampa"),
       description: "GPS navigation programs frequently direct drivers to make sudden lane changes or highly illegal turns. These totally unpredictable maneuvers catch other motorists off guard and cause devastating broadside vehicle collisions.",
-      location: "City Intersections & Side Streets",
     },
     {
       number: "03",
       title: "Passenger Door Collisions Along Tampa Busy Streets",
-      image: getSeoImage("passenger-door-collisions-tampa-streets.webp", "uber-accident-lawyer-tampa").filePath,
+      image: getSeoImage("passenger-door-collisions-along-busy-tampa-streets.webp", "uber-accident-lawyer-tampa").filePath,
+      imageObj: getSeoImage("passenger-door-collisions-along-busy-tampa-streets.webp", "uber-accident-lawyer-tampa"),
       description: "Safe drop off zones in crowded urban areas prove difficult for many rideshare drivers to find. Fares who exit the vehicle in active traffic lanes face a huge risk of getting hit.",
-      location: "Urban Drop-Off Zones & Bike Lanes",
     },
     {
       number: "04",
       title: "Distracted Driving at Traffic Signals and Intersections",
-      image: getSeoImage("distracted-driving-traffic-signals-intersections-tampa.webp", "uber-accident-lawyer-tampa").filePath,
+      image: getSeoImage("distracted-uber-driving-traffic-signals-in-tampa-fl.webp", "uber-accident-lawyer-tampa").filePath,
+      imageObj: getSeoImage("distracted-uber-driving-traffic-signals-in-tampa-fl.webp", "uber-accident-lawyer-tampa"),
       description: "A quick glance at a phone screen completely blinds a driver to changing traffic lights. Rideshare operators who constantly check new ride requests often blow through intersections and cause massive wrecks.",
-      location: "Traffic Signals & Intersections",
     },
     {
       number: "05",
       title: "Crashes Near Hotels Restaurants and Entertainment Venues",
-      image: getSeoImage("crashes-near-hotels-restaurants-venues-tampa.webp", "uber-accident-lawyer-tampa").filePath,
+      image: getSeoImage("uber-crashes-hotels-restaurants-venues-tampa-night.webp", "uber-accident-lawyer-tampa").filePath,
+      imageObj: getSeoImage("uber-crashes-hotels-restaurants-venues-tampa-night.webp", "uber-accident-lawyer-tampa"),
       description: "Tourist hot spots always attract large crowds of pedestrians and unpredictable rideshare vehicle traffic patterns locally. Drivers who stop abruptly to load passengers block active traffic and trigger severe rear end crashes.",
-      location: "Hotels, Restaurants & Entertainment Venues",
     },
     {
       number: "06",
       title: "Rear End Impacts During Congested Commutes",
-      image: getSeoImage("rear-end-impacts-congested-commutes-tampa.webp", "uber-accident-lawyer-tampa").filePath,
+      image: getSeoImage("uber-rear-end-impacts-congested-tampa-commutes-bay.webp", "uber-accident-lawyer-tampa").filePath,
+      imageObj: getSeoImage("uber-rear-end-impacts-congested-tampa-commutes-bay.webp", "uber-accident-lawyer-tampa"),
       description: "Rush hour traffic requires all drivers to maintain a safe distance and always pay close attention. Rideshare operators who follow too closely simply cannot stop in time when the cars ahead brake.",
-      location: "Congested Commute Corridors",
     },
     {
       number: "07",
       title: "Accidents Caused by Poor Vehicle Maintenance",
-      image: getSeoImage("poor-vehicle-maintenance-accidents-tampa.webp", "uber-accident-lawyer-tampa").filePath,
+      image: getSeoImage("uber-accidents-caused-poor-vehicle-maintenance-tampa.webp", "uber-accident-lawyer-tampa").filePath,
+      imageObj: getSeoImage("uber-accidents-caused-poor-vehicle-maintenance-tampa.webp", "uber-accident-lawyer-tampa"),
       description: "Rideshare vehicles rack up thousands of miles quickly and require constant brake and tire replacements. Owners who skip basic car maintenance directly cause blown tires and catastrophic highway brake failures.",
-      location: "High-Mileage Highway Driving",
     },
   ];
 
@@ -110,15 +110,13 @@ const CommonCausesSection = () => {
                 <div className="relative w-full h-[220px] overflow-hidden bg-slate-900">
                   <Image
                     src={item.image}
-                    alt={item.title}
+                    alt={item.imageObj?.altText || item.title}
+                    title={item.imageObj?.title}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent" />
-                  <span className="absolute top-4 left-4 bg-primary text-white text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
-                    Cause {item.number}
-                  </span>
                 </div>
 
                 <div className="p-6">
@@ -129,13 +127,6 @@ const CommonCausesSection = () => {
                     {item.description}
                   </div>
                 </div>
-              </div>
-
-              <div className="px-6 pb-6 pt-2 border-t border-gray-50 flex items-center justify-between text-xs text-gray-400 font-bold uppercase tracking-wider">
-                <span>{item.location}</span>
-                <span className="text-primary font-extrabold group-hover:translate-x-1 transition-transform">
-                  &rarr;
-                </span>
               </div>
             </motion.div>
           ))}

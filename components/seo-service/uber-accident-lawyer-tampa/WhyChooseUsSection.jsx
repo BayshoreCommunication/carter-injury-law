@@ -43,9 +43,6 @@ const WhyChooseUsSection = () => {
     <section className="w-full bg-white py-14 md:py-20">
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-2">
-            Why Choose Carter Injury Law
-          </span>
           <h2 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-secondary tracking-tight leading-tight">
             Why Tampa Uber Accident Victims Choose Our Law Firm
           </h2>
@@ -87,21 +84,13 @@ const WhyChooseUsSection = () => {
           <div className="col-span-12 lg:col-span-5 relative">
             <div className="relative rounded-[24px] overflow-hidden shadow-2xl bg-slate-900 border border-gray-100 h-[520px]">
               <Image
-                src={getSeoImage("direct-attorney-communication-uber-claims-tampa.webp", "uber-accident-lawyer-tampa").filePath}
-                alt="Why Tampa Uber Accident Victims Choose Our Law Firm"
+                src={getSeoImage("direct-attorney-communication-uber-claims-tampa-fl.webp", "uber-accident-lawyer-tampa").filePath}
+                alt={getSeoImage("direct-attorney-communication-uber-claims-tampa-fl.webp", "uber-accident-lawyer-tampa").altText || "Why Tampa Uber Accident Victims Choose Our Law Firm"}
+                title={getSeoImage("direct-attorney-communication-uber-claims-tampa-fl.webp", "uber-accident-lawyer-tampa").title}
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 40vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 via-secondary/20 to-transparent" />
-              <div className="absolute bottom-0 inset-x-0 p-6 sm:p-8 text-white z-10">
-                <span className="text-xs font-bold uppercase tracking-widest text-primary block mb-2">
-                  Direct Attorney Access
-                </span>
-                <p className="text-base sm:text-lg font-bold leading-snug">
-                  Our dedicated team builds a customized legal strategy based on the specific facts of your crash.
-                </p>
-              </div>
             </div>
           </div>
         </div>

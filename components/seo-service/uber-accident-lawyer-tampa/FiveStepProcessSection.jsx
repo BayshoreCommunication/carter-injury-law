@@ -13,10 +13,6 @@ const FiveStepProcessSection = () => {
           transition={{ duration: 0.6 }}
           className="max-w-4xl mx-auto text-center space-y-6"
         >
-          <span className="text-xs font-extrabold tracking-widest text-primary uppercase block">
-            Proven Legal Pathways
-          </span>
-
           <h2 className="text-3xl sm:text-4xl md:text-[42px] font-extrabold text-white tracking-tight leading-tight">
             How an Uber Accident Lawyer Tampa Turns Complicated Claims Into Clear Legal Pathways
           </h2>

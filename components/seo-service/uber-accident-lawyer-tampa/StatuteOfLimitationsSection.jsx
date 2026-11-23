@@ -36,11 +36,6 @@ const StatuteOfLimitationsSection = () => {
     <section className="w-full bg-[#faf9f6] py-14 md:py-20">
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-50 text-amber-700 font-bold text-xs uppercase tracking-wider mb-3">
-            <AlertTriangle className="w-4 h-4" />
-            <span>Time-Sensitive Legal Deadlines</span>
-          </div>
-
           <h2 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-secondary tracking-tight leading-tight">
             Florida Statute of Limitations Why Timing Is Important in Your Case
           </h2>

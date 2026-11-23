@@ -48,22 +48,13 @@ const WhyRightLawyerSection = () => {
             >
               <div className="relative w-full h-[400px] sm:h-[480px]">
                 <Image
-                  src={getSeoImage("dedicated-uber-accident-lawyer-tampa.webp", "uber-accident-lawyer-tampa").filePath}
-                  alt="Why Injured Tampa Uber Accident Victims Risk Losing Compensation Without Legal Representation"
+                  src={getSeoImage("dedicated-uber-accident-lawyer-consultation-tampa-fl.webp", "uber-accident-lawyer-tampa").filePath}
+                  alt={getSeoImage("dedicated-uber-accident-lawyer-consultation-tampa-fl.webp", "uber-accident-lawyer-tampa").altText || "Why Injured Tampa Uber Accident Victims Risk Losing Compensation Without Legal Representation"}
+                  title={getSeoImage("dedicated-uber-accident-lawyer-consultation-tampa-fl.webp", "uber-accident-lawyer-tampa").title}
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 40vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 via-secondary/30 to-transparent" />
-              </div>
-
-              <div className="absolute bottom-0 inset-x-0 p-6 sm:p-8 text-white z-10">
-                <p className="text-xs font-bold uppercase tracking-widest text-primary mb-2">
-                  Uber Claim Protection
-                </p>
-                <p className="text-base sm:text-lg font-bold leading-snug">
-                  Unrepresented victims who take on massive insurance companies alone usually receive a severely undervalued claim payout. An experienced legal advocate protects you from deceptive corporate tactics designed to minimize your final check.
-                </p>
               </div>
             </motion.div>
           </div>
@@ -75,9 +66,6 @@ const WhyRightLawyerSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-2">
-                Uber Claim Protection
-              </span>
               <h2 className="text-3xl sm:text-4xl lg:text-[40px] font-extrabold text-secondary tracking-tight leading-tight">
                 Why Injured Tampa Uber Accident Victims Risk Losing Compensation Without Legal Representation
               </h2>
