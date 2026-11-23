@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Link from "next/link";
 import { UserX, Briefcase, Landmark, Home, Wrench } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -19,15 +18,8 @@ const InvestigationProcessSection = () => {
     {
       icon: Landmark,
       title: "Government Agencies Responsible for Roadway Maintenance",
-      description: (
-        <>
-          Hillsborough County must keep local public roads safe for cyclists. If the government fails to address dangerous potholes, it may be held liable for crashes they cause. Claims against government entities involve very strict deadlines and rules. We handle these complex administrative procedures on your behalf. We hold negligent municipal agencies accountable for hazardous road conditions. Unsafe property conditions can lead to fatal accidents and devastating family losses. A{" "}
-          <Link href="/premises-liability-wrongful-death-lawyer-tampa" className="text-primary hover:underline font-semibold">
-            premises liability wrongful death lawyer Tampa
-          </Link>{" "}
-          represents families pursuing wrongful death claims involving hazardous properties.
-        </>
-      ),
+      description:
+        "Hillsborough County must keep local public roads safe for cyclists. If the government fails to address dangerous potholes, it may be held liable for crashes they cause. Claims against government entities involve very strict deadlines and rules. We handle these complex administrative procedures on your behalf. We hold negligent municipal agencies accountable for hazardous road conditions.",
     },
     {
       icon: Home,
@@ -46,9 +38,6 @@ const InvestigationProcessSection = () => {
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8">
         
         <div className="text-center max-w-3xl mx-auto mb-14">
-          <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-2">
-            Potentially Liable Parties
-          </span>
           <h2 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-secondary tracking-tight leading-tight">
             Who Can Be Held Liable for a Tampa Bicycle Accident
           </h2>

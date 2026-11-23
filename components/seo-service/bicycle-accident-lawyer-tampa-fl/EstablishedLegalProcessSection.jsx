@@ -48,15 +48,12 @@ const EstablishedLegalProcessSection = () => {
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8">
         
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-2">
-            Disciplined Legal Process
-          </span>
           <h2 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-secondary tracking-tight leading-tight">
             Established Legal Process for Handling Tampa Bicycle Accident Cases
           </h2>
           <div className="w-24 h-[3px] bg-primary mx-auto mt-6 mb-6" />
           <p className="text-gray-600 text-sm md:text-base leading-relaxed font-medium">
-            A structured legal process ensures no detail is overlooked in your claim. Every client deserves to know exactly what to expect. We guide you through each stage while preparing for potential challenges.
+            Every client deserves to know exactly what to expect. We guide you through each stage while preparing for potential delays.
           </p>
         </div>
 

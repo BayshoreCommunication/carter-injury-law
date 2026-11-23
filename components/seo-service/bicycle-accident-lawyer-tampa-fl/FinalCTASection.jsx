@@ -2,7 +2,7 @@
 import { getSeoImage } from "@/lib/seo-service-images";
 import React from "react";
 import Image from "next/image";
-import { Phone, MapPin, ShieldCheck, ArrowRight } from "lucide-react";
+import { Phone, MapPin, ShieldCheck } from "lucide-react";
 
 const FinalCTASection = () => {
   return (
@@ -13,9 +13,6 @@ const FinalCTASection = () => {
           
           <div className="col-span-12 lg:col-span-7 space-y-8 text-left">
             <div>
-              <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-3">
-                Contact Carter Injury Law Today
-              </span>
               <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-white tracking-tight leading-tight">
                 Secure Committed Legal Advocacy Contact Carter Injury Law for a Confidential Consultation
               </h2>
@@ -25,18 +22,20 @@ const FinalCTASection = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 border-t border-white/10">
-              <div className="flex items-start gap-3.5">
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 border-t border-white/10">
+              <li className="flex items-start gap-3.5">
                 <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0 text-primary">
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
                   <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Phone</p>
-                  <p className="text-sm font-semibold text-white mt-0.5">(813) 922-0228</p>
+                  <a href="tel:8139220228" className="text-sm font-semibold text-white mt-0.5 hover:text-primary transition-colors block">
+                    (813) 922-0228
+                  </a>
                 </div>
-              </div>
+              </li>
 
-              <div className="flex items-start gap-3.5">
+              <li className="flex items-start gap-3.5">
                 <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0 text-primary">
                   <MapPin className="w-5 h-5" />
                 </div>
@@ -44,9 +43,9 @@ const FinalCTASection = () => {
                   <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Office</p>
                   <p className="text-sm font-semibold text-white mt-0.5">3114 N Boulevard Tampa FL 33603</p>
                 </div>
-              </div>
+              </li>
 
-              <div className="flex items-start gap-3.5 sm:col-span-2">
+              <li className="flex items-start gap-3.5 sm:col-span-2">
                 <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0 text-primary">
                   <ShieldCheck className="w-5 h-5" />
                 </div>
@@ -54,38 +53,20 @@ const FinalCTASection = () => {
                   <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Consultation</p>
                   <p className="text-sm font-semibold text-white mt-0.5">Free confidential case evaluation</p>
                 </div>
-              </div>
-            </div>
-
-            <div className="pt-4 flex flex-wrap gap-4">
-              <a
-                href="tel:8139220228"
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-primary hover:bg-red-700 text-white font-extrabold text-base uppercase tracking-wider shadow-xl transition-all duration-300 group"
-              >
-                <span>Call (813) 922-0228 Now</span>
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </a>
-            </div>
+              </li>
+            </ul>
           </div>
 
           <div className="col-span-12 lg:col-span-5 relative">
             <div className="relative rounded-[24px] overflow-hidden shadow-2xl bg-slate-900 border border-white/10 h-[480px]">
               <Image
-                src={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "bicycle-accident-lawyer-tampa-fl").filePath}
-                alt="Carter Injury Law Legal Team"
+                src={getSeoImage("carter-injury-law-team-tampa-bicycle-accident-cases.webp", "bicycle-accident-lawyer-tampa-fl").filePath}
+                alt={getSeoImage("carter-injury-law-team-tampa-bicycle-accident-cases.webp", "bicycle-accident-lawyer-tampa-fl").altText}
+                title={getSeoImage("carter-injury-law-team-tampa-bicycle-accident-cases.webp", "bicycle-accident-lawyer-tampa-fl").title}
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 40vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-secondary via-transparent to-transparent" />
-              <div className="absolute bottom-6 inset-x-6 text-center">
-                <p className="text-sm font-bold text-white uppercase tracking-wider">
-                  Carter Injury Law Legal Team
-                </p>
-                <p className="text-xs text-gray-300 mt-1">
-                  Ready 24/7 to advocate for your family
-                </p>
-              </div>
             </div>
           </div>
 
