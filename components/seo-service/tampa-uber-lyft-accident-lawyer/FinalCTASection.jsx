@@ -3,9 +3,10 @@ import { getSeoImage } from "@/lib/seo-service-images";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Phone, MapPin, Building, ShieldCheck, ArrowRight } from "lucide-react";
+import { Phone, MapPin, Building, ShieldCheck } from "lucide-react";
 
 const FinalCTASection = () => {
+  const ctaImg = getSeoImage("carter-injury-law-legal-team-tampa-uber-lyft-cases.webp", "tampa-uber-lyft-accident-lawyer");
   return (
     <section className="w-full bg-[#1E2538] text-white py-16 md:py-24 relative overflow-hidden">
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8 relative z-10">
@@ -32,7 +33,7 @@ const FinalCTASection = () => {
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Tampa Office</p>
+                  <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Tampa office:</p>
                   <p className="text-sm font-semibold text-white mt-0.5">3114 N. Boulevard Tampa FL 33603</p>
                 </div>
               </div>
@@ -42,7 +43,7 @@ const FinalCTASection = () => {
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Phone</p>
+                  <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Phone:</p>
                   <p className="text-sm font-semibold text-white mt-0.5">813 922 0228</p>
                 </div>
               </div>
@@ -52,7 +53,7 @@ const FinalCTASection = () => {
                   <Building className="w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Additional Office</p>
+                  <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Additional office:</p>
                   <p className="text-sm font-semibold text-white mt-0.5">801 W. Bay Drive Suite 229 Largo FL 33770</p>
                   <p className="text-[11px] text-gray-400 mt-0.5">This Largo satellite office requires a scheduled appointment.</p>
                 </div>
@@ -74,44 +75,18 @@ const FinalCTASection = () => {
                 </div>
               </div>
             </div>
-
-            <div className="pt-4 flex flex-wrap items-center gap-4">
-              <a
-                href="tel:8139220228"
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-primary hover:bg-red-700 text-white font-extrabold text-base uppercase tracking-wider shadow-xl transition-all duration-300 group"
-              >
-                <span>Call 813 922 0228 Now</span>
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </a>
-
-              <Link
-                href="/contact"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl border-2 border-white/20 hover:border-primary hover:bg-primary/20 text-white font-bold text-base tracking-wide transition-all duration-300"
-              >
-                <span>Contact us to schedule your free evaluation</span>
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
           </div>
 
           <div className="col-span-12 lg:col-span-5 relative">
             <div className="relative rounded-[24px] overflow-hidden shadow-2xl bg-slate-900 border border-white/10 h-[480px]">
               <Image
-                src={getSeoImage("dedicated-legal-counsel-tampa-uber-lyft-accident.webp", "tampa-uber-lyft-accident-lawyer").filePath}
-                alt="Carter Injury Law Legal Team"
+                src={ctaImg.filePath}
+                alt={ctaImg.altText || "Carter Injury Law Legal Team"}
+                title={ctaImg.title}
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 40vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-secondary via-transparent to-transparent" />
-              <div className="absolute bottom-6 inset-x-6 text-center">
-                <p className="text-sm font-bold text-white uppercase tracking-wider">
-                  Carter Injury Law Legal Team
-                </p>
-                <p className="text-xs text-gray-300 mt-1">
-                  Ready 24/7 to advocate for your family
-                </p>
-              </div>
             </div>
           </div>
 

@@ -30,11 +30,6 @@ const TestimonialsSection = () => {
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8">
         
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-red-50 text-primary font-bold text-xs uppercase tracking-wider mb-3">
-            <Star className="w-4 h-4 fill-primary text-primary" />
-            <span>5-Star Client Reviews</span>
-          </div>
-
           <h2 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-secondary tracking-tight leading-tight">
             What Our Tampa Uber and Lyft Accident Clients Say About Their Experience With Our Firm
           </h2>
@@ -66,7 +61,7 @@ const TestimonialsSection = () => {
 
               <div className="pt-4 border-t border-gray-200/60 flex items-center justify-between">
                 <span className="font-extrabold text-secondary text-base">
-                  — {item.name}
+                  —{item.name}
                 </span>
                 <Quote className="w-6 h-6 text-gray-300" />
               </div>

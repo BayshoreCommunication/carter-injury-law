@@ -34,16 +34,6 @@ const ExpertValuationSection = () => {
   return (
     <section className="w-full bg-[#faf9f6] py-14 md:py-20">
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8">
-        
-        <div className="text-center max-w-3xl mx-auto mb-14">
-          <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-2">
-            Comparison Guide
-          </span>
-          <h2 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-secondary tracking-tight leading-tight">
-            Client Concern &amp; Claim Management Comparison
-          </h2>
-          <div className="w-24 h-[3px] bg-primary mx-auto mt-6 mb-6" />
-        </div>
 
         <div className="bg-white rounded-[24px] shadow-xl border border-gray-100 overflow-hidden max-w-5xl mx-auto">
           <div className="overflow-x-auto">

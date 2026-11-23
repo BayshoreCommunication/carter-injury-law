@@ -44,9 +44,6 @@ const WhyChooseUsSection = () => {
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8">
         
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-2">
-            Why Choose Carter Injury Law
-          </span>
           <h2 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-secondary tracking-tight leading-tight">
             Why Tampa Rideshare Accident Victims Choose Our Law Firm
           </h2>
@@ -88,22 +85,13 @@ const WhyChooseUsSection = () => {
           <div className="col-span-12 lg:col-span-5 relative">
             <div className="relative rounded-[24px] overflow-hidden shadow-2xl bg-slate-900 border border-gray-100 h-[520px]">
               <Image
-                src={getSeoImage("direct-attorney-access-tampa-uber-lyft-claims.webp", "tampa-uber-lyft-accident-lawyer").filePath}
-                alt={getSeoImage("direct-attorney-access-tampa-uber-lyft-claims.webp", "tampa-uber-lyft-accident-lawyer").altText || "Attorney David J. Carter - Dedicated Rideshare Counsel in Tampa"}
-                title={getSeoImage("direct-attorney-access-tampa-uber-lyft-claims.webp", "tampa-uber-lyft-accident-lawyer").title}
+                src={getSeoImage("direct-attorney-access-tampa-uber-lyft-accident-fl.webp", "tampa-uber-lyft-accident-lawyer").filePath}
+                alt={getSeoImage("direct-attorney-access-tampa-uber-lyft-accident-fl.webp", "tampa-uber-lyft-accident-lawyer").altText || "Attorney David Carter - Dedicated Rideshare Counsel in Tampa"}
+                title={getSeoImage("direct-attorney-access-tampa-uber-lyft-accident-fl.webp", "tampa-uber-lyft-accident-lawyer").title}
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 40vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 via-secondary/20 to-transparent" />
-              <div className="absolute bottom-0 inset-x-0 p-8 text-white">
-                <p className="text-xs font-bold uppercase tracking-widest text-primary mb-2">
-                  Direct Attorney Access
-                </p>
-                <p className="text-lg font-bold leading-snug">
-                  Experienced Uber and Lyft accident representation in Tampa and throughout Hillsborough County.
-                </p>
-              </div>
             </div>
           </div>
         </div>

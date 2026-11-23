@@ -21,43 +21,43 @@ const CommonCausesSection = () => {
       number: "01",
       title: "Distracted Driving During App Navigation and Ride Requests",
       image: getSeoImage("distracted-driving-app-navigation-ride-requests-tampa.webp", "tampa-uber-lyft-accident-lawyer").filePath,
+      imageObj: getSeoImage("distracted-driving-app-navigation-ride-requests-tampa.webp", "tampa-uber-lyft-accident-lawyer"),
       description: "App alerts constantly demand driver attention. The Uber app pings loudly when new ride requests arrive. A quick glance at a phone screen takes eyes off the road. A split second of inattention easily causes severe accidents. This distraction violates basic traffic safety rules.",
-      location: "Mobile App & GPS Navigation",
     },
     {
       number: "02",
       title: "Unsafe Passenger Pickups and Drop-Offs Near Busy Tampa Streets",
       image: getSeoImage("unsafe-passenger-pickups-dropoffs-busy-tampa-streets.webp", "tampa-uber-lyft-accident-lawyer").filePath,
+      imageObj: getSeoImage("unsafe-passenger-pickups-dropoffs-busy-tampa-streets.webp", "tampa-uber-lyft-accident-lawyer"),
       description: "Drivers often pull over in dangerous spots. Vehicles blocking bike lanes or active traffic lanes create massive hazards. Sudden stops on Kennedy Boulevard put everyone at risk. Other cars might not stop in time. These abrupt maneuvers put pedestrians and passengers in danger.",
-      location: "Kennedy Boulevard & City Streets",
     },
     {
       number: "03",
       title: "Speeding and Aggressive Driving to Complete More Trips",
-      image: getSeoImage("speeding-aggressive-driving-rideshare-trips-tampa.webp", "tampa-uber-lyft-accident-lawyer").filePath,
+      image: getSeoImage("speeding-aggressive-driving-rideshare-trips-tampa-fl.webp", "tampa-uber-lyft-accident-lawyer").filePath,
+      imageObj: getSeoImage("speeding-aggressive-driving-rideshare-trips-tampa-fl.webp", "tampa-uber-lyft-accident-lawyer"),
       description: "Gig workers earn money based on completed trips. This payment structure encourages rushing through city streets. High speeds drastically reduce reaction times. Speed also increases the severity of any resulting impact. Faster speeds mean harder collisions and worse physical injuries.",
-      location: "Tampa City Corridors",
     },
     {
       number: "04",
       title: "Fatigue From Extended Rideshare Driving Hours",
-      image: getSeoImage("fatigue-extended-rideshare-driving-hours-tampa.webp", "tampa-uber-lyft-accident-lawyer").filePath,
+      image: getSeoImage("fatigue-extended-rideshare-driving-hours-tampa-city.webp", "tampa-uber-lyft-accident-lawyer").filePath,
+      imageObj: getSeoImage("fatigue-extended-rideshare-driving-hours-tampa-city.webp", "tampa-uber-lyft-accident-lawyer"),
       description: "Many gig workers drive long after finishing a day job. Exhaustion dulls the senses and slows reflexes. Drowsy driving is just as dangerous as drunk driving. Weary drivers easily miss red lights or stop signs. Florida heat makes this tiredness even worse during afternoon shifts.",
-      location: "Late-Night & Afternoon Shifts",
     },
     {
       number: "05",
       title: "Rear-End Collisions and Sudden Stops in Heavy Traffic",
       image: getSeoImage("rear-end-collisions-sudden-stops-heavy-traffic-tampa.webp", "tampa-uber-lyft-accident-lawyer").filePath,
+      imageObj: getSeoImage("rear-end-collisions-sudden-stops-heavy-traffic-tampa.webp", "tampa-uber-lyft-accident-lawyer"),
       description: "Tampa traffic can change rapidly. There are many irregular slowdowns on Interstate 275. By driving too close, drivers are unable to brake quickly. Often these jerks result in whiplash and injury to the spinal cord. Rear-ending crashes can cause quite a bit of damage.",
-      location: "Interstate 275 & Highway Corridors",
     },
     {
       number: "06",
       title: "Unsafe Lane Changes Around Tampa International Airport and Downtown",
-      image: getSeoImage("unsafe-lane-changes-tampa-airport-downtown.webp", "tampa-uber-lyft-accident-lawyer").filePath,
+      image: getSeoImage("unsafe-lane-changes-tampa-airport-downtown-streets.webp", "tampa-uber-lyft-accident-lawyer").filePath,
+      imageObj: getSeoImage("unsafe-lane-changes-tampa-airport-downtown-streets.webp", "tampa-uber-lyft-accident-lawyer"),
       description: "The airport terminals are extremely busy and can be confusing even for locals. Drivers jockey for exits which they miss. Drivers can often fail to scan their own blind spots. Sideswipe collisions are common in these areas with heavy commercial traffic. You need all your attention when you have to cross traffic lanes.",
-      location: "Tampa International Airport & Downtown",
     },
   ];
 
@@ -101,15 +101,13 @@ const CommonCausesSection = () => {
                 <div className="relative w-full h-[220px] overflow-hidden bg-slate-900">
                   <Image
                     src={item.image}
-                    alt={item.title}
+                    alt={item.imageObj?.altText || item.title}
+                    title={item.imageObj?.title}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent" />
-                  <span className="absolute top-4 left-4 bg-primary text-white text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
-                    Cause {item.number}
-                  </span>
                 </div>
 
                 <div className="p-6">
@@ -120,13 +118,6 @@ const CommonCausesSection = () => {
                     {item.description}
                   </div>
                 </div>
-              </div>
-
-              <div className="px-6 pb-6 pt-2 border-t border-gray-50 flex items-center justify-between text-xs text-gray-400 font-bold uppercase tracking-wider">
-                <span>{item.location}</span>
-                <span className="text-primary font-extrabold group-hover:translate-x-1 transition-transform">
-                  &rarr;
-                </span>
               </div>
             </motion.div>
           ))}
