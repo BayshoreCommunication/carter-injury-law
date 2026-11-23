@@ -50,22 +50,13 @@ const WhyRightLawyerSection = () => {
             >
               <div className="relative w-full h-[400px] sm:h-[480px]">
                 <Image
-                  src={getSeoImage("Dedicated Legal Counsel Tampa Wrongful Death Claims.webp", "golf-cart-accident-lawyer-tampa").filePath}
-                  alt="Why Golf Cart Accident Victims Can Lose Valuable Compensation Without Legal Representation"
+                  src={getSeoImage("tampa-golf-cart-accident-lawyer-client-consultation.webp", "golf-cart-accident-lawyer-tampa").filePath}
+                  alt={getSeoImage("tampa-golf-cart-accident-lawyer-client-consultation.webp", "golf-cart-accident-lawyer-tampa").altText}
+                  title={getSeoImage("tampa-golf-cart-accident-lawyer-client-consultation.webp", "golf-cart-accident-lawyer-tampa").title}
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 40vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 via-secondary/30 to-transparent" />
-              </div>
-
-              <div className="absolute bottom-0 inset-x-0 p-6 sm:p-8 text-white z-10">
-                <p className="text-xs font-bold uppercase tracking-widest text-primary mb-2">
-                  Protection For Crash Victims
-                </p>
-                <p className="text-base sm:text-lg font-bold leading-snug">
-                  Injured victims frequently struggle to recover full compensation when handling complex legal claims without professional assistance.
-                </p>
               </div>
             </motion.div>
           </div>
@@ -77,9 +68,6 @@ const WhyRightLawyerSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-2">
-                Protection For Crash Victims
-              </span>
               <h2 className="text-3xl sm:text-4xl lg:text-[40px] font-extrabold text-secondary tracking-tight leading-tight">
                 Why Golf Cart Accident Victims Can Lose Valuable Compensation Without Legal Representation
               </h2>

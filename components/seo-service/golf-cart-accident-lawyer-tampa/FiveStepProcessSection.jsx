@@ -8,10 +8,6 @@ const FiveStepProcessSection = () => {
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8 relative z-10">
         
         <div className="max-w-4xl mx-auto text-center space-y-6">
-          <span className="text-xs font-extrabold tracking-widest text-primary uppercase block">
-            Proven Case Investigation
-          </span>
-
           <h2 className="text-3xl sm:text-4xl md:text-[42px] font-extrabold text-white tracking-tight leading-tight">
             How a Tampa Golf Cart Accident Lawyer Builds a Stronger Claim After a Serious Collision
           </h2>

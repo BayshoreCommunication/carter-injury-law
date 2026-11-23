@@ -42,9 +42,6 @@ const CompensationTypesSection = () => {
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8">
         
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-2">
-            Full Value Recovery
-          </span>
           <h2 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-secondary tracking-tight leading-tight">
             The True Value of Full Compensation After a Tampa Golf Cart Accident
           </h2>

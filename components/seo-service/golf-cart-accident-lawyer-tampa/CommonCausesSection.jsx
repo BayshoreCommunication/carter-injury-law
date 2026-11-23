@@ -21,52 +21,52 @@ const CommonCausesSection = () => {
     {
       number: "01",
       title: "Rollovers on Turns, Slopes and Uneven Ground",
-      image: getSeoImage("dangerous-left-turn-right-turn-collisions-tampa.webp", "golf-cart-accident-lawyer-tampa").filePath,
-      description: "The narrow golf carts can tip over on uneven Florida roads when making sharp turns at high speeds. Hillsides or other uncompromised areas of ground can dramatically increase the potential for dangerous rollover vehicle accidents. Excessive weight distribution on the center of gravity can cause sudden side-overs during fast/aggressive handling, resulting in the crushing of occupants. These overturns often result in victims being subjected to crushing chest trauma, severe spinal damage and complex bone fractures.",
-      location: "Turns, Slopes & Uneven Ground",
+      image: getSeoImage("golf-cart-rollover-turns-slopes-uneven-ground-tampa.webp", "golf-cart-accident-lawyer-tampa").filePath,
+      imageObj: getSeoImage("golf-cart-rollover-turns-slopes-uneven-ground-tampa.webp", "golf-cart-accident-lawyer-tampa"),
+      description: "The narrow golf carts can tip over on uneven Florida roads when making sharp turns at high speeds. Hillsides or other uncompromised areas of ground can dramatically increase the potential for dangerous rollover vehicle accidents. Excessive weight distribution on the center of gravity can cause sudden side-overs during fast or aggressive handling, resulting in the crushing of occupants. These overturns often result in victims being subjected to crushing chest trauma, severe spinal damage and complex bone fractures.",
     },
     {
       number: "02",
       title: "Passenger Injuries During Sudden Stops",
-      image: getSeoImage("speeding-residential-neighborhoods-tampa.webp", "golf-cart-accident-lawyer-tampa").filePath,
+      image: getSeoImage("golf-cart-passenger-injuries-sudden-stops-tampa-fl.webp", "golf-cart-accident-lawyer-tampa").filePath,
+      imageObj: getSeoImage("golf-cart-passenger-injuries-sudden-stops-tampa-fl.webp", "golf-cart-accident-lawyer-tampa"),
       description: "Unrestrained passengers are sometimes thrown forward against hard surfaces inside the vehicle or onto the paved roadway, when the brakes are applied suddenly. Falls often result in serious injuries as well as dangerous ejection of passengers from carts, often due to violent impact with stationary objects. Many golf carts do not have additional safety features such as doors, side airbags or a lap belt. People landing on pavement frequently sustain both traumatic brain injury and facial lacerations along with severe road rash.",
-      location: "Paved Roadways & Pathways",
     },
     {
       number: "03",
       title: "Inexperienced Drivers and Unsafe Operation",
-      image: getSeoImage("drivers-failing-yield-crosswalks-tampa.webp", "golf-cart-accident-lawyer-tampa").filePath,
-      description: "The lack of the proper driving skills in the handling of a vehicle usually makes unqualified drivers incapable of dealing with congested pedestrian/vehicle areas. Routine crashes involving significant personal injury are caused by careless driving, horseplay and improper vehicle operation. Younger operators frequently misjudge safe stopping distances when carrying heavy passenger loads down steep paved slopes. Distracted operation and sharp erratic wheel movements dramatically elevate the danger of losing control completely.",
-      location: "Congested Pedestrian & Vehicle Areas",
+      image: getSeoImage("inexperienced-golf-cart-drivers-unsafe-operation-fl.webp", "golf-cart-accident-lawyer-tampa").filePath,
+      imageObj: getSeoImage("inexperienced-golf-cart-drivers-unsafe-operation-fl.webp", "golf-cart-accident-lawyer-tampa"),
+      description: (
+        <>
+          The lack of the proper driving skills in the handling of a vehicle usually makes unqualified drivers incapable of{" "}
+          <Link href="/pedestrian-accident-lawyer-in-tampa" className="text-primary hover:underline font-semibold">
+            dealing with congested pedestrian or vehicle areas
+          </Link>
+          . Routine crashes involving significant personal injury are caused by careless driving, horseplay and improper vehicle operation. Younger operators frequently misjudge safe stopping distances when carrying heavy passenger loads down steep paved slopes. Distracted operation and sharp erratic wheel movements dramatically elevate the danger of losing control completely.
+        </>
+      ),
     },
     {
       number: "04",
       title: "Crashes at Road Crossings and Community Entrances",
-      image: getSeoImage("traffic-congestion.png", "golf-cart-accident-lawyer-tampa").filePath,
-      description: (
-        <>
-          Golf carts face extreme dangers when entering busy public roadways or crossing multi lane suburban intersection corridors. Larger passenger automobiles frequently fail to yield right of way to slow carts entering public traffic lanes. Heavy sun glare and obstructed lines of sight at community gates severely increase intersection collision risks. Drivers of heavy passenger cars frequently misjudge the slow speed of crossing golf carts at intersections. Motorcyclists face similar roadway risks and our{" "}
-          <Link href="/tampa-motorcycle-accidents-lawyer" className="text-primary hover:underline font-semibold">
-            Tampa motorcycle accidents lawyer
-          </Link>{" "}
-          helps injured riders pursue compensation for their losses.
-        </>
-      ),
-      location: "Road Crossings & Community Gates",
+      image: getSeoImage("golf-cart-crashes-road-crossings-community-gates-fl.webp", "golf-cart-accident-lawyer-tampa").filePath,
+      imageObj: getSeoImage("golf-cart-crashes-road-crossings-community-gates-fl.webp", "golf-cart-accident-lawyer-tampa"),
+      description: "Golf carts face extreme dangers when entering busy public roadways or crossing multi lane suburban intersection corridors. Larger passenger automobiles frequently fail to yield right of way to slow carts entering public traffic lanes. Heavy sun glare and obstructed lines of sight at community gates severely increase intersection collision risks. Drivers of heavy passenger cars frequently misjudge the slow speed of crossing golf carts at intersections.",
     },
     {
       number: "05",
       title: "Mechanical Defects and Poor Maintenance",
-      image: getSeoImage("distracted-driving-busy-urban-areas-tampa.webp", "golf-cart-accident-lawyer-tampa").filePath,
+      image: getSeoImage("golf-cart-mechanical-defects-poor-maintenance-tampa.webp", "golf-cart-accident-lawyer-tampa").filePath,
+      imageObj: getSeoImage("golf-cart-mechanical-defects-poor-maintenance-tampa.webp", "golf-cart-accident-lawyer-tampa"),
       description: "Worn brake pads and failing steering components make golf carts completely uncontrollable during sudden traffic emergency situations. Neglected battery systems, bald tires and broken throttle linkages frequently lead to sudden loss of control. Commercial operators who defer routine mechanical maintenance create direct safety hazards for all golf cart drivers. Sudden brake failure on downhill paths often leads directly to catastrophic crashes with immovable physical obstacles.",
-      location: "Downhill Paths & Roadways",
     },
     {
       number: "06",
       title: "Nighttime Crashes Caused by Limited Visibility",
-      image: getSeoImage("poor-visibility-nighttime-severe-weather-tampa.webp", "golf-cart-accident-lawyer-tampa").filePath,
+      image: getSeoImage("nighttime-golf-cart-crashes-limited-visibility-tampa.webp", "golf-cart-accident-lawyer-tampa").filePath,
+      imageObj: getSeoImage("nighttime-golf-cart-crashes-limited-visibility-tampa.webp", "golf-cart-accident-lawyer-tampa"),
       description: "Inadequate headlights and missing reflective markers make golf carts nearly invisible during dark early morning or evening hours. Drivers of surrounding motor vehicles rarely spot unlit golf carts until a dangerous impact becomes totally unavoidable. Low mounted factory lights fail to illuminate road hazards adequately during nighttime operation on dark residential streets. Poor lighting conditions prevent other motorists from estimating the distance to an oncoming slow vehicle correctly.",
-      location: "Residential Streets & Night Roads",
     },
   ];
 
@@ -110,15 +110,13 @@ const CommonCausesSection = () => {
                 <div className="relative w-full h-[220px] overflow-hidden bg-slate-900">
                   <Image
                     src={item.image}
-                    alt={item.title}
+                    alt={item.imageObj?.altText || item.title}
+                    title={item.imageObj?.title || item.title}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent" />
-                  <span className="absolute top-4 left-4 bg-primary text-white text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
-                    Cause {item.number}
-                  </span>
+                  <div className="absolute inset-0 bg-gradient-to-t from-secondary/50 via-transparent to-transparent" />
                 </div>
 
                 <div className="p-6">
@@ -129,13 +127,6 @@ const CommonCausesSection = () => {
                     {item.description}
                   </div>
                 </div>
-              </div>
-
-              <div className="px-6 pb-6 pt-2 border-t border-gray-50 flex items-center justify-between text-xs text-gray-400 font-bold uppercase tracking-wider">
-                <span>{item.location}</span>
-                <span className="text-primary font-extrabold group-hover:translate-x-1 transition-transform">
-                  &rarr;
-                </span>
               </div>
             </motion.div>
           ))}

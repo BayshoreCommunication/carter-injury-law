@@ -9,7 +9,7 @@ const InvestigationProcessSection = () => {
     {
       icon: UserX,
       title: "Drivers Whose Negligence Causes a Collision",
-      description: "Reckless driving habits, distracted driving  and improper turns establish clear operator liability under Florida personal injury laws. Drivers who fail to yield right of way must pay for injuries caused by their careless driving. High speeds through crowded pedestrian areas demonstrate clear driver negligence during a personal injury legal investigation. Impaired drivers face substantial financial liability for operating golf carts while under the influence of alcohol.",
+      description: "Reckless driving habits, distracted driving and improper turns establish clear operator liability under Florida personal injury laws. Drivers who fail to yield right of way must pay for injuries caused by their careless driving. High speeds through crowded pedestrian areas demonstrate clear driver negligence during a personal injury legal investigation. Impaired drivers face substantial financial liability for operating golf carts while under the influence of alcohol.",
     },
     {
       icon: Car,
@@ -21,11 +21,11 @@ const InvestigationProcessSection = () => {
       title: "Property Owners Who Allow Hazardous Conditions",
       description: (
         <>
-          Property owners face legal claims when failing to repair dangerous pathway cracks, unaligned curbs, or hidden potholes. Inadequate warning signs near steep dropoffs or hazardous intersection points create clear premises liability for property managers. Neglected lines of sight at path intersections create hazardous conditions for all drivers on the property. Property owners must routinely inspect cart paths to eliminate dangerous surface defects that cause serious accidents. Families affected by fatal accidents involving hazardous property conditions in Largo can also turn to a{" "}
+          Property owners face legal claims when failing to repair dangerous pathway cracks, unaligned curbs, or hidden potholes. Inadequate warning signs near steep dropoffs or hazardous intersection points create clear{" "}
           <Link href="/premises-liability-wrongful-death-lawyer-largo" className="text-primary hover:underline font-semibold">
-            premises liability wrongful death lawyer Largo
+            premises liability
           </Link>{" "}
-          for legal help.
+          for property managers. Neglected lines of sight at path intersections create hazardous conditions for all drivers on the property. Property owners must routinely inspect cart paths to eliminate dangerous surface defects that cause serious accidents.
         </>
       ),
     },
@@ -51,9 +51,6 @@ const InvestigationProcessSection = () => {
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8">
         
         <div className="text-center max-w-3xl mx-auto mb-14">
-          <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-2">
-            Potentially Liable Parties
-          </span>
           <h2 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold text-secondary tracking-tight leading-tight">
             Who Can Be Held Liable for a Tampa Golf Cart Accident
           </h2>
