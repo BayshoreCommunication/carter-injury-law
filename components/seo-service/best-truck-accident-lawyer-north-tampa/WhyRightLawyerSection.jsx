@@ -57,16 +57,6 @@ const WhyRightLawyerSection = () => {
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 40vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 via-secondary/30 to-transparent" />
-              </div>
-
-              <div className="absolute bottom-0 inset-x-0 p-6 sm:p-8 text-white z-10">
-                <p className="text-xs font-bold uppercase tracking-widest text-primary mb-2">
-                  Protection For Truck Accident Victims
-                </p>
-                <p className="text-base sm:text-lg font-bold leading-snug">
-                  Unrepresented crash victims face significant disadvantages when going up against national trucking lines and corporate insurance companies.
-                </p>
               </div>
             </motion.div>
           </div>
@@ -78,9 +68,6 @@ const WhyRightLawyerSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-2">
-                Protection For Injury Victims
-              </span>
               <h2 className="text-3xl sm:text-4xl lg:text-[40px] font-extrabold text-secondary tracking-tight leading-tight">
                 Why Truck Accident Victims Can Lose Valuable Compensation Without Legal Representation
               </h2>

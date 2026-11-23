@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Send, ShieldCheck } from "lucide-react";
+import { Send } from "lucide-react";
 
 const FreeEvaluationCard = ({
   title = "Schedule Your Free, Confidential North Tampa Truck Accident Case Evaluation Today",
@@ -27,11 +27,6 @@ const FreeEvaluationCard = ({
     <div className="w-full bg-white rounded-[24px] shadow-[0_20px_60px_rgba(0,0,0,0.08)] border border-gray-100 overflow-hidden relative p-6 sm:p-8 lg:p-10">
       <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
         <div className="w-full lg:w-1/2 space-y-4 text-left">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-red-50 text-primary font-bold text-xs uppercase tracking-wider">
-            <ShieldCheck className="w-4 h-4" />
-            <span>Free &amp; Confidential Legal Consultation</span>
-          </div>
-
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-secondary tracking-tight leading-tight">
             {title}
           </h2>
@@ -39,21 +34,6 @@ const FreeEvaluationCard = ({
           <p className="text-gray-600 text-sm sm:text-base leading-relaxed font-medium">
             {subtitle}
           </p>
-
-          <div className="pt-2 flex flex-wrap items-center gap-6 text-xs sm:text-sm font-bold text-gray-500">
-            <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-emerald-500" />
-              <span>No Obligation</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-emerald-500" />
-              <span>100% Confidential</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-emerald-500" />
-              <span>Available 24/7</span>
-            </div>
-          </div>
         </div>
 
         <div className="w-full lg:w-1/2 bg-gray-50/80 p-6 sm:p-8 rounded-2xl border border-gray-100">

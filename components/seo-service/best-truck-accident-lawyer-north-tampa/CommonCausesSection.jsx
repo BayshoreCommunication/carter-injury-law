@@ -114,10 +114,7 @@ const CommonCausesSection = () => {
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent" />
-                  <span className="absolute top-4 left-4 bg-primary text-white text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
-                    Cause {item.number}
-                  </span>
+                  <div className="absolute inset-0 bg-gradient-to-t from-secondary/50 via-transparent to-transparent" />
                 </div>
 
                 <div className="p-6">
@@ -128,13 +125,6 @@ const CommonCausesSection = () => {
                     {item.description}
                   </div>
                 </div>
-              </div>
-
-              <div className="px-6 pb-6 pt-2 border-t border-gray-50 flex items-center justify-between text-xs text-gray-400 font-bold uppercase tracking-wider">
-                <span>{item.location}</span>
-                <span className="text-primary font-extrabold group-hover:translate-x-1 transition-transform">
-                  &rarr;
-                </span>
               </div>
             </motion.div>
           ))}

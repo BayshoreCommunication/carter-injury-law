@@ -3,7 +3,7 @@ import { getSeoImage } from "@/lib/seo-service-images";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Phone, MapPin, Globe, Clock, ArrowRight, ShieldCheck } from "lucide-react";
+import { Phone, MapPin, Globe, Clock, ShieldCheck } from "lucide-react";
 
 const FinalCTASection = () => {
   return (
@@ -14,9 +14,6 @@ const FinalCTASection = () => {
           
           <div className="col-span-12 lg:col-span-7 space-y-8 text-left">
             <div>
-              <span className="text-xs font-extrabold tracking-widest text-primary uppercase block mb-3">
-                Contact Carter Injury Law Today
-              </span>
               <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-white tracking-tight leading-tight">
                 Secure Committed Legal Advocacy, Contact Carter Injury Law for a Confidential Consultation
               </h2>
@@ -26,18 +23,21 @@ const FinalCTASection = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 border-t border-white/10">
-              <div className="flex items-start gap-3.5">
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 border-t border-white/10">
+              <li className="flex items-start gap-3.5">
                 <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0 text-primary">
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
                   <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Phone</p>
-                  <p className="text-sm font-semibold text-white mt-0.5">(813) 922-0228 or (727) 955-1922</p>
+                  <p className="text-sm font-semibold text-white mt-0.5">
+                    <a href="tel:8139220228" className="hover:text-primary transition-colors">(813) 922-0228</a> or{" "}
+                    <a href="tel:7279551922" className="hover:text-primary transition-colors">(727) 955-1922</a>
+                  </p>
                 </div>
-              </div>
+              </li>
 
-              <div className="flex items-start gap-3.5">
+              <li className="flex items-start gap-3.5">
                 <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0 text-primary">
                   <MapPin className="w-5 h-5" />
                 </div>
@@ -45,9 +45,9 @@ const FinalCTASection = () => {
                   <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Office Address</p>
                   <p className="text-sm font-semibold text-white mt-0.5">3114 N. Boulevard, Tampa, FL 33603</p>
                 </div>
-              </div>
+              </li>
 
-              <div className="flex items-start gap-3.5">
+              <li className="flex items-start gap-3.5">
                 <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0 text-primary">
                   <ShieldCheck className="w-5 h-5" />
                 </div>
@@ -55,9 +55,9 @@ const FinalCTASection = () => {
                   <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Consultation Information</p>
                   <p className="text-sm font-semibold text-white mt-0.5">Free, confidential case evaluation</p>
                 </div>
-              </div>
+              </li>
 
-              <div className="flex items-start gap-3.5">
+              <li className="flex items-start gap-3.5">
                 <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0 text-primary">
                   <Globe className="w-5 h-5" />
                 </div>
@@ -67,9 +67,9 @@ const FinalCTASection = () => {
                     www.carterinjurylaw.com
                   </Link>
                 </div>
-              </div>
+              </li>
 
-              <div className="flex items-start gap-3.5 sm:col-span-2">
+              <li className="flex items-start gap-3.5 sm:col-span-2">
                 <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center shrink-0 text-primary">
                   <Clock className="w-5 h-5" />
                 </div>
@@ -77,25 +77,8 @@ const FinalCTASection = () => {
                   <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">Office Hours</p>
                   <p className="text-sm font-semibold text-white mt-0.5">Available 24/7 for client calls and immediate intake</p>
                 </div>
-              </div>
-            </div>
-
-            <div className="pt-4 flex flex-wrap gap-4">
-              <a
-                href="tel:8139220228"
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-primary hover:bg-red-700 text-white font-extrabold text-base uppercase tracking-wider shadow-xl transition-all duration-300 group"
-              >
-                <span>Call (813) 922-0228 Now</span>
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </a>
-              <a
-                href="tel:7279551922"
-                className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-white/10 hover:bg-white/20 text-white font-extrabold text-base uppercase tracking-wider border border-white/20 transition-all duration-300 group"
-              >
-                <span>Call (727) 955-1922</span>
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </a>
-            </div>
+              </li>
+            </ul>
           </div>
 
           <div className="col-span-12 lg:col-span-5 relative">
@@ -108,15 +91,6 @@ const FinalCTASection = () => {
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 40vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-secondary via-transparent to-transparent" />
-              <div className="absolute bottom-6 inset-x-6 text-center">
-                <p className="text-sm font-bold text-white uppercase tracking-wider">
-                  Carter Injury Law Legal Team
-                </p>
-                <p className="text-xs text-gray-300 mt-1">
-                  Available 24/7 for client calls and immediate intake
-                </p>
-              </div>
             </div>
           </div>
 

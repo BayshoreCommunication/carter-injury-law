@@ -1,27 +1,6 @@
 "use client";
 import React from "react";
-import { MapPin, ArrowRight, Scale } from "lucide-react";
-
-const northTampaAreas = [
-  "North Tampa",
-  "University",
-  "Forest Hills",
-  "Sulphur Springs",
-  "Temple Terrace",
-  "Carrollwood",
-  "New Tampa",
-  "Tampa Palms",
-  "Wesley Chapel",
-];
-
-const hillsboroughCommunities = [
-  "Lutz",
-  "Brandon",
-  "Riverview",
-  "Town 'N' Country",
-  "Seffner",
-  "Plant City",
-];
+import { MapPin } from "lucide-react";
 
 const offices = [
   {
@@ -30,7 +9,6 @@ const offices = [
     address: "3114 N. Boulevard",
     cityState: "Tampa, FL 33603",
     badge: null,
-    embedSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4335.809177193109!2d-82.47045932387964!3d27.972312213754044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2c3b1208be12d%3A0x4cce7467aad41864!2sCarter%20Injury%20Law!5e1!3m2!1sen!2sbd!4v1784709237604!5m2!1sen!2sbd",
   },
   {
     label: "Satellite Office",
@@ -38,83 +16,28 @@ const offices = [
     address: "801 W. Bay Dr., Suite 229",
     cityState: "Largo, FL 33770",
     badge: "By Appointment Only",
-    embedSrc: null,
   },
 ];
 
 const AreasWeServeSection = () => {
-  const scrollToForm = () => {
-    const el = document.getElementById("case-evaluation");
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <section className="w-full bg-[#faf9f6] py-12 md:py-16">
       <div className="max-w-[1320px] mx-auto w-full px-4 sm:px-6 md:px-8">
 
         {/* ── Section Header ── */}
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <div className="flex items-center justify-center gap-3 mb-5">
-            <div className="flex-1 max-w-[80px] h-px bg-primary/40" />
-            <span className="text-[11px] font-extrabold tracking-[0.25em] text-primary uppercase whitespace-nowrap">
-              Areas We Serve
-            </span>
-            <div className="flex-1 max-w-[80px] h-px bg-primary/40" />
-          </div>
-
           <h2 className="text-3xl md:text-5xl font-extrabold text-secondary leading-[1.15] tracking-tight mb-5">
             North Tampa Truck Accident Lawyer,{" "}
             <span className="block text-primary">Areas We Serve</span>
           </h2>
         </div>
 
-        {/* ── Communities Grid ── */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-          <div className="bg-white rounded-[20px] border border-gray-100 shadow-sm p-6 sm:p-8">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-secondary mb-5">
-              North Tampa Areas We Serve
-            </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {northTampaAreas.map((area) => (
-                <div
-                  key={area}
-                  className="flex items-center gap-2.5 bg-[#faf9f6] border border-gray-100 rounded-xl px-4 py-3 text-sm font-bold text-secondary"
-                >
-                  <MapPin className="w-4 h-4 text-primary shrink-0" />
-                  <span>{area}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="bg-white rounded-[20px] border border-gray-100 shadow-sm p-6 sm:p-8">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-secondary mb-5">
-              Surrounding Hillsborough County Communities
-            </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {hillsboroughCommunities.map((community) => (
-                <div
-                  key={community}
-                  className="flex items-center gap-2.5 bg-[#faf9f6] border border-gray-100 rounded-xl px-4 py-3 text-sm font-bold text-secondary"
-                >
-                  <MapPin className="w-4 h-4 text-primary shrink-0" />
-                  <span>{community}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        {/* ── Content Grid ── */}
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_400px] gap-6 mb-12">
-
-          {/* ── Left: Google Map Embed ── */}
+        {/* ── Left: Map | Right: Office Locations ── */}
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_400px] gap-6">
           <div className="rounded-[20px] overflow-hidden border border-gray-100 shadow-sm w-full h-[380px] sm:h-[460px] lg:h-auto lg:min-h-[520px]">
             <iframe
               title="Carter Injury Law — Tampa Office Location"
-              src={offices[0].embedSrc}
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4335.809177193109!2d-82.47045932387964!3d27.972312213754044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2c3b1208be12d%3A0x4cce7467aad41864!2sCarter%20Injury%20Law!5e1!3m2!1sen!2sbd!4v1784709237604!5m2!1sen!2sbd"
               width="100%"
               height="100%"
               style={{ border: 0, display: "block", minHeight: "380px" }}
@@ -124,7 +47,6 @@ const AreasWeServeSection = () => {
             />
           </div>
 
-          {/* ── Right: Office Location Cards ── */}
           <div className="flex flex-col gap-5 justify-between">
             {offices.map((office, i) => (
               <div
@@ -160,27 +82,6 @@ const AreasWeServeSection = () => {
               </div>
             ))}
           </div>
-        </div>
-
-        {/* ── Bottom CTA Bar ── */}
-        <div className="bg-secondary rounded-[20px] p-7 md:p-9 flex flex-col md:flex-row items-center justify-between gap-6 shadow-lg">
-          <div className="flex items-center gap-5">
-            <div className="w-14 h-14 rounded-full border-2 border-white/20 bg-white/10 flex items-center justify-center shrink-0">
-              <Scale className="w-7 h-7 text-white" strokeWidth={1.5} />
-            </div>
-            <p className="text-white font-bold text-sm md:text-base leading-snug max-w-lg">
-              Free, confidential case evaluation
-            </p>
-          </div>
-
-          <button
-            type="button"
-            onClick={scrollToForm}
-            className="flex items-center gap-3 bg-transparent border-2 border-primary text-white font-extrabold text-sm px-7 py-4 rounded-xl hover:bg-primary transition-all duration-200 active:scale-95 uppercase tracking-wider shrink-0 whitespace-nowrap"
-          >
-            Start Your Free Consultation
-            <ArrowRight className="w-4 h-4 text-white" strokeWidth={2.5} />
-          </button>
         </div>
 
       </div>
