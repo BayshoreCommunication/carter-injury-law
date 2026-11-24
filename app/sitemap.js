@@ -2,6 +2,31 @@ import GetAllPostData from "@/lib/GetAllPostData";
 import { staticBlogPosts } from "@/components/static-blogs";
 import { allServiceData } from "@/config/serviceData";
 
+// The deploy (build) date is written to <distDir>/deploy-date.json by
+// scripts/write-deploy-date.js during "next build". We use it as the single
+// lastmod value for every URL because file mtimes are unreliable on copy-based
+// (FTP / cPanel) deployments. Evaluated once at module load.
+function getDeployDate() {
+  try {
+    const distDir = process.env.NEXT_DIST_DIR || ".next";
+    // eslint-disable-next-line no-undef
+    const raw = require("node:fs").readFileSync(
+      `${distDir}/deploy-date.json`,
+      "utf8"
+    );
+    const parsed = JSON.parse(raw);
+    const date = new Date(parsed.deployedAt);
+    if (!Number.isNaN(date.getTime())) {
+      return date;
+    }
+  } catch (error) {
+    // Fall through: dev server or a build without deploy-date.json.
+  }
+  return new Date();
+}
+
+const DEPLOY_DATE = getDeployDate();
+
 export default async function sitemap() {
   const baseUrl = "https://www.carterinjurylaw.com";
 
@@ -48,7 +73,7 @@ export default async function sitemap() {
 
   const staticEntries = staticPages.map((route) => ({
     url: `${baseUrl}${route}`,
-    lastModified: new Date(),
+    lastModified: DEPLOY_DATE,
     changeFrequency: "weekly",
     priority: route === "" ? 1.0 : 0.8,
   }));
@@ -56,7 +81,7 @@ export default async function sitemap() {
   // 2. Practice Area Pages (Dynamic from config)
   const practiceAreaEntries = (allServiceData || []).map((service) => ({
     url: `${baseUrl}/areas-of-practice/${service.slug}`,
-    lastModified: new Date(),
+    lastModified: DEPLOY_DATE,
     changeFrequency: "weekly",
     priority: 0.7,
   }));
@@ -64,7 +89,7 @@ export default async function sitemap() {
   // 3. Static Blog Posts
   const staticBlogEntries = (staticBlogPosts || []).map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: new Date(post.updatedAt || post.createdAt || new Date()),
+    lastModified: DEPLOY_DATE,
     changeFrequency: "weekly",
     priority: 0.6,
   }));
@@ -77,7 +102,7 @@ export default async function sitemap() {
       .filter((post) => post?.published === true && !!post?.slug)
       .map((post) => ({
         url: `${baseUrl}/blog/${post.slug}`,
-        lastModified: new Date(post.updatedAt || post.createdAt || new Date()),
+        lastModified: DEPLOY_DATE,
         changeFrequency: "weekly",
         priority: 0.6,
       }));

@@ -54,7 +54,7 @@ const FAQSection = () => {
                   onClick={() => toggleFAQ(idx)}
                   className="w-full p-6 text-left flex items-center justify-between gap-4 font-extrabold text-secondary text-base sm:text-lg hover:text-primary transition-colors focus:outline-none"
                 >
-                  <span>{item.question}</span>
+                  <h3>{item.question}</h3>
                   <div className={`w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center shrink-0 transition-transform duration-300 ${isOpen ? "rotate-180 bg-red-50 text-primary" : "text-gray-400"}`}>
                     <ChevronDown className="w-5 h-5" />
                   </div>
