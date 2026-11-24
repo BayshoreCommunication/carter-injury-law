@@ -16,6 +16,7 @@ import TestimonialsSection from "@/components/seo-service/uber-accident-lawyer-l
 import StatuteOfLimitationsSection from "@/components/seo-service/uber-accident-lawyer-largo/StatuteOfLimitationsSection";
 import FinalCTASection from "@/components/seo-service/uber-accident-lawyer-largo/FinalCTASection";
 import FAQSection from "@/components/seo-service/uber-accident-lawyer-largo/FAQSection";
+import CallToAction from "@/components/shared/CallToAction";
 
 const canonicalUrl =
   "https://www.carterinjurylaw.com/uber-accident-lawyer-largo";
@@ -204,18 +205,23 @@ export default function UberAccidentLawyerLargoPage() {
       <HeroHeader />
       <CommonCausesSection />
       <WhyRightLawyerSection />
+      <CallToAction />
       <InvestigationProcessSection />
       <FiveStepProcessSection />
       <MistakesSection />
+      <CallToAction />
       <DedicatedCounselSection />
       <EstablishedLegalProcessSection />
       <JusticeSecuredSection />
+      <CallToAction />
       <WhyChooseUsSection />
       <CompensationTypesSection />
       <ExpertValuationSection />
+      <CallToAction />
       <AreasWeServeSection />
       <TestimonialsSection />
       <StatuteOfLimitationsSection />
+      <CallToAction />
       <FinalCTASection />
       <FAQSection />
     </main>

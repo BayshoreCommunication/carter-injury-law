@@ -80,6 +80,10 @@ const HeroHeader = ({
         .custom-card-margin {
           margin-top: -64px !important;
         }
+        .custom-bar-margin {
+          margin-top: -80px !important;
+          padding-top: 96px !important;
+        }
         @media (max-width: 1023px) {
           .hero-section-bg {
             background-image: none !important;
@@ -87,6 +91,10 @@ const HeroHeader = ({
           }
           .custom-card-margin {
             margin-top: 24px !important;
+          }
+          .custom-bar-margin {
+            margin-top: 0 !important;
+            padding-top: 48px !important;
           }
           .lawyer-image-container {
             transform: scale(1.05) translateY(0) translateX(0) !important;
@@ -96,14 +104,20 @@ const HeroHeader = ({
           .custom-card-margin {
             margin-top: 16px !important;
           }
+          .custom-bar-margin {
+            margin-top: 0 !important;
+            padding-top: 36px !important;
+          }
         }
       `}</style>
 
-      <div className="relative w-full z-30 custom-card-margin pb-10 px-4 sm:px-6 md:px-8">
+      <div className="relative w-full z-30 custom-card-margin px-4 sm:px-6 md:px-8">
         <div className="max-w-[1520px] mx-auto w-full">
           <FreeEvaluationCard />
         </div>
       </div>
+
+      <div className="w-full bg-secondary pb-12 px-4 sm:px-6 md:px-8 custom-bar-margin z-20 relative" />
     </section>
   );
 };

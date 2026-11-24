@@ -16,6 +16,7 @@ import TestimonialsSection from "@/components/seo-service/tampa-uber-lyft-accide
 import StatuteOfLimitationsSection from "@/components/seo-service/tampa-uber-lyft-accident-lawyer/StatuteOfLimitationsSection";
 import FinalCTASection from "@/components/seo-service/tampa-uber-lyft-accident-lawyer/FinalCTASection";
 import FAQSection from "@/components/seo-service/tampa-uber-lyft-accident-lawyer/FAQSection";
+import CallToAction from "@/components/shared/CallToAction";
 
 const canonicalUrl =
   "https://www.carterinjurylaw.com/tampa-uber-lyft-accident-lawyer";
@@ -195,18 +196,23 @@ export default function TampaUberLyftAccidentLawyerPage() {
       <HeroHeader />
       <CommonCausesSection />
       <WhyRightLawyerSection />
+      <CallToAction />
       <InvestigationProcessSection />
       <FiveStepProcessSection />
       <MistakesSection />
+      <CallToAction />
       <DedicatedCounselSection />
       <EstablishedLegalProcessSection />
       <JusticeSecuredSection />
+      <CallToAction />
       <WhyChooseUsSection />
       <CompensationTypesSection />
       <ExpertValuationSection />
+      <CallToAction />
       <AreasWeServeSection />
       <TestimonialsSection />
       <StatuteOfLimitationsSection />
+      <CallToAction />
       <FinalCTASection />
       <FAQSection />
     </main>

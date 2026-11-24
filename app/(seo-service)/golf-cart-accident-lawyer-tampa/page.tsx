@@ -16,6 +16,7 @@ import TestimonialsSection from "@/components/seo-service/golf-cart-accident-law
 import StatuteOfLimitationsSection from "@/components/seo-service/golf-cart-accident-lawyer-tampa/StatuteOfLimitationsSection";
 import FinalCTASection from "@/components/seo-service/golf-cart-accident-lawyer-tampa/FinalCTASection";
 import FAQSection from "@/components/seo-service/golf-cart-accident-lawyer-tampa/FAQSection";
+import CallToAction from "@/components/shared/CallToAction";
 
 const canonicalUrl =
   "https://www.carterinjurylaw.com/golf-cart-accident-lawyer-tampa";
@@ -194,18 +195,23 @@ export default function GolfCartAccidentLawyerTampaPage() {
       <HeroHeader />
       <CommonCausesSection />
       <WhyRightLawyerSection />
+      <CallToAction />
       <InvestigationProcessSection />
       <FiveStepProcessSection />
       <MistakesSection />
+      <CallToAction />
       <DedicatedCounselSection />
       <EstablishedLegalProcessSection />
       <JusticeSecuredSection />
+      <CallToAction />
       <WhyChooseUsSection />
       <CompensationTypesSection />
       <ExpertValuationSection />
+      <CallToAction />
       <AreasWeServeSection />
       <TestimonialsSection />
       <StatuteOfLimitationsSection />
+      <CallToAction />
       <FinalCTASection />
       <FAQSection />
     </main>

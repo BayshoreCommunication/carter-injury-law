@@ -88,7 +88,7 @@ const FinalCTASection = () => {
                 alt={getSeoImage("carter-injury-law-legal-team-north-tampa-truck-law.webp", "best-truck-accident-lawyer-north-tampa").altText}
                 title={getSeoImage("carter-injury-law-legal-team-north-tampa-truck-law.webp", "best-truck-accident-lawyer-north-tampa").title}
                 fill
-                className="object-cover"
+                className="object-cover object-top"
                 sizes="(max-width: 1024px) 100vw, 40vw"
               />
             </div>

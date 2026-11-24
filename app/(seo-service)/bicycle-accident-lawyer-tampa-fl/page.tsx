@@ -16,6 +16,7 @@ import TestimonialsSection from "@/components/seo-service/bicycle-accident-lawye
 import StatuteOfLimitationsSection from "@/components/seo-service/bicycle-accident-lawyer-tampa-fl/StatuteOfLimitationsSection";
 import FinalCTASection from "@/components/seo-service/bicycle-accident-lawyer-tampa-fl/FinalCTASection";
 import FAQSection from "@/components/seo-service/bicycle-accident-lawyer-tampa-fl/FAQSection";
+import CallToAction from "@/components/shared/CallToAction";
 
 const canonicalUrl =
   "https://www.carterinjurylaw.com/bicycle-accident-lawyer-tampa-fl";
@@ -212,18 +213,23 @@ export default function BicycleAccidentLawyerTampaFlPage() {
       <HeroHeader />
       <CommonCausesSection />
       <WhyRightLawyerSection />
+      <CallToAction />
       <InvestigationProcessSection />
       <FiveStepProcessSection />
       <MistakesSection />
+      <CallToAction />
       <DedicatedCounselSection />
       <EstablishedLegalProcessSection />
       <JusticeSecuredSection />
+      <CallToAction />
       <WhyChooseUsSection />
       <CompensationTypesSection />
       <ExpertValuationSection />
+      <CallToAction />
       <AreasWeServeSection />
       <TestimonialsSection />
       <StatuteOfLimitationsSection />
+      <CallToAction />
       <FinalCTASection />
       <FAQSection />
     </main>
